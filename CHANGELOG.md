@@ -190,6 +190,12 @@
 
 ### 🛠️ Bug Fixes
 
+- [`bb0cbec`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/bb0cbec23bba5c5010f2fe8440f742f9a145f198 "Diff: 2 files, +39 | -0") — 🛠️ [fix] Preserve hash-locked artwork bytes <sub><em>(2 files, +39, -0)</em></sub>
+
+🧊 Disable Git line-ending conversion for all color scripts and generated provenance evidence.
+
+🧪 Verify effective text attributes for representative scripts and hash-locked metadata files.
+
 - [`4abd270`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/4abd2705e5cc185ceb20ec2dad8693bb038944d5 "Diff: 2 files, +37 | -0") — 🛠️ [fix] Align release commits with changelog validation <sub><em>(2 files, +37, -0)</em></sub>
 
 🛠️ [fix] Discover exact emoji-formatted release-preparation commits in the current release range and pass their validated SHA-1 values to git-cliff, keeping generated changelog content stable after the final metadata commit.

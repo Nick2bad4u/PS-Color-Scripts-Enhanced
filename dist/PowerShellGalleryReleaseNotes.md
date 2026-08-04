@@ -1,6 +1,6 @@
 ## ✨ What's Changed
 
-- <b>Commit Range: ➡️</b> [`v2026.7...843ac10`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/compare/v2026.7.20.2250...843ac108904b8ba87f1fa3dfb8a4ec8663fa2e73 "View full commit range on GitHub")
+- <b>Commit Range: ➡️</b> [`v2026.7...bb0cbec`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/compare/v2026.7.20.2250...bb0cbec23bba5c5010f2fe8440f742f9a145f198 "View full commit range on GitHub")
 
 ### ✨ Features
 
@@ -185,6 +185,12 @@
 🧪 Expand converter, provenance, localization, cache, and rendering coverage while synchronizing the current documentation set.
 
 ### 🛠️ Bug Fixes
+
+- [`bb0cbec`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/bb0cbec23bba5c5010f2fe8440f742f9a145f198 "Diff: 2 files, +39 | -0") — 🛠️ [fix] Preserve hash-locked artwork bytes <sub><em>(2 files, +39, -0)</em></sub>
+
+🧊 Disable Git line-ending conversion for all color scripts and generated provenance evidence.
+
+🧪 Verify effective text attributes for representative scripts and hash-locked metadata files.
 
 - [`4abd270`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/4abd2705e5cc185ceb20ec2dad8693bb038944d5 "Diff: 2 files, +37 | -0") — 🛠️ [fix] Align release commits with changelog validation <sub><em>(2 files, +37, -0)</em></sub>
 
