@@ -1,6 +1,6 @@
 ## ✨ What's Changed
 
-- <b>Commit Range: ➡️</b> [`v2026.7...c7fba22`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/compare/v2026.7.20.2250...c7fba2258f2cba91c866ba48fc63cea7b9bf16a3 "View full commit range on GitHub")
+- <b>Commit Range: ➡️</b> [`v2026.7...ba4713d`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/compare/v2026.7.20.2250...ba4713d0ef00680e710d609d74a2b31acf85c587 "View full commit range on GitHub")
 
 ### ✨ Features
 
@@ -185,6 +185,12 @@
 🧪 Expand converter, provenance, localization, cache, and rendering coverage while synchronizing the current documentation set.
 
 ### 🛠️ Bug Fixes
+
+- [`ba4713d`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/ba4713d0ef00680e710d609d74a2b31acf85c587 "Diff: 1 file, +6 | -1") — 🛠️ [fix] Accept platform-native JSON integers <sub><em>(1 file, +6, -1)</em></sub>
+
+🔢 Validate SAUCE flags as bounded integral CLR values instead of requiring a parser-specific Int32 representation.
+
+🧪 Prove the complete 21,669-entry provenance assertion under PowerShell 7 and Windows PowerShell 5.1.
 
 - [`c7fba22`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/c7fba2258f2cba91c866ba48fc63cea7b9bf16a3 "Diff: 6 files, +135 | -23") — 🛠️ [fix] Make release verification platform-stable <sub><em>(6 files, +135, -23)</em></sub>
 
