@@ -1687,6 +1687,12 @@ Keep every mirrored generated count marker aligned and verify the Gallery README
 
 ### 🛡️ Security
 
+- [`fd1cc6d`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/fd1cc6d2fd86ac66641227790e5efa2a47f5d65f "Diff: 1 file, +4 | -0") — 🛡️ [fix] Baseline provenance hash false positives <sub><em>(1 file, +4, -0)</em></sub>
+
+🔐 [security] Ignore only the exact history and directory fingerprints for two SHA-256 values misclassified as JFrog identity tokens.
+
+✅ [test] Verify both Gitleaks git-history and directory scans pass without suppressing future findings in the audit ledger.
+
 - [`52631d2`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/52631d21f65149f48952aacabe7abf42af28416c "Diff: 12 files, +4159 | -6150") — 🔧 [build] Refresh release and verification tooling <sub><em>(12 files, +4159, -6150)</em></sub>
 
 🔧 [build] Align the repository and GitHub Actions with Node.js 26.5.1, current formatter, lint, changelog, security, and archive-development dependencies, and the synchronized lockfile.
