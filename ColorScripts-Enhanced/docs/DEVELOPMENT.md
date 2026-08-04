@@ -90,7 +90,7 @@ For isolated development, set `COLOR_SCRIPTS_ENHANCED_CACHE_PATH` before import.
 
 ## Adding ANSI Artwork
 
-Read [ANSI-CONVERSION-GUIDE.md](ANSI-CONVERSION-GUIDE.md) and [ARTWORK_SOURCES.md](ARTWORK_SOURCES.md) before importing third-party art.
+Read [ANSI-CONVERSION-GUIDE.md](ANSI-CONVERSION-GUIDE.md) and [ARTWORK\_SOURCES.md](ARTWORK_SOURCES.md) before importing third-party art.
 
 A new import must have:
 
@@ -206,7 +206,7 @@ npm run markdown:check
 
 All runtime resource files must have exact key parity with `en-US/Messages.psd1` and compatible composite-format placeholders. Keep syntax, command/parameter names, literal accepted values, output property names, and environment-variable names unlocalized.
 
-See [LOCALIZATION_GUIDE.md](LOCALIZATION_GUIDE.md) for fallback modes and translation review requirements.
+See [LOCALIZATION\_GUIDE.md](LOCALIZATION_GUIDE.md) for fallback modes and translation review requirements.
 
 ## Validation Commands
 
@@ -229,7 +229,7 @@ npm run markdown:check
 npm run release:verify
 ```
 
-See [NPM_SCRIPTS.md](NPM_SCRIPTS.md) for the complete command inventory. `npm run build` is an aggregate command that updates generated outputs; review its diff.
+See [NPM\_SCRIPTS.md](NPM_SCRIPTS.md) for the complete command inventory. `npm run build` is an aggregate command that updates generated outputs; review its diff.
 
 ## Coding Standards
 

@@ -4,29 +4,29 @@
 
 ## Primary Workflows
 
-| Command                   | Purpose                                                                                               |
-| ------------------------- | ----------------------------------------------------------------------------------------------------- |
-| `npm run build`           | Build the module, generate release notes, run conversion checks, verify lint/README, and run coverage |
-| `npm run build:skip-help` | Run `scripts/build.ps1 -SkipHelp`                                                                     |
-| `npm run verify`          | Run non-mutating module lint and the gallery README size check                                        |
+| Command                   | Purpose                                                                                                              |
+| ------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| `npm run build`           | Build the module, generate release notes, run conversion checks, verify lint/README, and run coverage                |
+| `npm run build:skip-help` | Run `scripts/build.ps1 -SkipHelp`                                                                                    |
+| `npm run verify`          | Run non-mutating module lint and the gallery README size check                                                       |
 | `npm run verify:strict`   | Include tests in strict ScriptAnalyzer validation, check gallery README size, then analyze the complete ANSI gallery |
-| `npm test`                | Run Node ANSI-conversion tests, the custom module harness, and the Pester suite                       |
-| `npm run lint`            | Run the normal PowerShell lint entry point                                                            |
-| `npm run lint:strict`     | Analyze module and tests, treating warnings as errors                                                 |
+| `npm test`                | Run Node ANSI-conversion tests, the custom module harness, and the Pester suite                                      |
+| `npm run lint`            | Run the normal PowerShell lint entry point                                                                           |
+| `npm run lint:strict`     | Analyze module and tests, treating warnings as errors                                                                |
 
 `npm run build` updates generated artifacts. Review the worktree after running it. For quick, non-mutating validation use `npm run verify`; it does not run the test suite.
 
 ## Build and Documentation
 
-| Command                                            | Purpose                                                                                 |
-| -------------------------------------------------- | --------------------------------------------------------------------------------------- |
-| `npm run build:help`                               | Synchronize Markdown help and generate MAML plus deterministic Updatable Help packages  |
-| `npm run build:help:check`                         | Rebuild Updatable Help in isolation and fail when checked-in artifacts are stale        |
-| `npm run docs:update-counts`                       | Refresh script, cache-policy, dynamic-policy, and module-version markers                |
-| `npm run markdown:check`                           | Run the repository Markdown link-check wrapper                                          |
-| `npm run readme:check`                             | Check the PowerShell Gallery README size                                                |
-| `npm run readme:check:strict`                      | Apply the strict gallery README size limit                                              |
-| `npm run package:metadata -- --PackagePath <file>` | Normalize a staged NuGet package's README, license, icon, and metadata                  |
+| Command                                            | Purpose                                                                                |
+| -------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| `npm run build:help`                               | Synchronize Markdown help and generate MAML plus deterministic Updatable Help packages |
+| `npm run build:help:check`                         | Rebuild Updatable Help in isolation and fail when checked-in artifacts are stale       |
+| `npm run docs:update-counts`                       | Refresh script, cache-policy, dynamic-policy, and module-version markers               |
+| `npm run markdown:check`                           | Run the repository Markdown link-check wrapper                                         |
+| `npm run readme:check`                             | Check the PowerShell Gallery README size                                               |
+| `npm run readme:check:strict`                      | Apply the strict gallery README size limit                                             |
+| `npm run package:metadata -- --PackagePath <file>` | Normalize a staged NuGet package's README, license, icon, and metadata                 |
 
 The repository does not define a `docs:validate-links` script. Use `npm run markdown:check`.
 
@@ -90,8 +90,8 @@ Some linters require separately installed CLIs. The Node-backed commands use the
 | `npm run ansi:verify-conversion -- <args>`  | Compare raw ANSI with generated scripts by exact rendered terminal cells and source-coordinate coverage                                                                |
 | `npm run artwork:provenance:headers:check`  | Verify compact mapped headers, unchanged migrated payloads, immutable legacy scripts, and complete external fields                                                     |
 | `npm run artwork:provenance:headers:update` | Migrate exact verbose mapped headers; this is a controlled repository migration, not a routine formatter                                                               |
-| `npm run artwork:provenance:web:check`      | Verify the web provenance index is an exact projection of the authoritative PSD1                                                                                        |
-| `npm run artwork:provenance:web:update`     | Regenerate the compact web provenance index                                                                                                                             |
+| `npm run artwork:provenance:web:check`      | Verify the web provenance index is an exact projection of the authoritative PSD1                                                                                       |
+| `npm run artwork:provenance:web:update`     | Regenerate the compact web provenance index                                                                                                                            |
 | `npm run convert -- <args>`                 | Convert ANSI with `--strip-space-bg` enabled                                                                                                                           |
 | `npm run scripts:convert -- <args>`         | Run the Node ANSI converter                                                                                                                                            |
 | `npm run scripts:convert:ps -- <args>`      | Run the PowerShell converter                                                                                                                                           |

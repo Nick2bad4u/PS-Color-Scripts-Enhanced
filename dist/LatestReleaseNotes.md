@@ -6,16 +6,11 @@
 
 - <b>Commit Range: ➡️</b> [`v2026.7...v2026.7`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/compare/v2026.7.20.35...v2026.7.20.2250 "View full commit range on GitHub")
 
-
-
 ### 🛠️ Bug Fixes
-
 
 - [`24a4119`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/24a4119c217a3cdaee3e43e9154f418aec24919e "Diff: 1 file, +6 | -20") — 🛠️ [fix] Prefer pwsh for redirected color capture <sub><em>(1 file, +6, -20)</em></sub>
 
 Restore the module's modern-PowerShell-first child renderer contract. Windows PowerShell serializes redirected host records as CLIXML, so using it while pwsh is available corrupts captured output and cache comparisons.
-
-
 
 - [`890804b`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/890804b38696953116f2d8af2b495842bf9e44f8 "Diff: 116 files, +1691 | -5251") — 🛠️ [fix] Make localized help builds idempotent <sub><em>(116 files, +1691, -5251)</em></sub>
 
@@ -25,8 +20,6 @@ Restore the module's modern-PowerShell-first child renderer contract. Windows Po
 
 📝 [docs] Normalize packaged documentation casing so copied cross-platform links resolve on case-sensitive filesystems.
 
-
-
 - [`11c9f4c`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/11c9f4c3102ef94f25f682aa111135593f3e027e "Diff: 11 files, +1548 | -1918") — 🛠️ [fix] Make ANSI conversion terminal-aware <sub><em>(11 files, +1548, -1918)</em></sub>
 
 🛠️ [fix] Decode legacy art safely, emulate cursor movement, split compound canvases deterministically, and preserve PowerShell-safe output across converters.
@@ -34,8 +27,6 @@ Restore the module's modern-PowerShell-first child renderer contract. Windows Po
 🧹 [chore] Remove duplicate source artifacts only after byte-aware comparison and retain the usable Megajoint segment already in the module catalog.
 
 🧪 [test] Add Node coverage for SGR state, cursor controls, CP437 input, Unicode escaping, malformed sequences, and splitter boundaries.
-
-
 
 - [`1898573`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/1898573e8576b869ffd9ea575e54d5194d9fb75e "Diff: 32 files, +396 | -273") — 🛠️ [fix] Harden module state and process handling <sub><em>(32 files, +396, -273)</em></sub>
 
@@ -45,27 +36,7 @@ Restore the module's modern-PowerShell-first child renderer contract. Windows Po
 
 🧪 [test] Cover WhatIf behavior, transient configuration paths, profile ownership, large redirected streams, and updated internal contracts.
 
-
-
-### 🛡️ Security
-
-
-- [`d8a3806`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/d8a380693a82f8652255757ff601c2abed4ef0a6 "Diff: 2 files, +22 | -1") — 🔒 [security] Remove SAUCE font regex backtracking <sub><em>(2 files, +22, -1)</em></sub>
-
-Parse the fixed-width SAUCE font field with a direct null-terminator lookup instead of a potentially quadratic regular expression. Cover null, padded, and unterminated fields explicitly.
-
-
-
-- [`a1682f0`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/a1682f0b0d4d847b75320910887d045c1bcb1fc7 "Diff: 6 files, +179 | -534") — 🔒 [security] Remove vulnerable build dependencies <sub><em>(6 files, +179, -534)</em></sub>
-
-Replace the unmaintained frontmatter validator and enforce patched adm-zip and esbuild versions so a clean npm audit reports zero findings.
-
-Scope publish write access to the release job and replace flagged SAUCE padding regexes with bounded linear parsing plus regression coverage.
-
-
-
 ### 📝 Documentation
-
 
 - [`8d26887`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/8d26887057dabc465a36d8070e6a29a57e1797aa "Diff: 177 files, +43125 | -39030") — 📝 [docs] Synchronize help and collection guidance <sub><em>(177 files, +43125, -39030)</em></sub>
 
@@ -75,10 +46,7 @@ Scope publish write access to the release job and replace flagged SAUCE padding 
 
 📝 [docs] Document terminal-aware ANSI conversion, duplicate handling, and additional source collections including 16colo.rs, Textfiles art packs, botany, os-ansi, and hyfetch.
 
-
-
 ### 🧹 Chores
-
 
 - [`a0f1e64`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/a0f1e6427670b68e081f1cc50868cab4a07d8e43 "Diff: 15 files, +51 | -26") — 🔖 [chore] Prepare version 2026.7.20.2250 <sub><em>(15 files, +51, -26)</em></sub>
 
@@ -86,22 +54,15 @@ Update the module and localized help metadata to the release candidate version.
 
 Make changelog validation tag-aware and document the reproducible versioned release-note workflow.
 
-
-
 ### 👷 CI/CD
-
 
 - [`fffde8e`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/fffde8ebec2f47f80ca337092ec5765971ee954c "Diff: 1 file, +7 | -2") — 👷 [ci] Install pinned help tooling for releases <sub><em>(1 file, +7, -2)</em></sub>
 
 Install Microsoft.PowerShell.PlatyPS 1.0.2 before the release build generates localized MAML help, and pin PSScriptAnalyzer 1.25.0 alongside the existing Pester pin.
 
-
-
 - [`fd19bd8`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/fd19bd84c6df97841616d6dec764e07bc54dbad2 "Diff: 1 file, +22 | -0") — 👷 [ci] Install ANSI runtime dependencies for Pester <sub><em>(1 file, +22, -0)</em></sub>
 
 Install the locked production-only Node.js dependency set in the Windows PowerShell and cross-platform PowerShell jobs. This lets repository-script tests execute the ANSI converter in the same clean environment used by GitHub Actions.
-
-
 
 - [`250f6d8`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/250f6d87b75189581a3b03823b4c1f38bd7e80a5 "Diff: 19 files, +1287 | -3595") — 👷 [ci] Make release validation deterministic <sub><em>(19 files, +1287, -3595)</em></sub>
 
@@ -111,16 +72,20 @@ Install the locked production-only Node.js dependency set in the Windows PowerSh
 
 🧪 [test] Add release-wiring and maintenance-script regressions, strengthen coverage output handling, and remove the obsolete private-function snapshot.
 
+### 🛡️ Security
 
+- [`d8a3806`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/d8a380693a82f8652255757ff601c2abed4ef0a6 "Diff: 2 files, +22 | -1") — 🔒 [security] Remove SAUCE font regex backtracking <sub><em>(2 files, +22, -1)</em></sub>
 
+Parse the fixed-width SAUCE font field with a direct null-terminator lookup instead of a potentially quadratic regular expression. Cover null, padded, and unterminated fields explicitly.
 
+- [`a1682f0`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/a1682f0b0d4d847b75320910887d045c1bcb1fc7 "Diff: 6 files, +179 | -534") — 🔒 [security] Remove vulnerable build dependencies <sub><em>(6 files, +179, -534)</em></sub>
 
+Replace the unmaintained frontmatter validator and enforce patched adm-zip and esbuild versions so a clean npm audit reports zero findings.
 
-
+Scope publish write access to the release job and replace flagged SAUCE padding regexes with bounded linear parsing plus regression coverage.
 
 > [!NOTE]
 > **Release comparison**: https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/compare/v2026.7.20.35...v2026.7.20.2250
-
 
 ## ⭐ Contributors
 Thanks to anyone who has 🧑‍💻 [contributed](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/graphs/contributors).

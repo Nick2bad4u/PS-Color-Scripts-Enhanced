@@ -9,7 +9,7 @@ This guide documents the repository's current release pipeline for **ColorScript
 - Published package versions are immutable. Increment the manifest version before publishing another build.
 - The package is built from `ColorScripts-Enhanced/`, normalized to include its README, license, and icon, and attached to the GitHub release.
 
-The current manifest version is <!-- COLOR_MODULE_VERSION -->`2026.7.20.2250`<!-- /COLOR_MODULE_VERSION -->.
+The current manifest version is <!-- COLOR_MODULE_VERSION -->`2026.8.4.412`<!-- /COLOR_MODULE_VERSION -->.
 
 ## Automated Publishing
 
@@ -32,20 +32,20 @@ The workflow:
 
 ### Manual Inputs
 
-| Input              | Default | Effect                                      |
-| ------------------ | ------- | ------------------------------------------- |
-| `publishToNuGet`   | `true`  | Enables the optional NuGet.org publish step |
-| `versionOverride`  | empty   | Overrides the version passed to `build.ps1` |
-| `createRelease`    | `true`  | Creates or updates the GitHub release       |
+| Input             | Default | Effect                                      |
+| ----------------- | ------- | ------------------------------------------- |
+| `publishToNuGet`  | `true`  | Enables the optional NuGet.org publish step |
+| `versionOverride` | empty   | Overrides the version passed to `build.ps1` |
+| `createRelease`   | `true`  | Creates or updates the GitHub release       |
 
 The workflow does not define a `publishToGitHub` input or push to GitHub Packages.
 
 ### Required Secrets
 
-| Secret            | Purpose                                                    |
-| ----------------- | ---------------------------------------------------------- |
-| `PSGALLERYAPIKEY` | Publishes the normalized package to PowerShell Gallery     |
-| `NUGETAPIKEY`     | Publishes the same package to NuGet.org when enabled       |
+| Secret            | Purpose                                                |
+| ----------------- | ------------------------------------------------------ |
+| `PSGALLERYAPIKEY` | Publishes the normalized package to PowerShell Gallery |
+| `NUGETAPIKEY`     | Publishes the same package to NuGet.org when enabled   |
 
 Both are optional for reusable-workflow calls. A missing key causes its corresponding publish step to skip; it does not turn validation into a failure.
 

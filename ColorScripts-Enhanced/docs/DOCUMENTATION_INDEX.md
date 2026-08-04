@@ -45,7 +45,7 @@ All commands have detailed help documentation in `ColorScripts-Enhanced/en-US/`:
 | [ANSI-COLOR-GUIDE.md](ANSI-COLOR-GUIDE.md)           | ANSI escape codes reference and color palette guide  |
 | [ANSI-CONVERSION-GUIDE.md](ANSI-CONVERSION-GUIDE.md) | Converting ANSI art files to PowerShell colorscripts |
 | [ARTWORK\_SOURCES.md](ARTWORK_SOURCES.md)            | Collection links, licensing, and provenance rules    |
-| [Artwork details](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html) | Per-script source, attribution, hash, and split data |
+| [Artwork details](artwork.html)                      | Per-script source, attribution, hash, and split data |
 | [POWERSHELL-VERSIONS.md](POWERSHELL-VERSIONS.md)     | PowerShell version compatibility matrix              |
 
 ## Developer Documentation
@@ -63,11 +63,11 @@ All commands have detailed help documentation in `ColorScripts-Enhanced/en-US/`:
 
 ### Release & Publishing
 
-| Document                                     | Description                                                      |
-| -------------------------------------------- | ---------------------------------------------------------------- |
-| [PUBLISHING.md](PUBLISHING.md)               | Publishing to PowerShell Gallery and optional NuGet.org          |
-| [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md) | Step-by-step release checklist with git-cliff integration        |
-| [CHANGELOG.md](../../CHANGELOG.md)              | Complete project changelog                                       |
+| Document                                      | Description                                               |
+| --------------------------------------------- | --------------------------------------------------------- |
+| [PUBLISHING.md](PUBLISHING.md)                | Publishing to PowerShell Gallery and optional NuGet.org   |
+| [RELEASE\_CHECKLIST.md](RELEASE_CHECKLIST.md) | Step-by-step release checklist with git-cliff integration |
+| [CHANGELOG.md](../../CHANGELOG.md)               | Complete project changelog                                |
 
 ### Project Management
 
@@ -144,7 +144,7 @@ Get-Help *ColorScript*
 
 ## Version Information
 
-- **Module Version**: <!-- COLOR_MODULE_VERSION -->`2026.7.20.2250`<!-- /COLOR_MODULE_VERSION --> in the checked-in manifest (the manifest is the source of truth)
+- **Module Version**: <!-- COLOR_MODULE_VERSION -->`2026.8.4.412`<!-- /COLOR_MODULE_VERSION --> in the checked-in manifest (the manifest is the source of truth)
 - **Colorscripts**: <!-- COLOR_SCRIPT_COUNT -->24822<!-- /COLOR_SCRIPT_COUNT -->
 - **Policy-selected cacheable renderers**: <!-- COLOR_CACHE_TOTAL -->15<!-- /COLOR_CACHE_TOTAL -->
 - **Functions**: 10

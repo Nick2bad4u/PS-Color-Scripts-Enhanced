@@ -6,7 +6,7 @@ ColorScripts-Enhanced is a cross-platform PowerShell module for discovering, dis
 
 | Property                    | Value                                                                                             |
 | --------------------------- | ------------------------------------------------------------------------------------------------- |
-| Manifest version            | <!-- COLOR_MODULE_VERSION -->`2026.7.20.2250`<!-- /COLOR_MODULE_VERSION -->                       |
+| Manifest version            | <!-- COLOR_MODULE_VERSION -->`2026.8.4.412`<!-- /COLOR_MODULE_VERSION -->                       |
 | Colorscript files           | <!-- COLOR_SCRIPT_COUNT -->24822<!-- /COLOR_SCRIPT_COUNT -->                                      |
 | Dynamic renderers           | <!-- COLOR_DYNAMIC_TOTAL -->17<!-- /COLOR_DYNAMIC_TOTAL --> entries in `DynamicRenderPolicy.psd1` |
 | Cacheable renderers         | <!-- COLOR_CACHE_TOTAL -->15<!-- /COLOR_CACHE_TOTAL --> entries in `CachePolicy.psd1`             |
@@ -177,6 +177,6 @@ The CI strategy covers Windows PowerShell 5.1, the runner-provided current Power
 
 ## Licensing and Provenance
 
-Project-authored code is provided under the repository [Unlicense](../../LICENSE). Incorporated ANSI art may have different authors and source terms; availability in an archive does not make a work public domain. New curated imports are recorded in the repository-only [ArtworkProvenance.psd1](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/audit/ArtworkProvenance.psd1), projected into the generated [artwork-details page](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html), and represented in each mapped script by one compact offline attribution/link line. Required license and permission evidence remains shipped under [ThirdPartyNotices](../../ColorScripts-Enhanced/ThirdPartyNotices/); see [Artwork Sources](ARTWORK_SOURCES.md) for the reviewed collections and import rules.
+Project-authored code is provided under the repository [Unlicense](../../LICENSE). Incorporated ANSI art may have different authors and source terms; availability in an archive does not make a work public domain. New curated imports are recorded in the repository-only [ArtworkProvenance.psd1](../../audit/ArtworkProvenance.psd1), projected into the generated [artwork-details page](artwork.html), and represented in each mapped script by one compact offline attribution/link line. Required license and permission evidence remains shipped under [ThirdPartyNotices](../../ColorScripts-Enhanced/ThirdPartyNotices/); see [Artwork Sources](ARTWORK_SOURCES.md) for the reviewed collections and import rules.
 
 For usage details, start with the [README](../../README.md), [Quick Reference](QUICK_REFERENCE.md), and the command's `Get-Help` topic.

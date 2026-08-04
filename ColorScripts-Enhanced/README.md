@@ -4,11 +4,11 @@
 
 <!-- Download & Version Badges -->
 
-[![PowerShell Gallery Version.](https://img.shields.io/powershellgallery/v/ColorScripts-Enhanced?logo=powershell&label=PSGallery)](https://www.powershellgallery.com/packages/ColorScripts-Enhanced)
-[![PowerShell Gallery Downloads.](https://img.shields.io/powershellgallery/dt/ColorScripts-Enhanced?logo=powershell&label=Downloads)](https://www.powershellgallery.com/packages/ColorScripts-Enhanced)
-[![NuGet Version.](https://img.shields.io/nuget/v/ColorScripts-Enhanced?logo=nuget&label=NuGet)](https://www.nuget.org/packages/ColorScripts-Enhanced/)
-[![NuGet Downloads.](https://img.shields.io/nuget/dt/ColorScripts-Enhanced?logo=nuget&label=Downloads)](https://www.nuget.org/packages/ColorScripts-Enhanced/)
-[![GitHub Release.](https://img.shields.io/github/v/release/Nick2bad4u/ps-color-scripts-enhanced?logo=github&label=Release)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/releases/latest)
+[![PowerShell Gallery Version.](https://img.shields.io/powershellgallery/v/ColorScripts-Enhanced?logo=powershell\&label=PSGallery)](https://www.powershellgallery.com/packages/ColorScripts-Enhanced)
+[![PowerShell Gallery Downloads.](https://img.shields.io/powershellgallery/dt/ColorScripts-Enhanced?logo=powershell\&label=Downloads)](https://www.powershellgallery.com/packages/ColorScripts-Enhanced)
+[![NuGet Version.](https://img.shields.io/nuget/v/ColorScripts-Enhanced?logo=nuget\&label=NuGet)](https://www.nuget.org/packages/ColorScripts-Enhanced/)
+[![NuGet Downloads.](https://img.shields.io/nuget/dt/ColorScripts-Enhanced?logo=nuget\&label=Downloads)](https://www.nuget.org/packages/ColorScripts-Enhanced/)
+[![GitHub Release.](https://img.shields.io/github/v/release/Nick2bad4u/ps-color-scripts-enhanced?logo=github\&label=Release)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/releases/latest)
 
 <!-- CI/CD & Quality Badges -->
 
@@ -42,18 +42,27 @@ A cross-platform PowerShell module for discovering and displaying ANSI colorscri
 ## ✨ Features
 
 - 🎨 **<!-- COLOR_SCRIPT_COUNT_PLUS -->24822+<!-- /COLOR_SCRIPT_COUNT_PLUS --> Colorscripts** — Fractals, patterns, characters, nature scenes, and more
+
 - ⚡ **Selective Caching** — Reuses output for the 15 computational renderers listed in `CachePolicy.psd1`; deterministic bundled scripts render in-process
+
 - 🌐 **Cross-Platform** — Works on Windows, macOS, and Linux
+
 - ⚙️ **Configurable** — Persist cache location, startup behavior, and defaults
+
 - **Rich Metadata** — Filter the catalog by name, category, and tag or export it as structured data
+
 - 🐾 **Thousands of Pokémon ColorScripts** — Pokémon and shiny-Pokémon collections participate in normal selection
 
   To opt out, use `-ExcludeCategory Pokemon,ShinyPokemon` with `Show-ColorScript`.
 
 - 🌍 **10 Languages** — English, German, Spanish, French, Italian, Japanese, Dutch, Portuguese, Russian, Chinese
+
 - 🧩 **Easy to Use** — Simple commands with tab completion
+
 - 🗄️ **Platform-Aware Cache** — Query `(Get-ColorScriptConfiguration).Cache.EffectivePath` for the user-scoped location
+
 - 🔄 **Auto-Update** — Cache invalidates automatically when scripts change
+
 - 📚 **Localized External Help** — Markdown and generated MAML topics for all 10 public commands in 10 cultures
 
 ## 🚀 Quick Start
@@ -266,7 +275,7 @@ Project-authored code is provided under the [Unlicense](https://github.com/Nick2
 
 ### Artwork Sources and Provenance
 
-New curated imports are mapped in the repository-only [ArtworkProvenance.psd1](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/audit/ArtworkProvenance.psd1), with a compact [artwork-details page](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html), preserved evidence under [ThirdPartyNotices](ThirdPartyNotices/), compact [archive](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/audit/AnsiArchiveCurationCheckpoint.json) and [content-curation](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/audit/AnsiContentCurationCheckpoint.json) checkpoints, and browsing/licensing context in the [Artwork Sources guide](docs/ARTWORK_SOURCES.md). The large development records stay outside the published module; mapped scripts retain only an offline title/artist attribution and a script-scoped details link. This includes [The Lake House](https://16colo.rs/pack/mist0624/ZII-LAHO.ANS) by Zeus II of Mistigris, preserved as six contiguous, full-width scripts, and 126 unique Roy-authored works represented by 153 scripts under FAL-1.3. The exhaustive 1990-2026 16colors review is complete: 64,929 `.ANS` or `.ICE` candidates across 5,479 enumerated packs yielded 15,073 retained works and 21,495 scripts after post-import content, adult-policy, quality, source-continuity, promotional-content, and duplicate-render curation. Historical archive-recovery entries retain exact source evidence without inventing metadata that 16colors does not provide.
+New curated imports are mapped in the repository-only [ArtworkProvenance.psd1](audit/ArtworkProvenance.psd1), with a compact [artwork-details page](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html), preserved evidence under [ThirdPartyNotices](ColorScripts-Enhanced/ThirdPartyNotices/), compact [archive](audit/AnsiArchiveCurationCheckpoint.json) and [content-curation](audit/AnsiContentCurationCheckpoint.json) checkpoints, and browsing/licensing context in the [Artwork Sources guide](docs/ARTWORK_SOURCES.md). The large development records stay outside the published module; mapped scripts retain only an offline title/artist attribution and a script-scoped details link. This includes [The Lake House](https://16colo.rs/pack/mist0624/ZII-LAHO.ANS) by Zeus II of Mistigris, preserved as six contiguous, full-width scripts, and 126 unique Roy-authored works represented by 153 scripts under FAL-1.3. The exhaustive 1990-2026 16colors review is complete: 64,929 `.ANS` or `.ICE` candidates across 5,479 enumerated packs yielded 15,073 retained works and 21,495 scripts after post-import content, adult-policy, quality, source-continuity, promotional-content, and duplicate-render curation. Historical archive-recovery entries retain exact source evidence without inventing metadata that 16colors does not provide.
 
 ---
 
@@ -277,13 +286,17 @@ New curated imports are mapped in the repository-only [ArtworkProvenance.psd1](h
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
 [![All Contributors.](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/all-contributors/all-contributors#emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+
 <!-- prettier-ignore-start -->
+
 <!-- markdownlint-disable -->
+
 <table>
   <tbody>
     <tr>
@@ -299,6 +312,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/all-contri
 </table>
 
 <!-- markdownlint-restore -->
+
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->

@@ -24,10 +24,10 @@ The module builds a fallback chain from the current UI culture and its parent cu
 
 `COLOR_SCRIPTS_ENHANCED_LOCALIZATION_MODE` controls resource loading:
 
-| Value      | Behavior                                                        |
-| ---------- | --------------------------------------------------------------- |
-| `auto`     | Uses the module's normal optimized selection logic              |
-| `full`     | Forces loading localized `Messages.psd1` resources from disk    |
+| Value      | Behavior                                                          |
+| ---------- | ----------------------------------------------------------------- |
+| `auto`     | Uses the module's normal optimized selection logic                |
+| `full`     | Forces loading localized `Messages.psd1` resources from disk      |
 | `embedded` | Uses the embedded English defaults without reading resource files |
 
 `COLOR_SCRIPTS_ENHANCED_PREFER_EMBEDDED_MESSAGES` remains a compatibility switch. New automation should use `COLOR_SCRIPTS_ENHANCED_LOCALIZATION_MODE`. `COLOR_SCRIPTS_ENHANCED_FORCE_LOCALIZATION` is also retained for compatibility with full-file loading.
@@ -49,9 +49,13 @@ Every `Messages.psd1` file must contain the same keys as `en-US/Messages.psd1`. 
 The Markdown files are the editable source. The MAML XML is generated output.
 
 1. Confirm the real public command metadata and behavior from `ColorScripts-Enhanced/Public/`, the manifest, and tests.
+
 2. Update the matching `en-US/<Command>.md` topic.
+
 3. Apply the same structural and factual change to every translated Markdown topic. Do not translate command names, parameter names, property names, environment-variable names, or literal accepted values.
+
 4. Preserve each topic's single canonical **Online Version** link.
+
 5. Regenerate all MAML and HelpInfo files:
 
    ```powershell
