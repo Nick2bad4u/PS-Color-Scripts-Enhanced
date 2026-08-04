@@ -231,19 +231,37 @@ jobs:
                   }
 
                   git show-ref --verify --quiet "refs/tags/$expectedTag"
-                  if ($LASTEXITCODE -eq 0) {
-                      Write-Output "::error::Expected release tag $expectedTag already exists; refusing to replace it during this release."
-                      exit 1
+                  $tagStatus = $LASTEXITCODE
+                  if ($tagStatus -eq 0) {
+                      $tagCommit = (git rev-parse "${expectedTag}^{commit}").Trim()
+                      if ($LASTEXITCODE -ne 0) {
+                          Write-Output "::error::Unable to resolve existing release tag $expectedTag."
+                          exit 1
+                      }
+
+                      $headCommit = (git rev-parse HEAD).Trim()
+                      if ($LASTEXITCODE -ne 0) {
+                          Write-Output '::error::Unable to resolve HEAD while validating the existing release tag.'
+                          exit 1
+                      }
+
+                      if ($tagCommit -cne $headCommit) {
+                          Write-Output "::error::Existing release tag $expectedTag points to $tagCommit, but HEAD is $headCommit; refusing to replace it."
+                          exit 1
+                      }
+
+                      Write-Host "Reusing expected release tag $expectedTag at $headCommit."
                   }
-                  if ($LASTEXITCODE -ne 1) {
+                  elseif ($tagStatus -ne 1) {
                       Write-Output "::error::Unable to determine whether expected release tag $expectedTag already exists."
                       exit 1
                   }
-
-                  git tag -- $expectedTag HEAD
-                  if ($LASTEXITCODE -ne 0) {
-                      Write-Output "::error::Failed to create expected release tag $expectedTag at HEAD."
-                      exit 1
+                  else {
+                      git tag -- $expectedTag HEAD
+                      if ($LASTEXITCODE -ne 0) {
+                          Write-Output "::error::Failed to create expected release tag $expectedTag at HEAD."
+                          exit 1
+                      }
                   }
               shell: "pwsh"
 
@@ -332,9 +350,26 @@ jobs:
                       Set-Content -LiteralPath $notesFile -Value $notes -Encoding UTF8
                   }
 
+                  $boundedNotesFile = Join-Path $env:RUNNER_TEMP "release-notes-bounded.md"
+                  node ./scripts/Limit-GitHubReleaseNotes.mjs `
+                      "--input=$notesFile" `
+                      "--output=$boundedNotesFile" `
+                      "--version=$version" `
+                      "--maximum-characters=120000"
+                  if ($LASTEXITCODE -ne 0) {
+                      throw "GitHub release-note limiting failed for v$version."
+                  }
+
+                  $notesFile = $boundedNotesFile
+                  $notes = Get-Content -LiteralPath $notesFile -Raw
+                  $previewLength = [Math]::Min($notes.Length, 4000)
+
                   Write-Host "Release notes preview:"
                   Write-Host "------------------------"
-                  Write-Host $notes
+                  Write-Host $notes.Substring(0, $previewLength)
+                  if ($notes.Length -gt $previewLength) {
+                      Write-Host "... preview limited to $previewLength characters ..."
+                  }
                   Write-Host "------------------------"
 
                   "notesFile=$notesFile" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append

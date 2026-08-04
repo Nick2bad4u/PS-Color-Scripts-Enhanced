@@ -124,6 +124,7 @@ Describe 'Release lint wiring' {
         $script:LintScriptPath = Join-Path -Path $script:RepoRoot -ChildPath 'scripts/Lint-Module.ps1'
         $script:BuildScriptPath = Join-Path -Path $script:RepoRoot -ChildPath 'scripts/build.ps1'
         $script:ChangelogValidatorPath = Join-Path -Path $script:RepoRoot -ChildPath 'scripts/Validate-Changelog.ps1'
+        $script:ReleaseNotesLimiterPath = Join-Path -Path $script:RepoRoot -ChildPath 'scripts/Limit-GitHubReleaseNotes.mjs'
     }
 
     It 'keeps verification non-mutating' {
@@ -140,6 +141,28 @@ Describe 'Release lint wiring' {
 
         $workflow | Should -Match 'pwsh -NoProfile -File \./scripts/Lint-Module\.ps1 -TreatWarningsAsErrors'
         $workflow | Should -Not -Match 'Invoke-ScriptAnalyzer'
+    }
+
+    It 'bounds GitHub release bodies before creating a release' {
+        $workflow = Get-Content -LiteralPath $script:PublishWorkflowPath -Raw
+        $limiter = Get-Content -LiteralPath $script:ReleaseNotesLimiterPath -Raw
+
+        $workflow | Should -Match ([regex]::Escape('node ./scripts/Limit-GitHubReleaseNotes.mjs'))
+        $workflow | Should -Match ([regex]::Escape('$boundedNotesFile = Join-Path $env:RUNNER_TEMP "release-notes-bounded.md"'))
+        $workflow | Should -Match ([regex]::Escape('"--output=$boundedNotesFile"'))
+        $workflow | Should -Match ([regex]::Escape('"--maximum-characters=120000"'))
+        $workflow | Should -Match ([regex]::Escape('$notes.Substring(0, $previewLength)'))
+        $workflow | Should -Not -Match '(?m)^\s*Write-Host \$notes\s*$'
+        $limiter | Should -Match 'GITHUB_RELEASE_BODY_LIMIT = 125_000'
+        $limiter | Should -Match 'complete changelog for v\$\{version\}'
+    }
+
+    It 'reuses only an exact existing release tag after a partial release failure' {
+        $workflow = Get-Content -LiteralPath $script:PublishWorkflowPath -Raw
+
+        $workflow | Should -Match ([regex]::Escape('Reusing expected release tag $expectedTag at $headCommit.'))
+        $workflow | Should -Match ([regex]::Escape('Existing release tag $expectedTag points to $tagCommit, but HEAD is $headCommit; refusing to replace it.'))
+        $workflow | Should -Not -Match ([regex]::Escape('already exists; refusing to replace it during this release'))
     }
 
     It 'keeps web-only provenance artifacts out of the module documentation copy' {
