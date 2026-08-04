@@ -7,11 +7,13 @@ const path = require("node:path");
 const test = require("node:test");
 
 const {
+    UNMAPPED_SCRIPT_HASH_MODE,
     buildCompactArtworkHeader,
     getArtworkDetailsUrl,
     parseArtworkProvenance,
     parseCompactArtworkHeader,
     parseLeadingCommentHeader,
+    readArtworkHeaderMigration,
     readArtworkProvenance,
     sha256,
     upsertArtworkProvenanceScriptEntries,
@@ -23,8 +25,10 @@ const {
 } = require("../scripts/GeneratedArtworkProvenance.js");
 const {
     addProvenanceProperties,
+    assertUnmappedScriptsUnchanged,
     getFieldsSha256,
     getMissingProvenanceProperties,
+    getUnmappedScriptSha256,
     main: migrationMain,
     reconstructLegacyFields,
 } = require("../scripts/Migrate-ColorScriptProvenanceHeaders.js");
@@ -40,6 +44,76 @@ const SCRIPTS_DIRECTORY = path.join(
     "ColorScripts-Enhanced",
     "Scripts"
 );
+
+test("unmapped-script hashes ignore checkout-only CRLF conversion", () => {
+    const lf = Buffer.from("first\nsecond\n", "utf8");
+    const crlf = Buffer.from("first\r\nsecond\r\n", "utf8");
+    const changed = Buffer.from("first\nchanged\n", "utf8");
+    const loneCr = Buffer.from("first\rsecond\n", "utf8");
+
+    assert.equal(getUnmappedScriptSha256(lf), getUnmappedScriptSha256(crlf));
+    assert.notEqual(
+        getUnmappedScriptSha256(lf),
+        getUnmappedScriptSha256(changed)
+    );
+    assert.notEqual(
+        getUnmappedScriptSha256(lf),
+        getUnmappedScriptSha256(loneCr)
+    );
+});
+
+test("unmapped-script verification rejects inventory and content drift", () => {
+    const expected = { first: "a", second: "b" };
+    assert.doesNotThrow(() =>
+        assertUnmappedScriptsUnchanged(expected, { ...expected })
+    );
+    assert.throws(
+        () => assertUnmappedScriptsUnchanged(expected, { first: "a" }),
+        /inventory has changed/u
+    );
+    assert.throws(
+        () =>
+            assertUnmappedScriptsUnchanged(expected, {
+                first: "a",
+                second: "changed",
+            }),
+        /second: unmapped legacy script has changed/u
+    );
+});
+
+test("header migration reader requires canonical schema 2 evidence", () => {
+    const directory = fs.mkdtempSync(
+        path.join(os.tmpdir(), "artwork-header-migration-")
+    );
+    const migrationPath = path.join(directory, "migration.json");
+    const valid = {
+        provenanceSchemaVersion: 3,
+        records: {},
+        schemaVersion: 2,
+        unmappedHashMode: UNMAPPED_SCRIPT_HASH_MODE,
+        unmappedScripts: {},
+    };
+    try {
+        fs.writeFileSync(migrationPath, JSON.stringify(valid));
+        assert.equal(
+            readArtworkHeaderMigration(migrationPath).unmappedHashMode,
+            UNMAPPED_SCRIPT_HASH_MODE
+        );
+        for (const invalid of [
+            { ...valid, schemaVersion: 1 },
+            { ...valid, unmappedHashMode: "raw-sha256" },
+            { ...valid, unmappedScripts: undefined },
+        ]) {
+            fs.writeFileSync(migrationPath, JSON.stringify(invalid));
+            assert.throws(
+                () => readArtworkHeaderMigration(migrationPath),
+                /migration evidence is malformed/u
+            );
+        }
+    } finally {
+        fs.rmSync(directory, { force: true, recursive: true });
+    }
+});
 
 function createFixture() {
     return `@{

@@ -18,6 +18,7 @@ const DEFAULT_HEADER_MIGRATION_PATH = path.join(
 );
 const ARTWORK_DETAILS_BASE_URL =
     "https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=";
+const UNMAPPED_SCRIPT_HASH_MODE = "sha256-crlf-normalized-v1";
 const ENTRY_PATTERN =
     /^ {8}'((?:[^']|'')+)'\s*=\s*@\{\r?\n([\s\S]*?)^ {8}\}\r?$/gmu;
 const COMPACT_HEADER_PATTERN =
@@ -320,9 +321,13 @@ function readArtworkHeaderMigration(filePath = DEFAULT_HEADER_MIGRATION_PATH) {
     if (
         !parsed ||
         typeof parsed !== "object" ||
-        parsed.schemaVersion !== 1 ||
+        parsed.schemaVersion !== 2 ||
+        parsed.provenanceSchemaVersion !== 3 ||
+        parsed.unmappedHashMode !== UNMAPPED_SCRIPT_HASH_MODE ||
         !parsed.records ||
-        typeof parsed.records !== "object"
+        typeof parsed.records !== "object" ||
+        !parsed.unmappedScripts ||
+        typeof parsed.unmappedScripts !== "object"
     ) {
         throw new Error("Artwork header migration evidence is malformed.");
     }
@@ -665,6 +670,7 @@ module.exports = {
     ARTWORK_DETAILS_BASE_URL,
     DEFAULT_HEADER_MIGRATION_PATH,
     DEFAULT_PROVENANCE_PATH,
+    UNMAPPED_SCRIPT_HASH_MODE,
     buildCompactArtworkHeader,
     escapePowerShellString,
     getArtworkArtist,

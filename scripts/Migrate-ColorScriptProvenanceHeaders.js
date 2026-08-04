@@ -7,6 +7,7 @@ const path = require("node:path");
 
 const {
     DEFAULT_PROVENANCE_PATH,
+    UNMAPPED_SCRIPT_HASH_MODE,
     buildCompactArtworkHeader,
     escapePowerShellString,
     getArtworkDetailsUrl,
@@ -91,6 +92,65 @@ function writeFileAtomic(filePath, content) {
         fs.renameSync(temporaryPath, filePath);
     } finally {
         if (fs.existsSync(temporaryPath)) fs.rmSync(temporaryPath);
+    }
+}
+
+/**
+ * Hash a PowerShell text file independently of Git's platform-specific LF to
+ * CRLF checkout conversion. All bytes other than CRLF pairs remain exact.
+ *
+ * @param {Buffer} buffer
+ *
+ * @returns {string}
+ */
+function getUnmappedScriptSha256(buffer) {
+    let crlfCount = 0;
+    for (let index = 0; index < buffer.length - 1; index += 1) {
+        if (buffer[index] === 0x0d && buffer[index + 1] === 0x0a) {
+            crlfCount += 1;
+            index += 1;
+        }
+    }
+    if (crlfCount === 0) return sha256(buffer);
+
+    const normalized = Buffer.allocUnsafe(buffer.length - crlfCount);
+    let outputIndex = 0;
+    for (let index = 0; index < buffer.length; index += 1) {
+        if (
+            buffer[index] === 0x0d &&
+            index + 1 < buffer.length &&
+            buffer[index + 1] === 0x0a
+        ) {
+            normalized[outputIndex] = 0x0a;
+            outputIndex += 1;
+            index += 1;
+            continue;
+        }
+        normalized[outputIndex] = buffer[index];
+        outputIndex += 1;
+    }
+    return sha256(normalized);
+}
+
+/**
+ * @param {Readonly<Record<string, string>>} expected
+ * @param {Readonly<Record<string, string>>} current
+ *
+ * @returns {void}
+ */
+function assertUnmappedScriptsUnchanged(expected, current) {
+    const expectedNames = Object.keys(expected);
+    const currentNames = Object.keys(current);
+    if (
+        expectedNames.length !== currentNames.length ||
+        expectedNames.some((name) => !Object.hasOwn(current, name))
+    ) {
+        throw new Error("Unmapped legacy script inventory has changed.");
+    }
+    for (const [name, expectedHash] of Object.entries(expected)) {
+        if (current[name] !== expectedHash) {
+            throw new Error(`${name}: unmapped legacy script has changed.`);
+        }
     }
 }
 
@@ -281,6 +341,8 @@ function main(argv = process.argv.slice(2)) {
     const records = {};
     /** @type {Record<string, string>} */
     const unmappedScripts = {};
+    /** @type {Record<string, string>} */
+    const rawUnmappedScripts = {};
     let validatedMappedScripts = 0;
 
     for (const fileName of scriptFiles) {
@@ -290,7 +352,8 @@ function main(argv = process.argv.slice(2)) {
         const source = buffer.toString("utf8");
         const entry = provenance.scripts.get(name);
         if (!entry) {
-            unmappedScripts[name] = sha256(buffer);
+            rawUnmappedScripts[name] = sha256(buffer);
+            unmappedScripts[name] = getUnmappedScriptSha256(buffer);
             continue;
         }
         validatedMappedScripts += 1;
@@ -409,17 +472,33 @@ function main(argv = process.argv.slice(2)) {
         );
     }
     if (existingManifest) {
-        for (const [name, expectedHash] of Object.entries(
-            existingManifest.unmappedScripts || {}
-        )) {
-            if (unmappedScripts[name] !== expectedHash) {
-                throw new Error(`${name}: unmapped legacy script has changed.`);
-            }
+        const existingHashMode = existingManifest.unmappedHashMode;
+        if (
+            existingHashMode !== undefined &&
+            existingHashMode !== UNMAPPED_SCRIPT_HASH_MODE
+        ) {
+            throw new Error(
+                `Unsupported unmapped-script hash mode: ${existingHashMode}.`
+            );
         }
+        if (existingHashMode === undefined && !options.write) {
+            throw new Error(
+                "Migration evidence uses platform-dependent unmapped-script hashes; rerun with --write to upgrade it."
+            );
+        }
+        const currentUnmappedHashes =
+            existingHashMode === UNMAPPED_SCRIPT_HASH_MODE
+                ? unmappedScripts
+                : rawUnmappedScripts;
+        assertUnmappedScriptsUnchanged(
+            existingManifest.unmappedScripts || {},
+            currentUnmappedHashes
+        );
     }
     const manifest = {
-        schemaVersion: 1,
+        schemaVersion: 2,
         provenanceSchemaVersion: 3,
+        unmappedHashMode: UNMAPPED_SCRIPT_HASH_MODE,
         records,
         unmappedScripts,
     };
@@ -462,9 +541,11 @@ if (require.main === module) main();
 
 module.exports = {
     addProvenanceProperties,
+    assertUnmappedScriptsUnchanged,
     getFieldsSha256,
     getMissingProvenanceProperties,
     getProvenanceHeaderValue,
+    getUnmappedScriptSha256,
     main,
     parseArguments,
     reconstructLegacyFields,

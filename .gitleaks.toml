@@ -10,4 +10,9 @@ title = "Nick2bad4u shared Gitleaks configuration"
 [allowlist]
     description = "Ignore local scratch output and obvious non-secret placeholders"
     paths       = [ '''^temp/''' ]
-    regexes     = [ '''^(?:Read-Host|required|your-token-here)$''' ]
+    regexes     = [
+        '''^(?:Read-Host|required|your-token-here)$''',
+        # Exact SHA-256 values in the generated header-migration evidence that the
+        # JFrog rule otherwise mistakes for identity tokens.
+        '''^(?:45e28302750e535cef71d176c52fde7abaa028a7d40e94210bbe9f50f52a8377|fd529b0e01ef3d0ffef366393c2ef71c1f0c962873a29ff2c6a407f4679fcbf9)$''',
+    ]

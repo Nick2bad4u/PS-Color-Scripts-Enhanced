@@ -6,7 +6,7 @@ ColorScripts-Enhanced combines project-authored renderers with curated third-par
 
 New curated imports are recorded in the repository-only [ArtworkProvenance.psd1](../audit/ArtworkProvenance.psd1). This is the authoritative record for source collections, pinned revisions and archive hashes, source and rendered hashes, encoding, conversion mode, attribution, SAUCE details, and split coordinates. It remains outside the publishable module; a generated [artwork-details page](artwork.html) exposes a compact web index without adding the roughly 53 MiB PSD1 file to every PowerShell Gallery installation.
 
-Each mapped script carries one offline-readable title/artist line and a script-scoped details URL. The executable `Write-Host` payload contains no archival metadata, and migration evidence in [ArtworkHeaderMigration.json](../audit/ArtworkHeaderMigration.json) hash-locks the original header, the replacement header, and the unchanged payload. Older scripts without an exact registry entry keep their existing headers; provenance must never be guessed.
+Each mapped script carries one offline-readable title/artist line and a script-scoped details URL. The executable `Write-Host` payload contains no archival metadata, and migration evidence in [ArtworkHeaderMigration.json](../audit/ArtworkHeaderMigration.json) hash-locks the original header, the replacement header, and the unchanged payload. Older scripts without an exact registry entry keep their existing headers; provenance must never be guessed. Their whole-script hashes normalize only CRLF pairs to LF so Git's platform-specific checkout conversion does not create false drift; every other byte remains hash-locked.
 
 The corresponding third-party notices are:
 
@@ -181,7 +181,7 @@ The art-like candidates are `house` (9x4, 5 colors), `togglebit` (14x7, 7), `nur
 - [Bash Screensavers gallery](https://github.com/attogram/bash-screensavers/blob/4c3a4fc76fc8e073ca0f41bdea93c70ad1b6d6df/gallery/README.md) and [MIT license](https://github.com/attogram/bash-screensavers/blob/4c3a4fc76fc8e073ca0f41bdea93c70ad1b6d6df/LICENSE): `fireworks`, `tunnel`, `stars`, `alpha`, `pipes`, and `rain` are candidates for native PowerShell ports, not arbitrary static-frame captures.
 - [Bit ANSI fonts](https://github.com/paulilaaso/bit/tree/07c7c1c74396d0cfbc54b694f26d6308b93d509d/ansifonts/fonts) and [MIT repository license](https://github.com/paulilaaso/bit/blob/07c7c1c74396d0cfbc54b694f26d6308b93d509d/LICENSE): 125 bitmap fonts are useful generator inputs. Limit initial use to the 76 fonts explicitly marked CC0, OFL-1.1, 0BSD, or MIT; reject 36 ambiguous `CC-4.0` labels and defer GPL fonts.
 - [Candy Box 2 ASCII collection](https://github.com/candybox2/candybox2.github.io/tree/master/ascii) and [CC BY-SA 3.0 terms](https://candybox2.github.io/ascii_art.html): 297 cleanly licensed but monochrome files would require original editorial color design, so they are lower priority than native multicolor sources.
-- [Wikimedia Commons ANSI-art category](https://commons.wikimedia.org/wiki/Category\:ANSI_art): only 15 raster files with mixed per-file licenses. Treat each description page separately and prefer recoverable original ANSI streams over lossy screenshot conversion.
+- [Wikimedia Commons ANSI-art category](https://commons.wikimedia.org/wiki/Category:ANSI_art): only 15 raster files with mixed per-file licenses. Treat each description page separately and prefer recoverable original ANSI streams over lossy screenshot conversion.
 
 ## Collections Rejected for Redistribution
 
