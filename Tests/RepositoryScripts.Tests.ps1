@@ -123,6 +123,7 @@ Describe 'Release lint wiring' {
         $script:PublishWorkflowPath = Join-Path -Path $script:RepoRoot -ChildPath '.github/workflows/publish.yml'
         $script:LintScriptPath = Join-Path -Path $script:RepoRoot -ChildPath 'scripts/Lint-Module.ps1'
         $script:BuildScriptPath = Join-Path -Path $script:RepoRoot -ChildPath 'scripts/build.ps1'
+        $script:ChangelogValidatorPath = Join-Path -Path $script:RepoRoot -ChildPath 'scripts/Validate-Changelog.ps1'
     }
 
     It 'keeps verification non-mutating' {
@@ -151,6 +152,14 @@ Describe 'Release lint wiring' {
         Test-Path -LiteralPath (Join-Path -Path $moduleDocs -ChildPath 'artwork.html') | Should -BeFalse
         Test-Path -LiteralPath (Join-Path -Path $moduleDocs -ChildPath 'assets/artwork-provenance.json') | Should -BeFalse
         Test-Path -LiteralPath (Join-Path -Path $moduleDocs -ChildPath 'ColorScripts-Enhanced') | Should -BeFalse
+    }
+
+    It 'keeps compliant release-preparation commits out of generated changelog content' {
+        $validator = Get-Content -LiteralPath $script:ChangelogValidatorPath -Raw
+
+        $validator | Should -Match ([regex]::Escape('^🧹 \[chore\] Prepare release \d+(?:\.\d+){1,3}$'))
+        $validator | Should -Match ([regex]::Escape('$gitCliffArguments += ''--skip-commit'', $parts[0]'))
+        $validator | Should -Match ([regex]::Escape('$parts[0] -notmatch ''^[0-9a-f]{40}$'''))
     }
 
     It 'keeps analyzer isolation bounded and fail-closed' {

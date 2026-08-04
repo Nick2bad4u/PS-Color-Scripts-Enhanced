@@ -59,6 +59,34 @@ else {
     $gitCliffArguments += '--unreleased', '--tag', $tagName
 }
 
+$releaseBaseTag = if ($tagExists) {
+    & git describe --tags --abbrev=0 "${tagName}^"
+}
+else {
+    & git describe --tags --abbrev=0 HEAD
+}
+if ($LASTEXITCODE -ne 0 -or [string]::IsNullOrWhiteSpace($releaseBaseTag)) {
+    throw "Unable to determine the release base tag for $tagName."
+}
+$releaseBaseTag = $releaseBaseTag.Trim()
+
+$releaseCommitLines = @(& git log '--format=%H%x09%s' "$releaseBaseTag..HEAD")
+if ($LASTEXITCODE -ne 0) {
+    throw "Unable to inspect release preparation commits after $releaseBaseTag."
+}
+$releasePreparationPattern = '^🧹 \[chore\] Prepare release \d+(?:\.\d+){1,3}$'
+foreach ($line in $releaseCommitLines) {
+    $parts = $line -split "`t", 2
+    if ($parts.Count -ne 2 -or $parts[1] -notmatch $releasePreparationPattern) {
+        continue
+    }
+    if ($parts[0] -notmatch '^[0-9a-f]{40}$') {
+        throw "Invalid release preparation commit hash '$($parts[0])'."
+    }
+
+    $gitCliffArguments += '--skip-commit', $parts[0]
+}
+
 $currentNotes = & $gitCliff.Source @gitCliffArguments
 if ($LASTEXITCODE -ne 0) {
     throw "git-cliff failed to generate release notes for $tagName (exit code $LASTEXITCODE)."
