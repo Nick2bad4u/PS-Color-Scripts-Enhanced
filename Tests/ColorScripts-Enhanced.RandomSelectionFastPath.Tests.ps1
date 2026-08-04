@@ -109,7 +109,12 @@ Describe 'ColorScripts-Enhanced random selection fast path' {
                 param($Minimum, $Maximum)
 
                 $null = $Minimum
-                $Maximum - 1
+                for ($index = 0; $index -lt $Maximum; $index++) {
+                    if ($script:ScriptInventory[$index].BaseName -eq 'beta') {
+                        return $index
+                    }
+                }
+                throw 'The refreshed inventory did not contain beta.ps1.'
             }
 
             $selected = Get-RandomColorScriptInventoryRecord

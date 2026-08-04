@@ -34,11 +34,11 @@ Describe 'External and Updatable Help artifacts' {
             es      = 'Ninguna.'
             fr      = 'Aucune.'
             it      = 'Nessuna.'
-            ja      = 'ありません。'
+            ja      = -join @([char]0x3042, [char]0x308A, [char]0x307E, [char]0x305B, [char]0x3093, [char]0x3002)
             nl      = 'Geen.'
             pt      = 'Nenhuma.'
-            ru      = 'Нет.'
-            'zh-CN' = '无。'
+            ru      = -join @([char]0x041D, [char]0x0435, [char]0x0442, [char]0x002E)
+            'zh-CN' = -join @([char]0x65E0, [char]0x3002)
         }
     }
 
@@ -58,9 +58,9 @@ Describe 'External and Updatable Help artifacts' {
 
     It 'keeps every generated MAML example structured and free of PlatyPS fence sentinels' {
         $referenceParameterNames = @{}
-        [xml]$referenceDocument = Get-Content -LiteralPath (
-            Join-Path -Path $script:ModuleRoot -ChildPath "en-US/$($script:ModuleName)-help.xml"
-        ) -Raw
+        [xml]$referenceDocument = [System.IO.File]::ReadAllText((
+                Join-Path -Path $script:ModuleRoot -ChildPath "en-US/$($script:ModuleName)-help.xml"
+            ))
         foreach ($command in $referenceDocument.SelectNodes(
                 "//*[local-name()='command' and namespace-uri()='http://schemas.microsoft.com/maml/dev/command/2004/10']"
             )) {
@@ -134,7 +134,7 @@ Describe 'External and Updatable Help artifacts' {
             $markdownPath = Join-Path `
                 -Path $cultureRoot `
                 -ChildPath 'Export-ColorScriptMetadata.md'
-            $content = [System.IO.File]::ReadAllText($markdownPath)
+            $content = [System.IO.File]::ReadAllText($markdownPath) -replace "`r`n?", "`n"
             $notes = [regex]::Match(
                 $content,
                 '(?ms)^## NOTES\s*\r?\n(?<Body>.*?)(?=^## |\z)'
@@ -149,7 +149,7 @@ Describe 'External and Updatable Help artifacts' {
             $commonParameters | Should -Not -Match '(?m)^-(?:Debug|ProgressAction)' -Because $markdownPath
 
             foreach ($topic in Get-ChildItem -LiteralPath $cultureRoot -File -Filter '*.md') {
-                $topicContent = [System.IO.File]::ReadAllText($topic.FullName)
+                $topicContent = [System.IO.File]::ReadAllText($topic.FullName) -replace "`r`n?", "`n"
                 $topicContent | Should -Match (
                     '(?m)^ms\.date: {0}$' -f [regex]::Escape($script:MetadataDate)
                 ) -Because $topic.FullName
@@ -160,7 +160,7 @@ Describe 'External and Updatable Help artifacts' {
     It 'publishes one multi-culture HelpInfo file and one ZIP/CAB pair per culture' {
         $helpInfoName = '{0}_{1}_HelpInfo.xml' -f $script:ModuleName, $script:ModuleGuid
         $helpInfoPath = Join-Path -Path $script:PublishRoot -ChildPath $helpInfoName
-        [xml]$helpInfo = Get-Content -LiteralPath $helpInfoPath -Raw
+        [xml]$helpInfo = [System.IO.File]::ReadAllText($helpInfoPath)
         $namespace = New-Object System.Xml.XmlNamespaceManager($helpInfo.NameTable)
         $namespace.AddNamespace('help', 'http://schemas.microsoft.com/powershell/help/2010/05')
         $cultureNodes = @($helpInfo.SelectNodes('//help:UICulture', $namespace))
@@ -255,7 +255,7 @@ Describe 'External and Updatable Help artifacts' {
         $staleZipPath = Join-Path -Path $outputPath -ChildPath "$staleBaseName.zip"
         $staleCabinetPath = Join-Path -Path $outputPath -ChildPath "$staleBaseName.cab"
         $missingCabinetPath = $currentCabinetPaths[0]
-        $missingCabinetContent = Get-Content -LiteralPath $missingCabinetPath -Raw
+        $missingCabinetContent = [System.IO.File]::ReadAllText($missingCabinetPath)
         Remove-Item -LiteralPath $missingCabinetPath
         {
             & $script:UpdatableHelpBuilder `

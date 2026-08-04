@@ -312,6 +312,30 @@ function readArtworkProvenance(filePath = DEFAULT_PROVENANCE_PATH) {
 }
 
 /**
+ * Serialize parsed provenance without relying on PowerShell's version-specific
+ * data-file limits. The PascalCase shape intentionally mirrors the authoritative
+ * PSD1 so Windows PowerShell 5.1 verification can consume the same parsed data.
+ *
+ * @param {{
+ *     collections: ReadonlyMap<
+ *         string,
+ *         Readonly<Record<string, ProvenanceValue>>
+ *     >;
+ *     schemaVersion: number;
+ *     scripts: ReadonlyMap<string, Readonly<Record<string, ProvenanceValue>>>;
+ * }} provenance
+ *
+ * @returns {string}
+ */
+function serializeArtworkProvenanceJson(provenance) {
+    return JSON.stringify({
+        SchemaVersion: provenance.schemaVersion,
+        Collections: Object.fromEntries(provenance.collections),
+        Scripts: Object.fromEntries(provenance.scripts),
+    });
+}
+
+/**
  * @param {string} [filePath]
  *
  * @returns {Readonly<Record<string, unknown>>}
@@ -682,6 +706,7 @@ module.exports = {
     readArtworkHeaderMigration,
     readArtworkProvenance,
     sanitizeCompactHeaderValue,
+    serializeArtworkProvenanceJson,
     serializeArtworkProvenanceEntry,
     serializePowerShellScalar,
     serializePowerShellValue,

@@ -16,6 +16,7 @@ const {
     parseLeadingCommentHeader,
     readArtworkHeaderMigration,
     readArtworkProvenance,
+    serializeArtworkProvenanceJson,
     sha256,
     upsertArtworkProvenanceScriptEntries,
 } = require("../scripts/ArtworkProvenance.js");
@@ -198,6 +199,32 @@ test("shared provenance reader preserves supported PowerShell data types", () =>
         Artist: "Artist",
         HasSauce: true,
         SauceFlags: 2,
+    });
+});
+
+test("shared provenance reader serializes a PowerShell-compatible JSON view", () => {
+    const provenance = parseArtworkProvenance(createFixture());
+    assert.deepEqual(JSON.parse(serializeArtworkProvenanceJson(provenance)), {
+        SchemaVersion: 2,
+        Collections: {
+            example: {
+                DisplayName: "Example's collection",
+                Evidence: [
+                    "https://example.test/one",
+                    "https://example.test/two",
+                ],
+                License: "ISC",
+            },
+        },
+        Scripts: {
+            "example-art": {
+                Artist: "Artist",
+                Collection: "example",
+                HasSauce: true,
+                OriginalFilename: "ART.ANS",
+                SauceFlags: 2,
+            },
+        },
     });
 });
 

@@ -1,3 +1,25 @@
+function script:Read-JsonFile {
+    param([Parameter(Mandatory)][string]$LiteralPath)
+
+    $content = [System.IO.File]::ReadAllText($LiteralPath)
+    $convertFromJson = Get-Command -Name ConvertFrom-Json
+    if ($convertFromJson.Parameters.ContainsKey('Depth')) {
+        return $content | ConvertFrom-Json -Depth 100
+    }
+
+    return $content | ConvertFrom-Json
+}
+
+function script:ConvertTo-NamedHashtable {
+    param([Parameter(Mandatory)][psobject]$InputObject)
+
+    $result = @{}
+    foreach ($property in $InputObject.PSObject.Properties) {
+        $result[$property.Name] = $property.Value
+    }
+    return $result
+}
+
 Describe 'Curated ANSI artwork provenance' {
     BeforeAll {
         $script:RepoRoot = (Resolve-Path -LiteralPath (Join-Path -Path $PSScriptRoot -ChildPath '..')).ProviderPath
@@ -6,10 +28,36 @@ Describe 'Curated ANSI artwork provenance' {
         $script:AuditRoot = Join-Path -Path $script:RepoRoot -ChildPath 'audit'
         $script:ProvenancePath = Join-Path -Path $script:AuditRoot -ChildPath 'ArtworkProvenance.psd1'
         $script:CheckpointPath = Join-Path -Path $script:AuditRoot -ChildPath 'AnsiArchiveCurationCheckpoint.json'
-        # The trusted, checked-in provenance map intentionally exceeds
-        # Import-PowerShellDataFile's conservative default AST-size limit.
-        $script:Provenance = Import-PowerShellDataFile -Path $script:ProvenancePath -SkipLimitCheck
-        $script:Checkpoint = Get-Content -Raw -LiteralPath $script:CheckpointPath | ConvertFrom-Json -Depth 100
+        # Windows PowerShell 5.1 has neither Import-PowerShellDataFile's
+        # SkipLimitCheck parameter nor reliable UTF-8 parsing for BOM-less
+        # data files. Use the shared fail-closed Node reader on every engine,
+        # then adapt only the two named maps to PowerShell hashtables.
+        $readerPath = Join-Path -Path $script:RepoRoot -ChildPath 'scripts/ArtworkProvenance.js'
+        $jsonPath = Join-Path -Path ([System.IO.Path]::GetTempPath()) -ChildPath (
+            'artwork-provenance-{0}.json' -f [guid]::NewGuid().ToString('N')
+        )
+        $jsonAdapter = @'
+const fs = require('node:fs');
+const reader = require(process.argv[1]);
+const provenance = reader.readArtworkProvenance(process.argv[2]);
+fs.writeFileSync(process.argv[3], reader.serializeArtworkProvenanceJson(provenance), 'utf8');
+'@
+        try {
+            & node -e $jsonAdapter $readerPath $script:ProvenancePath $jsonPath
+            if ($LASTEXITCODE -ne 0) {
+                throw "The shared artwork provenance reader failed with exit code $LASTEXITCODE."
+            }
+            $provenanceDocument = Read-JsonFile -LiteralPath $jsonPath
+        }
+        finally {
+            [System.IO.File]::Delete($jsonPath)
+        }
+        $script:Provenance = @{
+            SchemaVersion = $provenanceDocument.SchemaVersion
+            Collections   = ConvertTo-NamedHashtable -InputObject $provenanceDocument.Collections
+            Scripts       = ConvertTo-NamedHashtable -InputObject $provenanceDocument.Scripts
+        }
+        $script:Checkpoint = Read-JsonFile -LiteralPath $script:CheckpointPath
         $script:ImportedPrefixes = @('16c-', 'asciiville-', 'botany-', 'durdraw-', 'os-ansi-', 'roy-sac-')
         $script:ImportedScriptFiles = @(Get-ChildItem -LiteralPath $script:ScriptsRoot -File -Filter '*.ps1' | Where-Object {
                 $name = $_.BaseName

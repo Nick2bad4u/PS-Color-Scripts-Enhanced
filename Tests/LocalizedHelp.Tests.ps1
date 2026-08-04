@@ -1,5 +1,12 @@
 Set-StrictMode -Version Latest
 
+function script:Read-Utf8TextFile {
+    param([Parameter(Mandatory)][string]$LiteralPath)
+
+    $strictUtf8 = [System.Text.UTF8Encoding]::new($false, $true)
+    return [System.IO.File]::ReadAllText($LiteralPath, $strictUtf8)
+}
+
 function script:Get-MarkdownCodeBlock {
     param([Parameter(Mandatory)][string]$Content)
 
@@ -253,8 +260,8 @@ Describe 'Localized command help integrity' {
         foreach ($cultureName in $script:CultureNames) {
             foreach ($englishPath in Get-ChildItem -LiteralPath $script:EnglishRoot -Filter '*.md' -File) {
                 $localizedPath = Join-Path -Path (Join-Path -Path $script:HelpRoot -ChildPath $cultureName) -ChildPath $englishPath.Name
-                $englishContent = Get-Content -LiteralPath $englishPath.FullName -Raw
-                $localizedContent = Get-Content -LiteralPath $localizedPath -Raw
+                $englishContent = Read-Utf8TextFile -LiteralPath $englishPath.FullName
+                $localizedContent = Read-Utf8TextFile -LiteralPath $localizedPath
 
                 $localizedHeadings = @(Get-MarkdownHeading -Content $localizedContent)
                 $englishHeadings = @(Get-MarkdownHeading -Content $englishContent)
@@ -290,8 +297,8 @@ Describe 'Localized command help integrity' {
 
             $englishAboutPath = Join-Path -Path $script:EnglishRoot -ChildPath 'about_ColorScripts-Enhanced.help.txt'
             $localizedAboutPath = Join-Path -Path (Join-Path -Path $script:HelpRoot -ChildPath $cultureName) -ChildPath 'about_ColorScripts-Enhanced.help.txt'
-            @(Get-AboutTechnicalToken -Content (Get-Content -LiteralPath $localizedAboutPath -Raw)) |
-                Should -BeExactly @(Get-AboutTechnicalToken -Content (Get-Content -LiteralPath $englishAboutPath -Raw)) -Because $localizedAboutPath
+            @(Get-AboutTechnicalToken -Content (Read-Utf8TextFile -LiteralPath $localizedAboutPath)) |
+                Should -BeExactly @(Get-AboutTechnicalToken -Content (Read-Utf8TextFile -LiteralPath $englishAboutPath)) -Because $localizedAboutPath
         }
     }
 
@@ -299,13 +306,13 @@ Describe 'Localized command help integrity' {
         $failures = New-Object 'System.Collections.Generic.List[string]'
         foreach ($englishPath in Get-ChildItem -LiteralPath $script:EnglishRoot -Filter '*.md' -File) {
             $englishLines = @{}
-            foreach ($entry in Get-TranslatableLine -Content (Get-Content -LiteralPath $englishPath.FullName -Raw)) {
+            foreach ($entry in Get-TranslatableLine -Content (Read-Utf8TextFile -LiteralPath $englishPath.FullName)) {
                 $englishLines[$entry.Text] = $true
             }
 
             foreach ($cultureName in $script:CultureNames) {
                 $localizedPath = Join-Path -Path (Join-Path -Path $script:HelpRoot -ChildPath $cultureName) -ChildPath $englishPath.Name
-                $localizedContent = Get-Content -LiteralPath $localizedPath -Raw
+                $localizedContent = Read-Utf8TextFile -LiteralPath $localizedPath
                 foreach ($entry in Get-TranslatableLine -Content $localizedContent) {
                     if ($englishLines.ContainsKey($entry.Text)) {
                         [void]$failures.Add("$localizedPath`:$($entry.LineNumber): $($entry.Text)")
@@ -321,12 +328,12 @@ Describe 'Localized command help integrity' {
 
         $englishAboutPath = Join-Path -Path $script:EnglishRoot -ChildPath 'about_ColorScripts-Enhanced.help.txt'
         $englishAboutLines = @{}
-        foreach ($entry in Get-AboutTranslatableLine -Content (Get-Content -LiteralPath $englishAboutPath -Raw)) {
+        foreach ($entry in Get-AboutTranslatableLine -Content (Read-Utf8TextFile -LiteralPath $englishAboutPath)) {
             $englishAboutLines[$entry.Text] = $true
         }
         foreach ($cultureName in $script:CultureNames) {
             $localizedAboutPath = Join-Path -Path (Join-Path -Path $script:HelpRoot -ChildPath $cultureName) -ChildPath 'about_ColorScripts-Enhanced.help.txt'
-            foreach ($entry in Get-AboutTranslatableLine -Content (Get-Content -LiteralPath $localizedAboutPath -Raw)) {
+            foreach ($entry in Get-AboutTranslatableLine -Content (Read-Utf8TextFile -LiteralPath $localizedAboutPath)) {
                 if ($englishAboutLines.ContainsKey($entry.Text)) {
                     [void]$failures.Add("$localizedAboutPath`:$($entry.LineNumber): $($entry.Text)")
                 }
