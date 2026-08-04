@@ -1,9 +1,9 @@
-name: Publish
+name: "Publish"
 
 env:
     PESTER_VERSION: "6.0.1"
     PSSCRIPTANALYZER_VERSION: "1.25.0"
-    PLATYPS_VERSION: "1.0.2"
+    PLATYPS_VERSION: "1.0.3"
 
 on:
     workflow_dispatch:
@@ -21,7 +21,7 @@ on:
                 required: false
                 default: "true"
     release:
-        types: [published]
+        types: ["published"]
     workflow_call:
         secrets:
             PSGALLERYAPIKEY:
@@ -30,38 +30,38 @@ on:
                 required: false
 
 permissions:
-    contents: read
+    contents: "read"
 
 concurrency:
-    group: publish-${{ github.sha }}
+    group: "publish-${{ github.sha }}"
     cancel-in-progress: true
 
 jobs:
     validate-and-publish:
-        name: Validate and Publish
+        name: "Validate and Publish"
         permissions:
-            contents: write
-        runs-on: windows-latest
+            contents: "write"
+        runs-on: "windows-latest"
         env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-            PSGALLERYAPIKEY: ${{ secrets.PSGALLERYAPIKEY }}
-            NUGETAPIKEY: ${{ secrets.NUGETAPIKEY }}
-            PUBLISH_TO_NUGET_INPUT: ${{ github.event.inputs.publishToNuGet }}
-            CREATE_RELEASE_INPUT: ${{ github.event.inputs.createRelease }}
+            GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+            PSGALLERYAPIKEY: "${{ secrets.PSGALLERYAPIKEY }}"
+            NUGETAPIKEY: "${{ secrets.NUGETAPIKEY }}"
+            PUBLISH_TO_NUGET_INPUT: "${{ github.event.inputs.publishToNuGet }}"
+            CREATE_RELEASE_INPUT: "${{ github.event.inputs.createRelease }}"
         steps:
-            - name: Harden the runner (Audit all outbound calls)
-              uses: step-security/harden-runner@9af89fc71515a100421586dfdb3dc9c984fbf411 # v2.19.4
+            - name: "Harden the runner (Audit all outbound calls)"
+              uses: "step-security/harden-runner@bf7454d06d71f1098171f2acdf0cd4708d7b5920" # v2.20.0
               with:
-                  egress-policy: audit
+                  egress-policy: "audit"
 
-            - name: Checkout
-              uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+            - name: "Checkout"
+              uses: "actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1" # v7.0.1
               with:
-                  ref: ${{ github.sha }}
+                  ref: "${{ github.sha }}"
                   fetch-depth: 0
                   fetch-tags: true
 
-            - name: Install quality tools
+            - name: "Install quality tools"
               run: |
                   Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
                   if (-not (Get-Module -ListAvailable -Name Pester | Where-Object Version -EQ $env:PESTER_VERSION)) {
@@ -73,26 +73,26 @@ jobs:
                   if (-not (Get-Module -ListAvailable -Name Microsoft.PowerShell.PlatyPS | Where-Object Version -EQ $env:PLATYPS_VERSION)) {
                       Install-Module -Name Microsoft.PowerShell.PlatyPS -RequiredVersion $env:PLATYPS_VERSION -Force -SkipPublisherCheck
                   }
-              shell: pwsh
+              shell: "pwsh"
 
-            - name: Set up Node
-              id: setup-node
-              uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6.4.0
+            - name: "Set up Node"
+              id: "setup-node"
+              uses: "actions/setup-node@820762786026740c76f36085b0efc47a31fe5020" # v7.0.0
               with:
-                  node-version-file: .node-version
-                  cache: npm
-                  cache-dependency-path: package-lock.json
+                  node-version-file: ".node-version"
+                  cache: "npm"
+                  cache-dependency-path: "package-lock.json"
 
-            - name: Install dependencies
+            - name: "Install dependencies"
               run: |
                   npm ci --force
-              shell: pwsh
+              shell: "pwsh"
 
-            - name: Build module
+            - name: "Build module"
               env:
-                  EVENT_NAME: ${{ github.event_name }}
-                  RELEASE_TAG: ${{ github.event.release.tag_name }}
-                  VERSION_OVERRIDE: ${{ github.event.inputs.versionOverride }}
+                  EVENT_NAME: "${{ github.event_name }}"
+                  RELEASE_TAG: "${{ github.event.release.tag_name }}"
+                  VERSION_OVERRIDE: "${{ github.event.inputs.versionOverride }}"
               run: |
                   $requestedVersion = if ($env:EVENT_NAME -eq 'release') {
                       $env:RELEASE_TAG -replace '^[vV]', ''
@@ -124,22 +124,22 @@ jobs:
                           throw "npm run $scriptName failed with exit code $LASTEXITCODE."
                       }
                   }
-              shell: pwsh
+              shell: "pwsh"
 
-            - name: Run Script Analyzer
-              run: pwsh -NoProfile -File ./scripts/Lint-Module.ps1 -TreatWarningsAsErrors
-              shell: pwsh
+            - name: "Run Script Analyzer"
+              run: "pwsh -NoProfile -File ./scripts/Lint-Module.ps1 -TreatWarningsAsErrors"
+              shell: "pwsh"
 
-            - name: Run Pester tests
+            - name: "Run Pester tests"
               run: |
                   npm run test:pester
-              shell: pwsh
+              shell: "pwsh"
 
-            - name: Verify manifest version
-              id: manifest
+            - name: "Verify manifest version"
+              id: "manifest"
               env:
-                  VERSION_OVERRIDE: ${{ github.event.inputs.versionOverride }}
-              shell: pwsh
+                  VERSION_OVERRIDE: "${{ github.event.inputs.versionOverride }}"
+              shell: "pwsh"
               run: |
                   $manifest = Test-ModuleManifest -Path ./ColorScripts-Enhanced/ColorScripts-Enhanced.psd1
                   $version = $manifest.Version.ToString()
@@ -167,8 +167,8 @@ jobs:
                       }
                   }
 
-            - name: Package module
-              id: package
+            - name: "Package module"
+              id: "package"
               run: |
                   Import-Module PowerShellGet -ErrorAction Stop
 
@@ -205,16 +205,16 @@ jobs:
                   "packagePath=$($package.FullName)" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
                   "packageName=$($package.Name)" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
                   Write-Host "Packaged module to: $($package.FullName)"
-              shell: pwsh
+              shell: "pwsh"
 
-            - name: Normalize NuGet metadata
-              run: pwsh -NoProfile -File ./scripts/Update-NuGetPackageMetadata.ps1 -PackagePath '${{ steps.package.outputs.packagePath }}'
-              shell: pwsh
+            - name: "Normalize NuGet metadata"
+              run: "pwsh -NoProfile -File ./scripts/Update-NuGetPackageMetadata.ps1 -PackagePath '${{ steps.package.outputs.packagePath }}'"
+              shell: "pwsh"
 
-            - name: Prepare expected release tag for non-release runs
-              if: ${{ github.event_name != 'release' && (github.event_name != 'workflow_dispatch' || env.CREATE_RELEASE_INPUT != 'false') }}
+            - name: "Prepare expected release tag for non-release runs"
+              if: "${{ github.event_name != 'release' && (github.event_name != 'workflow_dispatch' || env.CREATE_RELEASE_INPUT != 'false') }}"
               env:
-                  EXPECTED_TAG: v${{ steps.manifest.outputs.version }}
+                  EXPECTED_TAG: "v${{ steps.manifest.outputs.version }}"
               run: |
                   $ErrorActionPreference = 'Stop'
                   $expectedTag = $env:EXPECTED_TAG
@@ -245,12 +245,12 @@ jobs:
                       Write-Output "::error::Failed to create expected release tag $expectedTag at HEAD."
                       exit 1
                   }
-              shell: pwsh
+              shell: "pwsh"
 
-            - name: Validate expected release tag
-              if: ${{ github.event_name != 'workflow_dispatch' || env.CREATE_RELEASE_INPUT != 'false' }}
+            - name: "Validate expected release tag"
+              if: "${{ github.event_name != 'workflow_dispatch' || env.CREATE_RELEASE_INPUT != 'false' }}"
               env:
-                  EXPECTED_TAG: v${{ steps.manifest.outputs.version }}
+                  EXPECTED_TAG: "v${{ steps.manifest.outputs.version }}"
               run: |
                   $ErrorActionPreference = 'Stop'
                   $expectedTag = $env:EXPECTED_TAG
@@ -295,13 +295,13 @@ jobs:
                       Write-Output "::error::HEAD must have exactly the expected release tag $expectedTag; found: $foundTags."
                       exit 1
                   }
-              shell: pwsh
+              shell: "pwsh"
 
-            - name: Generate release notes
-              if: ${{ github.event_name != 'workflow_dispatch' || env.CREATE_RELEASE_INPUT != 'false' }}
-              id: release-notes
+            - name: "Generate release notes"
+              if: "${{ github.event_name != 'workflow_dispatch' || env.CREATE_RELEASE_INPUT != 'false' }}"
+              id: "release-notes"
               env:
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                  GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
               run: |
                   $version = '${{ steps.manifest.outputs.version }}'
                   Write-Host "Generating release notes for version $version"
@@ -338,24 +338,24 @@ jobs:
                   Write-Host "------------------------"
 
                   "notesFile=$notesFile" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
-              shell: pwsh
+              shell: "pwsh"
 
-            - name: Create GitHub Release
-              if: ${{ github.event_name != 'workflow_dispatch' || env.CREATE_RELEASE_INPUT != 'false' }}
-              uses: ncipollo/release-action@339a81892b84b4eeb0f6e744e4574d79d0d9b8dd # v1.21.0
+            - name: "Create GitHub Release"
+              if: "${{ github.event_name != 'workflow_dispatch' || env.CREATE_RELEASE_INPUT != 'false' }}"
+              uses: "ncipollo/release-action@339a81892b84b4eeb0f6e744e4574d79d0d9b8dd" # v1.21.0
               with:
-                  tag: v${{ steps.manifest.outputs.version }}
-                  commit: ${{ github.sha }}
-                  name: Release v${{ steps.manifest.outputs.version }}
-                  bodyFile: ${{ steps.release-notes.outputs.notesFile }}
-                  artifacts: ${{ steps.package.outputs.packagePath }}
+                  tag: "v${{ steps.manifest.outputs.version }}"
+                  commit: "${{ github.sha }}"
+                  name: "Release v${{ steps.manifest.outputs.version }}"
+                  bodyFile: "${{ steps.release-notes.outputs.notesFile }}"
+                  artifacts: "${{ steps.package.outputs.packagePath }}"
                   draft: false
                   prerelease: false
                   allowUpdates: true
                   updateOnlyUnreleased: false
                   skipIfReleaseExists: false
 
-            - name: Publish to PowerShell Gallery
+            - name: "Publish to PowerShell Gallery"
               run: |
                   $packagePath = '${{ steps.package.outputs.packagePath }}'
                   if (-not (Test-Path $packagePath)) {
@@ -370,10 +370,10 @@ jobs:
 
                   Write-Host "Publishing $packagePath to PowerShell Gallery"
                   dotnet nuget push $packagePath --api-key $apiKey --source https://www.powershellgallery.com/api/v2/package --skip-duplicate
-              shell: pwsh
+              shell: "pwsh"
 
-            - name: Publish to NuGet.org
-              if: ${{ env.NUGETAPIKEY != '' && (github.event_name != 'workflow_dispatch' || env.PUBLISH_TO_NUGET_INPUT != 'false') }}
+            - name: "Publish to NuGet.org"
+              if: "${{ env.NUGETAPIKEY != '' && (github.event_name != 'workflow_dispatch' || env.PUBLISH_TO_NUGET_INPUT != 'false') }}"
               run: |
                   $packagePath = '${{ steps.package.outputs.packagePath }}'
                   if (-not (Test-Path $packagePath)) {
@@ -388,4 +388,4 @@ jobs:
 
                   Write-Host "Publishing $packagePath to NuGet.org"
                   dotnet nuget push $packagePath --api-key $apiKey --source https://api.nuget.org/v3/index.json --skip-duplicate
-              shell: pwsh
+              shell: "pwsh"

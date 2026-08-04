@@ -1,221 +1,222 @@
 on:
     push:
         branches:
-            - main
-            - dev
+            - "main"
+            - "dev"
     pull_request:
         branches:
-            - main
+            - "main"
     workflow_dispatch:
 
-name: Tests
+name: "Tests"
 
 env:
     PESTER_VERSION: "6.0.1"
+    PSSCRIPTANALYZER_VERSION: "1.25.0"
 
 permissions:
-    contents: read
+    contents: "read"
 
 jobs:
     ansi-conversion:
-        name: ANSI conversion safety (${{ matrix.os }})
-        runs-on: ${{ matrix.os }}
+        name: "ANSI conversion safety (${{ matrix.os }})"
+        runs-on: "${{ matrix.os }}"
         strategy:
             fail-fast: false
             matrix:
                 os:
-                    - windows-latest
-                    - ubuntu-latest
-                    - macos-latest
+                    - "windows-latest"
+                    - "ubuntu-latest"
+                    - "macos-latest"
         steps:
-            - name: Harden the runner (Audit all outbound calls)
-              uses: step-security/harden-runner@9af89fc71515a100421586dfdb3dc9c984fbf411 # v2.19.4
+            - name: "Harden the runner (Audit all outbound calls)"
+              uses: "step-security/harden-runner@bf7454d06d71f1098171f2acdf0cd4708d7b5920" # v2.20.0
               with:
-                  egress-policy: audit
+                  egress-policy: "audit"
 
-            - name: Checkout repository
-              uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+            - name: "Checkout repository"
+              uses: "actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1" # v7.0.1
 
-            - name: Set up Node.js
-              uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6.4.0
+            - name: "Set up Node.js"
+              uses: "actions/setup-node@820762786026740c76f36085b0efc47a31fe5020" # v7.0.0
               with:
-                  node-version-file: .node-version
-                  cache: npm
-                  cache-dependency-path: package-lock.json
+                  node-version-file: ".node-version"
+                  cache: "npm"
+                  cache-dependency-path: "package-lock.json"
 
-            - name: Install Node.js dependencies
-              shell: pwsh
-              run: npm ci --force
+            - name: "Install Node.js dependencies"
+              shell: "pwsh"
+              run: "npm ci --force"
 
-            - name: Run ANSI conversion tests
-              shell: pwsh
-              run: npm run test:conversion
+            - name: "Run ANSI conversion tests"
+              shell: "pwsh"
+              run: "npm run test:conversion"
 
-            - name: Run ANSI gallery integrity analysis
-              if: matrix.os == 'ubuntu-latest'
-              shell: pwsh
-              run: npm run ansi:gallery-analysis:check
+            - name: "Run ANSI gallery integrity analysis"
+              if: "matrix.os == 'ubuntu-latest'"
+              shell: "pwsh"
+              run: "npm run ansi:gallery-analysis:check"
 
     windows-powershell:
-        name: Windows PowerShell 5.1
-        runs-on: windows-latest
+        name: "Windows PowerShell 5.1"
+        runs-on: "windows-latest"
         env:
             CI: true
         steps:
-            - name: Harden the runner (Audit all outbound calls)
-              uses: step-security/harden-runner@9af89fc71515a100421586dfdb3dc9c984fbf411 # v2.19.4
+            - name: "Harden the runner (Audit all outbound calls)"
+              uses: "step-security/harden-runner@bf7454d06d71f1098171f2acdf0cd4708d7b5920" # v2.20.0
               with:
-                  egress-policy: audit
+                  egress-policy: "audit"
 
-            - name: Checkout repository
-              uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+            - name: "Checkout repository"
+              uses: "actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1" # v7.0.1
 
-            - name: Set up Node.js
-              uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6.4.0
+            - name: "Set up Node.js"
+              uses: "actions/setup-node@820762786026740c76f36085b0efc47a31fe5020" # v7.0.0
               with:
-                  node-version-file: .node-version
-                  cache: npm
-                  cache-dependency-path: package-lock.json
+                  node-version-file: ".node-version"
+                  cache: "npm"
+                  cache-dependency-path: "package-lock.json"
 
-            - name: Install Node.js runtime dependencies
-              shell: powershell
-              run: npm ci --force --omit=dev --ignore-scripts
+            - name: "Install Node.js runtime dependencies"
+              shell: "powershell"
+              run: "npm ci --force --omit=dev --ignore-scripts"
 
-            - name: Install dependencies
-              shell: powershell
+            - name: "Install dependencies"
+              shell: "powershell"
               run: |
                   Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
                   if (-not (Get-Module -ListAvailable -Name Pester | Where-Object Version -EQ $env:PESTER_VERSION)) {
                       Install-Module -Name Pester -RequiredVersion $env:PESTER_VERSION -Force -SkipPublisherCheck
                   }
-                  if (-not (Get-Module -ListAvailable -Name PSScriptAnalyzer)) {
-                      Install-Module -Name PSScriptAnalyzer -Force -SkipPublisherCheck
+                  if (-not (Get-Module -ListAvailable -Name PSScriptAnalyzer | Where-Object Version -EQ $env:PSSCRIPTANALYZER_VERSION)) {
+                      Install-Module -Name PSScriptAnalyzer -RequiredVersion $env:PSSCRIPTANALYZER_VERSION -Force -SkipPublisherCheck
                   }
 
-            - name: Run Pester tests with coverage
-              shell: powershell
+            - name: "Run Pester tests with coverage"
+              shell: "powershell"
               run: |
                   ./scripts/Test-Coverage.ps1 -CI -Verbosity Minimal
 
-            - name: Upload test results
-              if: always()
-              uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+            - name: "Upload test results"
+              if: "always()"
+              uses: "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a" # v7.0.1
               with:
-                  name: test-results-windows-51
-                  path: testResults.junit.xml
+                  name: "test-results-windows-51"
+                  path: "testResults.junit.xml"
 
-            - name: Upload coverage results
-              if: always()
-              uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+            - name: "Upload coverage results"
+              if: "always()"
+              uses: "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a" # v7.0.1
               with:
-                  name: coverage-windows-51
-                  path: coverage.xml
+                  name: "coverage-windows-51"
+                  path: "coverage.xml"
 
-            - name: Upload coverage to Codecov
-              uses: codecov/codecov-action@fb8b3582c8e4def4969c97caa2f19720cb33a72f # v7.0.0
+            - name: "Upload coverage to Codecov"
+              uses: "codecov/codecov-action@fb8b3582c8e4def4969c97caa2f19720cb33a72f" # v7.0.0
               with:
-                  files: ./coverage.xml
-                  flags: windows-powershell-51
-                  name: windows-powershell-51
+                  files: "./coverage.xml"
+                  flags: "windows-powershell-51"
+                  name: "windows-powershell-51"
 
-            - name: Upload test results to Codecov
-              if: ${{ !cancelled() }}
-              uses: codecov/test-results-action@0fa95f0e1eeaafde2c782583b36b28ad0d8c77d3 # v1.2.1
+            - name: "Upload test results to Codecov"
+              if: "${{ !cancelled() }}"
+              uses: "codecov/test-results-action@0fa95f0e1eeaafde2c782583b36b28ad0d8c77d3" # v1.2.1
               with:
-                  token: ${{ secrets.CODECOV_TOKEN }}
-                  files: ./testResults.junit.xml
+                  token: "${{ secrets.CODECOV_TOKEN }}"
+                  files: "./testResults.junit.xml"
 
-            - name: Validate help topics
-              shell: powershell
+            - name: "Validate help topics"
+              shell: "powershell"
               run: |
                   Import-Module ./ColorScripts-Enhanced -Force
                   Get-Help Show-ColorScript
                   Get-Help about_ColorScripts-Enhanced
 
     pwsh-cross-platform:
-        name: PowerShell 7 (${{ matrix.os }})
-        runs-on: ${{ matrix.os }}
+        name: "PowerShell 7 (${{ matrix.os }})"
+        runs-on: "${{ matrix.os }}"
         env:
             CI: true
         strategy:
             fail-fast: false
             matrix:
                 os:
-                    - windows-latest
-                    - ubuntu-latest
-                    - macos-latest
+                    - "windows-latest"
+                    - "ubuntu-latest"
+                    - "macos-latest"
         steps:
-            - name: Harden the runner (Audit all outbound calls)
-              uses: step-security/harden-runner@9af89fc71515a100421586dfdb3dc9c984fbf411 # v2.19.4
+            - name: "Harden the runner (Audit all outbound calls)"
+              uses: "step-security/harden-runner@bf7454d06d71f1098171f2acdf0cd4708d7b5920" # v2.20.0
               with:
-                  egress-policy: audit
+                  egress-policy: "audit"
 
-            - name: Checkout repository
-              uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+            - name: "Checkout repository"
+              uses: "actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1" # v7.0.1
 
-            - name: Set up Node.js
-              uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6.4.0
+            - name: "Set up Node.js"
+              uses: "actions/setup-node@820762786026740c76f36085b0efc47a31fe5020" # v7.0.0
               with:
-                  node-version-file: .node-version
-                  cache: npm
-                  cache-dependency-path: package-lock.json
+                  node-version-file: ".node-version"
+                  cache: "npm"
+                  cache-dependency-path: "package-lock.json"
 
-            - name: Install Node.js runtime dependencies
-              shell: pwsh
-              run: npm ci --force --omit=dev --ignore-scripts
+            - name: "Install Node.js runtime dependencies"
+              shell: "pwsh"
+              run: "npm ci --force --omit=dev --ignore-scripts"
 
-            - name: Verify PowerShell version
-              shell: pwsh
+            - name: "Verify PowerShell version"
+              shell: "pwsh"
               run: |
                   $PSVersionTable.PSVersion
                   Write-Host "PowerShell $($PSVersionTable.PSVersion) detected"
 
-            - name: Install dependencies
-              shell: pwsh
+            - name: "Install dependencies"
+              shell: "pwsh"
               run: |
                   Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
                   if (-not (Get-Module -ListAvailable -Name Pester | Where-Object Version -EQ $env:PESTER_VERSION)) {
                       Install-Module -Name Pester -RequiredVersion $env:PESTER_VERSION -Force -SkipPublisherCheck
                   }
-                  if (-not (Get-Module -ListAvailable -Name PSScriptAnalyzer)) {
-                      Install-Module -Name PSScriptAnalyzer -Force -SkipPublisherCheck
+                  if (-not (Get-Module -ListAvailable -Name PSScriptAnalyzer | Where-Object Version -EQ $env:PSSCRIPTANALYZER_VERSION)) {
+                      Install-Module -Name PSScriptAnalyzer -RequiredVersion $env:PSSCRIPTANALYZER_VERSION -Force -SkipPublisherCheck
                   }
 
-            - name: Run Pester tests with coverage
-              shell: pwsh
+            - name: "Run Pester tests with coverage"
+              shell: "pwsh"
               run: |
                   npm run test:coverage:ci
 
-            - name: Upload test results
-              if: always()
-              uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+            - name: "Upload test results"
+              if: "always()"
+              uses: "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a" # v7.0.1
               with:
-                  name: test-results-${{ matrix.os }}-pwsh
-                  path: testResults.junit.xml
+                  name: "test-results-${{ matrix.os }}-pwsh"
+                  path: "testResults.junit.xml"
 
-            - name: Upload coverage results
-              if: always()
-              uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+            - name: "Upload coverage results"
+              if: "always()"
+              uses: "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a" # v7.0.1
               with:
-                  name: test-coverage-${{ matrix.os }}-pwsh
-                  path: coverage.xml
+                  name: "test-coverage-${{ matrix.os }}-pwsh"
+                  path: "coverage.xml"
 
-            - name: Upload coverage to Codecov
-              uses: codecov/codecov-action@fb8b3582c8e4def4969c97caa2f19720cb33a72f # v7.0.0
+            - name: "Upload coverage to Codecov"
+              uses: "codecov/codecov-action@fb8b3582c8e4def4969c97caa2f19720cb33a72f" # v7.0.0
               with:
-                  files: ./coverage.xml
-                  flags: pwsh-${{ matrix.os }}
-                  name: pwsh-${{ matrix.os }}
+                  files: "./coverage.xml"
+                  flags: "pwsh-${{ matrix.os }}"
+                  name: "pwsh-${{ matrix.os }}"
 
-            - name: Upload test results to Codecov
-              if: ${{ !cancelled() }}
-              uses: codecov/test-results-action@0fa95f0e1eeaafde2c782583b36b28ad0d8c77d3 # v1.2.1
+            - name: "Upload test results to Codecov"
+              if: "${{ !cancelled() }}"
+              uses: "codecov/test-results-action@0fa95f0e1eeaafde2c782583b36b28ad0d8c77d3" # v1.2.1
               with:
-                  token: ${{ secrets.CODECOV_TOKEN }}
-                  files: ./testResults.junit.xml
+                  token: "${{ secrets.CODECOV_TOKEN }}"
+                  files: "./testResults.junit.xml"
 
-            - name: Run script analyzer
-              shell: pwsh
+            - name: "Run script analyzer"
+              shell: "pwsh"
               run: |
                   Import-Module PSScriptAnalyzer
                   # Analyze module files (exclude Scripts folder with colorscripts)
@@ -234,47 +235,47 @@ jobs:
                       throw 'ScriptAnalyzer reported findings in module files.'
                   }
 
-            - name: Validate help topics
-              shell: pwsh
+            - name: "Validate help topics"
+              shell: "pwsh"
               run: |
                   Import-Module ./ColorScripts-Enhanced -Force
                   Get-Help Show-ColorScript
                   Get-Help about_ColorScripts-Enhanced
 
     pwsh-preview:
-        name: PowerShell Preview (ubuntu)
-        runs-on: ubuntu-latest
+        name: "PowerShell Preview (ubuntu)"
+        runs-on: "ubuntu-latest"
         container:
-            image: mcr.microsoft.com/powershell:preview
+            image: "mcr.microsoft.com/powershell:preview"
         env:
             CI: true
         steps:
-            - name: Harden the runner (Audit all outbound calls)
-              uses: step-security/harden-runner@9af89fc71515a100421586dfdb3dc9c984fbf411 # v2.19.4
+            - name: "Harden the runner (Audit all outbound calls)"
+              uses: "step-security/harden-runner@bf7454d06d71f1098171f2acdf0cd4708d7b5920" # v2.20.0
               with:
-                  egress-policy: audit
+                  egress-policy: "audit"
 
-            - name: Checkout repository
-              uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+            - name: "Checkout repository"
+              uses: "actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1" # v7.0.1
 
-            - name: Install PowerShell module dependencies
-              shell: pwsh
+            - name: "Install PowerShell module dependencies"
+              shell: "pwsh"
               run: |
                   Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
                   if (-not (Get-Module -ListAvailable -Name Pester | Where-Object Version -EQ $env:PESTER_VERSION)) {
                       Install-Module -Name Pester -RequiredVersion $env:PESTER_VERSION -Force -SkipPublisherCheck
                   }
-                  if (-not (Get-Module -ListAvailable -Name PSScriptAnalyzer)) {
-                      Install-Module -Name PSScriptAnalyzer -Force -SkipPublisherCheck
+                  if (-not (Get-Module -ListAvailable -Name PSScriptAnalyzer | Where-Object Version -EQ $env:PSSCRIPTANALYZER_VERSION)) {
+                      Install-Module -Name PSScriptAnalyzer -RequiredVersion $env:PSSCRIPTANALYZER_VERSION -Force -SkipPublisherCheck
                   }
 
-            - name: Run smoke tests on preview build
-              shell: pwsh
+            - name: "Run smoke tests on preview build"
+              shell: "pwsh"
               run: |
                   ./scripts/Test-Module.ps1
 
-            - name: Import module on preview build
-              shell: pwsh
+            - name: "Import module on preview build"
+              shell: "pwsh"
               run: |
                   Import-Module ./ColorScripts-Enhanced -Force
                   Get-ColorScriptList -AsObject | Select-Object -First 1
