@@ -1,18 +1,4 @@
-﻿# Converted from: us-ice.ice
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9909a/raw/us-ice.ice
-# Source Revision: archive-sha256:f2f69d52a16c9cecc283eba982ba5e9bc12c57dd003b0f436a792872958414c3
-# Source SHA-256: 1716e226ad157d576c0e3d890282ffb693381e5f779dc7932c87ba7606d92a80
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-ice.ice by Cooly + Toon Goon + Fluor (iCE Advertisements); released in ice9909a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: iCE Advertisements
-# SAUCE Author: Multiple Artists
-# SAUCE Group: iCE Advertisements
-# SAUCE Date: 19991010
-# SAUCE Dimensions: 80x51
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: iCE Advertisements by Cooly + Toon Goon + Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9909a-us-ice-part01
 
 Write-Host '
 [1;34;44m▄[0;1;34;40m█████████████████████████████████████████████████████████████▀▀[0;30;47m████[0;34;40m▀[0;1;34;44m▀[0;30;47m██[0;34;40m█[0;1;34;40m█▄[0;30;47m██[0;1;34;40m [0;1;34;44m [0;1;34;40m█[0m

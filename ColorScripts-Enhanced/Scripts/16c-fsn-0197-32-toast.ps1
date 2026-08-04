@@ -1,18 +1,4 @@
-﻿# Converted from: 32-TOAST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0197/raw/32-TOAST.ANS
-# Source Revision: archive-sha256:db16ecaf9a5ba2dcf16f11149d4e3768d3e19930159af1ef0ef2625ea12b3e30
-# Source SHA-256: 1fe22ba191f41931c9c0e39ba9b059529c849206825929ccf5737430e4a59054
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 32-TOAST.ANS by ezy (fu510n); released in fsn-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: tOast!
-# SAUCE Author: ezy
-# SAUCE Group: fu510n
-# SAUCE Date: 19970105
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: tOast! by ezy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0197-32-toast
 
 Write-Host '
 

@@ -1,13 +1,4 @@
-﻿# Converted from: TMT-CASP.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-08/raw/TMT-CASP.ICE
-# Source Revision: archive-sha256:76472331bcb8543f1e44f2a59ee8f7524c6af6373e89562b7fabb9e022104140
-# Source SHA-256: 4f45fb9838db8503a1686aed0c47be0d2fc8975f55975e932f2fc15f5fd3df1f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TMT-CASP.ICE by The Malevolent Trickster (icepk-08); released in icepk-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 101-146
-# Columns: 1-80
+﻿# Artwork: TMT-CASP.ICE by The Malevolent Trickster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-08-tmt-casp-part03
 
 Write-Host '
          [33m▀ ▒▒░ █[0;1;31;43m░░    [0;33m▀▀▀  ▀[0;33;43m [0;1;31;43m░░ [0;33m▌░ ▀[0;33;43m [0;33;40m█[0m      [33;40m▀[0;1;31;43m░[0;33m░▀▀[0;33;43m  [0;1;31;43m░▒░   [0;33m███[0;1;31;43m▒▒▓░░     ░[0;33m▌[0m

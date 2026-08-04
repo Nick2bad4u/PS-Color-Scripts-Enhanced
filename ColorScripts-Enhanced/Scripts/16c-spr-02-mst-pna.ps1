@@ -1,13 +1,4 @@
-﻿# Converted from: MST!PNA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spr_02/raw/MST!PNA.ANS
-# Source Revision: archive-sha256:de213db32bec9e7b234598875579e360fcbdfa4c59f3f92173fe1b75c68a8cff
-# Source SHA-256: df57340260c75896b44a3f8dacbcf07453b89b2a5d5cc340283b42d5ad1e661c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MST!PNA.ANS by Mist (spr_02); released in spr_02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: MST!PNA.ANS by Mist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spr-02-mst-pna
 
 Write-Host '
 [1;47m██   [0;1;30;47mautor: Mist[0m███████████████[1;30;47m▄ [0;1;30;40m▌█[0;1;30;47m [0m██[1;30;47m▄[0m█[1;30;47m▄▓▒░[0m█████████████████████████████[1;30;47m░░▒▒▓▓[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: S1-PHT2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0997/raw/S1-PHT2.ANS
-# Source Revision: archive-sha256:7c9b6e5a1bf85f5dceb70dad3a430f8a984427653988f85df1c8489157fd2d25
-# Source SHA-256: da9665be5b4c21fedc6bca173a9ac6b221b6d0b7e73fbbe3d6caf992db69f310
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S1-PHT2.ANS by subsonic (Phat Studios '97); released in phat0997 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: phat stewdeeos
-# SAUCE Author: subsonic
-# SAUCE Group: Phat Studios '97
-# SAUCE Date: 19970719
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: phat stewdeeos by subsonic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0997-s1-pht2
 
 Write-Host '
 [1;30m▄▄[0m          [1m [0m   [1m  [0m       [1m [0m  [1m [0m      [1m [0m                          [32m▄[0;1;32m▄▄[0;32m [0;1;32m▄[0;1;32;42m▄[0;1;32;40m█▄▄[0;1;37;40m▌[0;1;32;40m▄[0;1;37;40m▄─     [0m

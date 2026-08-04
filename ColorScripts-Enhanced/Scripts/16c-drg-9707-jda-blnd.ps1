@@ -1,18 +1,4 @@
-﻿# Converted from: JDA-BLND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg-9707/raw/JDA-BLND.ANS
-# Source Revision: archive-sha256:b65590bddff9617f17d3b4025c35c3e5faf3352cc09c0ee1a348f46ee7e889fc
-# Source SHA-256: db0edad8e6b9ca058bcc30df6b346c8d68073832b687a2fac47ba232def3f368
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JDA-BLND.ANS by Joda (deranged); released in drg-9707 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: blend
-# SAUCE Author: Joda
-# SAUCE Group: deranged
-# SAUCE Date: 19970708
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: blend by Joda | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg-9707-jda-blnd
 
 Write-Host '
                                                [30;41m▓▓[0;31;40m  ░▄▄[0m       [31;40m░[0m     [31;40m░[0m

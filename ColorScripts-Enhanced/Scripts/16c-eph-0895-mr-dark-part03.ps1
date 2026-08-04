@@ -1,13 +1,4 @@
-﻿# Converted from: MR-DARK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eph-0895/raw/MR-DARK.ANS
-# Source Revision: archive-sha256:a7adca3cb7ed0f9147a4521f7227d6f99ef256f0e0104a500cb28596d82f2b02
-# Source SHA-256: 69bddf347fa949726be7268235184b748afceead309fbd05f6018b0007511b94
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-DARK.ANS by Magnetic Rage (eph-0895); released in eph-0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 72-102
-# Columns: 1-80
+﻿# Artwork: MR-DARK.ANS by Magnetic Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eph-0895-mr-dark-part03
 
 Write-Host '
 [37m [0;1;30m [0m                          [36m▀[0;1;36m▄[0;1;30m [0m

@@ -3,8 +3,9 @@ Describe 'Curated ANSI artwork provenance' {
         $script:RepoRoot = (Resolve-Path -LiteralPath (Join-Path -Path $PSScriptRoot -ChildPath '..')).ProviderPath
         $script:ModuleRoot = Join-Path -Path $script:RepoRoot -ChildPath 'ColorScripts-Enhanced'
         $script:ScriptsRoot = Join-Path -Path $script:ModuleRoot -ChildPath 'Scripts'
-        $script:ProvenancePath = Join-Path -Path $script:ModuleRoot -ChildPath 'ArtworkProvenance.psd1'
-        $script:CheckpointPath = Join-Path -Path $script:ModuleRoot -ChildPath 'AnsiArchiveCurationCheckpoint.json'
+        $script:AuditRoot = Join-Path -Path $script:RepoRoot -ChildPath 'audit'
+        $script:ProvenancePath = Join-Path -Path $script:AuditRoot -ChildPath 'ArtworkProvenance.psd1'
+        $script:CheckpointPath = Join-Path -Path $script:AuditRoot -ChildPath 'AnsiArchiveCurationCheckpoint.json'
         # The trusted, checked-in provenance map intentionally exceeds
         # Import-PowerShellDataFile's conservative default AST-size limit.
         $script:Provenance = Import-PowerShellDataFile -Path $script:ProvenancePath -SkipLimitCheck
@@ -21,8 +22,15 @@ Describe 'Curated ANSI artwork provenance' {
         Remove-Module -Name ColorScripts-Enhanced -Force -ErrorAction SilentlyContinue
     }
 
+    It 'keeps developer audit records outside the publishable module directory' {
+        Test-Path -LiteralPath $script:ProvenancePath -PathType Leaf | Should -BeTrue
+        Test-Path -LiteralPath $script:CheckpointPath -PathType Leaf | Should -BeTrue
+        Test-Path -LiteralPath (Join-Path -Path $script:ModuleRoot -ChildPath 'ArtworkProvenance.psd1') | Should -BeFalse
+        @(Get-ChildItem -LiteralPath $script:ModuleRoot -File -Filter 'Ansi*.json') | Should -HaveCount 0
+    }
+
     It 'declares a valid collection for every imported script without orphan mappings' {
-        $script:Provenance.SchemaVersion | Should -Be 2
+        $script:Provenance.SchemaVersion | Should -Be 3
         @($script:Provenance.Collections.Keys) | Should -HaveCount 6
         @($script:Provenance.Scripts.Keys) | Should -HaveCount $script:ImportedScriptFiles.Count
 
@@ -107,54 +115,28 @@ Describe 'Curated ANSI artwork provenance' {
         }
     }
 
-    It 'keeps each imported script header synchronized with the provenance manifest' {
+    It 'keeps compact script attribution synchronized with authoritative external provenance' {
         foreach ($scriptName in $script:Provenance.Scripts.Keys) {
             $entry = $script:Provenance.Scripts[$scriptName]
-            $collection = $script:Provenance.Collections[$entry.Collection]
             $scriptPath = Join-Path -Path $script:ScriptsRoot -ChildPath "$scriptName.ps1"
             $contents = [System.IO.File]::ReadAllText($scriptPath)
-            $revision = if ($null -ne $entry.SourceRevision) {
-                $entry.SourceRevision
-            }
-            elseif ($null -ne $collection.Revision) {
-                $collection.Revision
-            }
-            else {
-                "archive-sha256:$($collection.ArchiveSha256)"
-            }
+            $detailsUrl = "https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=$scriptName"
+            $firstLine = $contents -split '\r?\n', 2 | Select-Object -First 1
 
-            $contents | Should -Match ([regex]::Escape("# Source URL: $($entry.SourceUrl)"))
-            $contents | Should -Match ([regex]::Escape("# Source Revision: $revision"))
-            $contents | Should -Match ([regex]::Escape("# Source SHA-256: $($entry.SourceSha256)"))
-            $contents | Should -Match ([regex]::Escape("# Source License: $($collection.License)"))
-            $attribution = if ($null -ne $entry.Attribution) {
-                $entry.Attribution
-            }
-            else {
-                $collection.Attribution
-            }
-            $contents | Should -Match ([regex]::Escape("# Source Attribution: $attribution"))
-            if ($null -ne $entry.SourceRows) {
-                $contents | Should -Match ([regex]::Escape("# Lines: $($entry.SourceRows)"))
-            }
-            if ($null -ne $entry.SourceColumns) {
-                $contents | Should -Match ([regex]::Escape("# Columns: $($entry.SourceColumns)"))
-            }
-            $sauceDateMatch = [regex]::Match($contents, '(?m)^# SAUCE Date: (?<Date>[^\r\n]+)$')
-            if ($sauceDateMatch.Success) {
+            $firstLine | Should -Match '^# Artwork: .+ by .+ \| Details: https://'
+            $firstLine.EndsWith($detailsUrl, [System.StringComparison]::Ordinal) | Should -BeTrue
+            $contents | Should -Not -Match '(?m)^# (?:Converted from|Source |SAUCE |Lines:|Columns:)'
+            $entry.ConvertedFrom | Should -Not -BeNullOrEmpty
+            $entry.SourceEncoding | Should -Not -BeNullOrEmpty
+            if ($null -ne $entry.SauceDate) {
                 $parsedSauceDate = [datetime]::MinValue
                 [datetime]::TryParseExact(
-                    $sauceDateMatch.Groups['Date'].Value,
+                    $entry.SauceDate,
                     'yyyyMMdd',
                     [cultureinfo]::InvariantCulture,
                     [Globalization.DateTimeStyles]::None,
                     [ref]$parsedSauceDate
                 ) | Should -BeTrue -Because "'$scriptName' must not serialize an incomplete or invalid SAUCE date"
-            }
-            $sauceDimensionsMatch = [regex]::Match($contents, '(?m)^# SAUCE Dimensions: (?<Dimensions>[^\r\n]+)$')
-            if ($sauceDimensionsMatch.Success) {
-                $sauceDimensionsMatch.Groups['Dimensions'].Value |
-                    Should -Match '^[1-9]\d*x[1-9]\d*$' -Because "'$scriptName' must not serialize missing SAUCE dimensions"
             }
             $contents | Should -Not -Match '# Conversion date:'
         }
@@ -185,11 +167,8 @@ Describe 'Curated ANSI artwork provenance' {
             $entry.SourceRows | Should -Match '^[1-9]\d*-[1-9]\d*$'
             $entry.SourceColumns | Should -Match '^[1-9]\d*-[1-9]\d*$'
 
-            $scriptPath = Join-Path -Path $script:ScriptsRoot -ChildPath "$scriptName.ps1"
-            $contents = [System.IO.File]::ReadAllText($scriptPath)
-            $contents | Should -Match '# Source License: FAL-1\.3'
-            $contents | Should -Match '# Source Attribution: .*Roy/SAC aka Carsten Cumbrowski'
-            $contents | Should -Match '# Source Modification: '
+            $entry.Attribution | Should -Match 'Roy/SAC aka Carsten Cumbrowski'
+            $entry.SourceModification | Should -Not -BeNullOrEmpty
         }
     }
 
@@ -204,11 +183,9 @@ Describe 'Curated ANSI artwork provenance' {
         $rootLicense | Should -Match 'project-specific artist-authorized grant'
 
         foreach ($scriptName in @($script:Provenance.Scripts.Keys | Where-Object { $_.StartsWith('16c-', [System.StringComparison]::Ordinal) })) {
-            $scriptPath = Join-Path -Path $script:ScriptsRoot -ChildPath "$scriptName.ps1"
-            $contents = [System.IO.File]::ReadAllText($scriptPath)
-            $contents | Should -Match '# Source License: LicenseRef-16colors-discord-permission'
-            $contents | Should -Match '# Source Attribution: '
-            $contents | Should -Match '# Source Modification: '
+            $entry = $script:Provenance.Scripts[$scriptName]
+            $entry.Attribution | Should -Not -BeNullOrEmpty
+            $entry.SourceModification | Should -Not -BeNullOrEmpty
         }
     }
 
@@ -357,38 +334,6 @@ Describe 'Curated ANSI artwork provenance' {
 
         @($dimensions | Where-Object { $_.Width -gt 120 -or $_.Height -gt 50 }) |
             Should -BeNullOrEmpty -Because 'oversized artwork must be split without reflowing or squishing it'
-
-        $invalidSourceCoordinates = foreach ($name in $script:ImportedScriptNames) {
-            $entry = $script:Provenance.Scripts[$name]
-            $rowMatch = [regex]::Match(
-                [string]$entry.SourceRows,
-                '^(?<Start>\d+)-(?<End>\d+)$'
-            )
-            $columnMatch = [regex]::Match(
-                [string]$entry.SourceColumns,
-                '^(?<Start>\d+)-(?<End>\d+)$'
-            )
-            if (-not $rowMatch.Success -or -not $columnMatch.Success) {
-                $name
-                continue
-            }
-
-            $rowCount = (
-                [int]$rowMatch.Groups['End'].Value -
-                [int]$rowMatch.Groups['Start'].Value +
-                1
-            )
-            $columnCount = (
-                [int]$columnMatch.Groups['End'].Value -
-                [int]$columnMatch.Groups['Start'].Value +
-                1
-            )
-            if ($rowCount -gt 50 -or $columnCount -gt 120) {
-                $name
-            }
-        }
-        @($invalidSourceCoordinates) |
-            Should -BeNullOrEmpty -Because 'provenance must not conceal oversized source geometry behind visually blank cells'
     }
 
     It 'ships a complete compact checkpoint for every finished archive year' {

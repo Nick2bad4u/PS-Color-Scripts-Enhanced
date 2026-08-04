@@ -1,13 +1,4 @@
-﻿# Converted from: LST-NEW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_9612/raw/LST-NEW.ANS
-# Source Revision: archive-sha256:535386efaf0832a92df8cd43b1e1ec9e549c82ba4ee576a67c0fa93e7a363fe1
-# Source SHA-256: 3d72c717b050f78b00f5f790fda993e2d854a74ab75dece808cb8156b7a39739
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LST-NEW.ANS by Soul Trader (dox_9612); released in dox_9612 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: LST-NEW.ANS by Soul Trader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-9612-lst-new
 
 Write-Host '
                [1;30m▓[0m

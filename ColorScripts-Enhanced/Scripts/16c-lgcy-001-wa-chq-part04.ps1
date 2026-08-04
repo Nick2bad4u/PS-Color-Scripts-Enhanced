@@ -1,20 +1,4 @@
-﻿# Converted from: wa-chq.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-001/raw/wa-chq.ans
-# Source Revision: archive-sha256:589c804657c8d15ba617f7c0fd80723e4505d519989b80eba9584665be49eb54
-# Source SHA-256: afe9fc4cb557d1aa7600c80b0b6d2505c27e729efdc751764afa870e83ab2e5f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wa-chq.ans by warpus (Legacy Krew); released in lgcy-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: CHQ
-# SAUCE Author: warpus
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20191228
-# SAUCE Dimensions: 80x151
-# SAUCE Font: IBM VGA
-# SAUCE Comments: CHQ BBS ansi for Agent-037
-# Lines: 115-151
-# Columns: 1-80
+﻿# Artwork: CHQ by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-001-wa-chq-part04
 
 Write-Host '
 [1;33m████████[0;36m████▌■[0m        [37m░░░░[0m             [37m░░░░[0m                   [30m▒[0;1;30m▐[0;30m▒ [0;1;31m■▐███████████[0m

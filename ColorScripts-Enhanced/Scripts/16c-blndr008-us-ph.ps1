@@ -1,18 +1,4 @@
-﻿# Converted from: US-PH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr008/raw/US-PH.ANS
-# Source Revision: archive-sha256:538713f6eceb08f3ae929b511bdabc41afc7e24581ca518038e52dcff7842248
-# Source SHA-256: 93e73ee8a960c4419716f6556324f6a28213c209d8fe3cd61fe44f48cb70d2c3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-PH.ANS by Hennifer + Warpus (lazarus); released in blndr008 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: plastic heroes
-# SAUCE Author: hen / wa
-# SAUCE Group: lazarus
-# SAUCE Date: 19970113
-# SAUCE Dimensions: 80x45
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: plastic heroes by Hennifer + Warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr008-us-ph
 
 Write-Host '
     [31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

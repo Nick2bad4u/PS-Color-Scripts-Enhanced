@@ -1,13 +1,4 @@
-﻿# Converted from: DRAGON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sau-0001/raw/DRAGON.ANS
-# Source Revision: archive-sha256:dc71945c9caa100b3bbaf1dc04169c0cd75a1c4970a41815161c05673316d4da
-# Source SHA-256: ea74d3082efa138a003cfac12b5477cab43c3c39ef60f3c09b483d2a74e0270d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DRAGON.ANS by Duffy Duck (sau-0001); released in sau-0001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: DRAGON.ANS by Duffy Duck | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sau-0001-dragon-part01
 
 Write-Host '
          [32m▓█[0;1;32;42m▓[0m                                         [32m▒▓[0;1;32;42m▒[0m

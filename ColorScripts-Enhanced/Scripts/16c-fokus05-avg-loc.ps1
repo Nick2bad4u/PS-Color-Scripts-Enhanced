@@ -1,18 +1,4 @@
-﻿# Converted from: AVG-LOC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus05/raw/AVG-LOC.ANS
-# Source Revision: archive-sha256:1aa3ba6c9bb069effe029f69af967419cb8dc77ae4501a5215ae43589435acd5
-# Source SHA-256: 887e34acc1eb4cfa13422a50ba55bb7f3329f6d1447d067e5fa5b25de8a1c771
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-LOC.ANS by ave angel (fokus fonting); released in fokus05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: yayjuju.. locus
-# SAUCE Author: ave angel
-# SAUCE Group: fokus fonting
-# SAUCE Date: 19990701
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: yayjuju.. locus by ave angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus05-avg-loc
 
 Write-Host '
 [34m    ▄[0;1;34;44m▄[0;34m▄    [0m                        [34m▄[0m        [1;30m░░░░░░[0m    [1;30m ▀[0;1;30;47m▄[0;1;30;40m▀[0m               [1mavg[0mfks

@@ -1,18 +1,4 @@
-﻿# Converted from: GL-MNDGR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dtd01/raw/GL-MNDGR.ANS
-# Source Revision: archive-sha256:708f42274510c5a14e730f5bfaed08f3467d44dc8c43077c289cc2c76c74ff80
-# Source SHA-256: 94db1309da610ebe543dc48e2899d83eb7ae84033ebd12c0529dfcfbd8ecd8ec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GL-MNDGR.ANS by GLANDYTH-A-KRAE (DEVOTiON TO DARKNESS); released in dtd01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: MiND - THE GREEN EYE -
-# SAUCE Author: GLANDYTH-A-KRAE
-# SAUCE Group: DEVOTiON TO DARKNESS
-# SAUCE Date: 19970103
-# SAUCE Dimensions: 80x25
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: MiND - THE GREEN EYE - by GLANDYTH-A-KRAE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dtd01-gl-mndgr
 
 Write-Host '
 [1;30m─┤ MiND - THE GREEN EYE - ├─────────────────────────────────────────────────────[0m

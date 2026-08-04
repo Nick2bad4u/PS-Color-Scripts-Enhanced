@@ -1,18 +1,4 @@
-﻿# Converted from: CKO-ART.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rare-002/raw/CKO-ART.ANS
-# Source Revision: archive-sha256:0a3a1ab211a696c0dde542e6c378313f7a0800dd36697e1287d0a21d1dc7f85f
-# Source SHA-256: ee0f779d030144e264abf49cf05dcb689766ed648aff5c1dbc0c0d9c5ff56dd4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CKO-ART.ANS by cuckoo (rare!ascii); released in rare-002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: art menu?
-# SAUCE Author: cuckoo
-# SAUCE Group: rare!ascii
-# SAUCE Date: 19980326
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: art menu? by cuckoo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rare-002-cko-art
 
 Write-Host '
    [36m         ┐           ┐      [0;37m             [0;1;30m⌐[0m  [1m     [0m [1;30m [0m [1m       [0;1;30m     [0m

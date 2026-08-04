@@ -1,13 +1,4 @@
-﻿# Converted from: MI-SS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/img0994/raw/MI-SS.ANS
-# Source Revision: archive-sha256:f71d8ed85ca0ccb865692dde13b0ccd32121cde3b55a48a2d905a2c94a7df80f
-# Source SHA-256: 362e9368b09f8bae0a40b452858851719422090531d59c540d9c8d1dfb9eca0d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MI-SS.ANS by Ministry (img0994); released in img0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: MI-SS.ANS by Ministry | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-img0994-mi-ss-part01
 
 Write-Host '
                                                        [1m▄[0m

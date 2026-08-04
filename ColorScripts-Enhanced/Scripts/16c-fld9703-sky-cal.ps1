@@ -1,13 +1,4 @@
-﻿# Converted from: SKY-CAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fld9703/raw/SKY-CAL.ANS
-# Source Revision: archive-sha256:889360822753138420e4e4c877cc785b122e8efb00f902c0cb76baf0b096308f
-# Source SHA-256: 631ddecf6c9ab6c388c67d4a30bc04c8ecc1226311d42e2b99c98201d0a9bf71
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SKY-CAL.ANS by Skylord (fld9703); released in fld9703 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: SKY-CAL.ANS by Skylord | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fld9703-sky-cal
 
 Write-Host '
                  ▄▄▄[1;47m▄░▄▄[0m▄▄▄

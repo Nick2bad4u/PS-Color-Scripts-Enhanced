@@ -1,13 +1,4 @@
-﻿# Converted from: ZS-OOPS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense12j/raw/ZS-OOPS.ANS
-# Source Revision: archive-sha256:e1859c229de4f4dd1e65990d325e90f1a80e1ce3863ae80925f53e6878990dc6
-# Source SHA-256: 4f61081f7554c4ad41313e352b4e7499aa55afc53ad51ce2147654ec116c2312
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZS-OOPS.ANS by Zerostar (sense12j); released in sense12j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: ZS-OOPS.ANS by Zerostar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense12j-zs-oops
 
 Write-Host '
   [34m▄▄[0;37m  [0;34m ▄ [0m                             [34m■  [0m                     [34m▄[0m

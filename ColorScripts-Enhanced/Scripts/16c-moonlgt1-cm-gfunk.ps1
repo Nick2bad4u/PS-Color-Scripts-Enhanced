@@ -1,18 +1,4 @@
-﻿# Converted from: CM-GFUNK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/moonlgt1/raw/CM-GFUNK.ANS
-# Source Revision: archive-sha256:9c3296d479bffdc90be8aa4a3f3118a85ae9456683674c3e67716221b3c262b5
-# Source SHA-256: 9882f368da67ac3451b074ebd9db87f0758d802e905ef7e51b04bfa063de4e96
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CM-GFUNK.ANS by cheeze monkey (moonlight); released in moonlgt1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: g-funk
-# SAUCE Author: cheeze monkey
-# SAUCE Group: moonlight
-# SAUCE Date: 19960818
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: g-funk by cheeze monkey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-moonlgt1-cm-gfunk
 
 Write-Host '
 

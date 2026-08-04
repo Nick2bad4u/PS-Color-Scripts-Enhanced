@@ -1,13 +1,4 @@
-﻿# Converted from: ko-panch.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic60/raw/ko-panch.ans
-# Source Revision: archive-sha256:5ab028e5e724f39059face5a5de7c48ee636ea83e07e264734d5d2b301478561
-# Source SHA-256: 6a3cbce20cbcc6593b06f027bad134d069ef9a8f98130e37d7b063d88723d120
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ko-panch.ans by Konami (mimic60); released in mimic60 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ko-panch.ans by Konami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic60-ko-panch
 
 Write-Host '
   [1;30mKO[0m  [1;30m$$[0m$$$$$$$[1m$$$$$$$[0m         [31m""²$$$ [0;1;30m$$$$[0;1;37ml[0m$$$$l           [1mss[0m__            [1mss[0m

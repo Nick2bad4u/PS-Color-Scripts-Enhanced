@@ -1,18 +1,4 @@
-﻿# Converted from: K1-CMB5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus04/raw/K1-CMB5.ANS
-# Source Revision: archive-sha256:4a57ed6764f9ffca39ae941548ed0ed0ba98ce6594de23a7788152f10b7f60a4
-# Source SHA-256: 076408a8b34c3abea021b43371af4e3665298667fbb409307c772a9986ea7082
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K1-CMB5.ANS by Knocturnal (Fokus fonting); released in fokus04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Cream
-# SAUCE Author: Knocturnal
-# SAUCE Group: Fokus fonting
-# SAUCE Date: 19990522
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Cream by Knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus04-k1-cmb5
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: GRN-MIST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m-9804/raw/GRN-MIST.ANS
-# Source Revision: archive-sha256:384db9ee41d4842b9630e53e583aa2c888b80c553bccd5b732036c8247f3be44
-# Source SHA-256: 19aa0a3b208ec58914ff5940777af2e740d68d91095c2427b058b2cffaa99cdc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GRN-MIST.ANS by Grizznatch (mISTFUNK 1998); released in m-9804 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: MiSTiGRiS LoGo
-# SAUCE Author: Grizznatch
-# SAUCE Group: mISTFUNK 1998
-# SAUCE Date: 19970814
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: MiSTiGRiS LoGo by Grizznatch | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m-9804-grn-mist
 
 Write-Host '
                     ▄▄▄▄▄▄▄▄▄▄            [35m<------------\[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: MA-CEO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9706/raw/MA-CEO.ANS
-# Source Revision: archive-sha256:867680f5fb3c86dcb017d8ed4cd79085881689d65da90056f84aba519ae4bdfe
-# Source SHA-256: 96ad80867c8832954e71795245728f000da444ebb80bebce0ff528b8d4b3655e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MA-CEO.ANS by Mass Murderer (AWE Lettering); released in awe9706 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Ceo
-# SAUCE Author: Mass Murderer
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Ceo by Mass Murderer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9706-ma-ceo
 
 Write-Host '
                                                        [30m ▄▄▄▄▄[0m

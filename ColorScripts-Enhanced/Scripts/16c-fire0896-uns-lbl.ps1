@@ -1,18 +1,4 @@
-﻿# Converted from: UNS-LBL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0896/raw/UNS-LBL.ANS
-# Source Revision: archive-sha256:f9cf2b2d2bbd2b43295b2db0288f290749703458f413700d0129369379a58bf6
-# Source SHA-256: 183324aa9db917bfb78d3b8b8c289e24ef039692285b09d671a3f8618061a70d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UNS-LBL.ANS by Unsane (fire); released in fire0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Load Acidview and Find Out What
-# SAUCE Author: Unsane
-# SAUCE Group: fire
-# SAUCE Date: 19960708
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Load Acidview and Find Out What by Unsane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0896-uns-lbl
 
 Write-Host '
 

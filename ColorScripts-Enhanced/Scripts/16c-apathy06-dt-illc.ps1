@@ -1,18 +1,4 @@
-﻿# Converted from: DT-ILLC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy06/raw/DT-ILLC.ANS
-# Source Revision: archive-sha256:da68d928b75eacb21ef6bbd9cd632165def9238591f0378ec07f4b56faef6ea8
-# Source SHA-256: 2d4efe446432240684b19cfa705454504e7cc64f7702d40926f29776e74174be
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-ILLC.ANS by Defiant (Apathy); released in apathy06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: IllComm Config Screen
-# SAUCE Author: Defiant
-# SAUCE Group: Apathy
-# SAUCE Date: 19960130
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: IllComm Config Screen by Defiant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy06-dt-illc
 
 Write-Host '
 [1;35;45m▓[0m [1;35;40m-----[0;35m-[0;1;35m---[0;35m--[0;1;35m-[0;35m---------- ▓[0m            [1;30m░[0m            [1;30m░ ░▒▓█▌  [0;1;31m▐[0;1;31;43m███▀▀▀░[0;33m█[0;1;31;43m▀[0;33m██████▄[0m

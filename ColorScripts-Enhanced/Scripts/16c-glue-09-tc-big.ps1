@@ -1,13 +1,4 @@
-﻿# Converted from: TC-BIG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-09/raw/TC-BIG.ANS
-# Source Revision: archive-sha256:5e8e723726c065de5b817b7ce85a187353e8974f2bd6baa128d259f19a9c1065
-# Source SHA-256: faa1698736c0cb00e5b7935ea9f5905ee6ba2fcd3d5018d4c229ced711dc16ae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TC-BIG.ANS by The Chef (glue-09); released in glue-09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: TC-BIG.ANS by The Chef | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-09-tc-big
 
 Write-Host '
 [1m [0m      [1m [0m                                                  [1m  [0m  [31m ▌[0m

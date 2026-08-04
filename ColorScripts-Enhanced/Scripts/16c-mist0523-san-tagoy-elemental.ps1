@@ -1,17 +1,4 @@
-﻿# Converted from: SAN_TAGOY-ELEMENTAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0523/raw/SAN_TAGOY-ELEMENTAL.ANS
-# Source Revision: archive-sha256:53b565820f166e8e480fb61187f967fd47086f9bc5b7e5f420ec7196d573dd4b
-# Source SHA-256: 7965e736beaf567053d49dc6f93951df42c4f236e3f5fbceabca61c5861c6dfa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SAN_TAGOY-ELEMENTAL.ANS by Anonymous (mist0523); released in mist0523 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: Anonymous
-# SAUCE Date: 20230331
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: SAN_TAGOY-ELEMENTAL.ANS by Anonymous | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0523-san-tagoy-elemental
 
 Write-Host '
 [1;35;45m░░░░░░░░░░░░░░░░░░░░░░░░[0;35;47m░[0;1;35;45m░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0;35;47m░[0;1;35;45m░░░░░░░░░░░░░░░░░░░░░░░░░░[0m

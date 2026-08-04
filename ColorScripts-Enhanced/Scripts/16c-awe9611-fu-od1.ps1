@@ -1,18 +1,4 @@
-﻿# Converted from: FU-OD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9611/raw/FU-OD1.ANS
-# Source Revision: archive-sha256:2b73e149488dc761d99422832825743596588d59e58f9bfecfb5d0e9dbffd274
-# Source SHA-256: 55ae5d9cb72ee4a5a738190fcf9b9992126861c2015fa3d3965e68aa78c2771a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FU-OD1.ANS by Fury (AWE Lettering); released in awe9611 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Over Dose
-# SAUCE Author: Fury
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19960929
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Over Dose by Fury | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9611-fu-od1
 
 Write-Host '
 [1m[0;1;35m[0;1;37m[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: FB-FATE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eco-15/raw/FB-FATE.ANS
-# Source Revision: archive-sha256:409ec45d4d8a58bbd858f19a2194e4a9e60ce3a5a22824158eb9e0a6b60e9226
-# Source SHA-256: 57b0916d80ace788d939754768e67f78ad29adf4056be5d9599440566750a113
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FB-FATE.ANS by freebase (revolution.ecolove); released in eco-15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fate
-# SAUCE Author: freebase
-# SAUCE Group: revolution.ecolove
-# SAUCE Date: 19990609
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: fate by freebase | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eco-15-fb-fate
 
 Write-Host '
                                                               [1m( [0m [1mf a t e !  )[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: SL-DR2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0997/raw/SL-DR2.ANS
-# Source Revision: archive-sha256:da5320832895c3901d4f15edb6d72c8cae3759c8058411ecb6a63c5962f374c9
-# Source SHA-256: 21913aff39b33e6141551240e52a676c4a29b6a30b2d0e144cd46ecc8974d33e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SL-DR2.ANS by Strikeligt (sac0997); released in sac0997 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: SL-DR2.ANS by Strikeligt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0997-sl-dr2
 
 Write-Host '
        [1m█[0;1;33m▀[0;1;31m▀▀[0;35m▀▀▀█[0m                 [35m█▀▀▀▀▀▀▀▀▀▀▀█[0m              [1;31m▄▄▄▄▄▄▄▄▄▄▄▄▀▀▀█[0m

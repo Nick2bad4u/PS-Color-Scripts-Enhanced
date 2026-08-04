@@ -1,19 +1,4 @@
-﻿# Converted from: NI-LUCKY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0725/raw/NI-LUCKY.ANS
-# Source Revision: archive-sha256:f8228caade9b0e4810405349f1959bd68f07890aea1a0d6aaa1eef2a322b5f21
-# Source SHA-256: cff5b0c561c1377f2d489562eaa1215a954390a7e1755b68c46f596ec3145e16
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NI-LUCKY.ANS by Nitron (Mistigris); released in mist0725 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Lucky Mendoza Tribute
-# SAUCE Author: Nitron
-# SAUCE Group: Mistigris
-# SAUCE Date: 20250730
-# SAUCE Dimensions: 80x141
-# SAUCE Font: IBM VGA
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: Lucky Mendoza Tribute by Nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0725-ni-lucky-part02
 
 Write-Host '
 [1;34m▓▓▓▓▓▓[0m  [1;47m▓[0m▓       ▄▓[1;30;47m▄[0;1;30;40m▀[0m     [1;30m▀▓▓▓[0;1;30;47m▄[0m██[1;47m▀▓▄[0m▄[32m▀▓▓▓▀[0;37m [0;1;30;47m▌░▀[0;1;37;47m▀▓▒[0m█████[1;47m░[0m█[1;47m▓[0;32m [0;1;32;42m▒[0;32m▌[0;37m [0;1;37m■[0;1;37;42m▌[0;32m▌[0;1;30;47m▀▓▌[0;1;37;47m▓[0m▌[1;34m▀▓▓[0;1;34;43m▓▓[0;1;34;40m▓▓▓▓▓[0m

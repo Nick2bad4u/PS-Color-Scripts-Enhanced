@@ -1,18 +1,4 @@
-﻿# Converted from: R!TBWR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/kos0896/raw/R!TBWR.ANS
-# Source Revision: raw-sha256:f332a87899d56e12a3f83102afadc43ca603ad1713d62cf272271ce62e217e25
-# Source SHA-256: f332a87899d56e12a3f83102afadc43ca603ad1713d62cf272271ce62e217e25
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: R!TBWR.ANS by the riddler (kos); released in kos0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: O7.15.96  Tainted Blood
-# SAUCE Author: the riddler
-# SAUCE Group: kos
-# SAUCE Date: 19960731
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: O7.15.96 Tainted Blood by the riddler | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-kos0896-r-tbwr
 
 Write-Host '
                   [1;30m░[0m                                          [1;30m░[0m                [1;30m▒[0m

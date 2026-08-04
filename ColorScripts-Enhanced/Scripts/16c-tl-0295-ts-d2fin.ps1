@@ -1,18 +1,4 @@
-﻿# Converted from: TS-D2FIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl-0295/raw/TS-D2FIN.ANS
-# Source Revision: archive-sha256:eaf162c007b15a73ec8ddc40aa3b63ccc7c10a1aa835bd918a225b4fe7dc9196
-# Source SHA-256: 38db57f0350cbc4b50d7f198a6ae228966ce0b8513ed4ecd56cf080a888641a8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-D2FIN.ANS by Ts (TekLordZ); released in tl-0295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Dungeon 2 Logoff screen
-# SAUCE Author: Ts
-# SAUCE Group: TekLordZ
-# SAUCE Date: 19950206
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Dungeon 2 Logoff screen by Ts | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl-0295-ts-d2fin
 
 Write-Host '
 [34;40m▀[0m [31;40m▀■▀[0m [34;40m▄███▓▓██▓▒▒▓▓███▓█[0m                             [34;40m▄[0;1;34;44m▒[0;34m▓▀   [0m

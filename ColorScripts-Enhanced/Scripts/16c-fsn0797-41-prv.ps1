@@ -1,18 +1,4 @@
-﻿# Converted from: 41-PRV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn0797/raw/41-PRV.ANS
-# Source Revision: archive-sha256:fc1844bde3fb3bc448ff1373e91cb7237c6c2f8016c75eb605f0f71b6d1e80d5
-# Source SHA-256: cfedea08d57fe82c512f1ece17a60d313a2b7885dead3960f69578281d8efb8f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 41-PRV.ANS by Acidblood (fusion); released in fsn0797 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: previal
-# SAUCE Author: Acidblood
-# SAUCE Group: fusion
-# SAUCE Date: 19970705
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: previal by Acidblood | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn0797-41-prv
 
 Write-Host '
                [1m░[0m

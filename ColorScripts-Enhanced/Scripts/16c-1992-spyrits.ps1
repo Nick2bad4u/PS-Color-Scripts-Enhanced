@@ -1,13 +1,4 @@
-﻿# Converted from: SPYRITS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1992/raw/SPYRITS.ANS
-# Source Revision: archive-sha256:408f6102282b4b4f582d319af7c00d0c1a49a9b89d70dc7754d4cd44f475f4fb
-# Source SHA-256: 3aadc9f2267bb6ac6d1daaa41b770b6754d82e78e5a7ee3f437450880aa69883
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPYRITS.ANS by Manufacturer (1992); released in 1992 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: SPYRITS.ANS by Manufacturer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1992-spyrits
 
 Write-Host '
                                      [31m▄▄▄▓▓▓▓▓▄▄▄[0m

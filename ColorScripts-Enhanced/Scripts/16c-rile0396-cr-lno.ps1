@@ -1,18 +1,4 @@
-﻿# Converted from: CR-LNO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile0396/raw/CR-LNO.ANS
-# Source Revision: archive-sha256:aa9dd90720d227515e11bc1d46c3e84a97b4668c1c9167ba7ef2915a41619b06
-# Source SHA-256: 0955d77bd2d59da5e7851b68d0742fd9fcb0c3dafcb47372b88ae3539af62c99
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CR-LNO.ANS by creator (rile); released in rile0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: lno?!@#
-# SAUCE Author: creator
-# SAUCE Group: rile
-# SAUCE Date: 19960228
-# SAUCE Dimensions: 80x25
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: lno?!@# by creator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile0396-cr-lno
 
 Write-Host '
                                    [37;40m [0m        [1;30;40m▄ [0m

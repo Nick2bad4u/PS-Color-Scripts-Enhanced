@@ -1,18 +1,4 @@
-﻿# Converted from: TS-OOZE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl199603/raw/TS-OOZE.ANS
-# Source Revision: archive-sha256:0efb2f799ead394e7068a363d08b4382c71543fc86834c3fc142767771a369dc
-# Source SHA-256: 79540bde823240cee21c342ddb6b65e1f4249cd360516ee4320429a03e80cf0c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-OOZE.ANS by Ts (Teklordz); released in tl199603 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Ooooozzze-aaa
-# SAUCE Author: Ts
-# SAUCE Group: Teklordz
-# SAUCE Date: 19960309
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Ooooozzze-aaa by Ts | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl199603-ts-ooze
 
 Write-Host '
     [34m [0m

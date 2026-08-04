@@ -1,13 +1,4 @@
-﻿# Converted from: QP-A666.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axf-0597/raw/QP-A666.ANS
-# Source Revision: archive-sha256:6068514913baa1ec916369db865939b991470ac5490f350bfb80359a0a337dc6
-# Source SHA-256: 70e8e87889680daea8c3025c79d275771bda617641e320c104b2133dc5e0d804
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: QP-A666.ANS by Quip 46 (axf-0597); released in axf-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: QP-A666.ANS by Quip 46 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axf-0597-qp-a666
 
 Write-Host '
 [31m███▀▀[0;37m [0;1;33m▀[0;34m░[0;31m▀▀▀▀[0;1;30m  [0;31m▀[0;1;31;41m░[0;31m██[0m                                [31m   [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: OZ-AGENC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-01/raw/OZ-AGENC.ANS
-# Source Revision: archive-sha256:839932970b12d0c8f9bed0d87f002a63e0f2cc60ac78a12ea0891a4123fc4507
-# Source SHA-256: 00fecba3efc7f38e2a76486fa1203adeca1b27b1cf0bdd4f1c9c894ca4992b4a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OZ-AGENC.ANS by ooze (dEPARMENT^38); released in d38-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the agency
-# SAUCE Author: ooze
-# SAUCE Group: dEPARMENT^38
-# SAUCE Date: 19961110
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: the agency by ooze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-01-oz-agenc
 
 Write-Host '
  [33m▄██████[0;35;43m░▒▓[0;33;40m▄[0m                                             [33;40m ▄▄▄▄▄▄▄▄ [0m

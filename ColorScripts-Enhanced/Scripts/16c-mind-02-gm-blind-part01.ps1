@@ -1,13 +1,4 @@
-﻿# Converted from: GM-BLIND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mind-02/raw/GM-BLIND.ANS
-# Source Revision: archive-sha256:336942d90c7d4a8a5d48a1d714dba36408dbb8fda0df26c31b6ee265f0764c7c
-# Source SHA-256: b0d78b8c56615e8be1ee6fee3659c4e53754f03627f71a39909d255216fd5ef6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GM-BLIND.ANS by G-Man (mind-02); released in mind-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: GM-BLIND.ANS by G-Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mind-02-gm-blind-part01
 
 Write-Host '
                           [30m▄▄▀▀▀[0;33m░▒▓▓▓▒▒▒░▒▒░▓▓▒░░░[0m

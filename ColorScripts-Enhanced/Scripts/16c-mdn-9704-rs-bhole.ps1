@@ -1,18 +1,4 @@
-﻿# Converted from: RS-BHOLE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9704/raw/RS-BHOLE.ANS
-# Source Revision: archive-sha256:f29d1a72731ce9383841840bc86b0749ff1457d1c25c6a64baa5adfdac9e6943
-# Source SHA-256: e676917a46a0a10ea7bf8317adad0b9f41dc93d7a90e40e11df516cb75735372
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-BHOLE.ANS by rorshack (Maiden Brazil); released in mdn-9704 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: black hole menu, won't you come?
-# SAUCE Author: rorshack
-# SAUCE Group: Maiden Brazil
-# SAUCE Date: 19970314
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: black hole menu, won't you come? by rorshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9704-rs-bhole
 
 Write-Host '
        [1;34m▄▄[0;1;37m▄▄▄[0;1;34m▄[0m  [1;34m▄▄▄▄▄[0m [1;30m░░[0m      [1;36m▄[0m           [1;30m░░[0m [1m▄▄[0;1;34m▄▄▄[0m [1;30m░░[0m       [1m▄▄[0;1;34m▄▄▄[0m

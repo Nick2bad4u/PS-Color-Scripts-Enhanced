@@ -1,15 +1,4 @@
-﻿# Converted from: ID-LS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0397/raw/ID-LS1.ANS
-# Source Revision: archive-sha256:147f0608c1bd711b116f3ad049b80e805dfbb40e7d23ffce5f4580a5a57bae0f
-# Source SHA-256: 5fd4141cad390896b7c5a0f3eadc11e7390867d4600d690b79b1e37b03b8d66d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ID-LS1.ANS by Idrosynth (root0397); released in root0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Light Show
-# SAUCE Author: Idrosynth
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Light Show by Idrosynth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0397-id-ls1
 
 Write-Host '
                [35m▄▄▀    ▄ ▄█▄█▄██▄    ▄█[0m     [35m▐[0m     [35m▄█▀[0m       [35m█ ▄▄▄[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: LUM-TRIP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shl-0897/raw/LUM-TRIP.ANS
-# Source Revision: archive-sha256:93ef5f553e3bc362f06eac3bc6655c2df4649860903447ccefb9661eb3a53f37
-# Source SHA-256: 5df7c36070a42533293f7e79fd3c68144b8cb474170ab87d00481bf25a8b663b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LUM-TRIP.ANS by lum! (shl-0897); released in shl-0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Trip world
-# SAUCE Author: lum!
-# SAUCE Date: 19970707
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Trip world by lum! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shl-0897-lum-trip
 
 Write-Host '
    [1;34m [0m      [1;34m░░[0m

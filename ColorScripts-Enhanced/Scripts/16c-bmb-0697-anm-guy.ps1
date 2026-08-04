@@ -1,18 +1,4 @@
-﻿# Converted from: ANM-GUY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0697/raw/ANM-GUY.ANS
-# Source Revision: archive-sha256:608fe2b98dcac70515ce221c11f606d898ec739b4fcdd1a5448c437eb640df82
-# Source SHA-256: 1b3dbc9ad66953ff169eb64f150e87991f89b5b30bfcd96f0a25f0d0722865a5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ANM-GUY.ANS by anomite (deranged); released in bmb-0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 23liner!@ =)
-# SAUCE Author: anomite
-# SAUCE Group: deranged
-# SAUCE Date: 19970504
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: 23liner!@ =) by anomite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0697-anm-guy
 
 Write-Host '
 [1;30m░░[0m                     [1;30m░░[0m         [1;30m▄▄▄████▄▄[0m       [1;30m░░[0m         [1;31m  [0m [1;33m       [0m░░[1;33m       [0m

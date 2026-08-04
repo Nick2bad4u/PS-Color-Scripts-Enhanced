@@ -1,18 +1,4 @@
-﻿# Converted from: XE-TST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0695/raw/XE-TST.ANS
-# Source Revision: archive-sha256:cd4d9f21f90522cc13e89b8aecd1f8fac67b693881bc0be303ed48e8c596636d
-# Source SHA-256: e9385afd8336c328eeabc3dc82bdfd6ba70260753a5d42e08846cda6697f5804
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XE-TST.ANS by Xeryrus (MiSTiGRiS); released in mist0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Screaming Tomato
-# SAUCE Author: Xeryrus
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 19950520
-# SAUCE Dimensions: 80x25
-# Lines: 19-59
-# Columns: 1-80
+﻿# Artwork: The Screaming Tomato by Xeryrus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0695-xe-tst-part02
 
 Write-Host '
                                                                    [1;32;42m█▓░[0;32m▄[0m [32m [0m

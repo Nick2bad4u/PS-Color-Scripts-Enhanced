@@ -1,13 +1,4 @@
-﻿# Converted from: us-bmsen.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense26/raw/us-bmsen.ans
-# Source Revision: archive-sha256:e46343ba88e05768d5d68d509f555dd871b83e4e31e36b22b3adbddb03ccaba6
-# Source SHA-256: 8903a7a4984706ff559e88be18093a246e9a41381b2a0247c4de8cf841ec2a39
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-bmsen.ans by Aesthetic + Avenging Angel (sense26); released in sense26 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: us-bmsen.ans by Aesthetic + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense26-us-bmsen
 
 Write-Host '
 

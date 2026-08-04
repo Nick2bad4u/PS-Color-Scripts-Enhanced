@@ -1,13 +1,4 @@
-﻿# Converted from: we-collide.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_resvolution/raw/we-collide.ans
-# Source Revision: archive-sha256:d0690af9ec91bf96f335196e9f9ddfb5d7ea02d97d300b53301bebaf58d83c35
-# Source SHA-256: 329529ba363ce4b6846843900c7d192902fd8365e6ff236f5757e34ef06059b3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: we-collide.ans by Avenging Angel + Enzo + Sodium + Skypager (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: we-collide.ans by Avenging Angel + Enzo + Sodium + Skypager | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-resvolution-we-collide
 
 Write-Host '
 [36m███[0;1;36;46m░░▓▓▓█▀▄█[0;1;37;40m ▄[0;1;37;47m▓░[0;37;40m▓▒  [0;1;33;40m▄▄[0;37;40m   [0;1;37;40m▀▀███[0;1;33;40m▄▄[0;33;40m▄[0;1;33;40m [0;33;40m▄[0;1;33;40m▄▄█████  [0;1;37;40m███[0;1;33;40m█▄▄▄▄▄ [0;1;37;40m▄▄[0;1;33;40m▀▀▀▀██▓[0;37;40m  ░▓[0;1;37;47m░▒[0;37;40m▄ [0;1;37;40m [0;36;40m▀█[0;1;36;46m▀▀██▄[0;36;40m█[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: 33-NOCDS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-30/raw/33-NOCDS.ANS
-# Source Revision: archive-sha256:3b54a3ca5cf24b49daaa164f9b343386c409e97270d30a4eb2997d0a7e0901dd
-# Source SHA-256: 520293ec5ae4b04874b4ce291f937defa55fc4ad24eb48a61c21e819ed312925
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-NOCDS.ANS by eerie (fire); released in fire-30 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: nocturnal desire
-# SAUCE Author: eerie
-# SAUCE Group: fire
-# SAUCE Date: 19971109
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: nocturnal desire by eerie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-30-33-nocds
 
 Write-Host '
                                                       [35m▀▀███▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

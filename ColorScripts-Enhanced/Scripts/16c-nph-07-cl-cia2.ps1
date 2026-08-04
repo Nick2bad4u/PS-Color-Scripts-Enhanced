@@ -1,18 +1,4 @@
-﻿# Converted from: CL!-CIA2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph-07/raw/CL!-CIA2.ANS
-# Source Revision: archive-sha256:05b9134433837782e39338bf79fd6ada6d2fc8bfba82437f2c41c6bc37a6d75a
-# Source SHA-256: 9a219530cfc81488ed0a680af00023d2749c7c16a41c286059ddb70b2bb127be
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL!-CIA2.ANS by Cleaner (Nitrophusion); released in nph-07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Cia
-# SAUCE Author: Cleaner
-# SAUCE Group: Nitrophusion
-# SAUCE Date: 19990331
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Cia by Cleaner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph-07-cl-cia2
 
 Write-Host '
                       [1;36m█[0m

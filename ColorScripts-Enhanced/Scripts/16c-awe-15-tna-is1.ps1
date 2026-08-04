@@ -1,17 +1,4 @@
-﻿# Converted from: TNA-IS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-15/raw/TNA-IS1.ANS
-# Source Revision: archive-sha256:619fab698f6baab549ec261c1b82c423f54dd7adf4325488576ce02288425f8a
-# Source SHA-256: 48e14a4a70a7291b4b571066dbb45add8065993c2955e6dc6a6cf90f7a01344f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-IS1.ANS by The Night Angel (AWE Lettering); released in awe-15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Illegal Soda
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Illegal Soda by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-15-tna-is1
 
 Write-Host '
                        [33m▄[0;1;31;43m▄[0;33m▄[0m

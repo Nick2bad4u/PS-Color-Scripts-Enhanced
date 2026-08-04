@@ -1,18 +1,4 @@
-﻿# Converted from: NB-DEMIS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl199503/raw/NB-DEMIS.ANS
-# Source Revision: archive-sha256:076dc5f7e8e5935b6779aca5076679253dcd9b76950721d084bd358b3028f504
-# Source SHA-256: 9efd994867252822a976063f00f32dddca777b86c72452e944e5ee99ac48b084
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NB-DEMIS.ANS by NightBlade (TekLordZ); released in tl199503 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: DEMiSE Promo
-# SAUCE Author: NightBlade
-# SAUCE Group: TekLordZ
-# SAUCE Date: 19950307
-# SAUCE Dimensions: 80x41
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: DEMiSE Promo by NightBlade | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl199503-nb-demis
 
 Write-Host '
          [30;46m ░▒▓██[0m         [30;40m▄[0;30;45m█[0;30;46m▓▒░ [0m                      [30;45m█[0;30;46m▓▒░[0m           [36;40m■▄[0m

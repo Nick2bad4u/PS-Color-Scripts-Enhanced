@@ -1,18 +1,4 @@
-﻿# Converted from: EP-FD3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0295/raw/EP-FD3.ANS
-# Source Revision: archive-sha256:b4a9317a16099a725a504ff4e712580fb7ccb0fb92be4414f7baf17a732fd6d2
-# Source SHA-256: d765c64a0acb5002882ef5fe8176fee381f5349bbabe8aec016d171228d049fe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EP-FD3.ANS by Epitaph (Fire); released in fire0295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Flying Donuts
-# SAUCE Author: Epitaph
-# SAUCE Group: Fire
-# SAUCE Date: 19950131
-# SAUCE Dimensions: 80x25
-# Lines: 99-139
-# Columns: 1-80
+﻿# Artwork: The Flying Donuts by Epitaph | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0295-ep-fd3-part03
 
 Write-Host '
                           [31m▀█[0m

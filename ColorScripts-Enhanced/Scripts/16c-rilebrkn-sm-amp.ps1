@@ -1,18 +1,4 @@
-﻿# Converted from: SM-AMP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rilebrkn/raw/SM-AMP.ANS
-# Source Revision: archive-sha256:631709d46940d5f633b8ebca426a515d51357cee4cca25bed435a2a8fbf53a10
-# Source SHA-256: acb2416507981cd3326488d74459ee2651e954bda62de289061fc91ad234f6ba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-AMP.ANS by sammael (art); released in rilebrkn and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: &
-# SAUCE Author: sammael
-# SAUCE Group: art
-# SAUCE Date: 19970421
-# SAUCE Dimensions: 80x41
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: & by sammael | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rilebrkn-sm-amp
 
 Write-Host '
 [32m      ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;32;42m ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;32m███████       [0m

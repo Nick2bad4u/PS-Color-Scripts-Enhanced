@@ -1,13 +1,4 @@
-﻿# Converted from: PM-RIB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis-p/raw/PM-RIB.ANS
-# Source Revision: archive-sha256:b04863e56e1b880918cfcc3339e8f0365ae72ecaed6ae586bbd37c3f4fe2a3c7
-# Source SHA-256: bca098e30d2086313a68eaadb33a0f3fe7db4464774bde052d0437e148c32a18
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PM-RIB.ANS by Paul Muaddib (ansis-p); released in ansis-p and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: PM-RIB.ANS by Paul Muaddib | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-p-pm-rib
 
 Write-Host '
 │                                                  [1;30m▄▄[0m▒▓████▓[1;30m▄▄[0m

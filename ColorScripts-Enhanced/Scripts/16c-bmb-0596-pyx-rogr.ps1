@@ -1,13 +1,4 @@
-﻿# Converted from: PYX-ROGR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0596/raw/PYX-ROGR.ANS
-# Source Revision: archive-sha256:2b7b1dd95a9d9508170892c43bef2c3ed5e02282eecce8d0ae15c8f279497494
-# Source SHA-256: 4aad027c477292b51adcd4f3b7ec678befb0c451e3619b56fc0f69e161d849b5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PYX-ROGR.ANS by Pyx (bmb-0596); released in bmb-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: PYX-ROGR.ANS by Pyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0596-pyx-rogr
 
 Write-Host '
                                                 [34m■[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SK!CHOG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p16_02/raw/SK!CHOG.ANS
-# Source Revision: archive-sha256:f14040a9d68edb58d098453fc4b0fc3b1d73172046af4c5ef395d54b3010b7f2
-# Source SHA-256: c6d00831749abc219139ebed3ca731b43c00069677a6f66c1c7680bf62815c50
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!CHOG.ANS by sIMONkING (thelo0p); released in l0p16_02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: cHAINS oF g0d
-# SAUCE Author: sIMONkING
-# SAUCE Group: thelo0p
-# SAUCE Date: 20020623
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: cHAINS oF g0d by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p16-02-sk-chog
 
 Write-Host '
 [1;30m▐[0;1;30;47m░[0m███[1;30;47mstop![0m██[1;47m▀█[0m▌ [36m▐[0;1;36;46m▓▒▒▒▒▒░[0;36m▀[0;37m [0;1;34m▄[0m        [33m       [0;1;34m▀▄[0;33m                    [0;36m▀██[0;1;36;46m [0;36m███████████ [0m

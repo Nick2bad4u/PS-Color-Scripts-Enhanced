@@ -1,18 +1,4 @@
-﻿# Converted from: STC-ELUS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0895/raw/STC-ELUS.ANS
-# Source Revision: archive-sha256:3becf3c2c00dadeb41257fa85bb842a48deb8515cdc494db0d9ff697d2e04d12
-# Source SHA-256: f09fe02bcdf1477ee97e44992d6cdf4dc06493e612da0fec7233f337600e06dc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: STC-ELUS.ANS by Stone The Crow (ACiD Productions); released in acdu0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Elusive Dreams
-# SAUCE Author: Stone The Crow
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950718
-# SAUCE Dimensions: 80x75
-# Lines: 41-75
-# Columns: 1-80
+﻿# Artwork: Elusive Dreams by Stone The Crow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0895-stc-elus-part02
 
 Write-Host '
 [1;30m▀▄[0;31m    [0;1;30m▀ ▄[0;31m  [0m       [31m ▄ ▀[0;37m [0;31m■[0;1;37m [0m         [33m■[0;37m [0;1;30m▐[0;1;37m [0m   [33m [0m      [33m■[0m    [1;30m■[0m    [1;30m  [0;33m▌[0;1;34m           [0;31m▄▄▀[0;1;34m  [0;31m█[0;1;34m  [0m

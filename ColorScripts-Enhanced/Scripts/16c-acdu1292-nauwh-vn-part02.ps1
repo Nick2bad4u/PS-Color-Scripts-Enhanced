@@ -1,13 +1,4 @@
-﻿# Converted from: NAUWH-VN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1292/raw/NAUWH-VN.ANS
-# Source Revision: archive-sha256:6c5c7ef66182056ff3f821bfb6f5ceb9b593ec0078def1a5d2bd62ceb180acde
-# Source SHA-256: 8613fccf9c92db0221d0fad19333cbec10ae61ee192626879c55b9deb20d837b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NAUWH-VN.ANS by Vindication (acdu1292); released in acdu1292 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 50-99
-# Columns: 1-80
+﻿# Artwork: NAUWH-VN.ANS by Vindication | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1292-nauwh-vn-part02
 
 Write-Host '
 [47m [0;1;30m▌▄[0m                        [31m▄[0m          [1;30m░░[0m     [31m▐[0m

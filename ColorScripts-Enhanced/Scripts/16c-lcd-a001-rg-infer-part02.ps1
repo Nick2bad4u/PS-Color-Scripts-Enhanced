@@ -1,18 +1,4 @@
-﻿# Converted from: RG-INFER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lcd-a001/raw/RG-INFER.ANS
-# Source Revision: archive-sha256:55e314de3437204a90547056ed7bd388c2225541f9bc2d93c6d567b798eee7fd
-# Source SHA-256: 306a0d0bb06112112d9c1f56129c89733a68cfd23d0496044970782d9f3df1a8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RG-INFER.ANS by Rimgale (LUCiD); released in lcd-a001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Digital Inferno
-# SAUCE Author: Rimgale
-# SAUCE Group: LUCiD
-# SAUCE Date: 19941208
-# SAUCE Dimensions: 80x25
-# Lines: 33-58
-# Columns: 1-80
+﻿# Artwork: Digital Inferno by Rimgale | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lcd-a001-rg-infer-part02
 
 Write-Host '
                 [1;31;40m▀▀▀▀[0m         [1;31;43m ░▒▓▓[0;1;31;40m█████▄▄▄▄▄▄████ [0;36m▀█▄▄[0m

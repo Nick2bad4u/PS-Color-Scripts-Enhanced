@@ -1,18 +1,4 @@
-﻿# Converted from: (M1)XFER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0697/raw/(M1)XFER.ANS
-# Source Revision: archive-sha256:08e18940bca34b3567a75953ae0590b0f85d3fbc4d879deb49d9733793875e53
-# Source SHA-256: d5b904eb3cd3cb93ebac82dbafdecba9cb5d563a526c954eab2453a75b3d0971
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: (M1)XFER.ANS by m01 (Phat Studios '97); released in phat0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: last transfers
-# SAUCE Author: m01
-# SAUCE Group: Phat Studios '97
-# SAUCE Date: 19970517
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: last transfers by m01 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0697-m1-xfer
 
 Write-Host '
  [1;33m [0;36m▄[0;1;36m▄▄[0;1;33m  [0;1;30m [0m  [30;47m▓▓[0;37;40m [0;1;37;40m    [0;36m▄[0;1;36m▄▄[0;1;37m [0m  [33m░[0;30;43m▓[0;37;40m  [0;1;33;40m  [0;33m [0;37m [0;1;36;46m▐[0;1;36;40m█[0;1;37;40m▌[0m            [33m [0m   [33m░[0;30;43m▓[0m          [30;47m█[0m              [1;33;40m▄▄[0;1;36;40m▄[0m

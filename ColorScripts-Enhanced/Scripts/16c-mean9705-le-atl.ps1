@@ -1,16 +1,4 @@
-﻿# Converted from: LE-ATL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mean9705/raw/LE-ATL.ANS
-# Source Revision: archive-sha256:96235d9849bffd6005b05e894c29f6b67b3d4c051090948bf653b689870cae3a
-# Source SHA-256: a15121b2c903223a2b3e5a68ef5649b94f6790631ef4503e2fd3868e481f9478
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LE-ATL.ANS by leonardo (mean scheme); released in mean9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: atlantis
-# SAUCE Author: leonardo
-# SAUCE Group: mean scheme
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: atlantis by leonardo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mean9705-le-atl
 
 Write-Host '
 [1;34;46m░░▓[0;1;34;44m▓▓░[0;34m████████[0;1;34;44m░░[0;1;34;46m▓[0;1;34;47m▓░░▓[0;1;34;44m▄[0;34m██[0;37m [0;34;42m▀[0;32;40m▓▐▄ [0;1;32;42m▄░[0;33m █[0;37m [0;1;37m█[0;1;33m█[0;32m▀▐▌[0;33m▄▌ [0;37m [0;30;43m▓[0;33;40m▀[0;1;31;43m▀▐[0;1;31;40m█[0;33m▄░█▀▐[0;1;31;43m░▓[0;1;31;40m█[0;1;31;43m▀[0;1;31;40m▀[0m [1;31m [0;33m▄▄▄▄░[0;37m [0;30;42m█▓░[0;32;40m▄▌[0;33;40m▐[0;1;31;43m▄▌[0m [32m ▐▄▌[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: IG-HAND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/irapack3-ira-ansi/raw/IG-HAND.ANS
-# Source Revision: archive-sha256:6fed41f2189359ac8fc175895e43a6af0c3289bbdbde355fb090fc9339bbf7d0
-# Source SHA-256: 560b595e2840143b8f9fc77df455b6a3886f146e6883a8866904ff4c3e61afcb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IG-HAND.ANS by Iguana (irapack3-ira-ansi); released in irapack3-ira-ansi and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: IG-HAND.ANS by Iguana | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-irapack3-ira-ansi-ig-hand
 
 Write-Host '
                           [1;35m▄▄▄▄▄[0m                [1;30m ▄▄▄[0m

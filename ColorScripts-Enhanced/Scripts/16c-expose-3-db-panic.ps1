@@ -1,18 +1,4 @@
-﻿# Converted from: DB%PANIC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/expose-3/raw/DB%25PANIC.ANS
-# Source Revision: archive-sha256:c524942ac8d53334a2dddf3999dcc9e9f427d4f637a4395c37c9577462457908
-# Source SHA-256: de09948d688bcdc8e5abed4e8a1af8e6c45bc94cf82b08a8b2f30bdf6879d36e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DB%PANIC.ANS by dirtbag (<-- (xpo) -->); released in expose-3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: start the panic
-# SAUCE Author: dirtbag
-# SAUCE Group: <-- (xpo) -->
-# SAUCE Date: 19970604
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: start the panic by dirtbag | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-expose-3-db-panic
 
 Write-Host '
 ▄█[1;47m▀█▓▓██[0;1;40m▀[0m    [1;30m▄▄▄▄█▓▓▓████▓▓████████▓▓████▄[0m   ▀▀[1;47m░[0;30;47ms[0;37;40m█[0;30;47mt[0;37;40m█[0;30;47ma[0;37;40m█[0;30;47mr[0;37;40m█[0;30;47mt[0;37;40m███[0;30;47mt[0;37;40m█[0;30;47mh[0;37;40m█[0;30;47me[0;37;40m███[0;30;47mp[0;37;40m█[0;30;47ma[0;37;40m█[0;30;47mn[0;37;40m█[0;30;47mi[0;37;40m█[0;30;47mc[0;37;40m█▄ [0m

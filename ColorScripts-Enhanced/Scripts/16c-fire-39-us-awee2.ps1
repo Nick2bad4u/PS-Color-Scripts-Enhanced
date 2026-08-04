@@ -1,20 +1,4 @@
-﻿# Converted from: US-AWEE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-39/raw/US-AWEE2.ANS
-# Source Revision: archive-sha256:5e57507ce34170a4afb707b1587800d0885fae4776f1271b7b7cee7f71264d9d
-# Source SHA-256: 834e36e181db64cbb72568ffc71d3de7a264adc287168fd0b0699dc8033bc0f0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-AWEE2.ANS by Savage + Gunthar (Fire); released in fire-39 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: AWE 4evah
-# SAUCE Author: Savage + Gunthar
-# SAUCE Group: Fire
-# SAUCE Date: 20240303
-# SAUCE Dimensions: 80x24
-# SAUCE Font: IBM VGA
-# SAUCE Comments: font by savage // colors by gunthar
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: AWE 4evah by Savage + Gunthar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-39-us-awee2
 
 Write-Host '
 [37;40m  [0;30;45m▓[0m      [37;40m▐   [0;35;40m░▒▒▓░[0m        [35;40m░░[0m     [35;40m░▒[0;30;45m░░ ░░▒[0;35;40m░[0;37;40m [0;35;40m▄[0;30;45m▒[0;35;40m░[0m     [30;45m▒░░░░[0;35;40m▀[0;37;40m [0;35;40m■▀[0;37;40m  [0;35;40m▄▄▄▄▄███████[0;30;45m░░░[0;35;40m▀▀[0m

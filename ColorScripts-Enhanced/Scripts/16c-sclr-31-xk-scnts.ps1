@@ -1,18 +1,4 @@
-﻿# Converted from: XK-SCNTS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-31/raw/XK-SCNTS.ANS
-# Source Revision: archive-sha256:bb03d6a159f24338a3412f8c68b8b46e7434c6ed248bdd824b6bd523813298d1
-# Source SHA-256: f876e2e050ef59d087f7dbcbeb6500d71808728e594f8f13f98c4d108bc472fb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XK-SCNTS.ANS by xkey (secular); released in sclr-31 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: scientist
-# SAUCE Author: xkey
-# SAUCE Group: secular
-# SAUCE Date: 20030806
-# SAUCE Dimensions: 80x36
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: scientist by xkey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-31-xk-scnts
 
 Write-Host '
                                        [1;30m┬[0m

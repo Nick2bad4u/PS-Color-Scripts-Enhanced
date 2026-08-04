@@ -1,20 +1,4 @@
-﻿# Converted from: US-PICKLED_EGGS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1025/raw/US-PICKLED_EGGS.ANS
-# Source Revision: archive-sha256:c6ce2eb1560c66497e345290ad53cd5a430626bac015b2788f41b6db23db8045
-# Source SHA-256: 833fde55181db201fee7f158dbefa0e570f6b89e17856bb21cde20006ec184a3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-PICKLED_EGGS.ANS by Cthulu + LDA + Zeus Ii (Mistigris); released in mist1025 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Pickled Eggs
-# SAUCE Author: ct / lda / zii
-# SAUCE Group: Mistigris
-# SAUCE Date: 20251028
-# SAUCE Dimensions: 80x78
-# SAUCE Font: IBM VGA
-# SAUCE Comments: c'thulu / lda / zeus ii
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Pickled Eggs by Cthulu + LDA + Zeus Ii | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1025-us-pickled-eggs-part01
 
 Write-Host '
 [33m▄▄▄▄       ▄▄▄▄▐███▌▄▄▄▄ ▐███▌ ▄▄▄▄ ███▌▐███ █       [0;31m▐████▌ ▐██████▌[0;37m [0;31m▄▄▄▄▄▄▄[0m

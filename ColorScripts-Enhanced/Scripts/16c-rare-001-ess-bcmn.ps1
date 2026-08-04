@@ -1,18 +1,4 @@
-﻿# Converted from: ESS!BCMN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rare-001/raw/ESS!BCMN.ANS
-# Source Revision: archive-sha256:7435b1c9938dec461ab33b42b3dd164ea7e98ecfff30ea4d3df5a8e59194b0a3
-# Source SHA-256: 4368a1b2f92ae37afb4f0ed80943ed59e8aa3ad5eb62bd5710e68ca3358057a1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ESS!BCMN.ANS by Essence (rARE!ASCii); released in rare-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: BodyCount Main
-# SAUCE Author: Essence
-# SAUCE Group: rARE!ASCii
-# SAUCE Date: 19980305
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: BodyCount Main by Essence | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rare-001-ess-bcmn
 
 Write-Host '
 [1m[0m[1m[0;1;30m[0m[1m[0m$[1m   [0;36m,┌⌐g[0;1;36m%%y¬[0;36m┐[0;1;30m.``^[0m╚$$[1m$$$$$$$[0m$╝^`[36m,┌⌐[0;1;36mg¬[0;36m┐[0;1;30m.``^[0m╚$[1m$$$gygg[0m [1m$$[0m$[1;30m''[0;1;37m [0;1;30m░░ [0mnOde[34m [0;1;37m1 [0;1;30m([0m33k6[1;30m)[0m

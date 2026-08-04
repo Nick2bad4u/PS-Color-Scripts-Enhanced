@@ -1,18 +1,4 @@
-﻿# Converted from: bj-asc52.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bj-creep/raw/bj-asc52.ans
-# Source Revision: archive-sha256:0debf4b45d7d951a68b5333767ded34f656851230e3888db7abc1feaad98e52f
-# Source SHA-256: 86d0a5d77172d14f1dc983f28d2a675a4c913be2a52d8fce69337b2d59f5de85
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bj-asc52.ans by Black Jack (Echo [01/04/96]); released in bj-creep and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Welcome Screen (Weirds bar & grill)
-# SAUCE Author: Black Jack
-# SAUCE Group: Echo [01/04/96]
-# SAUCE Date: 19970104
-# SAUCE Dimensions: 80x40
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Welcome Screen (Weirds bar & grill) by Black Jack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bj-creep-bj-asc52
 
 Write-Host '
 [1m [0m   [1m·[0m                   [1m·[0m           [34m,d$$$[0;1;30mPⁿ°[0m,[1;33mdⁿY$ⁿ"$$$P''[0;34m,d$b,[0;37m_  [0;1;30m,:ilI[0;34m&$$Il[0;1;30mi:.[0m

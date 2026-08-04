@@ -1,18 +1,4 @@
-﻿# Converted from: ICE-KI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr008/raw/ICE-KI.ANS
-# Source Revision: archive-sha256:538713f6eceb08f3ae929b511bdabc41afc7e24581ca518038e52dcff7842248
-# Source SHA-256: d44be1ff5d653be24b15544bd8afb715cb64197295460b672dcb32baa244f807
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ICE-KI.ANS by iceage (Lazarus); released in blndr008 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: SOCKS ARE GOTH
-# SAUCE Author: iceage
-# SAUCE Group: Lazarus
-# SAUCE Date: 19970112
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: SOCKS ARE GOTH by iceage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr008-ice-ki
 
 Write-Host '
                                                     [1;30m▀[0m

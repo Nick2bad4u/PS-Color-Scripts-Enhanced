@@ -1,19 +1,4 @@
-﻿# Converted from: LD-BNW.ANS
-# Source encoding: cp437
-# Source URL: https://16colo.rs/archive/1994/id-1194.zip
-# Source Revision: archive-sha256:e4287e2f7c251cb296d97cfef2d3a7cb7be107b4159284bac2c6b0e68634a939
-# Source SHA-256: 7c6d3ca2dc1408ed66cdc5a85bfdb11c91e192001fd4500b945102f99f12e594
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-BNW.ANS by Living Death (iDENTiTY); released in id-1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, scaling, or background-space stripping; split only into contiguous source-row ranges at manually reviewed composition boundaries when required.
-# SAUCE Title: Brave New World
-# SAUCE Author: Living Death
-# SAUCE Group: iDENTiTY
-# SAUCE Date: 19941024
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: This ansi was done by Living Death and Mr. Muff
-# Lines: 23-52
-# Columns: 1-80
+﻿# Artwork: Brave New World by Living Death | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-id-1194-ld-bnw-part02
 
 Write-Host '
                         ▄[1;33;47m▒▓▓▓▓[0;1;33;40m█████████████████▄[0m

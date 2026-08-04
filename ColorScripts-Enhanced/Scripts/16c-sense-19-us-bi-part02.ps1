@@ -1,13 +1,4 @@
-﻿# Converted from: us-bi.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense-19/raw/us-bi.ans
-# Source Revision: archive-sha256:ea10c48aec14899714c3e14041c7674268b2c0787d3213fdbe479590d88b8c03
-# Source SHA-256: 6869aa31ac009a42cab29e89eecd2e6baa51e2adae1d5522ecbde9162173d866
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-bi.ans by Zerovision + Roodolph + Ansichrist + Tefron (sense-19); released in sense-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 50-97
-# Columns: 1-80
+﻿# Artwork: us-bi.ans by Zerovision + Roodolph + Ansichrist + Tefron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense-19-us-bi-part02
 
 Write-Host '
 [30;46m    [0;36;40m▓▀▀[0;1;37;40m▄▄[0;1;36;40m▄[0;1;36;46m██▄▄[0;30;46m                    [0;1;36;46m▄▄▄▄█████▓▓[0;1;36;40m▄▄▄▄[0;1;36;46m▄▄▄▄[0;30;46m [0;1;36;46m▄▄▄[0;30;46m        [0;1;36;40m▄▄[0;1;36;46m██▓▓▓▓▓▄▄▄▄[0;30;46m  [0m

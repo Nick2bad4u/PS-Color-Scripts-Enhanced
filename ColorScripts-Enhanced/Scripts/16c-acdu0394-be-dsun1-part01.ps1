@@ -1,18 +1,4 @@
-﻿# Converted from: BE-DSUN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0394/raw/BE-DSUN1.ANS
-# Source Revision: archive-sha256:7805df52925a98aad31489bafc7cabadb416309b42badbbd7aa9aecbdec2b1cf
-# Source SHA-256: bcc7fdd225dbc67870e37c9383564e754aaac6792e2da5a98d194e51a14357a3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BE-DSUN1.ANS by Beastie (ACiD Productions); released in acdu0394 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Dark Sun World
-# SAUCE Author: Beastie
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940301
-# SAUCE Dimensions: 80x136
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: The Dark Sun World by Beastie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0394-be-dsun1-part01
 
 Write-Host '
                                    [1m▄[0m

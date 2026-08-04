@@ -1,20 +1,4 @@
-﻿# Converted from: ZIR-G2N5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-44/raw/ZIR-G2N5.ANS
-# Source Revision: archive-sha256:6c51508cedeaa9140fcf08750a75edb14e0cec0eebe7b4290346e95cd3548876
-# Source SHA-256: 2498cbd41adb66c5813e21ac0f447ff8a08191e8e61e694bf33ebac6022160ae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-G2N5.ANS by zir (FiRE); released in fire-44 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: MR GONE
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20251111
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: you. killed. my. HOSTAGE!!!!!@#%#%&*%^!$!
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: MR GONE by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-44-zir-g2n5
 
 Write-Host '
 [37;40m [0;1;34;40m▄[0;1;34;47m▀[0;1;34;40m█[0;1;34;44m▀[0;1;34;40m▀█[0;1;34;47m▓[0;1;34;44m▀[0;1;34;40m▀▀▀█▀[0;33m ░░▄▄▄▄▄▄   [0;1;34m▀▀▄[0;1;34;44m▓[0;1;34;40m▀▀▀▀▀[0;1;34;44m▓[0;1;34;40m█▀▀▀▀█▀ ▀▓▀█▀▀▓▀▀▀▀▓▀▓▀▓▀▀▀[0;1;33;40m·[0;1;34;40m▀█ ▓[0;1;34;47m▓[0;1;34;40m▀▀[0;1;34;44m▀[0;1;34;47m▓▀[0;1;34;40m▀[0;1;34;44m▀[0;1;34;40m█[0;1;34;47m▀[0;1;34;44m▀[0m

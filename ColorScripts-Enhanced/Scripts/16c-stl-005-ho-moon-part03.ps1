@@ -1,18 +1,4 @@
-﻿# Converted from: HO-MOON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/stl-005/raw/HO-MOON.ANS
-# Source Revision: archive-sha256:1d000c975d4e4cc3e398643daab47be888da5632072e32d65c4b4cc03f987a7c
-# Source SHA-256: 7b950dc7bf294160b552e18edf7e53cf6d6bb1ae3bc177c987c4fa1aabb9051c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HO-MOON.ANS by hoodoo (stile); released in stl-005 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: freezing moon
-# SAUCE Author: hoodoo
-# SAUCE Group: stile
-# SAUCE Date: 19960418
-# SAUCE Dimensions: 80x113
-# Lines: 79-113
-# Columns: 1-80
+﻿# Artwork: freezing moon by hoodoo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-stl-005-ho-moon-part03
 
 Write-Host '
 [1;30m▐██[0;1;30;43m██▓▓▓▓▓█[0m [1;31;43m   ░░▒▒▓█[0;1;31;40m███████████████▌[0;33m▐[0;1;31;43m▒▓[0;1;31;40m████▌ [0;1;31;43m        ░░░░░░░░░░░░   [0;33m▌[0;1;30m▐[0;1;30;43m██▓▓▓██[0;1;30;40m█▌[0m

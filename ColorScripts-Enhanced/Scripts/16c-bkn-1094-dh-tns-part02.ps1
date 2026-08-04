@@ -1,13 +1,4 @@
-﻿# Converted from: DH-TNS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bkn-1094/raw/DH-TNS.ANS
-# Source Revision: archive-sha256:0b4926846547047cc058a9f9147da439da0893de17058bf72520e5e6355b08ff
-# Source SHA-256: 061aa380ce8b32648ce552b9d820cc01b331fb05474d4f91bdf8b37825cbbf17
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DH-TNS.ANS by Die Hard (bkn-1094); released in bkn-1094 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: DH-TNS.ANS by Die Hard | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bkn-1094-dh-tns-part02
 
 Write-Host '
 [1;36;40m████████████████████████ [0;1;37;40m███████[0;1;37;47m▓▓▓▓▓▓▓███▓▒░ [0;1;32;47m░▒▓[0;1;32;40m █[0;1;32;47m▓▒[0m▀[1;32m▄[0;1;32;47m▓▒░ [0;1;37;47m░▒▓███[0;1;37;40m▄[0;1;32;40m▀[0m▀[1;32m▄[0;1;32;47m▓▒▓[0;1;32;40m▄[0m▀[1;32;47m▒▓██▓▒[0m

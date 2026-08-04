@@ -1,18 +1,4 @@
-﻿# Converted from: RA-UFATE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shv-0695/raw/RA-UFATE.ANS
-# Source Revision: archive-sha256:bb4ff0be2845c295b33fa1a12cfa10d6f27c56c159b0d7d43aa0404a3b850a05
-# Source SHA-256: 1c096d064e9e277ad8dce51c9d83a4b0338e476aa1e9814b264965b84f66c84c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RA-UFATE.ANS by Rage + Pale (Shiver); released in shv-0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Unseen Fate
-# SAUCE Author: Rage
-# SAUCE Group: Shiver
-# SAUCE Date: 19950601
-# SAUCE Dimensions: 80x25
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Unseen Fate by Rage + Pale | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shv-0695-ra-ufate-part01
 
 Write-Host '
 [36m██████████▓██████████████████▀▓███████▓▓█████████▓███████████▓▀▓██████████████▓▓[0m

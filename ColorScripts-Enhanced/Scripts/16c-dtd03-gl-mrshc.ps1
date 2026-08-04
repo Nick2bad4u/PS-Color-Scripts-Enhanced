@@ -1,19 +1,4 @@
-﻿# Converted from: GL-MRSHC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dtd03/raw/GL-MRSHC.ANS
-# Source Revision: archive-sha256:12192704d4216d2aefe0d36b2c5bcb5e5157eafacf7ca0b06c6a5389afde918d
-# Source SHA-256: 3545e98294aa3230b9bd27eb084b011e2af10e09dce8c35204e9149b3ef06da6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GL-MRSHC.ANS by GLANDYTH-A-KRAE (DEVOTiON TO DARKNESS); released in dtd03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 'MiRiSHCA'
-# SAUCE Author: GLANDYTH-A-KRAE
-# SAUCE Group: DEVOTiON TO DARKNESS
-# SAUCE Date: 19970709
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: for melle.
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: 'MiRiSHCA' by GLANDYTH-A-KRAE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dtd03-gl-mrshc
 
 Write-Host '
 [1;30;46m░[0;1;36;46m▀▀▓█[0;1;37;40m██[0;1;36;46m███▄░▐█[0;1;37;40m█[0;1;36;46m█▓▀[0;36m▀ [0;1;30m░[0m     [1;30m ▓▓[0m [1;30m▒▓[0m [1;30m█▀░[0m [1;30m▄▓▀  [0m  [1;30m ▄▄▒▀▀ [0;33m▄▄▄███[0;1;31;43m░░░▒▒[0;33m  ▐[0;1;31;43m▓▓█▓████▓▒░░[0;33;43m▄[0;1;31;43m░░[0m

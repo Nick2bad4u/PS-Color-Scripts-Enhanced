@@ -1,18 +1,4 @@
-﻿# Converted from: SM-NOTB1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0894/raw/SM-NOTB1.ANS
-# Source Revision: archive-sha256:28600f23ee913202821d8c592f0de8a079254979b8f1dcaf5d782e506b6eee00
-# Source SHA-256: 9e8fe98d4189f3e979e51bcaa4ce406ced10ee19110842cd83397f1f8ce360cf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-NOTB1.ANS by Smooth (ACiD Productions); released in acdu0894 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Number of The Beast
-# SAUCE Author: Smooth
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940801
-# SAUCE Dimensions: 80x150
-# Lines: 101-150
-# Columns: 1-80
+﻿# Artwork: Number of The Beast by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0894-sm-notb1-part03
 
 Write-Host '
 [31m▌[0m                                                                           [31m■▄[0m

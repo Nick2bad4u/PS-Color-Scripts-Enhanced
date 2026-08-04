@@ -1,13 +1,4 @@
-﻿# Converted from: TM^DEDO!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/moco0001/raw/TM%5EDEDO!.ANS
-# Source Revision: archive-sha256:dcdb582dd72f68bdff86d5417b79603e24e9c8dae1249dc376b93ef4a35dab7b
-# Source SHA-256: 1f8959db18165a500a2ef311ab9b4282bbe7629937ef7ea4b7243a9665637d39
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TM^DEDO!.ANS by The Mask (moco0001); released in moco0001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: TM^DEDO!.ANS by The Mask | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-moco0001-tm-dedo
 
 Write-Host '
 [1;30m[0m[1m[0m[1;30m[0m                                      [32m▄▄[0;1;32;42m▒▒░░[0;32m▄▄[0m

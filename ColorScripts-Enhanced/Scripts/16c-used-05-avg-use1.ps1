@@ -1,17 +1,4 @@
-﻿# Converted from: AVG-USE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-05/raw/AVG-USE1.ANS
-# Source Revision: archive-sha256:c84fdc261f7fd501a311025e55fa5ba4ffaded89b8d307d907b0105e1d45695f
-# Source SHA-256: c70ebffa6b0f3fd1724ef3154424edf5c4b6c9225082f413ed34b5bdf85334ed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-USE1.ANS by Avenging_Angel (The Used Coalition); released in used-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Used Coalition
-# SAUCE Author: Avenging_Angel
-# SAUCE Group: The Used Coalition
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: The Used Coalition by Avenging_Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-05-avg-use1
 
 Write-Host '
  [1mavg[0m([1mused[0m)                  [36m▄[0;1;36m▄[0;36m▄[0;37m  [0;34m▄[0;1;34m▄▄[0;34m▄[0;37m [0;34m▀[0;1;34m▀[0m   [34m▀[0;1;34;44m▀[0;1;34;40m░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: $H-PAIN2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axss-004/raw/%24H-PAIN2.ANS
-# Source Revision: archive-sha256:cc7ca8d7dcd1abdb52246b5cbdcd77ccd4fb36bf9ad0e41c6e03ec1642d8a422
-# Source SHA-256: 97db141b4283bae1de88bef78ee95cbca47fa9aa618273e73cef2cbc5ca1961c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: $H-PAIN2.ANS by Shinigami (.%.AXss.%. -97); released in axss-004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Pain Title Ansi #2
-# SAUCE Author: Shinigami
-# SAUCE Group: .%.AXss.%. -97
-# SAUCE Date: 19970617
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: Pain Title Ansi #2 by Shinigami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axss-004-h-pain2
 
 Write-Host '
 

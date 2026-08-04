@@ -1,18 +1,4 @@
-﻿# Converted from: APAM-SSHRINE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0318/raw/APAM-SSHRINE.ANS
-# Source Revision: archive-sha256:42ab29e2ce9c1e75ed58161c6b0278354fb3ac39047d9d0a83c10562399b1e88
-# Source SHA-256: 4170f431de1c24f0ab69597fc0a9c5419ad94f6940144db4668d9adc6ae6b84b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: APAM-SSHRINE.ANS by apam (mist0318); released in mist0318 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Serpent's Shrine
-# SAUCE Author: apam
-# SAUCE Date: 20161122
-# SAUCE Dimensions: 80x57
-# SAUCE Font: IBM VGA
-# Lines: 30-57
-# Columns: 1-80
+﻿# Artwork: Serpent's Shrine by apam | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0318-apam-sshrine-part02
 
 Write-Host '
           [32m▄▄█████████▄▄▄▄▄▄[0m      [32m▄██▌[0;33m▀█████████▀[0;32m▐█▌████████████████████▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: RYANS37.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis-r/raw/RYANS37.ANS
-# Source Revision: archive-sha256:6ccc513881ee556deba815b03462e68349fdbb0c1b5a70f45984bb59666af905
-# Source SHA-256: 216410a2400cc3fdee8525f3451e9de66760414fc9d3a73a574c01374231a3ce
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RYANS37.ANS by Michael Arnett (ansis-r); released in ansis-r and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: RYANS37.ANS by Michael Arnett | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-r-ryans37
 
 Write-Host '
 [44m                                                          [0;30;44m▄▄▄                 [0m

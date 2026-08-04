@@ -1,19 +1,4 @@
-﻿# Converted from: k1-elau.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel27/raw/k1-elau.ans
-# Source Revision: raw-sha256:660701e02326f3fd02bf347e927490a057c56756aec1bcd562b0ccc76c63d056
-# Source SHA-256: 660701e02326f3fd02bf347e927490a057c56756aec1bcd562b0ccc76c63d056
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: k1-elau.ans by knocturnal (FUEL); released in fuel27 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ACiD Underworld
-# SAUCE Author: knocturnal
-# SAUCE Group: FUEL
-# SAUCE Date: 20180923
-# SAUCE Dimensions: 80x156
-# SAUCE Font: IBM VGA
-# Lines: 40-78
-# Columns: 1-80
+﻿# Artwork: ACiD Underworld by knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel27-k1-elau-part02
 
 Write-Host '
 [1;30;40m █[0m   ░░▓▓[1;47m [0m█[1;47m▄ ░░░▒▒▀[0;30;47m ■■[0;37;40m██▓▓[0;1;30;40m▌[0;31m   [0;1;30m ■[0m         [1;30;43m░[0;33m  [0;1;30m░[0;33m [0;1;30m [0;33m▒[0;1;30m [0;33m [0;1;31m [0;1;30m▀ [0m                   █[1;30m▀ █  ▓[0m

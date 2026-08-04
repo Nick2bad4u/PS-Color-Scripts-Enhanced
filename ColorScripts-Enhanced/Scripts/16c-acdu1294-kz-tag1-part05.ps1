@@ -1,18 +1,4 @@
-﻿# Converted from: KZ-TAG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1294/raw/KZ-TAG1.ANS
-# Source Revision: archive-sha256:f8a4b1074b7793df8f3d2e2341b035c3ebc6fa160937f8fe7508c74b4b0317e1
-# Source SHA-256: e4394b1bf15826b5810a6ef8e5d152283deb0d33cd2c847e42506e4b2751d9e3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KZ-TAG1.ANS by Kamikazee (ACiD Productions); released in acdu1294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Assassin's Guild
-# SAUCE Author: Kamikazee
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19941101
-# SAUCE Dimensions: 80x243
-# Lines: 196-243
-# Columns: 1-80
+﻿# Artwork: The Assassin's Guild by Kamikazee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1294-kz-tag1-part05
 
 Write-Host '
                                      ░▄▓[1;47m░▒▒[0;1;40m▄[0m                          [1;30;40m ▄▄▄▀[0m

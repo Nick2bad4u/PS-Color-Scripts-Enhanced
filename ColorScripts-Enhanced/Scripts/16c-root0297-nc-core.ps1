@@ -1,15 +1,4 @@
-﻿# Converted from: NC-CORE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0297/raw/NC-CORE.ANS
-# Source Revision: archive-sha256:ecfcd3f5cd2c4412c60edbfa5c15fbea724948a8a18d0e8a8931276c9082657e
-# Source SHA-256: 4ac41dc9006a6b72419415a8413cdfb2fb60e5161ad610d313b59ac340004197
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NC-CORE.ANS by Necrolyte (root0297); released in root0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Core Dump
-# SAUCE Author: Necrolyte
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Core Dump by Necrolyte | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0297-nc-core
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: SQR!RNOT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rare-002/raw/SQR!RNOT.ANS
-# Source Revision: archive-sha256:0a3a1ab211a696c0dde542e6c378313f7a0800dd36697e1287d0a21d1dc7f85f
-# Source SHA-256: dd2f0084ade81de6337dc67619ee1c6280aedaec99a9a5acf5d29bfa90b86b85
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SQR!RNOT.ANS by Square + Dirt Bag (rare!ascii); released in rare-002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: raf not
-# SAUCE Author: square
-# SAUCE Group: rare!ascii
-# SAUCE Date: 19980424
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: raf not by Square + Dirt Bag | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rare-002-sqr-rnot
 
 Write-Host '
 

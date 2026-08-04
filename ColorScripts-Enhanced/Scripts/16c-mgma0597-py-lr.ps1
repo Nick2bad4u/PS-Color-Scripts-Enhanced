@@ -1,18 +1,4 @@
-﻿# Converted from: PY-LR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mgma0597/raw/PY-LR.ANS
-# Source Revision: archive-sha256:4321ed96c03457476be7881d0c1ef30e9189de218dff8231543b22aa7744f58c
-# Source SHA-256: 7438083b3f7e54d426fc8a9475b73c4c34e0536c37d67bf4a1743d5a854e4e80
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PY-LR.ANS by Pyhrrus (Magma); released in mgma0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Lost reality ascii
-# SAUCE Author: Pyhrrus
-# SAUCE Group: Magma
-# SAUCE Date: 19970312
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Lost reality ascii by Pyhrrus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mgma0597-py-lr
 
 Write-Host '
                    [36m   [0;37m [0;34m ╓   ╖ [0;37m [0;36m          [0;34m          [0;37m  [0;1;34m [0;34m╖   ╓ [0;37m [0;36m            [0m   [1;36m [0;36m [0;1;30m  [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: LUM-GIRL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/soda03/raw/LUM-GIRL.ANS
-# Source Revision: archive-sha256:8ca6b1277c2cfab282ae43fc96ff48d3d51942dfad836f25624e00db8433621a
-# Source SHA-256: c89d3beaad124fecc7e8a876bef01a9e7c87338b61be503a8a7304414ada962f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LUM-GIRL.ANS by Luminator + Funk-E (sodapop); released in soda03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: blender2k #2
-# SAUCE Author: funk-e/lum
-# SAUCE Group: sodapop
-# SAUCE Date: 19990506
-# SAUCE Dimensions: 80x289
-# Lines: 99-146
-# Columns: 1-80
+﻿# Artwork: blender2k #2 by Luminator + Funk-E | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-soda03-lum-girl-part03
 
 Write-Host '
 [1;36;46m░[0;36m▌[0;37m  ▐█[0;1;37;47m    ▀▀████[0;1;37;40m█[0;1;37;47m▀ [0m██       [33m▄▄▄▄▄[0;1;31m▄▄▄▄▄▄▄▄[0m                       [33m▐[0;1;31m████[0;1;31;43m▄[0;33m██[0m

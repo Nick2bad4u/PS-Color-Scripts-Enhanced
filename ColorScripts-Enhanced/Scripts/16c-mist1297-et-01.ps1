@@ -1,13 +1,4 @@
-﻿# Converted from: ET-01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1297/raw/ET-01.ANS
-# Source Revision: archive-sha256:95ca1a64d078cb37722ecf97d242eb54b1c888f218ebaab86aa7aa2a5cdbf8dc
-# Source SHA-256: 0183aebe55fa5c0110be894e5659fd5e21eca4d77371d4f679214e1b2e40eeda
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ET-01.ANS by Etana (mist1297); released in mist1297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: ET-01.ANS by Etana | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1297-et-01
 
 Write-Host '
            [31m▄█[0;1;37;41m▄▄[0;1;37;40m▓████████████████████████▓▓▓▓▓▓▀▄▄[0m

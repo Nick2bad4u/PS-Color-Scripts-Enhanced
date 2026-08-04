@@ -1,18 +1,4 @@
-﻿# Converted from: PD-FSIDE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-1097/raw/PD-FSIDE.ANS
-# Source Revision: archive-sha256:e00f8ccd747d6f713ee8049d7689cafe483a4db84fe36db34569c4f513f6fe6d
-# Source SHA-256: aaa9fe28a98164e5d771d9a86c4e7b91279020cc06ce6d7678bb13d43a32439a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PD-FSIDE.ANS by poldi (bamboosh); released in bmb-1097 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: freeside
-# SAUCE Author: poldi
-# SAUCE Group: bamboosh
-# SAUCE Date: 19971015
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: freeside by poldi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-1097-pd-fside
 
 Write-Host '
          [1;31m▄▄▄█[0;1;31;47m█▀▀[0;1;31;40m█[0m         [1;31m▄▄▄[0;1;31;47m██▀▀[0;1;31;40m█[0m [32m [0;1;31m▄▄█▀▀▀▀▀▀█[0;1;31;47m▀▀[0;1;31;40m█[0;31m [0;37m   [0;32m [0;1;31m▄▄█▀▀▀▀▀▀█[0;1;31;47m▀▀[0;1;31;40m█[0;31m [0;37m [0m

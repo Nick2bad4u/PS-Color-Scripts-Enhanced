@@ -1,13 +1,4 @@
-﻿# Converted from: BL!_WOJU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plenty/raw/BL!_WOJU.ANS
-# Source Revision: raw-sha256:d9741d53cf22264a364eb2421b74bcf0efde0ac7eb23cae476e520314d6a83d0
-# Source SHA-256: d9741d53cf22264a364eb2421b74bcf0efde0ac7eb23cae476e520314d6a83d0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BL!_WOJU.ANS by Bull (plenty); released in plenty and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: BL!_WOJU.ANS by Bull | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plenty-bl-woju
 
 Write-Host '
 

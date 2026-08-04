@@ -1,18 +1,4 @@
-﻿# Converted from: sm-battl.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-200210/raw/sm-battl.ans
-# Source Revision: archive-sha256:0bb96641d6773efb0eab9dbc5ee849dcb7d57a898d37aedc51178460548b5622
-# Source SHA-256: 0e2b419e493f0a04024167d4e841572c6f17cc1f792716eb3eacef3f5f36e280
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sm-battl.ans by Smooth (iCE Advertisements); released in ice-200210 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ANSi Battle MOD on D3
-# SAUCE Author: Smooth
-# SAUCE Group: iCE Advertisements
-# SAUCE Date: 20021031
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ANSi Battle MOD on D3 by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-200210-sm-battl
 
 Write-Host '
 [1;31m████▀▀[0m ░ [33m▀[0;37m▄▒ ▄ ▄  [0;33m▀[0;1;31;43m▀▀▓▓[0;33m▓▒[0;1;31;43m▄▓▓▓▒[0;1;31;47m▒[0;33m▌[0;32m▀█[0;1;32;42m░░ [0;32m█▓██▀▀▀▀▀[0;1;30m [0;31m     [0;37m [0;1;31m [0;31m    [0;1;31m [0;31m     [0;1;31m [0;31m  [0;37m [0;31m     [0;32m▀▀▀███[0;1;30m [0m

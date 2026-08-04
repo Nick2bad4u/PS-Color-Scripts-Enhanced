@@ -1,17 +1,4 @@
-﻿# Converted from: SPD!DRG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg0297/raw/SPD!DRG1.ANS
-# Source Revision: archive-sha256:398d54ab48baf03b2a76271be28600e820cb7f3c3af599e851a71ac0924fa8fd
-# Source SHA-256: 8d098d5ec5e696add46843c3e96c1ccc26af7117d7828da081812bc1a25ecf30
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPD!DRG1.ANS by spud (drg0297); released in drg0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: map...heup!
-# SAUCE Author: spud
-# SAUCE Date: 19970210
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: map...heup! by spud | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg0297-spd-drg1
 
 Write-Host '
                 [33m.[0m                                  [32m.[0m   [33m.[0m

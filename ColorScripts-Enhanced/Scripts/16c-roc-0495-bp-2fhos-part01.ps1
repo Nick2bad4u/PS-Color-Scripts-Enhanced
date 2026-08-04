@@ -1,18 +1,4 @@
-﻿# Converted from: BP-2FHOS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roc-0495/raw/BP-2FHOS.ANS
-# Source Revision: archive-sha256:b84129bad34334eb9ae03ab894a0e01ea054ab944ee45e48fee4cc49cd53f3c7
-# Source SHA-256: 47882049ec5409dae92b75f1a5aa58a83a8ab40f8f3e5f597ced2f14a2eebc1b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BP-2FHOS.ANS by Blood Priest + Silver Rat (Rulers Of Chaos); released in roc-0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Too Fucking Hostile
-# SAUCE Author: Blood Priest & SR
-# SAUCE Group: Rulers Of Chaos
-# SAUCE Date: 19950331
-# SAUCE Dimensions: 80x57
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: Too Fucking Hostile by Blood Priest + Silver Rat | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roc-0495-bp-2fhos-part01
 
 Write-Host '
 [33m▒▓▓█▒▒▓▓█▒▓▓▓█▒▒▓▓█▒▓▓█▒▒▓██▒▓▓███▒▓▓▓██▒▓▓▓█▒▓█▒▓▓██▒▓▓███▒▒▓██▒▓▓█▒▒▓██▓▓▓▒▒░[0;37m [0m

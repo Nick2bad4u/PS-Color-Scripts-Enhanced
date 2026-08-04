@@ -1,18 +1,4 @@
-﻿# Converted from: US-SHINE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0897/raw/US-SHINE.ANS
-# Source Revision: archive-sha256:2f847e13ac44c4a612ca9588cf01055509cccf841191e379aa1210361ce47235
-# Source SHA-256: 30a983cc6794f7bf4f257cb6e9ac6b67d43100bb326a91935b4f93a312b52a8c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SHINE.ANS by The 4th Disciple + Mr4tune (fuel); released in fire0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the end
-# SAUCE Author: multiple artists
-# SAUCE Group: fuel
-# SAUCE Date: 19960902
-# SAUCE Dimensions: 80x45
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: the end by The 4th Disciple + Mr4tune | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0897-us-shine
 
 Write-Host '
 [31m    [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: HP-ZILL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sept9604/raw/HP-ZILL.ANS
-# Source Revision: archive-sha256:279796d073c429e7a9e55231b202b355652e7b5619afd116e3318c6b1c7db83f
-# Source SHA-256: afa48c15ccbba482af3eee37d03f34174ebeeb73866074e5d2ba4dcf4cf2d435
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HP-ZILL.ANS by hennifer (septic); released in sept9604 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ba-zillion
-# SAUCE Author: hennifer
-# SAUCE Group: septic
-# SAUCE Date: 19960316
-# SAUCE Dimensions: 80x87
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: ba-zillion by hennifer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sept9604-hp-zill-part01
 
 Write-Host '
 

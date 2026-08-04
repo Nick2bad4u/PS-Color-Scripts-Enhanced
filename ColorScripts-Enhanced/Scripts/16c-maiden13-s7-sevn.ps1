@@ -1,18 +1,4 @@
-﻿# Converted from: S7!-SEVN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden13/raw/S7!-SEVN.ANS
-# Source Revision: archive-sha256:70e231ea8653cd02d349f122b1a39f57757322f3913b0c8f20698b54c8795e68
-# Source SHA-256: 4fdecde0c680c523c1355abe8cc394facf96cc91f73ea69ebd48e72378bd4cfb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S7!-SEVN.ANS by Soul s7alker! (7/Soc/skl/kiss); released in maiden13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Seven rules!
-# SAUCE Author: Soul s7alker!
-# SAUCE Group: 7/Soc/skl/kiss
-# SAUCE Date: 19971012
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Seven rules! by Soul s7alker! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden13-s7-sevn
 
 Write-Host '
     [1m [0m

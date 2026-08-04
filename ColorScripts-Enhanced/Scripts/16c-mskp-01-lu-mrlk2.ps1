@@ -1,18 +1,4 @@
-﻿# Converted from: LU-MRLK2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mskp-01/raw/LU-MRLK2.ANS
-# Source Revision: archive-sha256:453b00e753ff59d8f674e38f99c6a307fc28cd1eb85eea207aea113377d8e8ed
-# Source SHA-256: ab36fe4dda7aa3cb357ee1b2585164a768c75ac49d04d8bf4d3870e4ba7cb54d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LU-MRLK2.ANS by lUkA (MaSaKrE); released in mskp-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Morloko ART --* ANSi ][ *--
-# SAUCE Author: lUkA
-# SAUCE Group: MaSaKrE
-# SAUCE Date: 19951007
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Morloko ART --* ANSi ][ *-- by lUkA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mskp-01-lu-mrlk2
 
 Write-Host '
                                [1;30m░▒[0m

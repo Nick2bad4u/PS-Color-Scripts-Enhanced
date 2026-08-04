@@ -1,19 +1,4 @@
-﻿# Converted from: N-MOXXI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-44/raw/N-MOXXI.ANS
-# Source Revision: archive-sha256:6c51508cedeaa9140fcf08750a75edb14e0cec0eebe7b4290346e95cd3548876
-# Source SHA-256: 79721c0d98fa9bc7d6940134b7915490eb13cffdfb348c23e916c19830c3dd3e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-MOXXI.ANS by nail (fire); released in fire-44 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: moxxi
-# SAUCE Author: nail
-# SAUCE Group: fire
-# SAUCE Date: 20251111
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: moxxi by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-44-n-moxxi
 
 Write-Host '
                    [36;40m▀▀[0;1;36;40m▒▒▄[0;36m▄[0;1;34m    [0;31m░░▓▓█▀▀[0;37m  [0;1;30m▀[0m▒▄[1;30m▀[0m▒[1m [0;31m▄[0;1;31;41m▄[0;31m▓▀[0;33m ▄▄[0;1;37;43m░░░░[0;33m▄▄▀[0;1;37;43m░[0;33m▄▀█▀█▄ ▓▓▄█▀▄▀ ▄[0;1;37;43m░░[0;33m█▀[0m

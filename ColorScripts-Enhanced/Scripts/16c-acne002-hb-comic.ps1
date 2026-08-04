@@ -1,13 +1,4 @@
-﻿# Converted from: HB-COMIC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acne002/raw/HB-COMIC.ANS
-# Source Revision: archive-sha256:0516eab8dfdc497d78ee69558b1b3fb72f55dc40f3cd8a67a608229e59359299
-# Source SHA-256: 7b3fd5791f14c4277b26e44dfdd24f3d01599e8a7ae0182fb9e120c60a42dbd8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HB-COMIC.ANS by Holybone (acne002); released in acne002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: HB-COMIC.ANS by Holybone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acne002-hb-comic
 
 Write-Host '
 [31m▄▄▄[0;31;41m                                                                           [0;31;40m██[0m

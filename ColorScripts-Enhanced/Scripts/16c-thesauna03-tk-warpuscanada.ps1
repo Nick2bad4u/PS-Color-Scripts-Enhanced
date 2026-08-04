@@ -1,19 +1,4 @@
-﻿# Converted from: tk-warpuscanada.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna03/raw/tk-warpuscanada.ans
-# Source Revision: archive-sha256:997aaab655669129eb266c21ca0c4588b603e11c90338498bb530f8bba390fb2
-# Source SHA-256: 2d4bcfa3b0d57ae6d1425d5d5d58a6912efc95a9b1c5faffbbae57126c2a6ffe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tk-warpuscanada.ans by the knight (sauna); released in thesauna03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: warpus for prezi
-# SAUCE Author: the knight
-# SAUCE Group: sauna
-# SAUCE Date: 20220409
-# SAUCE Dimensions: 80x23
-# SAUCE Font: IBM VGA
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: warpus for prezi by the knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna03-tk-warpuscanada
 
 Write-Host '
 [34m███████████████████████████░█████████████████████[0;1;37;44m  [0;34m█████████████████████████████[0m

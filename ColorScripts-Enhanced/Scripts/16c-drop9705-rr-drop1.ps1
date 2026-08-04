@@ -1,18 +1,4 @@
-﻿# Converted from: RR-DROP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drop9705/raw/RR-DROP1.ANS
-# Source Revision: archive-sha256:7fe1f56651ec06ccf40826f5781f068ca77061ce348751ee019a860090f3b0ac
-# Source SHA-256: caa5694672e09c876d644fb0fec4b869297a526e437e7d8a99eadfa61586e1b6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RR-DROP1.ANS by rink rat (dr0p); released in drop9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: weird green d00d with spikes
-# SAUCE Author: rink rat
-# SAUCE Group: dr0p
-# SAUCE Date: 19970512
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: weird green d00d with spikes by rink rat | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drop9705-rr-drop1
 
 Write-Host '
                               [32mx$".[0m

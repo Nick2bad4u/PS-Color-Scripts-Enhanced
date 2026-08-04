@@ -1,18 +1,4 @@
-﻿# Converted from: CL!-PPC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph-07/raw/CL!-PPC.ANS
-# Source Revision: archive-sha256:05b9134433837782e39338bf79fd6ada6d2fc8bfba82437f2c41c6bc37a6d75a
-# Source SHA-256: 4ff82ec78a1bb9a5d18e27c48211d44c1f610a2c080ac7f184ef27bfc802c597
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL!-PPC.ANS by cLEANEr (nITROPHUSIOn); released in nph-07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dA^PROPHECy
-# SAUCE Author: cLEANEr
-# SAUCE Group: nITROPHUSIOn
-# SAUCE Date: 19980413
-# SAUCE Dimensions: 80x25
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: dA^PROPHECy by cLEANEr | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph-07-cl-ppc
 
 Write-Host '
 [1;31m[0m[1;31m;8S$$MM$$t*└²°²┘*tSS88MMMMMMMM88SSt*┘²°²└*t$$$$$$S8;[0m      [1;33m,[0m

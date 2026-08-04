@@ -1,18 +1,4 @@
-﻿# Converted from: RV-PSYN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ane-0296/raw/RV-PSYN.ANS
-# Source Revision: archive-sha256:3968cc056bf297febf6892374e4caf7ab79dd8410790f6f7be0cb58cc17cd856
-# Source SHA-256: a464d3be26f8d9aa20b3abbf7771397689432452ce75066b7f0456a196804600
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RV-PSYN.ANS by Rev (.;:Anemia:;.); released in ane-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Psycho Synaptic
-# SAUCE Author: Rev
-# SAUCE Group: .;:Anemia:;.
-# SAUCE Date: 19960122
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Psycho Synaptic by Rev | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ane-0296-rv-psyn
 
 Write-Host '
 [1;35;45m ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;35m███ [0;32m██[0;1;32;42m▄█▀[0;32m█▀▀ [0;35m██▀▀▀▀▀▀▀▀██[0;1;35;45m▄▄▄[0;35m█▄  [0;1;37m▄▄▄▄▄▄▄▄    ▄▄▄▄▄   [0;35m██[0m

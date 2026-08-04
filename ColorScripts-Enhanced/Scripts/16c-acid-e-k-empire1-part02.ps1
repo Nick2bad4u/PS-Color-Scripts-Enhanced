@@ -1,13 +1,4 @@
-﻿# Converted from: EMPIRE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acid_e-k/raw/EMPIRE1.ANS
-# Source Revision: archive-sha256:39f65f593445c52be7979397cf597377ab7883bc6e967f4cf6ca51c15e64aa37
-# Source SHA-256: 52b6bcc1165153b8f2687b9bcb2ef472ebad6d6b10591d82df98f7c5fc113204
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EMPIRE1.ANS by Jed + Rad Man (acid_e-k); released in acid_e-k and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 51-95
-# Columns: 1-80
+﻿# Artwork: EMPIRE1.ANS by Jed + Rad Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acid-e-k-empire1-part02
 
 Write-Host '
 [33m█▌[0;37m▐█[0;1;30;47m│ █[0m                                      [1;37;40m▄▄▄▄▄▄ [0;1;30;40m█[0m█[1;30;47m│[0m█▌                    [33m▐█[0m

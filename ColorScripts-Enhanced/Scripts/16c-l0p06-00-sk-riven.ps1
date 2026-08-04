@@ -1,18 +1,4 @@
-﻿# Converted from: SK!RIVEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p06_00/raw/SK!RIVEN.ANS
-# Source Revision: archive-sha256:3daad9bd70cd9307445d25e1dbbdc4eae498b83379a5b89ecd2ac9419e6150d3
-# Source SHA-256: 061cdbcbbb721d7d0a42bc01ed07860160afd9daf91f3c15b5941210e08b3450
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!RIVEN.ANS by sIMONkING (tHelo0p); released in l0p06_00 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: rIVEN fANTASTIC ;)
-# SAUCE Author: sIMONkING
-# SAUCE Group: tHelo0p
-# SAUCE Date: 20000312
-# SAUCE Dimensions: 80x36
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: rIVEN fANTASTIC ;) by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p06-00-sk-riven
 
 Write-Host '
 [32m▀▀▀▀▀▀[0;1;32;42m▀▀▀█▀[0;32m▌▀▀▀▀▀▀████[0;1;32;42m▀▀[0;32m█▀▀▀[0;35m ▄▄▄ [0;32m▀▀▀▀[0;1;32;42m▀▀[0;32m█▌[0;1;35;45m░░░[0;35m█[0;36m▐█[0;1;32;42m█▌[0;32m▐▀▀▀▀▀▀[0;1;32;42m█[0;32m▀▀▄[0;35m▀▄▄░░ [0;32m▀[0;1;32;42m█▀[0;32m▌▀▀▀▀█[0;1;32m█[0;36m██[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: _A-TAG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/12318/raw/_A-TAG.ANS
-# Source Revision: archive-sha256:8359e16f49f42e2c460172ce01977fb5fbee410f8f2dd001d4cfcdb4bcff56f5
-# Source SHA-256: a96d14aeb2324e684e550414623f055307ae0d8e8f4d79a57a37ded7740b08b4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _A-TAG.ANS by T. Absent Spinsister (12318); released in 12318 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: T. Absent Spinsister
-# SAUCE Group: .
-# SAUCE Date: 20021222
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: _A-TAG.ANS by T. Absent Spinsister | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-12318-a-tag
 
 Write-Host '
 [1;37m[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: RN-TWST1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst-14/raw/RN-TWST1.ANS
-# Source Revision: archive-sha256:6d5cfdb3f87d671bf575e9a701e6fe996a23d0a5263b88cba8907338986e3ad3
-# Source SHA-256: 86ceff89123da84f8102ae26e5d85b23fbcfd99a21d95bbc9e2531a8a323678a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RN-TWST1.ANS by The Ruiner (twst-14); released in twst-14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: RN-TWST1.ANS by The Ruiner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst-14-rn-twst1
 
 Write-Host '
      [35m█▀[0;37m [0;35m▄[0;30;45m░▒■[0;1;35;45m▒▒░ ░[0;35m███████[0;30;45m ■[0;35;40m██████████[0;30;45m▄▀[0;35;40m█[0;1;35;45m ░ ░░░░░▒▒▓▓▓▓▒▒▒░░░  [0;35m████████████▄[0m

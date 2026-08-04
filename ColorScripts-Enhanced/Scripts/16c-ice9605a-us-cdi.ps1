@@ -1,18 +1,4 @@
-﻿# Converted from: US-CDI.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9605a/raw/US-CDI.ICE
-# Source Revision: archive-sha256:cf7acb12a0ec01e1383bf24c3c45a68bc55fde8f0e38cd56180a1936aa9f8089
-# Source SHA-256: 3482dea163e13ba5f57d45233d7ba87333436c6628388c500f2f07fe5a7e2e57
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CDI.ICE by Halaster + Slothy + Boa (The Logomafia); released in ice9605a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Ode to CDi
-# SAUCE Author: boa.halaster.slothy
-# SAUCE Group: The Logomafia
-# SAUCE Date: 19960530
-# SAUCE Dimensions: 80x24
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Ode to CDi by Halaster + Slothy + Boa | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9605a-us-cdi
 
 Write-Host '
 [1;30m[[0;1;37m [0m [1;30m ]------------- -------- ----- -- -[0m

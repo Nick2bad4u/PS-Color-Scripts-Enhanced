@@ -1,13 +1,4 @@
-﻿# Converted from: FN-DOSTM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0493/raw/FN-DOSTM.ANS
-# Source Revision: archive-sha256:311f11605cac1bd3a8e680abc26975bf116b1bcb1007e67cc40cc7339876c97e
-# Source SHA-256: 36465acbe5bd5da8ce4827298f37b4f8b2d9291de949c58324e04a932df48fdc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FN-DOSTM.ANS by Fusion (acdu0493); released in acdu0493 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 35-64
-# Columns: 1-80
+﻿# Artwork: FN-DOSTM.ANS by Fusion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0493-fn-dostm-part02
 
 Write-Host '
 [1;37;40m▄█▄▄[0m      [1;37;40m▀[0;1;37;46m▓▓[0;1;37;40m▄ [0;35m░▒▓█[0;1;37;45m░[0m  [1;30;40m░▒▓▌[0m

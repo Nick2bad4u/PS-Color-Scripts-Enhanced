@@ -1,13 +1,4 @@
-﻿# Converted from: SD-ID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/max_artpack_0793/raw/SD-ID.ANS
-# Source Revision: archive-sha256:bf09e05cf4ad2f66c034da16e8892929ee524e8a16e9841d15bd61a4b910bdd9
-# Source SHA-256: 081623829449db612c865c49c0af7b679605b7c0ca9b0a75486fb1d3754f1057
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-ID.ANS by Snow Dog (max_artpack_0793); released in max_artpack_0793 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: SD-ID.ANS by Snow Dog | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-max-artpack-0793-sd-id-part01
 
 Write-Host '
 

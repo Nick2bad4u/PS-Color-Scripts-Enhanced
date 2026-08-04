@@ -1,18 +1,4 @@
-﻿# Converted from: CL-AWE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9610/raw/CL-AWE.ANS
-# Source Revision: archive-sha256:2f6e3c8c2e64cc8380afc3a639da2793e02ea87790d90b8b4bede4b760040753
-# Source SHA-256: 1021925fc042e247eccbe77ccb158879828a959e9379f324fff184453402ae72
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL-AWE.ANS by Colourless (awe lettering); released in awe9610 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: AWE Promo.
-# SAUCE Author: Colourless
-# SAUCE Group: awe lettering
-# SAUCE Date: 19960929
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: AWE Promo. by Colourless | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9610-cl-awe
 
 Write-Host '
 

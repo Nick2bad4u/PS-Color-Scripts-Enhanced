@@ -1,18 +1,4 @@
-﻿# Converted from: P-JIDEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe02/raw/P-JIDEN.ANS
-# Source Revision: archive-sha256:ce5cd736ecea3fcfef2c1df40ab4bdd995f6b633f97f1788244355f98c5d174e
-# Source SHA-256: d3dd82465348af25d841af7e987a79b3529884efdadb811622dfe6f1b73dcbca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P-JIDEN.ANS by pesho (circe); released in circe02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: jiden ciri
-# SAUCE Author: pesho
-# SAUCE Group: circe
-# SAUCE Date: 19971203
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: jiden ciri by pesho | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe02-p-jiden
 
 Write-Host '
 

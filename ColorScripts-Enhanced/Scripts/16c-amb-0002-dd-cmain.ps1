@@ -1,18 +1,4 @@
-﻿# Converted from: DD-CMAIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amb-0002/raw/DD-CMAIN.ANS
-# Source Revision: archive-sha256:ddf2bfb6c349501ad0002133992d1d3c9602291731a9f4cef0d5ef9af30b761f
-# Source SHA-256: dbcaa8319abb29f46a69bcf194815f3a5f45240122eeed0f49eb419873b61d15
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-CMAIN.ANS by Diamond Darrell (AMBUSH); released in amb-0002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Clixes Main Menu
-# SAUCE Author: Diamond Darrell
-# SAUCE Group: AMBUSH
-# SAUCE Date: 19960519
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Clixes Main Menu by Diamond Darrell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amb-0002-dd-cmain
 
 Write-Host '
           [1;34m▄███[0;1;34;44m█[0;1;34;40m▀[0;1;34;44m▓▓[0;1;34;40m▓▄ ▄▄▄▄▄     [0m ▄▄▄▄▄ ▄[1;34;47m░░░[0m▓ ▄▄▄▄ ▄▄▄▄▄▄▄▄▄[1;34m▄[0m [1;34m▄▓██▀█[0;1;34;44m███[0;1;34;40m▄[0m

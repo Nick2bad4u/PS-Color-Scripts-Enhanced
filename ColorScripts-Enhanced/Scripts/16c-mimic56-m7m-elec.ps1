@@ -1,13 +1,4 @@
-﻿# Converted from: m7m-elec.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic56/raw/m7m-elec.ans
-# Source Revision: archive-sha256:235e9f8cb0e789dfbe8de2269973dfafbe035630dbe56d823fbe4de967cb527a
-# Source SHA-256: 8c8ac1bef2e4c4f1035a1f31d7363aafd0c2fb056bc040fefbc8b5a3e8dcb138
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: m7m-elec.ans by Metal Militia (mimic56); released in mimic56 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: m7m-elec.ans by Metal Militia | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic56-m7m-elec
 
 Write-Host '
                         [31m²[0m

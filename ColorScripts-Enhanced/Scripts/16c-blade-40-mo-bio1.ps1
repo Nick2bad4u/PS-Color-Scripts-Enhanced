@@ -1,18 +1,4 @@
-﻿# Converted from: MO-BIO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blade-40/raw/MO-BIO1.ANS
-# Source Revision: archive-sha256:36dce442fca1d182e4b74added5979db24d6a61d5306960c3e6982e7319e3076
-# Source SHA-256: 08e5f33da50bd1de079bca034dbbf1f4b36b9a4a2f6348f32285c1736a4190fd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MO-BIO1.ANS by magnatOp (blade productions 97); released in blade-40 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Bio
-# SAUCE Author: magnatOp
-# SAUCE Group: blade productions 97
-# SAUCE Date: 19970604
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Bio by magnatOp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blade-40-mo-bio1
 
 Write-Host '
                                            [1;30m▄[0m▄▄▄▄▄[1;30m▄[0m

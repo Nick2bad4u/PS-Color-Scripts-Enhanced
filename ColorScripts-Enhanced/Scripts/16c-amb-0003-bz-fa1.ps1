@@ -1,18 +1,4 @@
-﻿# Converted from: BZ-FA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amb-0003/raw/BZ-FA1.ANS
-# Source Revision: archive-sha256:6c1f5bb711b3a9f527f0db6688312bdf8c740b8b238d72b35c41b715b9f7e0bd
-# Source SHA-256: 44306ee4b506cd4657f17722f7818cdfd48fd44ee5a7e6c671ac514b6aff3ec2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BZ-FA1.ANS by biozard (ambush); released in amb-0003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fa logopicture
-# SAUCE Author: biozard
-# SAUCE Group: ambush
-# SAUCE Date: 19970402
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: fa logopicture by biozard | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amb-0003-bz-fa1
 
 Write-Host '
                                                                      [34m░[0;30;44m▓[0m

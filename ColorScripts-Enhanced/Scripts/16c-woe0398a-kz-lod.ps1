@@ -1,18 +1,4 @@
-﻿# Converted from: KZ-LOD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/woe0398a/raw/KZ-LOD.ANS
-# Source Revision: archive-sha256:feef6c5067150fcb3afb8e1031cbd84508116073dc31e796c2f896be6ffc96b0
-# Source SHA-256: 8493dfbe379a2978b6088ecc22baf726a8eaff60267aed3d333a08eb3a0047d3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KZ-LOD.ANS by klumzee (wOE!); released in woe0398a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: LOD!
-# SAUCE Author: klumzee
-# SAUCE Group: wOE!
-# SAUCE Date: 19980225
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: LOD! by klumzee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-woe0398a-kz-lod
 
 Write-Host '
 [1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1m▄▄▄[0m▄[1;30m▄[0;1;37m▄▄[0;1;30m▄▄▄▄▄▄[0m▄▄[1m▄▄▄[0m▄▄▄▄[1;30m▄▄▄▄▄[0m

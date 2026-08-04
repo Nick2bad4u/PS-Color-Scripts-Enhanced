@@ -1,18 +1,4 @@
-﻿# Converted from: NOH-KSAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0697/raw/NOH-KSAD.ANS
-# Source Revision: archive-sha256:608fe2b98dcac70515ce221c11f606d898ec739b4fcdd1a5448c437eb640df82
-# Source SHA-256: 4976638bd94caf1211b929b2f026f62a0eea4c00a7e1b5ff3bbc59b85b47e553
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NOH-KSAD.ANS by nOah? (Bamboosh); released in bmb-0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: K-sad?!?
-# SAUCE Author: nOah?
-# SAUCE Group: Bamboosh
-# SAUCE Date: 19970524
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: K-sad?!? by nOah? | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0697-noh-ksad
 
 Write-Host '
                        [1;30m-nOah?[0m

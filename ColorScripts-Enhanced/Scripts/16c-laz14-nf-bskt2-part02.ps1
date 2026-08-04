@@ -1,18 +1,4 @@
-﻿# Converted from: nf-bskt2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz14/raw/nf-bskt2.ans
-# Source Revision: archive-sha256:41b4e3770fbffb058172283f3da2aa00e47c872480cf93fdef94629ebc0751bb
-# Source SHA-256: 52162d543ea9543c5a46c798e45a991422a54374d32fde21d7fec000b3605889
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: nf-bskt2.ans by necro (laz14); released in laz14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: basketful of heads
-# SAUCE Author: necro
-# SAUCE Date: 20211205
-# SAUCE Dimensions: 80x77
-# SAUCE Font: IBM VGA
-# Lines: 40-77
-# Columns: 1-80
+﻿# Artwork: basketful of heads by necro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz14-nf-bskt2-part02
 
 Write-Host '
 [1;30m▐[0;1;30;47m▌[0;1;30;40m▐[0;1;30;47m▒▒░[0m█[1;30;47m░[0;1;37;40m▌[0;1;30;47m▒[0;1;37;47m▐[0m▐[1;47m░░▒▒▒▐[0m▐[1;47m▐[0m▐██[1;47m░[0;1;40m▐ █[0;1;33;40m██[0;1;33;43m▓[0;1;30;43m░[0;1;30;40m▌[0m▐[1m▌[0;1;47m▌[0;1;30;47m▓[0;1;30;43m▒[0;1;37;40m█[0;1;33;43m▓▓▓▒░[0;33m▌[0;1;30;43m░[0;1;30;40m▀▌   [0;43m▌[0;1;30;43m▓[0;1;37;40m▌[0m▐[1m▌[0m█[1;30;47m░[0;1;37;47m▐[0m▐[1;47m▐[0m▐[1;30;47m░[0;1;37;40m▌[0;1;30;47m▒▒[0;1;37;40m▌[0;1;30;47m▒[0m█[1m▌[0;1;30;47m▒▓▒[0;1;30;40m█▐█[0;1;30;47m▓▓[0;1;30;40m███[0m

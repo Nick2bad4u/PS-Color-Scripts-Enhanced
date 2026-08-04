@@ -1,13 +1,4 @@
-﻿# Converted from: MST!KSIO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spr_03/raw/MST!KSIO.ANS
-# Source Revision: archive-sha256:4e72f654dd144c3fc4922c52ed27a746ba8b094b07e719417cf6392491ac9a47
-# Source SHA-256: 0e0381bc3ef518208f232e0a73eeeff1b96a2daf308ed0c59f1162ec3c878fb9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MST!KSIO.ANS by Mist (spr_03); released in spr_03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: MST!KSIO.ANS by Mist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spr-03-mst-ksio
 
 Write-Host '
             [1;30m▄█▄[0m                                      [1;30m▄█▄[0m    ■▄ ▄[1;47m▄███[0m█   ▐▀▄[1;47m ███[0m

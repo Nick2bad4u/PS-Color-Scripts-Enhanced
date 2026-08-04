@@ -1,18 +1,4 @@
-﻿# Converted from: BX-LGOFF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axf-037a/raw/BX-LGOFF.ANS
-# Source Revision: archive-sha256:37963dec1fde9901b3a211c4aa10fb9619d7e64e44f435ffd700386859a2f460
-# Source SHA-256: 8367b07d45eb0b808d29f33df647dd99526a256f53ffe2ed4f5e45c6adb1e92f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BX-LGOFF.ANS by baxter (anal force?! =)); released in axf-037a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: logoff-picie
-# SAUCE Author: baxter
-# SAUCE Group: anal force?! =)
-# SAUCE Date: 19970212
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: logoff-picie by baxter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axf-037a-bx-lgoff
 
 Write-Host '
                               [35m▄▀▀▀▀▀▄▌[0;1;35;45m▒[0;35m▄▀▀▀▀▀▄[0m

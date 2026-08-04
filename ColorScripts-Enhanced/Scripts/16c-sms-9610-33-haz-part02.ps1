@@ -1,18 +1,4 @@
-﻿# Converted from: 33-HAZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9610/raw/33-HAZ.ANS
-# Source Revision: archive-sha256:5789c5cb1a5ac21acfd3fa7dc4a5a88db3f4a5b9545409ca8ca34a86bd816077
-# Source SHA-256: bbac529a7fcfe9e5083bb022f91a4d5644516a0df6703c55d20e8b8e5499d868
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-HAZ.ANS by Eerie (Samsara); released in sms-9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Hazard
-# SAUCE Author: Eerie
-# SAUCE Group: Samsara
-# SAUCE Date: 19960928
-# SAUCE Dimensions: 80x25
-# Lines: 50-99
-# Columns: 1-80
+﻿# Artwork: Hazard by Eerie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9610-33-haz-part02
 
 Write-Host '
 [31m   ███████ [0;1;30m▀▀▀ [0;31m▄▄▄▓▓▄ [0;1;31m▀[0;33m▀███▀ [0;1;30m▀[0m▀[1;30;47m▓[0;1;30;40m▄█[0;1;30;47m▄[0m▀▀[1;30;47m░[0;1;30;40m█ ▀[0;1;30;47m▄[0m███[1;47m░░░[0m███[1;30;47m░[0;1;30;40m▌▐[0;1;30;47m░[0m█[1;30;47m▒[0;1;30;40m█ [0;31m█  [0;33m█[0;1;31;43m░▓[0;1;31;40m████████ [0;31m▀░[0m

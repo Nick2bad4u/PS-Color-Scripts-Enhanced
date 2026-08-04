@@ -1,13 +1,4 @@
-﻿# Converted from: MH!CAFE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/arsin02/raw/MH!CAFE.ANS
-# Source Revision: archive-sha256:8b3ca93f9d07119d47150f846bba6e8cd466371f5d81106c3318f874455ab21e
-# Source SHA-256: d74b37b8d5f69e356f0e7377a953926d06001c212136d1739c31196873338c41
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MH!CAFE.ANS by Maddog Hoek (arsin02); released in arsin02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: MH!CAFE.ANS by Maddog Hoek | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-arsin02-mh-cafe
 
 Write-Host '
         [1;32m▐[0;1;32;45m▌▐▌[0;35m▌[0;1;32m▄[0;1;32;45m▀[0;1;32;40m▀[0;35m▀[0m                                 [1;37m░[0m         [1;37m░[0m

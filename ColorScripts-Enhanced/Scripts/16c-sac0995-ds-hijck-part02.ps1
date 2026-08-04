@@ -1,18 +1,4 @@
-﻿# Converted from: DS-HIJCK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0995/raw/DS-HIJCK.ANS
-# Source Revision: archive-sha256:cc360b79185ba045775293710395ac2d0a043a893088560f3313eb0514dcb071
-# Source SHA-256: a80beb925d75e9e4c092c29ce2b755b546a5d76fdcf58cca56ac135d8736e0da
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-HIJCK.ANS by dark star; released in sac0995 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Hijack BBS
-# SAUCE Author: Dark Star
-# SAUCE Group: Independent
-# SAUCE Date: 19950922
-# SAUCE Dimensions: 80x89
-# Lines: 48-89
-# Columns: 1-80
+﻿# Artwork: Hijack BBS by dark star | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0995-ds-hijck-part02
 
 Write-Host '
                                   [1;37m [0m▄▄▄▄                                 [1m      [0m

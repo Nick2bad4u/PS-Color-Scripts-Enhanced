@@ -1,18 +1,4 @@
-﻿# Converted from: CA-CONV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/stl-003/raw/CA-CONV.ANS
-# Source Revision: archive-sha256:f05577e69788bf833b2eeb503583305cc9119acc157823c14e039d65d70a6838
-# Source SHA-256: 74e66713b6b4e4c7fe4f2e84ea8e4cd75db586cb8251a68d7988c4fa1846ddfc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CA-CONV.ANS by Catonica (Stile Productions 95); released in stl-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Convulsion Logo
-# SAUCE Author: Catonica
-# SAUCE Group: Stile Productions 95
-# SAUCE Date: 19951214
-# SAUCE Dimensions: 80x45
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: Convulsion Logo by Catonica | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-stl-003-ca-conv
 
 Write-Host '
 [1;30m■▀■▀▀■▀▀▀■▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀■▀▀▀■▀▀■▀■[0m

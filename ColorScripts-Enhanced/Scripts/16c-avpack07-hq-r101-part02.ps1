@@ -1,19 +1,4 @@
-﻿# Converted from: HQ-R101.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack07/raw/HQ-R101.ANS
-# Source Revision: archive-sha256:3c1e6f07357a92bb7ff48f87719d9d863e8ef702072ee083ff24c7e5053d4e8f
-# Source SHA-256: f376e7653163ba5f320e1788f0d3c3d01bfc741fea569fbeaa7662347066bb0f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HQ-R101.ANS by Harlequin (Apocalyptic Visions); released in avpack07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: RooM 101
-# SAUCE Author: Harlequin
-# SAUCE Group: Apocalyptic Visions
-# SAUCE Date: 19951015
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: Argh!!!!!
-# Lines: 45-87
-# Columns: 1-80
+﻿# Artwork: RooM 101 by Harlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack07-hq-r101-part02
 
 Write-Host '
 [31m███ [0;35m██[0m      [31m ▒▒▀▀███▓▓▓▓▓▓█ [0;35m█▓▓▓▓▓▓▓███▀▀░▒░▀▀███▓▓▓▓▓█[0;31m █▓▓▓██▀▀▒[0;35m▐▓████▀[0;31m▄▄▄██[0m

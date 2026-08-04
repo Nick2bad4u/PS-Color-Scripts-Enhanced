@@ -1,13 +1,4 @@
-﻿# Converted from: MU-MAG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/afc-r7/raw/MU-MAG.ANS
-# Source Revision: raw-sha256:e7e199c927d0bad117462e35056619ae115baaff6142b64cfc018f572526cc34
-# Source SHA-256: e7e199c927d0bad117462e35056619ae115baaff6142b64cfc018f572526cc34
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MU-MAG.ANS by Mule (afc-r7); released in afc-r7 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: MU-MAG.ANS by Mule | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-afc-r7-mu-mag-part01
 
 Write-Host '
                  [1m·[0m                   [1;34m█[0;1;34;44m█▓▓▒▒[0m

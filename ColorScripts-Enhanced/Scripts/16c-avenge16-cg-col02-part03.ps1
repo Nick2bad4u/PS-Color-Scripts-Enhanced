@@ -1,18 +1,4 @@
-﻿# Converted from: CG-COL02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge16/raw/CG-COL02.ANS
-# Source Revision: archive-sha256:41b95bc60f7563fc793aa38badcbd774150d7a4047808139dd61df92b8192e56
-# Source SHA-256: d66d7550d4ac5ea5aca1af2c47036c0cc20e39b7a86e84baf44424110254b447
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-COL02.ANS by cryogenic (avenge); released in avenge16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: logo colly #2
-# SAUCE Author: cryogenic
-# SAUCE Group: avenge
-# SAUCE Date: 19990413
-# SAUCE Dimensions: 80x112
-# Lines: 64-112
-# Columns: 1-80
+﻿# Artwork: logo colly #2 by cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge16-cg-col02-part03
 
 Write-Host '
                            [33m▄[0;1;33m▄▄[0;1;33;43m▄░[0m  [33m▄▄[0m   [37m [0m            [33m▌[0m           [33m▄▄[0m

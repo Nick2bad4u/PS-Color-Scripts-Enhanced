@@ -1,19 +1,4 @@
-﻿# Converted from: 5m-monkey.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-002/raw/5m-monkey.ans
-# Source Revision: archive-sha256:035806f627526bbca92fb6becafc359d23b231b3ea478b7169ed62b6d2a1cc54
-# Source SHA-256: 49a938246f4b2deab34f6ceb09c3890a53c7b1e8c1b6331ebe6c7df8a2f653dd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5m-monkey.ans by Smooth (Gaz); released in lgcy-002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Grape Ape
-# SAUCE Author: Smooth
-# SAUCE Group: Gaz
-# SAUCE Date: 20200512
-# SAUCE Dimensions: 80x127
-# SAUCE Font: IBM VGA
-# Lines: 83-123
-# Columns: 1-80
+﻿# Artwork: Grape Ape by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-002-5m-monkey-part03
 
 Write-Host '
 [36m■  ▀[0;1;34m▄ █▄██[0;1;34;47m▓[0;1;34;40m█[0m  [33m█[0;1;33;43m▒▒░░[0;33m███[0;37m  [0;1;37m▄███[0m [1m▄██████[0m [1m▓█████▐▌[0m [33m██[0;1;33;43m░░▓ ░[0;33m█[0;1;33;43m░[0;33m█[0;1;33;43m░[0;33m█[0;1;33;43m░░░▒░▒[0;1;33;47m█[0;1;33;43m▓▓▌[0;1;30;43m█[0;33m██[0;37m  [0;1;34m███▄▄[0m

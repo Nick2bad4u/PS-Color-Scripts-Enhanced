@@ -1,17 +1,4 @@
-﻿# Converted from: AVE-NERP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-04/raw/AVE-NERP.ANS
-# Source Revision: archive-sha256:d99c3d6576b4ffe30ad10598ac465177e9b6d171d7a6c4fd056707ad27adce95
-# Source SHA-256: 2f6e925e92c75475668f4aaf744bbb8bf25d1c80e3d89d9361fd1b50b640ed97
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-NERP.ANS by avenger (black maiden); released in nerp-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: avenger
-# SAUCE Group: black maiden
-# SAUCE Date: 19971215
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: AVE-NERP.ANS by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-04-ave-nerp
 
 Write-Host '
 

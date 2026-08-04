@@ -1,18 +1,4 @@
-﻿# Converted from: DT-EUPH1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1294/raw/DT-EUPH1.ANS
-# Source Revision: archive-sha256:243df4ebcdadcfce869c5fabe225f081ee05df1056c89a388f454951ca8b4c9b
-# Source SHA-256: 782afec5dd99392b0361cc8d89caf6d31d9aaa500b0628365a450b478d3cf923
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-EUPH1.ANS by Diamond Traveller (MiSTiGRiS); released in mist1294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Euphoria
-# SAUCE Author: Diamond Traveller
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 19941212
-# SAUCE Dimensions: 80x25
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Euphoria by Diamond Traveller | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1294-dt-euph1-part01
 
 Write-Host '
 [37;40m             [0;1;30;40m [0m [1;30m                                                   [0m

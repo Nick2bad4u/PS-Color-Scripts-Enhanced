@@ -1,13 +1,4 @@
-﻿# Converted from: US-EC1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9606a/raw/US-EC1.ICE
-# Source Revision: archive-sha256:5e6dcb16553010578f6a54fc5ab7554ad5fc1d41913968e4935ca2f10c08a8a7
-# Source SHA-256: 7f02899ee3aa4b3b488b740168bf0dd66d4f4b04175eea954531cacea97b2483
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-EC1.ICE by Lemonade + Gn (ice9606a); released in ice9606a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: US-EC1.ICE by Lemonade + Gn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9606a-us-ec1
 
 Write-Host '
                         [1;32m▄ ▄▄▄ ░░[0m

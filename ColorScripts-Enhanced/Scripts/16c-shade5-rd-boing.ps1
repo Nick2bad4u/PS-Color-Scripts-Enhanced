@@ -1,18 +1,4 @@
-﻿# Converted from: RD-BOING.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shade5/raw/RD-BOING.ANS
-# Source Revision: archive-sha256:9eb97f9412f63f0ce4837a80894f87a3aed455c1487394481c6e40b531c2203d
-# Source SHA-256: 2a44ab7b85cb5bc2fc8fef9cf7a1fede439aeb977c7132823ff526e8eda97ce0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RD-BOING.ANS by raider (twaaailait); released in shade5 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: *bOINg?*
-# SAUCE Author: raider
-# SAUCE Group: twaaailait
-# SAUCE Date: 19970123
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: *bOINg?* by raider | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shade5-rd-boing
 
 Write-Host '
             [1;30m▄[0m

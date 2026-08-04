@@ -1,17 +1,4 @@
-﻿# Converted from: NE-HAZ2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-21/raw/NE-HAZ2.ANS
-# Source Revision: archive-sha256:d980c3e2187ff0ef4bb9edce960381dc01c8374df0b01b4ddb8d104484f4b936
-# Source SHA-256: 2a6522e1c840234112fc14ea4f0f047fb4f41246a44eae3ad8386e04c7c37d1a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NE-HAZ2.ANS by Nemo (AWE Lettering); released in awe-21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Hazard/2
-# SAUCE Author: Nemo
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Hazard/2 by Nemo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-21-ne-haz2
 
 Write-Host '
 

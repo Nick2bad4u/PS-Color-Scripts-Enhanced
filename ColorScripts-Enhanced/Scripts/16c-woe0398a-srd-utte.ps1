@@ -1,18 +1,4 @@
-﻿# Converted from: SRD-UTTE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/woe0398a/raw/SRD-UTTE.ANS
-# Source Revision: archive-sha256:feef6c5067150fcb3afb8e1031cbd84508116073dc31e796c2f896be6ffc96b0
-# Source SHA-256: fd956ba096c77dd3a859dde30df268a4e1626ce9815eb65e94dacbdb075e1b12
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SRD-UTTE.ANS by sordid (wOE!); released in woe0398a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: utter blasphemy
-# SAUCE Author: sordid
-# SAUCE Group: wOE!
-# SAUCE Date: 19980227
-# SAUCE Dimensions: 80x25
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: utter blasphemy by sordid | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-woe0398a-srd-utte
 
 Write-Host '
        [34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m     [31m▄▄▄████[0;1;31;41m   [0;31m██▄▄▄[0;37m [0;34m   ▄▄▄[0m    [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

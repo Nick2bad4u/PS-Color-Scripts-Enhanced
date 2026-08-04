@@ -1,18 +1,4 @@
-﻿# Converted from: MW-FROST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel16/raw/MW-FROST.ANS
-# Source Revision: archive-sha256:78bbfd1159c4b51678435d1ff23762559e425f3010119f2abd28bf83d67e513d
-# Source SHA-256: 47eba33537801f70be0403915838fbe9c3a82e14112e7d1d17f72061c9111203
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MW-FROST.ANS by mangowhacko (fuel); released in fuel16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: frostdraw
-# SAUCE Author: mangowhacko
-# SAUCE Group: fuel
-# SAUCE Date: 19970901
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: frostdraw by mangowhacko | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel16-mw-frost
 
 Write-Host '
 [1;33m   [0;34m▓▄▄▄▄▄▄▄▄▄▄▄▓▄▄░ ■  [0;1;30m▄░  [0;34m▓▓▄▄▄▄▄▄▄▄▄▄░[0m

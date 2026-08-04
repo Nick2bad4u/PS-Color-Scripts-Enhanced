@@ -1,18 +1,4 @@
-﻿# Converted from: MR-USED6.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-07/raw/MR-USED6.ANS
-# Source Revision: archive-sha256:f786fc67eed212ee615dadc1b9dc8c7a5b854eac800e522e51bd45002429108b
-# Source SHA-256: 306e798f3dfca509ab8e1d0befa2d11db4e05ba9efd88b9410fe117d0bd29884
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-USED6.ANS by Mr.Wrong (The Used Coalition); released in used-07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Used Coalition
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: The Used Coalition
-# SAUCE Date: 20001117
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: The Used Coalition by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-07-mr-used6
 
 Write-Host '
                                [34m   [0m       [33m                 [0m        [34m  [0m

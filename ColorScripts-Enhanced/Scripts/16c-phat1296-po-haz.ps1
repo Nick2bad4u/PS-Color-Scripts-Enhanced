@@ -1,18 +1,4 @@
-﻿# Converted from: PO-HAZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat1296/raw/PO-HAZ.ANS
-# Source Revision: archive-sha256:7d01b0bd390151991b0a903d8d987d245c20f2b06635915da8eb049974bd356a
-# Source SHA-256: a44cce7306bbfa28d284f037fe92c0256e6567635227551ae12d831829c58460
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PO-HAZ.ANS by poti. (phat.); released in phat1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: hazard.
-# SAUCE Author: poti.
-# SAUCE Group: phat.
-# SAUCE Date: 19961125
-# SAUCE Dimensions: 80x28
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: hazard. by poti. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat1296-po-haz
 
 Write-Host '
         [34m░░[0;37m [0;34m▄[0;1;34m▄▄[0m

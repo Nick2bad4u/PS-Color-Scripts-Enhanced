@@ -1,13 +1,4 @@
-﻿# Converted from: PHO-GLU3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-17/raw/PHO-GLU3.ANS
-# Source Revision: archive-sha256:154ac874f13e20433925bb99a4f5e0a4299764bee7ed4d28bdaffd9ad392f554
-# Source SHA-256: 59f6a18f24f7605419bb8ede8c412268c1243a8e08b57bbc85e498d38ccef56b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PHO-GLU3.ANS by Phoman (glue-17); released in glue-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: PHO-GLU3.ANS by Phoman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-17-pho-glu3
 
 Write-Host '
 [1m         [0m   [1m░▐[0;1;36m▄▄▄▓▓  ░░    [0m  [1;31m▌[0m      [35m░ ▄▌[0m     [37m [0;1;37m▄[0m   [31m░[0;37m      [0m       [1;31m░▄▄▄[0;1;33m▄[0;1;37m▄ [0m

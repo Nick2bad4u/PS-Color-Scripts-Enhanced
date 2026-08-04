@@ -1,18 +1,4 @@
-﻿# Converted from: ZII-AIF1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aif-9703/raw/ZII-AIF1.ANS
-# Source Revision: archive-sha256:8ff72b77604e7ed00a0051c0fed7309a91e0edcd872999887f592889423f376c
-# Source SHA-256: 6b220cc4abb76dc73462712291eda0d2e5077817517f686d36de0e11d0842602
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-AIF1.ANS by Zeus II ([guest artist]); released in aif-9703 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: the little beige men...
-# SAUCE Author: Zeus II
-# SAUCE Group: [guest artist]
-# SAUCE Date: 19970313
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: the little beige men... by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aif-9703-zii-aif1
 
 Write-Host '
                                      [36m▄[0m

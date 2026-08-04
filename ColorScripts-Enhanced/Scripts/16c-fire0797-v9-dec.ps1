@@ -1,18 +1,4 @@
-﻿# Converted from: V9-DEC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0797/raw/V9-DEC.ANS
-# Source Revision: archive-sha256:94b9d74f23cef45b7f0e0cddc6ad7ce59eed15dd66ca41ed74c0005a3af14ca4
-# Source SHA-256: 319d9ba33c908b06a8c739f7fd4020acd9f2c4f67289d3040bd52b2d2dad8db6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: V9-DEC.ANS by Vade79 (f1RE); released in fire0797 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Decadence
-# SAUCE Author: Vade79
-# SAUCE Group: f1RE
-# SAUCE Date: 19970701
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Decadence by Vade79 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0797-v9-dec
 
 Write-Host '
           [1;36m  [0m    [34m▄[0;36m [0m   [34m■[0;33m [0;34m▄▄▄▄▄▄[0;37m [0;1;30m░░[0m  [34m▄▄▄▄ ▀▀[0m      [34m▄[0m   [30;46m▓[0;36;40m░[0;37;40m  [0;34;40m▄▄▄▄ ▀[0m   [34;40m▄▄ ▀[0m    [34;40m▄▄▄ [0m

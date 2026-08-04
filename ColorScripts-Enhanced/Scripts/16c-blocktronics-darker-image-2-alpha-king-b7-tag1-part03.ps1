@@ -1,19 +1,4 @@
-﻿# Converted from: alpha_king-b7-tag1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_darker_image_2/raw/alpha_king-b7-tag1.ans
-# Source Revision: archive-sha256:7282b405cc52219ce7cf6cd9d097796f1b25fc898e4c29fdb9f37c375d595996
-# Source SHA-256: ce1de78e988b377f130aeef35be0691132729c53ada290a2844032dbb3842230
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: alpha_king-b7-tag1.ans by Alpha King (Blocktronics); released in blocktronics_darker_image_2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: b7 tag
-# SAUCE Author: Alpha King
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20170828
-# SAUCE Dimensions: 80x106
-# SAUCE Font: IBM VGA
-# Lines: 74-106
-# Columns: 1-80
+﻿# Artwork: b7 tag by Alpha King | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-darker-image-2-alpha-king-b7-tag1-part03
 
 Write-Host '
                                          [31m░░░░[0;1;35m░░[0m   [31m▐[0;1;31;41m▒▓▒░[0;31m▀[0;1;35m▀[0m [31m░[0m

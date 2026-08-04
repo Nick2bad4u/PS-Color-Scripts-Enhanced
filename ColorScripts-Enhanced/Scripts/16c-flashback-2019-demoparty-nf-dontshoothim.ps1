@@ -1,20 +1,4 @@
-﻿# Converted from: nf-dontshoothim.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flashback-2019-demoparty/raw/nf-dontshoothim.ans
-# Source Revision: archive-sha256:b738430cc4fe12cad7e057e3ab51a85dc09291bcdcb66f958a6a7bcc5184c5af
-# Source SHA-256: b69cdc8615e81f5e684cc1ac0ddf8543586079d5caf174a0bce2e462565d55d5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: nf-dontshoothim.ans by necro (fuel); released in flashback-2019-demoparty and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: NOOOO don't shoot him
-# SAUCE Author: necro
-# SAUCE Group: fuel
-# SAUCE Date: 20190608
-# SAUCE Dimensions: 80x23
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Travis Bickle, a man with a plan
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: NOOOO don't shoot him by necro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flashback-2019-demoparty-nf-dontshoothim
 
 Write-Host '
 [1;30;40m▓[0;1;30;47m▒▓[0;1;30;40m ░▓[0;1;30;47m▒▓[0;1;30;40m ░▒[0;1;30;47m▓░▓[0;1;30;40m ▓[0;1;30;47m▒▓[0;1;30;40m ▓▓▒ [0;1;30;47m░[0;1;30;40m▓ [0;1;30;47m▓▓▓▓[0;1;30;40m ▄▀ ▄▀▄ [0m▀[1;47m▒▓░▒[0m▀[1;30m▄▄▐▄▀█ [0;1;30;47m▓▓▒▓[0;1;30;40m [0;1;30;47m▓░[0;1;30;40m [0;1;30;47m▓░[0;1;30;40m ░░░░[0;33m░[0;1;30m░░░░░[0m

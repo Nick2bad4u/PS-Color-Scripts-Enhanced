@@ -1,19 +1,4 @@
-﻿# Converted from: _xmas_fIl-b0bl.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_miracle_on_67th_street/raw/_xmas_fIl-b0bl.ans
-# Source Revision: archive-sha256:7a78b3edd176c6d05feb481522f2c4f3e57721df62292c2b4ce537e855c41ae8
-# Source SHA-256: 4e012200be233312581ed1a23b266a6f80f5ffdb2e279eea791d514b7fd87dc0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _xmas_fIl-b0bl.ans by FILTHY CLAUS! (Blocktronics); released in blocktronics_miracle_on_67th_street and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Christmas Bauble 2018
-# SAUCE Author: FILTHY CLAUS!
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20181125
-# SAUCE Dimensions: 80x60
-# SAUCE Font: IBM VGA
-# Lines: 28-60
-# Columns: 1-80
+﻿# Artwork: Christmas Bauble 2018 by FILTHY CLAUS! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-miracle-on-67th-street-xmas-fil-b0bl-part02
 
 Write-Host '
          [1;36m███[0;1;36;46m▒▒▒[0;36m█████[0;1;34;46m░░░▒▓▓░▓▓▓[0;30m█[0;34m██████[0;1;34m██████████████████████████[0;1;36m█[0m

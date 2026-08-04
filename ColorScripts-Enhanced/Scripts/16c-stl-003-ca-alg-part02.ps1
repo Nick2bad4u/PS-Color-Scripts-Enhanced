@@ -1,18 +1,4 @@
-﻿# Converted from: CA-ALG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/stl-003/raw/CA-ALG.ANS
-# Source Revision: archive-sha256:f05577e69788bf833b2eeb503583305cc9119acc157823c14e039d65d70a6838
-# Source SHA-256: 1509b8bc30ba30d5d478e3752057b3321a75ac667d9708d9fc975c4f6a3e08bc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CA-ALG.ANS by Catonica (Stile Productions 95); released in stl-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Moose City Logo
-# SAUCE Author: Catonica
-# SAUCE Group: Stile Productions 95
-# SAUCE Date: 19951214
-# SAUCE Dimensions: 80x63
-# Lines: 32-63
-# Columns: 1-80
+﻿# Artwork: Moose City Logo by Catonica | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-stl-003-ca-alg-part02
 
 Write-Host '
 [37m [0;33m▀▓█▓██[0;1;30;43m ░░[0;33m████[0;1;30;43m░░[0;33m██████████████████████████[0;1;30;43m░▒▒[0;1;30;40m▀[0;33m ▀▀▀[0;37m  [0;33m▄[0;1;30;43m░[0;33m████████████████████████▓▓[0m

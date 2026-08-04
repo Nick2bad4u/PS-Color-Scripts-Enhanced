@@ -1,18 +1,4 @@
-﻿# Converted from: SC-FLAT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense11/raw/SC-FLAT1.ANS
-# Source Revision: archive-sha256:0690b90402a70581c8f215d3ac545dcd69504e18bce536e07fefa6abfa4129ef
-# Source SHA-256: 5909798489e7d8d0178b5dff9b1f087d3c9c3bd85c788f6ce1cffa493b635a2d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SC-FLAT1.ANS by scrye (sense); released in sense11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: flat scan promo
-# SAUCE Author: scrye
-# SAUCE Group: sense
-# SAUCE Date: 19980715
-# SAUCE Dimensions: 80x44
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: flat scan promo by scrye | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense11-sc-flat1
 
 Write-Host '
 [1;36;46m▓▓[0;1;36;40m██████████████████████████████████████████████████████████████████[0;1;36;46m▄[0;1;36;40m██[0;1;36;46m▄ [0;36m▀▀[0;37m▄▄[0;1;37m▄[0;1;37;47m▄[0;1;37;40m█[0m

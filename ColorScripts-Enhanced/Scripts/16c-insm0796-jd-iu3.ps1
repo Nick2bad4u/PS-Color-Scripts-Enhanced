@@ -1,18 +1,4 @@
-﻿# Converted from: JD`IU3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/insm0796/raw/JD%60IU3.ANS
-# Source Revision: archive-sha256:e3aef34bb564b08d1904f6f1567e1b9514c63c703fa2cbc5b50e7bd5188984fa
-# Source SHA-256: 2c8b83b2dd1a8aa8a5d127d96a9a8de54b45fa7d46eb828ae4b9d3123471f6d6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JD`IU3.ANS by Jandor (insomnia); released in insm0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Insanity Uprising Add #3
-# SAUCE Author: Jandor
-# SAUCE Group: insomnia
-# SAUCE Date: 19960603
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Insanity Uprising Add #3 by Jandor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-insm0796-jd-iu3
 
 Write-Host '
 

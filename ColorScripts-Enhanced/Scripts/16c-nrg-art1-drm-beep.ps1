@@ -1,18 +1,4 @@
-﻿# Converted from: DRM-BEEP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nrg-art1/raw/DRM-BEEP.ANS
-# Source Revision: archive-sha256:79dfa0b816968c81bc0f0162a4bb921d917ef228650d49a4b3990f25f5de781a
-# Source SHA-256: a08eb664d20a8a3dd695c19aead565cef0039b5f01f4003c4c89123450de6560
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DRM-BEEP.ANS by Dr. Dream (NRG art dep.); released in nrg-art1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: [beep]
-# SAUCE Author: Dr. Dream
-# SAUCE Group: NRG art dep.
-# SAUCE Date: 19990220
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: [beep] by Dr. Dream | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nrg-art1-drm-beep
 
 Write-Host '
 

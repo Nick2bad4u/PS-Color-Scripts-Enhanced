@@ -1,13 +1,4 @@
-﻿# Converted from: NV-HELL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fi-1194/raw/NV-HELL.ANS
-# Source Revision: archive-sha256:c5c78143754003a29c9176acbc9c5704b0def0a026c0746890b16cf468794665
-# Source SHA-256: 7a3991ab264c7f0888d7ec12c345c8f291bed02b812835d52b819ed932906232
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NV-HELL.ANS by Nevermind (fi-1194); released in fi-1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: NV-HELL.ANS by Nevermind | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fi-1194-nv-hell-part01
 
 Write-Host '
 [1;31m█▌[0m           [1;31m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒░░░░░[0m                   [1;31m▄▄[0m

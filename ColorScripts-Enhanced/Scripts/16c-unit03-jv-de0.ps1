@@ -1,18 +1,4 @@
-﻿# Converted from: JV-DE0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/unit03/raw/JV-DE0.ANS
-# Source Revision: archive-sha256:14397867310c247896cee9ae85588007c2e913800ae4fa325b0eb998bbd62f6a
-# Source SHA-256: 86dea29aface1c8e67904a4db878da6af402093b7fbe01166ce6cf5d1cec8d3f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JV-DE0.ANS by jeeves (UNiT Productions); released in unit03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: aliens
-# SAUCE Author: jeeves
-# SAUCE Group: UNiT Productions
-# SAUCE Date: 19961104
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: aliens by jeeves | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-unit03-jv-de0
 
 Write-Host '
 [1;34m$$$$$$$''[0m,q@$[1m$$@p,[0;34m`[0;32m,;%i8[0;1;32m@p,[0;34m''[0;37m,q@[0;1;37m$$$@p,[0;34m`$8i%;,[0;1;34m`;%i8$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m

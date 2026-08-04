@@ -1,17 +1,4 @@
-﻿# Converted from: ak-dust.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr2022a/raw/ak-dust.ans
-# Source Revision: archive-sha256:aa1e39fd06599355da5658d291314408b50b00ff0dae48d6c4b5175aa3186f13
-# Source SHA-256: 21e1f43cd71c90bf3df93dec8b814db296b0df05de0b8ea8fc7a48064b7cd842
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ak-dust.ans by abstrakt (blndr2022a); released in blndr2022a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: abstrakt
-# SAUCE Date: 20220123
-# SAUCE Dimensions: 80x101
-# SAUCE Font: IBM VGA
-# Lines: 83-101
-# Columns: 1-80
+﻿# Artwork: ak-dust.ans by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr2022a-ak-dust-part03
 
 Write-Host '
 ∙.°∙∙∙∙°  ∙°°☼            [1m° ∙☼[0m.° x° ° .°∙.∙. °∙0° ∙0∙ ∙∙o∙∙o ∙ °∙.∙°∙xo .x°∙  °

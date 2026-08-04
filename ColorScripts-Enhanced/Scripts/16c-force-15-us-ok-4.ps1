@@ -1,18 +1,4 @@
-﻿# Converted from: US-OK#4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-15/raw/US-OK%234.ANS
-# Source Revision: archive-sha256:cd2d406ee7567eb1c250b9572bb0b7fdd8b6cfa2b5014b290774725da37d8cc8
-# Source SHA-256: 402500b6bc2ddd688f8033ab54b896b8cc094b39c351069d3a49b7530a572056
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-OK#4.ANS by Criminal Enigma + Illogic (fORCE); released in force-15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Organized Kaos
-# SAUCE Author: c3/illogic
-# SAUCE Group: fORCE
-# SAUCE Date: 19970119
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Organized Kaos by Criminal Enigma + Illogic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-15-us-ok-4
 
 Write-Host '
       [31m▌[0m      [31m░[0;30;41m▓█[0m        [1;30;40m            [0m                             [31m░[0;30;41m▓[0m    [31;40m ▐[0m

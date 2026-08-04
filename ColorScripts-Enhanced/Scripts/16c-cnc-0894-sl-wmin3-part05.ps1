@@ -1,13 +1,4 @@
-﻿# Converted from: SL-WMIN3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cnc-0894/raw/SL-WMIN3.ANS
-# Source Revision: archive-sha256:1b41953359b4903075cddee4a19558a01788588c83e4b31f35133aa0fc5529ef
-# Source SHA-256: a6404074e41ba6e23b5d671179f047d07b1740ccce7431772463cd1d856d2323
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SL-WMIN3.ANS by Sir Lancelot (cnc-0894); released in cnc-0894 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 180-215
-# Columns: 1-80
+﻿# Artwork: SL-WMIN3.ANS by Sir Lancelot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cnc-0894-sl-wmin3-part05
 
 Write-Host '
 [0m[0m[1;37;40m  [0;30;47m▓[0m  [30;47m▓▓[0m [30;47m▓▓▒[0m  [30;47m▓[0m [30;47m▒▒░░░▒▒▓[0m         [37;40m▄██[0;30;47m░░░[0;37;40m████████[0;30;47m░░░░░░▒▒▒▓▓[0m   [30;47m  [0;1;37;47m░░▒▒▒▓▓▓▓[0;1;37;40m████████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: US-PINF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/saga9705/raw/US-PINF.ANS
-# Source Revision: archive-sha256:9950004e76ea5c0e6c27ac92b1d4c958f7cea833041843273d527effb62ad1ee
-# Source SHA-256: 3de0d090fe5db5efd0dc6bdb5678cb983b61dd73f3808c9265e07f6a987b0134
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-PINF.ANS by Sharque + Creator (Saga); released in saga9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: project inf
-# SAUCE Author: Multiple
-# SAUCE Group: Saga
-# SAUCE Date: 19970518
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: project inf by Sharque + Creator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-saga9705-us-pinf
 
 Write-Host '
 [36m▀▓█▀ ▀[0;1;30m▄[0;36m ░ [0;1;30m▄   [0m [1;30m▄  [0m [1;30m▄▄▄    [0m [36m [0;1;30m▄   [0;36m [0;1;30m▄[0m [1;30m [0m [1;30m▄[0m   [1;30m▄▄▄[0;1;30;46m▓[0m   [1;30m▄▀[0m [1;30m▄▀▀[0m               [36m ░▓██████▄░[0m

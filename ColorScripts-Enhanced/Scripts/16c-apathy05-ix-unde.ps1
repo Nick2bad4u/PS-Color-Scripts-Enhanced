@@ -1,18 +1,4 @@
-﻿# Converted from: IX-UNDE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy05/raw/IX-UNDE.ANS
-# Source Revision: archive-sha256:2e1c7dd4c451a5d024352ee6b56eba52a2d5ba6a7d73a9cc34cff58fc603ca18
-# Source SHA-256: 99207e2a43f4bb617fe6cd5d9a706d331923e1378e3e4b616ece84222df8ae2d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IX-UNDE.ANS by Illusion X (READ THE INI FILE); released in apathy05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Undefined Sprocket
-# SAUCE Author: Illusion X
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19951228
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Undefined Sprocket by Illusion X | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy05-ix-unde
 
 Write-Host '
 

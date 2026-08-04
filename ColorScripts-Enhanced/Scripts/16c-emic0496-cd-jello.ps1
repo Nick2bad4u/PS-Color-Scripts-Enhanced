@@ -1,18 +1,4 @@
-﻿# Converted from: CD-JELLO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/emic0496/raw/CD-JELLO.ANS
-# Source Revision: archive-sha256:0081657214e0d3eeaf9fa72e89eaffd16455becfd5da03242b645aa6b0fa9295
-# Source SHA-256: bea700bed2f7d0ad14bc54d5bc8902febf3da5397879cd5ab02d12f12841575d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CD-JELLO.ANS by Creaping Death (EMiC); released in emic0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: jello!
-# SAUCE Author: Creaping Death
-# SAUCE Group: EMiC
-# SAUCE Date: 19960307
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: jello! by Creaping Death | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-emic0496-cd-jello
 
 Write-Host '
 [36m▒ ▀   ▀▀▀ ▀ ▀▀▀  ▀▀▀   ▀▀▀ ▀▀ ▀▀  ▀▀▀▀▀   ▀▀▀ ▀▀▀ ▀▀▀▀  ▀▀▀  ▀▀▀   ▀  ▀▀ ▀▄[0;1;36m▀[0;1;36;46m█▓▒░[0m

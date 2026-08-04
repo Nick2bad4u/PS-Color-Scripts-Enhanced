@@ -1,13 +1,4 @@
-﻿# Converted from: LST-MILD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_9612/raw/LST-MILD.ANS
-# Source Revision: archive-sha256:535386efaf0832a92df8cd43b1e1ec9e549c82ba4ee576a67c0fa93e7a363fe1
-# Source SHA-256: b968edf8a38745d921669b55f23a17abdc8375dd378647f45158e08c956dfab8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LST-MILD.ANS by Soul Trader (dox_9612); released in dox_9612 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: LST-MILD.ANS by Soul Trader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-9612-lst-mild
 
 Write-Host '
 

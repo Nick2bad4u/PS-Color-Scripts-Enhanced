@@ -1,18 +1,4 @@
-﻿# Converted from: PI-ACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/prz-9607/raw/PI-ACID.ANS
-# Source Revision: archive-sha256:c9c5cc7ecf1f26596c4d88f592166c82d585c7e5de1be5fa6d5e25ebed6d7d14
-# Source SHA-256: 1f9d9eb1a6722dab3f22db8ec91bee3abdf28e6c9c14595d3442e611879c976c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PI-ACID.ANS by (% peltier %) (( pharazoone )); released in prz-9607 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: & A C i D &
-# SAUCE Author: (% peltier %)
-# SAUCE Group: ( pharazoone )
-# SAUCE Date: 19960619
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: & A C i D & by (% peltier %) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-prz-9607-pi-acid
 
 Write-Host '
 [1;32;46m░[0;1;36;46m▄▄[0;1;32;46m [0;36m███████▄▄▄[0;36;46m [0;32;46m░▓▒░[0;36;40m██████▓▀▀▀[0;1;36;46m░[0;36m▀▀▀▀▀ [0;1;30m░[0;34m░[0;1;30m▄▄[0;1;30;44m▓▒░[0;34m▄▄░  [0;36m▀▀▀▀▀▀▀▓█████████████████▄██[0;1;36;46m░▓▄[0;36m█[0m

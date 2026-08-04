@@ -1,18 +1,4 @@
-﻿# Converted from: TXT-DIST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/std-0803/raw/TXT-DIST.ANS
-# Source Revision: archive-sha256:ac87b0b231ae240845262b2c567f6232f7b7af6bc69506faeead64ab71ad0d3b
-# Source SHA-256: b4034916e087b04586b3c4633d4a6cd3385943cd3029fd1d5df4dd54f24271b3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TXT-DIST.ANS by The Textorcist (Spread The Disease); released in std-0803 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Distro Tag
-# SAUCE Author: The Textorcist
-# SAUCE Group: Spread The Disease
-# SAUCE Date: 20030803
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Distro Tag by The Textorcist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-std-0803-txt-dist
 
 Write-Host '
 [1m    [0;1;30m▀▄░░[0m         [1;30m░░[0;35m [0m             [1;37m▄▄▄▄▄▄▄▄▄[0;1;33m▄▄▄[0m

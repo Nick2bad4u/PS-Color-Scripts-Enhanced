@@ -1,17 +1,4 @@
-﻿# Converted from: MO-FIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/crisis1996unreleased/raw/MO-FIRE.ANS
-# Source Revision: archive-sha256:d42db79c3670e318c85ffe28ad5142bf995c4610d0c05cf0eae2c80b9a793fbb
-# Source SHA-256: 5b104dafeef97dd5d384fd27360eb59b3ac9d4ae1cfb7c53fdc2df06f8e97b2d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MO-FIRE.ANS by mrO (crisis1996unreleased); released in crisis1996unreleased and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Fire logo
-# SAUCE Author: mrO
-# SAUCE Date: 19960331
-# SAUCE Dimensions: 80x19
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Fire logo by mrO | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-crisis1996unreleased-mo-fire
 
 Write-Host '
 

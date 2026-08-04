@@ -1,19 +1,4 @@
-﻿# Converted from: wz-smallscale-9px.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-dsotb/raw/wz-smallscale-9px.ans
-# Source Revision: archive-sha256:31e1fdfda207a2147f2b0badf1415308dc54d4c24afa56622db8a43f68f110f1
-# Source SHA-256: accf411147167d8db1cad78b499aa27b6ec2237fffa0210fd7cec284df386361
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wz-smallscale-9px.ans by Whazzit (Blocktronics); released in blocktronics-dsotb and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Smallscale 9px
-# SAUCE Author: Whazzit
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20190510
-# SAUCE Dimensions: 80x133
-# SAUCE Font: IBM VGA
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: Smallscale 9px by Whazzit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-dsotb-wz-smallscale-9px-part01
 
 Write-Host '
 [31;40m [0;36;40m                     [0m

@@ -1,13 +1,4 @@
-﻿# Converted from: SG-DIABL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ceg03a98/raw/SG-DIABL.ANS
-# Source Revision: archive-sha256:90d002b6bc8d5feea2d46d48c22aac2a0f4d7e3f7b99248e5550d90816c8fa18
-# Source SHA-256: 35561e1de3811a99690dd4a45092908b67ae77354f2d02db4ed2186b3f73f998
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SG-DIABL.ANS by Shaggy Nik (ceg03a98); released in ceg03a98 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: SG-DIABL.ANS by Shaggy Nik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ceg03a98-sg-diabl
 
 Write-Host '
 [1;32m▌[0m   [1;32m▄█▀  [0;1;32;42m▄[0m  [32m▀▄[0;37m [0;32m   ▄▄█▀▀▄[0m     [37m▄▄[0;1;30;47m▄▄▒░[0m█[1;30;47m▄ [0m██[1;30;47m▒[0m▄

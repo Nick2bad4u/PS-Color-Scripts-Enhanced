@@ -1,18 +1,4 @@
-﻿# Converted from: SC-LINT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense07/raw/SC-LINT1.ANS
-# Source Revision: archive-sha256:bee7f118bb6315a9d497ecd226e485abc5e73e41d8cf666fe91e2b03665a3b3e
-# Source SHA-256: 988b8ae62914e1b2fd8bee4e12557e923a264d5136d32fb66584ba6a213e38f3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SC-LINT1.ANS by scrye (guess.. :P); released in sense07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: linty
-# SAUCE Author: scrye
-# SAUCE Group: guess.. :P
-# SAUCE Date: 19980315
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: linty by scrye | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense07-sc-lint1
 
 Write-Host '
                 [32m▒[0m                                            [32m▒[0m    [32m░░[0m

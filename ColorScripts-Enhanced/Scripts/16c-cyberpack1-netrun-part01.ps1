@@ -1,20 +1,4 @@
-﻿# Converted from: netrun.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cyberpack1/raw/netrun.ans
-# Source Revision: archive-sha256:22c86100c349017caf42bcccadd068ca0a12bffc273b969eb406d82adaabee60
-# Source SHA-256: 67cd9fcbad6ba479139999fb323803f2d91850f6b25cccbfa5918ebdd898d0bf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: netrun.ans by Revengeday (CORTEXIMPLANT); released in cyberpack1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Netrun Girl
-# SAUCE Author: Revengeday
-# SAUCE Group: CORTEXIMPLANT
-# SAUCE Date: 20250727
-# SAUCE Dimensions: 80x90
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Netrun until it breaks!
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Netrun Girl by Revengeday | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cyberpack1-netrun-part01
 
 Write-Host '
 

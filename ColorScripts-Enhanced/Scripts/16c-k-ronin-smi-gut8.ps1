@@ -1,18 +1,4 @@
-﻿# Converted from: SMI-GUT8.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k-ronin/raw/SMI-GUT8.ANS
-# Source Revision: archive-sha256:1cf524db9c88845a87436294bf9ad4e7b661b688c5b065b442b074cbc8f8d22f
-# Source SHA-256: 5774487e7d4b42273cd541b55c546ec9a4ca320142e8db3ed8058331a776c61f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMI-GUT8.ANS by samurai (klexikal); released in k-ronin and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: gutter numero 8
-# SAUCE Author: samurai
-# SAUCE Group: klexikal
-# SAUCE Date: 19990524
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: gutter numero 8 by samurai | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k-ronin-smi-gut8
 
 Write-Host '
 [34m█[0;30;44mklexikal[0;34;40m▓[0;32;40m  [0;1;30;40m░░▓▓[0m▒[1;30m▀[0;1;32m░░▒▒▒▒▒[0;32m███[0;1;32;42m   ░▄[0;1;37;42m█[0;1;32;42m█▄[0;32m▄[0;1;30m▄ ▀[0;32m▄▄[0;1;30m▄▄[0;32m [0;1;30m▀░░░[0m   [34m░▓██▀█████[0;30;44m [0;34;40m█████████████▓░ [0;37;40m [0m

@@ -1,13 +1,4 @@
-﻿# Converted from: FO-DOOM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lght9406/raw/FO-DOOM1.ANS
-# Source Revision: archive-sha256:825cb8084649e6795c9cabcc359857c22ce6d84c1d95c0a06f422c0d7a729d3b
-# Source SHA-256: 7690f16995f70e88bcc17aa5664b7c3793d545b2bf9354399e2b78aab2c2bd9c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FO-DOOM1.ANS by Forego (lght9406); released in lght9406 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-99
-# Columns: 1-80
+﻿# Artwork: FO-DOOM1.ANS by Forego | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lght9406-fo-doom1-part02
 
 Write-Host '
                                           [33m██▓▒▒▒░░░[0m               [1;30m██[0m

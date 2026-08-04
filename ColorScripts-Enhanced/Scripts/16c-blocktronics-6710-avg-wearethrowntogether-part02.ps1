@@ -1,19 +1,4 @@
-﻿# Converted from: avg-wearethrowntogether.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-6710/raw/avg-wearethrowntogether.ans
-# Source Revision: archive-sha256:65fe9e2a2e2016f30e4b0141be2d1472e9b7cc814d922f9663e0d0a04142d70a
-# Source SHA-256: 2db3d9a1363f61d51554ea4fa0966ea6bc7d05d96581fbee5ce4666523776e81
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-wearethrowntogether.ans by Avg + Avenging Angel (blocktronics); released in blocktronics-6710 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: we are thrown together
-# SAUCE Author: avg
-# SAUCE Group: blocktronics
-# SAUCE Date: 20180102
-# SAUCE Dimensions: 80x142
-# SAUCE Font: IBM VGA
-# Lines: 51-99
-# Columns: 1-80
+﻿# Artwork: we are thrown together by Avg + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-6710-avg-wearethrowntogether-part02
 
 Write-Host '
 [35m  [0;1;34m█[0;1;37;46m▒▒▒▒[0;1;37;41m▒▒▒▒[0;1;37;40m▓▓▓[0;1;36;40m▒[0;1;35;40m▒▒░░[0;1;31;40m▒▒▒▒[0;31m▓▓[0;36;41m░░[0;1;33;42m▒▒[0;32;47m░[0;1;33;42m▒[0;1;32;40m▓▓▓▓[0;1;32;42m ▄[0;1;32;47m██[0;1;35;47m▀███[0;1;35;46m▒▒▒▒[0;1;35;40m▒▒▒▒[0;1;34;40m▒▒▒▒[0m  [31m■[0m          [1;36m  [0;1;34m▀[0;1;34;43m█[0;1;32;40m▄▀▄▀[0m

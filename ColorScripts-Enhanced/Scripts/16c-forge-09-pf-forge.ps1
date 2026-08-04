@@ -1,18 +1,4 @@
-﻿# Converted from: PF-FORGE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/forge_09/raw/PF-FORGE.ANS
-# Source Revision: archive-sha256:d4616dfe119968c45cde426a6fd89403c94d7b3dbbcec3e05db02fd0c751bac7
-# Source SHA-256: 79548dfe0fbe07d5c36ad5055f0bb9a7db8474ad166d123ed7ea67dd9e7c860e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PF-FORGE.ANS by Plasmic Fluid (Forge); released in forge_09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Forge logo
-# SAUCE Author: Plasmic Fluid
-# SAUCE Group: Forge
-# SAUCE Date: 19800102
-# SAUCE Dimensions: 80x15
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: Forge logo by Plasmic Fluid | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-forge-09-pf-forge
 
 Write-Host '
 [1;47m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;47m▄[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: US-DIVERS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1120/raw/US-DIVERS.ANS
-# Source Revision: archive-sha256:1aea60fe15e22f1a93a6bf5d2d7a91f468dbfe0f5023717734ce9e5a750497b0
-# Source SHA-256: 35998469a0a2b548af76bdba4dea11738447e536771be17b90075ccaec361e05
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-DIVERS.ANS by Polyducks + LDA + Zeus Ii (Mistigris); released in mist1120 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Divers and Sundry
-# SAUCE Author: Polyducks / LDA / Z2
-# SAUCE Group: Mistigris
-# SAUCE Date: 20201121
-# SAUCE Dimensions: 80x155
-# SAUCE Font: IBM VGA
-# Lines: 77-114
-# Columns: 1-80
+﻿# Artwork: Divers and Sundry by Polyducks + LDA + Zeus Ii | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1120-us-divers-part03
 
 Write-Host '
                  ▄ [1;33m▐▒[0;1;37;43m█[0;1;33;43m▄[0;1;37;43m█[0;33m▄[0;1;33m■[0;1;33;43m▐▓▀[0;33m▀▀ [0;1;33;43m▐▌[0;31m░[0;1;31;41m▒░[0;31m▌[0;33m [0;1;33m█[0;33m█ ▐█▄▒█▀[0;1;33m▓[0;33m▄[0;1;33m ▀[0;33m█▄  [0;1;33m▐[0;33m█   ▄ ▀   [0;1;30;47m▀[0;1;37;40m░▓▄[0;1;30;47m▀[0;1;30;40m▄▓[0;31m   [0;1;30m▀▌[0m

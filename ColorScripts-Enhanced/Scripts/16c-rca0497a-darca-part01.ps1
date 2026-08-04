@@ -1,13 +1,4 @@
-﻿# Converted from: DARCA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca0497a/raw/DARCA.ANS
-# Source Revision: archive-sha256:7a734d4a0f66cec612ff9dd555f22ae742c0c148ca8b062dcada217d3ed01454
-# Source SHA-256: da71e142cf7c1be11bfd02701a061c3f5c905881ec00272170a9eaeb1e86237f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DARCA.ANS by Dracula (rca0497a); released in rca0497a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: DARCA.ANS by Dracula | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca0497a-darca-part01
 
 Write-Host '
 

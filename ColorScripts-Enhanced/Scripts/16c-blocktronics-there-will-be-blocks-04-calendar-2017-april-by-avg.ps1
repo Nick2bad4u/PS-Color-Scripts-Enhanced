@@ -1,16 +1,4 @@
-﻿# Converted from: _04_Calendar_2017_April_by_avg.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_there_will_be_blocks/raw/_04_Calendar_2017_April_by_avg.ans
-# Source Revision: archive-sha256:d99f6502677c5a3c863779944513ac7a61b8122179566cfc94d95537e904aa6b
-# Source SHA-256: b21d03539f64f19f7e1f1f9ca61955766e2c0e95e2b59c4cc367e77d00fc91f4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _04_Calendar_2017_April_by_avg.ans by Avenging Angel (blocktronics_there_will_be_blocks); released in blocktronics_there_will_be_blocks and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20161220
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: _04_Calendar_2017_April_by_avg.ans by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-there-will-be-blocks-04-calendar-2017-april-by-avg
 
 Write-Host '
 [1;30;40m▄▀▄[0;1;36;47m░avg_16░[0m██▀[1;30m▀[0;1;33m██▓▓▓▓▓▓[0;1;37m███▀[0;1;33m▀[0m  [31m▄[0;33m▄[0;31;43m▀[0;1;34;43m▀██▄ ▀[0;33m██[0;37;43m▓[0;33;40m███[0;37;43m██▌[0;33;40m█ [0;36;40m█[0;36;43m▌[0;33;40m█[0;36;43m██▌[0;1;35;43m█▌[0;33;46m▌[0;37;46m [0;1;35;47m██[0;1;35;43m  [0;33;46m [0;37;40m█[0;1;35;47m██▌[0m█[1;44m██[0;1;47m▌[0m█[1;33;47m▐█▌ ██[0m

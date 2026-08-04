@@ -1,13 +1,4 @@
-﻿# Converted from: we-exet.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_resvolution/raw/we-exet.ans
-# Source Revision: archive-sha256:d0690af9ec91bf96f335196e9f9ddfb5d7ea02d97d300b53301bebaf58d83c35
-# Source SHA-256: d1ae371105a7dc2604d342067437c248c2be10bdd78b049642ec4f587e8dbf45
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: we-exet.ans by Zerovision + Sephiroth (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: we-exet.ans by Zerovision + Sephiroth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-resvolution-we-exet-part01
 
 Write-Host '
 

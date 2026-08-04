@@ -1,13 +1,4 @@
-﻿# Converted from: SD-FF1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/max1093/raw/SD-FF1.ANS
-# Source Revision: archive-sha256:0eadf465f7f0bbeed36d224f251caefa5855eb8e01542512b98e8cde9ca3573c
-# Source SHA-256: d31e39fef938e6370f8ff84e759fdd173b5d6529341862244c1195664a8e9396
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-FF1.ANS by Snow Dog (max1093); released in max1093 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: SD-FF1.ANS by Snow Dog | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-max1093-sd-ff1-part01
 
 Write-Host '
                                                                       [1;30m<mAx>[0m

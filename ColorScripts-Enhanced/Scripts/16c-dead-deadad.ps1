@@ -1,13 +1,4 @@
-﻿# Converted from: DEADAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dead/raw/DEADAD.ANS
-# Source Revision: archive-sha256:42002c7465322e6567b6ada22b7d24270f500cdc26769d5efac519e13d8ec757
-# Source SHA-256: 862b467ac2baf751a1a654eab00a6d52bbc051b592adca0bf8faf52e366aedc3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DEADAD.ANS by Eternal Darkness (dead); released in dead and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: DEADAD.ANS by Eternal Darkness | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dead-deadad
 
 Write-Host '
 

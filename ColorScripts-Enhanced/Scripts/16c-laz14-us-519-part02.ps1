@@ -1,19 +1,4 @@
-﻿# Converted from: us-519.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz14/raw/us-519.ans
-# Source Revision: archive-sha256:41b4e3770fbffb058172283f3da2aa00e47c872480cf93fdef94629ebc0751bb
-# Source SHA-256: 7de597eee39ac85933f580cc5ca08e517920c06d916f8821c349a3140ea1ce21
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-519.ans by Tetanus + Warpus (LAZARUS); released in laz14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: FIVE ONE NINE
-# SAUCE Author: tetanus & warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20211214
-# SAUCE Dimensions: 80x99
-# SAUCE Font: IBM VGA
-# Lines: 51-99
-# Columns: 1-80
+﻿# Artwork: FIVE ONE NINE by Tetanus + Warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz14-us-519-part02
 
 Write-Host '
 [1;34;40m██████████████████████[0;1;34;44m▀▀[0;34m▀▀[0;37m  [0;1;30m▄▄█[0;1;30;47m▀▀  ▀▀▀[0;1;30;40m▄▄█[0;107m▓[0m██[1;30m█▄█[0;1;30;47m▀[0m█[1;47m░░[0;1;30;47m▄[0;1;30;40m██▀[0;1;30;47m▄▄▄[0;1;30;40m▀▀▀▀▀▀[0m          [1;30m▄[0;1;30;47m▀[0m█[1;47m▄[0m█[1;30;47m░[0m

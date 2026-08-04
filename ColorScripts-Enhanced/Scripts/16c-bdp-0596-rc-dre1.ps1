@@ -1,17 +1,4 @@
-﻿# Converted from: RC(DRE1).ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bdp-0596/raw/RC(DRE1).ANS
-# Source Revision: archive-sha256:c585407c7da432de8b278021a42088d2314fe9c2fa3b5517b4760e8c74fd8742
-# Source SHA-256: 66191268376d2cf77987f8b66c6557494786534af1e482f9e21c18b46100acb2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RC(DRE1).ANS by 2] ^0  lost  2] [ (.boogiE%Woogie.); released in bdp-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: the(dream(theatre(loginsequence)))
-# SAUCE Author: 2] ^0  lost  2] [
-# SAUCE Group: .boogiE%Woogie.
-# SAUCE Date: 19960501
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: the(dream(theatre(loginsequence))) by 2] ^0 lost 2] [ | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bdp-0596-rc-dre1
 
 Write-Host '
                  [1;31m▀■[0m                  [35m  [0;1;37m▄[0;35m  [0m             [1;31m▄▄[0m

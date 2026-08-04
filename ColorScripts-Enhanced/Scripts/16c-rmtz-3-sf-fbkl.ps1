@@ -1,13 +1,4 @@
-﻿# Converted from: SF-FBKL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmtz-3/raw/SF-FBKL.ANS
-# Source Revision: archive-sha256:9049eb84d35299820d945f342b3906500ed394a8e74f37bd2f023c428d1b0765
-# Source SHA-256: feaf93de8f86f8a9af17e82a5e7961c5c4580b688e33be7a2814cd0450762ffc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SF-FBKL.ANS by Spitfire (rmtz-3); released in rmtz-3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: SF-FBKL.ANS by Spitfire | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmtz-3-sf-fbkl
 
 Write-Host '
 

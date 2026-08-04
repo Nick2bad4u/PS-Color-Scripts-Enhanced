@@ -1,18 +1,4 @@
-﻿# Converted from: MA-SIEGE.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9601a/raw/MA-SIEGE.ICE
-# Source Revision: archive-sha256:e4c089e3103bdc63762348bbcc2c54a05a351461817f667c54ad471098c66860
-# Source SHA-256: 6d25c52b68532fabd1a8bb51ca2f4b263bbe9790f64791a1be3dd55e2d477159
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MA-SIEGE.ICE by Maestro (iCE Advertisements); released in ice9601a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Seige
-# SAUCE Author: Maestro
-# SAUCE Group: iCE Advertisements
-# SAUCE Date: 19960207
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Seige by Maestro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9601a-ma-siege
 
 Write-Host '
               [32m■ ░[0m                           [36m■[0m      [36m▌[0m       [36m▄   ░■[0m

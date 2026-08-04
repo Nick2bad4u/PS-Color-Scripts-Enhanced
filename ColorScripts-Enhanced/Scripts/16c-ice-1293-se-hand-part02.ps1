@@ -1,13 +1,4 @@
-﻿# Converted from: SE-HAND.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-1293/raw/SE-HAND.ICE
-# Source Revision: archive-sha256:182b9702da1f1bde17e4df33b16f273f2765470ebb86605bd87d47c99a57034c
-# Source SHA-256: d942c1ad7f99ee9139a97358886270f8e3446f9117cdda4640c564e7a748028d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SE-HAND.ICE by Special Ed (ice-1293); released in ice-1293 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 29-60
-# Columns: 1-80
+﻿# Artwork: SE-HAND.ICE by Special Ed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-1293-se-hand-part02
 
 Write-Host '
 [1;37;43m░[0;1;30;43m░░▒▓▓▓▒▒▒[0;31m▓█[0;1;30;43m▒░░[0;31m░▄▄▄▀▀[0;1;30;43m▓▒░[0;1;37;43m░░░▒▒▒▒[0;1;30;43m░[0;33m▀[0;1;30;43m░░░[0;1;37;43m░░▒▒░ [0;33m█  [0;1;30;43m▓▒░░░░[0;1;37;43m░░░▒▒▒▒▓▓▓▓▓▓▒▒░░[0;33m█▄  ▀[0;1;30;43m░▒▒▓[0m [1;37;43m▒▓[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: RET-BKS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wax-02/raw/RET-BKS2.ANS
-# Source Revision: archive-sha256:4668c93611bb3faf9105543bb7cc4b8e847416eacbd0dc21153ea9ba4d1d3b2b
-# Source SHA-256: d5689e7903f25abfe40a7537699f94440f5365784a627ac18b93cd376e8b79f9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RET-BKS2.ANS by Retribution (wax-02); released in wax-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: RET-BKS2.ANS by Retribution | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wax-02-ret-bks2
 
 Write-Host '
 

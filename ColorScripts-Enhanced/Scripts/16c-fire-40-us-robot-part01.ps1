@@ -1,20 +1,4 @@
-﻿# Converted from: US-ROBOT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-40/raw/US-ROBOT.ANS
-# Source Revision: archive-sha256:aff8105c0a955ac5c43ea367a02b086cd2849f6741fc41b8a5ff440b77e104a7
-# Source SHA-256: 9919d76f0035a596bbb85d454199d451a7d96ae30f056667d8089b50d8f5a054
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ROBOT.ANS by Magnetic M + Toon Goon (Fire/iCE); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Robot City
-# SAUCE Author: Magnetic M/Toon Goon
-# SAUCE Group: Fire/iCE
-# SAUCE Date: 20240707
-# SAUCE Dimensions: 80x108
-# SAUCE Font: IBM VGA
-# SAUCE Comments: This was a weird one. I enjoyed friendships with quite a few peo | ple back in the day and one of my favorite contemporary (at that | time) artists was Magnetic M. He eventually made his way into i | CE which is where I spent the entirety of my career. We worked o | n quite a few joints together and the guy in this ansi (who look | ed like sort of a Dr. Wily type character, hence the robot and M | ega Man style background) is something he sent me back in 2001 a | s we were both winding down our careers and never actually did a | nything with it. Until now. As far back as 1998 Magnetic M claim | ed he had released his last ansi but would continue to do small | scale and logo stuff into the 2000s. As near as I can tell MM an | d I released our last ansis with iCE in the August 2002 pack and | the groups last pack appears to be December of 2002. The exact | file date on the outline sent to me by MM in this ansi was 9/19/ | 2001. Only 23 years late, but here it is!
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Robot City by Magnetic M + Toon Goon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-40-us-robot-part01
 
 Write-Host '
                [37;40m░[0m

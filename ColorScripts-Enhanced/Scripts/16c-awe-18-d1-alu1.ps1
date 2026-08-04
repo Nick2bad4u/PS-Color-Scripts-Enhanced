@@ -1,18 +1,4 @@
-﻿# Converted from: D1_ALU1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-18/raw/D1_ALU1.ANS
-# Source Revision: archive-sha256:3ece06be07a605d790194aecaf4c2aee0d01c3085ca10c10858ed29a4fc054bb
-# Source SHA-256: 309dbc7aa4e64db0c1f45eafde1a89130d0b6fe7d76098a5a1d1ea5c7a03a5bc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: D1_ALU1.ANS by Dissonance (AWE Lettering); released in awe-18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Alucard
-# SAUCE Author: Dissonance
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981026
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Alucard by Dissonance | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-18-d1-alu1
 
 Write-Host '
 

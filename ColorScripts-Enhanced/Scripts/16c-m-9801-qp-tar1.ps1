@@ -1,18 +1,4 @@
-﻿# Converted from: QP-TAR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m-9801/raw/QP-TAR1.ANS
-# Source Revision: archive-sha256:68027b949f7edfef662f12aa514dfc21e6e156e3984f9866a81997534ce6ce87
-# Source SHA-256: 1acadd73762c7301534e5dbc1e90ff58d31ace5d08c897a745ea4c56fd12b5ce
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: QP-TAR1.ANS by quip (mistigris); released in m-9801 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: tarango
-# SAUCE Author: quip
-# SAUCE Group: mistigris
-# SAUCE Date: 19971223
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: tarango by quip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m-9801-qp-tar1
 
 Write-Host '
                                      [35m░[0m

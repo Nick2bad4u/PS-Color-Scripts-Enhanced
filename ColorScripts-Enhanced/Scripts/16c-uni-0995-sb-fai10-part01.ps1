@@ -1,17 +1,4 @@
-﻿# Converted from: SB-FAI10.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0995/raw/SB-FAI10.ANS
-# Source Revision: archive-sha256:66f11d43d10b981d3ff2235c6fadd1403a507952ad88040c9eb9cd5142a4f4b1
-# Source SHA-256: 50efbdbe2308a362b1c25816d4d8015297a11079211d13d409da8d1eb505453b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SB-FAI10.ANS by SpellBinder (uni-0995); released in uni-0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: FairGrounds #10
-# SAUCE Author: SpellBinder
-# SAUCE Date: 19950808
-# SAUCE Dimensions: 80x91
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: FairGrounds #10 by SpellBinder | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0995-sb-fai10-part01
 
 Write-Host '
             [1;30m▄▄▄ ▀[0m

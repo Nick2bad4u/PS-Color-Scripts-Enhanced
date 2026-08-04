@@ -1,13 +1,4 @@
-﻿# Converted from: TP-TC01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vi-9406/raw/TP-TC01.ANS
-# Source Revision: archive-sha256:e8f9f5912fa7d2ee7d78e5d6125ede18c6783b9182dd2eac7ad04a01155433ba
-# Source SHA-256: f8c41dd0abc22c477c0b2665808f7af2c459d8f5bd31b04d1ba346fa38f9922a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TP-TC01.ANS by Terminal Psychosis (vi-9406); released in vi-9406 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 43-88
-# Columns: 1-80
+﻿# Artwork: TP-TC01.ANS by Terminal Psychosis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vi-9406-tp-tc01-part02
 
 Write-Host '
 [36m▄▄[0;1;46m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0;36m▄▄▄▄▄▄▄▄▄▄[0m              [1;42m█▓▓▒▒▒▒▒▒▒░░         [0;32m▀[0m

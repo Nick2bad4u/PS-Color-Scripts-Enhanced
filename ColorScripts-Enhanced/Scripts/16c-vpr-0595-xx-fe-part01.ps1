@@ -1,17 +1,4 @@
-﻿# Converted from: XX-FE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vpr-0595/raw/XX-FE.ANS
-# Source Revision: archive-sha256:e7ca167fec7db80634597c5fb694c98a3122c03e3e0fff7b2103ffede629f335
-# Source SHA-256: db5eacb6429cde030edb07da72f4198b1e9a58c140cc0858234fc6cc0999964c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XX-FE.ANS by XanaX (Vapor); released in vpr-0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Fatal Error
-# SAUCE Author: XanaX
-# SAUCE Group: Vapor
-# SAUCE Date: 20950508
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Fatal Error by XanaX | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vpr-0595-xx-fe-part01
 
 Write-Host '
      [36m■▀ ▀▓▄[0m        [36m▄█▓[0;1;34;46m░[0;36m▀▓▄[0m                                [1;30m▄[0m

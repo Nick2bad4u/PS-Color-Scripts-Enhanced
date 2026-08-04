@@ -1,18 +1,4 @@
-﻿# Converted from: ZV-DEGEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-17/raw/ZV-DEGEN.ANS
-# Source Revision: archive-sha256:154ac874f13e20433925bb99a4f5e0a4299764bee7ed4d28bdaffd9ad392f554
-# Source SHA-256: 2c8f2173f207af7670e928a1579eebd88f6736004d931f6e320b35fe126a73b2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZV-DEGEN.ANS by zerovision (glue); released in glue-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: degeneration
-# SAUCE Author: zerovision
-# SAUCE Group: glue
-# SAUCE Date: 19981231
-# SAUCE Dimensions: 80x133
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: degeneration by zerovision | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-17-zv-degen-part01
 
 Write-Host '
                     [1m▄▄██████████▄▄▄[0m

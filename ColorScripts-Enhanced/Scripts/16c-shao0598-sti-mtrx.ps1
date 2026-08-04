@@ -1,18 +1,4 @@
-﻿# Converted from: STI-MTRX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shao0598/raw/STI-MTRX.ANS
-# Source Revision: archive-sha256:fcf6a35c3d61f83e469fa7cc3dc1c97bcc2088160fe62ce4da27686dc9519d0b
-# Source SHA-256: 8c2ba3347405aa565f348c9b2823300816239c60951ca2cb0a3c9e0256367fc2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: STI-MTRX.ANS by Stimpy (Shaolin's Finest); released in shao0598 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Sonic Terror
-# SAUCE Author: Stimpy
-# SAUCE Group: Shaolin's Finest
-# SAUCE Date: 19980514
-# SAUCE Dimensions: 80x26
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Sonic Terror by Stimpy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shao0598-sti-mtrx
 
 Write-Host '
                   [1;36mc[0;36mc..[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: IN-YEAR2.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9903a/raw/IN-YEAR2.ICE
-# Source Revision: archive-sha256:ef92f10fde60fb0721e912ca13097b8a2a4a9ff760d539c28cc549058aaa8c96
-# Source SHA-256: f4d7c86a5ff135f7a779685fcb859c8472c9999ac30c7a1a990d911ae4e6c72a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IN-YEAR2.ICE by inazone (ice); released in ice9903a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: two years later...
-# SAUCE Author: inazone
-# SAUCE Group: ice
-# SAUCE Date: 19990401
-# SAUCE Dimensions: 80x287
-# Lines: 50-98
-# Columns: 1-80
+﻿# Artwork: two years later... by inazone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9903a-in-year2-part02
 
 Write-Host '
   [1;30m▀▀[0;1;30;46m▒░[0;36m▄██▀▀ ▄▄[0;1;30;46m░[0;36m████[0;1;36;46m ▄██▄[0;36m▄[0;37m  [0;36m░[0;37m  [0;36m▀▀[0;1;30;46m░▒[0;36m▀[0;37m [0;1;30;43m▓▓[0;36m ▀[0;1;36;46m▒░[0;36m▀▀[0m   [36m▄[0;1;36;46m▄█▀[0;1;30;46m░[0m [34m█▌ [0;1;34;44m░▒▓█[0;36m ██[0;1;36;46m▀[0;36m▀▀[0;37m [0;1;30m▄[0;1;30;46m░[0;1;36;46m▄[0;36m▄ [0;37m▐▀▄▄▄▀[0m

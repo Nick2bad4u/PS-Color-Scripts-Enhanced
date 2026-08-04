@@ -1,19 +1,4 @@
-﻿# Converted from: TG-RILEY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-35/raw/TG-RILEY.ANS
-# Source Revision: archive-sha256:c366a38306f48b13ede280377c5f8ef243fdab7e7890ac3e053ec3ccbc5d901a
-# Source SHA-256: 72eb2f9830d38bf1a0de4af5df8c1d99f10329be8ddd6f3afbae0593f5a3439b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TG-RILEY.ANS by Toon Goon (Fire); released in fire-35 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Riley?
-# SAUCE Author: Toon Goon
-# SAUCE Group: Fire
-# SAUCE Date: 20221210
-# SAUCE Dimensions: 80x113
-# SAUCE Font: IBM VGA
-# Lines: 78-113
-# Columns: 1-80
+﻿# Artwork: Riley? by Toon Goon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-35-tg-riley-part03
 
 Write-Host '
                   [1m▀[0;1;43m█[0;33m██[0;1;31;43m  ▄▄[0;1;31;40m██████████████████▀[0;1;31;43m▀[0;33m▌▐[0;1;31m▐████████████████████▀[0m

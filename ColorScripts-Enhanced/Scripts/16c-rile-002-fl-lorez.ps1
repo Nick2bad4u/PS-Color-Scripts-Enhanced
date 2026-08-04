@@ -1,18 +1,4 @@
-﻿# Converted from: FL-LOREZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile_002/raw/FL-LOREZ.ANS
-# Source Revision: archive-sha256:09fff222285c90eb6b714714b4c5e3c96cc514cdf338ccf4e30b5898f9a5a64b
-# Source SHA-256: 442e0d351133ee68fe0536e46a96801edf8bd7549c007798802bc6d4ae281a08
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-LOREZ.ANS by flame (RILE); released in rile_002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: lo-rez, for diez.
-# SAUCE Author: flame
-# SAUCE Group: RILE
-# SAUCE Date: 19970217
-# SAUCE Dimensions: 80x25
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: lo-rez, for diez. by flame | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile-002-fl-lorez
 
 Write-Host '
 [36m[0m[31mflame[0m                                         [1;37m░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: VE-FILE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dvl-pk01/raw/VE-FILE.ANS
-# Source Revision: archive-sha256:04659a71fad0b44fa33c1540ce482a88ef2d7d511aaf3612fdd59e5ae6746955
-# Source SHA-256: 77f0b9ad7b7930915e3ae176d716d38878d83c71dd9aea2c884b410848ef929a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VE-FILE.ANS by VeNoMouS (DeViL FoRCeS); released in dvl-pk01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Un FiLeS MeNu....
-# SAUCE Author: VeNoMouS
-# SAUCE Group: DeViL FoRCeS
-# SAUCE Date: 19970310
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Un FiLeS MeNu.... by VeNoMouS | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dvl-pk01-ve-file
 
 Write-Host '
                    [36m,s[0;1;36mS[0;36ms,[0m

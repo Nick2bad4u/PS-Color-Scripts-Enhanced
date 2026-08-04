@@ -1,13 +1,4 @@
-﻿# Converted from: DF-OMEGA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/omega001/raw/DF-OMEGA.ANS
-# Source Revision: archive-sha256:90a433cbec71258e31d0bc3dd0b892b79bbb621acabd362024e331f696e0ccb9
-# Source SHA-256: 0fafde5c85c3318f30c0e71ecbf916c517a4781a004404ce175488915eb62420
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DF-OMEGA.ANS by Darkform (omega001); released in omega001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: DF-OMEGA.ANS by Darkform | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-omega001-df-omega
 
 Write-Host '
 [1;34m [0;34m▄▄██████████████████████████████████████████████████████████████████████▄▄▄▄[0;1;34m   [0m

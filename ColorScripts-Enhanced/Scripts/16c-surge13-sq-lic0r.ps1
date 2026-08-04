@@ -1,16 +1,4 @@
-﻿# Converted from: SQ-LIC0R.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/surge13/raw/SQ-LIC0R.ANS
-# Source Revision: archive-sha256:8c7964f6550a979878472629cfbe363361fb026c6445f193d67b5b971fdd8ad9
-# Source SHA-256: de0b2c76bc01b444933a143843210118828d8f6eda965e1cb56f8d9d0904d649
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SQ-LIC0R.ANS by SharQue (Surge); released in surge13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Licorice
-# SAUCE Author: SharQue
-# SAUCE Group: Surge
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: Licorice by SharQue | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-surge13-sq-lic0r
 
 Write-Host '
 [1;30m▐███▓░▀▐██▌   ░░░▓▓▓████▌██▀▄▓▀██[0;1;30;46m▓▓▒▒▓▒░░  ░[0;36m██▓▓▀▀░▄▄██▀▀▀[0m

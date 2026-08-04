@@ -1,18 +1,4 @@
-﻿# Converted from: SPC!LUG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0997/raw/SPC!LUG.ANS
-# Source Revision: archive-sha256:7c9b6e5a1bf85f5dceb70dad3a430f8a984427653988f85df1c8489157fd2d25
-# Source SHA-256: fecb7a16c50ff09365d9b66a81dab13eb6435e121aa4aa6b8bde22b3209636cf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPC!LUG.ANS by spice (Phat Studios '97); released in phat0997 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: lugburz for glandyth
-# SAUCE Author: spice
-# SAUCE Group: Phat Studios '97
-# SAUCE Date: 19970728
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: lugburz for glandyth by spice | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0997-spc-lug
 
 Write-Host '
 [35m▀[0;1;31;45m░▄[0;30;45m ▀▀[0;36;40m▀▄[0;30;45m▄[0;1;31;45m▀░[0;30;45m▄▄[0;36;40m▄ [0;30;45m▀▀[0;1;31;45m░░[0;30;45m▀[0;36;40m ▄[0;30;45m▄[0;1;31;45m▀░[0;30;45m▄[0;36;40m▄ [0;30;45m▀[0;1;31;40m▄[0;1;31;45m▄███▓▒░[0;30;45m   ▐▀[0;1;31;45m▄██▀[0;1;31;40m▀▀[0;30;45m▄[0;37;40m      [0;30;45m▄▄[0;1;31;40m▀[0;1;31;45m▀█[0;30;45m▀[0;1;31;45m▄██▀[0;1;31;40m▀▀[0;30;45m▄[0;37;40m [0;30;45m▄[0;1;31;40m▀[0;1;31;45m▀███▄[0;30;45m▀[0m

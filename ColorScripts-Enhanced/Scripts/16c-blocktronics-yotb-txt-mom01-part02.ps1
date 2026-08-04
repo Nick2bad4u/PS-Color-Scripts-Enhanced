@@ -1,16 +1,4 @@
-﻿# Converted from: TXT-MOM01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_yotb/raw/TXT-MOM01.ANS
-# Source Revision: archive-sha256:f702f09f6116b5ac6fa523d36f54d796db6f44f880e4f1cd426d29a9fbda605e
-# Source SHA-256: d6a6b1eac825d64f05498054c1e407ee982f9790faa44b2f33806983dfcd2ec0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TXT-MOM01.ANS by The Textmode Exorcist (blocktronics_yotb); released in blocktronics_yotb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20141023
-# SAUCE Dimensions: 80x127
-# SAUCE Font: IBM VGA
-# Lines: 43-85
-# Columns: 1-80
+﻿# Artwork: TXT-MOM01.ANS by The Textmode Exorcist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-yotb-txt-mom01-part02
 
 Write-Host '
 [1;46m░░░░░░░░[0m▌ [1;31m██[0;1;31;43m▓▓▓▓▒▒[0;33m▄▀███▀▄[0;37m  [0;33m▄█▀▄[0;1;31;43m   ▓▓██[0;1;31;40m███████[0;1;31;43m▓▓▓▓▓▓▓▓░░░░[0;33m████▌[0;37m [0;1;30m ▌[0m   [1;31;43m▒[0;1;31;40m████▌██▄[0m ██

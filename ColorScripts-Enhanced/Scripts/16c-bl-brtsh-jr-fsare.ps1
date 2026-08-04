@@ -1,18 +1,4 @@
-﻿# Converted from: JR_FSARE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bl-brtsh/raw/JR_FSARE.ANS
-# Source Revision: archive-sha256:d4d2c2945597259d409a8a2043adb463621296e39a0812b6c732bad34754acd9
-# Source SHA-256: 3b4a4e9db992aa4069125ad757caf897e555e4a6f93e4081160b5c9a6fb92077
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JR_FSARE.ANS by jerusalem (boil); released in bl-brtsh and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: FS:: lila-k area
-# SAUCE Author: jerusalem
-# SAUCE Group: boil
-# SAUCE Date: 19970604
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: FS:: lila-k area by jerusalem | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bl-brtsh-jr-fsare
 
 Write-Host '
 [35m░▄▄▄▄▄▄▄▄▄▌[0m

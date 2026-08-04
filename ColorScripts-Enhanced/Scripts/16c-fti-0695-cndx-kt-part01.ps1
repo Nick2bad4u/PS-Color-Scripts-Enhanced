@@ -1,17 +1,4 @@
-﻿# Converted from: CNDX-KT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fti-0695/raw/CNDX-KT.ANS
-# Source Revision: archive-sha256:aa3915492d4784486e8165d591e4a3d42cbb3aead98cdcdee3c42080339f8a00
-# Source SHA-256: 788d9cd659fa3c9aa82dedcaa8b63c4d70056f6a572e7feb64b03a639f46b2e1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CNDX-KT.ANS by Angel Rat + Count Zero 616 (fti); released in fti-0695 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Cnd-X/KT joint advert
-# SAUCE Author: Count Zero
-# SAUCE Group: fti
-# SAUCE Font: re-0 ?[A?[79C^ ?[0m?
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: Cnd-X/KT joint advert by Angel Rat + Count Zero 616 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fti-0695-cndx-kt-part01
 
 Write-Host '
 [1m█████ [0;31m▌──[0;1;31m─[0;31m─[0;1;31m───────────────[0;31m─[0;1;31m─[0;31m──│[0;1;30m──[0;1;31m──[0;31m─[0;1;31m─────────────────────────────────[0;31m─[0;1;31m─[0;31m──▐ [0;1;37m█████[0m

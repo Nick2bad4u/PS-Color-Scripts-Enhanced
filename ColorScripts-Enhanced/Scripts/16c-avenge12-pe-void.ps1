@@ -1,15 +1,4 @@
-﻿# Converted from: PE!VOID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge12/raw/PE!VOID.ANS
-# Source Revision: archive-sha256:f58363683b971661fc249a331f373b1cfc2b77790ce49343a28c838f36c33b64
-# Source SHA-256: eab460af83411c9f5cba449373a065d14155dac1482a9f49f726c11ddcddc2d5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PE!VOID.ANS by Phonyeye (avenge12); released in avenge12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Void
-# SAUCE Author: Phonyeye
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Void by Phonyeye | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge12-pe-void
 
 Write-Host '
                      ░                                                 [31m░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: T1-REV01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0402/raw/T1-REV01.ANS
-# Source Revision: archive-sha256:19898cc2febb6deadccf50832dc421b4f362a33c899e27278bafd225bbc2d4d4
-# Source SHA-256: dde577b3f2912c5dd2c3936913c875308503e92d36e9c87ce19f89bd8c7fa203
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T1-REV01.ANS by Tracker1 (Revival); released in rev0402 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Revival
-# SAUCE Author: Tracker1
-# SAUCE Group: Revival
-# SAUCE Date: 20020323
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Revival by Tracker1 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0402-t1-rev01
 
 Write-Host '
      [1m$[0;1;33m,[0m          [1;33m.[0;1;37m$[0m                  [1;33m,$[0m       [1;33m.[0m      [1m$[0;1;33m.[0m         [1;33m$[0m      [1m$[0m

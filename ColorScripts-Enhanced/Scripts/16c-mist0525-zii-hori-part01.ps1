@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-HORI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0525/raw/ZII-HORI.ANS
-# Source Revision: archive-sha256:3f1c54fcce63651d0da098cd25cb8253b5a6b2c25c827a57c95e7c0e8210b5fb
-# Source SHA-256: c2986e5a2801b95fb914276109584c96d8a059aaa3a16c7951a002b19820264f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-HORI.ANS by Zeus II (Mistigris); released in mist0525 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: the Horizon BBS
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20250520
-# SAUCE Dimensions: 80x129
-# SAUCE Font: IBM VGA
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: the Horizon BBS by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0525-zii-hori-part01
 
 Write-Host '
 [34mZeus II[0;37m  [0;1;30m▄[0m [1;30m▀▀[0m                            [1;33m.               [0;33m▐[0;1;30;47m▓▄▒[0;32m▓▓[0;1;32;42m░[0;32m▌[0;34m▐[0;1;34;44m▄▓▄[0m [32m█▒[0;1;37m▌[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: CS-GOO01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lore01/raw/CS-GOO01.ANS
-# Source Revision: archive-sha256:fc43b93e9a302e7547a088ce455791b9de06a32af663cf260d834f799aafa87c
-# Source SHA-256: 6a0372bb9651ef15e550516eff53fc4ce3b78d2cd51afa106239b3464ce764cf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CS-GOO01.ANS by crimsonskye (lore01); released in lore01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: goo emag
-# SAUCE Author: crimsonskye
-# SAUCE Date: 19981018
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: goo emag by crimsonskye | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lore01-cs-goo01
 
 Write-Host '
 [34m             [0;37m        [0m      [37m▄░░■ ▄▄[0m

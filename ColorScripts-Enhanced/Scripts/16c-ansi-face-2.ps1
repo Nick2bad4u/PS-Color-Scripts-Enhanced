@@ -1,13 +1,4 @@
-﻿# Converted from: FACE_2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansi/raw/FACE_2.ANS
-# Source Revision: archive-sha256:50aaa63d173fc2f34f94b8a5b526a5ee8a8b9d7908c42264ab949073e7e0edf9
-# Source SHA-256: f73c6b9653bba9b8f97798cfb709c1bc6dbb55593e09c4f5d49c65f4a285a5c6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FACE_2.ANS by Ebony Eyes (ansi); released in ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: FACE_2.ANS by Ebony Eyes | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansi-face-2
 
 Write-Host '
 [30;42m       [0m                             [1;30m▀▄[0m    [1;30m▐▌[0m [1;30;40m▐[0;1;30m▌[0m           [1;30;40m▄▄[0m  [30;42m▄▄▄▄              [0m

@@ -1,17 +1,4 @@
-﻿# Converted from: AD-BD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-11/raw/AD-BD.ANS
-# Source Revision: archive-sha256:124f5de71b4943d1edf363ae27ec83def11b741938d7ad78955f12dc3ea0753e
-# Source SHA-256: 8e498eb9226ec7861842f7d2b3d576dc900155ccaf5667a1c4df3692b1c22472
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AD-BD.ANS by donutman! (POOP); released in ecl-11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: bubblegum dreams
-# SAUCE Author: donutman!
-# SAUCE Group: POOP
-# SAUCE Dimensions: 80x25
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: bubblegum dreams by donutman! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-11-ad-bd
 
 Write-Host '
 [1;34;44m▄▄▄▄[0;34m█████████████▄[0;37m [0;31m▀▀▀▀[0;1;31;41m░▄░[0;30;41m░[0;31;40m▀▀[0;37;40m [0;34;40m▄▄███████████████████████████████████████████████[0m

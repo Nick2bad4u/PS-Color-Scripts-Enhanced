@@ -1,18 +1,4 @@
-﻿# Converted from: CRS-SHD4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/buzina7/raw/CRS-SHD4.ANS
-# Source Revision: archive-sha256:88309b63630ff3f679eee50c899453fae8527dae99f9da0b49e79b2fc8312cfc
-# Source SHA-256: 60a1431c3d73ef984fdb5da261f5c52c9260080c4689820ff2744fc75e1c69d3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CRS-SHD4.ANS by Crasher + Shadow (galza); released in buzina7 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: eye
-# SAUCE Author: shadow [buzined crs]
-# SAUCE Group: galza
-# SAUCE Date: 20030402
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: eye by Crasher + Shadow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-buzina7-crs-shd4
 
 Write-Host '
 [1;33m  │ │      ├      ┤     │        └    ↕↕         │         │             │      [0m

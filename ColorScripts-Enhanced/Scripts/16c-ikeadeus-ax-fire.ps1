@@ -1,13 +1,4 @@
-﻿# Converted from: ax_fire.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ikeadeus/raw/ax_fire.ans
-# Source Revision: archive-sha256:39c810e7c07f73323f80aabc58262e6b7a9a1735ab60c6dd400af5943fb7133b
-# Source SHA-256: 101906684da84c13eeb1093bfcff3d30717de20306c18602859cbfde239a6158
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ax_fire.ans by Alla Xul (ikeadeus); released in ikeadeus and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: ax_fire.ans by Alla Xul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ikeadeus-ax-fire
 
 Write-Host '
 [1;30m██████████████████████████▀[0m [1;30m▄▄▓▓▓▓▀▀[0m [1;30m▄▄▄▄▄▓▓▓▓▓▓▓██████████████▀[0m [1;30m▓[0m

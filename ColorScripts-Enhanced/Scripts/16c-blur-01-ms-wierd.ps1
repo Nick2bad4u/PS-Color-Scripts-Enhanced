@@ -1,18 +1,4 @@
-﻿# Converted from: MS-WIERD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blur-01/raw/MS-WIERD.ANS
-# Source Revision: archive-sha256:2e24e002aa423e6089e230171fb4f78c11c68510667b6cff05ce5bffed646ce1
-# Source SHA-256: 6d171576fa67b279ed7094626d38d0915a1c75dc0cd05ba7a014e35142a56729
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MS-WIERD.ANS by MR.SANDMAN (BLUR); released in blur-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: WIERDO PIC FOR MATRIX AND SUCH
-# SAUCE Author: MR.SANDMAN
-# SAUCE Group: BLUR
-# SAUCE Date: 19960215
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: WIERDO PIC FOR MATRIX AND SUCH by MR.SANDMAN | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blur-01-ms-wierd
 
 Write-Host '
                           [1;30m [0m         [1;33m▄█▄██[0;1;37m████▀▀[0m  [1m▐██▀▀[0m             ▄▄▄▄▄▄  [1;30m▀▀██▓[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: 33-DOOMS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/33-pic95/raw/33-DOOMS.ANS
-# Source Revision: archive-sha256:cb087acd81a851210de22e3c5d37c8f07d2236b75952adfe16e824d8820e530d
-# Source SHA-256: 641f05e309095012b3050b5286ef7be42e0a7a7e1aba29a7e9830de8e2ada296
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-DOOMS.ANS by Eerie (ACiD Productions); released in 33-pic95 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Doomsday
-# SAUCE Author: Eerie
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950108
-# SAUCE Dimensions: 80x133
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: Doomsday by Eerie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-33-pic95-33-dooms-part01
 
 Write-Host '
  [1m▄▄[0;1;47m█[0;1;40m▄▄▄▓[0;1;47m█[0;1;40m▄[0;1;47m█[0;1;40m▄▄▓[0;1;47m███[0;1;40m▄[0;1;47m█████████[0;1;40m▄[0;1;47m███████████████████[0;1;40m▄▄[0;1;47m██████████[0;1;40m▄[0;1;47m█[0;1;40m██▄▄██▓▄▄▄[0;1;47m█[0;1;40m▄▄▓[0;1;47m█[0;1;40m▄▄[0m

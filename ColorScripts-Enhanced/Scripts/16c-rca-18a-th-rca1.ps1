@@ -1,13 +1,4 @@
-﻿# Converted from: TH-RCA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca-18a/raw/TH-RCA1.ANS
-# Source Revision: archive-sha256:79b264e900b0f3c0c1e1dfcb2a371291868034bc95083657623124fe09fd8162
-# Source SHA-256: a3dab7302e7fbb7f00001082511bfaa23c482f564bca520b4505a2993520fdc2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TH-RCA1.ANS by The Hornet (rca-18a); released in rca-18a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: TH-RCA1.ANS by The Hornet | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca-18a-th-rca1
 
 Write-Host '
 [1;30m┌────────[0;34m.,,ss,..[0;37m─────────────[0;1;37m───────────────────[0;1;34m`7[0;34mbs,.[0;37m───────────[0;1;30m─────────────┐[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: GR-AXF1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axf-ap-1/raw/GR-AXF1.ANS
-# Source Revision: archive-sha256:677d92e3c1456f7d379a6bfd6ef2a3e9f4462186ed5fa427899c9f4c329d0aa2
-# Source SHA-256: 8fbd1e7eca0db7950484e462515a7957e9799667d11af6593b3d5baa1e6c79bb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GR-AXF1.ANS by GRiLo (Axial Force); released in axf-ap-1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: IT RULEZ!
-# SAUCE Author: GRiLo
-# SAUCE Group: Axial Force
-# SAUCE Date: 19960605
-# SAUCE Dimensions: 80x37
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: IT RULEZ! by GRiLo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axf-ap-1-gr-axf1
 
 Write-Host '
 [34m[0;37m[0;34m[0;1;33m[0;34m[0;1;37m[0;34m[0;1;33m[0m               [1;33m             [0;1;34mA[0;1;33m X [0;1;34mi[0;1;33m A l    [0;1;34mF[0;1;33m o R C [0;1;34me[0m

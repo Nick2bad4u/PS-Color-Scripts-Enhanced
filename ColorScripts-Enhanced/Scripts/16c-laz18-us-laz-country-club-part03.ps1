@@ -1,20 +1,4 @@
-﻿# Converted from: us-laz-country-club.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz18/raw/us-laz-country-club.ans
-# Source Revision: archive-sha256:32d30452c4c99022fae4fa2ce9a2923ef46629d3ff7dd35a972944a991699c1f
-# Source SHA-256: fd233af0333f2cf78e739f51448a1d2514887c27ee42238592b45376488da4e3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-laz-country-club.ans by Warpus + The Knight + Nitron + Abstrakt (lazarus); released in laz18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: saab
-# SAUCE Author: abs, tk, wa, n1
-# SAUCE Group: lazarus
-# SAUCE Date: 20240209
-# SAUCE Dimensions: 80x295
-# SAUCE Font: IBM VGA
-# SAUCE Comments: abstrakt | warpus | the knight | nitron
-# Lines: 101-150
-# Columns: 1-80
+﻿# Artwork: saab by Warpus + The Knight + Nitron + Abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz18-us-laz-country-club-part03
 
 Write-Host '
 [37m [0;34m███▄▄[0;37m [0;34m▄▄█▀▀███[0;37m▄[0;1;37m▄▀▀[0m   [1;34m░█████████████████████████████████████▄▄[0m [1m▀▀▄▄[0;34m▀█▀▄▓▓▀▀[0;37m   [0;34m▄▄[0m

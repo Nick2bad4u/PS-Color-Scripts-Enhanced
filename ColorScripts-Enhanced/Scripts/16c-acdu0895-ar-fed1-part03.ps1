@@ -1,17 +1,4 @@
-﻿# Converted from: AR-FED1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0895/raw/AR-FED1.ANS
-# Source Revision: archive-sha256:3becf3c2c00dadeb41257fa85bb842a48deb8515cdc494db0d9ff697d2e04d12
-# Source SHA-256: 1b75adf9a478c7e78fc95877ae517db700d63b2d468e1c459c88afca955b788d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AR-FED1.ANS by Actraiser (acdu0895); released in acdu0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Federation
-# SAUCE Author: Actraiser
-# SAUCE Date: 19950805
-# SAUCE Dimensions: 80x130
-# Lines: 88-130
-# Columns: 1-80
+﻿# Artwork: The Federation by Actraiser | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0895-ar-fed1-part03
 
 Write-Host '
            [36m      [0;31m▄[0;1;31;41m▒[0;31m▄██▄▄[0;36m [0;31m▄█[0;1;31;41m▄▌[0;31m▌[0m          [1;31m▀███████▀[0;1;37m [0;31m▄[0;1;31;41m░▓▄[0m [1;31m████████████[0m [1;31;41m█[0;1;31;40m█[0;1;31;41m▓[0;1;31;40m█[0;1;31;41m▓▓▒[0;31m▀[0;1;37m [0;31m▄[0;1;31;41m░░[0m

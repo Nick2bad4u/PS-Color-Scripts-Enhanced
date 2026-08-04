@@ -1,13 +1,4 @@
-﻿# Converted from: SM-GATE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/moi-0197/raw/SM-GATE.ANS
-# Source Revision: archive-sha256:fe57e3906e31d2dba15217b85af3203ddf959760df0938928ddd718198829839
-# Source SHA-256: fe0f0b49ab850be8daf3d41ce6605d33e73dd6e4fefa840b0791b207cefbc439
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-GATE.ANS by Smoke (moi-0197); released in moi-0197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: SM-GATE.ANS by Smoke | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-moi-0197-sm-gate
 
 Write-Host '
             [33m▄▄▄▄▄▄▄▄▄▄▄▄[0m                                   [37msmokemOist[0m

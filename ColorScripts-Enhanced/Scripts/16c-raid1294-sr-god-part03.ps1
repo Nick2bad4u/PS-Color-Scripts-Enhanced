@@ -1,18 +1,4 @@
-﻿# Converted from: SR-GOD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/raid1294/raw/SR-GOD.ANS
-# Source Revision: archive-sha256:6db657953c2bf702e615ee60af4650551f7d0cbe043e196de6d8cd476953dd19
-# Source SHA-256: b34d1bb2ecde0d7c7af5bc151963832c21c1a419131513808f4fedb308422842
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SR-GOD.ANS by Silver Reaper (RAiD); released in raid1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Twilight of The Gods
-# SAUCE Author: Silver Reaper
-# SAUCE Group: RAiD
-# SAUCE Date: 19941126
-# SAUCE Dimensions: 80x25
-# Lines: 101-150
-# Columns: 1-80
+﻿# Artwork: Twilight of The Gods by Silver Reaper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-raid1294-sr-god-part03
 
 Write-Host '
 [1;45m               ░░▒▒▒▓▓▓▓▓██████████▓▓▒▒▒░░░░▒▒▓▓████████████▓▓▒▒░░ [0;35m█████[0;35;45m        [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: Gs-abst2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-34/raw/Gs-abst2.ans
-# Source Revision: archive-sha256:9e0a0dccb577f6014cf58e9ea09ed207eb1e2086aae9821b650288ffddccb599
-# Source SHA-256: b01f318c00836ffd66e3ce1919d1a3ca0049d81d054a8188c93f691e9d115965
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Gs-abst2.ans by gstoner (glue); released in glue-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: absract 2
-# SAUCE Author: gstoner
-# SAUCE Group: glue
-# SAUCE Date: 20010209
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: absract 2 by gstoner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-34-gs-abst2
 
 Write-Host '
       [34m▒[0m      [34m░[0m            [36m▓████[0;37m  [0;36m█████[0;37m  [0;36m█████[0;34m██[0;36m█████[0;34m██[0;36m█████[0;34m██[0;36m█████[0;34m██[0;36m█████[0;34m██[0;36m████▄[0m

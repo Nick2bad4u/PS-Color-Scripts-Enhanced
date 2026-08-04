@@ -1,18 +1,4 @@
-﻿# Converted from: MR-ENDOR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9707/raw/MR-ENDOR.ANS
-# Source Revision: archive-sha256:bfcb83c6d9eb9beac4e313e6cb4a06c0bdcb3b894eaa2b7afbdde4d6e5181bec
-# Source SHA-256: b0ba61c5abd9745f87d6bbc79559cfd475e3c64edced7a4269973f3269bfce5c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-ENDOR.ANS by minotaur (maiden^brazil); released in mdn-9707 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: endor logo
-# SAUCE Author: minotaur
-# SAUCE Group: maiden^brazil
-# SAUCE Date: 19800101
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: endor logo by minotaur | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9707-mr-endor
 
 Write-Host '
 [1;33m ▀▀▀[0;1;37m [0;1;33m▐[0;1;33;41m▓▓[0;1;33;40m█ █ █[0;1;33;47m▄ [0m█▌[1;33m   [0m░░░    [33m  [0;37m  [0;33m▄▄▄▄▄[0;1;33;43m░[0;33m▓░ [0m

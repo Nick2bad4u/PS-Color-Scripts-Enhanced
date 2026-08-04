@@ -1,17 +1,4 @@
-﻿# Converted from: US-ECL2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-11/raw/US-ECL2.ANS
-# Source Revision: archive-sha256:124f5de71b4943d1edf363ae27ec83def11b741938d7ad78955f12dc3ea0753e
-# Source SHA-256: 2ab661936857dae7c370ed1c7af41b78166b0b1ad02e44dcb96f52c3b23b5bde
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ECL2.ANS by Cheeze + Haji (espilce); released in ecl-11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: eclipse is SEMEN! GET IT! AHAHAHAH
-# SAUCE Author: cheeze/haji
-# SAUCE Group: espilce
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: eclipse is SEMEN! GET IT! AHAHAHAH by Cheeze + Haji | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-11-us-ecl2
 
 Write-Host '
 [30;47m▌[0;1;37;47m [0;30;47m▐[0;37;40m                  [0m       [35;40m    [0m       [1;30;40m ▄  ■[0m

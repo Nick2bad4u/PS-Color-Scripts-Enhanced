@@ -1,18 +1,4 @@
-﻿# Converted from: 01NEWS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dom001/raw/01NEWS.ANS
-# Source Revision: archive-sha256:44eedb8468091c9db443a9d24abe4262ea48cae200d90a4fa13ef385439cc4a8
-# Source SHA-256: d8e42137ce79611937fd885b621b4936a3f8a5db497ccb9c28ad2eec218a8df2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 01NEWS.ANS by anomite (dOMINIO); released in dom001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 01NEWS
-# SAUCE Author: anomite
-# SAUCE Group: dOMINIO
-# SAUCE Date: 19971212
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: 01NEWS by anomite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dom001-01news
 
 Write-Host '
       [34m▄▄▄▄▄▄▄▄▄▄[0;36m [0;34m░[0;30;44m▓[0m           [32;40m ▄▄▄▄[0;30;42m▓[0;30;40m [0m                                [32;40m░[0;30;42m▓[0;32;40m▐█[0;1;32;42m░░[0;32m█▄  [0;37m [0m

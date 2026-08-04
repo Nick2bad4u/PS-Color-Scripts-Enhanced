@@ -1,18 +1,4 @@
-﻿# Converted from: MJ-SONI6.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/grp-0796/raw/MJ-SONI6.ANS
-# Source Revision: archive-sha256:be098753331373d307d2771aacbecdb35b1784f2f60e9ac3c053f2df7b867fcd
-# Source SHA-256: 9ae300f10c4314758c229b83daf1060b1c1e89733d10dd2d633613399f0cf61e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MJ-SONI6.ANS by mjay!? (grape); released in grp-0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: sonic temple
-# SAUCE Author: mjay!?
-# SAUCE Group: grape
-# SAUCE Date: 19960625
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: sonic temple by mjay!? | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-grp-0796-mj-soni6
 
 Write-Host '
                     [1;33m,sd$$$$$$$$$$bs.[0m

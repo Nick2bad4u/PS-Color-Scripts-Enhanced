@@ -1,18 +1,4 @@
-﻿# Converted from: JD-ANGEL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/paw-0495/raw/JD-ANGEL.ANS
-# Source Revision: archive-sha256:b37782f0b3cbd36928669e3c3f79651eca29a9eb5d3f4a9871c6633bbb6bb1d6
-# Source SHA-256: fd16057a2ebb2b6059e40ab297e70befd4e8cb57b5ea0535b252360e97e14cfe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JD-ANGEL.ANS by Jedi (Paw); released in paw-0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Angel Dust
-# SAUCE Author: Jedi
-# SAUCE Group: Paw
-# SAUCE Date: 19950331
-# SAUCE Dimensions: 80x78
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: Angel Dust by Jedi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-paw-0495-jd-angel-part01
 
 Write-Host '
 [32;40m░░░░░░▒░░▒░▒▒   ▓▓▓████▓▓▓▓████[0;1;33;40m████[0;1;33;42m▄[0;32m███████████████[0;1;33;42m  ▄█[0;1;33;40m██[0;1;33;42m▀[0;32m███▓▓▓██▒  ▒▒▒░░░▒░░░[0m

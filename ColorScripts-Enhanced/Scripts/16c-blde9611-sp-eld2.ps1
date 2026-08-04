@@ -1,18 +1,4 @@
-﻿# Converted from: SP-ELD2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9611/raw/SP-ELD2.ANS
-# Source Revision: archive-sha256:94fa179c47731df1235911c4e255eb5f9211d7813c5796bd4c86de2d47e585b9
-# Source SHA-256: 0043d96912928eab65589b1e37b8d50fe7d0b1ece180800d72ee02eeb3bb4417
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SP-ELD2.ANS by spear (blade productions); released in blde9611 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: eld. yep. eld.
-# SAUCE Author: spear
-# SAUCE Group: blade productions
-# SAUCE Date: 19961110
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: eld. yep. eld. by spear | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9611-sp-eld2
 
 Write-Host '
 

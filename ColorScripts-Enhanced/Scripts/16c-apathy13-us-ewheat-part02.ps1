@@ -1,19 +1,4 @@
-﻿# Converted from: us-ewheat.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy13/raw/us-ewheat.ans
-# Source Revision: archive-sha256:3ed7178f860604c6b9786846d46fd13095846b81c16a5324edc4e4b9ea7e6ba8
-# Source SHA-256: d5442e6c001e1b7506f64bd6c3ed029f21c51858bab6ec7e79ea104c5774f2fd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-ewheat.ans by Misfit + The Textmode Exorcist (blocktronics); released in apathy13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: eric ewheat turevon
-# SAUCE Author: misfit, txt
-# SAUCE Group: blocktronics
-# SAUCE Date: 20190724
-# SAUCE Dimensions: 80x208
-# SAUCE Font: IBM VGA
-# Lines: 50-98
-# Columns: 1-80
+﻿# Artwork: eric ewheat turevon by Misfit + The Textmode Exorcist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy13-us-ewheat-part02
 
 Write-Host '
 [40m████[0;1;30;47m░[0m████████[1;33;47m░░[0m███[1;30;47m▄░[0m██████[1;30;47m░[0m██████[1;30;47m▄▄[0;1;30;40m█[0;1;30;47m▀[0m███[1;30m███[0;1;30;47m░[0m██████████████[1;30;47m▄[0;1;30;40m█[0m███████████████[41m▀[0;31;47m█[0;37;41m░░░[0m

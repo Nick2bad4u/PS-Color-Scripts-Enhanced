@@ -1,13 +1,4 @@
-﻿# Converted from: BESTANSI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis-b/raw/BESTANSI.ANS
-# Source Revision: archive-sha256:85ec07cbae8447891364eff42c523db7c57ecb14ef9dd7d52bea01239ed4d3c0
-# Source SHA-256: 7636fd8a16ab8b5109ef10bf3d3deb547828c0ea6c7ab83ede5307354800e57d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BESTANSI.ANS by Slum Dweller + Slum-Dweller (ansis-b); released in ansis-b and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 47-84
-# Columns: 1-80
+﻿# Artwork: BESTANSI.ANS by Slum Dweller + Slum-Dweller | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-b-bestansi-part02
 
 Write-Host '
            [1;30m█▀[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█     [1;30m▄▄▀[0m▀▀▀▀▀▀▀▀█

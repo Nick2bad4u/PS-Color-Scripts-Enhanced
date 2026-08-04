@@ -1,18 +1,4 @@
-﻿# Converted from: LM-3KL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-01/raw/LM-3KL1.ANS
-# Source Revision: archive-sha256:98f7ca14920172db6145e44afa4b8ac94de6e46d94b8cf326e89a96c3e7e5c1b
-# Source SHA-256: 3be35662ef12e31f5c77d4aef48a1298497e606866be3c0aac2f9f2039f20cea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LM-3KL1.ANS by lagomorph (3kl); released in ecl-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: eclipse advoit
-# SAUCE Author: lagomorph
-# SAUCE Group: 3kl
-# SAUCE Date: 19960605
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: eclipse advoit by lagomorph | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-01-lm-3kl1
 
 Write-Host '
             [33m░░[0;1;30m▄[0;33m▄▄▄▄▓▀[0;37m▀[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: YA-IMAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nland-05/raw/YA-IMAN.ANS
-# Source Revision: archive-sha256:9ecedfce350729554c325e3fa16a28f24118d9cc4a114d7d310d9ef56e778218
-# Source SHA-256: 5d29a24fe1cfa44248f77bf908d9fe09fd659120d85cc70a1d58438ecd2210f7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: YA-IMAN.ANS by Yasop (NeveRLanD People); released in nland-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Clown
-# SAUCE Author: Yasop
-# SAUCE Group: NeveRLanD People
-# SAUCE Date: 19960317
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Clown by Yasop | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nland-05-ya-iman
 
 Write-Host '
                     [1;31m▄▄▄███ [0;1;33m██[0;1;33;43m▓[0;1;33;40m▄▄▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: MU-MDM#1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/afc-r4/raw/MU-MDM%231.ANS
-# Source Revision: raw-sha256:4006623c3a9276491a3142f07d6bc902fc6a98f0c7393936238f4ed0c6debf5e
-# Source SHA-256: 4006623c3a9276491a3142f07d6bc902fc6a98f0c7393936238f4ed0c6debf5e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MU-MDM#1.ANS by Mule (afc-r4); released in afc-r4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: MU-MDM#1.ANS by Mule | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-afc-r4-mu-mdm-1-part01
 
 Write-Host '
 [34m░▒▒░▒▒▒▒▒▒▒▒▒▒▓▓▒▒▓▓▓▓▓▓▓█████████████▓▓▓▓▓▓██▓▓█▓▓▓▓▒▓▒▓▒▒▓▒▒▒▒▒░▒░▒▒░░░░░░░░░░[0m

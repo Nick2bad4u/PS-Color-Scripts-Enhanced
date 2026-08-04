@@ -1,13 +1,4 @@
-﻿# Converted from: k1-1967.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_1980/raw/k1-1967.ans
-# Source Revision: archive-sha256:042192cf53a2f2df5da334e3c25cbe21b5d9ed2e910f503354d4bcd3dae5de0e
-# Source SHA-256: 567f0bfcd3a7668fc84e8b12a00c6c0b738f7674d9c2928c74cd692a1b3a96a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: k1-1967.ans by Knocturnal (blocktronics_1980); released in blocktronics_1980 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 35-68
-# Columns: 1-80
+﻿# Artwork: k1-1967.ans by Knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-1980-k1-1967-part02
 
 Write-Host '
 [36m█ [0;1;32;46m░░[0;36m█[0;1;32;46m░░[0;36m█▓▓▓▓▓▒▒[0;1;30m ▐[0m▒[1;31;47m▒▒▓[0;1;31;40m▓▓▀▀■[0;33m▄[0;1;31;43m░░[0m▓[1;31;47m▒▒[0;1;31;40m█[0;1;31;47m██▓▓▒▒▒▓▓[0;1;31;40m█[0;1;31;47m██[0;1;31;40m█████[0;1;31;43m██[0;1;31;41m█[0;1;31;43m▓▓▄▒▒[0;31;43m░░░▓▓▓[0;31;40m██▌[0;1;30;40m ▀[0m ▄▒▒[1;30m▄█▀[0;33m▒▒[0;1;33m░[0m

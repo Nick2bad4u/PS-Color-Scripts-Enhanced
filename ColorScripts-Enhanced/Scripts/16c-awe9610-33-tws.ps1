@@ -1,18 +1,4 @@
-﻿# Converted from: 33-TWS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9610/raw/33-TWS.ANS
-# Source Revision: archive-sha256:2f6e3c8c2e64cc8380afc3a639da2793e02ea87790d90b8b4bede4b760040753
-# Source SHA-256: 9faae6b951e3e22f6d2b8daea9b9ac91209d81f2de4c6807ca3225773f962e5e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-TWS.ANS by Eerie (Awe); released in awe9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Way Station
-# SAUCE Author: Eerie
-# SAUCE Group: Awe
-# SAUCE Date: 19960927
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: The Way Station by Eerie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9610-33-tws
 
 Write-Host '
 

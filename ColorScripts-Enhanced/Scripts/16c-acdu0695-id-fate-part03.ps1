@@ -1,18 +1,4 @@
-﻿# Converted from: ID-FATE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0695/raw/ID-FATE.ANS
-# Source Revision: archive-sha256:db24e208c464a20c2099b8d2f878e92b0cf8a2a3878fb165404bd66c2a9ff713
-# Source SHA-256: bd940428cf0f606130338ea5b7c99990685c369d8a4f197543cfeb6d2f026690
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ID-FATE.ANS by Iodine + Pale (ACiD Productions); released in acdu0695 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Unseen Fate
-# SAUCE Author: Iodine
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950601
-# SAUCE Dimensions: 80x119
-# Lines: 89-119
-# Columns: 1-80
+﻿# Artwork: Unseen Fate by Iodine + Pale | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0695-id-fate-part03
 
 Write-Host '
 [35m [0m      [35m [0;37m [0;35m▄[0;1;30m░[0;35m■[0;36m [0;35m▀▓▀[0;36m   [0m    [32m▐█▄▄[0m       [32m░[0m         [32m▒▄[0;1;32;42m▓██▀▀[0;32m▀▄▄█[0;1;32;42m▄[0;32m█▀[0m                 [1;30m░░[0;35m [0;1;35;45m▓▄[0m

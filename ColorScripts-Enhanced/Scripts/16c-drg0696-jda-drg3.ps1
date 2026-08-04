@@ -1,18 +1,4 @@
-﻿# Converted from: JDA_DRG3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg0696/raw/JDA_DRG3.ANS
-# Source Revision: archive-sha256:1139b4d4ced327cceee3d7ac2617f7a3517f6daf002a9f225c4cfa31b7df41b2
-# Source SHA-256: 45b224bed90048be7343141858ba391e79aef24903ca31d67f48deb0b752dcd2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JDA_DRG3.ANS by Joda (Deranged); released in drg0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Deranged.
-# SAUCE Author: Joda
-# SAUCE Group: Deranged
-# SAUCE Date: 19960527
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Deranged. by Joda | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg0696-jda-drg3
 
 Write-Host '
   [1;30m▄[0m [1;30m▀ ▄[0m

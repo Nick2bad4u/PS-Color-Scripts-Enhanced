@@ -1,18 +1,4 @@
-﻿# Converted from: RS-DISTR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-0996/raw/RS-DISTR.ANS
-# Source Revision: archive-sha256:92e8b54bfb69f38742202c6531f2c867605d1f1200523b57a18f5c5dd59f4147
-# Source SHA-256: f3afa187f131a67fbf4bc8a0928b02da92ef61c678c6d478eeeb6a6c69723d5e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-DISTR.ANS by Rorshack (Maiden Productions); released in mdn-0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: HQ/Distro Ansi
-# SAUCE Author: Rorshack
-# SAUCE Group: Maiden Productions
-# SAUCE Date: 19960925
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: HQ/Distro Ansi by Rorshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-0996-rs-distr
 
 Write-Host '
 

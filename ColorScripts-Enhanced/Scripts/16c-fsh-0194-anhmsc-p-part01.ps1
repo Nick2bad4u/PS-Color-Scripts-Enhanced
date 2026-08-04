@@ -1,13 +1,4 @@
-﻿# Converted from: ANHMSC-P.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsh-0194/raw/ANHMSC-P.ANS
-# Source Revision: archive-sha256:4f9cf4207f71c51dbed4b52f30b4743a8cb21741fbee4cc2672feaf63e827bb5
-# Source SHA-256: f10f0d682df33395c0a24c84a1e8308823e1d2332ea71e19cc798891708b4875
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ANHMSC-P.ANS by Animal + Handyman (fsh-0194); released in fsh-0194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: ANHMSC-P.ANS by Animal + Handyman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsh-0194-anhmsc-p-part01
 
 Write-Host '
 

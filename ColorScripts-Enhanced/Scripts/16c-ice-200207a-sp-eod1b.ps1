@@ -1,13 +1,4 @@
-﻿# Converted from: sp-eod1b.ice
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-200207a/raw/sp-eod1b.ice
-# Source Revision: archive-sha256:87ec080ca63a5b37e40caa65bc014e3155f9f2203365424dda6094de81bc8bf6
-# Source SHA-256: b41608f0929f2a158cdc58fc4427c569d805511571600a570305d643e5e134ae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sp-eod1b.ice by Spear (ice-200207a); released in ice-200207a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: sp-eod1b.ice by Spear | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-200207a-sp-eod1b
 
 Write-Host '
 

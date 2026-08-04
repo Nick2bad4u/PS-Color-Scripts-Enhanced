@@ -1,15 +1,4 @@
-﻿# Converted from: 11_WWWDZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k-sztuka/raw/11_WWWDZ.ANS
-# Source Revision: archive-sha256:0ffb741cd09291626fd3edf310ba81b97a9ab070084b42833e9f92283ec8eb39
-# Source SHA-256: 16a4d3400531c0650367e778c72b38827bcb2fafdec993d3dfee8ffabbe50f08
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 11_WWWDZ.ANS by Dieznyik (k-sztuka); released in k-sztuka and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 19990415
-# SAUCE Dimensions: 80x70
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: 11_WWWDZ.ANS by Dieznyik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k-sztuka-11-wwwdz-part01
 
 Write-Host '
 [34m·[0;37m [0;34ma[0;36mt[0;1;36mdt.[0;36mn[0;34mu[0;36m [0;34m· [0m    [35m▄▄[0;35;41m▒[0;31;40m▀[0m   [1;31;40m▄[0;31m▄▄[0;37m  [0;1;31m▀[0;31m▀[0m    [31m▀[0;1;31m▀[0m [1;31m▄▄[0;36m▄[0;1;30m▄ [0m          [34m ▐▄[0m             [34m▄[0;36m▄▌[0;34m [0m

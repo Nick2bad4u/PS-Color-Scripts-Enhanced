@@ -1,20 +1,4 @@
-﻿# Converted from: CT-THOMAS_PYNCHON-THE_CRYING_OF_LOT_49.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0426/raw/CT-THOMAS_PYNCHON-THE_CRYING_OF_LOT_49.ANS
-# Source Revision: archive-sha256:c759ba228fb42808866da1267838a1ce2371215b87bc273c64f35f4bc653e77d
-# Source SHA-256: 9aa8662969f0ceb8349ba076f61cc96016e43cb3b7a2093d3ffdf6dafa0a43c8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CT-THOMAS_PYNCHON-THE_CRYING_OF_LOT_49.ANS by Cthulu (Mistigris); released in mist0426 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Crying of Lot 49
-# SAUCE Author: Cthulu
-# SAUCE Group: Mistigris
-# SAUCE Date: 20260425
-# SAUCE Dimensions: 80x63
-# SAUCE Font: IBM VGA
-# SAUCE Comments: 1st edition, 1966, J. B. Lippincott & Co.  Jacket design by Milt | on Charles / Charles and Cuffari.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: The Crying of Lot 49 by Cthulu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0426-ct-thomas-pynchon-the-crying-of-lot-49-part01
 
 Write-Host '
 ██[1;30;47m░[0m████[1;30;47m·[0m█████████████████████████████[1;30;47m·[0m█████████[1;30m▓[0;1;37;47m▌[0m████████[30;47m°[0;37;40m██████[0;1;30;40m█[0;1;30;47m°[0m███[30;47m∙[0;37;40m█[0;1;30;47m▄[0m▄[1;30;47m·[0m██████

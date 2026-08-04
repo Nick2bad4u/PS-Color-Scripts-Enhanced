@@ -1,18 +1,4 @@
-﻿# Converted from: PO-XPS!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat1296/raw/PO-XPS!.ANS
-# Source Revision: archive-sha256:7d01b0bd390151991b0a903d8d987d245c20f2b06635915da8eb049974bd356a
-# Source SHA-256: 1d5826c4bd7fcab33f4f5cbc2d9ada1b669ec1015e9cbbf5a8b982b78425eb0a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PO-XPS!.ANS by poti. (phat.); released in phat1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: xpress.
-# SAUCE Author: poti.
-# SAUCE Group: phat.
-# SAUCE Date: 19961125
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: xpress. by poti. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat1296-po-xps
 
 Write-Host '
         ▄▄                [1;34m░[0m      [1;47m░[0m███▓▄▄            [1;33m [0m

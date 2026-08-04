@@ -1,19 +1,4 @@
-﻿# Converted from: tk-colours.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel27/raw/tk-colours.ans
-# Source Revision: raw-sha256:2bff40b3a6ccd2e9d84718a26d03fc570b32d2d918e9ddde219c8f40431685e3
-# Source SHA-256: 2bff40b3a6ccd2e9d84718a26d03fc570b32d2d918e9ddde219c8f40431685e3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tk-colours.ans by The Knight (Fuel); released in fuel27 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: She comes in colours
-# SAUCE Author: The Knight
-# SAUCE Group: Fuel
-# SAUCE Date: 20180909
-# SAUCE Dimensions: 80x75
-# SAUCE Font: IBM VGA
-# Lines: 47-75
-# Columns: 1-80
+﻿# Artwork: She comes in colours by The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel27-tk-colours-part02
 
 Write-Host '
 [1;30;47m░[0m█[1;34;47m░[0m█▒█[41m▓[0;31;40m████[0;1;31;41m░[0;31m█▒[0;1;30m [0;35;41m▓[0;35;40m▓▓█[0;1;30;40m█▌  [0m                                      [35m  [0;31m  ░░░░ [0;37m ▒▒[0;1;30;47m▓[0m▓[1;30;47m▓░[0;1;37;47m▒█▓[0m

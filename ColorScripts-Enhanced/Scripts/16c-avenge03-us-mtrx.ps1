@@ -1,17 +1,4 @@
-﻿# Converted from: US-MTRX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge03/raw/US-MTRX.ANS
-# Source Revision: archive-sha256:b53dd4509a562cc71a73a559baa7e13eeefa1cf193e827eee6178c14e3bd46f3
-# Source SHA-256: f2789c94eb694c1a6b4f6fa84797cf602a18fb7e26bb7729a5f73e31483f77a2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-MTRX.ANS by Sudden Death + Subsonic (avenge03); released in avenge03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: free matrix
-# SAUCE Author: multiple artists
-# SAUCE Date: 19980310
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: free matrix by Sudden Death + Subsonic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge03-us-mtrx
 
 Write-Host '
 [34m▄█▀ ▄▄██▄▐▄   ▄▄█[0;1;34;44m░░[0;34m▄▄▄▄▄▄▄▄▄▄▄[0;1;34;44m▀[0;34m▀▀▀[0;1;34;44m▄[0;34m▄▄▄▄▄▄      ▄▄▄▄         ▄▄▄████▀▀██████████[0m

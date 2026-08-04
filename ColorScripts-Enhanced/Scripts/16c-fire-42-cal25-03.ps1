@@ -1,19 +1,4 @@
-﻿# Converted from: CAL25-03.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-42/raw/CAL25-03.ANS
-# Source Revision: archive-sha256:5477badab90aaaa6ee2d08aa380254b6982d860b5d0de201e348668cb1eaa063
-# Source SHA-256: dbddc1315d0030326353af5089d5306ea2af4114e9644c30e7754c460b636f3d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CAL25-03.ANS by Tetanus (Fire); released in fire-42 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: March 2025
-# SAUCE Author: Tetanus
-# SAUCE Group: Fire
-# SAUCE Date: 20250303
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: March 2025 by Tetanus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-42-cal25-03
 
 Write-Host '
             [35;40m░[0;37;40m  [0;34;40m░▒[0;35;44m▀[0;35;40m [0;34;40m▐[0;35;44m▒░[0;34;40m▓▒[0;1;35;40m░[0;34m░░░░░░░░░░░░░▒▒▒▓▓▓██▓▒▒▒▓▓▓▓▓█[0;35;44m░▒░[0;34;40m▄[0;35;40m▒░░[0;37;40m [0;35;40m░░░[0;37;40m [0;35;40m░[0m

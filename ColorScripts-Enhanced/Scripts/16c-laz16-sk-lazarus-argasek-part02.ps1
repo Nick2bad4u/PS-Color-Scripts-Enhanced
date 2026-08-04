@@ -1,19 +1,4 @@
-﻿# Converted from: sK!LAZARUS_argasek.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz16/raw/sK!LAZARUS_argasek.ans
-# Source Revision: archive-sha256:b093dd3cb06bf783d59a9df3724c51f9a41f686cd4fd545c920ada008d959f7a
-# Source SHA-256: 4def4f89beb4f64bf273e959fb13cd5b2572eca62681305a172a0d451b0bf186
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sK!LAZARUS_argasek.ans by sIMONkING (LAZARUS^thelo0p!); released in laz16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Argasek na Xenium!
-# SAUCE Author: sIMONkING
-# SAUCE Group: LAZARUS^thelo0p!
-# SAUCE Date: 20220827
-# SAUCE Dimensions: 80x150
-# SAUCE Font: IBM VGA
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: Argasek na Xenium! by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz16-sk-lazarus-argasek-part02
 
 Write-Host '
               [33m▀█[0;1;31;43m▀[0;1;31;47m▓[0;1;31;40m█[0;1;31;43m▀[0m [1;31m▀[0m▀▄ ▀[1m▀[0;1;47m▀[0;1;40m▄▄[0;33m▀▀▀█[0;1;31;43m▀[0;1;31;40m█[0;1;31;43m▄▄▄▄[0;1;31;40m▄▄▄[0;30;43m▀▀▀[0;1;31;40m███[0;1;31;43m▀░[0;33m█▀▀▀[0;1;37m▄▄[0;1;37;47m▀[0;1;37;40m██[0m [1;31m▀[0;1;31;47m▄[0m [1;35m▄▄[0m▀█▄ [1;35m▀▄[0;35m▄▀[0m

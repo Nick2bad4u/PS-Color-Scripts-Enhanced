@@ -1,18 +1,4 @@
-﻿# Converted from: MJ-MR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pls-0695/raw/MJ-MR1.ANS
-# Source Revision: archive-sha256:e1e0c0b1aab2e22b3bd65981d3f390952cb0222d5aea9dac894f3b0d697ea960
-# Source SHA-256: 3bf5bd1bb2888f33eaa6cf8c65b4dda9f0eae639da596f5825e0273fa5a26ddc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MJ-MR1.ANS by Mojo (PuLSE); released in pls-0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Magicians Relm
-# SAUCE Author: Mojo
-# SAUCE Group: PuLSE
-# SAUCE Date: 19950531
-# SAUCE Dimensions: 79x100
-# Lines: 1-50
-# Columns: 1-79
+﻿# Artwork: Magicians Relm by Mojo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pls-0695-mj-mr1-part01
 
 Write-Host '
 

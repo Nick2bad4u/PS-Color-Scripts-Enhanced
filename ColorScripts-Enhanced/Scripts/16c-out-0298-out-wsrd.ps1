@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-WSRD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0298/raw/OUT-WSRD.ANS
-# Source Revision: archive-sha256:b2ed908ebe07b9abc8a1b605d9ab159a38924592b5eaadb06525f7a5e1e213a6
-# Source SHA-256: c0e8f46ddd1f4579e391594a235d58e20e466ee900ac2411b6017df6fc248b11
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-WSRD.ANS by Sandy Chidester (out-0298); released in out-0298 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: OUT-WSRD.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0298-out-wsrd
 
 Write-Host '
                                         [34m▄▄███▀  ██   █   █[0m         [34m▐[0;1;47m█  ▐[0;1;30;47m▌   [0;1m▌[0m

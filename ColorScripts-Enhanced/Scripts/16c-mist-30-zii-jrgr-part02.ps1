@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-JRGR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-30/raw/ZII-JRGR.ANS
-# Source Revision: archive-sha256:c6f1cc6bb01a179ae988b7c16a0a3d302f02713dff1c028644191f10452c0347
-# Source SHA-256: 1854a8e37dcaea8cbe5f59f63a2b9e5dc862a9510a5cbe4a1c393d91873177ae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-JRGR.ANS by Zeus II (Mistigris); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Jolly Roger ANSIs
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20241230
-# SAUCE Dimensions: 80x75
-# SAUCE Font: IBM VGA
-# Lines: 28-72
-# Columns: 1-80
+﻿# Artwork: Jolly Roger ANSIs by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-30-zii-jrgr-part02
 
 Write-Host '
 [37;40m  [0;31;40m▄[0;1;31;40m▄[0;31m▄[0;1;31m▄[0m▄[41m▄▄[0;1;31;41m▄[0;1;31;40m▄[0;31m▄▄▄[0;37m  [0;31m▄▄▄▄[0;37m    [0;32m▄▄▄▄█[0;1;32;42m▄▄▄[0;32m█▌     [0;1;32m▄▄[0;32m▄[0;37m  [0;35m░[0;37m [0;34m█[0;1;37;44m▄[0;34m█  [0;35m▄▀▀▀[0;37m   [0;35m▀▀[0;37m  [0;35m▄▄▀[0;37m [0;1;33m▄[0m    [1;33m█  ▄   [0;35m▄▀[0m

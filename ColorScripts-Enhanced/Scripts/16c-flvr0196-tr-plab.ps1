@@ -1,18 +1,4 @@
-﻿# Converted from: TR-PLAB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flvr0196/raw/TR-PLAB.ANS
-# Source Revision: archive-sha256:279ad8e010cc1a23befe2a90c11e2ca2920042ed1799924b9123e589e1e118aa
-# Source SHA-256: 3e6b28ca9d95fc2ffb0f7b2c78bcd90939930ed7c6e4b14d44f13f8348be0ca9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-PLAB.ANS by tarot (flavor); released in flvr0196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: paintlab
-# SAUCE Author: tarot
-# SAUCE Group: flavor
-# SAUCE Date: 19951222
-# SAUCE Dimensions: 80x11
-# Lines: 1-11
-# Columns: 1-80
+﻿# Artwork: paintlab by tarot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flvr0196-tr-plab
 
 Write-Host '
               ▄▄░                             ░▄▄           ░▄▄

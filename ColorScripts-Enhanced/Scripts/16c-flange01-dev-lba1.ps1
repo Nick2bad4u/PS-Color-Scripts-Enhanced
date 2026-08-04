@@ -1,18 +1,4 @@
-﻿# Converted from: dev-lba1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flange01/raw/dev-lba1.ans
-# Source Revision: archive-sha256:14aba7e5405b940f46aca460d899ba9dad4982ed94cb18dc30ab4dba5911d191
-# Source SHA-256: 6bc51791ea3b1c9e5a4cdd8ab0dfab9275f1b26efc51b8758d1a80a7780e3ce9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: dev-lba1.ans by dev (flange); released in flange01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: little.big.adventure
-# SAUCE Author: dev
-# SAUCE Group: flange
-# SAUCE Date: 19971213
-# SAUCE Dimensions: 80x25
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: little.big.adventure by dev | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flange01-dev-lba1
 
 Write-Host '
   [1;30m██[0m [1;30m██[0m [1;30m██[0m [34m█▓▒░▒░▒░▒░▒░░▒░[0;1;30;44m░░[0;34m▓▓▓█▀▀▀▀▀▀▀█▓▓▒▒▒░▒▒▒▒▒░▒▒▒▒░▒▒░▒░░▒░█▓[0;37m [0;1;37m████████[0;1;30md[0m

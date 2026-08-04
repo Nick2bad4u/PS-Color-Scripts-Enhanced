@@ -1,13 +1,4 @@
-﻿# Converted from: WW-COWS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spl9607/raw/WW-COWS.ANS
-# Source Revision: archive-sha256:cfcb128304238e082de7d191be273a1b4ecfa4b546d20f08c775b155194f3a99
-# Source SHA-256: a66cf59ec8bdcf65af0799b3995d6ef6dc677ca45261d10b030d635eb1c0b542
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WW-COWS.ANS by Wicked Wolf (spl9607); released in spl9607 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: WW-COWS.ANS by Wicked Wolf | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spl9607-ww-cows-part01
 
 Write-Host '
 [30m██████████████████████[0;1;31m  [0;33m░[0;1;31m  [0;33m░░[0;1;31m     [0;1;37m░░[0;1;31m    [0;1;37m░░[0;1;31m     [0;1;37m░[0;1;31m   [0;1;37m░[0;1;31m      [0;33m░░[0;1;31m     [0;30m███[0;33m░[0;30m██████████[0m

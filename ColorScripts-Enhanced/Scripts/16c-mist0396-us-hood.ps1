@@ -1,18 +1,4 @@
-﻿# Converted from: US-HOOD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0396/raw/US-HOOD.ANS
-# Source Revision: archive-sha256:ca76fc280b2a4bc027c52e1f5a3fd444bfc4dc199573d0f93ae0c0df3b3abb90
-# Source SHA-256: ca74366910ea89e63adb125a24b8616442d78c5b49dd3591adb6e7a69083dcca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-HOOD.ANS by Inwire + Kingyo (MiSTiGRiS); released in mist0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Hood colly
-# SAUCE Author: Kurama and Inwire
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 19960322
-# SAUCE Dimensions: 80x47
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: The Hood colly by Inwire + Kingyo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0396-us-hood
 
 Write-Host '
              [31m■▄ ▓▄ [0m         [1;30m░[0m              [31m [0;37m [0;1;30m░[0m                  [1;30m░[0m            [1;30m [0m

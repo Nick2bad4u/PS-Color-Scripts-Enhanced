@@ -1,19 +1,4 @@
-﻿# Converted from: nf-HappyCards.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel30/raw/nf-HappyCards.ans
-# Source Revision: archive-sha256:e3148e82a669aa484baf0738069fbabe44ba2824856e1cb4b05875b86bdd4621
-# Source SHA-256: a397081a5ab7471b058d1909988ad80b548c2d6aaef74fa6f3975a11e467ecad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: nf-HappyCards.ans by necro (fuel / rbbs); released in fuel30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: happy cards
-# SAUCE Author: necro
-# SAUCE Group: fuel / rbbs
-# SAUCE Date: 20190419
-# SAUCE Dimensions: 80x266
-# SAUCE Font: IBM VGA
-# Lines: 91-134
-# Columns: 1-80
+﻿# Artwork: happy cards by necro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel30-nf-happycards-part03
 
 Write-Host '
 [33;40m [0;32;40m▄▄▀▄▄▄▄    [0;1;32;42m▒[0;1;30;42m▀[0m                        [32m▐▌   [0;1;32m▐[0;32m▌[0m                              [1;32m▀▀[0;32m█[0;33;42m▀[0;1;30;42m▀[0m

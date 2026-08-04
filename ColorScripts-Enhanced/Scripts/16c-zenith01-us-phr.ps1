@@ -1,18 +1,4 @@
-﻿# Converted from: US-PHR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zenith01/raw/US-PHR.ANS
-# Source Revision: archive-sha256:89a769066be1ade04361b16bc2aabeb1a280fe034deee0fe7ee4c75badc7461d
-# Source SHA-256: 23f7f1fd1cc898fd974c0697de920afa1d449427ded0fa65714e8833db908428
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-PHR.ANS by Taintedx + Spirit Of Rage (Zenith); released in zenith01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Phear
-# SAUCE Author: TaintedX/SOR
-# SAUCE Group: Zenith
-# SAUCE Date: 19980525
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Phear by Taintedx + Spirit Of Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zenith01-us-phr
 
 Write-Host '
 [1;34mzenith[0;34m!░░[0m     [34m░[0;37m [0;34m▄▄▌[0m   [34m░░▄[0m             [31m▄[0m              [34m░░[0m        [34m▄[0;1;34m░[0;34m▄[0;37m [0;34m▄▄░░░[0;1;34msor[0;34m&[0;1;34mtnt[0;34m![0m

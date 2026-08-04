@@ -1,18 +1,4 @@
-﻿# Converted from: BV-UNRE1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9708a/raw/BV-UNRE1.ICE
-# Source Revision: archive-sha256:63deb9e752fa85f6afabd8a41875343388a49c3c7ad37b2b9b29f4bfd04a346f
-# Source SHA-256: 3dbba6ae9e2022aad66057c86e26faa33318b5ad1bbb3520697361fd32f33227
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BV-UNRE1.ICE by Black Viper (iCE Advertisements); released in ice9708a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Unreal
-# SAUCE Author: Black Viper
-# SAUCE Group: iCE Advertisements
-# SAUCE Date: 19970831
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Unreal by Black Viper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9708a-bv-unre1
 
 Write-Host '
 [1;34;47m▓[0;1;34;44m███▀  ▀█[0;1;34;47m█[0;1;34;44m█▀██[0;1;34;47m▓[0;1;34;44m█[0;1;34;47m█[0;1;34;44m█[0;34m▀[0;37m [0;1;31;41m  [0;31m▄▄[0;37m [0;33m▀[0;1;31;43m▀[0;1;31;40m████████████████████[0;1;30;40m ▄▀▀█▄[0m  ▀ [1;47m▀█▀[0m▀[1;47m▒▒░ [0m [31m███[0;1;31;41m▒[0;31m▄ ▀██████ [0m

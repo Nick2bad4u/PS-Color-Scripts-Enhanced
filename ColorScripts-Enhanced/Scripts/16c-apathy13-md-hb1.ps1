@@ -1,18 +1,4 @@
-﻿# Converted from: md-hb1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy13/raw/md-hb1.ans
-# Source Revision: archive-sha256:3ed7178f860604c6b9786846d46fd13095846b81c16a5324edc4e4b9ea7e6ba8
-# Source SHA-256: 3d37693bfa224719368a0cfdb775f60fec98fe5fe83033ebc4af2cbc0d0f0580
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: md-hb1.ans by MSd!@# (Soap); released in apathy13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Honey Blunt
-# SAUCE Author: MSd!@#
-# SAUCE Group: Soap
-# SAUCE Date: 19970402
-# SAUCE Dimensions: 80x45
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: Honey Blunt by MSd!@# | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy13-md-hb1
 
 Write-Host '
 

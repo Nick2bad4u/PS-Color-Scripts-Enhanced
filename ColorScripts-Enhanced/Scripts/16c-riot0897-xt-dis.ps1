@@ -1,13 +1,4 @@
-﻿# Converted from: XT-DIS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot0897/raw/XT-DIS.ANS
-# Source Revision: archive-sha256:2b8eaa17eb064959808a437b20477b0414e345f3edaa54962280cdc315093a9d
-# Source SHA-256: ea32cd9f65c609d17dc6772522c7459d80f67fe0b3791c2c55f46ba4d1c91968
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XT-DIS.ANS by Exocet (riot0897); released in riot0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: XT-DIS.ANS by Exocet | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot0897-xt-dis
 
 Write-Host '
         [1;32m▒[0;32m▄▌▄██▌[0;37m   [0m                            [1;37m [0m [1m ▄[0m

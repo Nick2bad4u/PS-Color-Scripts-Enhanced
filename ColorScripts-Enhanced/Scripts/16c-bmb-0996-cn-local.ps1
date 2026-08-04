@@ -1,18 +1,4 @@
-﻿# Converted from: CN_LOCAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0996/raw/CN_LOCAL.ANS
-# Source Revision: archive-sha256:de1a4e1b3b8504644e3a073d9996f185c42e41f64ec42e4fefdea03b2b3748fe
-# Source SHA-256: ceb4d775cab91bd1e12f984626ac3d673b2a319804224e1321fa957b8ca3c1a0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CN_LOCAL.ANS by Cniz (Bamboosh); released in bmb-0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Local Nutcase
-# SAUCE Author: Cniz
-# SAUCE Group: Bamboosh
-# SAUCE Date: 19960910
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Local Nutcase by Cniz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0996-cn-local
 
 Write-Host '
  [1m                 [0m              [1;30m [0m▄▄█▀▀▀▀▀▀▀▀█▄▄▄▄▄▄▄▄▄▄▄█▀▀▀█        sy[1ms[0mo[1mp[0m

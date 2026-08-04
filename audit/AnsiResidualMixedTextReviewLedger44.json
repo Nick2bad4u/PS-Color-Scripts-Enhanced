@@ -1,0 +1,1159 @@
+{
+  "batch": 44,
+  "candidates": [
+    {
+      "action": "blank-columns",
+      "category": "batch44-reconciled-generic-label",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 65,
+              "start": 51
+            }
+          ],
+          "expectedRawSha256": "5559fa99a9abd0970a8335b42a981075b993829838f96d5df5bb0525a5374989",
+          "expectedRenderedSha256": "85af4e360edb35f7e6dbbc7106cd895dbb0cbe06751ddd15afe6e8620e20ef6d",
+          "row": 19,
+          "sha256": "5e19d6d7f308c15a3149cb6082094fa5bc2acaf05256b077a41c2f04687af327"
+        }
+      ],
+      "file": "16c-apathy10-ts-ace0.ps1",
+      "rationale": "A historical whole-gallery detector explicitly selected this coherent generic-label family. Fresh full-payload review confirmed that each projected range contains only residual alphabetic menu slots, dummy command/info copy, or separable placeholder punctuation. Exact live-source hashes and one-based source-cell ranges preserve authored titles, attribution, functional prompts, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/research-residual-generic-labels-high-confidence.txt",
+        "temp/text-blanking-continuation/research-residual-generic-labels-report.json",
+        "temp/text-blanking-continuation/batch44-high-confidence-generic-reconciliation.json",
+        "temp/text-blanking-continuation/batch44-focused-review.json",
+        "temp/text-blanking-continuation/batch44-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch44-reconciled-generic-label",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 59,
+              "start": 59
+            },
+            {
+              "end": 72,
+              "start": 72
+            }
+          ],
+          "expectedRawSha256": "6e3316976d62135deb45f07560dade94c6f8a9684284a7d6d096eb964490844a",
+          "expectedRenderedSha256": "db0d9957865040858c92078e72bccef6cf299cca73f31a13c2381aab6cd8ca53",
+          "row": 11,
+          "sha256": "b9f2632b842676cd269c5da854962f2f491650d46b261ab77c53584d8915573b"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 59,
+              "start": 59
+            },
+            {
+              "end": 72,
+              "start": 72
+            }
+          ],
+          "expectedRawSha256": "d5814b2d98c7e4f7e6c1f0934304a1fec11e22ad11e2583c2863cee7d5cbd220",
+          "expectedRenderedSha256": "ee293c15058b51660fc4ac88de6c094c8678d92c640f87183a0dca5e7a890fcc",
+          "row": 13,
+          "sha256": "34589f4299c50845f9aaec6e64262d30e955a4ab27e7a9a9b55e1b82170464e3"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 59,
+              "start": 59
+            },
+            {
+              "end": 72,
+              "start": 72
+            }
+          ],
+          "expectedRawSha256": "f38bf41f67f8b0c39a3ee1b0f59e5961499248dd7263fd552b0708cdd0308315",
+          "expectedRenderedSha256": "7607c46fcc1ad024bd0e39ee223b72c46800c6a9c6e2f22f82df97097d31c97d",
+          "row": 15,
+          "sha256": "0fcd889e26f1c63f3f00eb9847b6347af377b42b9d77cda62c49a64074834e90"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 59,
+              "start": 59
+            },
+            {
+              "end": 72,
+              "start": 72
+            }
+          ],
+          "expectedRawSha256": "36303fb84bdd5314fdddf39ef4f3dbd8237b0ff52d7d7df577b76fd55f766a1d",
+          "expectedRenderedSha256": "3b625c48f0aa23dd0b4f041b559dd330e72dbe9946f74f7a6f19c86061121675",
+          "row": 17,
+          "sha256": "7979ccc7ae67f0739a66acf44e001fd4cde7ab020697fc251a84cd93479a50ea"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 59,
+              "start": 59
+            },
+            {
+              "end": 72,
+              "start": 72
+            }
+          ],
+          "expectedRawSha256": "a33af19378f76d814591a36964ee3fad2798dddf078de5eee33de40deb94f584",
+          "expectedRenderedSha256": "1321e3ebace4a621b11c84f7ae086fd823e710eaf6f17288d672a3f47e7126f6",
+          "row": 19,
+          "sha256": "9b7b3f74fc388f0a5a3c3212ae5fe94c927a1eb75ffdc177119acd67ab067b9a"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 59,
+              "start": 59
+            },
+            {
+              "end": 72,
+              "start": 72
+            }
+          ],
+          "expectedRawSha256": "0753846658232840cc291dadf20b9e9943b0a369ed212f4c3e3c4e7bc87cf332",
+          "expectedRenderedSha256": "5b88a626f61e2ef140e0442e9e5891722c03ced0b4f987887dc0a40b1f39c787",
+          "row": 21,
+          "sha256": "41485af924b01463c392afd7cc64e784a9a344b352b4ce49f475c75188cf3bcf"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 59,
+              "start": 59
+            },
+            {
+              "end": 72,
+              "start": 72
+            }
+          ],
+          "expectedRawSha256": "6fa8b20896b4c1bbc5d607955191884ff15f35b3768a9e797066ff5282874844",
+          "expectedRenderedSha256": "e442064f489c7f9e32ed17d2863d0543e1af85fa216823839bef255d71106a63",
+          "row": 23,
+          "sha256": "1a2192fed79701b93f80ff43533ea0555ad1ca10ef34c97864f2e1962ad40ea9"
+        }
+      ],
+      "file": "16c-awe-15-tna-hys1.ps1",
+      "rationale": "A historical whole-gallery detector explicitly selected this coherent generic-label family. Fresh full-payload review confirmed that each projected range contains only residual alphabetic menu slots, dummy command/info copy, or separable placeholder punctuation. Exact live-source hashes and one-based source-cell ranges preserve authored titles, attribution, functional prompts, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/research-residual-generic-labels-high-confidence.txt",
+        "temp/text-blanking-continuation/research-residual-generic-labels-report.json",
+        "temp/text-blanking-continuation/batch44-high-confidence-generic-reconciliation.json",
+        "temp/text-blanking-continuation/batch44-focused-review.json",
+        "temp/text-blanking-continuation/batch44-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch44-reconciled-generic-label",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 60,
+              "start": 60
+            },
+            {
+              "end": 72,
+              "start": 72
+            }
+          ],
+          "expectedRawSha256": "6ce83188c58eeb38d34d28e110cbdca361a4f447c5b90728e166e90c930d68d7",
+          "expectedRenderedSha256": "d45afc672d0b8a883a8428f1545b3afe7fdbeabc99f6058f630f1c96032faf65",
+          "row": 10,
+          "sha256": "227dc17dfbaf13a610a580bdd549811a4c0ae6a1bd85a07c87762566eb174af1"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 60,
+              "start": 60
+            },
+            {
+              "end": 72,
+              "start": 72
+            }
+          ],
+          "expectedRawSha256": "5052c4cb89507c5b81837b90c66245e57f13eb96c9b3d9e7a2263e17155001c9",
+          "expectedRenderedSha256": "1c0e2387d476400086a54ab9e14d8e3294c996b50492c59793f42e5a8f7edd4b",
+          "row": 12,
+          "sha256": "8596b4d2e7edc1ce12660fa61d5b782662b461ef3ffb41c5c20f29c38e041b0e"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 60,
+              "start": 60
+            },
+            {
+              "end": 72,
+              "start": 72
+            }
+          ],
+          "expectedRawSha256": "695f77641b98e434e4a84c4097723202ea32ab59ac11fda0003623873649bf6b",
+          "expectedRenderedSha256": "4c7f67c49f3fcf9223e1948da00f36322e364bf64a9b57e79fd5f635c8dc2430",
+          "row": 14,
+          "sha256": "fc4c60e810901b31ff598496e468b138bb56863ea4be629f59a4436e896a6135"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 60,
+              "start": 60
+            },
+            {
+              "end": 72,
+              "start": 72
+            }
+          ],
+          "expectedRawSha256": "cd0782237939a8db9d077ca8f4b7256b9da4fea3a6ee4555e78bc12844989d89",
+          "expectedRenderedSha256": "c1de95e0ed24807c7cdee1149ede77895e920d332fd84d35f3ac4b7a5e4961c6",
+          "row": 16,
+          "sha256": "b37539d3cdaa6edf82b148a10274e205a32fc4faa133d69db06fcb63118ab551"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 60,
+              "start": 52
+            }
+          ],
+          "expectedRawSha256": "dd1472a62ca4c7331b0a23023160cf69c572e0494abc0a46453c27d4fb6cccdc",
+          "expectedRenderedSha256": "2c83ffd75f7e7f7e278314a2e7f80ec05b5e24e667b676857519a8a06cf13d5b",
+          "row": 18,
+          "sha256": "da535476b6510d6f473a49fc61f3b7cac4f3dc9009e0ddc0f0f9067834e05eba"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 60,
+              "start": 52
+            }
+          ],
+          "expectedRawSha256": "e06a37efaf4e558a85df15a29e9a15a5466a116968a4e62c923bc6d80a034bcc",
+          "expectedRenderedSha256": "56a8c58e2b7eb77bf50708a183e6f38c02c8685181adac4c136dedd3e71aaa55",
+          "row": 20,
+          "sha256": "117903ba3401be743d4d41d41e733817c3ab9a70b50771654015db851e46e20e"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 60,
+              "start": 52
+            }
+          ],
+          "expectedRawSha256": "0537415fd324da005a1c336ecab1f3243075b3bfe078ed75a9d69ee0e411fabb",
+          "expectedRenderedSha256": "6f9006931b0af9b7738219754832429e5d06b24a9d1b8d1414081a9bad8bc1b1",
+          "row": 22,
+          "sha256": "7edb0cde73a7f4ef5d572fdbc141d60bdc3c70d0445c9620e082be6cea375bcc"
+        }
+      ],
+      "file": "16c-awe-15-tna-hz2.ps1",
+      "rationale": "A historical whole-gallery detector explicitly selected this coherent generic-label family. Fresh full-payload review confirmed that each projected range contains only residual alphabetic menu slots, dummy command/info copy, or separable placeholder punctuation. Exact live-source hashes and one-based source-cell ranges preserve authored titles, attribution, functional prompts, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/research-residual-generic-labels-high-confidence.txt",
+        "temp/text-blanking-continuation/research-residual-generic-labels-report.json",
+        "temp/text-blanking-continuation/batch44-high-confidence-generic-reconciliation.json",
+        "temp/text-blanking-continuation/batch44-focused-review.json",
+        "temp/text-blanking-continuation/batch44-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch44-reconciled-generic-label",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 43,
+              "start": 43
+            },
+            {
+              "end": 62,
+              "start": 62
+            }
+          ],
+          "expectedRawSha256": "16c480702b7b2cc31d29ce4eba0077a8a59dab4d40a7446bc3ccf6f4020133d3",
+          "expectedRenderedSha256": "4a2c0d71111cb03eab81f865d548565048de37235c2e6458678a7d013107c3df",
+          "row": 8,
+          "sha256": "3df3b4c0a96fb684cdd50a28cac43ba85b9a04b0b18d955509d66a4d46d083de"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 43,
+              "start": 43
+            },
+            {
+              "end": 62,
+              "start": 62
+            }
+          ],
+          "expectedRawSha256": "76c58d0da7f027d6e130df4f46d53f01ac42186e48adf190920c8574865a2005",
+          "expectedRenderedSha256": "6e7bb4f881553c4e3734dc363b8cf5335f7e48da31d29172a2547cc98dcd6c9e",
+          "row": 10,
+          "sha256": "74b42338cedf2596081b2f9c42960e493e53b4753b22ebd32c593fd316631ad7"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 43,
+              "start": 43
+            },
+            {
+              "end": 62,
+              "start": 62
+            }
+          ],
+          "expectedRawSha256": "76b27c613146d18fa1109bed528afce4f308bf033e4834e03d7980436e7f86fd",
+          "expectedRenderedSha256": "ce4a9b46175df4559ec63f36e4ea01798f46ef57abd45f497ace47aa12866549",
+          "row": 12,
+          "sha256": "5acc5d7ace3482937e89904dc4d2e852d733d397e8943ae8f35a2e371ac8e6a1"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 43,
+              "start": 43
+            },
+            {
+              "end": 62,
+              "start": 62
+            }
+          ],
+          "expectedRawSha256": "77963beab9e2ff105f69d7dc08656301bb020ac0146763289d48d2e69202ecde",
+          "expectedRenderedSha256": "b14f58f8f6f46b4f375f63f4fd5080e708c73ebb2f3e2659732976710d0bd2c1",
+          "row": 14,
+          "sha256": "954e73c1346b19b2f3050a0df36fbc502b90d643647d936c470e8e0db287fe7b"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 43,
+              "start": 43
+            },
+            {
+              "end": 62,
+              "start": 62
+            }
+          ],
+          "expectedRawSha256": "ec6ecb828186af0154e5ceefe8195f09b4eeda9e310084aa21bdbc57ede3b886",
+          "expectedRenderedSha256": "ed96e451f14b7f838513b999782d0da65d43face19e1f5d5f0aaec388eb56626",
+          "row": 16,
+          "sha256": "01f6f83a23d2c222f10c223df09f4ec7d7b89404a3ae79e30174879effb8c9b4"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 43,
+              "start": 43
+            },
+            {
+              "end": 62,
+              "start": 62
+            }
+          ],
+          "expectedRawSha256": "5627b8664a07844dff7d7292640a1603c85209cd57beb67ec170b1632622118d",
+          "expectedRenderedSha256": "b30acd47d8ec523c9214e62da1f53363ed3f07d003b1108af550d68fec248e4f",
+          "row": 18,
+          "sha256": "f57fff280bf54d40c639c8ea27fa19da48d6cd0bec13e4e95a9a8c2a75b3c525"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 43,
+              "start": 43
+            },
+            {
+              "end": 62,
+              "start": 62
+            }
+          ],
+          "expectedRawSha256": "b696ad592b8f2413673bf2d1d150aa1ef2d3bf6880830c9ddfc8a3730e4d9910",
+          "expectedRenderedSha256": "a50adb13e4a0e8569e1b5759cfe9f54eb0e05b1093aeb4acf695aa85ac8aa129",
+          "row": 20,
+          "sha256": "cd52cd451f75d117adf1280dbc21e0464a2a67ff8cde1a5b08f580b749d6756f"
+        }
+      ],
+      "file": "16c-awe9610-tna-eld.ps1",
+      "rationale": "A historical whole-gallery detector explicitly selected this coherent generic-label family. Fresh full-payload review confirmed that each projected range contains only residual alphabetic menu slots, dummy command/info copy, or separable placeholder punctuation. Exact live-source hashes and one-based source-cell ranges preserve authored titles, attribution, functional prompts, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/research-residual-generic-labels-high-confidence.txt",
+        "temp/text-blanking-continuation/research-residual-generic-labels-report.json",
+        "temp/text-blanking-continuation/batch44-high-confidence-generic-reconciliation.json",
+        "temp/text-blanking-continuation/batch44-focused-review.json",
+        "temp/text-blanking-continuation/batch44-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch44-reconciled-generic-label",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 55,
+              "start": 55
+            },
+            {
+              "end": 65,
+              "start": 65
+            },
+            {
+              "end": 69,
+              "start": 69
+            },
+            {
+              "end": 79,
+              "start": 79
+            }
+          ],
+          "expectedRawSha256": "92e784b4f2fbf100627417b7cabb5e1ed0b24b052e3b9ed094c6b2900352d4fb",
+          "expectedRenderedSha256": "d41b52ca5013d4c60338258fd219b5dbaf3ba5212a8f159b84fddcef98c8bbfd",
+          "row": 6,
+          "sha256": "e5f7d4734cc324a0fb5134e974b0e111492af36485db4f83511c4f5027c65f04"
+        }
+      ],
+      "file": "16c-awe9702-us-p1.ps1",
+      "rationale": "A historical whole-gallery detector explicitly selected this coherent generic-label family. Fresh full-payload review confirmed that each projected range contains only residual alphabetic menu slots, dummy command/info copy, or separable placeholder punctuation. Exact live-source hashes and one-based source-cell ranges preserve authored titles, attribution, functional prompts, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/research-residual-generic-labels-high-confidence.txt",
+        "temp/text-blanking-continuation/research-residual-generic-labels-report.json",
+        "temp/text-blanking-continuation/batch44-high-confidence-generic-reconciliation.json",
+        "temp/text-blanking-continuation/batch44-focused-review.json",
+        "temp/text-blanking-continuation/batch44-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch44-reconciled-generic-label",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 69,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "ee6ad49961d0b8c3bb3b2c6c7c8799876f82d5addee54a090c051d55c65946bb",
+          "expectedRenderedSha256": "4b02e8db173ee7226fab56a517abd5d9266807a45b9ca69f45132bb3d37e0652",
+          "row": 8,
+          "sha256": "78ff7ad04b0f5931bca6bc6ebc157b9b7d13bb46ab8782e21a5c2a318af8f486"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 45,
+              "start": 45
+            },
+            {
+              "end": 55,
+              "start": 55
+            },
+            {
+              "end": 59,
+              "start": 59
+            },
+            {
+              "end": 69,
+              "start": 69
+            }
+          ],
+          "expectedRawSha256": "efdd07438d2e8fe01478063de03958f9b2374986003a64091ea90dc842d2fe06",
+          "expectedRenderedSha256": "e0938a71fcf8abb843f348c08fdb12cca976766a40e042719dafaac26dc23de9",
+          "row": 10,
+          "sha256": "e9ae6c10f9d75365785feea7616601cb78f0034b99f82f54e583737612365f88"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 45,
+              "start": 45
+            },
+            {
+              "end": 55,
+              "start": 55
+            },
+            {
+              "end": 59,
+              "start": 59
+            },
+            {
+              "end": 69,
+              "start": 69
+            }
+          ],
+          "expectedRawSha256": "72ee67c33719c6cb15ea8e0768075c525a460b4390528d07fbd0a4605abf303e",
+          "expectedRenderedSha256": "8bcf73f8c45130e728acc2afc4d1edb387049742470df42e4d9f91411dd9fd68",
+          "row": 12,
+          "sha256": "a5bf8aecb904d55a1b9ceb99e02966279132f8f6f9957c6a6f52bd4a53235538"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 45,
+              "start": 45
+            },
+            {
+              "end": 55,
+              "start": 55
+            },
+            {
+              "end": 59,
+              "start": 59
+            },
+            {
+              "end": 69,
+              "start": 69
+            }
+          ],
+          "expectedRawSha256": "85287192670af96d3506f633b904697f41b513b756eab656f80335d10ccee089",
+          "expectedRenderedSha256": "b1fdd41e6bcc02a143bb76a7b80ebfc8fa3075a8fe45125ecb8f74cd71653322",
+          "row": 14,
+          "sha256": "f2f0534969a667f731cc30228f5f7afcb24965b0fcf3731bc62d1f77d14e77d7"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 45,
+              "start": 45
+            },
+            {
+              "end": 55,
+              "start": 55
+            },
+            {
+              "end": 59,
+              "start": 59
+            },
+            {
+              "end": 69,
+              "start": 69
+            }
+          ],
+          "expectedRawSha256": "e3ebc460c82a2d8edf66235038a70fea4d1ef0d826d37640e3278a4fc1d38dd5",
+          "expectedRenderedSha256": "f36eb09c21640a075c0ed8e472445ae60189699d299c16220fc5fbfd31c1faab",
+          "row": 16,
+          "sha256": "326974687eb0246852377f0fb2058f2d8bd88ef2dcc53799ecf407d3729fbe9b"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 45,
+              "start": 45
+            },
+            {
+              "end": 55,
+              "start": 55
+            },
+            {
+              "end": 59,
+              "start": 59
+            },
+            {
+              "end": 69,
+              "start": 69
+            }
+          ],
+          "expectedRawSha256": "ac83f4e397476ff751a8b05da0217fdaf1e9b13f3025f6aceaafe41a5060d705",
+          "expectedRenderedSha256": "9df4796b8e3d40754df4fd8e3a2425f78fd6c0c94e5261326cb1e929a437d8c0",
+          "row": 18,
+          "sha256": "8eddccddfd1865deb0a88aa00073b93a43408f2a31d9c4b392617b05c3a38bc6"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 69,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "79ec6903e33b6daa6de012672c193cdfa15e381f0230512bcfffd30aeadca77c",
+          "expectedRenderedSha256": "7bd3171f7302e5a876caa18b11f3a8c6ed7147f9aebd5c40e1e0c4374d2717e4",
+          "row": 20,
+          "sha256": "de512548dff5812f75b769c7fb807e82e2b58326e3a2abc68a336142ddd0a3af"
+        }
+      ],
+      "file": "16c-awe9703-tna-smnu.ps1",
+      "rationale": "A historical whole-gallery detector explicitly selected this coherent generic-label family. Fresh full-payload review confirmed that each projected range contains only residual alphabetic menu slots, dummy command/info copy, or separable placeholder punctuation. Exact live-source hashes and one-based source-cell ranges preserve authored titles, attribution, functional prompts, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/research-residual-generic-labels-high-confidence.txt",
+        "temp/text-blanking-continuation/research-residual-generic-labels-report.json",
+        "temp/text-blanking-continuation/batch44-high-confidence-generic-reconciliation.json",
+        "temp/text-blanking-continuation/batch44-focused-review.json",
+        "temp/text-blanking-continuation/batch44-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch44-reconciled-generic-label",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 44,
+              "start": 44
+            },
+            {
+              "end": 55,
+              "start": 55
+            },
+            {
+              "end": 61,
+              "start": 61
+            },
+            {
+              "end": 72,
+              "start": 72
+            }
+          ],
+          "expectedRawSha256": "f4bc86540f71cfbbf7ebaa346e0f0a7dcba06a3afee05b5b807fa4bb30f8883e",
+          "expectedRenderedSha256": "d67dfe88a611fa1d673a9b66c27dc851c794eebe0d76b44a8b39c28f684ef081",
+          "row": 12,
+          "sha256": "2de3c072ba0469513ffde6c41680a001da8e4989402eb72153213c211f28cd28"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 44,
+              "start": 44
+            },
+            {
+              "end": 55,
+              "start": 55
+            },
+            {
+              "end": 61,
+              "start": 61
+            },
+            {
+              "end": 72,
+              "start": 72
+            }
+          ],
+          "expectedRawSha256": "39aa84edf4a870f9d9848515643144b912f45c1ce39dbf16c509d3481a98949d",
+          "expectedRenderedSha256": "3601dda52a9fa23c7250b9f1236f400508f8896769eeda4848924e932d10dadb",
+          "row": 14,
+          "sha256": "e781e4fae63ad8eae73621c2a07c40a1a726e6228d56e5e260d2cc7c54fbb466"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 44,
+              "start": 44
+            },
+            {
+              "end": 55,
+              "start": 55
+            },
+            {
+              "end": 61,
+              "start": 61
+            },
+            {
+              "end": 72,
+              "start": 72
+            }
+          ],
+          "expectedRawSha256": "d8b3cccb2ed91ce9f3a8f5997ee8180d6a241843c7a8a07efe9d40ee0e7afa75",
+          "expectedRenderedSha256": "f066c776956651fdbd6b4d4871ad7aa87ccef477f814520c0115f9798eb50c34",
+          "row": 16,
+          "sha256": "554d04a7c74036d3bcd05c2c53a71715751836516ece25bb35beae4b0bafbefd"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 44,
+              "start": 44
+            },
+            {
+              "end": 55,
+              "start": 55
+            },
+            {
+              "end": 61,
+              "start": 61
+            },
+            {
+              "end": 72,
+              "start": 72
+            }
+          ],
+          "expectedRawSha256": "74af8eea77cb99068c12167460f4a5802d6bbf75ba3cd6c68845015359b5647f",
+          "expectedRenderedSha256": "b27b5d9702870367fc19863064e9fdebc8033ea726691efb03a10849efda8c44",
+          "row": 18,
+          "sha256": "ab8bcf201bb9b00f9f874fbdb5983d4b7099c914370d8c0bb2fd8ca457afd22b"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 44,
+              "start": 44
+            },
+            {
+              "end": 55,
+              "start": 55
+            },
+            {
+              "end": 61,
+              "start": 61
+            },
+            {
+              "end": 72,
+              "start": 72
+            }
+          ],
+          "expectedRawSha256": "682495e934501d9cffd73b55d5ba578f4971adf46c0491e324d32dec8bd1855e",
+          "expectedRenderedSha256": "d99406b2d3963ad7e4bac5afebb650a5137b8a94368ba65d909c79220cd59082",
+          "row": 20,
+          "sha256": "785564ae345ea57ef88f97ab49bb05c10390cb1f9e9cb442f88b26c8303ba98f"
+        }
+      ],
+      "file": "16c-awe9704-tna-fmnu.ps1",
+      "rationale": "A historical whole-gallery detector explicitly selected this coherent generic-label family. Fresh full-payload review confirmed that each projected range contains only residual alphabetic menu slots, dummy command/info copy, or separable placeholder punctuation. Exact live-source hashes and one-based source-cell ranges preserve authored titles, attribution, functional prompts, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/research-residual-generic-labels-high-confidence.txt",
+        "temp/text-blanking-continuation/research-residual-generic-labels-report.json",
+        "temp/text-blanking-continuation/batch44-high-confidence-generic-reconciliation.json",
+        "temp/text-blanking-continuation/batch44-focused-review.json",
+        "temp/text-blanking-continuation/batch44-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch44-reconciled-generic-label",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 60,
+              "start": 60
+            },
+            {
+              "end": 73,
+              "start": 73
+            }
+          ],
+          "expectedRawSha256": "954bcd8dbf202b7146fd87de5a5a0cb7aacea321dfd5a3de04fc87e0164d092e",
+          "expectedRenderedSha256": "f9cd22d8ec457271bdd8a7bb8f989a89769981681934b4c08cf48e73a0c65566",
+          "row": 11,
+          "sha256": "b7f0a23fca5eb3b01721a91a8c80543451f65e7291fd3ac5a8615f40fbd0de07"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 60,
+              "start": 60
+            },
+            {
+              "end": 73,
+              "start": 73
+            }
+          ],
+          "expectedRawSha256": "a795b58676a4b26bb7ed52c8e1c85f61b3006335560a5f3ded914b7f27c5a62a",
+          "expectedRenderedSha256": "a786afbae10e1fda38ab479eec55d86c2d0226758340f046013e6abc86f2a0fe",
+          "row": 12,
+          "sha256": "d3dc4d3ce309252191c4594cafdf43e60469b288d6d189415145d9bf03a544a1"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 60,
+              "start": 60
+            },
+            {
+              "end": 73,
+              "start": 73
+            }
+          ],
+          "expectedRawSha256": "988cc2896ff04d3167e5b0137c17e2c15ba9eb17b44b7376525b283dba773b9d",
+          "expectedRenderedSha256": "6d9610b6498a092a3a83ce486a3c8f1f335a9bc3b1d08cf3328404d80ac67098",
+          "row": 13,
+          "sha256": "178210bda24e0959998cab3c3e71014726c26661a074594670fd8199c8e45bb2"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 60,
+              "start": 60
+            },
+            {
+              "end": 73,
+              "start": 73
+            }
+          ],
+          "expectedRawSha256": "97423fa47c6573fd4687e41c20be457d6ca2aae50d1b7f2bbdd23e67f2fbed55",
+          "expectedRenderedSha256": "7ad850c400c79a2aa9e66146a7742dab29a510c77b8df4f9c221221119a7ba90",
+          "row": 14,
+          "sha256": "55b0adec7642a2ffacebccc589a283ea7861cbaec849676cb37ef19e591171bd"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 60,
+              "start": 60
+            },
+            {
+              "end": 73,
+              "start": 73
+            }
+          ],
+          "expectedRawSha256": "fd3e8c40f3915dc79811b6044921d893648abad7ceb4a2df16706969bf78d58b",
+          "expectedRenderedSha256": "818c8e3cf7754cd7a467f1042a24b32e110cd9e68b1a895f7a630e2263e0dca3",
+          "row": 15,
+          "sha256": "def4c3c2b831e09e41005ebc689f436d25da3813fddf1a8d16fc1cdf67257e6e"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 60,
+              "start": 60
+            },
+            {
+              "end": 73,
+              "start": 73
+            }
+          ],
+          "expectedRawSha256": "f496f57a50fb860401de38574f3b4e82732fa0d8a56a8557831d7b19ce8fd9c6",
+          "expectedRenderedSha256": "9b4ba6f81f611ef5e89164eee1a080ab30cb5278df5296cf5a5da8a7d9905164",
+          "row": 16,
+          "sha256": "0c6da388de636043e863eba88961c351d4e3f5aade62b7b0a7f6f44fb426de12"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 60,
+              "start": 60
+            },
+            {
+              "end": 73,
+              "start": 73
+            }
+          ],
+          "expectedRawSha256": "d5ed76cfce78f842fb8f7b21205d4bc06d602e8427ccf69e284bb82538aafab8",
+          "expectedRenderedSha256": "47a938f5e270b3f52b2f63fda98b7983383a3e53ac747c8c1cd485d5b58ab278",
+          "row": 17,
+          "sha256": "bc9f15d992a69465d666154b737158f280cd9bb2e63cf50cbc9231fd422ccb54"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 60,
+              "start": 60
+            },
+            {
+              "end": 73,
+              "start": 73
+            }
+          ],
+          "expectedRawSha256": "e15192b2d26ead5b2e2a6cfb02ab1a55dfdf71ee4a4ef3298c847b393b63175b",
+          "expectedRenderedSha256": "e320d56d17b064bebf0e1913d331bc0ddfec58a98e81ed9773bfe9146b119c7c",
+          "row": 18,
+          "sha256": "76d387f1168f557f42f22348686770320de5c6c57db0964e9a73d83d9c0998d8"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 60,
+              "start": 60
+            },
+            {
+              "end": 73,
+              "start": 73
+            }
+          ],
+          "expectedRawSha256": "eab58db31b9668908ed03afb0a0499b063b4dd4d4729fcdd9b225e622afde3bd",
+          "expectedRenderedSha256": "f3247b0f7ce8c3cc8676a7e9ce7ea73f5a6f669b2035949bb25bd67ec78df7b2",
+          "row": 19,
+          "sha256": "53180448f97e99e9f694ddc23dc4a34e54611e3142a80241cbbab162491871ea"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 60,
+              "start": 60
+            },
+            {
+              "end": 73,
+              "start": 73
+            }
+          ],
+          "expectedRawSha256": "fe402617b3e69d288b7554cee22d15c0826aa350922b362543b19faf09a9ab19",
+          "expectedRenderedSha256": "7c0fd19cc9bb7e3b941751d4e9a119a4640fbb3afd74a339d21ed840dc0a5d9f",
+          "row": 20,
+          "sha256": "24576e189660f1450b3b0e7511e3f7e48471bd4f0661fcab5de3b087c6a0ad02"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 60,
+              "start": 60
+            },
+            {
+              "end": 73,
+              "start": 73
+            }
+          ],
+          "expectedRawSha256": "a0ef212b624f5c59a0ed0c51d57c5a346e8e392eec05dcfd090f69a1ecafd1b0",
+          "expectedRenderedSha256": "18310a571b2223c515d54cb40b83e9d8a97da7a4029253ef7d932c08fd8c0603",
+          "row": 21,
+          "sha256": "2140f9964dbc715359f2d5ca145c775b16b5c2abb7b0c0860bd482614939fda3"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 60,
+              "start": 60
+            },
+            {
+              "end": 73,
+              "start": 73
+            }
+          ],
+          "expectedRawSha256": "7356484c3fa8ae677a4d6e06734aa55918f56bc3b59ce8f3429adaaea6ea0344",
+          "expectedRenderedSha256": "1d2b217128b87cb22fb287406d3dafd48bac3e394edfd8edf987dbf484972ee5",
+          "row": 22,
+          "sha256": "50f23b9abd5336caa9259bfdf5dbee94d9b155e2c9c676dc8acebb4dd9b5a874"
+        }
+      ],
+      "file": "16c-awe9706-tna-pod2.ps1",
+      "rationale": "A historical whole-gallery detector explicitly selected this coherent generic-label family. Fresh full-payload review confirmed that each projected range contains only residual alphabetic menu slots, dummy command/info copy, or separable placeholder punctuation. Exact live-source hashes and one-based source-cell ranges preserve authored titles, attribution, functional prompts, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/research-residual-generic-labels-high-confidence.txt",
+        "temp/text-blanking-continuation/research-residual-generic-labels-report.json",
+        "temp/text-blanking-continuation/batch44-high-confidence-generic-reconciliation.json",
+        "temp/text-blanking-continuation/batch44-focused-review.json",
+        "temp/text-blanking-continuation/batch44-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch44-reconciled-generic-label",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 41,
+              "start": 29
+            }
+          ],
+          "expectedRawSha256": "22ab99765ef8857e22fb1f688e5985e7a61411f66c3445038cc0a4f708d2e6a0",
+          "expectedRenderedSha256": "fbab4a1c60593b4768a0c1e86beb5c9c3150c67114ad06ef70c54afd467d5234",
+          "row": 23,
+          "sha256": "4a8044e6c081555931d2f439b12cb12153c2cf17f6579b71f2cb05ac40e8135a"
+        }
+      ],
+      "file": "16c-fuel16-sc-artf.ps1",
+      "rationale": "A historical whole-gallery detector explicitly selected this coherent generic-label family. Fresh full-payload review confirmed that each projected range contains only residual alphabetic menu slots, dummy command/info copy, or separable placeholder punctuation. Exact live-source hashes and one-based source-cell ranges preserve authored titles, attribution, functional prompts, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/research-residual-generic-labels-high-confidence.txt",
+        "temp/text-blanking-continuation/research-residual-generic-labels-report.json",
+        "temp/text-blanking-continuation/batch44-high-confidence-generic-reconciliation.json",
+        "temp/text-blanking-continuation/batch44-focused-review.json",
+        "temp/text-blanking-continuation/batch44-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch44-reconciled-generic-label",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 34,
+              "start": 33
+            },
+            {
+              "end": 54,
+              "start": 53
+            }
+          ],
+          "expectedRawSha256": "2023398754c76445695c7da86bd377b903b5972cf6ab7c444d3e268541c02471",
+          "expectedRenderedSha256": "c0b1fdacac63d17c89274921932d75af6e4aacb78f7ad3cad27325745ff5fd3d",
+          "row": 19,
+          "sha256": "a7dd885ed2174f9b2fb2e6661fdfffdb3d37392500607164ae20c7685997af55"
+        }
+      ],
+      "file": "16c-mdn-9706-mr-domen.ps1",
+      "rationale": "A historical whole-gallery detector explicitly selected this coherent generic-label family. Fresh full-payload review confirmed that each projected range contains only residual alphabetic menu slots, dummy command/info copy, or separable placeholder punctuation. Exact live-source hashes and one-based source-cell ranges preserve authored titles, attribution, functional prompts, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/research-residual-generic-labels-high-confidence.txt",
+        "temp/text-blanking-continuation/research-residual-generic-labels-report.json",
+        "temp/text-blanking-continuation/batch44-high-confidence-generic-reconciliation.json",
+        "temp/text-blanking-continuation/batch44-focused-review.json",
+        "temp/text-blanking-continuation/batch44-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch44-reconciled-generic-label",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 46,
+              "start": 45
+            },
+            {
+              "end": 64,
+              "start": 63
+            }
+          ],
+          "expectedRawSha256": "f7c47bd1f900cf1274cf2a593c9e34c47fbf280c421b2906aaf8fc664255ff20",
+          "expectedRenderedSha256": "ee3706bb18df1da10e2dbc9d7c8239ea54d2eb82bb971addc645d7d54ee2e47e",
+          "row": 6,
+          "sha256": "0d9270c4c9a8910a233f173b436f0b59458a080b7e5c619dc70d2088ed4e1e46"
+        }
+      ],
+      "file": "16c-phat0297-in-0297a-part02.ps1",
+      "rationale": "A historical whole-gallery detector explicitly selected this coherent generic-label family. Fresh full-payload review confirmed that each projected range contains only residual alphabetic menu slots, dummy command/info copy, or separable placeholder punctuation. Exact live-source hashes and one-based source-cell ranges preserve authored titles, attribution, functional prompts, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/research-residual-generic-labels-high-confidence.txt",
+        "temp/text-blanking-continuation/research-residual-generic-labels-report.json",
+        "temp/text-blanking-continuation/batch44-high-confidence-generic-reconciliation.json",
+        "temp/text-blanking-continuation/batch44-focused-review.json",
+        "temp/text-blanking-continuation/batch44-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch44-reconciled-generic-label",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 42,
+              "start": 42
+            },
+            {
+              "end": 53,
+              "start": 53
+            }
+          ],
+          "expectedRawSha256": "19453198c3282c03030305b2e1b6b518a70bf44d5a633eadc5bfd6e96cbe2c95",
+          "expectedRenderedSha256": "2410f55550d86cd93e0f2f5c672c717f314f7b9a4455d05836b963fdf34b93ec",
+          "row": 8,
+          "sha256": "e7e1cca9642e58075f9cc97232355bf74f37c96572a3865d4d5d18b35a674e0a"
+        }
+      ],
+      "file": "16c-phat0997-us-tjg.ps1",
+      "rationale": "A historical whole-gallery detector explicitly selected this coherent generic-label family. Fresh full-payload review confirmed that each projected range contains only residual alphabetic menu slots, dummy command/info copy, or separable placeholder punctuation. Exact live-source hashes and one-based source-cell ranges preserve authored titles, attribution, functional prompts, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/research-residual-generic-labels-high-confidence.txt",
+        "temp/text-blanking-continuation/research-residual-generic-labels-report.json",
+        "temp/text-blanking-continuation/batch44-high-confidence-generic-reconciliation.json",
+        "temp/text-blanking-continuation/batch44-focused-review.json",
+        "temp/text-blanking-continuation/batch44-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch44-reconciled-generic-label",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 47,
+              "start": 36
+            }
+          ],
+          "expectedRawSha256": "4f447e7ffa2ddaa75a6697e2e6e1bf6eeb3be7e85b52a6baf885687783ae6971",
+          "expectedRenderedSha256": "c5c5a11b036f8d2eea48012b31a756f186e2f44432ecf25269464789ecf3b058",
+          "row": 24,
+          "sha256": "8ca09630cb0b670709779ce1024a03ebdd3966fe9992d29c4955a22930b772a1"
+        }
+      ],
+      "file": "16c-zenith01-sor-inq2.ps1",
+      "rationale": "A historical whole-gallery detector explicitly selected this coherent generic-label family. Fresh full-payload review confirmed that each projected range contains only residual alphabetic menu slots, dummy command/info copy, or separable placeholder punctuation. Exact live-source hashes and one-based source-cell ranges preserve authored titles, attribution, functional prompts, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/research-residual-generic-labels-high-confidence.txt",
+        "temp/text-blanking-continuation/research-residual-generic-labels-report.json",
+        "temp/text-blanking-continuation/batch44-high-confidence-generic-reconciliation.json",
+        "temp/text-blanking-continuation/batch44-focused-review.json",
+        "temp/text-blanking-continuation/batch44-focused-crosscheck.json"
+      ]
+    }
+  ],
+  "normalization": "SHA-256 of UTF-8 visible terminal-cell rows after ANSI-control removal and outer-whitespace trimming. Every row also pins exact raw projected and rendered hashes plus one-based inclusive blank-column ranges.",
+  "pendingInputs": [],
+  "policy": "Fail-closed reconciliation of every surviving row in the historical high-confidence generic-label selection after Batch 43, plus one visually verified continuation row from the same accepted menu family. Only separable generic menu slots and dummy command/info markers are included. Artwork, attribution, identities, titles, functional prompts, and structural text remain intact.",
+  "reviewedAt": "2026-08-01",
+  "schemaVersion": 1,
+  "status": "ready",
+  "summary": {
+    "adjacentSafeExtensions": 1,
+    "blankColumnRows": 52,
+    "candidateFiles": 13,
+    "candidateGroups": 13,
+    "categoryRows": {
+      "batch44-reconciled-generic-label": 52
+    },
+    "evidenceRows": 52,
+    "historicalSelectionRows": 51,
+    "priorAcceptExtensions": 44,
+    "priorRetainSupersessions": 0
+  }
+}

@@ -1,18 +1,4 @@
-﻿# Converted from: US-THIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-03/raw/US-THIN.ANS
-# Source Revision: archive-sha256:8cf981d9c660d9c99945a037cc3975e95985d6099e63c9913bd07526abf36ba1
-# Source SHA-256: 9156eca446efd8d330ba9b27a0dbd14ad5f9c063a967c3c5fd4cb96b06d5f8df
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-THIN.ANS by Massm + Catch 22 (joint font); released in glue-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: thin air
-# SAUCE Author: massm / catch22
-# SAUCE Group: joint font
-# SAUCE Date: 19970928
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: thin air by Massm + Catch 22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-03-us-thin
 
 Write-Host '
 

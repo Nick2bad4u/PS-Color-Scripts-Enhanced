@@ -1,18 +1,4 @@
-﻿# Converted from: SE-UGTEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1095/raw/SE-UGTEN.ANS
-# Source Revision: archive-sha256:488aebab08e35324a58b5bebccf7bdfbf1e869dd6136b50cfbc4e715d6ca4745
-# Source SHA-256: 7d6d3167cd49660562ad96266fbf92f6b016f1372e731bec93c4bb3f7c369713
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SE-UGTEN.ANS by Sharp Edge (ACiD Productions); released in acdu1095 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Underground Tensions
-# SAUCE Author: Sharp Edge
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19951001
-# SAUCE Dimensions: 80x69
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Underground Tensions by Sharp Edge | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1095-se-ugten-part01
 
 Write-Host '
 [1m██[0;1;47m▓▓▓▓▓▒▓▓▓▒▒▒░▒▒░░░░░[0m██[1;47m░[0m████████[1;30;47m░░░▒░░░▒▒▓▒▒▓▓▓▓█[0;1;30;40m█[0;1;30;47m▓[0;1;30;43m█[0;1;30;40m█▄▄▄[0;31m  ▀▀██▄▄       ▀▀ ▄▌[0;33m▐██[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: CW43-REV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense15j/raw/CW43-REV.ANS
-# Source Revision: archive-sha256:d06155f7d5e0b32644f10222adb0228fd6a61c0d1874216761244815dabceb89
-# Source SHA-256: c63684cc45299b9aab5e11cd404bfa0c8dd273acd2a2522872dd20aa5da437ee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CW43-REV.ANS by Ceelow + Slackzor + Aesthetic (sense15j); released in sense15j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: CW43-REV.ANS by Ceelow + Slackzor + Aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense15j-cw43-rev
 
 Write-Host '
   [34m [0m                                                                 [37m░[0m        [37m▄[0;1;37m▄[0;1;30m▀[0m

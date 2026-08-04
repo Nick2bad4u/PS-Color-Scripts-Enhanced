@@ -1,18 +1,4 @@
-﻿# Converted from: KT-XTREM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca0497a/raw/KT-XTREM.ANS
-# Source Revision: archive-sha256:7a734d4a0f66cec612ff9dd555f22ae742c0c148ca8b062dcada217d3ed01454
-# Source SHA-256: 7252cb3801965f48d18ec97fde3ac81f6970bcec31697c718913205bcb5ed81b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KT-XTREM.ANS by Kitiara (RCA); released in rca0497a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: X-trema view
-# SAUCE Author: Kitiara
-# SAUCE Group: RCA
-# SAUCE Date: 19970213
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: X-trema view by Kitiara | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca0497a-kt-xtrem
 
 Write-Host '
                       ▄▄▄[43m▓▒[0;40m▀▀[0;1;40m▄▄▄▄▄▄▄[0m     [1m▄▄▄▄▄▄▄[0m▀▀[43m▒▓[0;1;47m░[0;43m▓▒▓[0;40m▄▄▄ [0m

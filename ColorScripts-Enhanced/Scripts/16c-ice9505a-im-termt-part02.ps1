@@ -1,18 +1,4 @@
-﻿# Converted from: IM-TERMT.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9505a/raw/IM-TERMT.ICE
-# Source Revision: archive-sha256:7861518dfd83d60b94b81bdb02a8d68bbd05655ea908dea3b656c859ebf9150f
-# Source SHA-256: 856f22a5b991250ed8c26a4cf31fe49cdf85b6db40379588791440665b80c64d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IM-TERMT.ICE by image (ice); released in ice9505a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Termite Terrace
-# SAUCE Author: image
-# SAUCE Group: ice
-# SAUCE Date: 19950521
-# SAUCE Dimensions: 80x154
-# Lines: 41-81
-# Columns: 1-80
+﻿# Artwork: Termite Terrace by image | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9505a-im-termt-part02
 
 Write-Host '
 ▒▒▓▀[33m▄▄▄[0;1;30m▀▀■[0m▀ ░▒▓▄[33m▀[0;1;31;43m▓[0;1;31;40m▌░▒▓▒ [0m▄[1;30;47m░[0m▀▀ ▄[1;47m░[0;1;30;47m░░▒[0m [1;30;47m░[0m▓▒░  [33m   ▄▄[0;1;37;43m▒[0;1;37;40m▀▀[0;33m▄[0;1;33;43m░[0;33m [0;1;37m▄▄[0;33m [0;1;37m▀▌▀▀[0m  [1m▄▄[0m [1m▀[0;33m [0;1;37m▄▄█[0;33m [0;1;30m▄▓▀[0m▄▀▀▀[1;30m▄▄[0m

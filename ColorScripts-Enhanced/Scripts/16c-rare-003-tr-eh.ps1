@@ -1,13 +1,4 @@
-﻿# Converted from: TR-EH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rare-003/raw/TR-EH.ANS
-# Source Revision: archive-sha256:de78ce19727ea90c75e1ecc7f5b4d900676dc27b4dceb8a870f61665ee210859
-# Source SHA-256: 4c4d0523efcf636c03daab14ec809320ef72ba72c179cb9224f4d10fba8d2c22
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-EH.ANS by Tee_Are (rare-003); released in rare-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: TR-EH.ANS by Tee_Are | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rare-003-tr-eh
 
 Write-Host '
     [1;33m`b.`b.[0m          [1;33m,7┘ⁿⁿ`[0m                            [1;33m''ⁿⁿ└b.  [0m      [1;33m  ,7''.d''    [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: PC-ATHEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense13/raw/PC-ATHEN.ANS
-# Source Revision: archive-sha256:b0563618478d6216eb6bd83ff569d789b2e87f637bf95d7f88699f5b40df3192
-# Source SHA-256: d5f91a4c5da4a61ab39f0ed71127ea253e562544fe5c8544aee500607636534f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-ATHEN.ANS by Proctologist (SeNSE); released in sense13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Athen(s)
-# SAUCE Author: Proctologist
-# SAUCE Group: SeNSE
-# SAUCE Date: 19980912
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Athen(s) by Proctologist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense13-pc-athen
 
 Write-Host '
   [1;30m`"ⁿ$$$$$$$$$$$$$$$$$$$$b,[0m      [1;35m,gS$$$$$$$[0;35m$Sg,[0m      [1;30m,d$$$$$$$$$$$$$$$$$$$$ⁿ"`[0m

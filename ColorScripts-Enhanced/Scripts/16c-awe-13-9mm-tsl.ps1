@@ -1,18 +1,4 @@
-﻿# Converted from: 9MM-TSL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-13/raw/9MM-TSL.ANS
-# Source Revision: archive-sha256:fab7f52e9d735740432e5cc1693a7c3574c7cc669fe711a2863770d2425cce92
-# Source SHA-256: 9698bf03fc1c95afeefe2437ad0c6a3a69c047c5799d0502c4cfa957ed9f297d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 9MM-TSL.ANS by 9 Millimeter (AWE Lettering); released in awe-13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Savage Land
-# SAUCE Author: 9 Millimeter
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19971215
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: The Savage Land by 9 Millimeter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-13-9mm-tsl
 
 Write-Host '
 [1;36m░ ▄▄[0;1;37m▄[0m       [1;37m░░░[0m                                                    [33m▄▄▄▄▐[0;1;33;43m▓▓██[0;1;33;40m░░[0m

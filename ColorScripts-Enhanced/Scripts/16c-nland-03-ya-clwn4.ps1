@@ -1,18 +1,4 @@
-﻿# Converted from: YA-CLWN4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nland-03/raw/YA-CLWN4.ANS
-# Source Revision: archive-sha256:7ddb21e455f18ac13bd1d0242ad29db8419e3ff5847d9aa5ea635b533172de76
-# Source SHA-256: 56ef8f2d87507ad7d6c1db4789f3d452a43b18a153b0e29503ab12b268489c31
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: YA-CLWN4.ANS by Yasop (NeveRLanD); released in nland-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Clown BBS
-# SAUCE Author: Yasop
-# SAUCE Group: NeveRLanD
-# SAUCE Date: 19960111
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Clown BBS by Yasop | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nland-03-ya-clwn4
 
 Write-Host '
 

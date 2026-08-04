@@ -1,18 +1,4 @@
-﻿# Converted from: 33-TREG3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/33-pic95/raw/33-TREG3.ANS
-# Source Revision: archive-sha256:cb087acd81a851210de22e3c5d37c8f07d2236b75952adfe16e824d8820e530d
-# Source SHA-256: 5d7a4627b3283646596b36d2146a28e56bfbbd30a7eb7ee5b3e9bcd70a8e4809
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-TREG3.ANS by Eerie (Spastic Studios); released in 33-pic95 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Regency
-# SAUCE Author: Eerie
-# SAUCE Group: Spastic Studios
-# SAUCE Date: 19950304
-# SAUCE Dimensions: 80x25
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: The Regency by Eerie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-33-pic95-33-treg3-part01
 
 Write-Host '
 [1;30m███████████████████ ▀▀▀▓    ▀▀ ▓[0m            [1;30m░   ░░[0m                [1;30m▐▓▄ ■    ░  ▒[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: KT-EVIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/saga9509/raw/KT-EVIL.ANS
-# Source Revision: archive-sha256:aa92751db49565be37784e7233d72ac6fc44a6489327e79fff3f8705162d151c
-# Source SHA-256: 3a243212abf21c08346951041278e2477700569ac46b1e085082b654e35bc40d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KT-EVIL.ANS by Knight*time (Saga); released in saga9509 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Evil Intentions
-# SAUCE Author: Knight*time
-# SAUCE Group: Saga
-# SAUCE Date: 19950811
-# SAUCE Dimensions: 80x159
-# Lines: 132-159
-# Columns: 1-80
+﻿# Artwork: Evil Intentions by Knight*time | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-saga9509-kt-evil-part04
 
 Write-Host '
                       [1;30;40m░[0m        [1;30;40m░[0m                  [1;30;40m░ ▄[0m▄[1;30m▄▄█[0;1;30;47m▀▀▀[0;1;30;40m█▄▄▄▄ ░    ░[0m

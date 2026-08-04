@@ -1,13 +1,4 @@
-﻿# Converted from: POE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dead/raw/POE.ANS
-# Source Revision: archive-sha256:42002c7465322e6567b6ada22b7d24270f500cdc26769d5efac519e13d8ec757
-# Source SHA-256: a4f7ebf4dd38a3f4baaa046c316e31f4e51d85096f9dd5f3c99888ab1e5d714f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: POE.ANS by Death Knight (dead); released in dead and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: POE.ANS by Death Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dead-poe
 
 Write-Host '
                             ▄

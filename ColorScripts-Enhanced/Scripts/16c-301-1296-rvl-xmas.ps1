@@ -1,18 +1,4 @@
-﻿# Converted from: RVL-XMAS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/301-1296/raw/RVL-XMAS.ANS
-# Source Revision: archive-sha256:6f239dcc15d58c6d9331e0bb065ccce7fcfdce2ee998eb6b4810f78fc2937b38
-# Source SHA-256: 2b377011efe72e218eca1f1a62dc23692643559582423f9a0e20b7948590a946
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RVL-XMAS.ANS by revelation (project/301); released in 301-1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: merry (late) christmas :)
-# SAUCE Author: revelation
-# SAUCE Group: project/301
-# SAUCE Date: 19961227
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: merry (late) christmas :) by revelation | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-301-1296-rvl-xmas
 
 Write-Host '
  [35m        [0;1;35m▄[0;35m [0;1;35m▄▄[0;35m▄                [0;37m                                                 [0m

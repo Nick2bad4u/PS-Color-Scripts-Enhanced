@@ -1,17 +1,4 @@
-﻿# Converted from: JB-DISU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/stream02/raw/JB-DISU.ANS
-# Source Revision: archive-sha256:99ccdbf56a1596d90c9717159e36ad8c588225a8a303f91c5563e6289f76bfcb
-# Source SHA-256: 9df5993f87349f42ed0a9248b0756939f6d4e7e2edf4f2a78f808918ec91318c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JB-DISU.ANS by jab (stream); released in stream02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: haciend el bananas artcompo contrib
-# SAUCE Author: jab
-# SAUCE Group: stream
-# SAUCE Date: 19961231
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: haciend el bananas artcompo contrib by jab | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-stream02-jb-disu
 
 Write-Host '
     [31m  ▒▒[0m           [31m [0;37m  [0;31m [0m              [37m  [0;1;31m   [0;31m ▄▄[0;1;31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;31m▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: TNA-OOZE.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9602a/raw/TNA-OOZE.ICE
-# Source Revision: archive-sha256:a7cb032b47574ac80269aea88d994085abecd77228955f55ef8d0e5338bc0184
-# Source SHA-256: f0299173a81225b78f380e0b24d41c97575bfa5f77703246643e79d70bfb4ba1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-OOZE.ICE by TNA (iCE Advertisements); released in ice9602a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Oozing Dudes with Impure Free Coke
-# SAUCE Author: TNA
-# SAUCE Group: iCE Advertisements
-# SAUCE Date: 19960307
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Oozing Dudes with Impure Free Coke by TNA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9602a-tna-ooze
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: KT-OK2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-04/raw/KT-OK2.ANS
-# Source Revision: archive-sha256:f04608afaefba8c1df0eb2e2fba588db42125ae9ca8868869f55a444379576da
-# Source SHA-256: e19eb15858f67c7ec36aa02a035833a3f1fbba8c2838df962971a8fde92fab99
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KT-OK2.ANS by kURRUPt (fORCE); released in force-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ORGANiZEd kAOS
-# SAUCE Author: kURRUPt
-# SAUCE Group: fORCE
-# SAUCE Date: 19951005
-# SAUCE Dimensions: 80x104
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: ORGANiZEd kAOS by kURRUPt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-04-kt-ok2-part01
 
 Write-Host '
 [1;30m──────────────────────────[0m ▄ [1;30m───────────────────────────────────────────────────[0m

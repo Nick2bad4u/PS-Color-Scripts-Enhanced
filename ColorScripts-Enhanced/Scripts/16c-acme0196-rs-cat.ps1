@@ -1,18 +1,4 @@
-﻿# Converted from: RS-CAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acme0196/raw/RS-CAT.ANS
-# Source Revision: archive-sha256:c6fe41920b57611c0b3b708ba1eab112f305d080bef9a4a699c6d17869098d06
-# Source SHA-256: 73db7b13b32086340037e29540a142d2aa71a7f1447fb650cd8950643e581a14
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-CAT.ANS by rusty (acme); released in acme0196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ansi for cat<acid>
-# SAUCE Author: rusty
-# SAUCE Group: acme
-# SAUCE Date: 19951210
-# SAUCE Dimensions: 80x38
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: ansi for cat<acid> by rusty | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acme0196-rs-cat
 
 Write-Host '
 [1;30m█▀▀▀▀▀▓▀▀▀[0m [1;30m▄▄▄▄▀▀▀▀▀▀▀▄▄[0;34m▄[0;1;30m▄[0;34m▄▄▄▄▄▄▄[0;1;34m▄[0;34m▄[0;1;34m▄▄[0;34m▄[0;1;34m▄▄▄[0;1;30m▀▀▀▀▀▓▀▀▀▓▀▀▀▓▀▀▀▓▀▀▓▀▀▀▀▓▀▀▀▀▀▀▓▀▀▀▀▓▀[0m

@@ -1,16 +1,4 @@
-﻿# Converted from: lmn-sombra_espejo.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impure79/raw/lmn-sombra_espejo.ans
-# Source Revision: archive-sha256:b4622c4fdfafdd578f3db64bb2bcff19a7154106ecf4c0e2e9ebef264d05fe2b
-# Source SHA-256: f99c7670929f7059fba765f8e157001a45b9e6d6c80174ba1b30a8583126e287
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: lmn-sombra_espejo.ans by Lavaramano (impure79); released in impure79 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20210425
-# SAUCE Dimensions: 80x30
-# SAUCE Font: IBM VGA
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: lmn-sombra_espejo.ans by Lavaramano | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impure79-lmn-sombra-espejo
 
 Write-Host '
 

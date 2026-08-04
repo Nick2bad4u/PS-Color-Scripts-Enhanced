@@ -1,13 +1,4 @@
-﻿# Converted from: ma-grssh.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot0198/raw/ma-grssh.ans
-# Source Revision: archive-sha256:7952109d83ab43458509eae0ab06692cf4f74f0e9e4252a478e28e2dff87767e
-# Source SHA-256: 42c5f3eabb4f9eca1f3c9033a572bd6c2ab733c59d9bea0c0b4f05c4129a028e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ma-grssh.ans by Maelstrom (riot0198); released in riot0198 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ma-grssh.ans by Maelstrom | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot0198-ma-grssh
 
 Write-Host '
 [1;46m░░░▒▒▒▒▒▒▒▒▒░░░░[0;30;46m                     [0;36;43m▀▀▀▀▀▀▀▀▀[0;30;46m                     [0;1;32;46m▌[0;30;46m [0;1;32;46m▐[0;30;46m   [0;1;32;46m▌[0;30;46m [0;1;32;46m▌[0;1;33;46m▀███[0m

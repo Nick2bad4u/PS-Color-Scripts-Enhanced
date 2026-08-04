@@ -1,13 +1,4 @@
-﻿# Converted from: SR-BUKA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-003/raw/SR-BUKA.ANS
-# Source Revision: archive-sha256:09817656d743388b570b7dfb39c4f133f8c40aecb92562f60d9e0c45a3f39730
-# Source SHA-256: 55af936f9f83d526ceae70d93faef3ebe3c7f0ff61c5a1a7f4d5ce4d179d1ebb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SR-BUKA.ANS by Scroller (rib-003); released in rib-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: SR-BUKA.ANS by Scroller | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-003-sr-buka
 
 Write-Host '
                                        [36m▄█▀▌  ▄▄   [0;1;36;46m░░[0m

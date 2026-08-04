@@ -1,13 +1,4 @@
-﻿# Converted from: M0-ORG2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/3o3pack4/raw/M0-ORG2.ANS
-# Source Revision: archive-sha256:3a7324cf28c2b64b546cb6909029bbdfd9f549d1041617fe77acf1890b6f6ec6
-# Source SHA-256: 94aaab47326b19b88f537a411c91f3c35f5fc9bad9b8628038afe883d8318b08
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M0-ORG2.ANS by Mosen (3o3pack4); released in 3o3pack4 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: M0-ORG2.ANS by Mosen | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-3o3pack4-m0-org2
 
 Write-Host '
 

@@ -1,13 +1,4 @@
-﻿# Converted from: CM-DD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dope0894/raw/CM-DD.ANS
-# Source Revision: archive-sha256:e977fdb209d355bbe4dc1d9686fd5de8aacfb2e90f44da96b48f66ce4d326cda
-# Source SHA-256: af932fe85a342e03dbc612738d9a21dbefbdbf80e2fc79426a52c5b94df75708
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CM-DD.ANS by Crackerman (dope0894); released in dope0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: CM-DD.ANS by Crackerman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dope0894-cm-dd-part01
 
 Write-Host '
                                    [31m▄▌[0m

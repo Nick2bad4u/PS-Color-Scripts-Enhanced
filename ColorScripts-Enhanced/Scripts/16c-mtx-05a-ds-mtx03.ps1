@@ -1,18 +1,4 @@
-﻿# Converted from: DS-MTX03.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mtx-05a/raw/DS-MTX03.ANS
-# Source Revision: archive-sha256:6817231a1a44144352ea5d83b821e68df522e7d25303f99959f877f5bbbaf996
-# Source SHA-256: 8b924c598dd056fe4cba51aebe884fdd5417d4a81e883362da27e774aade215f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-MTX03.ANS by Darkside (MATRiX); released in mtx-05a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Matrix Logo #03
-# SAUCE Author: Darkside
-# SAUCE Group: MATRiX
-# SAUCE Date: 19951024
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Matrix Logo #03 by Darkside | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mtx-05a-ds-mtx03
 
 Write-Host '
 [34m─────────[0;1;34m──[0;34m──[0;1;34m─[0;34m──[0;1;34m────────[0;1;36m─[0;1;34m─[0;1;36m──[0;1;34m──[0;1;36m──────[0;1;37m─[0;1;36m─[0;1;37m────[0;1;36m─[0;1;37m──[0;1;36m─────[0;1;34m─[0;1;36m─[0;1;34m─[0;1;36m──[0;1;34m─────────[0;34m──[0;1;34m──[0;34m─[0;1;34m─[0;34m──────────[0m

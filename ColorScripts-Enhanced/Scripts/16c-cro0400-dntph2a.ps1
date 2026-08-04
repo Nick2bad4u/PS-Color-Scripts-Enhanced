@@ -1,13 +1,4 @@
-﻿# Converted from: DNTPH2A.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cro0400/raw/DNTPH2A.ANS
-# Source Revision: archive-sha256:21930074eda621a89b688d4b1d0e2f0b6844462d7f5660709d9b5b54b70a385f
-# Source SHA-256: 83fedbabfb79ccc82ccefbe3b68397ba4dd0ed3aa8ef4f60e29f7f0545583e1a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DNTPH2A.ANS by Dennison (cro0400); released in cro0400 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: DNTPH2A.ANS by Dennison | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cro0400-dntph2a
 
 Write-Host '
 [1m [0m

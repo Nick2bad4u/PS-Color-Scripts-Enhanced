@@ -1,13 +1,4 @@
-﻿# Converted from: avg-bflag.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_16colors/raw/avg-bflag.ans
-# Source Revision: archive-sha256:906b8658ae1b298a9794b2bd98c553b56bef4b4de5008bd765b49c3ed6b68572
-# Source SHA-256: 92613098c99de2eeef0c92dc52f31ad662fdaf42c39c1d3c565f72aec3111a18
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-bflag.ans by Avenging Angel (blocktronics_16colors); released in blocktronics_16colors and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: avg-bflag.ans by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-16colors-avg-bflag
 
 Write-Host '
 [1;34mavg_[0m                        [34m ▄▄[0m

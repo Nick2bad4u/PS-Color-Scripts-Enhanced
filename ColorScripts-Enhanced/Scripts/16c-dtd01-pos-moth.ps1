@@ -1,18 +1,4 @@
-﻿# Converted from: POS-MOTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dtd01/raw/POS-MOTH.ANS
-# Source Revision: archive-sha256:708f42274510c5a14e730f5bfaed08f3467d44dc8c43077c289cc2c76c74ff80
-# Source SHA-256: e4175752b485b82149d809d68c6cb887ecb3a72f1da403bdc340a869aa0ef456
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: POS-MOTH.ANS by positive pain (dtd); released in dtd01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: mother north banner
-# SAUCE Author: positive pain
-# SAUCE Group: dtd
-# SAUCE Date: 19970303
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: mother north banner by positive pain | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dtd01-pos-moth
 
 Write-Host '
           [31m.s@S$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$S@s.[0m

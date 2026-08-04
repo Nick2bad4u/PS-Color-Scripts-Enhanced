@@ -1,13 +1,4 @@
-﻿# Converted from: AT2DEMO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0892/raw/AT2DEMO.ANS
-# Source Revision: archive-sha256:14bcca9d3edaab7b8929bb1c3df270abeebca1720c862cdfff0859ed6d69dd7d
-# Source SHA-256: c9abb8b676c44159f87f6fb2417c73cb548aa078fcfda1e2bc0868785343178a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AT2DEMO.ANS by Jed (acdu0892); released in acdu0892 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 42-70
-# Columns: 1-80
+﻿# Artwork: AT2DEMO.ANS by Jed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0892-at2demo-part02
 
 Write-Host '
                                [34m▄▄▄███[0;1;34;44m▄▄▄▄[0;34m▄▄▄[0m

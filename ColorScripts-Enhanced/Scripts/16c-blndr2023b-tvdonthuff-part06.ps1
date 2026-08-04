@@ -1,20 +1,4 @@
-﻿# Converted from: TVDONTHUFF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr2023b/raw/TVDONTHUFF.ANS
-# Source Revision: archive-sha256:d1013da0ea56e008d06d0a1e802ccadb885bc075764abe4bf35ae7001c1b7159
-# Source SHA-256: 75480df3883ba75aa90a16183cc0d9014a57ea1dbef3acb313efc957358908f5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TVDONTHUFF.ANS by tv.TELEKOVISION (7B"); released in blndr2023b and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: tv.BLENDER.4-23-23
-# SAUCE Author: tv.TELEKOVISION
-# SAUCE Group: 7B"
-# SAUCE Date: 20230423
-# SAUCE Dimensions: 80x474
-# SAUCE Font: IBM VGA
-# SAUCE Comments: 80 x 474 - 9px x no ice colors
-# Lines: 251-300
-# Columns: 1-80
+﻿# Artwork: tv.BLENDER.4-23-23 by tv.TELEKOVISION | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr2023b-tvdonthuff-part06
 
 Write-Host '
 [37m         [0;1;34m▀▄▄[0m         ▒▒[36m░▓[0;1;37;47m░▓[0;1;33;47m██▒[0m█▓   ▓█[33m██▓▒▓▒░▒▒▓█[0;1;37;43m░▒▓▓[0;1;37;47m░▓[0;33m██▓▒  ░▓[0;37m█[0;1;37;47m░▒▒▒[0;1;37;41m░[0;31m██[0;37m█[0;32m██████[0;37m░[0m

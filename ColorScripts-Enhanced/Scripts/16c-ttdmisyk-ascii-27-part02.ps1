@@ -1,13 +1,4 @@
-﻿# Converted from: ASCII-27.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ttdmisyk/raw/ASCII-27.ANS
-# Source Revision: archive-sha256:691d88fad8510c75499187262885f1f653d52455952817f34e55b7599917acfc
-# Source SHA-256: 08ef8f0f3b1a3f4d22e603fa72a17a8e5fb31fc3ebc4db12ce06e2136c6435c0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ASCII-27.ANS by Konami (ttdmisyk); released in ttdmisyk and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 41-82
-# Columns: 1-80
+﻿# Artwork: ASCII-27.ANS by Konami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ttdmisyk-ascii-27-part02
 
 Write-Host '
 [31m| [0;1;31m *[0;1;33m²"^`_.,[0;1;31ms$[0;31m$l[0;1;33m [0m  [35m$$$$$b,.l$$$$$ [0;37m [0;1;31m$$[0;1;33m$$SS@@s/[0;1;37m      [0;35m`"²┴[0;1;35m*$$$$[0m            [1m [0m   [1;30m...[0m

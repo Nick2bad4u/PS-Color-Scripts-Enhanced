@@ -1,18 +1,4 @@
-﻿# Converted from: A-ICE3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-02/raw/A-ICE3.ANS
-# Source Revision: archive-sha256:3fd9f194d865cfc24c90bdf11a27528d8d82a8ba9c376ebed567183a2f95a9f3
-# Source SHA-256: 4ad2e4352d5fa41465491c53df2040179e88ee5d50456d73f4c119625299ad69
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: A-ICE3.ANS by alecs (nerp); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: icebreaker !@
-# SAUCE Author: alecs
-# SAUCE Group: nerp
-# SAUCE Date: 19971102
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: icebreaker !@ by alecs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-02-a-ice3
 
 Write-Host '
                     [32m░[0;37m  [0;32m░[0;37m [0m      [37m [0;32m░[0;1;32;42m░░[0;32m█[0m

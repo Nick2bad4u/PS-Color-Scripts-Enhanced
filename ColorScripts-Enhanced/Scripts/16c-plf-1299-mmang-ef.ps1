@@ -1,18 +1,4 @@
-﻿# Converted from: MMANG-EF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-1299/raw/MMANG-EF.ANS
-# Source Revision: archive-sha256:83adb8251a8dc8c325101454935a0efc46e834de99da0956bfb9a33bb74d6870
-# Source SHA-256: 2b12bff0bc302f59f3f84285df77c8399aa4374e0428f0881bc58815b83b458d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MMANG-EF.ANS by mmang1979 (Plf); released in plf-1299 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: eldorado filescan
-# SAUCE Author: mmang1979
-# SAUCE Group: Plf
-# SAUCE Date: 19991215
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: eldorado filescan by mmang1979 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-1299-mmang-ef
 
 Write-Host '
 

@@ -1,13 +1,4 @@
-﻿# Converted from: US-WM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-30a/raw/US-WM.ANS
-# Source Revision: archive-sha256:6639c51cd84d0739e4c497f5c5df7097f55575c94239859af87a8579ae4fa114
-# Source SHA-256: ae3d4d9bfea235f39954c18662bae86dce79a7d37984e220b6c9eb8f4fa21168
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-WM.ANS by Produkt + Mrd (purg-30a); released in purg-30a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: US-WM.ANS by Produkt + Mrd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-30a-us-wm-part01
 
 Write-Host '
 [1;35;45m▒▒[0;1;35;40m▄▀▀[0;35m▀[0;1;35m▄[0;35m▄[0;37m [0;35m  ▀[0;37m [0;32m▄[0;1;32m▄[0;32m▄[0;35m▀[0;1;35m▀▀█[0;1;35;45m█▄[0;1;35;40m▄▄[0;1;35;45m▒[0;1;35;40m▀[0;35m▀[0;37m  [0;35m▀[0;1;35m▀█▓▀[0;32m▄▀▀██▓▓▒▒░░[0;37m [0;35m▄[0;32m▀▀[0;1;32;42m░░[0;1;32;40m▄[0m [35m▀[0;1;35m▀[0;1;35;45m▓█[0;1;35;40m█▀▀[0;32;45m▄[0;1;32;40m▄[0;1;32;45m▄▄[0;1;32;40m▄▄[0;32;45m▄[0;37;40m [0;1;35;40m▀[0;35m▀[0;32m▄[0;37m [0;1;35m▄[0;1;35;45m▄▀[0;1;35;40m▀▀[0;1;35;45m██▓[0m

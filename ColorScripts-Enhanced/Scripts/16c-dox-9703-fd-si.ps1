@@ -1,18 +1,4 @@
-﻿# Converted from: FD-SI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_9703/raw/FD-SI.ANS
-# Source Revision: archive-sha256:77a6a7f6432126598204aeed388eb7e1cd0dbc6097b43b2ef1dd1e89f5f350c2
-# Source SHA-256: c3e59f354b4620e76d5e5753fd33f446ff7f67f0e8c6e9257c9343d049db5de4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FD-SI.ANS by flood (dox production); released in dox_9703 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: for war--
-# SAUCE Author: flood
-# SAUCE Group: dox production
-# SAUCE Date: 19970215
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: for war-- by flood | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-9703-fd-si
 
 Write-Host '
 

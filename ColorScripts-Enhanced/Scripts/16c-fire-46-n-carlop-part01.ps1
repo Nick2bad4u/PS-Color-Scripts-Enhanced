@@ -1,19 +1,4 @@
-﻿# Converted from: N-CARLOP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-46/raw/N-CARLOP.ANS
-# Source Revision: archive-sha256:32c189dd42ed53f66ce0b86a88ea8027caddc32faf4da7cee2e674d9223cb9f4
-# Source SHA-256: 25420989b0693fb634a74dc3644dad42d4c4704e5bfe692bcd1d96e72262cc36
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-CARLOP.ANS by nail (fire); released in fire-46 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: buddy
-# SAUCE Author: nail
-# SAUCE Group: fire
-# SAUCE Date: 20260707
-# SAUCE Dimensions: 80x61
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: buddy by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-46-n-carlop-part01
 
 Write-Host '
                                 [33;40m▄[0m                              [37;40m               [0m

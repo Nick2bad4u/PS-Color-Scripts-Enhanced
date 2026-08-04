@@ -1,13 +1,4 @@
-﻿# Converted from: AD-PM2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-09/raw/AD-PM2.ANS
-# Source Revision: archive-sha256:6c371ec8bbb75e88f59630021fbbd23f2fc630c10ee1cde240cc20faafea1ca9
-# Source SHA-256: 0e94f04ac143037b8c7fff41a9e635d747c1bd179892c82a9cb99809cd563c62
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AD-PM2.ANS by Armageddon Donut (ecl-09); released in ecl-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: AD-PM2.ANS by Armageddon Donut | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-09-ad-pm2
 
 Write-Host '
 [1m▄▄ ▄[0;1;36m▄▄▄▄▄▄[0;36m▄[0;1;37m  [0m [1m▄▄▄[0;1;36m▄▄▄▄ [0;1;37m▄[0;1;36m▄▄[0m [32m [0;1;32;47m▓▓▓▓▓▓▓[0m  [1;34m▐[0;1;34;47m▌  ▐[0;1;34;40m████████[0;1;34;44m▓▓[0;1;34;40m▌[0;33m▐[0;1;33;43m░      [0;33m▀▀[0m   [1;34m██████████[0;1;34;47m▓▓[0;1;34;40m██[0m

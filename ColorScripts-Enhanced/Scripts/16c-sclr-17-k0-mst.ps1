@@ -1,13 +1,4 @@
-﻿# Converted from: K0^MST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-17/raw/K0%5EMST.ANS
-# Source Revision: archive-sha256:f792ff7dc93809bbe626ea676ae09ee6fc3d5cc2c6bba4ff1a4525d60214a0e4
-# Source SHA-256: 47ae69224b111b2b501c411dd15166bccc3c4c296267d076592d5d652867b148
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K0^MST.ANS by Kaiser Zero + Mist (sclr-17); released in sclr-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: K0^MST.ANS by Kaiser Zero + Mist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-17-k0-mst
 
 Write-Host '
 [1m██[0;1;30;47m   ▄[0;1;30;40m▀[0;1;37;40m   [0;33m▄[0;1;31;43m░▒▒▒▓▓▓▓▓▓▓██████████▓▓▓▓▓▓▓▒▒▒░[0;33m▄[0;1;37m   [0;1;30m▀[0;1;30;47m▄         ▄▄[0;1;30;40m▀▀▀▀▀▀▀▀▀▀[0;1;30;47m▄▄      [0m

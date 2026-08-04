@@ -1,18 +1,4 @@
-﻿# Converted from: HEN-SPF1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz07jun/raw/HEN-SPF1.ANS
-# Source Revision: archive-sha256:6a4341d9d0364566769256e4356d86035ad4ee53c0aa654acf41be18e58ca462
-# Source SHA-256: ec0f1a09659b2df731bce7d830a69dce1f4883d4ffdd228124d806e28ad526b8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HEN-SPF1.ANS by hennifer (lazarus); released in laz07jun and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: spoof
-# SAUCE Author: hennifer
-# SAUCE Group: lazarus
-# SAUCE Date: 19970603
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: spoof by hennifer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz07jun-hen-spf1
 
 Write-Host '
 

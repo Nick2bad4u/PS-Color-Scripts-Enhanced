@@ -1,18 +1,4 @@
-﻿# Converted from: IV-BADL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0795/raw/IV-BADL1.ANS
-# Source Revision: archive-sha256:b042f2e6a26a8c2a821b417d4e2b86e987c7df5bd65216e2a8dfcc5666319353
-# Source SHA-256: 69e434f609cbb831227921496d691f16b2fe318db58730a3c16408175814339b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IV-BADL1.ANS by Inner Vision (ACiD Productions); released in acdu0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The BadLands
-# SAUCE Author: Inner Vision
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950701
-# SAUCE Dimensions: 80x146
-# Lines: 97-146
-# Columns: 1-80
+﻿# Artwork: The BadLands by Inner Vision | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0795-iv-badl1-part03
 
 Write-Host '
 [32m▀▄[0;37m [0;32m [0;1;32;42m▒[0;32m█ [0m   [34m▐██▄▄[0;37m  [0;34m▄▄▄▄▄[0m   [34m▄▄▓▒▓[0;37m [0;1;32;42m▒░░[0m  [1;32;42m▒[0;32m▌[0m   [32m▄[0;1;32;42m▒[0;32m▌[0;37m  [0;32m▄[0;1;32;42m░[0m    [1;34m░[0;1;34;44m▓▓[0;34m▓▄▄[0m   [34m▄▄▄▄▄[0;37m  [0;34m▄▄██▌[0;37m [0;32m█▌▓▌██[0m

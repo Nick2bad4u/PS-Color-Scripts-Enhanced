@@ -1,18 +1,4 @@
-﻿# Converted from: SK!FRACT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bafh-pack5/raw/SK!FRACT.ANS
-# Source Revision: archive-sha256:f6ffd5d60c996e02e8fb877cf3a2f1c62a6faf406b40b5531913c875caf43a2d
-# Source SHA-256: 47e039351399d854a87cbc3c3dfa1d2bb88abe71decede2f3658f4545eb9a685
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!FRACT.ANS by sIMONkING (thelo0p); released in bafh-pack5 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: fRACTAL dREAMS
-# SAUCE Author: sIMONkING
-# SAUCE Group: thelo0p
-# SAUCE Date: 20020310
-# SAUCE Dimensions: 80x26
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: fRACTAL dREAMS by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bafh-pack5-sk-fract
 
 Write-Host '
 [1;32;42m████▓[0;31m ▄▄▄▄ [0;32m▀[0;1;32;42m▀██████████████████████▀████████████[0;31m ▄▄▄ [0;32m▀[0;1;32;42m██▄[0;31m [0;1;37m██████[0;31m      [0;1;37m██████[0;31m   [0m

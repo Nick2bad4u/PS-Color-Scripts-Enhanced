@@ -1,19 +1,4 @@
-﻿# Converted from: N-DLYNCH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-42/raw/N-DLYNCH.ANS
-# Source Revision: archive-sha256:5477badab90aaaa6ee2d08aa380254b6982d860b5d0de201e348668cb1eaa063
-# Source SHA-256: 5e0511a646c7a3cca303c024711055d63a41c91116c5945032b2efecef8ea69c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-DLYNCH.ANS by nail (fire); released in fire-42 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: gordon cole
-# SAUCE Author: nail
-# SAUCE Group: fire
-# SAUCE Date: 20250303
-# SAUCE Dimensions: 80x66
-# SAUCE Font: IBM VGA
-# Lines: 51-66
-# Columns: 1-80
+﻿# Artwork: gordon cole by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-42-n-dlynch-part02
 
 Write-Host '
                       [33m▒▒▓▓▓▓▓▓█▄[0;1;31m▓[0;1;31;43m▓▓[0;1;31;47m▓▓▓▓▄[0;33m▀▓▓▓▓▓▀▀[0m      [33m▓▓▀ [0;37m  [0;1;30m ▄[0m

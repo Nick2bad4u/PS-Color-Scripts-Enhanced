@@ -1,18 +1,4 @@
-﻿# Converted from: DM-GTV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gvt-0496/raw/DM-GTV.ANS
-# Source Revision: archive-sha256:cbfe0330e9391dd33b84def04973fc8122df48dfe80ebbb080b9aafe9fb5ddcd
-# Source SHA-256: ad48e4668291effe4d6972f6e490084206dc0d80113168459cfd4f8d87034f63
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DM-GTV.ANS by domino (gravity); released in gvt-0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: gravity tv
-# SAUCE Author: domino
-# SAUCE Group: gravity
-# SAUCE Date: 19960329
-# SAUCE Dimensions: 80x25
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: gravity tv by domino | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gvt-0496-dm-gtv
 
 Write-Host '
         [1;36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄███[0;1;36;46m▓▓▓▓▓▓▓▓▓▓▒▒▓▓▒▒▒▓▓▒[0;1;36;40m▄▄▄▄▄▄▄[0m

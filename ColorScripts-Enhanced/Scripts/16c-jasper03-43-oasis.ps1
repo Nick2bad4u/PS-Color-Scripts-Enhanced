@@ -1,18 +1,4 @@
-﻿# Converted from: 43-OASIS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper03/raw/43-OASIS.ANS
-# Source Revision: archive-sha256:96c1272030a36fd5502bf2f34e681c795192c7d49fac9a2ab5dd4a5a2bf5606c
-# Source SHA-256: 0ac76a33709be76fcd58f2f06773b5d07e92ba332507fddf4b85c0f6965358cc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 43-OASIS.ANS by aesthetic (jasper); released in jasper03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: oasis bbs promo
-# SAUCE Author: aesthetic
-# SAUCE Group: jasper
-# SAUCE Date: 20020213
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: oasis bbs promo by aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper03-43-oasis
 
 Write-Host '
                 [1;36m░[0m       [36m      [0m

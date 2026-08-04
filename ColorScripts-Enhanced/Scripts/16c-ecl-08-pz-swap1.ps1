@@ -1,18 +1,4 @@
-﻿# Converted from: PZ-SWAP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-08/raw/PZ-SWAP1.ANS
-# Source Revision: archive-sha256:0b90c936d49629839c01709c30be5eee3ae4012caa7a8f1570b6ae8cc1763cb4
-# Source SHA-256: 07f10e30bdf0007384b5bc36da75c1bb589d188d03d7e888c1929c48983b898a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PZ-SWAP1.ANS by pzzzyko (eclipse); released in ecl-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: swapp
-# SAUCE Author: pzzzyko
-# SAUCE Group: eclipse
-# SAUCE Date: 19960927
-# SAUCE Dimensions: 80x25
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: swapp by pzzzyko | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-08-pz-swap1
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: PR-ARM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axf-0297/raw/PR-ARM.ANS
-# Source Revision: archive-sha256:60e502c9a1ba0703538ea6854865054cb1103c69d11b9a8571db69144d294d40
-# Source SHA-256: d49fffde26858818a828e0693e10087ab58f83fcf8775743cb38ee5a232e046f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PR-ARM.ANS by Primal Rage (Axf/Xeed); released in axf-0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Armament Logo
-# SAUCE Author: Primal Rage
-# SAUCE Group: Axf/Xeed
-# SAUCE Date: 19961226
-# SAUCE Dimensions: 80x54
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Armament Logo by Primal Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axf-0297-pr-arm-part01
 
 Write-Host '
                                                                                [1;30mP[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: OR -MC01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sargahd3/raw/OR%C2%A0-MC01.ANS
-# Source Revision: archive-sha256:d4be65be862c17debbed01c060fb85aadbdbe00a8282836fa25f3f46073f618d
-# Source SHA-256: 9cd102453997f56cdea07a39f035bc257ed736bbece5f793547231d804822058
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OR -MC01.ANS by outraider (fbk.sargahd); released in sargahd3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ione login
-# SAUCE Author: outraider
-# SAUCE Group: fbk.sargahd
-# SAUCE Date: 19970211
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: ione login by outraider | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sargahd3-or-mc01
 
 Write-Host '
 [35m▄[0;1;35m [0m [45m░[0;1;35;45m▄[0;35m█  █[0;1;35;45m▄▓░[0;35m▓▓  ▀[0;1;35;45m▓▄[0m    [35m▀[0;32;45m▄[0;1;35;45m▀█▓░░[0;35m▀█▓▄▄▄▄▄▄▄▄[0m    [35m▀▀▀▀[0;1;35;45m░▓[0;32;45m▄[0;1;35;45m▄[0;35m▄▄ [0;37m▀▀[0;1;37;47m░▀█████[0m█ [34m▓▓[0;1;34;44m▄▓[0;34m▌        [0m

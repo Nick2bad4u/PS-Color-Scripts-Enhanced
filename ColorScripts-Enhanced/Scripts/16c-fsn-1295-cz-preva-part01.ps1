@@ -1,13 +1,4 @@
-﻿# Converted from: CZ-PREVA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-1295/raw/CZ-PREVA.ANS
-# Source Revision: archive-sha256:7dd39ff51d45b4adf63268bbfaef29210de6bedf0c23fc6883b68ab1792a9761
-# Source SHA-256: a503e4d85b330f5d49356759bdfae4a9a91703bae06d93220b874eb630f1a4d2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CZ-PREVA.ANS by Caze (fsn-1295); released in fsn-1295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: CZ-PREVA.ANS by Caze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-1295-cz-preva-part01
 
 Write-Host '
          [1;34;47m▒▒▓▒▓[0;1;34;40m▀▀[0;1;34;47m▓[0;1;34;40m▄[0;1;36;40m [0m  [1;34m▄[0;1;34;47m▓[0;1;34;44m█[0;1;34;47m▓[0;1;34;40m▀▀[0;1;34;47m▓[0;1;34;40m▄ [0m  [1;34m▄[0;1;34;47m▓[0;1;34;44m█[0;1;34;47m▓[0;1;34;40m▀▀[0;1;34;47m▓[0;1;34;40m▄[0;1;36;40m [0m [1;34;47m▒▓▒[0m [1;34;47m▓[0;1;34;44m█[0;1;34;47m▓[0;1;34;40m▌ ▄[0;1;34;47m▒▓[0;1;34;44m█[0;1;34;40m▀▀[0;1;34;47m▓[0;1;34;40m▄   ▄[0;1;34;47m▓▒[0;1;34;40m▄[0m [1;34;47m▓▒▓▒▒[0m

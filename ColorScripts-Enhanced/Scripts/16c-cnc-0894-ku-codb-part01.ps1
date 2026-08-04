@@ -1,13 +1,4 @@
-﻿# Converted from: KU-CODB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cnc-0894/raw/KU-CODB.ANS
-# Source Revision: archive-sha256:1b41953359b4903075cddee4a19558a01788588c83e4b31f35133aa0fc5529ef
-# Source SHA-256: 7f65648ccc350799f947f73fec66f17bd9446c30b10eeada7facc8b443cf3dd1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KU-CODB.ANS by Kung Lao (cnc-0894); released in cnc-0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: KU-CODB.ANS by Kung Lao | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cnc-0894-ku-codb-part01
 
 Write-Host '
  [1;30m▄▄▄▄▄▄▄▄▄▄   ▄▄▄▄▄▄▄▄[0m                                         [1;37m▐[0m

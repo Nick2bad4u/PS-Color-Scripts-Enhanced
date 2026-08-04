@@ -1,18 +1,4 @@
-﻿# Converted from: ave-boom.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook19/raw/ave-boom.ans
-# Source Revision: archive-sha256:3dd762b50e992d041fc40857f6a08666cf879c80169b27b714b162069a52b736
-# Source SHA-256: 2f95ef15472c0a024253ff7984cbd36db3dc0019e54230e7f26bc355aa9ada83
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ave-boom.ans by avenger (black maiden); released in bmbook19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the big boOm
-# SAUCE Author: avenger
-# SAUCE Group: black maiden
-# SAUCE Date: 19990202
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: the big boOm by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook19-ave-boom
 
 Write-Host '
 [1;30m[0m[1;30m[0m

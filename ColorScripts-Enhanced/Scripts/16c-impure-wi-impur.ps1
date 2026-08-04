@@ -1,13 +1,4 @@
-﻿# Converted from: WI-IMPUR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impure/raw/WI-IMPUR.ANS
-# Source Revision: archive-sha256:0b9a4294ce690aca32755515783e8fac4c651c445d3dd4e394f3ee189ef0478e
-# Source SHA-256: 6b4b2f2a89e189637ddcf108f1b18c654ee8ff520a4dd6f7624ddbbbb1ce382a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WI-IMPUR.ANS by White Insanity (impure); released in impure and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: WI-IMPUR.ANS by White Insanity | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impure-wi-impur
 
 Write-Host '
 

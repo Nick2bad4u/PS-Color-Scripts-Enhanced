@@ -1,13 +1,4 @@
-﻿# Converted from: AL-TT.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9507a/raw/AL-TT.ICE
-# Source Revision: archive-sha256:a72421113d2c951ec39875f37c234c38446688f5d51179a98cd9dcc0e7568ca7
-# Source SHA-256: 4bc7b2700650f059fd37b91b133ba8dedfcd3ac94a64f5e4623e3fd61f849265
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AL-TT.ICE by Animal (ice9507a); released in ice9507a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 93-135
-# Columns: 1-80
+﻿# Artwork: AL-TT.ICE by Animal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9507a-al-tt-part03
 
 Write-Host '
 [1;30m            [0;1;33m [0;31m▐[0;1;30;41m▓▒[0m  [31m▐[0;1;30;41m▒[0m  [1;30;41m░▒▓[0;1;30;40m█▄▄▀█▓▀ [0m  ░   [1;30;47m░[0m▀ [1;31;41m▒[0m    [1;30;47m▒[0m▄     [1;30m▀[0m      [31m█▓▀[0;37m▐[0;1;30;47m ░▒▓█[0m [1;33m       [0;31m▄[0;1;30m [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: TF-200.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ane-0296/raw/TF-200.ANS
-# Source Revision: archive-sha256:3968cc056bf297febf6892374e4caf7ab79dd8410790f6f7be0cb58cc17cd856
-# Source SHA-256: e3930fa06ff1ca650fa4308e7be8e6e7c63c6adfd89e3ca3e5d3741e698a712e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TF-200.ANS by The fool (.;:Anemia:;.); released in ane-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 200 Proof
-# SAUCE Author: The fool
-# SAUCE Group: .;:Anemia:;.
-# SAUCE Date: 19960127
-# SAUCE Dimensions: 80x25
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: 200 Proof by The fool | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ane-0296-tf-200
 
 Write-Host '
    [34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;30;44m▀░▀▀[0;34;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

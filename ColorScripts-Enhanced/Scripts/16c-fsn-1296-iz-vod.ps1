@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-VOD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-1296/raw/IZ-VOD.ANS
-# Source Revision: archive-sha256:335d72ea88974be53669cf31a72ea37012b04dc993bc1fa4727d94939a55db7e
-# Source SHA-256: 4c1a2dc5792640b1ca99c51f931696b19367e67a8810d375390c5a2e8ea63d63
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-VOD.ANS by ize (fusion); released in fsn-1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: valley of death
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19961110
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: valley of death by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-1296-iz-vod
 
 Write-Host '
 

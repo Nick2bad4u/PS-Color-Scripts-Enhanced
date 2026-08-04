@@ -1,13 +1,4 @@
-﻿# Converted from: RD-NEW1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/esp0296/raw/RD-NEW1.ANS
-# Source Revision: archive-sha256:7ba951ae4e6a69ae13f17e85d94c040c85d212c9217542aa1b77f88401cbf091
-# Source SHA-256: 6b079c510811ba86ed4ad50b6281420a52748bdf5513e41b3936a3decdce75f1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RD-NEW1.ANS by Rabid Doctor (esp0296); released in esp0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: RD-NEW1.ANS by Rabid Doctor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-esp0296-rd-new1
 
 Write-Host '
 [35m[0;1;30m[0m [35m [0;37m [0;35m████▐██[0;37m [0;1;33m [0;1;31m▄████▄ [0m [1;31m▄█████[0m [35m           [0;37m [0;1;31m█████▄[0m [35m [0;37m [0;1;31m▄███▄[0m [35m [0;37m [0;1;31m▄████▄ ▄█[0m [35m███████████▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: NE-RCS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis-n/raw/NE-RCS.ANS
-# Source Revision: archive-sha256:c71a317bef22d5118244ba95f552871899d98097e115e94b35d9631800ce0aa2
-# Source SHA-256: be8dfcfce793de1632dc731f2105b25209b96cec9bb35953d2fcf05f871e2ce1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NE-RCS.ANS by Nemesis (ansis-n); released in ansis-n and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: NE-RCS.ANS by Nemesis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-n-ne-rcs
 
 Write-Host '
                    [1m▄[0m▌[36;44m▄[0;1;37;46m▄[0;36;44m▄[0;1;34;44m▀[0;1;34;40m▄    ▄[0;1;34;44m▀[0;36;44m▄[0;1;34;44m▀[0;1;34;40m▄[0m     [1;34;40m▄[0;1;34;44m▀[0;1;34;40m▄   ▄[0;1;34;44m▀[0;36;44m▄[0;1;37;46m▄[0;36;44m▄[0;1;34;44m▀[0;1;34;40m▄ ▄[0;1;34;44m▀[0;36;44m▄[0;1;34;44m▀[0;1;34;40m▄ [0;1;37;40m▄[0m▌

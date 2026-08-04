@@ -1,18 +1,4 @@
-﻿# Converted from: SG-BC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tea-004/raw/SG-BC.ANS
-# Source Revision: archive-sha256:26e0c9f901035fa6e4d33a23055433e2b93ee98e9d27c25f6e0a05e4956d5d87
-# Source SHA-256: 298110c7ba77514dd5f4a804afce915513833dacaeee1e3870a7dfaed3e05b36
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SG-BC.ANS by Sonofagun (TEA!); released in tea-004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Bird's Cage
-# SAUCE Author: Sonofagun
-# SAUCE Group: TEA!
-# SAUCE Date: 19951022
-# SAUCE Dimensions: 80x46
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Bird's Cage by Sonofagun | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tea-004-sg-bc
 
 Write-Host '
 [1;30m[0;35m[0;1;30m[0;1;35m[0;35m[0;1;30m[0;35m[0;1;35m[0;1;30m[0m[1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m

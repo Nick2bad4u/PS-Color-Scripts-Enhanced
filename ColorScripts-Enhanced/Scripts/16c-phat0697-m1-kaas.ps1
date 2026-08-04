@@ -1,18 +1,4 @@
-﻿# Converted from: (M1)KAAS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0697/raw/(M1)KAAS.ANS
-# Source Revision: archive-sha256:08e18940bca34b3567a75953ae0590b0f85d3fbc4d879deb49d9733793875e53
-# Source SHA-256: 07a170acc12dbfff4ae7675ae8bd18d5d75259a79822db82e2b37efc71f71be4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: (M1)KAAS.ANS by m01 (Phat Studios '97); released in phat0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: kaaskunst
-# SAUCE Author: m01
-# SAUCE Group: Phat Studios '97
-# SAUCE Date: 19970531
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: kaaskunst by m01 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0697-m1-kaas
 
 Write-Host '
                     [33m   [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: VC-TEAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ins1295a/raw/VC-TEAR.ANS
-# Source Revision: archive-sha256:0b68d4daa11b0e9ab0b29fa989c942e6fe09c6576ebd507a2bf77817932365c5
-# Source SHA-256: 0071d123f07905b4a7049a6757caf48de48aa0b8b171f73453b7edb770e344c2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VC-TEAR.ANS by VOiCE (BLACK MAiDEN); released in ins1295a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Shed
-# SAUCE Author: VOiCE
-# SAUCE Group: BLACK MAiDEN
-# SAUCE Date: 19951103
-# SAUCE Dimensions: 80x50
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: Shed by VOiCE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ins1295a-vc-tear
 
 Write-Host '
                                 [31m▄▀▀▀■▄[0;37m  [0;31m▄■[0m

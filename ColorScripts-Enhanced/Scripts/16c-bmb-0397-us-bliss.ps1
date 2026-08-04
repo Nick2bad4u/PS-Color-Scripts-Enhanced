@@ -1,18 +1,4 @@
-﻿# Converted from: US-BLISS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0397/raw/US-BLISS.ANS
-# Source Revision: archive-sha256:dbc842066d628a57d7819da260b477c6ec1e4d0ba1a7d08ba504501e875a1ea3
-# Source SHA-256: 17b564b18bc5db653cd4feaa8180d5607d9546abbdc5a8533283c87ea53a24bb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-BLISS.ANS by nOah+PhonyEye (Bamboosh/Cia); released in bmb-0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: bliss...
-# SAUCE Author: nOah+PhonyEye
-# SAUCE Group: Bamboosh/Cia
-# SAUCE Date: 19970309
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: bliss... by nOah+PhonyEye | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0397-us-bliss
 
 Write-Host '
 

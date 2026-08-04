@@ -1,18 +1,4 @@
-﻿# Converted from: TR-PHANT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-15/raw/TR-PHANT.ANS
-# Source Revision: archive-sha256:37d8769a36716113b70ba43b5758aa52d1bdcac55027798541093d77711f63e4
-# Source SHA-256: 23237accd0321363fa801ceac5c1da081651eb5cba663b26873f429133c2c297
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-PHANT.ANS by Terrato (ACiD Productions); released in rmrs-15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Phantom
-# SAUCE Author: Terrato
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19970910
-# SAUCE Dimensions: 80x25
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: Phantom by Terrato | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-15-tr-phant
 
 Write-Host '
 [35m$$,[0;34m`$$$$$$$''[0;1;30m,$$$$''[0;1;34m,$$$$$$P"``4$P""``[0m        [1;34m`[0m       [36m`[0m   [36m```"""²²╨4Ñ$$$$$$$$$$$$$[0m

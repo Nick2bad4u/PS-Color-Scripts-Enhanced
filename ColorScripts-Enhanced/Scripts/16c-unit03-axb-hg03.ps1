@@ -1,18 +1,4 @@
-﻿# Converted from: AXB-HG03.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/unit03/raw/AXB-HG03.ANS
-# Source Revision: archive-sha256:14397867310c247896cee9ae85588007c2e913800ae4fa325b0eb998bbd62f6a
-# Source SHA-256: 86e6f2d8692f66794740e10bff9d1879513d7128ffbb57417b67ffcc943271bf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AXB-HG03.ANS by AXb (Unit); released in unit03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Hallucinogenic
-# SAUCE Author: AXb
-# SAUCE Group: Unit
-# SAUCE Date: 19961116
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Hallucinogenic by AXb | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-unit03-axb-hg03
 
 Write-Host '
 [33m, .,;''[0;37m [0;34m''[0;37m [0;34m,,;;''''[0;37m  [0;33m.[0;37m  [0;34m''''''[0;37m [0;33m,    .[0;37m [0;34m"[0;37m [0;34m;;, "[0m   [33m''[0;37m  [0;34m,;;[0;37m [0;34m.;[0;37m [0;33m.[0;1;30m [0;34m [0;31m,sS$[0;33m,[0;1;30m [0;34m''[0;37m [0;34m.. ,,[0;33m,[0;37m [0;34m,,;'' ''[0;37m  [0;33m''[0m

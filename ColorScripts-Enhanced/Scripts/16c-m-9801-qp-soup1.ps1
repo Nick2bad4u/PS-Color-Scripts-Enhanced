@@ -1,18 +1,4 @@
-﻿# Converted from: QP-SOUP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m-9801/raw/QP-SOUP1.ANS
-# Source Revision: archive-sha256:68027b949f7edfef662f12aa514dfc21e6e156e3984f9866a81997534ce6ce87
-# Source SHA-256: 36685701ddac70517ea1b51f8ff53fd23d36578d6dde0aadaa2c9242c450d6f7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: QP-SOUP1.ANS by quip (mistigris); released in m-9801 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: soup
-# SAUCE Author: quip
-# SAUCE Group: mistigris
-# SAUCE Date: 19970913
-# SAUCE Dimensions: 80x25
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: soup by quip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m-9801-qp-soup1
 
 Write-Host '
                  ▄▄▄▄[1m▄▄[0m     quip (laz)                              ▄

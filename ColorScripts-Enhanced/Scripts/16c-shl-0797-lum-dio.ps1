@@ -1,18 +1,4 @@
-﻿# Converted from: LUM-DIO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shl-0797/raw/LUM-DIO.ANS
-# Source Revision: archive-sha256:ef75aadbd0d0f2766cfc17950f9cd8d913d59056485f8980f89d1b7e9e28f658
-# Source SHA-256: 3a208fc9d1a9f415bbadc8855378e0fccf6bec4877cb459b4da01dd6c22a6643
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LUM-DIO.ANS by Ville (Blend); released in shl-0797 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: gatetime, ehh.... timegate.
-# SAUCE Author: Ville
-# SAUCE Group: Blend
-# SAUCE Date: 19970611
-# SAUCE Dimensions: 80x36
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: gatetime, ehh.... timegate. by Ville | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shl-0797-lum-dio
 
 Write-Host '
 

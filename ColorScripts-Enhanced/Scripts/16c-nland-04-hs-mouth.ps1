@@ -1,18 +1,4 @@
-﻿# Converted from: HS-MOUTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nland-04/raw/HS-MOUTH.ANS
-# Source Revision: archive-sha256:eab686fd42219ed6c9add6a2f7726008adc5ca3e06c5f87a076203c52842513d
-# Source SHA-256: e846b2194a36cf86d5aaee68fd422ab965fee731116cffb2fa4e8ccfdf485dd5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HS-MOUTH.ANS by Han SoLo (NeveRLanD People); released in nland-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: BoCon
-# SAUCE Author: Han SoLo
-# SAUCE Group: NeveRLanD People
-# SAUCE Date: 19960131
-# SAUCE Dimensions: 80x46
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: BoCon by Han SoLo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nland-04-hs-mouth
 
 Write-Host '
 [1;46m                                                                               [0;1;37;46m [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: MAY-FL2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/air_0697/raw/MAY-FL2.ANS
-# Source Revision: archive-sha256:5cd3011ba297092d80d79117f4d787f8ea3f225f068d30fcf0de8461325ab083
-# Source SHA-256: ec20824c932801c3bc93fd76f1e1bef4a974ae01d0c38b9f842585a9df013e94
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MAY-FL2.ANS by maytag man (air); released in air_0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fluph_menu!
-# SAUCE Author: maytag man
-# SAUCE Group: air
-# SAUCE Date: 19970606
-# SAUCE Dimensions: 80x21
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: fluph_menu! by maytag man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-air-0697-may-fl2
 
 Write-Host '
 [1;36m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0m

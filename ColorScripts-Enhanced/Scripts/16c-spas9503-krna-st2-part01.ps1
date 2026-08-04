@@ -1,18 +1,4 @@
-﻿# Converted from: KRNA-ST2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spas9503/raw/KRNA-ST2.ANS
-# Source Revision: archive-sha256:921a7a02fdcd7f04f18871f0002a1b20474c016ac737399d9749e44d2b5c72dd
-# Source SHA-256: 6803fbeea9f6090625dd0deb2c3c770da128ff190f5c4088ec19553b77a3b817
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KRNA-ST2.ANS by Kerplunk + Narcolept (Spastic Studios); released in spas9503 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Sarcastic Toaster
-# SAUCE Author: Kerplunk/Narcolept
-# SAUCE Group: Spastic Studios
-# SAUCE Date: 19950224
-# SAUCE Dimensions: 80x25
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Sarcastic Toaster by Kerplunk + Narcolept | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spas9503-krna-st2-part01
 
 Write-Host '
     [1;30m▄    ▄[0m         [1;30m▄[0m                                       [1;36;46m░[0m         [1;30;40m▄    ▄[0m

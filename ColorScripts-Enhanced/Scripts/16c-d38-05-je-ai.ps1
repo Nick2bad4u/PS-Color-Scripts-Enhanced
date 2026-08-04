@@ -1,18 +1,4 @@
-﻿# Converted from: JE-AI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-05/raw/JE-AI.ANS
-# Source Revision: archive-sha256:eb0948671797309554c3545cf502cce8943191f153468011a76cca894133dc0a
-# Source SHA-256: 8cfa711efa495b115e05fbadc60ff4c46d530c1e3a6ec9b18c8b70bddce9acd3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JE-AI.ANS by Sunder + Blind Sniper + Rorshack (d38 + Maiden); released in d38-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: AI.. not artificial intelligence ;)
-# SAUCE Author: [JOINT EFFORT]
-# SAUCE Group: d38 + Maiden
-# SAUCE Date: 19970322
-# SAUCE Dimensions: 80x25
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: AI.. not artificial intelligence ;) by Sunder + Blind Sniper + Rorshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-05-je-ai
 
 Write-Host '
 [33m░[0;37m [0;1;33m░[0;1;37m░░[0;1;33m░▄▄▄███[0;1;33;47m▓▒[0;33m [0;37m [0;1;33m░██▄[0m    [32m░░[0;1;37m░[0;1;37;47m▓[0;1;37;40m██[0;1;32;42m████████▓▄▄▄▄▓░[0;32m█[0;1;32;42m▄▄▄▄▄▄▄[0;32m█████████████[0;36;42m░░▒▒[0;32;46m▒░░[0;36;40m██[0;37;40m [0;1;37;40m▄▄[0;1;33;40m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: T2-VUDU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0394/raw/T2-VUDU.ANS
-# Source Revision: archive-sha256:7805df52925a98aad31489bafc7cabadb416309b42badbbd7aa9aecbdec2b1cf
-# Source SHA-256: fd26a0c3833871e2afe38f3e16172cab0cf0c5e2a7f64d629090a84f6de7f456
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T2-VUDU.ANS by Terminator2 (ACiD Productions); released in acdu0394 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ACiD Promotion w/VooDoo
-# SAUCE Author: Terminator2
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940301
-# SAUCE Dimensions: 80x227
-# Lines: 92-141
-# Columns: 1-80
+﻿# Artwork: ACiD Promotion w/VooDoo by Terminator2 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0394-t2-vudu-part03
 
 Write-Host '
 [1;30;43m▓[0;1;30m▀[0;1;31m▄▄[0;1;36m▀▀▀[0;1;31m▄██████████████████████[0;1;31;43m▓▓▒▒▒▒[0;33m▄▄▄▄▄[0;1;31m▀▀▀▀████▄███[0;1;31;47m▓▒░░░[0m█▀▀     [33m▄▐[0;1;33;43m░▒▓[0;1;33m▌[0;1;31m▐[0;1;31;43m▓[0;1;31m█▄▄[0m

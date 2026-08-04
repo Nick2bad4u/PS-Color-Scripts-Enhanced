@@ -1,18 +1,4 @@
-﻿# Converted from: DM!SLIV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sliver02/raw/DM!SLIV.ANS
-# Source Revision: archive-sha256:4e42af291937d6cfda1ffdc786ce33443c6145c7524c76570a1f8a3fbf372fef
-# Source SHA-256: 01afc36bae7f4ce7bdbe551ec65bd77616aa0858607d311e856ea43d91549e81
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DM!SLIV.ANS by demo (sliver); released in sliver02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: sliver, muthafucka
-# SAUCE Author: demo
-# SAUCE Group: sliver
-# SAUCE Date: 19800113
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: sliver, muthafucka by demo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sliver02-dm-sliv
 
 Write-Host '
        [1;33m,[0m     [1;33m, [0m [1;33m.[0m      [1;33m,[0m

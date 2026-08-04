@@ -1,18 +1,4 @@
-﻿# Converted from: CK-EMIC!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/emic0396/raw/CK-EMIC!.ANS
-# Source Revision: archive-sha256:df6e60efee3df7e79d500230fc52a88ca86aef811bdfcd5a9622a5e70c3b04f2
-# Source SHA-256: f2e20400222409465bdb2251d31cf71ed6baac935a43aabbc0b8c2231c76bd33
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CK-EMIC!.ANS by Clark (EMiC); released in emic0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: SUCKME From EMiC
-# SAUCE Author: Clark
-# SAUCE Group: EMiC
-# SAUCE Date: 19960201
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: SUCKME From EMiC by Clark | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-emic0396-ck-emic
 
 Write-Host '
                                   [1;31m ▄▄[0;1;31;43m▓[0;1;31;40m█▄▄[0m

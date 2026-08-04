@@ -1,18 +1,4 @@
-﻿# Converted from: IO-DIY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst-19/raw/IO-DIY.ANS
-# Source Revision: archive-sha256:38480cbb01973683b6bb179e82483ce3434180444dfcf5b811296224974846eb
-# Source SHA-256: f7215a6a3b3e2276880914c0d929a8545be67919443235648fc4995afce0c331
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IO-DIY.ANS by imodium (twisted); released in twst-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: diy
-# SAUCE Author: imodium
-# SAUCE Group: twisted
-# SAUCE Date: 19980201
-# SAUCE Dimensions: 80x20
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: diy by imodium | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst-19-io-diy
 
 Write-Host '
                                                                   [1;33m [0m

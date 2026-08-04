@@ -1,13 +1,4 @@
-﻿# Converted from: MFS-BERM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr012/raw/MFS-BERM.ANS
-# Source Revision: archive-sha256:85afd90470dcc9c6da39bf81c0e72eacde470fdefeb7850c5fb95f1834e06df4
-# Source SHA-256: a51e6e55adacbbd6c9f77faa3532e9b7db8fc48293fa88162052a54aebbabaa8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MFS-BERM.ANS by Mel Farr Suppastar (blndr012); released in blndr012 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: MFS-BERM.ANS by Mel Farr Suppastar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr012-mfs-berm
 
 Write-Host '
    [1;30m▄▀█▄██▄[0m  [1;30m▄█[0m [1;30;47m▓[0;1;30;40m██[0m

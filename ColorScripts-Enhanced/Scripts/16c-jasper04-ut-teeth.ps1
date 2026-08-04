@@ -1,18 +1,4 @@
-﻿# Converted from: UT-TEETH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper04/raw/UT-TEETH.ANS
-# Source Revision: archive-sha256:80df5b962e79c7e1df6d776b244f2783526ab7713c133db68d5f1c8d518678b1
-# Source SHA-256: 0e8cc379e17ba5c9e1e984023ecb0593d29b2bc37d426123bbd4c2fd161d18e4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UT-TEETH.ANS by untamed (jasper); released in jasper04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: teeth
-# SAUCE Author: untamed
-# SAUCE Group: jasper
-# SAUCE Date: 20020306
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: teeth by untamed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper04-ut-teeth
 
 Write-Host '
 [36m▓▒░[0;37m [0;1;30;41m▓░[0;31m▀▀▀▀▄▄▄▄▄▄[0;1;31;41m░[0;31m██▓█▌[0;1;31;41m░░▒▓▒░[0;1;30;41m░░▒▓▓▒░[0;31m▓▐[0;1;31;41m░▒▓[0;1;31;47m▓[0;1;31;41m█[0;1;31;47m▓█▓█[0;1;31;41m█▓▒░[0;31m█▓[0;1;31;41m ░░░▒▓▓██▓▒░[0;31m█[0;1;31;41m░░[0;31m▐██[0;1;30;41m░░[0;31m██[0;1;31;41m░░░░[0;31m█ [0m

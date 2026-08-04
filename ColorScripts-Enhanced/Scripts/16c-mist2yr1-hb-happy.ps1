@@ -1,18 +1,4 @@
-﻿# Converted from: HB-HAPPY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist2yr1/raw/HB-HAPPY.ANS
-# Source Revision: archive-sha256:dfb163381a7a05007552a68525e5d3039ad18b3101b731021ee8569cee86eda1
-# Source SHA-256: ce1432c3c4385330b2e6cf0ffac5e93fcc856598fba145cd0b05c7da490d6c93
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HB-HAPPY.ANS by Handiboy (MiSTiGRiS); released in mist2yr1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ID :)
-# SAUCE Author: Handiboy
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 19960919
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: ID :) by Handiboy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist2yr1-hb-happy
 
 Write-Host '
 [1;30m[0m[1;30m [0;1;37m█[0;1;37;47m▀▀▀▀▀[0m [1;47m█▀▀▀▀▀▀[0m▄▄▄      [1;33m▄▄█████[0;1;37m▄▄[0m                         [1;30m,ssS$ sS$$$'' ,  s[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: NBM-BODY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rare-002/raw/NBM-BODY.ANS
-# Source Revision: archive-sha256:0a3a1ab211a696c0dde542e6c378313f7a0800dd36697e1287d0a21d1dc7f85f
-# Source SHA-256: e7474b6d6de1347f6c9c37e2e16f8cb91dc26f933fd0b57f7058c5daf78e7505
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NBM-BODY.ANS by niobium (rare!ascii); released in rare-002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: bodycount
-# SAUCE Author: niobium
-# SAUCE Group: rare!ascii
-# SAUCE Date: 19980424
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: bodycount by niobium | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rare-002-nbm-body
 
 Write-Host '
                         [1;30m [0m

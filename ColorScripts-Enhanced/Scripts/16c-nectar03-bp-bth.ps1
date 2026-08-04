@@ -1,16 +1,4 @@
-﻿# Converted from: BP-BTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nectar03/raw/BP-BTH.ANS
-# Source Revision: archive-sha256:faec2ce79f4ec7fdedcb1c5275057d2bd3473a7b6d9bb41113e78d041db9cd35
-# Source SHA-256: cbf06d2d000d08a040849a616448e92d47f4bb871b8c09a8a9f3f3eecc560859
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BP-BTH.ANS by bigge pif (nectar03); released in nectar03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: bigge pif
-# SAUCE Date: 19960302
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: BP-BTH.ANS by bigge pif | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nectar03-bp-bth
 
 Write-Host '
 

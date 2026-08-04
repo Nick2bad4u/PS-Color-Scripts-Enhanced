@@ -1,16 +1,4 @@
-﻿# Converted from: ROY-DORKY.ANS
-# Source encoding: CP437
-# Source URL: https://www.roysac.com/images/galleries/ZIP/Roy_ANSI.ZIP
-# Source Revision: archive-sha256:8598a9432b4feb86c4e79552795b407b9d7c576fb6f25e9828d6143f1c7b35bc
-# Source SHA-256: fb94c2243c3797f84bec0f8db47cabe4e61d62bcec9c8e357fff2020ebe0d715
-# Source License: FAL-1.3
-# Source Attribution: ROY-DORKY.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_ANSI.ZIP archive.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 20150122
-# SAUCE Dimensions: 160x202
-# SAUCE Font: IBM VGA
-# Lines: 158-202
-# Columns: 1-160
+﻿# Artwork: ROY-DORKY.ANS by Roy/SAC aka Carsten Cumbrowski | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=roy-sac-dorky-part05
 
 Write-Host '
 [30;47m█[0;30;45m [0;1;37;45m▄█████▄[0;1;37;40m [0;36m██████ [0;1;30m▐[0;30;47m░░░░░[0;1;30;47m▒▓▓▓▒[0;30;47m░░░░░░░░░░[0;1;30;47m▒▒▒▒▒▒▒[0;30;47m░[0;37;40m▓[0;30;47m░░░[0;1;30;40m▄ [0;36m████ [0;1;30m█[0;33m░░░[0;37m█ [0;1;30m█[0;33m░░░[0;37m█ [0;35m░▒[0;1;30m─┬─[0m─[36m┼[0;37m─[0;1;30m─[0m

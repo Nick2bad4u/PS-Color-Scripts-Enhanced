@@ -1,18 +1,4 @@
-﻿# Converted from: AVK-MAIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rare-001/raw/AVK-MAIL.ANS
-# Source Revision: archive-sha256:7435b1c9938dec461ab33b42b3dd164ea7e98ecfff30ea4d3df5a8e59194b0a3
-# Source SHA-256: 5aa2a45921ba96410774ed12f5b7692064cbd51e37c379fbdb72bf443b2f0216
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVK-MAIL.ANS by AlvaK (rARE!ASCii); released in rare-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Mail on Final Refuge
-# SAUCE Author: AlvaK
-# SAUCE Group: rARE!ASCii
-# SAUCE Date: 19980228
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Mail on Final Refuge by AlvaK | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rare-001-avk-mail
 
 Write-Host '
 [1;30m$$₧$¼$$$₧$Ñ$Æ$₧¼Ñ$$$Æ$Ñ$$$₧Æ¼$$S¢*╜$Ñ$Æ$Ñ$¼S¢╜²²╜*¢S$Ñ$$¼Æ$$Ñ$$$Æ₧: [0;34m            [0m

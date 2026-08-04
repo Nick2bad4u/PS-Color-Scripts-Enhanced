@@ -1,19 +1,4 @@
-﻿# Converted from: misfit-fhte mini screens.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-blocky-horror/raw/misfit-fhte%20mini%20screens.ans
-# Source Revision: archive-sha256:9b55aad043357449b0b0f61d3eddf0a2e277e46cf0768f93c8b9bc9b99d78a77
-# Source SHA-256: a736658a27f1ff44469bd892146e4a30eb3d6f5759837498fa541f7da04b35b0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: misfit-fhte mini screens.ans by Misfit (Blocktronics); released in blocktronics-blocky-horror and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: From Here To Eternity
-# SAUCE Author: Misfit
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20180215
-# SAUCE Dimensions: 80x59
-# SAUCE Font: IBM VGA
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: From Here To Eternity by Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-blocky-horror-misfit-fhte-mini-screens-part01
 
 Write-Host '
 

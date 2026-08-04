@@ -1,13 +1,4 @@
-﻿# Converted from: SD-TRAUM.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9706a/raw/SD-TRAUM.ICE
-# Source Revision: archive-sha256:0a30d58a68f6ed8491028319032dfc5288ff391a510df01a40b96a6e80e9a009
-# Source SHA-256: 630a716ccf7872efacdc8313fb79350561b3f37e0ab211269f9899056c99b1cf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-TRAUM.ICE by Shadow (ice9706a); released in ice9706a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: SD-TRAUM.ICE by Shadow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9706a-sd-traum
 
 Write-Host '
  [34m▄[0;1;30;44m▓[0m  [34m░▐░▀▀▀▀▀▓[0;1;30;44m▒▒[0;34m▄▄[0m   [34m░▒[0;37m [0;34m  [0m   [1;30m   [0m [1;30m    [0m [1;30m▄[0m [1;30m [0m▐ [34m▒▒[0;1;30m▄[0m [34m ░[0;37m [0;1;30m▄[0m [1;30m [0;34m  [0;1;30m   [0;34m░▄[0;1;30;44m░[0;1;34;44m▄▓█▌▀▀▓▌▀▀▐█▓▄[0;34m▓▄[0m

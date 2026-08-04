@@ -1,18 +1,4 @@
-﻿# Converted from: US-TSP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-15/raw/US-TSP.ANS
-# Source Revision: archive-sha256:cd2d406ee7567eb1c250b9572bb0b7fdd8b6cfa2b5014b290774725da37d8cc8
-# Source SHA-256: f4a3fd34330b087199570373a295126f7b8671240298456ee08fbd2e04dda7a0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-TSP.ANS by Rgt + Weeping Killer (fORCE); released in force-15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Shroom Palace
-# SAUCE Author: rGt and wk!
-# SAUCE Group: fORCE
-# SAUCE Date: 19970110
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: The Shroom Palace by Rgt + Weeping Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-15-us-tsp
 
 Write-Host '
                                ·the·

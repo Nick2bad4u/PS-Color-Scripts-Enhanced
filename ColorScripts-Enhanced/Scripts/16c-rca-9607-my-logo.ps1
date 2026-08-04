@@ -1,18 +1,4 @@
-﻿# Converted from: MY-LOGO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca-9607/raw/MY-LOGO.ANS
-# Source Revision: archive-sha256:96d9508bfb2082b3fe8b550d31a6f44ff6168ccdf834e916a6703fc5516f81bb
-# Source SHA-256: c09eb94aac712a0aba913488f91fced84db233221cd6eed14159e1323dedf4de
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MY-LOGO.ANS by Mr. Yuck (RCA); released in rca-9607 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Logo
-# SAUCE Author: Mr. Yuck
-# SAUCE Group: RCA
-# SAUCE Date: 19960708
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Logo by Mr. Yuck | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca-9607-my-logo
 
 Write-Host '
         [31m  [0;1;30m(my/rca)[0m

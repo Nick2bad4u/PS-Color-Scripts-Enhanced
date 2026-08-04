@@ -1,13 +1,4 @@
-﻿# Converted from: NW-ILOGO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rage0896/raw/NW-ILOGO.ANS
-# Source Revision: archive-sha256:e67cf9c4e2c6eb15648a3739a157b7ef37dad009189f0c35f257941ec580c4a8
-# Source SHA-256: d8a9009cea40e7ab4c426de1ac735fbffbb6dcba4cb1235e61a273f6f618f7e1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NW-ILOGO.ANS by Nightshadow (rage0896); released in rage0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: NW-ILOGO.ANS by Nightshadow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rage0896-nw-ilogo
 
 Write-Host '
 [1m[0m                            [1;34m   [0m                [1;34m▄ [0m

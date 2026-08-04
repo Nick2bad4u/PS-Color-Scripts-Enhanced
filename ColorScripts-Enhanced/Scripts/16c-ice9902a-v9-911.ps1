@@ -1,18 +1,4 @@
-﻿# Converted from: V9-911.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9902a/raw/V9-911.ICE
-# Source Revision: archive-sha256:6cf7fdec038e0d971ab2b181357dad5f064cb6f0c4b16391c913d4864432f656
-# Source SHA-256: aa3c59b6366da835701c240ad40b30d9bb23c7bfd2b22dc3fafce8fc60bcdf09
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: V9-911.ICE by Vade79 (iCE); released in ice9902a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: 911
-# SAUCE Author: Vade79
-# SAUCE Group: iCE
-# SAUCE Date: 19990301
-# SAUCE Dimensions: 80x40
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: 911 by Vade79 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9902a-v9-911
 
 Write-Host '
 [1;30m■.▐[0;1;30;46m░[0;36m▀[0;1;36m▀▀[0;1;36;46m▀[0;1;36;40m▄[0;1;36;46m▓[0;36m▌▄[0;1;36;46m▄[0;1;36;40m░[0m ▀█▄[1m▄▄[0;1;47m▄▄▄██[0;1;40m▓▓▄▄▄[0m▄ [1;30m▀[0;36m▀[0;1;36;46m▀█[0;1;36;40m▓░░ [0;36m▀[0;1;30m▀[0m ▄[1m▄▄▄[0;1;47m▄[0;1;40m█▀[0;36m ▄[0;1;36;46m▄[0;1;36;40m▌░[0;1;36;46m▄█[0;1;36;40m▄░[0;1;30;40m.[0;36m▀[0;1;36;46m▀▄███▄▓[0;36m█ [0;1;36m░[0;36m▀[0;1;36;46m▀███▀[0;1;30;46m▐[0;36m ░[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: US-YAWN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/trank-09/raw/US-YAWN.ANS
-# Source Revision: archive-sha256:037881fdc5a0e385d18474541e1950ffd3912d007c916bf0100e4c7009d9c584
-# Source SHA-256: f2e1bce91efdce4def82e624a77e182ba3e2a0b55330d5e17cd2d7ecc2b9ecbb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-YAWN.ANS by Mr Self Destruct (trank-09); released in trank-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: US-YAWN.ANS by Mr Self Destruct | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-trank-09-us-yawn
 
 Write-Host '
 [36m,sS$$[0;1;31m$[0;36m$[0;1;31m$$$$$$$$S1|:.   ,bK$$$$$$[0;31m$[0;1;31m$[0;31m$$$[0;1;31m$[0;31m$$$$S²''[0m       [1;37m,sS$[0ms.`s²[1m''²²²Ss. [0;36m`$$[0;1;31m$$$[0;31m$[0;1;31m$[0;31mSs.[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: krl-zombie.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz19/raw/krl-zombie.ans
-# Source Revision: archive-sha256:b2207428f1b283b9c41d9ff03fce385f449fefe469c60e31e8dd7430a162f7c1
-# Source SHA-256: 26aa3de47a707bf3a361d57815f93d7d37365c9106a430ee4a04c50ecb6f3a19
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: krl-zombie.ans by krl (Lazarus); released in laz19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Laz of the Dead
-# SAUCE Author: krl
-# SAUCE Group: Lazarus
-# SAUCE Date: 20240321
-# SAUCE Dimensions: 80x114
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Laz of the Dead by krl | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz19-krl-zombie-part01
 
 Write-Host '
 [33m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m

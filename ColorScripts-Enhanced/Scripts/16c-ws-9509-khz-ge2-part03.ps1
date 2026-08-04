@@ -1,18 +1,4 @@
-﻿# Converted from: KHZ-GE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ws-9509/raw/KHZ-GE2.ANS
-# Source Revision: archive-sha256:f80be9f57a72f3731fd02149f3cc3f702afe87dd851a20e852584349c036c76a
-# Source SHA-256: 761d0725ed6853fccd9535cc6c56f4f772bcea1f9395438b01ae32511030d8ba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KHZ-GE2.ANS by killaHertz (READ THE INI FILE); released in ws-9509 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: galactic enterprises
-# SAUCE Author: killaHertz
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19950903
-# SAUCE Dimensions: 80x25
-# Lines: 84-126
-# Columns: 1-80
+﻿# Artwork: galactic enterprises by killaHertz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ws-9509-khz-ge2-part03
 
 Write-Host '
 [1;35;45m░░░░░░░ ░░░[0;35m▄[0;1;35m▀▄[0m [1;35m▀▀▀▀[0m   [35m▀▄▄▄▄▀[0m             [1;33;43m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ [0;1;30;43m░▒▒[0m

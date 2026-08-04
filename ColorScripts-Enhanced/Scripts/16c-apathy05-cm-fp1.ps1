@@ -1,18 +1,4 @@
-﻿# Converted from: CM-FP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy05/raw/CM-FP1.ANS
-# Source Revision: archive-sha256:2e1c7dd4c451a5d024352ee6b56eba52a2d5ba6a7d73a9cc34cff58fc603ca18
-# Source SHA-256: 9d7ede9a89a85763af8bd5303650f3803eb962a73af5c87916cd928ae6fc58e5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CM-FP1.ANS by Carpet Monkey (Apathy); released in apathy05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Fantastic Plane
-# SAUCE Author: Carpet Monkey
-# SAUCE Group: Apathy
-# SAUCE Date: 19951228
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Fantastic Plane by Carpet Monkey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy05-cm-fp1
 
 Write-Host '
 cm[1;30m█[0;1;30;47m▓▒▓▓▓░▒▓[0;1;30;40m█▄[0m [1;30;40m▄█[0;1;30;47m▓▒▒▓▓[0;1;30;40m██▄▄[0m▀[1;30;47mf▓▓a[0m▄

@@ -1,18 +1,4 @@
-﻿# Converted from: HEN-THIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz07jun/raw/HEN-THIN.ANS
-# Source Revision: archive-sha256:6a4341d9d0364566769256e4356d86035ad4ee53c0aa654acf41be18e58ca462
-# Source SHA-256: 87d220bacc665ff3b866ee542bf7d987f5e55fe3caaff20000b035530622d0f7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HEN-THIN.ANS by hennifer (lazarus); released in laz07jun and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: thin air
-# SAUCE Author: hennifer
-# SAUCE Group: lazarus
-# SAUCE Date: 19970610
-# SAUCE Dimensions: 80x51
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: thin air by hennifer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz07jun-hen-thin-part01
 
 Write-Host '
  [32m                     [0m     [31m      [0;32m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0;31m   [0m

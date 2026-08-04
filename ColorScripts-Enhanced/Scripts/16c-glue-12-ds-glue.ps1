@@ -1,18 +1,4 @@
-﻿# Converted from: DS-GLUE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-12/raw/DS-GLUE.ANS
-# Source Revision: archive-sha256:f5221eba8c246d2fb321d3b43039222677071ff11211f119af33a969aa5543e9
-# Source SHA-256: 2fc0dd162e45ba7d373efb8b0839df0f5f02bb334ae9b7d2f72604e677536528
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-GLUE.ANS by drs (glue); released in glue-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: HAPPY BIRTHDAY GLUE!
-# SAUCE Author: drs
-# SAUCE Group: glue
-# SAUCE Date: 19980802
-# SAUCE Dimensions: 80x36
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: HAPPY BIRTHDAY GLUE! by drs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-12-ds-glue
 
 Write-Host '
 

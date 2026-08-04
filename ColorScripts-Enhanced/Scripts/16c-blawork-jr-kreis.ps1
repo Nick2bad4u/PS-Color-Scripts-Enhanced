@@ -1,18 +1,4 @@
-﻿# Converted from: JR_KREIS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blawork/raw/JR_KREIS.ANS
-# Source Revision: raw-sha256:34564b8a4ab02fed7eab6b257a0951ebdf7d22362602c1818013e81e812c715a
-# Source SHA-256: 34564b8a4ab02fed7eab6b257a0951ebdf7d22362602c1818013e81e812c715a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JR_KREIS.ANS by jerusalem (boil); released in blawork and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: speiseeis
-# SAUCE Author: jerusalem
-# SAUCE Group: boil
-# SAUCE Date: 19970901
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: speiseeis by jerusalem | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blawork-jr-kreis
 
 Write-Host '
 [1;30mjer[0m   [1;30m▄[0m▄[1;30m▄[0m    [1;37m▄▄▄███████▀▀▀▀▌▀██▄[0;31m  [0;1;30m [0;1;37m▄[0m▄[1;30m▄[0;31m [0;1;30m  [0m

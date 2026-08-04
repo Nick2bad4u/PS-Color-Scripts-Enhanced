@@ -1,13 +1,4 @@
-﻿# Converted from: AS-ACVA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-31/raw/AS-ACVA.ANS
-# Source Revision: archive-sha256:bb03d6a159f24338a3412f8c68b8b46e7434c6ed248bdd824b6bd523813298d1
-# Source SHA-256: a9609cf92f0fd3286615310b201ad58b67055d6f910392ea3118b00a288ee907
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AS-ACVA.ANS by Asd (sclr-31); released in sclr-31 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: AS-ACVA.ANS by Asd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-31-as-acva
 
 Write-Host '
 [37;40m  ;$$$$$$$$$$$$$$$$$$$$$$$├├$$$├$$$$$$$$$$$$$$$$\*+└²²"²²┘/S├$$$$$$$$$$$$$$├├$$ [0m

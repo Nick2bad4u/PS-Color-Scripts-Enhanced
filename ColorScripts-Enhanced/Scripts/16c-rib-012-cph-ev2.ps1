@@ -1,18 +1,4 @@
-﻿# Converted from: CPH-EV2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-012/raw/CPH-EV2.ANS
-# Source Revision: archive-sha256:4b822377f08e44404edc6b006616be9a58b9ffc0848d36336fc9de37f7065343
-# Source SHA-256: 6a6666f9fe77a5e0910eb0fd4549d0c1214c53eb33e5c9b4d8967783c85fac8a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-EV2.ANS by cph (rib); released in rib-012 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: evil emag logo
-# SAUCE Author: cph
-# SAUCE Group: rib
-# SAUCE Date: 19980901
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: evil emag logo by cph | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-012-cph-ev2
 
 Write-Host '
                                               [1;31m▄▓▓[0;1;32;41m [0;31m▄[0;1;36m [0m

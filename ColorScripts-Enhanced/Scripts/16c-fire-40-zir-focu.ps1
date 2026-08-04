@@ -1,20 +1,4 @@
-﻿# Converted from: ZIR-FOCU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-40/raw/ZIR-FOCU.ANS
-# Source Revision: archive-sha256:aff8105c0a955ac5c43ea367a02b086cd2849f6741fc41b8a5ff440b77e104a7
-# Source SHA-256: 9cfc6adbcf03275d43d2c39838ce6454ad09eaa9ef41d6d357ad743021ed2dc4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-FOCU.ANS by zir (FiRE); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: f0CUS
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20240707
-# SAUCE Dimensions: 80x26
-# SAUCE Font: IBM VGA
-# SAUCE Comments: daniel-san concentrate FOCUS power
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: f0CUS by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-40-zir-focu
 
 Write-Host '
 [37;40m  [0;36;40m░░░[0;37;40m  [0;36;40m░░░░[0;37;40m  [0;36;40m░░░░░[0;37;40m [0;36;40m░░░░[0;37;40m   [0;36;40m░░░  ░[0;37;40m  [0;36;40m░░   ░░░░░[0;37;40m  [0;36;40m░[0;37;40m [0;36;40m░░[0;37;40m  [0;1;30;40m░░[0m [36m░[0;37m  [0;36m░░░░[0;37m [0;36m░░░[0;37m  [0;36m░[0;37m [0;36m░░░[0;37m    [0;36m░░[0m

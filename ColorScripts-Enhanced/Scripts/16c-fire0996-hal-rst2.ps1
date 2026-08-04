@@ -1,18 +1,4 @@
-﻿# Converted from: HAL-RST2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0996/raw/HAL-RST2.ANS
-# Source Revision: archive-sha256:fd0c87547005857a37aee32ff40c82a1e8535aecda68a9edc2483cdc45b21af1
-# Source SHA-256: 21cd19a15f520cfaccc28bac4586134eff642a633882aa2ffd80d3f07ae9b2c3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HAL-RST2.ANS by Halaster (fire); released in fire0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Rust
-# SAUCE Author: Halaster
-# SAUCE Group: fire
-# SAUCE Date: 19960902
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Rust by Halaster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0996-hal-rst2
 
 Write-Host '
 

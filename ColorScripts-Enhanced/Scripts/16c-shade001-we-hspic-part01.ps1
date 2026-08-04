@@ -1,17 +1,4 @@
-﻿# Converted from: WE-HSPIC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shade001/raw/WE-HSPIC.ANS
-# Source Revision: archive-sha256:95e2f7a399e8cc9b09c40e86b6294ee0079d7c3306ea3bda2b5440b5c54f5516
-# Source SHA-256: 24c2ac49976059edc63e1163406233a0d5381427a7bc08cd534b0adedeaa4be4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WE-HSPIC.ANS by Phlare + Dfuse (.%(sHADe)%.); released in shade001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: pHLARE&dFUSE: Higher Sense Login
-# SAUCE Author: 0  No. 1    0      0
-# SAUCE Group: .%(sHADe)%.
-# SAUCE Date: 19950331
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: pHLARE&dFUSE: Higher Sense Login by Phlare + Dfuse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shade001-we-hspic-part01
 
 Write-Host '
 [34m▄▄░ ▀███████████████▓▄░ ███[0;1;34;44m░[0;34m██████████████  █[0;1;34;44m░[0;34m██▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀░  [0;37m░ [0;34m ▀▀▀▀▓[0;34;45m▓[0;34;40m██[0m

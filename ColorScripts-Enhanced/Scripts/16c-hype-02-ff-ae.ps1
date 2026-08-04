@@ -1,17 +1,4 @@
-﻿# Converted from: FF-AE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hype-02/raw/FF-AE.ANS
-# Source Revision: archive-sha256:85e01eadce5f9498d81aff1ce740b243afce4b217290d5d85773c523660d0b86
-# Source SHA-256: b6e1f8e8353566e5a0f21e8838792a7da0025667a5c5922b0f4b68af97f84d4a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FF-AE.ANS by Free Fall (Hype); released in hype-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: "Alien Encounters" logo
-# SAUCE Author: Free Fall
-# SAUCE Group: Hype
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: "Alien Encounters" logo by Free Fall | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hype-02-ff-ae
 
 Write-Host '
 [1;33m▀   [0m                             [1m▄[0m        [1m [0m

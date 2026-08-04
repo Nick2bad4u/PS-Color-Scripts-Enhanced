@@ -1,20 +1,4 @@
-﻿# Converted from: TGH-PWEB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0526/raw/TGH-PWEB.ANS
-# Source Revision: archive-sha256:96e9c14a0862fcfb7b203f3d94f85e28654461fdbf12521de185a12d5fb418bb
-# Source SHA-256: 33cd380a76d900cca962dbd52a7e7c1b7768cc7432ded6b757814a32f9ebde4b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TGH-PWEB.ANS by The Green Herring (Mistigris); released in mist0526 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Protoweb
-# SAUCE Author: The Green Herring
-# SAUCE Group: Mistigris
-# SAUCE Date: 20250321
-# SAUCE Dimensions: 80x23
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Splash screen for the Protoweb BBS! | Drawn in 4 hours on March 21, 2025! | Winner of the Graphics Compo hosted by Field-FX at WHY 2025 | on August 10, 2025!
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Protoweb by The Green Herring | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0526-tgh-pweb
 
 Write-Host '
 [35m· ,  ▄[0;1;31m▄▄[0;1;31;45m▄▄▀[0;1;31;40m▀[0;35m▀[0;37m▄[0;1;37m▄[0m■ ▄[1m▄[0m■   [35m▄[0;1;31m▄[0;35m▄■''  [0;1;31m▄▄[0;1;31;45m▀[0;35m▀ ▄▄ ■▄[0;1;31m▄▄[0;35m▄ `■▄[0;1;31m▄ [0;35m─▀▀[0;1;31;45m▀▄[0;1;31;40m▄[0;35m▄`■▄.  ▄[0;1;31m▄▄[0;1;31;45m▄▀[0;1;31;40m▀[0;35m▀ ▄[0;1;31;45m▀▄[0;1;31;40m▄[0;35m▄TGH! [0m

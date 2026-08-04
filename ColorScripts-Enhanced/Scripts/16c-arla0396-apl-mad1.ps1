@@ -1,18 +1,4 @@
-﻿# Converted from: APL-MAD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/arla0396/raw/APL-MAD1.ANS
-# Source Revision: archive-sha256:ebddac44d294427c688eb70146e5beb8460db9b2609665ccdf3c3be4a5438a6a
-# Source SHA-256: 876964d4228e4426556d5213d592a4fa7ac3de07bea8e8c323f17e9ca484836e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: APL-MAD1.ANS by apollo (arla/sense/kmd/pus); released in arla0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: madness
-# SAUCE Author: apollo
-# SAUCE Group: arla/sense/kmd/pus
-# SAUCE Date: 19960220
-# SAUCE Dimensions: 80x49
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: madness by apollo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-arla0396-apl-mad1
 
 Write-Host '
   [36m [0m   [31m■[0m       [1;37m ▄▄▄▄       [0;31m [0m

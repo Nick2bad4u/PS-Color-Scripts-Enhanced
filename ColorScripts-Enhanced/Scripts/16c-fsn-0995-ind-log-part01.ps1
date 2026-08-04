@@ -1,13 +1,4 @@
-﻿# Converted from: IND-LOG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0995/raw/IND-LOG.ANS
-# Source Revision: archive-sha256:43f4339b6a2a251dc4c70c732aaf42d822edb35033f29580ac59fb9cc4be61b0
-# Source SHA-256: 84dec508005317a9f749f5505138d0143e3c1bdb229165ce2bdc193adfb270f2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IND-LOG.ANS by Indy (fsn-0995); released in fsn-0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: IND-LOG.ANS by Indy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0995-ind-log-part01
 
 Write-Host '
             [31m████████ ▄████▀  ▄▄██[0;1;31;41m░░░▒▒[0;31m▀[0;1;31m▄[0;1;31;41m▒▒░░[0;31m▀▀  [0;1;31m▄▄[0;1;31;41m▓░[0;1;35;40m █[0m

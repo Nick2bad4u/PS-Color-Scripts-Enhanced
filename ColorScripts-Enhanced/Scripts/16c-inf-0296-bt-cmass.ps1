@@ -1,18 +1,4 @@
-﻿# Converted from: BT-CMASS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/inf-0296/raw/BT-CMASS.ANS
-# Source Revision: archive-sha256:ad4dd85cbdfb0ede1204dbc5ac1e9ce06aec47936eac6d245f83347d4aec6eec
-# Source SHA-256: f7dd8367ed70d6448bf63a1aaa62b71f971b8c39c0ae6305617aa952898b2782
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BT-CMASS.ANS by Black Tyde (iNFeCtiOuS); released in inf-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Critical Mass
-# SAUCE Author: Black Tyde
-# SAUCE Group: iNFeCtiOuS
-# SAUCE Date: 19960126
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Critical Mass by Black Tyde | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-inf-0296-bt-cmass
 
 Write-Host '
 [1;30mß┬ [iNF]         [0;32m▄[0;1;32;42m▒▒▒▓▓▓▓▓▓▒▒[0;1;30;40m           [0m     [1;30mC R I T I C A L   M A S S          [0m

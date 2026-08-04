@@ -1,13 +1,4 @@
-﻿# Converted from: US-SLT1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice0004a/raw/US-SLT1.ICE
-# Source Revision: archive-sha256:bfc06c954be7f0ef73a1cdef8dddfdf1805bb02c6810989d32481de4e3fa5e6c
-# Source SHA-256: d3a88f0c466b3bff00c42a095afa339d63c741537ce45c468b23918b6a37d081
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SLT1.ICE by The Night Angel + Mr Wrong (ice0004a); released in ice0004a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: US-SLT1.ICE by The Night Angel + Mr Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice0004a-us-slt1
 
 Write-Host '
                        [1;30m▄[0m

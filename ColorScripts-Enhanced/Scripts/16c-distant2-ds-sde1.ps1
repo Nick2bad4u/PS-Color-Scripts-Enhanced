@@ -1,17 +1,4 @@
-﻿# Converted from: DS-SDE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/distant2/raw/DS-SDE1.ANS
-# Source Revision: archive-sha256:941f8e7b54c498044319781d83c8f945f73124fec22082c7f2223350e7e8efcd
-# Source SHA-256: 0089d55a31249648142886f97f28c10967e8c93bb1f2b9494ad593aa7b30949a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-SDE1.ANS by deceased squirrel (distant2); released in distant2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: shade ansi
-# SAUCE Author: deceased squirrel
-# SAUCE Date: 19980726
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: shade ansi by deceased squirrel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-distant2-ds-sde1
 
 Write-Host '
 [30;46m████[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: FISHNET.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ensigm/raw/FISHNET.ANS
-# Source Revision: archive-sha256:f7b44b82f2962822e05034244f3334883934a68be8b9cbf2b544191d93a03842
-# Source SHA-256: 764563832674e0d8d065fb7915ff9b1288d5769efc941f1752839a267915560a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FISHNET.ANS by Ph-Tncs (ensigm); released in ensigm and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: FISHNET.ANS by Ph-Tncs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ensigm-fishnet
 
 Write-Host '
      [1;30m▄▀▀▀▀▀▄[0m          [1;37m.[0m         [1;37m.[0m          .               °

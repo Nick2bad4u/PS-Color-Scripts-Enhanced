@@ -1,18 +1,4 @@
-﻿# Converted from: TIN-OPUS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/unit01/raw/TIN-OPUS.ANS
-# Source Revision: archive-sha256:cab338f2eae80f507f7420c5633e2ed0fcca186c774137d9e9868ab55b919efb
-# Source SHA-256: d2aff6b727221cc2a19f0a3984a0dbc24499c706efb69996ec3bacb64d535d8b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TIN-OPUS.ANS by tin man (UNiT Productions); released in unit01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Opus
-# SAUCE Author: tin man
-# SAUCE Group: UNiT Productions
-# SAUCE Date: 19960428
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Opus by tin man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-unit01-tin-opus
 
 Write-Host '
 [1;34m┌──────────────────────────┬──────────────────────────────────────────────────┐[0m

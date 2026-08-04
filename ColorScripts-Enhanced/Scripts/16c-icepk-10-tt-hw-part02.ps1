@@ -1,13 +1,4 @@
-﻿# Converted from: TT-HW.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-10/raw/TT-HW.ICE
-# Source Revision: archive-sha256:bf182b3a4a3821f59456de515e0caeefdf153f2040b433c6321d39d23c909d77
-# Source SHA-256: d14973bdc2f3b7d1a8f30391e477f700a070f3b91ef68716f3f37fd1f11fb52a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TT-HW.ICE by Tempus Thales (icepk-10); released in icepk-10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-97
-# Columns: 1-80
+﻿# Artwork: TT-HW.ICE by Tempus Thales | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-10-tt-hw-part02
 
 Write-Host '
               [34m▀█████[0;1;34;44m▀▀▓▓▓▓▓▓▀▀[0;34m██████▓ [0;31m██[0;31;41m     [0;31;40m█[0;1;31;41m░[0;31m███▓[0;31;41m   [0;1;31;41m░[0;31m█▌[0;34m▐▓[0;1;34;44m▀▀▀[0;34m████▀[0m

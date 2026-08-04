@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-CH5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-1196/raw/OUT-CH5.ANS
-# Source Revision: archive-sha256:93a3f9614fa8f9051df37ef8ac3a215542f098dac3252c255ab4ebfde7fc4534
-# Source SHA-256: 683cd4a594fa98fa9ee1d3f8f9840fba5d9ac193354e48eb06f10f7c6733259d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-CH5.ANS by Sandy Chidester (out-1196); released in out-1196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: OUT-CH5.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-1196-out-ch5
 
 Write-Host '
    [34m▄▄▄▄▄████████████████████[0;1;44m [0;34m█████[0;1;36;44m·[0;34m████████████████████████████████████████▄▄[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: TNT-CYDE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-37/raw/TNT-CYDE.ANS
-# Source Revision: archive-sha256:42913eb56742cc8575f96af5b8a027e63b5172fdb84271b8ac973c7820ea43ef
-# Source SHA-256: e2d06ed22c6d9470e3ea2bfb844a43583f811ce69ea319a685d7c0ae53fa5803
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNT-CYDE.ANS by tainted (fire); released in fire-37 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: the pharcyde
-# SAUCE Author: tainted
-# SAUCE Group: fire
-# SAUCE Date: 20230707
-# SAUCE Dimensions: 80x274
-# SAUCE Font: IBM VGA
-# Lines: 229-274
-# Columns: 1-80
+﻿# Artwork: the pharcyde by tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-37-tnt-cyde-part06
 
 Write-Host '
                              [1;38;2;87;87;87;48;2;0;0;0m▓▓▓▓▓▓░[0;38;2;171;0;171;48;2;0;0;0m ▓░   [0;1;38;2;87;87;87;48;2;0;0;0m▀▒[0;38;2;171;0;171;48;2;0;0;0m▐[0;1;38;2;255;87;255;48;2;171;0;171m■[0;38;2;171;0;171;48;2;0;0;0m   [0;1;38;2;255;87;255;48;2;171;0;171m▄░[0;38;2;171;0;171;48;2;0;0;0m   [0;1;38;2;255;87;255;48;2;171;0;171m░░[0;38;2;171;0;171;48;2;0;0;0m█▄   [0;1;38;2;255;255;255;48;2;0;0;0m▄▀[0;38;2;171;0;171;48;2;0;0;0m [0;38;2;171;171;171;48;2;0;0;0m▄[0;1;38;2;87;87;87;48;2;171;171;171m░[0;38;2;171;0;171;48;2;0;0;0m  ▐[0;1;38;2;255;87;255;48;2;171;0;171m░▓██▄[0;38;2;171;0;171;48;2;0;0;0m▄  ▀█▄[0m

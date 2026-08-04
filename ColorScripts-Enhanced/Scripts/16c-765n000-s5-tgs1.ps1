@@ -1,18 +1,4 @@
-﻿# Converted from: S5-TGS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/765n000/raw/S5-TGS1.ANS
-# Source Revision: archive-sha256:bc948aa3c1d1be4a72991269719a2bbe84c0eab31a040d40941acad4d7a8b0f3
-# Source SHA-256: 15918e5740458ed166a50a588ea739a6e7bb7e17683871a91d25429370a3aa9d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S5-TGS1.ANS by SuicidalSnowman (765); released in 765n000 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Girl ScoutZ
-# SAUCE Author: SuicidalSnowman
-# SAUCE Group: 765
-# SAUCE Date: 19960421
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: The Girl ScoutZ by SuicidalSnowman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-765n000-s5-tgs1
 
 Write-Host '
 

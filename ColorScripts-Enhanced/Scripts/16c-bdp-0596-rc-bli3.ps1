@@ -1,17 +1,4 @@
-﻿# Converted from: RC(BLI3).ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bdp-0596/raw/RC(BLI3).ANS
-# Source Revision: archive-sha256:c585407c7da432de8b278021a42088d2314fe9c2fa3b5517b4760e8c74fd8742
-# Source SHA-256: ed8b7162ddf7dfb1bc34220f33471e8524a07e5cf9e3505be231905e25123403
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RC(BLI3).ANS by 1\2[[[2[__[_21001 (.boogiE%Woogie.); released in bdp-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: .blister(logo). .
-# SAUCE Author: 1\2[[[2[__[_21001
-# SAUCE Group: .boogiE%Woogie.
-# SAUCE Date: 19960501
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: .blister(logo). . by 1\2[[[2[__[_21001 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bdp-0596-rc-bli3
 
 Write-Host '
 

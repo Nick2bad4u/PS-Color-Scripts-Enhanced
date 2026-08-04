@@ -1,18 +1,4 @@
-﻿# Converted from: MR-TISMN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad1096/raw/MR-TISMN.ANS
-# Source Revision: archive-sha256:6e8c166fa2bd984d99dfd9314d5fa194e51541b9445f04c7962b2818cada06d5
-# Source SHA-256: 19e73e5692630acad3760ffb9ccdb01b4a21bbf4d0d3cf0dafe72066cb46cf39
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-TISMN.ANS by mithrandir (quad-p); released in quad1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Tis Menu Template
-# SAUCE Author: mithrandir
-# SAUCE Group: quad-p
-# SAUCE Date: 19960919
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Tis Menu Template by mithrandir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad1096-mr-tismn
 
 Write-Host '
                                                                              [33m [0m

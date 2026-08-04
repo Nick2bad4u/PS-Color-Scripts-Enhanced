@@ -1,13 +1,4 @@
-﻿# Converted from: KMI-TELE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p21_03/raw/KMI-TELE.ANS
-# Source Revision: archive-sha256:6dd1bcc7f33fdea340cde4c01f01e87dc9ca492adcd030fa6cec941bff29d863
-# Source SHA-256: ed38adaa85c45c860eb70cdfea5e9609329878ff15ebd8b3e4cf3cc6453fe69b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KMI-TELE.ANS by Kami (l0p21_03); released in l0p21_03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: KMI-TELE.ANS by Kami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p21-03-kmi-tele
 
 Write-Host '
                   [1;30m░[0m                                         [1;30m░[0m

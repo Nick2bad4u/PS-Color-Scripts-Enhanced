@@ -1,18 +1,4 @@
-﻿# Converted from: BF-TIC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz08jly/raw/BF-TIC1.ANS
-# Source Revision: archive-sha256:8d8d89cdb4f6a56f2eaa26003458d08f5faec96c5dffe1f9e4f0c78141100bcb
-# Source SHA-256: 56aa3833ea6b8f2fe9d986ec023af5b7ef62e1ad45c0a9985710bdb80b13d9a1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BF-TIC1.ANS by boba fett (lAZARUS!); released in laz08jly and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: TIC!
-# SAUCE Author: boba fett
-# SAUCE Group: lAZARUS!
-# SAUCE Date: 19970701
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: TIC! by boba fett | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz08jly-bf-tic1
 
 Write-Host '
                                                   [1;33m▄▀[0;1;33;42m▀███[0;1;32;40m███[0;1;32;42m▓▓░[0;32m▀▀▀▀▀▀▀▀[0;1;30m▀[0m [31m▄[0;1;31m▄▄▄▄▄▄[0m▄

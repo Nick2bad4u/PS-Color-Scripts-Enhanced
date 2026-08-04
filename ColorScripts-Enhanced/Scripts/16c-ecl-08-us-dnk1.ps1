@@ -1,18 +1,4 @@
-﻿# Converted from: US-DNK1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-08/raw/US-DNK1.ANS
-# Source Revision: archive-sha256:0b90c936d49629839c01709c30be5eee3ae4012caa7a8f1570b6ae8cc1763cb4
-# Source SHA-256: 0ca6865dc812b3f24b561b9a50f17da96496c3b8f578ca149f1ead062c4556fa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-DNK1.ANS by Cheeze + Defiant (eclipse/? =)); released in ecl-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: doink joint #01
-# SAUCE Author: cheeze/defiant
-# SAUCE Group: eclipse/? =)
-# SAUCE Date: 19961014
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: doink joint #01 by Cheeze + Defiant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-08-us-dnk1
 
 Write-Host '
 

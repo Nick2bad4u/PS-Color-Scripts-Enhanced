@@ -1,18 +1,4 @@
-﻿# Converted from: US-TOFU1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9701/raw/US-TOFU1.ANS
-# Source Revision: archive-sha256:d9ee1d58a6a06d01c9f7c4f38cd8e5ab0dc2d9bdfc6b97ab0ed0cc65c400a40c
-# Source SHA-256: e6f1d3f0b7282b41b5dcc261e8852e991a31aacc28fabc55409f6f82a78339fd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-TOFU1.ANS by Widowmaker + Sir Death (AWE Lettering); released in awe9701 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Tofu
-# SAUCE Author: Multiple Artists
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970101
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Tofu by Widowmaker + Sir Death | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9701-us-tofu1
 
 Write-Host '
         [35m ███[0;1;35;45m░░░[0;35m█[0m                                     [34m▄▄▄▄▄▄[0m

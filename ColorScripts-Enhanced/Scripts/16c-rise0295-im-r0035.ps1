@@ -1,18 +1,4 @@
-﻿# Converted from: IM-R0035.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rise0295/raw/IM-R0035.ANS
-# Source Revision: archive-sha256:cbc4b57b06c90859f5fe061fc0ab53f15bc0c29ecc8d7108367093217c0cbf4a
-# Source SHA-256: 3b807accbfb104d69c4a94a7f48082515513162bdada73e0d99978b19186aacf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IM-R0035.ANS by iron man (rise); released in rise0295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: some Beatle Bailey chick..
-# SAUCE Author: iron man
-# SAUCE Group: rise
-# SAUCE Date: 19950113
-# SAUCE Dimensions: 80x47
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: some Beatle Bailey chick.. by iron man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rise0295-im-r0035
 
 Write-Host '
 

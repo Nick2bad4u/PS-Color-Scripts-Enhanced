@@ -1,17 +1,4 @@
-﻿# Converted from: N!UCLGIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/p-9606/raw/N!UCLGIN.ANS
-# Source Revision: raw-sha256:33fc861193c292f1c0a173fe22462821bedd4f476cbee1789d75cfc42e478d50
-# Source SHA-256: 33fc861193c292f1c0a173fe22462821bedd4f476cbee1789d75cfc42e478d50
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N!UCLGIN.ANS by NAiL/MS/PAiN! (p-9606); released in p-9606 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: UNDERC0VER L0GiN
-# SAUCE Author: NAiL/MS/PAiN!
-# SAUCE Date: 19960513
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: UNDERC0VER L0GiN by NAiL/MS/PAiN! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-p-9606-n-uclgin
 
 Write-Host '
 [1;30m▄▄▄▄▄■▄▄▄▄▓▄▄▄▄▄▌▄▄▄▄▄▓▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄■▄▄▄▄▐▄▄▄▄▄▓▄▄▄▌▄▄▄■                 ▄▓▄▄ [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: RL!-STER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0596/raw/RL!-STER.ANS
-# Source Revision: archive-sha256:06f164afecd2a38c1a107122cbc0c2c2d07c6484c9e867e2eecffd5f8b0065bf
-# Source SHA-256: 8f7e2d3bf8b6fed0f0f3d1fb5d9666c0bdfd182ced2e2416ce62af10a46de4ba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RL!-STER.ANS by Rawlock (Opium); released in opx-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Sterilized
-# SAUCE Author: Rawlock
-# SAUCE Group: Opium
-# SAUCE Date: 19960502
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Sterilized by Rawlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0596-rl-ster
 
 Write-Host '
 

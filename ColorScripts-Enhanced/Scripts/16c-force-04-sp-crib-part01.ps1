@@ -1,18 +1,4 @@
-﻿# Converted from: SP-CRIB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-04/raw/SP-CRIB.ANS
-# Source Revision: archive-sha256:f04608afaefba8c1df0eb2e2fba588db42125ae9ca8868869f55a444379576da
-# Source SHA-256: 2beb2a3c0e8647812a339b2f4716cbe4821406844194e162ebf7e0b528c684e7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SP-CRIB.ANS by Spoonman (fORCE); released in force-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Da Crib
-# SAUCE Author: Spoonman
-# SAUCE Group: fORCE
-# SAUCE Date: 19951005
-# SAUCE Dimensions: 80x96
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: Da Crib by Spoonman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-04-sp-crib-part01
 
 Write-Host '
 [1;30;42m░░[0;32m█[0;1;30;42m░[0;32m████[0;1;30;42m░░░░░░▒▒▒▒▒▒▓▓▓▓[0;1;30;40m████████████████[0;1;30;47m▄▄▄▄[0m██[1;32;47m▀▀[0;1;32;42m███▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒░░░░░░[0;32m█[0;1;32;42m░░[0;32m█[0;1;32;42m░[0;32m██[0m

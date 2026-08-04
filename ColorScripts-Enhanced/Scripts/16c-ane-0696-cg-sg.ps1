@@ -1,18 +1,4 @@
-﻿# Converted from: CG-SG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ane-0696/raw/CG-SG.ANS
-# Source Revision: archive-sha256:d749d6dfb1aa7099bfe8de2fa9928647cd0fee95bf1e9f28d13d3a4e290eafb8
-# Source SHA-256: ebb6555f36cbfe762286eae695b79b9ace0443a8797bcd452b93fa101a1466ef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-SG.ANS by Coug (.;:Anemia:;.); released in ane-0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Spinal Gamma
-# SAUCE Author: Coug
-# SAUCE Group: .;:Anemia:;.
-# SAUCE Date: 19960610
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Spinal Gamma by Coug | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ane-0696-cg-sg
 
 Write-Host '
      [1;32m▄■ ▀ ▄[0m                     [1;32m▄■▀▀▄▄[0m         [1;32m▄■  [0;32m░[0m

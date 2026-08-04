@@ -1,18 +1,4 @@
-﻿# Converted from: R1-GOO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drop9707/raw/R1-GOO.ANS
-# Source Revision: archive-sha256:32b4b2cc155cdad909effdfba21862a9be79226a226c0a804b96a9ff5b976024
-# Source SHA-256: d5ec3510f90f77c0873c5f2578432c12a88df2b1d8f7d80ac60e224ecc69a533
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: R1-GOO.ANS by Ripper1 (READ THE INI FILE); released in drop9707 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: g00!
-# SAUCE Author: Ripper1
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19970129
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: g00! by Ripper1 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drop9707-r1-goo
 
 Write-Host '
                               [1;34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

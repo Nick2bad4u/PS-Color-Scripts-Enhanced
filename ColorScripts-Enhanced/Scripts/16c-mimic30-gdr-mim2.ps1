@@ -1,13 +1,4 @@
-﻿# Converted from: gdr-mim2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic30/raw/gdr-mim2.ans
-# Source Revision: archive-sha256:18a835bc0f005b73378f198096ca32d491cd7704634259b4d499ec97a5e3b3dc
-# Source SHA-256: 2bfbf63f6b2991f884ee7c60d273d2e273066581720d575d77f9cde259ad8fbb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: gdr-mim2.ans by Gravedancer (mimic30); released in mimic30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: gdr-mim2.ans by Gravedancer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic30-gdr-mim2
 
 Write-Host '
 iGDR$$$$I       [1m~IIIi   [0;33m  ,iII8[0;1;31m888888$$$$$$$8888b,[0m    [1;30m`'';;;,[0m [1m ;$$$$$$__,,,[0m

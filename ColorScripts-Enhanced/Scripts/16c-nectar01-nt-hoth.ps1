@@ -1,13 +1,4 @@
-﻿# Converted from: NT-HOTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nectar01/raw/NT-HOTH.ANS
-# Source Revision: archive-sha256:db3812836800ba5278d4a1a62edfe8d06c2001872f9fe3d1064cdbc02eec11ac
-# Source SHA-256: 0ba876fa76859da333c361011b43d3057f2dece31068813cb54e3e5f60047d90
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NT-HOTH.ANS by Nootropic (nectar01); released in nectar01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: NT-HOTH.ANS by Nootropic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nectar01-nt-hoth
 
 Write-Host '
                  [35m▄[0m

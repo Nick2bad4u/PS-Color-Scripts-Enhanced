@@ -1,13 +1,4 @@
-﻿# Converted from: DX!-FUTA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oops_a04/raw/DX!-FUTA.ANS
-# Source Revision: archive-sha256:152751703632084c3874f4d0774968181737168c5892dd20cae40e0ac76659c9
-# Source SHA-256: cc116e37da5c6edaec65a02c56dce87f1e91f53d8b07b2fdae1c06511ed16f3b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DX!-FUTA.ANS by Drax (oops_a04); released in oops_a04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: DX!-FUTA.ANS by Drax | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oops-a04-dx-futa
 
 Write-Host '
    [1m.,po??ⁿ°ⁿ?$[0;1;47m$[0;1;40m$$[0;1;47m$[0;1;40m$io.[0m                                                    [dx]

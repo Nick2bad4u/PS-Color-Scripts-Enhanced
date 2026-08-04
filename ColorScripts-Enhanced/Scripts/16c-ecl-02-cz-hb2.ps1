@@ -1,18 +1,4 @@
-﻿# Converted from: CZ-HB2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-02/raw/CZ-HB2.ANS
-# Source Revision: archive-sha256:815fb0802a5a645b19e4bb1a2e67405cbfe5a7d016a5808efe6ef55f809d080c
-# Source SHA-256: 9d3d8e0b2342b408584a0520bf75936883976224b1525f6f969686c8892268de
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CZ-HB2.ANS by cheezey (eclipse); released in ecl-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: hellbound
-# SAUCE Author: cheezey
-# SAUCE Group: eclipse
-# SAUCE Date: 19960627
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: hellbound by cheezey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-02-cz-hb2
 
 Write-Host '
              ▄ ▄▄▄▄▄▄▄▄            ▄▄▄  ▄

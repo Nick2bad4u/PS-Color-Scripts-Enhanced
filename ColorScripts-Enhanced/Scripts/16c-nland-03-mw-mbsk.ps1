@@ -1,18 +1,4 @@
-﻿# Converted from: MW-MBSK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nland-03/raw/MW-MBSK.ANS
-# Source Revision: archive-sha256:7ddb21e455f18ac13bd1d0242ad29db8419e3ff5847d9aa5ea635b533172de76
-# Source SHA-256: 89ea28a680f187c5bc684581eca67e153e70c183ad92f044dc91909f00c53416
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MW-MBSK.ANS by MoonWalkeR (NeveRLanD); released in nland-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Mini Bad-Skull
-# SAUCE Author: MoonWalkeR
-# SAUCE Group: NeveRLanD
-# SAUCE Date: 19960104
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Mini Bad-Skull by MoonWalkeR | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nland-03-mw-mbsk
 
 Write-Host '
                                 [1;30m▄▄▄▄[0;1;30;43m▓▓▓▓▓▓▓[0;1;30;40m▄▄▄▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: WD-RR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0497/raw/WD-RR.ANS
-# Source Revision: archive-sha256:0a24528ad1b8350dc6275ed84884990aa181682392c532082994d5872ceb5801
-# Source SHA-256: 2a64155fd3e3f2efa6a70e37f43d57f86640867d8cd8773ca0ab71e1d1269478
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WD-RR.ANS by Weirdo (fsn-0497); released in fsn-0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: WD-RR.ANS by Weirdo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0497-wd-rr
 
 Write-Host '
 [1m [0;1;35m [0m [1m [0;1;35m [0;35m  [0;37m [0;1;37m [0;1;35m [0;35m    [0;37m [0;1;37m [0;1;35m [0;35m [0m         [34m ▄▄▄[0;1;30m▄[0m [1;34m [0;34m    [0;1;34m [0;34m   [0m    [1;37m▄[0m▄▄[1;47m▀░[0m█[1;30;47m░▄[0m▀▀▀[1;47m▓[0;1;30;40m▀   [0m   [1;32m▄[0m

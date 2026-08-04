@@ -1,13 +1,4 @@
-﻿# Converted from: vp-hate.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-39/raw/vp-hate.ans
-# Source Revision: archive-sha256:ff2dc82e601d582d5ba14cde11c95bdd44462cb1bd0e264d5d8349e121c0a8ec
-# Source SHA-256: bd2ee9eb576b78c376d6031266ddfc165e1054152377f028984be12710a21c21
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: vp-hate.ans by Vapor (rmrs-39); released in rmrs-39 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: vp-hate.ans by Vapor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-39-vp-hate
 
 Write-Host '
 [1;30m,[0m     [1;30m,[0m                      [1;30m,[0m       [1;30m;[0m           [1;30m,[0m                 [1;30m.[0m      [1;30m,[0m

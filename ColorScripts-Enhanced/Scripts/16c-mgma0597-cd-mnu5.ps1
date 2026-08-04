@@ -1,18 +1,4 @@
-﻿# Converted from: CD!-MNU5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mgma0597/raw/CD!-MNU5.ANS
-# Source Revision: archive-sha256:4321ed96c03457476be7881d0c1ef30e9189de218dff8231543b22aa7744f58c
-# Source SHA-256: e5b1e894e6301ad9c71d7109e59504dcd643540cf3e06d94bbacf3c340f0aa0d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CD!-MNU5.ANS by cardiac (magma); released in mgma0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ethereal header #2
-# SAUCE Author: cardiac
-# SAUCE Group: magma
-# SAUCE Date: 19970326
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ethereal header #2 by cardiac | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mgma0597-cd-mnu5
 
 Write-Host '
 [31m░[0;37m [0;31m░▒▓█[0;1;31;41m                   [0m                                        [1;31m             [0m

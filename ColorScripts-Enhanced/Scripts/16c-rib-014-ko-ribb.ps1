@@ -1,13 +1,4 @@
-﻿# Converted from: KO-RIBB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-014/raw/KO-RIBB.ANS
-# Source Revision: archive-sha256:38aae4e6b3e943656501d868e7ccbeee319f7541f5197f0cc3aeed0b83030214
-# Source SHA-256: b7ecd46728de0b17f75d427da36f4114d1a6c9bd89b1e65ab96d56df412fd9c2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KO-RIBB.ANS by Kingpin Octopus (rib-014); released in rib-014 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: KO-RIBB.ANS by Kingpin Octopus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-014-ko-ribb
 
 Write-Host '
       [1;30m■▄[0m   [34m█[0;1;34;44m░[0;34m████▄▄   [0;1;30m▀█[0;1;30;42m▄░▒▓▓[0;1;30;40m▀[0m   [1;30m▄▄[0m   [1;30m▄▄[0m   [1;30m▐[0m   [34m█[0;1;34;44m▄[0;34m██[0m   [1;34m [0;1;30m■▀▀▀▀▄█[0;1;30;42m▓▒[0;1;30;40m [0m

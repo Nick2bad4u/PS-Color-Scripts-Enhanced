@@ -1,13 +1,4 @@
-﻿# Converted from: DIE-ECHO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k-zxica/raw/DIE-ECHO.ANS
-# Source Revision: archive-sha256:098212bcd3fc250902be7ae08340a23e99b29f8fa69fe7b4990238a6d402d1f6
-# Source SHA-256: 4ae9bb79ed87c14746cbbdf63f96029c05525c667b1d751673c566d4ea47691b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DIE-ECHO.ANS by Dieznyik (k-zxica); released in k-zxica and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: DIE-ECHO.ANS by Dieznyik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k-zxica-die-echo
 
 Write-Host '
                                [34m░[0;30;44m▒[0;34;40m▄ [0m                                   [34;40m▄[0m

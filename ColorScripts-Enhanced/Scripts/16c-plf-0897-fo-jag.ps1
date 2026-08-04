@@ -1,18 +1,4 @@
-﻿# Converted from: FO-JAG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0897/raw/FO-JAG.ANS
-# Source Revision: archive-sha256:cabceb59b7b429d8e4c18b37682b5f04003f1a57c83a21398a4e2582b732a549
-# Source SHA-256: c164205bf3bb47827269c660da184299c6ef5fa54d98d3801827cc8566b96fba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FO-JAG.ANS by flexor (poffelipoff); released in plf-0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: look it's me
-# SAUCE Author: flexor
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19970818
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: look it's me by flexor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0897-fo-jag
 
 Write-Host '
  █[1;30m▌▀█[0m▐[1;30m█[0;1;37m [0m▐[1;30m▌▀▀[0m                          [1m░░░░░░░░░░░░░░░[0m                 [1m▄[0m

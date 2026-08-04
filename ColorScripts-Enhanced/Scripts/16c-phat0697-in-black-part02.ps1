@@ -1,18 +1,4 @@
-﻿# Converted from: IN-BLACK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0697/raw/IN-BLACK.ANS
-# Source Revision: archive-sha256:08e18940bca34b3567a75953ae0590b0f85d3fbc4d879deb49d9733793875e53
-# Source SHA-256: 7a24cb561ba581ddb698ef56d92302257ca48486855f526310694027d5562a93
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IN-BLACK.ANS by insert (Phat Studios '97); released in phat0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: black hole
-# SAUCE Author: insert
-# SAUCE Group: Phat Studios '97
-# SAUCE Date: 19970510
-# SAUCE Dimensions: 80x66
-# Lines: 33-66
-# Columns: 1-80
+﻿# Artwork: black hole by insert | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0697-in-black-part02
 
 Write-Host '
 [1;34;44m░███░[0;30;44m▓[0;37;40m  [0;35;40m░[0m             [1;30;40m▄[0m▄▄[1;30;47m▀▒[0;1;30;40m█▀[0m [1;33m▀[0m     [1;33m▀▀▀▀[0m  [1;30m▄[0;35m▄[0;1;30;45m▀[0;35m██[0;1;35;45m▄▄▄███████████▓▓[0;35m██▌[0;37m [0;34m▐[0;1;34;44m▐██████░[0;34m▄▄[0;37m [0;34m▄[0m

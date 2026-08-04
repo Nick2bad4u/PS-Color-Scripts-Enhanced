@@ -1,18 +1,4 @@
-﻿# Converted from: LST-SUN4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/3o3pack4/raw/LST-SUN4.ANS
-# Source Revision: archive-sha256:3a7324cf28c2b64b546cb6909029bbdfd9f549d1041617fe77acf1890b6f6ec6
-# Source SHA-256: fe7016a421ba147e8cdfa665bff08d21d7399442baacad0b1208eea677062457
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LST-SUN4.ANS by soul trader (3o3pack4); released in 3o3pack4 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the urban sun part 4 of x
-# SAUCE Author: soul trader
-# SAUCE Group: .
-# SAUCE Date: 19970601
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: the urban sun part 4 of x by soul trader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-3o3pack4-lst-sun4
 
 Write-Host '
 [1;30m[0m[1;30m[0m                      ▄▄▄▄▄▄▄▄▄▄▄▄▄     [1;30m                                      [0m

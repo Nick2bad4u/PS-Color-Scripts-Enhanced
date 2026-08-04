@@ -1,19 +1,4 @@
-﻿# Converted from: US-HUNGER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0222/raw/US-HUNGER.ANS
-# Source Revision: archive-sha256:298b44b8b7049e43debc6d372a2843121b005521ff5ef92f5442efdcf0a21843
-# Source SHA-256: f8985ff011516feaf490a332fe87489327fa55eadc2c217def50422f98af5cc8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-HUNGER.ANS by Zeus Ii + LDA (Mistigris); released in mist0222 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Hunger
-# SAUCE Author: Zeus II / LDA
-# SAUCE Group: Mistigris
-# SAUCE Date: 20220225
-# SAUCE Dimensions: 80x175
-# SAUCE Font: IBM VGA
-# Lines: 101-150
-# Columns: 1-80
+﻿# Artwork: Hunger by Zeus Ii + LDA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0222-us-hunger-part03
 
 Write-Host '
 [32m█[0;1;32;42m░░░[0;32m█[0;1;32;42m░░░░░░░▒▒[0;32m▄▄▀█[0;32;44m▓▓[0;32;40m█[0;35;40m  [0;32;40m█[0;1;32;42m▒[0m          [31m█[0;1;31;41m▓▓[0;31m█▐█[0;1;31;41m▓▓▓▓[0;31m█[0;37m  [0;31m█[0;37;41m░[0;31;40m█▀[0;1;31;40m▄██████[0;1;31;41m▓░[0;31m█████▀[0;37m       [0;31m░░▓[0m

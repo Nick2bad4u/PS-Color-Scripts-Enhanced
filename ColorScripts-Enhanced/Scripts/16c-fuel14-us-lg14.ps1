@@ -1,18 +1,4 @@
-﻿# Converted from: US-LG14.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel14/raw/US-LG14.ANS
-# Source Revision: archive-sha256:5ee61a0e94a8eed583658335c026a1a037023d44b54da693bbed2c0844c1a5d9
-# Source SHA-256: 78d3203a8a4763e3bf79e89bca6c03131173f6dcd10e4f17ec53d13145de0166
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-LG14.ANS by The Knight + Spirit Of Rage + Drc Four (fuel); released in fuel14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: logo for fuel 14
-# SAUCE Author: multiple artists
-# SAUCE Group: fuel
-# SAUCE Date: 19970524
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: logo for fuel 14 by The Knight + Spirit Of Rage + Drc Four | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel14-us-lg14
 
 Write-Host '
               [34m   [0;37m [0;35m▀▀▄▄▄[0m                       [37m [0m      [37m [0m

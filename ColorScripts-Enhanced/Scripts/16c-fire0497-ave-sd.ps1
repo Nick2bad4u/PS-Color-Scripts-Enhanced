@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-SD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0497/raw/AVE-SD.ANS
-# Source Revision: archive-sha256:42e18118a4fe23187162d4202e0e64c79c23017db87b8967f1816ba2b79540c6
-# Source SHA-256: 762ce0f23638e605cbbb76d955d868f4233acbeda99cbd471bdf57e5c98b48b6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-SD.ANS by avenger (fire); released in fire0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: snake's domain
-# SAUCE Author: avenger
-# SAUCE Group: fire
-# SAUCE Date: 19970402
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: snake's domain by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0497-ave-sd
 
 Write-Host '
  [1;33m░[0m [1;33m▄▄[0m [1;33m▀▀[0m    [1;30m▄[0m▄[1;30m▌[0m    [1;30m▄[0m▄  [33m▄[0m   [1;30m░█[0m [1;30m▄▐[0m  [1;30m░▓▄▄[0m     [1;30m▀▀[0m  [1;30m▄▄[0m  [1;30m░[0m    [1;30m▐▄[0m    [1;30m▄[0m     [1;30m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: T!-FISH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot1297/raw/T!-FISH.ANS
-# Source Revision: archive-sha256:7bd5836fa16624c33d90d7b8d157576c042e1a7f12ab842c8fb178c52f465fc3
-# Source SHA-256: 76f7523725fcd37a2538f68e5956ba1e1e1fe8bcbf107a089d8fb7e0658416ac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T!-FISH.ANS by .xX[ tERROR ]Xx. (RioT); released in riot1297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dA fUX0RiNG fISHIE!! +free+
-# SAUCE Author: .xX[ tERROR ]Xx.
-# SAUCE Group: RioT
-# SAUCE Date: 19971114
-# SAUCE Dimensions: 80x25
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: dA fUX0RiNG fISHIE!! +free+ by .xX[ tERROR ]Xx. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot1297-t-fish
 
 Write-Host '
 

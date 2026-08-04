@@ -1,13 +1,4 @@
-﻿# Converted from: NX-CHAN0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/moi-1196/raw/NX-CHAN0.ANS
-# Source Revision: archive-sha256:a489980c23b1f6d57442b7b731d0e35c1c46367b9d85c37fb8b0b1fc51e07ad6
-# Source SHA-256: d4d853ac4f0948ddcaed3cdc7158be4fbfe60cbc100d0f3552b712d58440baf7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NX-CHAN0.ANS by Nofx (moi-1196); released in moi-1196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: NX-CHAN0.ANS by Nofx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-moi-1196-nx-chan0
 
 Write-Host '
                 [1;35m▄[0;1;35;46m▒[0;1;35;40m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: US-SHATB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shv-0994/raw/US-SHATB.ANS
-# Source Revision: archive-sha256:6fef501305afa1ee8c62f4d65ae68ce468913963008b7665f76edae1cb42cd85
-# Source SHA-256: 0861adbae90657c764afeac1b80151cdcf03f0c5a242b5d3a6f57a5b26edd88c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SHATB.ANS by The Undead Sorcerer (Shiver); released in shv-0994 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Shattered Beliefs
-# SAUCE Author: The Undead Sorcerer
-# SAUCE Group: Shiver
-# SAUCE Date: 19940822
-# SAUCE Dimensions: 80x25
-# Lines: 45-91
-# Columns: 1-80
+﻿# Artwork: Shattered Beliefs by The Undead Sorcerer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shv-0994-us-shatb-part02
 
 Write-Host '
 [1;37;47m ░▒▒▒▒▒▒▒▒▒▒▓▒░[0m█ [34m▐[0;34;44m [0;1;34;44m░[0;1;34;40m [0;34m█[0;1;34;44m░░[0;34m█ [0;1;37;47m▒[0m▌  [1;47m░▒[0;1;40m   [0m█ [31m▄▄▄▄  [0;1;37;47m░[0m█ [1;34;44m░▒░[0;34m▌█[0;1;34;44m░[0;34m█▌ [0;37m▀▀[0;37;47m  [0;1;37;47m░░▒▓▓████████████▓▒░ [0m

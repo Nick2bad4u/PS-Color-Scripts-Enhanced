@@ -1,13 +1,4 @@
-﻿# Converted from: UC^FOROS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mo-ans1/raw/UC%5EFOROS.ANS
-# Source Revision: raw-sha256:f763576a4e3b861982117cd75d4ecadeb0601f99270bb3742b511b9c95f7b130
-# Source SHA-256: f763576a4e3b861982117cd75d4ecadeb0601f99270bb3742b511b9c95f7b130
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UC^FOROS.ANS by Uctumi (mo-ans1); released in mo-ans1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: UC^FOROS.ANS by Uctumi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mo-ans1-uc-foros
 
 Write-Host '
                 [1;30m ▄[0;1;30;46m██[0;1;30;40m███▄ [0m      [1;30m               [0m      [1;30m▄▄▄▄▄[0;35m [0m

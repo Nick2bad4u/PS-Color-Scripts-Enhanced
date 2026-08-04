@@ -1,18 +1,4 @@
-﻿# Converted from: SK!AVG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p16_02/raw/SK!AVG.ANS
-# Source Revision: archive-sha256:f14040a9d68edb58d098453fc4b0fc3b1d73172046af4c5ef395d54b3010b7f2
-# Source SHA-256: 47808c5c49cbe9de266881a19094bfb5b2ef5c6f0aacfcc5cd276c74a41a15ea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!AVG.ANS by sIMONkING (thelo0p^lure); released in l0p16_02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: aVG ansi logo
-# SAUCE Author: sIMONkING
-# SAUCE Group: thelo0p^lure
-# SAUCE Date: 20020518
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: aVG ansi logo by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p16-02-sk-avg
 
 Write-Host '
 [33m[0m           [1;30m░░░░░░░░░░[0m                                           [32m░░░░░[0m

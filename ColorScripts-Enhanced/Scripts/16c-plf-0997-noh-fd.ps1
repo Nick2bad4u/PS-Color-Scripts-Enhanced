@@ -1,18 +1,4 @@
-﻿# Converted from: NOH-FD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0997/raw/NOH-FD.ANS
-# Source Revision: archive-sha256:d6ce507ee095ab9c7ce1d91178b57bff0c61babde42a3957415461a430e18407
-# Source SHA-256: f95f08a633026641720b5cf85b93a2aa6584a1581697ff465357ad366c7a4340
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NOH-FD.ANS by nOah? (poffelipoff); released in plf-0997 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fd main! ;)
-# SAUCE Author: nOah?
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19970916
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: fd main! ;) by nOah? | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0997-noh-fd
 
 Write-Host '
                  [1;30m      [0m

@@ -1,13 +1,4 @@
-﻿# Converted from: JP-DS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roots02/raw/JP-DS2.ANS
-# Source Revision: archive-sha256:76e48703c4ae574ec2cec39d9f297f8abe09593046838247863eedaee737caa1
-# Source SHA-256: 26f7fe655729061f89a28d5e58725db0715aa38ce2e25f265f2eac2d1a395d5d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JP-DS2.ANS by Jack Phlash (roots02); released in roots02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: JP-DS2.ANS by Jack Phlash | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roots02-jp-ds2
 
 Write-Host '
          [35m  ░[0m

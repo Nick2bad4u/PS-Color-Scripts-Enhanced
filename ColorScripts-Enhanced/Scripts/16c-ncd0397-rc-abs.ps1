@@ -1,13 +1,4 @@
-﻿# Converted from: RC-ABS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ncd0397/raw/RC-ABS.ANS
-# Source Revision: archive-sha256:279b79a24916a8da9fdbbf933292cd4026cd3832fca43ab7f735b3c3ea1fd603
-# Source SHA-256: f97aa0194bf1973383a65f20e7a7823c24ddb50cbaf3ea785201861d54c0e946
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RC-ABS.ANS by Reflect (ncd0397); released in ncd0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: RC-ABS.ANS by Reflect | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ncd0397-rc-abs
 
 Write-Host '
                                                         [1;33ms$$s[0m

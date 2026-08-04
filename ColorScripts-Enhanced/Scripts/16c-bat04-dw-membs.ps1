@@ -1,18 +1,4 @@
-﻿# Converted from: DW-MEMBS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bat04/raw/DW-MEMBS.ANS
-# Source Revision: archive-sha256:d176f3f3481cd621bff59d2bfb55aef8be05c9007ac772bba99c98c138cb9e41
-# Source SHA-256: 1ac9b066af660ff81106a679229428e62b7e378dfdc49ae066e8960195699e54
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DW-MEMBS.ANS by darkwing (bat); released in bat04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: members
-# SAUCE Author: darkwing
-# SAUCE Group: bat
-# SAUCE Date: 19961228
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: members by darkwing | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bat04-dw-membs
 
 Write-Host '
 

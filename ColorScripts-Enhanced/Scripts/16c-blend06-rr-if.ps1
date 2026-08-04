@@ -1,18 +1,4 @@
-﻿# Converted from: RR-IF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend06/raw/RR-IF.ANS
-# Source Revision: archive-sha256:bdb12df6fb66b6e7f7ab1240c15e9b23d66b94ced69828c85c717709162a24eb
-# Source SHA-256: 3d417ffe886fc8f41cbeea4d31e5fc4b0227fc9c104fcb8822b3fa7954ae4737
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RR-IF.ANS by riddler (blend productions); released in blend06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: insest family
-# SAUCE Author: riddler
-# SAUCE Group: blend productions
-# SAUCE Date: 19970119
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: insest family by riddler | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend06-rr-if
 
 Write-Host '
                                    [35m  [0;37m  [0;35m [0;37m [0;35m           [0;32m▀▄▄[0;30;42m█[0;35;40m  [0;1;30;40m   [0m

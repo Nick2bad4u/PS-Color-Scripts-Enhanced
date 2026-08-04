@@ -1,18 +1,4 @@
-﻿# Converted from: DD-NOT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sliver02/raw/DD-NOT.ANS
-# Source Revision: archive-sha256:4e42af291937d6cfda1ffdc786ce33443c6145c7524c76570a1f8a3fbf372fef
-# Source SHA-256: 3e3f0a37e1e829b362eb4dd706aef698d2e22596cec9b2280a00f724871d161a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-NOT.ANS by dadrip (sliver); released in sliver02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: nOthing EMAG!
-# SAUCE Author: dadrip
-# SAUCE Group: sliver
-# SAUCE Date: 19970321
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: nOthing EMAG! by dadrip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sliver02-dd-not
 
 Write-Host '
                   me

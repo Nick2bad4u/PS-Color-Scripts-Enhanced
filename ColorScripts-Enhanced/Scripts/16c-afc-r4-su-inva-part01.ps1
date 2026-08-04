@@ -1,13 +1,4 @@
-﻿# Converted from: SU-INVA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/afc-r4/raw/SU-INVA.ANS
-# Source Revision: raw-sha256:eb3dc9f12e4a308685d726204bc04624fb00b1c66fd35d15503998f57a722e1f
-# Source SHA-256: eb3dc9f12e4a308685d726204bc04624fb00b1c66fd35d15503998f57a722e1f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SU-INVA.ANS by Suhu (afc-r4); released in afc-r4 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: SU-INVA.ANS by Suhu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-afc-r4-su-inva-part01
 
 Write-Host '
  [44m                                                                              [0m

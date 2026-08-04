@@ -1,16 +1,4 @@
-﻿# Converted from: VR-ANGR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/anger06/raw/VR-ANGR1.ANS
-# Source Revision: archive-sha256:efc6b6d6892fe7f05c3b06052b1d79464b7ee8ab8c7bee2d77361e00cf941f28
-# Source SHA-256: 611ab9988495195bdc92e51d7210cee801ab8f6e23599803d036709f75827f89
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VR-ANGR1.ANS by visual reality (anger); released in anger06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: anger font #1
-# SAUCE Author: visual reality
-# SAUCE Group: anger
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: anger font #1 by visual reality | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-anger06-vr-angr1
 
 Write-Host '
 [1;30m[0;1;34m[0;1;30m[0;1;34m[0;1;30m[0;1;34m[0;1;30m[0;1;34m[0;1;30m[0;1;34m[0;1;30m[0;1;34m[0;1;30m[0;1;34m[0;1;30m[0m[1;30m[0m[1;30m[0m

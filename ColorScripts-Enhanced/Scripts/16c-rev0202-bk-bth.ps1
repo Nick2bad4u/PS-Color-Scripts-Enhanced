@@ -1,13 +1,4 @@
-﻿# Converted from: bk-bth.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0202/raw/bk-bth.ans
-# Source Revision: archive-sha256:2dab715e9f2d819e9161d3954fa8210558a1b83f118c830394e2fdee6408a093
-# Source SHA-256: 3d0e466731574c8c0b5415451f501b3703f29c59c3562442e7ea656afa009bb2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bk-bth.ans by Black Knight (rev0202); released in rev0202 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: bk-bth.ans by Black Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0202-bk-bth
 
 Write-Host '
                 [1;30mb[0m   [1;36m [0m      [1;30ml[0m       [1;30ma[0;36m  [0;33m   [0;1;30m:[0m     [1;30mc[0m         [1;30mk[0m

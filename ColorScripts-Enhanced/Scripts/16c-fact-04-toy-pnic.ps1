@@ -1,18 +1,4 @@
-﻿# Converted from: TOY-PNIC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fact-04/raw/TOY-PNIC.ANS
-# Source Revision: archive-sha256:ede22877181bcaee0ecbada01269c2c7bf675cbd1fe3cc75db17ea24e9fac1f9
-# Source SHA-256: ac62bd66c265f63631d5b261915bef5689236e75f4bc71cc00014270b0e7bfb7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TOY-PNIC.ANS by ToYDEALER (fACT!); released in fact-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Hitchhikers guide through galaxy
-# SAUCE Author: ToYDEALER
-# SAUCE Group: fACT!
-# SAUCE Date: 19960613
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Hitchhikers guide through galaxy by ToYDEALER | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fact-04-toy-pnic
 
 Write-Host '
 [1;32m   [0m

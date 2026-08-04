@@ -1,13 +1,4 @@
-﻿# Converted from: LM-CRUS2.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-08/raw/LM-CRUS2.ICE
-# Source Revision: archive-sha256:76472331bcb8543f1e44f2a59ee8f7524c6af6373e89562b7fabb9e022104140
-# Source SHA-256: 8cd6b43c031676026eca60aab9c18f34989886cddb06055ff0b191eefeb7a50d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LM-CRUS2.ICE by Lord Mischief (icepk-08); released in icepk-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 39-80
-# Columns: 1-80
+﻿# Artwork: LM-CRUS2.ICE by Lord Mischief | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-08-lm-crus2-part02
 
 Write-Host '
 [1;30m   [0;31m░▒▒░▒[0;1;30m█[0;33m▒[0;1;30;43m▐[0;1;30;40m▌[0;31m░[0;1;30m░▒[0;31m░   [0;1;30m░▒[0m             [1;30m▐▌▒░[0m           [1;30m░[0m               [1;30m▒█[0m

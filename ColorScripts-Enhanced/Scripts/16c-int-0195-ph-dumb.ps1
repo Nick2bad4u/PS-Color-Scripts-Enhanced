@@ -1,18 +1,4 @@
-﻿# Converted from: PH-DUMB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/int-0195/raw/PH-DUMB.ANS
-# Source Revision: archive-sha256:3fdb8fc49cc34a34d9e6eab03ee82e2c4530f48746dc5ed6fff764c35d1e35fa
-# Source SHA-256: 5a16cc640148bfb74b161601139983c259766b81d7c2e94543ac87256cb0145a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PH-DUMB.ANS by Prophet (Integrity); released in int-0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Dumb (Drawn while Stoned)
-# SAUCE Author: Prophet
-# SAUCE Group: Integrity
-# SAUCE Date: 19941231
-# SAUCE Dimensions: 80x25
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: Dumb (Drawn while Stoned) by Prophet | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-int-0195-ph-dumb
 
 Write-Host '
    [1;30m▀ ▀▒▀ [0;1;37;47m▓[0;1;37;40m▀▀▀▀▄  [0;1;37;43m█[0m [1;30;40m▀▀▀▓▀▀ [0;1;37;40m▄ [0;1;37;41m▓[0;1;37;40m▄[0;1;30;40m▀■[0;1;37;43m█[0;1;37;40m▀[0;1;37;42m▓[0;1;37;40m▀▀ [0;1;30;40m▀■[0;1;37;40m                          [0;1;30;40m■▀▀ ▀ ▀▀▒ ▀[0m

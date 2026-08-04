@@ -1,18 +1,4 @@
-﻿# Converted from: M7-DSTIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-04/raw/M7-DSTIL.ANS
-# Source Revision: archive-sha256:9de244bc5206a1545721e4db8ef84c4a2cb5d7f6090c2c3eac0f88fbff822794
-# Source SHA-256: 4558ee593060b54c1f2932beb4b1f3f34866d1c7bbecb08d7ce1c66b51d8dfad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M7-DSTIL.ANS by m-80 (eaklips0rs); released in ecl-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: topical drinks
-# SAUCE Author: m-80
-# SAUCE Group: eaklips0rs
-# SAUCE Date: 19960727
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: topical drinks by m-80 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-04-m7-dstil
 
 Write-Host '
                                                      [32m   [0m

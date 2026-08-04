@@ -1,13 +1,4 @@
-﻿# Converted from: RS-SHOG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0695a/raw/RS-SHOG.ANS
-# Source Revision: archive-sha256:fdb220fd949148b42f901401233ee5917f0ab0d506d9b91fc04ce4bed204f9b8
-# Source SHA-256: 8945981df9d386abe6cf4968bd18dd87f6cc84fff39ae4dd0004f084d7ba75da
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-SHOG.ANS by raiser; released in sac0695a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 101-150
-# Columns: 1-80
+﻿# Artwork: RS-SHOG.ANS by raiser | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0695a-rs-shog-part03
 
 Write-Host '
 [1;31;43m▒▒▒▒▒▒▒▒▒░░░░░░[0;33m█[0;1;31;43m░[0;33m█[0;1;37m                      [0;1;31;43m░░▒░░░░░░░░▒▒▒▒▓▓█[0;1;31;40m██[0;1;31;43m▓█▓▓▓▓▒▒▒░▒░░░░▒▒▓▓[0m

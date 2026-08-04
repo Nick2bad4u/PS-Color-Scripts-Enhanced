@@ -1,18 +1,4 @@
-﻿# Converted from: US-WTF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-21/raw/US-WTF.ANS
-# Source Revision: archive-sha256:f82ee46d8be1d82ea17d8bdc07ad3071d4259c4331c1829c972b5ae2082ebcd2
-# Source SHA-256: 0618cc0f2a8f1c011f7041cf50fa3eba2d17da228e7788dc8d2096b6b0f74b99
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-WTF.ANS by Zerovision + Catch 22 (glue); released in glue-21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: jibberish
-# SAUCE Author: zerovision&catch22
-# SAUCE Group: glue
-# SAUCE Date: 19990501
-# SAUCE Dimensions: 80x95
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: jibberish by Zerovision + Catch 22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-21-us-wtf-part01
 
 Write-Host '
 [1;31;41m███▓[0;31m██[0;1;31;41m██▀[0;31m██▀▀[0;1;31;41m ░░░░▒▒[0;31m▄▄  ▀██[0;1;31;41m░░░▒▒▒[0;31m▄▀▀[0;1;31;41m░░░[0;31m█▄▀▀▄[0m           [31m▀███[0;37m  [0;1;30mzv22[0m   [31m▀█[0;1;31;41m░░▒▒▓▓███▄[0m

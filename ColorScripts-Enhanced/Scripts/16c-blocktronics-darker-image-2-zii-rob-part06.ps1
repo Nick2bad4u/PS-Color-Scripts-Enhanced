@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-ROB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_darker_image_2/raw/ZII-ROB.ANS
-# Source Revision: archive-sha256:7282b405cc52219ce7cf6cd9d097796f1b25fc898e4c29fdb9f37c375d595996
-# Source SHA-256: a93242537e98308466fac220b763ba42c96fdf16ebb00b296b64501f767341b4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-ROB.ANS by Zeus II (Blocktronics); released in blocktronics_darker_image_2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Rob Da Man
-# SAUCE Author: Zeus II
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20171010
-# SAUCE Dimensions: 80x273
-# SAUCE Font: IBM VGA
-# Lines: 229-273
-# Columns: 1-80
+﻿# Artwork: Rob Da Man by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-darker-image-2-zii-rob-part06
 
 Write-Host '
   █[1;47m███[0m█▄[1;31m  ▀████████[0;1;31;43m▀▀[0;1;31;40m▀[0;33m▀[0;1;31m  [0m▄[1;30;47m▄[0m█[1;47m▀▄[0;1;30;47m█[0;1;30;40m ▀ [0m         ▄ [1;47m▄▀███▄[0m█▄ [33m▀[0;1;31;43m ▀▀[0;1;31;40m███████[0;1;31;43m▀▀[0;1;31;40m▀[0;33m▀▀[0;1;31m  [0;1;30;47m▀[0m█[1;30m█▄█▀░[0m

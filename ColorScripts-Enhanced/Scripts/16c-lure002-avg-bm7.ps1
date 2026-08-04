@@ -1,18 +1,4 @@
-﻿# Converted from: AVG-BM7.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lure002/raw/AVG-BM7.ANS
-# Source Revision: archive-sha256:f1a17285c6f66215a41b3537354833c5fccbb84d30b92c78e4ea0603dc7f8cf1
-# Source SHA-256: e80679c3c9b005f7b2aea73441d66559589e718af0477f30fe6d0b4ee23e66ca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-BM7.ANS by avenging angel (lure bitch); released in lure002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: black maiden
-# SAUCE Author: avenging angel
-# SAUCE Group: lure bitch
-# SAUCE Date: 20020324
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: black maiden by avenging angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lure002-avg-bm7
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: US!DEBRS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rare-003/raw/US!DEBRS.ANS
-# Source Revision: archive-sha256:de78ce19727ea90c75e1ecc7f5b4d900676dc27b4dceb8a870f61665ee210859
-# Source SHA-256: 25e7eda258108c7ca9da67c4478b70741d3ea13e38bde29eefaf42f5bfee17b9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US!DEBRS.ANS by Niobium + Square (rare!ascii); released in rare-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: debris
-# SAUCE Author: niobium vs. square
-# SAUCE Group: rare!ascii
-# SAUCE Date: 19980608
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: debris by Niobium + Square | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rare-003-us-debrs
 
 Write-Host '
   [1;32m       [0m                   [1;36m__[0;36m_[0m

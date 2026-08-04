@@ -1,18 +1,4 @@
-﻿# Converted from: HQ-DRAG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack06/raw/HQ-DRAG.ANS
-# Source Revision: archive-sha256:0409464d408e8d33d99f2b2aeeeeb37e9aaf53c4d4f54f7fe0d64ee05dd04c7e
-# Source SHA-256: fef817e28fe1a86f0d0f75b9db1684ecb5dc9fb8cc8efe54c3e5b4b04b392230
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HQ-DRAG.ANS by Harlequin (Apocaliptic Visions); released in avpack06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Dragon
-# SAUCE Author: Harlequin
-# SAUCE Group: Apocaliptic Visions
-# SAUCE Date: 19950901
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Dragon by Harlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack06-hq-drag
 
 Write-Host '
       [35m /▌[0;37m [0;35m▌[0m   [35m■ [0m                                          [33m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: 13-MXBBS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0497/raw/13-MXBBS.ANS
-# Source Revision: archive-sha256:42e18118a4fe23187162d4202e0e64c79c23017db87b8967f1816ba2b79540c6
-# Source SHA-256: d6396ec61ecf57fb003830186a0a8cab6a55811a9310a545c82586fa4c9eb79f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 13-MXBBS.ANS by ville (blend&fire); released in fire0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The matrix bbs
-# SAUCE Author: ville
-# SAUCE Group: blend&fire
-# SAUCE Date: 19970315
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: The matrix bbs by ville | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0497-13-mxbbs
 
 Write-Host '
 [35m▓[0;1;35m▒▒▒[0;33;45m░░▓▓[0;1;33;40m░░░[0;33m███▓▓▓[0;1;33m░░░[0;32;43m ▀▀▓[0;32;40m█▓▄▄▄▄▒      [0;33;40m▀[0;32;43m░▄[0;33;42m▓█[0;33;45m▄[0;35;42m▓▓▓[0;1;35;40m▒▒░░[0;35m░[0;34m░▒▒[0;33m░░[0;33;41m▄ ░▓[0;33;40m▓[0;37;40m [0;34;40m░ [0;33;40m▄[0;1;31;40m░▒[0;33;41m ▄ ░[0;31;40m▀▀[0;33;41m░ ▀▓[0;33;40m▄[0;34;40m░[0m

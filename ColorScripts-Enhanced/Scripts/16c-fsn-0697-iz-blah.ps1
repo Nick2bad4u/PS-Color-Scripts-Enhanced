@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-BLAH!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0697/raw/IZ-BLAH!.ANS
-# Source Revision: archive-sha256:4afa384dbe1edb8568d2d9e2fda5954485e730ef7ea56b2b5212bd5bbae30f83
-# Source SHA-256: 6614c54d0c2ed8e5cc3b638425c0e681e655caefb1fe3ca7b2aa9d7f3bcf20db
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-BLAH!.ANS by ize (fusion); released in fsn-0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: blah!
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19970528
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: blah! by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0697-iz-blah
 
 Write-Host '
 

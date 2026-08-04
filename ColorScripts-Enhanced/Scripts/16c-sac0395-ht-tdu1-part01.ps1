@@ -1,18 +1,4 @@
-﻿# Converted from: HT-TDU1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0395/raw/HT-TDU1.ANS
-# Source Revision: archive-sha256:7b30118405d4d21f05022ba0c6f9cc20d209f8b3e8684cf8db7bf6713b2b2425
-# Source SHA-256: 2ae6676e0b02ddcd5fd5527ec45d4be128a8819afb06aed3cc359c4bfdebef36
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HT-TDU1.ANS by hetero; released in sac0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
-# SAUCE Title: THE DIGITAL UNDERGROUND
-# SAUCE Author: HETERO
-# SAUCE Group: LKCC
-# SAUCE Date: 19941230
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: THE DIGITAL UNDERGROUND by hetero | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0395-ht-tdu1-part01
 
 Write-Host '
               [1;34m▄[0;1;34;44m▒▒░░░░[0;34;44m██[0;1;34;44m░░░[0;34m██████████▓▓▓▒▒▒░░░░[0m          [1;30m░░   ░░░░░░▒▒▒▒▒▓▓▓█▄[0m

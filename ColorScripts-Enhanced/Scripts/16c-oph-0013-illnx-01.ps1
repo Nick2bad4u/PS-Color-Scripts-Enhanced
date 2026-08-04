@@ -1,18 +1,4 @@
-﻿# Converted from: ILLNX-01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oph-0013/raw/ILLNX-01.ANS
-# Source Revision: archive-sha256:5e625c36cc911c4dcde4a3790624d86c03458fb68ba127d178ce0ea486babf74
-# Source SHA-256: 3305ee5091188940c060c0a26d3ad0ebf7eb8182a871065967de7c15b3805960
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ILLNX-01.ANS by illusion x (ophidiac); released in oph-0013 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: _20        ^[[_ \ ^
-# SAUCE Author: illusion x
-# SAUCE Group: ophidiac
-# SAUCE Date: 19960816
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: _20 ^[[_ \ ^ by illusion x | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oph-0013-illnx-01
 
 Write-Host '
 [36m [0;1;37;46m ▄▄▄ [0m                                                       [34m▀ ▀▀▀▓[0;1;34;44m░[0;34m▓░ ░▓█▓░[0m

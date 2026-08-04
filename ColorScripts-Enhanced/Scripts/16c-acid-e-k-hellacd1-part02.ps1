@@ -1,13 +1,4 @@
-﻿# Converted from: HELLACD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acid_e-k/raw/HELLACD1.ANS
-# Source Revision: archive-sha256:39f65f593445c52be7979397cf597377ab7883bc6e967f4cf6ca51c15e64aa37
-# Source SHA-256: e23785d8777f0afd7a0ca607c592f02fc2acd8906959078cf64c92f31a42ccf6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HELLACD1.ANS by The Malevolent Trickster (acid_e-k); released in acid_e-k and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 38-70
-# Columns: 1-80
+﻿# Artwork: HELLACD1.ANS by The Malevolent Trickster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acid-e-k-hellacd1-part02
 
 Write-Host '
                         [31m▀[0;1;31;41m░░░[0;31m██▄ ▄██[0;31;41m [0;1;30;41m░░▒▒▒▓▓▄   [0;31m▄▄▐█▓▓[0;1;31;41m░[0;31m█[0m

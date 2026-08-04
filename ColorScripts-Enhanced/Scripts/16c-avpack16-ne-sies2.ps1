@@ -1,18 +1,4 @@
-﻿# Converted from: ne-sies2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack16/raw/ne-sies2.ans
-# Source Revision: archive-sha256:c169b8434a7461a5936daf6ca0076420ba73d015e2414b7a4312b4b9d20ef74a
-# Source SHA-256: 1b9cf3958ceca1f5d79d4adedc6d30ff15049c8c0baee9f701791de22b04591d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ne-sies2.ans by Essence (AV); released in avpack16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Siesta ANSCii
-# SAUCE Author: Essence
-# SAUCE Group: AV
-# SAUCE Date: 19970415
-# SAUCE Dimensions: 80x25
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: Siesta ANSCii by Essence | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack16-ne-sies2
 
 Write-Host '
 

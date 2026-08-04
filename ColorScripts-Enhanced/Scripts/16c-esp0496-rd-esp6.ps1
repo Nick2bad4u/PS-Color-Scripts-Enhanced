@@ -1,13 +1,4 @@
-﻿# Converted from: RD-ESP6.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/esp0496/raw/RD-ESP6.ANS
-# Source Revision: archive-sha256:dbe6c60d1047fff7d32d35a3252db30cf5150247db0d75ed0d6bb39660636de9
-# Source SHA-256: 33e54204582f9cf862484c52505fac9edb106c5985d2e3a09d66ac1fdcb3ca9f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RD-ESP6.ANS by Rabid Doctor (esp0496); released in esp0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: RD-ESP6.ANS by Rabid Doctor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-esp0496-rd-esp6
 
 Write-Host '
             ▄███▄

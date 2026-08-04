@@ -1,18 +1,4 @@
-﻿# Converted from: JR_ATLLG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bl-dope/raw/JR_ATLLG.ANS
-# Source Revision: archive-sha256:94d0a6d1a54f912bf59b65f9ab8ad2e76bf857ee4ed7295093943e200494477a
-# Source SHA-256: 619d4663e4d3440acc41387a611f4eb1e73a8ac1648c50b541faeb8543895079
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JR_ATLLG.ANS by jerusalem (boil); released in bl-dope and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: GO! #04 entry
-# SAUCE Author: jerusalem
-# SAUCE Group: boil
-# SAUCE Date: 19970407
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: GO! #04 entry by jerusalem | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bl-dope-jr-atllg
 
 Write-Host '
 [1;46m█[0;1;36;46m█[0;36m▒▀▀▀▀▀▀▀[0;35;46m░[0;1;37;46m█[0;1;36;46m█▒[0;36m▀[0;33m ▄▄[0;1;33;43m▄▄[0;33m▄ [0;1;36;46m■[0;36m▀[0;34m ▄[0;1;34;44m▄[0;34m█► [0;35;46m▒[0;1;36;41m▓▓[0;1;36;46m███░[0;34m [0;1;36;46m▐▓▌[0m   [36m▄▓▒[0;34m [0;36m▀[0;1;36;46m▀[0;1;37;46m██[0;1;36;46m█[0;35;46m░[0;36;40m▄[0m   [33;40m░░[0m    [1;37;40m▐░▐[0m   [1;30m▄[0;1;37m▐[0m [33m▄[0m

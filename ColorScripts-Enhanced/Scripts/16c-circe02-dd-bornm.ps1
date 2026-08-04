@@ -1,18 +1,4 @@
-﻿# Converted from: DD-BORNM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe02/raw/DD-BORNM.ANS
-# Source Revision: archive-sha256:ce5cd736ecea3fcfef2c1df40ab4bdd995f6b633f97f1788244355f98c5d174e
-# Source SHA-256: 02aedfb143ad06a8d466464a34cdf88a856c02b48a7c407757073c2dcf3f0648
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-BORNM.ANS by Diamond Darrell (Circe); released in circe02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: born dead main menu
-# SAUCE Author: Diamond Darrell
-# SAUCE Group: Circe
-# SAUCE Date: 19970928
-# SAUCE Dimensions: 80x28
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: born dead main menu by Diamond Darrell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe02-dd-bornm
 
 Write-Host '
 ░▓█[1;47mb o r n  d e a d  [0m►[30;47m►[0;37;40m►[0;1;31;40m █[0;1;31;47m██[0;1;31;41m [0;31m░[0;37m ░[0;30;47m▓[0;37;40m [0;1;31;40m ▐█▄▄[0;31m▄[0;1;31m [0m [1;31m▄▄▄[0;31m▄[0;1;31m  ▄▄▄[0;31m▄[0;1;31m [0m [1;31m▄▄▄[0;31m▄[0m        [1;31;41m█[0;1;31;47m██[0;1;31;41m [0;31m▄[0;37m [0m

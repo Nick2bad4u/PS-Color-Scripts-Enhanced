@@ -1,13 +1,4 @@
-﻿# Converted from: ELYSACD2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1292/raw/ELYSACD2.ANS
-# Source Revision: archive-sha256:6c5c7ef66182056ff3f821bfb6f5ceb9b593ec0078def1a5d2bd62ceb180acde
-# Source SHA-256: 9c6d00e47d478dbd9c2b06cb560cd9e2423eb6febd7395769ca8be24f33926a6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ELYSACD2.ANS by Alter Ego (acdu1292); released in acdu1292 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 44-91
-# Columns: 1-80
+﻿# Artwork: ELYSACD2.ANS by Alter Ego | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1292-elysacd2-part02
 
 Write-Host '
           [1;30m░[0;34m░[0m            [33m▌▌[0;30;43m░    [0;33;40m▒[0;30;43m░     ▄▒ [0;33;40m█[0;31;40m░[0;1;30;40m·  [0;31m░[0;1;30m░[0m                [31m░[0;1;30m░[0m

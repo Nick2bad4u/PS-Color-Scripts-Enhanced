@@ -1,13 +1,4 @@
-﻿# Converted from: ga-mbled.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wrlk001/raw/ga-mbled.ans
-# Source Revision: archive-sha256:6765dab2b891656b1208db0232bdc64c598e0fd42d2b71975b3219d1a4b40976
-# Source SHA-256: 9a39ceec48b76a4a9a9c1d8dd0dde41680d09e272942a1fa68462248fefb16fb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ga-mbled.ans by Gossamer Axe (wrlk001); released in wrlk001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ga-mbled.ans by Gossamer Axe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wrlk001-ga-mbled
 
 Write-Host '
 [1;34m   ▄██████████████[0;1;34;41m▓[0;1;34;40m██▄ ▄██████▀▀▀▀▀▀▀▀[0;1;34;41m▓[0;1;34;47m▓▓▒░░░░[0m▀▀▀▀▀█▀   [41m▓[0;40m▄[0;1;30;47m░░[0m

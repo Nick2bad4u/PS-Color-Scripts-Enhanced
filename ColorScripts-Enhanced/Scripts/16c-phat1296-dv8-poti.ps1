@@ -1,18 +1,4 @@
-﻿# Converted from: DV8-POTI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat1296/raw/DV8-POTI.ANS
-# Source Revision: archive-sha256:7d01b0bd390151991b0a903d8d987d245c20f2b06635915da8eb049974bd356a
-# Source SHA-256: bcba042745b4b1182ffba0b1474c75afe9b98aec4ad85235fcade086d001e817
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DV8-POTI.ANS by dv8! (ph33red and teetotal); released in phat1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: a hdr for poettchen
-# SAUCE Author: dv8!
-# SAUCE Group: ph33red and teetotal
-# SAUCE Date: 19961123
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: a hdr for poettchen by dv8! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat1296-dv8-poti
 
 Write-Host '
 

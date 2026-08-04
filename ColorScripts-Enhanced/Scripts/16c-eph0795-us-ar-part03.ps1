@@ -1,13 +1,4 @@
-﻿# Converted from: US-AR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eph0795/raw/US-AR.ANS
-# Source Revision: archive-sha256:3ae356e33ba2054cf1d98da2bbc65f1e165e24aeb22f3b590704f646bdf96398
-# Source SHA-256: ad7495a203fde11aa4bb7d07ec265b42d607ab275b552641cdd8095790791568
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-AR.ANS by The Extremist 519 + Fire Lord (eph0795); released in eph0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 99-148
-# Columns: 1-80
+﻿# Artwork: US-AR.ANS by The Extremist 519 + Fire Lord | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eph0795-us-ar-part03
 
 Write-Host '
 [1;30;40m [0;1;32;42m▒░[0;32m▐[0;37m [0;1;30m██████████████████████████████[0;1;30;47m▓▓▒░[0;1;37;40m▐[0;1;37;47m▓▒░[0;1;30;47m ░▒▓▓[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m██[0;1;30;47m▓[0;1;30;40m██████████████████[0;1;30;47m▓[0;1;30;40m█[0;1;30;47m▓▒▒░░  [0m

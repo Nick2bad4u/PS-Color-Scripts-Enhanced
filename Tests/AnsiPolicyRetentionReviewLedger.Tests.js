@@ -8,17 +8,17 @@ const test = require("node:test");
 const REPOSITORY_ROOT = path.resolve(__dirname, "..");
 const LEDGER_PATH = path.join(
     REPOSITORY_ROOT,
-    "ColorScripts-Enhanced",
+    "audit",
     "AnsiPolicyRetentionReviewLedger.json"
 );
 const REMOVAL_MANIFEST_PATH = path.join(
     REPOSITORY_ROOT,
-    "ColorScripts-Enhanced",
+    "audit",
     "AnsiPolicyRemovalManifest.json"
 );
 const PROVENANCE_PATH = path.join(
     REPOSITORY_ROOT,
-    "ColorScripts-Enhanced",
+    "audit",
     "ArtworkProvenance.psd1"
 );
 const SCRIPTS_DIRECTORY = path.join(

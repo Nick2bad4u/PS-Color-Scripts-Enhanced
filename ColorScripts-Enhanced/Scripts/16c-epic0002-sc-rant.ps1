@@ -1,18 +1,4 @@
-﻿# Converted from: SC-RANT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/epic0002/raw/SC-RANT.ANS
-# Source Revision: archive-sha256:12b3b5d9c047777cb7d75ad49e3bcf892c30668715848bf9f33bc49e9892f33e
-# Source SHA-256: 8ffd02489645268aedc72de1260ff99af3f71f62bc282048c70468053917ce90
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SC-RANT.ANS by Scoundrel (Epic); released in epic0002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Rant
-# SAUCE Author: Scoundrel
-# SAUCE Group: Epic
-# SAUCE Date: 19990527
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Rant by Scoundrel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-epic0002-sc-rant
 
 Write-Host '
 [1;37m███████████████████▀▀[0m    [1;37m▀█▀[0;1;37;46m▀[0;1;37;47m█[0;1;37;40m████[0;1;37;46m█▀▀▀[0;36m███[0;1;36;46m░░░▒▒▓▓███[0;1;36;40m██▄▄[0m ▀▀█▄▄▄  [1;36m▀[0m ▐[1;37;47m█[0m▌[1;36m▐█▀[0m▐▄█[1;30;47m [0m█[1;37;47m▀▒█[0m

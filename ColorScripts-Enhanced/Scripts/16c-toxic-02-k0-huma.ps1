@@ -1,18 +1,4 @@
-﻿# Converted from: K0-HUMA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/toxic-02/raw/K0-HUMA.ANS
-# Source Revision: archive-sha256:7a41e32586e1dd3a5f33420e6d1fb67b20a2e05f1cdbe057f1893bebcaa0b653
-# Source SHA-256: 16caf3f0b04b181210d10db39d731edc34f1ed35ce51d95c38ab74ba23c20093
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K0-HUMA.ANS by k0rpse (TOXiC); released in toxic-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: hUMA
-# SAUCE Author: k0rpse
-# SAUCE Group: TOXiC
-# SAUCE Date: 19960705
-# SAUCE Dimensions: 80x46
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: hUMA by k0rpse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-toxic-02-k0-huma
 
 Write-Host '
 [32m████[0;1;32;42m░░  [0;32m█[0;32;42m         [0;32;40m▄ [0;34;40m██ [0;37;40m▄[0;1;37;40m▄▄ [0;34m▀[0;34;44m                [0;34;40m█ [0;1;37;40m▄ [0;34m███████▀[0m             [34m▀▀▀▀██[0;1;34;44m▀[0;34m█[0;1;34;44m▀▀█[0m

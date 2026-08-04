@@ -1,18 +1,4 @@
-﻿# Converted from: SHN-CATS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook21/raw/SHN-CATS.ANS
-# Source Revision: archive-sha256:a9340bf45277705f38b7b2e8dfe7bc518716b8c419a47ac48708bc33bd40ec01
-# Source SHA-256: 5f3e379563a99bf3fa3a8a87ceac1e6d31741368687c2e147ebb1d53514a0436
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SHN-CATS.ANS by shine (black maiden); released in bmbook21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: samuraipizzacats 2000 vs. gutter
-# SAUCE Author: shine
-# SAUCE Group: black maiden
-# SAUCE Date: 19990611
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: samuraipizzacats 2000 vs. gutter by shine | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook21-shn-cats
 
 Write-Host '
 [34m▀▄[0;32;44m▄[0;37;42m░[0;34;40m▄ ▄▌▄[0;32;44m▄[0;34;40m▄ [0;32;40m▄▄[0;34;40m▀[0m      [33;40m         [0m   [33;40m▐[0m         [1;30;40m                                   [0m

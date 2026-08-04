@@ -1,18 +1,4 @@
-﻿# Converted from: LD-LOF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0794/raw/LD-LOF.ANS
-# Source Revision: archive-sha256:53cd35a6f327a0c8a649f0c556ca1e17aa60e6c4040eff696f9e35efc72f4414
-# Source SHA-256: c321b4d9ddae179083aab10c8374f0f3a737c96e90cc93400833bca05b75fa7a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-LOF.ANS by Lord Jazz (ACiD Productions); released in acdu0794 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Line of Fire
-# SAUCE Author: Lord Jazz
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940630
-# SAUCE Dimensions: 80x296
-# Lines: 101-150
-# Columns: 1-80
+﻿# Artwork: Line of Fire by Lord Jazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0794-ld-lof-part03
 
 Write-Host '
 [1;36;40m [0;1;36;46m░░[0;36m▌[0;1;36;46m░▒[0;36m▌[0;1;36;46m▓[0;1;36;40m▌[0;1;36;46m▓▓▒[0;1;36;40m▌[0;1;36;46m▒[0;36m▀▌[0;1;30m░▓▓ ▐▓ ▄▄ ▀[0;33m■ ▄▌ ▄▌[0;1;30;43m░[0;33m▄[0;35m▀▀[0;31;45m░▒▓▒░░[0;35;40m▄[0;32;40m▀▌[0;35;40m▄[0;32;40m▀[0;37;42m░░░░[0;32;40m█[0;1;32;42m░[0;32m▄▀[0;1;32m▄▐[0;1;32;42m▒[0;1;32;40m▄▀[0;33m▄▐▄ [0;1;36m▄[0;33m▀[0;1;36m▄ [0;1;36;46m▓[0m [1;30;40m▄▀ [0;1;36;40m▄▀[0;1;36;46m▓[0;1;36;40m▌[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: PC-SPOOF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst0397/raw/PC-SPOOF.ANS
-# Source Revision: archive-sha256:270113b0dc287d2000b7b6ec4e15ca8f25fdc0a29ca100fce3b52cae8465f5bd
-# Source SHA-256: 7e5861ab57e555d7a71b88f9156e36f5933e11781c7d5755609acfb325c9cb2c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-SPOOF.ANS by Putrid Carcass (twst0397); released in twst0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: PC-SPOOF.ANS by Putrid Carcass | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst0397-pc-spoof
 
 Write-Host '
 [1;34;44m▐███▓▓░░[0;34m█[0;1;34;44m░[0;34m█████████████[0;1;34;44m ▐▄ ▄▄▄▐[0;1;34;47m▓▓▄[0;1;34;44m██▀[0;34m▀▀▀▀▀▀[0m                                 [34m░[0;30;44m▓▓[0m

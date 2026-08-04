@@ -1,18 +1,4 @@
-﻿# Converted from: IN-PHAT2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat1096/raw/IN-PHAT2.ANS
-# Source Revision: archive-sha256:df699c780a5861cb22f0e3c2213b73ec7319ac5d671d53a7a5fa1e8a0c44c9d6
-# Source SHA-256: ee6f4ba98dcbf58f46ed417c9bf6460fc719a4b02b1969da779bca55ef828295
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IN-PHAT2.ANS by insert (pHaT); released in phat1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: phat promo #2
-# SAUCE Author: insert
-# SAUCE Group: pHaT
-# SAUCE Date: 19961010
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: phat promo #2 by insert | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat1096-in-phat2
 
 Write-Host '
             [32m▄▄▄████████▄▄▄[0m

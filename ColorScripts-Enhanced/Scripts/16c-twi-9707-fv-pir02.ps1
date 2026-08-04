@@ -1,18 +1,4 @@
-﻿# Converted from: FV-PIR02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twi-9707/raw/FV-PIR02.ANS
-# Source Revision: archive-sha256:45f176586f3b4789bcbef0a4c75b2f85d21418108c7ec2a4ab268a104d12eb41
-# Source SHA-256: ec86041e7a2dbc752d990afe9a1eaaf1238dce75a7e9e6e167fab1f77d4829be
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FV-PIR02.ANS by Fever (Rile); released in twi-9707 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Piranha
-# SAUCE Author: Fever
-# SAUCE Group: Rile
-# SAUCE Date: 19970619
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Piranha by Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twi-9707-fv-pir02
 
 Write-Host '
            [1;30m         [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: NO-SI0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eden0495/raw/NO-SI0.ANS
-# Source Revision: archive-sha256:237b9e6d55d8a6638986ba7714e0d9f7fe6d1f7d7e934f8c205f1a212e68415a
-# Source SHA-256: 9cf9ba87be3e5d87a2e64d28ad9206de75e4dd622e8509608be429824673e8fa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NO-SI0.ANS by Nosferatu (EDEN); released in eden0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Spectral Illusion
-# SAUCE Author: Nosferatu
-# SAUCE Group: EDEN
-# SAUCE Date: 19950402
-# SAUCE Dimensions: 80x83
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Spectral Illusion by Nosferatu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eden0495-no-si0-part01
 
 Write-Host '
 [1;30;40m                                                                               [0m

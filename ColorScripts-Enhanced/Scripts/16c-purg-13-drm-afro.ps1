@@ -1,13 +1,4 @@
-﻿# Converted from: DRM-AFRO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-13/raw/DRM-AFRO.ANS
-# Source Revision: archive-sha256:c96e8204cdf1a3103513e07eb0d1ba369137dfc5e9ab833b936ceec1296a9193
-# Source SHA-256: 10a98a24090f1b40e65bfed75939caad2a0c8cf06e3bc77000fbacccbc05933f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DRM-AFRO.ANS by Dorm (purg-13); released in purg-13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: DRM-AFRO.ANS by Dorm | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-13-drm-afro
 
 Write-Host '
    [1;33meH!-eFF!-aRE!-oHH!?[0;33m           [0m          [32m▄▄[0;1;32;42m░▓▓░▄▄▄▄[0;32m▄▄[0m

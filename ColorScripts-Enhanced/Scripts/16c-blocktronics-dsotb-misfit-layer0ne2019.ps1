@@ -1,19 +1,4 @@
-﻿# Converted from: misfit-layer0ne2019.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-dsotb/raw/misfit-layer0ne2019.ans
-# Source Revision: archive-sha256:31e1fdfda207a2147f2b0badf1415308dc54d4c24afa56622db8a43f68f110f1
-# Source SHA-256: 92269c55509a2ba246adc2d578d6bdc108214ead2f411fbeec596cb95ecd8951
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: misfit-layer0ne2019.ans by Misfit (Blocktronics); released in blocktronics-dsotb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: What the...?
-# SAUCE Author: Misfit
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20140609
-# SAUCE Dimensions: 80x23
-# SAUCE Font: IBM VGA
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: What the...? by Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-dsotb-misfit-layer0ne2019
 
 Write-Host '
 [37;40m░░ [0;1;32;40m██▌[0;1;37;40m [0m█▓░[1m [0;1;32m██▄[0;1;37m  [0;1;32m██▌[0m  ▀▀▀▀▀▀▀[1;47m   [0m██[1;30;47m▀▀▀[0m▄▄[1;30;47m▄▄[0m▀▀████[1;30;47m▀▀[0;1;30;40m█▀▀[0m▀▀▀███[1;30;47m  [0;1;37;47m▀▀[0m▒▒▒▒[1;47m▀▀▀[0m█[1;30;47m▀▀[0m▄[1;30m▄[0m [1;30;47m█▓▓▒░[0m█

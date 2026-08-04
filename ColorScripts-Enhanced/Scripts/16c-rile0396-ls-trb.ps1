@@ -1,18 +1,4 @@
-﻿# Converted from: LS!-TRB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile0396/raw/LS!-TRB.ANS
-# Source Revision: archive-sha256:aa9dd90720d227515e11bc1d46c3e84a97b4668c1c9167ba7ef2915a41619b06
-# Source SHA-256: fba8aa45d592c44f746c333ff4f74f67915c115afa2aa5a25a130d80faf14885
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LS!-TRB.ANS by luke skywalker (rile); released in rile0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the rebel base
-# SAUCE Author: luke skywalker
-# SAUCE Group: rile
-# SAUCE Date: 19960302
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: the rebel base by luke skywalker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile0396-ls-trb
 
 Write-Host '
                                        [1;31m,[0;31m++[0;1;31mⁿ[0;31mⁿ[0;1;31m++[0;31m.[0m

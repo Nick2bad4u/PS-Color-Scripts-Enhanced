@@ -1,18 +1,4 @@
-﻿# Converted from: 32-PAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fld9701/raw/32-PAN.ANS
-# Source Revision: archive-sha256:48906ecb2b70839b4646d99f5fe92b4c8c8c55574804ed58eeb7ca2699a6e59d
-# Source SHA-256: 28773661b0c6bafd95d4bd7ef1b3bb2d97bccf1be5506f0e0454e53ecf4bcb39
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 32-PAN.ANS by ezy (fusion\fluid); released in fld9701 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: . .pancake!.. .
-# SAUCE Author: ezy
-# SAUCE Group: fusion\fluid
-# SAUCE Date: 19970116
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: . .pancake!.. . by ezy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fld9701-32-pan
 
 Write-Host '
        [32m▄[0;1;32m▄▄▄▄[0;1;36m▄[0;1;32m▄[0;1;36m▄[0;1;32m [0m

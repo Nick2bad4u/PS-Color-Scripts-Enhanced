@@ -1,18 +1,4 @@
-﻿# Converted from: US-FORM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-16/raw/US-FORM1.ANS
-# Source Revision: archive-sha256:b44675c14d0a6b8706358886e9a05961468006b6ae7257eede82583c6468b7b5
-# Source SHA-256: 071199584714dca5fdba67ddc251d2b2fd41eae708af3ecfbe1c6bdfb083504c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FORM1.ANS by Enzo + Avenger (BLACK LORE MAIDEN); released in glue-16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Mika Hakinnen OWNS
-# SAUCE Author: Multiple Artists
-# SAUCE Group: BLACK LORE MAIDEN
-# SAUCE Date: 19981116
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Mika Hakinnen OWNS by Enzo + Avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-16-us-form1
 
 Write-Host '
  ▀ ▄[1;30;47m▀▀[0m███████[1;47m▀██▄[0;1;30;47m▀[0m▄[1;30m▄[0m  [34m▀████[0;37;44m░░░[0;34;40m██▀▀▀▀██▀▀▀▀▀██▀▀██▀▀▀▀[0;36;44m▀▓▓▓░░[0;34;40m██▄▄ ▀▀▀▀▀▀▀▀▀▀▀[0;37;44m▀[0;34;40m▀[0m

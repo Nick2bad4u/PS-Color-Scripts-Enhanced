@@ -1,17 +1,4 @@
-﻿# Converted from: N-FC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0297/raw/N-FC.ANS
-# Source Revision: archive-sha256:12d66e55bc50470ef328e6f9ec21c65dbe558f61a1cf46f5aac359e3cb051dfe
-# Source SHA-256: 06b1733459a06d1edc2f7b465f5ebcf54c5bd2408b82cc0852ead209d3f2de85
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-FC.ANS by nail (fire0297); released in fire0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: free coke
-# SAUCE Author: nail
-# SAUCE Date: 19961215
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: free coke by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0297-n-fc
 
 Write-Host '
 [1;35;47m▓[0;1;35;45m█▀[0;35m▀ [0;1;35;45m▓███▓▓██[0;1;35;47m▓▓[0;1;35;45m█▀[0;35m▀[0;1;35;45m▀[0;1;35;47m▓[0;1;35;45m▌[0;35m▌█[0;1;35;45m▀█[0;35m▀▐[0;1;35;45m░▓█[0;35m▌ [0;37m█[0;1;31;47m░▒▓▓[0;1;31;43m████████[0;1;31;47m▓▓▓[0;1;31;43m██▓░░[0;33m▀[0;1;31;43m░[0;33m█[0;1;31;43m░░▄░▄░▓██▌[0;33m█▄░░   ▐[0;1;31;43m░░▓██[0m

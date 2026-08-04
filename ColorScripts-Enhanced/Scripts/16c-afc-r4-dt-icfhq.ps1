@@ -1,13 +1,4 @@
-﻿# Converted from: DT-ICFHQ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/afc-r4/raw/DT-ICFHQ.ANS
-# Source Revision: raw-sha256:17d1551d4b89413d8fd463ae0b98ffc84c010ba7d4d2890bcf3089dd56570508
-# Source SHA-256: 17d1551d4b89413d8fd463ae0b98ffc84c010ba7d4d2890bcf3089dd56570508
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-ICFHQ.ANS by Duster (afc-r4); released in afc-r4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: DT-ICFHQ.ANS by Duster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-afc-r4-dt-icfhq
 
 Write-Host '
       [1;34;44m█▓▒░[0;34m████████████████[0;1;34;44m█[0m [1;34;44m█▓▒░[0;34m████████████████[0;1;34;44m█[0m [1;34;44m█▓▒░[0;34m████████████████[0;1;34;44m█[0m

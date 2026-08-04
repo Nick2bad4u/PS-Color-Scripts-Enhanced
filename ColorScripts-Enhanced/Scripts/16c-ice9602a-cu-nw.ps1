@@ -1,18 +1,4 @@
-﻿# Converted from: CU-NW.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9602a/raw/CU-NW.ICE
-# Source Revision: archive-sha256:a7cb032b47574ac80269aea88d994085abecd77228955f55ef8d0e5338bc0184
-# Source SHA-256: 4a9220a61097167b2d11ec732a714ddd45d4aa615f7aecd2ea6d6a223befcebe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CU-NW.ICE by Cold and Ugly (iCE); released in ice9602a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The New Wave
-# SAUCE Author: Cold and Ugly
-# SAUCE Group: iCE
-# SAUCE Date: 19960223
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: The New Wave by Cold and Ugly | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9602a-cu-nw
 
 Write-Host '
                             [36m ▄ ▀[0m                       [37m▀[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: DH-DAM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/forge_07/raw/DH-DAM.ANS
-# Source Revision: archive-sha256:31988dbb0f8ac354fe2aab07b60dc99ad539514c181e9e9b1d3e0cda8369a182
-# Source SHA-256: 1d1bf59277ed4cb24a65e6a8ae7af7e3f2d42d0665878f7fbed3495da99c4c98
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DH-DAM.ANS by DarkHeart (Insomnia); released in forge_07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dA aFRO mONKEY?!@#
-# SAUCE Author: DarkHeart
-# SAUCE Group: Insomnia
-# SAUCE Date: 19960608
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: dA aFRO mONKEY?!@# by DarkHeart | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-forge-07-dh-dam
 
 Write-Host '
 

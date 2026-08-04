@@ -1,13 +1,4 @@
-﻿# Converted from: PUTIT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roy-stuf/raw/PUTIT.ANS
-# Source Revision: archive-sha256:1f203f95f339c258e43a9098f8d2e689ed73de537b1cfe6bea312dfc156f1358
-# Source SHA-256: a34589739340b9534215c546098ecccd1085934ba67aa7b7a22697e931c47e9d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PUTIT.ANS by Roy (roy-stuf); released in roy-stuf and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: PUTIT.ANS by Roy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roy-stuf-putit
 
 Write-Host '
        [1;36m▄▄▄▄▄▄▄▄▄▄▄[0m      [1;34m▄▄▄▄▄▄▄    [0;1;36m▄▄▄▄▄▄▄[0m      [1;36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

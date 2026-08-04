@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-H1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook12/raw/AVE-H1.ANS
-# Source Revision: archive-sha256:ec66f5bb4ed961133c52314c375d67af30a5295789eb6bfc6eda91ebf8999fc2
-# Source SHA-256: 9e59492ec64661c5b01e88ff75fe22f13452fbebb21d28310ee6621cb0df0480
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-H1.ANS by avenger (black maiden); released in bmbook12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: hazard/2 files
-# SAUCE Author: avenger
-# SAUCE Group: black maiden
-# SAUCE Date: 19970228
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: hazard/2 files by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook12-ave-h1
 
 Write-Host '
 [31m ▀█▄▄▐██[0;1;31m▒[0;31m▌[0;37m  [0;34m▓▄░[0;37m [0;31m▀[0;37;41m▀░░[0;31;40m█████▌▀▀[0m       [31;40m█[0;1;31;40m▒▒[0;31m▀▐███▄ [0m       [32m▄▄ [0m

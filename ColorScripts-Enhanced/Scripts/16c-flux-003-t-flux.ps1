@@ -1,18 +1,4 @@
-﻿# Converted from: T-FLUX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flux-003/raw/T-FLUX.ANS
-# Source Revision: archive-sha256:c8241d6e438a30e14e803d31ea9639f514382ec0df6188aa9d91ed9f1ddec867
-# Source SHA-256: c141c4e8b8386644c643da5791412811ab47482af62eea7cfd9b00c6dd07f844
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T-FLUX.ANS by toot (nerp); released in flux-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: flux
-# SAUCE Author: toot
-# SAUCE Group: nerp
-# SAUCE Date: 19970719
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: flux by toot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flux-003-t-flux
 
 Write-Host '
 [1;35;45m ▄▐██[0;1;37;40m████[0;1;35;45m███████████▀▀[0;1;35;40m▀▀[0;35m▀[0;1;30m▄[0;1;30;47m▀[0;1;30;40m▌[0;35m░░▀[0;1;35m▀▀▀▀[0;1;35;45m▀[0;1;35;47m▄░░▓▓[0;1;35;45m▓▓░░[0;35m████[0;1;36;45m░░▓▓█[0;1;37;40m██[0;1;36;45m██████▀[0;1;36;40m▀▀[0;35m▀▀[0;1;36m▀▀▀[0;1;36;45m▀██▓▓░░[0;35m▌▄[0m

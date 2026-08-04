@@ -1,20 +1,4 @@
-﻿# Converted from: HRV_LZRN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz18/raw/HRV_LZRN.ANS
-# Source Revision: archive-sha256:32d30452c4c99022fae4fa2ce9a2923ef46629d3ff7dd35a972944a991699c1f
-# Source SHA-256: 721ab0b3f0863e21c2c3336874279cbe86a3f23807a029ba92c8da992fce95be
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HRV_LZRN.ANS by harvest (Lazarus); released in laz18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Mistress Lazarine
-# SAUCE Author: harvest
-# SAUCE Group: Lazarus
-# SAUCE Date: 20240209
-# SAUCE Dimensions: 80x200
-# SAUCE Font: IBM VGA
-# SAUCE Comments: The muse of a Laz generation..
-# Lines: 101-150
-# Columns: 1-80
+﻿# Artwork: Mistress Lazarine by harvest | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz18-hrv-lzrn-part03
 
 Write-Host '
   [33m░[0;33;44m█[0;33;40m██▀[0;37;40m [0;36;40m░▓[0;33;40m░[0;1;33;43m░▒█[0m [33m▄[0;37m [0;1;33;43m░[0;36m▄█▓[0;37m [0;33m▓▓▒░[0;36m ██▓  [0;1;32;46m▓█[0;36m  [0;33m▐[0;36m [0;33m▐▌[0;36m▄[0;1;32;46m░[0;36m▌[0;33m▒[0;36m    [0;33m▒[0;1;33;43m▓░█░[0;33m░[0;37m [0;36m░[0;1;36m░[0;1;36;46m■[0;1;36;40m░[0;36m░[0;37m [0;1;33;43m░[0;1;33;46m░[0;36m█[0;33m░[0;37m [0;33m▄▄▄▄▄▄▄▀▀[0;1;33;43m░░[0;1;33;46m▒▒[0m

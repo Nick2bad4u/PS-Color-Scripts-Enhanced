@@ -1,13 +1,4 @@
-﻿# Converted from: CN1ACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1192/raw/CN1ACID.ANS
-# Source Revision: archive-sha256:8f9edeb4f92b0693833f343328f0977cc472aa2ea98dbae0f830bf926a78711d
-# Source SHA-256: d6b9be8294bd5245cfbe4271c1d4dbde04807f4c6dfb576aa72a324122d0c20c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CN1ACID.ANS by Tank (acdu1192); released in acdu1192 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 45-90
-# Columns: 1-80
+﻿# Artwork: CN1ACID.ANS by Tank | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1192-cn1acid-part02
 
 Write-Host '
                   [37m▄[0;1;37m▄[0;1;37;47m▓▒░    [0;32;47m▀▀[0;32;40m▀[0m                   [1;32;42m▒▒░▓▒▓[0;1;30;42m▒░░▒[0m

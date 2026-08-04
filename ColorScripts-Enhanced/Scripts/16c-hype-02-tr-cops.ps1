@@ -1,17 +1,4 @@
-﻿# Converted from: TR-COPS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hype-02/raw/TR-COPS.ANS
-# Source Revision: archive-sha256:85e01eadce5f9498d81aff1ce740b243afce4b217290d5d85773c523660d0b86
-# Source SHA-256: 13650bab17c3deccce69388a11c59617c710a58194a6703fa523b3eb3f84ea06
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-COPS.ANS by Trident (Hype); released in hype-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Cops pic
-# SAUCE Author: Trident
-# SAUCE Group: Hype
-# SAUCE Dimensions: 80x25
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Cops pic by Trident | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hype-02-tr-cops
 
 Write-Host '
 [1;36m████[0;1;36;46m▀[0;36m█[0;1;36;46m▀ ▀▄[0;36m████████[0;1;36;46m░[0;36m███[0;1;36;46m░[0;36m██████████████████████████████[0;1;36;46m░[0;36m█████████████▀███[0;1;36;46m▄[0;36m█[0;1;36;46m▀[0;36m█[0;1;36;46m▀████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: RZ-ST2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-17/raw/RZ-ST2.ANS
-# Source Revision: archive-sha256:a388e5620de32c4145fd1d2f2e70343f674ce332483184514a867f9d5d569bc4
-# Source SHA-256: 2021eebf980dd7d62c9b5d16f314d89c1eec0c4ec9d7019f6dca5c53bebf091e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RZ-ST2.ANS by Rzarector (fORCE); released in force-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: StAESiS/2
-# SAUCE Author: Rzarector
-# SAUCE Group: fORCE
-# SAUCE Date: 19970421
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: StAESiS/2 by Rzarector | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-17-rz-st2
 
 Write-Host '
 

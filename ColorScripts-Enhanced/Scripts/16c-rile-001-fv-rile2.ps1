@@ -1,18 +1,4 @@
-﻿# Converted from: FV-RILE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile_001/raw/FV-RILE2.ANS
-# Source Revision: archive-sha256:f7a8644489c1d011b91477b5b1eab40d9f39b077b89f158a7a0c3d1c032c6d81
-# Source SHA-256: 19681273e4ed7a89d2042a6fb3b8b76b1cb743e817f3081f0ce1feb341a93b4b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FV-RILE2.ANS by fe v  e   r (rile); released in rile_001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: rile 2
-# SAUCE Author: fe v  e   r
-# SAUCE Group: rile
-# SAUCE Date: 19970124
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: rile 2 by fe v e r | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile-001-fv-rile2
 
 Write-Host '
                     [30;44m▄[0m    [30;44m▀[0;1;34;40m▄[0m

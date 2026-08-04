@@ -1,18 +1,4 @@
-﻿# Converted from: RB-GATE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/air_0597/raw/RB-GATE.ANS
-# Source Revision: archive-sha256:6fe653cdae1d1be3a85ad8606d04a6519ed3da6d9d33e501c49ef3bdd23379d9
-# Source SHA-256: 082f305ad4ba267a6bdb1b59af2896d502a64d07bb6efd51b56237d70cdc4745
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RB-GATE.ANS by raibes (air); released in air_0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: lit thing
-# SAUCE Author: raibes
-# SAUCE Group: air
-# SAUCE Date: 19970501
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: lit thing by raibes | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-air-0597-rb-gate
 
 Write-Host '
 [1;30m[0m[1;30m[0;1;37m[0;1;30m[0;36m[0;1;30m[0;1;37m[0;1;30m[0;36m[0;1;30m[0m

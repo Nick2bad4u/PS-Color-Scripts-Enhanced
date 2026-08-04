@@ -1,13 +1,4 @@
-﻿# Converted from: LUNATIC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mge_art1/raw/LUNATIC.ANS
-# Source Revision: archive-sha256:59c72e327d12a7b55464b13c6a672012ac10743d906df1b4e27fe3ff2fd5b8c5
-# Source SHA-256: 63f3ee9ef335c6079a8a2e95f863de8ea00318a5c1d53e3957eba22b2ed3735d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LUNATIC.ANS by Cephyr (mge_art1); released in mge_art1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 43-87
-# Columns: 1-80
+﻿# Artwork: LUNATIC.ANS by Cephyr | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mge-art1-lunatic-part02
 
 Write-Host '
 [30m████[0;1;30m░░░[0;30m█████[0;1;30m░[0;30m██[0;1;30m░░[0;30;46m▓▓▓▓[0;1;30;40m░░[0;30;46m▓▓[0;30;47m▓▓[0;1;30;46m▓[0;36;43m▒▒[0;30;46m▓▓[0;1;30;40m░[0;30;46m▓[0;30;47m▓[0;1;30;46m▓▓[0;30;47m▓[0;30;46m▓[0;1;30;40m░[0;30;47m▓▓[0;30;40m██ [0;31;40m▓▒░░░▓▒▒▓▒▒▒▓[0m

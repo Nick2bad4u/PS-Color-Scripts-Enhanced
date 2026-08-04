@@ -1,18 +1,4 @@
-﻿# Converted from: RD-TERM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-1096/raw/RD-TERM.ANS
-# Source Revision: archive-sha256:73b0e2918c9e3daef978e4ff1f97345c8d9080edab06ce99d8d8ee6a5fb0b3de
-# Source SHA-256: aee702e20121e2c057832836823b62603ef356fdf0b3eea41f6102d4f30428c6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RD-TERM.ANS by raider (opium graphix); released in opx-1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: terminat.lgo  ;)
-# SAUCE Author: raider
-# SAUCE Group: opium graphix
-# SAUCE Date: 19960901
-# SAUCE Dimensions: 80x37
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: terminat.lgo ;) by raider | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-1096-rd-term
 
 Write-Host '
 [34m░[0;1;34m▄█[0;1;34;46m▓▓[0;1;34;40m███[0;1;34;44m▄▄▒░[0;30;44m ▀▀[0;34;45m▓[0;30;44m░▄▄ [0;1;34;44m▀▓░[0;30;44m ▄▄▄ [0;1;34;44m▒▓░[0;30;44m░▀[0;34;40m░ [0;37;40m [0;35;40m ░     ░░ ░░░░░▒▒░░  ░░░░░  ░░░ ░░ ░ ░░░░░  [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: FD-HEAVY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/unit07/raw/FD-HEAVY.ANS
-# Source Revision: archive-sha256:acc980cca3be9146e1fb8e41239c36b19447d5b4e87b875176f7b1f28eb6b315
-# Source SHA-256: caca23939bc1fb2b2abe7460e8ba101c77b1fcfa0b9977743f29e21f5d707f55
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FD-HEAVY.ANS by fluid (unit artworks); released in unit07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: heavyweights
-# SAUCE Author: fluid
-# SAUCE Group: unit artworks
-# SAUCE Date: 19970322
-# SAUCE Dimensions: 80x25
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: heavyweights by fluid | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-unit07-fd-heavy
 
 Write-Host '
 [1;30m           [0m                      [1;30m%%%%%%%%%%%%%%[0m

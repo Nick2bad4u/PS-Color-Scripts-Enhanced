@@ -1,20 +1,4 @@
-﻿# Converted from: VM-ACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-30/raw/VM-ACID.ANS
-# Source Revision: archive-sha256:c6f1cc6bb01a179ae988b7c16a0a3d302f02713dff1c028644191f10452c0347
-# Source SHA-256: d402a2c909ed1677ad550793d9d729c3d4d2c4bb045ebd6d5299850eac1b0a30
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VM-ACID.ANS by venom (mistigris); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: acid
-# SAUCE Author: venom
-# SAUCE Group: mistigris
-# SAUCE Date: 20241224
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: acid
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: acid by venom | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-30-vm-acid
 
 Write-Host '
 

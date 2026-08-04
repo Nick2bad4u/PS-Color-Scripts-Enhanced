@@ -1,20 +1,4 @@
-﻿# Converted from: ctx-derealization.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-001/raw/ctx-derealization.ans
-# Source Revision: archive-sha256:589c804657c8d15ba617f7c0fd80723e4505d519989b80eba9584665be49eb54
-# Source SHA-256: 8165c57d8fe6d68846fd7a6ebbc671aa380d44eb40f0e4e0abb5c250b2da90e2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ctx-derealization.ans by CatX (Legacy Krew); released in lgcy-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Derealization
-# SAUCE Author: CatX
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20191124
-# SAUCE Dimensions: 80x39
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Cover art for Pator's new EP, Derealization. (His music is aweso | me!)
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Derealization by CatX | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-001-ctx-derealization
 
 Write-Host '
 [31m [0;1;36m┌─▄[0;36m▄[0;37m  [0;1;36m┌─▄[0;36m▄[0;37m  [0;1;36m┌▄[0;36m▄[0;1;34m▄[0;1;35m.[0m [1;36m┌─▄[0;36m▄[0;37m  [0;1;36m┌─▄[0;36m▄[0;37m         [0;34m▄[0;37m   [0;34m▄[0;37m  [0;34m▄[0;37m   [0;34m▄[0;37m           [0;34m▄[0;37m      [0;1;34m▐[0m     [1;36m▐[0;35m  [0;31m▄[0m

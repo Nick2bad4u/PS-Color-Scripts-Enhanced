@@ -1,18 +1,4 @@
-﻿# Converted from: CC-VVV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0996/raw/CC-VVV.ANS
-# Source Revision: archive-sha256:fd0c87547005857a37aee32ff40c82a1e8535aecda68a9edc2483cdc45b21af1
-# Source SHA-256: d502237207a39ad42b6144a45a7c75c277c04d6abbac72bc2bb907439d40b0d2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CC-VVV.ANS by clorox cowboy (fire); released in fire0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: veni vidi vici
-# SAUCE Author: clorox cowboy
-# SAUCE Group: fire
-# SAUCE Date: 19960903
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: veni vidi vici by clorox cowboy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0996-cc-vvv
 
 Write-Host '
                [1m▀▀▀▀▀▀▀[0m         [1m▄▀▀▀[0m  [1;30m              [0;34m▄[0;1;34m▄▄[0;34m      [0m    [34m▄[0;1;34m▄▄▄[0;34m [0;37m          [0m

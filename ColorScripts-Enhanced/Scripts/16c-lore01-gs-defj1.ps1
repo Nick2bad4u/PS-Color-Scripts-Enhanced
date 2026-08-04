@@ -1,18 +1,4 @@
-﻿# Converted from: GS-DEFJ1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lore01/raw/GS-DEFJ1.ANS
-# Source Revision: archive-sha256:fc43b93e9a302e7547a088ce455791b9de06a32af663cf260d834f799aafa87c
-# Source SHA-256: 0a80fb11c33918e880e03a732f0906e76aa71ad69bec9be1c903cb1c0bbe0559
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GS-DEFJ1.ANS by grindstoned (lore); released in lore01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: defjamz
-# SAUCE Author: grindstoned
-# SAUCE Group: lore
-# SAUCE Date: 19981022
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: defjamz by grindstoned | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lore01-gs-defj1
 
 Write-Host '
                 [1;34m░ [0m       [1;34m [0m [34m  [0;1;34m░[0m  [1;34m   [0m   [34m░[0m         [1;34m░[0m

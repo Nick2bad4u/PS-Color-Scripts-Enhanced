@@ -1,18 +1,4 @@
-﻿# Converted from: TR-TTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile0496/raw/TR-TTH.ANS
-# Source Revision: archive-sha256:970ba17ca3338e96740571feaeb5cccb1e503d5151fde5fa1bc67bce49fcb3a4
-# Source SHA-256: 8d9fe24da0c6f93b1228cafd4d32d119dafe8845e3961ac624907b215511616c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-TTH.ANS by tryptonic (rile); released in rile0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the 13th hour
-# SAUCE Author: tryptonic
-# SAUCE Group: rile
-# SAUCE Date: 19960402
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: the 13th hour by tryptonic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile0496-tr-tth
 
 Write-Host '
 [1;47m░▒▓▓█[0m█[1;30m▐[0m▐[1;47m▄▓▓▌[0m▌[1;30;47m▒░[0m [33m▄██[0;37m  [0;33m████[0;1;31;43m░░░░░[0;33m█▄[0;37m▀[0;1;30;47m░▒[0;33m▐[0;36;43m░░░░░░▒▒▓▒[0;36;40m█▌[0;37;40m▀[0;1;30;47m▒[0m▄[1;30;47m░░[0m▄[1;30m    ▄▀▀▀▀▀▀▀▀▄            [0m

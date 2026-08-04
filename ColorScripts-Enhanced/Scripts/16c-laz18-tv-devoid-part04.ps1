@@ -1,20 +1,4 @@
-﻿# Converted from: tv-DEVOID.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz18/raw/tv-DEVOID.ans
-# Source Revision: archive-sha256:32d30452c4c99022fae4fa2ce9a2923ef46629d3ff7dd35a972944a991699c1f
-# Source SHA-256: b9b7fa85296486c9d4749ce5b80f5d6789e8c484a17efa81eab232989227ce03
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tv-DEVOID.ans by TELEKOVISION (tv. 7B"); released in laz18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: VOID BBS
-# SAUCE Author: TELEKOVISION
-# SAUCE Group: tv. 7B"
-# SAUCE Date: 20240205
-# SAUCE Dimensions: 80x179
-# SAUCE Font: IBM VGA
-# SAUCE Comments: this bbs does not exist.
-# Lines: 151-177
-# Columns: 1-80
+﻿# Artwork: VOID BBS by TELEKOVISION | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz18-tv-devoid-part04
 
 Write-Host '
 [31m▀▀▀▀[0;37m [0;1;30m╓[0;1;31m [0;36mArea[0;1;31m:[0;1;35m [0;1;35;45m.mod[0;1;35;40m / [0;1;35;45m.it[0;1;35;40m / [0;1;35;45m.s3m[0m / [1;35;45m.sid[0;1;35;40m [0;35m....[0;1;35m.............[0;1;31m......[0;1;35m.[0;1;31m..........[0;33m........[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SQR!ACMP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rare-002/raw/SQR!ACMP.ANS
-# Source Revision: archive-sha256:0a3a1ab211a696c0dde542e6c378313f7a0800dd36697e1287d0a21d1dc7f85f
-# Source SHA-256: 4b6dc4a3986691f453d3c3b017ed5f1b3d89ad3041ec8700e7bbb4bef3ffb784
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SQR!ACMP.ANS by square (rare!ascii); released in rare-002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: allura ascii compo
-# SAUCE Author: square
-# SAUCE Group: rare!ascii
-# SAUCE Date: 19980424
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: allura ascii compo by square | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rare-002-sqr-acmp
 
 Write-Host '
 [1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m [1;30m...:[0m   [1;30m_.,▬┬┬┬┬┬┬┬[0m┬[1;30m┬[0m┬┬┬┬┬┬┬[1m┬┬┬[0m┬┬[1;30m┬┬┬┬┬┬┬┬┬┬┬┬┬[0;1;37m┬┬┬[0m┬┬┬┬┬┬┬[1;30m┬[0m┬[1;30m┬┬┬┬┬┬┬┬┬[0m▬[1;30m,[0m._  [1;30m..:.[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: ZO-ALD4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9602/raw/ZO-ALD4.ANS
-# Source Revision: archive-sha256:5e4639f25c539923328bf5d3dcaf0345f7881a951b04cd174712ef6ec2433a3a
-# Source SHA-256: d88d603b5f63f24fbbd6b84dfeb13096b7a8515c81e7d760892481bd073b66ed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZO-ALD4.ANS by zork (blade productions); released in blde9602 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: alderaan fontage!
-# SAUCE Author: zork
-# SAUCE Group: blade productions
-# SAUCE Date: 19960127
-# SAUCE Dimensions: 80x25
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: alderaan fontage! by zork | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9602-zo-ald4
 
 Write-Host '
   [31mzork.[0;37m  [0;31m ▄▄▄[0;37m      [0m           [1;30m [0m     [1;30m▄▄▄■▄▄[0m                       [31m▄▄▀[0;37m  [0;31m▄[0m

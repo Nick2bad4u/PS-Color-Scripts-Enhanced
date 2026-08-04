@@ -1,13 +1,4 @@
-﻿# Converted from: NEWS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flare01/raw/NEWS.ANS
-# Source Revision: archive-sha256:70ac9c6e8f7c924a370aa1a1c2181a1b32fbcdb216a632b2af20b1d07c5dc8f1
-# Source SHA-256: 0c3bb8f6a7a89ede07c2cdd02fa94f791581229ac2d27532608c0a3076b3eb2c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NEWS.ANS by Klumzee (flare01); released in flare01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: NEWS.ANS by Klumzee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flare01-news
 
 Write-Host '
   [1;30m░▓█[0m       [1;30m▄▄██▀████▄▄[0m      [1;30m▄▄▀[0;1;30;47m▓▓▓[0;1;30;40m█▄[0m                     [31m▀▀▓▓▓▓███▄▄   ██▓▓▄  [0m

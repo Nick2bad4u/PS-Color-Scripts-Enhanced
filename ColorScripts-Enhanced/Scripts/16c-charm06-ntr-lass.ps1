@@ -1,17 +1,4 @@
-﻿# Converted from: NTR-LASS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/charm06/raw/NTR-LASS.ANS
-# Source Revision: archive-sha256:82b033a2e356a94e39ff860f0f85e88ecbe6b51d924e732bd402dccc930ccd28
-# Source SHA-256: b975c455a8101d38ef5b434193f271e7eff5ae4a2455e5fd169360b22c0ef754
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NTR-LASS.ANS by neurotrance (charm); released in charm06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: lassi (comic rip)
-# SAUCE Author: neurotrance
-# SAUCE Group: charm
-# SAUCE Dimensions: 80x25
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: lassi (comic rip) by neurotrance | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-charm06-ntr-lass
 
 Write-Host '
               [1;33m [0;33m░▄[0m                      [33m▄░░[0m      [1;33m [0m [1;33m  [0;33m░▄[0;1;33m▌ [0m

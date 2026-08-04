@@ -1,13 +1,4 @@
-﻿# Converted from: US!TREE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spr_07/raw/US!TREE.ANS
-# Source Revision: archive-sha256:491a09c0e89bb57ae22cc79be83b57d04e479fcd9fe6a15bcb489d11b02aee41
-# Source SHA-256: 8078f84c66d1475d5ec16e42c98bfe10df36eed352b10ff73ed0c030a1f596f9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US!TREE.ANS by Mist + Mike (spr_07); released in spr_07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: US!TREE.ANS by Mist + Mike | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spr-07-us-tree
 
 Write-Host '
 [1;30m▐[0m                       [1;30m▌[0m

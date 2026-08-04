@@ -1,18 +1,4 @@
-﻿# Converted from: PP-ANE3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ane-0496/raw/PP-ANE3.ANS
-# Source Revision: archive-sha256:f286865ff9fc371f84b0e7d928b97f862acd4b551efdc8e9d81b3e0ef899b1ce
-# Source SHA-256: 5cee1ceb1adc3e3c4b9193fb271277a87e0a535992495eb4c99da9d4e9f426a8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PP-ANE3.ANS by Pixel Pusher (.:;Anemia;:.); released in ane-0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Anemia Promotion
-# SAUCE Author: Pixel Pusher
-# SAUCE Group: .:;Anemia;:.
-# SAUCE Date: 19960319
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Anemia Promotion by Pixel Pusher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ane-0496-pp-ane3
 
 Write-Host '
 

@@ -1,13 +1,4 @@
-﻿# Converted from: LM-SYNT.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9605a/raw/LM-SYNT.ICE
-# Source Revision: archive-sha256:cf7acb12a0ec01e1383bf24c3c45a68bc55fde8f0e38cd56180a1936aa9f8089
-# Source SHA-256: 38148373940d989d4b5ffad9b5213f7cec526ef485976b6b43573504f74d87bf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LM-SYNT.ICE by Lemonade (ice9605a); released in ice9605a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: LM-SYNT.ICE by Lemonade | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9605a-lm-synt
 
 Write-Host '
    [1m▄[0;1;32;42m█▀[0;32m██▄[0m     [1;33m [0m

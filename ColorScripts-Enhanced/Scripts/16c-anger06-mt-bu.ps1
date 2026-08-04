@@ -1,16 +1,4 @@
-﻿# Converted from: MT-BU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/anger06/raw/MT-BU.ANS
-# Source Revision: archive-sha256:efc6b6d6892fe7f05c3b06052b1d79464b7ee8ab8c7bee2d77361e00cf941f28
-# Source SHA-256: 62d2eeea77fce356f07fd5a4bece2af2790185638692c03ef977b64ba47c4807
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MT-BU.ANS by mantazz (anger); released in anger06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: butane underground.
-# SAUCE Author: mantazz
-# SAUCE Group: anger
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: butane underground. by mantazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-anger06-mt-bu
 
 Write-Host '
              [1;30m [0m

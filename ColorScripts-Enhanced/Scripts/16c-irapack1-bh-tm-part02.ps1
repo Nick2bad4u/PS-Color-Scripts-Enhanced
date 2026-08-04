@@ -1,13 +1,4 @@
-﻿# Converted from: BH-TM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/irapack1/raw/BH-TM.ANS
-# Source Revision: archive-sha256:96bc9993557d51cf44fc1b215ff7a2693ea395db6c6b4d982d551a24b93f90a1
-# Source SHA-256: be5458925bb0f1dcda6416164fe483b39d2b031baccd7a1c69f621b031597e83
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BH-TM.ANS by Bloodhawk (irapack1); released in irapack1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 40-78
-# Columns: 1-80
+﻿# Artwork: BH-TM.ANS by Bloodhawk | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-irapack1-bh-tm-part02
 
 Write-Host '
 [1;34;40m     [0;1;37;47m▓▓▓▓▓▓▓▓▓▓    ▓▓▓ ▓ ▓▓▓▓▓▓[0;1;35;45m▒▒▒▒▒▒▒[0;1;35;40m   [0;34m▓▓[0;1;35m          [0;34m▓▓[0;1;34m              [0;34m██[0;1;34m        [0;1;34;44m▒[0m

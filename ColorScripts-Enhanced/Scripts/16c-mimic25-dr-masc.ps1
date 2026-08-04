@@ -1,13 +1,4 @@
-﻿# Converted from: dr-masc.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic25/raw/dr-masc.ans
-# Source Revision: archive-sha256:5af9b332a2faadb010632152ccd4009f2f76e6404b64d3e8afac01829e050c54
-# Source SHA-256: cb1b0543590b1274817f97de7de93a93827a2005a25fb208d9e9364c96435004
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: dr-masc.ans by Dr Shizuma (mimic25); released in mimic25 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: dr-masc.ans by Dr Shizuma | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic25-dr-masc
 
 Write-Host '
 [1;30m[0;1;37m[0;1;30m[0;35m[0;37m[0;1;30m[0m[1;30m[0m[1;30m[0;32m[0m[1;30m[0m[1;30m[0m[32m[0;37m[0;1;30m[0m[1;30m[0m    [1;30m  ;[0m [33ml$[0;1;31m$$$$$$$$$[0m [1;30m [0;33m:.[0;1;30m..∙∙∙∙ [0m                      [1;33m [0;1;30m [0m [1;33mb,[0m    [1;30m.[0;1;32m, ,[0m [1;30m [0m  [32m.d[0;37m [0;1;33m;[0;1;30m,  [0;1;33m_[0;1;32m,[0;32md[0m

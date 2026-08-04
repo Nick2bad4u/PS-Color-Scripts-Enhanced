@@ -1,18 +1,4 @@
-﻿# Converted from: CM-CORSV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/moonlgt1/raw/CM-CORSV.ANS
-# Source Revision: archive-sha256:9c3296d479bffdc90be8aa4a3f3118a85ae9456683674c3e67716221b3c262b5
-# Source SHA-256: bb3f993e68916b09825da7a6b4715832ca9528355e207ce80246664f77fb9968
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CM-CORSV.ANS by cheeze monkey (moonlight); released in moonlgt1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: corosive!
-# SAUCE Author: cheeze monkey
-# SAUCE Group: moonlight
-# SAUCE Date: 19960818
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: corosive! by cheeze monkey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-moonlgt1-cm-corsv
 
 Write-Host '
 [1;30;41m░[0;31m░[0;1;30m▄▄[0;1;30;43m▓[0;1;30;40m▄ [0;1;35;40m░  [0;30;42m▓[0;37;40m [0;1;32;40mc[0;36m0rOsive[0;37m.. [0;1;36m+[0;1;32mo[0m#[1;32mp[0;36menn  [0;1;35m▄▄[0;1;35;46m▓[0;1;35;40m▄[0;1;35;42m▓[0;1;35;41m▓[0;1;35;42m▓[0;1;35;40m█[0;1;35;46m▓█▀▀▓[0;1;35;40m▄▄▄[0m             [1;35m░  [0;30;42m▓[0m       [37;40m░░ ░▒[0;1;30;47m▓[0;1;30;40m▄▓[0m

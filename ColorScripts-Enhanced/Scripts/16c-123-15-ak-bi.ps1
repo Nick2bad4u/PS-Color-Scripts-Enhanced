@@ -1,13 +1,4 @@
-﻿# Converted from: AK-BI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/123-15/raw/AK-BI.ANS
-# Source Revision: archive-sha256:39cd46aa66b81888c9d6e1f67d00b1ce1214c30f0218c42ae55e96cdc4550c9e
-# Source SHA-256: dd000e08b7a4af9e51664029f420f2be80d271089358979a12ffb43cbc81929f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-BI.ANS by Abstrakt (123-15); released in 123-15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: AK-BI.ANS by Abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-123-15-ak-bi
 
 Write-Host '
   ,  [31mj╬╬╬[0;1;31m╬╬╬[0;31m╬╬P`jlIj╬╬╬╬╬╬╬╬╬╬╬╬  ╬[0;1;31m╬[0;31m╬7 j╬l╬╬[0;1;31m╬╬╬╬╬╬╬╬╬╬╬╬[0;31m╬╝╠╬╬╬╬╬╬╬[0;1;31m╬╬[0;31m╬╬l;,[0;37m [0;36m*¬[0;1;30m┐,.[0;31m [0m

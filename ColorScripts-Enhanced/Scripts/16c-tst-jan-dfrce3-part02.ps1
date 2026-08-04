@@ -1,19 +1,4 @@
-﻿# Converted from: DFRCE3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tst-jan/raw/DFRCE3.ANS
-# Source Revision: archive-sha256:70517452b012cc02f326f50c14d94d2116f9e70f9e965e85651c5cc729e22d1a
-# Source SHA-256: e5995daf60d2e831acddcde10a08c19d70550e4e1fb606284fb58ea02ed9b28b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DFRCE3.ANS by SeNaToR (-= TST / TDF =-); released in tst-jan and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: EaT ThE CoPS !
-# SAUCE Author: SeNaToR
-# SAUCE Group: -= TST / TDF =-
-# SAUCE Date: 19941223
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: YO ! Kick all Cops in their ASS !
-# Lines: 38-80
-# Columns: 1-80
+﻿# Artwork: EaT ThE CoPS ! by SeNaToR | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tst-jan-dfrce3-part02
 
 Write-Host '
 [1;31;40m░▓██▓░[0;31m▓░[0m                        [36m▀   ▀   ▀ ▀▀▀▀▀[0m                           [31m░▓[0;1;31;41m░▓▓[0m

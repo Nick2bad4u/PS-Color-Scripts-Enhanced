@@ -1,17 +1,4 @@
-﻿# Converted from: CZ-SF1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-11/raw/CZ-SF1.ANS
-# Source Revision: archive-sha256:124f5de71b4943d1edf363ae27ec83def11b741938d7ad78955f12dc3ea0753e
-# Source SHA-256: d311c6f2821d3d1a0827c0fac3380dfc87e8ec17eee7dccf3ea9e3b1554a3513
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CZ-SF1.ANS by dumbcheeze (eclipse SUCKS); released in ecl-11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: spayed females won?
-# SAUCE Author: dumbcheeze
-# SAUCE Group: eclipse SUCKS
-# SAUCE Dimensions: 80x25
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: spayed females won? by dumbcheeze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-11-cz-sf1
 
 Write-Host '
 [1;31;45m▒▒▒░░░ ░░░   ░░    ░   ░[0;35m▀▀[0m   [37m ▄▄▄[0;1;37;47m ▄▄[0;1;37;40m█▄▄▄[0m    [33m▀[0;1;33m▀[0;1;33;43m▀█████████▌[0m [1;33;43m █ [0;33m░[0;37m  [0;1;33;43m ████[0;1;33;40m███████[0;1;37;40m████[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: HYPE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mge_art1/raw/HYPE1.ANS
-# Source Revision: archive-sha256:59c72e327d12a7b55464b13c6a672012ac10743d906df1b4e27fe3ff2fd5b8c5
-# Source SHA-256: 43acd1b1c0a9de123649a3baffb0b2426aa368856d3218ef18d2f1e30c2deddf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HYPE1.ANS by Cephyr (mge_art1); released in mge_art1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: HYPE1.ANS by Cephyr | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mge-art1-hype1-part01
 
 Write-Host '
 [5;33m►FR[0;1;5;33mEA[0;5;33mKS  [0;1;5;33mCOME◄ [0;1m·[0m            [34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m       [1;37m·[0m             [1;37m·[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: I!-SV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blade-41/raw/I!-SV.ANS
-# Source Revision: archive-sha256:4bd79ef281b8ab7a825cdf52b83bde6cbe7c637e271a1366a909c3a71335a95c
-# Source SHA-256: b32d0fe0c36fd4725ae7f443b63fd5b6fa400424412d60bad63c2c0c9f1fb789
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: I!-SV.ANS by internal stalker (blade productions); released in blade-41 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: surge view
-# SAUCE Author: internal stalker
-# SAUCE Group: blade productions
-# SAUCE Date: 19970701
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: surge view by internal stalker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blade-41-i-sv
 
 Write-Host '
 [1m            [0m                                [36m▀[0;37m [0;36m▄[0m

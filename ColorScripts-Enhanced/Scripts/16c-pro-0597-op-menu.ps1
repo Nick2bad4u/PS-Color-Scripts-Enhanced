@@ -1,13 +1,4 @@
-﻿# Converted from: OP-MENU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pro-0597/raw/OP-MENU.ANS
-# Source Revision: archive-sha256:481b5fb97b76ab3f49d96748bbc6de9355df4dac5d8032169a495e45a44b207f
-# Source SHA-256: 41cb0695007c4b2759fdc4a5ed171a0b577ecfa7a5997ed1e4ec132e261d2987
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OP-MENU.ANS by Necrophidius (pro-0597); released in pro-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: OP-MENU.ANS by Necrophidius | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pro-0597-op-menu
 
 Write-Host '
             [1;31m,ç$$$$ç,[0m       [1;33m,ç$$$$ç,[0m       [1;33m,ç$$$$ç,[0m       [1;32m,ç$$$$ç,[0m

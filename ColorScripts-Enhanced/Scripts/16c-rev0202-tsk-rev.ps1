@@ -1,13 +1,4 @@
-﻿# Converted from: TSK-REV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0202/raw/TSK-REV.ANS
-# Source Revision: archive-sha256:2dab715e9f2d819e9161d3954fa8210558a1b83f118c830394e2fdee6408a093
-# Source SHA-256: 29b27b775bbe3e5e02a7337cd1c619420c9828bed3d86531c3078f3d4fa9c6fb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-REV.ANS by The Silent Killer (rev0202); released in rev0202 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: TSK-REV.ANS by The Silent Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0202-tsk-rev
 
 Write-Host '
 

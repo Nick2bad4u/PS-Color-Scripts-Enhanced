@@ -1,13 +1,4 @@
-﻿# Converted from: TG-HRSY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/raid-09/raw/TG-HRSY.ANS
-# Source Revision: archive-sha256:81f68e66bab75dc4357c09aced6a4083959f7cfc0ac10f0c0eb6313fa5d2b13e
-# Source SHA-256: 639f59df6924418f0b4af10e36237a00535b5933b26b1ce5f5da2809056ec14c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TG-HRSY.ANS by Tang (raid-09); released in raid-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: TG-HRSY.ANS by Tang | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-raid-09-tg-hrsy
 
 Write-Host '
 [1;30m█▓██▓█████▓▓█████████▓████████▓███▓▀▀▀▀▀▀▀▀▀▀▓▀▀▀▓████████████████▓▓███▓████████[0m

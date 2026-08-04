@@ -1,18 +1,4 @@
-﻿# Converted from: PS-GOOP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drv-0595/raw/PS-GOOP.ANS
-# Source Revision: archive-sha256:ab2903da2c95149760a6d9230201e2017a141769235eee49a007790b51e1be73
-# Source SHA-256: c7465186afb21250c70a18ce219ea204ba58efdb37e21bbcd4049ac763a07659
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PS-GOOP.ANS by Psionide (Driven); released in drv-0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Goop ToOn!
-# SAUCE Author: Psionide
-# SAUCE Group: Driven
-# SAUCE Date: 19950401
-# SAUCE Dimensions: 80x58
-# Lines: 35-57
-# Columns: 1-80
+﻿# Artwork: Goop ToOn! by Psionide | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drv-0595-ps-goop-part02
 
 Write-Host '
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m

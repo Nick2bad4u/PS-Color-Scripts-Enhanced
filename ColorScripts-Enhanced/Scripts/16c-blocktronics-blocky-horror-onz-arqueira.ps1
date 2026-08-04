@@ -1,19 +1,4 @@
-﻿# Converted from: onz-Arqueira.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-blocky-horror/raw/onz-Arqueira.ans
-# Source Revision: archive-sha256:9b55aad043357449b0b0f61d3eddf0a2e277e46cf0768f93c8b9bc9b99d78a77
-# Source SHA-256: 5c494a6e7f531800c2d9330956ed9d440e40c556668fc376a76455404c4c6aae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: onz-Arqueira.ans by Onz (Blocktronics); released in blocktronics-blocky-horror and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Arqueira
-# SAUCE Author: Onz
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20191028
-# SAUCE Dimensions: 80x24
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Arqueira by Onz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-blocky-horror-onz-arqueira
 
 Write-Host '
 [35m█████████▄▄[0;37m▀[0;1;35;45m██[0;1;35;40m██▄[0;35m▀▀██████████████▀▄▀  [0;1;31;41m▄[0;1;31;47m█[0;1;31;41m█▄▀▀[0;31m▀▄[0;1;31;41m▄▄[0;31m█ ▄▀[0;1;31;41m▀██▀▄ [0;31m▄[0;35m▀▀▄▄▓▓▀[0;31m▄ [0;35m▄▄█▀████████[0m

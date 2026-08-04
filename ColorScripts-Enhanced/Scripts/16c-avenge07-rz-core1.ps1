@@ -1,18 +1,4 @@
-﻿# Converted from: RZ-CORE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge07/raw/RZ-CORE1.ANS
-# Source Revision: archive-sha256:115e0675d139221ae82af57d75adc6a5c40187386a2e1c7aedd5a13098a703d2
-# Source SHA-256: 8a6042fd0938a8acb72d7707eec9c5c87d977fc0a515d1ce18b178a6dd80b8c7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RZ-CORE1.ANS by _rzicus (avenge); released in avenge07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: core e-mag!
-# SAUCE Author: _rzicus
-# SAUCE Group: avenge
-# SAUCE Date: 19980725
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: core e-mag! by _rzicus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge07-rz-core1
 
 Write-Host '
 [1;32m▓▒░[0;1;36m ░░▓▓[0;1;36;46m▓▓▓[0;1;36;40m▓▒░[0;36m [0;37m  [0;1;37m▓▓██▄█[0;1;37;47m██▓█▓▒▓▒░[0m▌ [1m▐[0;1;47m▓[0;1;40m▓[0;1;47m▓▒░[0;1;30;47m░░▒▒▓▓▓[0;1;30;40m█[0;1;30;47m▀▀[0;1;30;40m▄ [0m   [1;30m░▒▓▓▄[0;1;37m▀[0;1;37;47m▓[0;1;37;40m▓▒▒░░[0m  [34m▐[0;1;34m▒▒░ [0;1;32m░▒▓▓[0;1;32;42m▓▓[0m

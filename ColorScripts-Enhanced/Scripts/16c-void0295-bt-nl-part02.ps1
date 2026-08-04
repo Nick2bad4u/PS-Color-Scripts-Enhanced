@@ -1,18 +1,4 @@
-﻿# Converted from: BT-NL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/void0295/raw/BT-NL.ANS
-# Source Revision: archive-sha256:4a44bb34dd7dff10b5a2dda07cb89e234fbb0d7e21e3c15a308c427064caab51
-# Source SHA-256: da2316627b27583dd09b4096a084c8f6a1c6071a5b73af289d82d109b9418d5f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BT-NL.ANS by Bibitte (Void); released in void0295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Negativeland
-# SAUCE Author: Bibitte
-# SAUCE Group: Void
-# SAUCE Date: 19950205
-# SAUCE Dimensions: 80x146
-# Lines: 50-98
-# Columns: 1-80
+﻿# Artwork: Negativeland by Bibitte | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-void0295-bt-nl-part02
 
 Write-Host '
 [30m████[0;33m▓▀▄▓▓▄▄[0;30m███[0;32m█[0;30m█[0;1;30m█[0;30m████[0;1;37m░[0;30m████[0;1;37m▄▄▄██▄[0;30m███[0;32m█ ▄[0;1;30;42m░▒▒▓▒░[0;30m█[0;32m█[0;30m██████████[0;1;37m░▄▄[0;30m██████[0;1;30m■[0;30m███[0;32m▐▌[0;30m████[0;33m▓▓▀▀[0m

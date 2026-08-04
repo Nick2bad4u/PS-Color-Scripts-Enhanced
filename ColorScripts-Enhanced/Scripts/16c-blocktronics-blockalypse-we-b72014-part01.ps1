@@ -1,16 +1,4 @@
-﻿# Converted from: we-b72014.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_blockalypse/raw/we-b72014.ans
-# Source Revision: archive-sha256:29ba148fe5fc8b4a774ee58a56a5b6d8104f139a95cba3df944ffda7c075e06a
-# Source SHA-256: 0f626d9b2a0883bdb02175537f7253820ad8be1c3e1c91b4f0db582b9123c599
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: we-b72014.ans by Radman + Smoke + Tcf (blocktronics_blockalypse); released in blocktronics_blockalypse and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 20140228
-# SAUCE Dimensions: 80x54
-# SAUCE Font: IBM VGA
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: we-b72014.ans by Radman + Smoke + Tcf | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-blockalypse-we-b72014-part01
 
 Write-Host '
 

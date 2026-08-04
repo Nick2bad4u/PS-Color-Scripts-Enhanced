@@ -1,13 +1,4 @@
-﻿# Converted from: JY_BNP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bgs_num1/raw/JY_BNP1.ANS
-# Source Revision: archive-sha256:e0f00bf907dd5be4b375ace59bb594eecd3ca210e7121710e2a68853cfcf6d12
-# Source SHA-256: 3b004796184ec1701bb30c4053237499c8e2acde8ebad26e261ee6fc2ff0fae7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JY_BNP1.ANS by Joy (bgs_num1); released in bgs_num1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: JY_BNP1.ANS by Joy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bgs-num1-jy-bnp1
 
 Write-Host '
 [32m▀■ [0;1;30m  [0;32m ▀■[0;37m  [0;32m■[0;33m░ [0;35m■[0;37m    [0;35m▌[0;37m    [0;35m▄[0;37m           [0;37;45m░[0;35;40m▄▀[0;37;40m [0;34;40m▄▄▄[0;37;40m [0;35;40m▀▀[0;37;45m░[0;35;40m▒░▄[0;35;47m▓[0;35;40m▄[0;35;47m▓[0;30;45m■[0;35;47m▒▒░▒▒▓▒░ [0;37;40m▄[0;35;47m■[0;37;40m██▄[0;35;47m▒░[0;37;40m█▀▄▄▄▀▀▀▀[0;35;47m▒░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: LR!-MNU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/5th-9703/raw/LR!-MNU.ANS
-# Source Revision: archive-sha256:fffb2c785ea5bb00b22bc525df88c9cca2a7e3ac70af213df8cc76a82e190c3a
-# Source SHA-256: f93efd8d55ce0cd00187e05231ef4b96680473e12a9ac70544c41bb455df5dfa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LR!-MNU.ANS by late riser ((the 5th..)); released in 5th-9703 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: menu
-# SAUCE Author: late riser
-# SAUCE Group: (the 5th..)
-# SAUCE Date: 19970620
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: menu by late riser | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-5th-9703-lr-mnu
 
 Write-Host '
 [34m████████████████████████████████████████████████████████████████████████████████[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: IDX-MRC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg1096/raw/IDX-MRC.ANS
-# Source Revision: archive-sha256:3bf67f6fa507df2825f9e0d4d9b6e32bfa3182b2c4785835b1b79416dbc87e21
-# Source SHA-256: e3ea15112513f4315448b51dcec6eaad1a044bda29a55fc1ae4cc6c1b339c185
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IDX-MRC.ANS by Id X (drg1096); released in drg1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: IDX-MRC.ANS by Id X | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg1096-idx-mrc
 
 Write-Host '
    [1;30m┌────────────────────────────────┐[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: US-UPRIS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise06/raw/US-UPRIS.ANS
-# Source Revision: archive-sha256:62459159460ab7090ce349ed14c61a1bc8d3aa5785e22124741220f6b82d2ab8
-# Source SHA-256: caae1986dd1e75cda031668fc9831a30405216632d0a9c5192007b3a687a041c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-UPRIS.ANS by Lost Soul + King Sting (uprise); released in uprise06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: uprise
-# SAUCE Author: N/A
-# SAUCE Group: uprise
-# SAUCE Date: 19980728
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: uprise by Lost Soul + King Sting | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise06-us-upris
 
 Write-Host '
 [1;36m█[0;1;36;46m▓[0;1;36;40m█████████████[0;1;36;47m░[0;1;36;40m██████[0;1;36;46m░[0;1;36;40m███████████████████████████████████████████[0;1;36;46m▀▓▀[0;1;36;40m███████[0;1;36;47m▓[0;1;36;40m███[0m

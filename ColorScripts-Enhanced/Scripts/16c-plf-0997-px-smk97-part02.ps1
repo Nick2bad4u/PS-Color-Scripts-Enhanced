@@ -1,18 +1,4 @@
-﻿# Converted from: PX-SMK97.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0997/raw/PX-SMK97.ANS
-# Source Revision: archive-sha256:d6ce507ee095ab9c7ce1d91178b57bff0c61babde42a3957415461a430e18407
-# Source SHA-256: d7c6fe668cbed42247b700e6c34b30a4f48628c8fb2a1bebab6f4d9d61083d8d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PX-SMK97.ANS by perplexer (poffelipoff); released in plf-0997 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: shamera kye '97
-# SAUCE Author: perplexer
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19960113
-# SAUCE Dimensions: 80x25
-# Lines: 44-80
-# Columns: 1-80
+﻿# Artwork: shamera kye '97 by perplexer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0997-px-smk97-part02
 
 Write-Host '
 [1;32;42m▒░[0;32m▌▄▄▄                     [0;31m▀[0;1;31m▄[0;31m▄               [0;32m▄▄▄▐[0;1;32;42m░[0;32m█▄▄▄▌   [0;34m░ ▀ [0;1;34m██▌     [0;34m▀ ░▄▄[0;1;34;44m  [0;34m▓▓[0;30m [0m

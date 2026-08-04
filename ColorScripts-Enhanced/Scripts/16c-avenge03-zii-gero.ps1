@@ -1,18 +1,4 @@
-﻿# Converted from: ZII-GERO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge03/raw/ZII-GERO.ANS
-# Source Revision: archive-sha256:b53dd4509a562cc71a73a559baa7e13eeefa1cf193e827eee6178c14e3bd46f3
-# Source SHA-256: 7a490f74cb7984131e3e839f0cee5e8c79dd853707c17ef28ccce10abc3d187a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-GERO.ANS by Zeus II (avenge); released in avenge03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: gerrrronimo!
-# SAUCE Author: Zeus II
-# SAUCE Group: avenge
-# SAUCE Date: 19980325
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: gerrrronimo! by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge03-zii-gero
 
 Write-Host '
     [1;30m░[0m  [1;30m░░░░░[0m   [1;30m▄  ▓▄[0m [1;30m▄▓[0m [1;30m▄▀[0m                 [34m▄[0;37m [0;1;34;44m▄▄[0;34m█▀▀    [0m    [34m▄[0;1;34m▄[0;1;34;44m▄[0;1;34;40m▓▀[0;34m▀[0m

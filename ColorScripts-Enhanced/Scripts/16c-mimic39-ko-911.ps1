@@ -1,13 +1,4 @@
-﻿# Converted from: ko-911.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic39/raw/ko-911.ans
-# Source Revision: archive-sha256:1587aaa641b0346887ebecb49bf7d019b85e6dcfb801dd31680b4ccf1d4f794b
-# Source SHA-256: a8a5874bf4cddcbbfa82c8e700e92a28aff821e2a06e0aeebfbb9dc3513b1a9a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ko-911.ans by Konami (mimic39); released in mimic39 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ko-911.ans by Konami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic39-ko-911
 
 Write-Host '
 sept 11th,       [33m$[0;37m$l [0;33m$[0;1;31ml$$$$$$$$[0m [33m$$[0;37m$$[0;33m$[0;37m$$ [0;1;31m$$$$$$$$$b[0;33m,[0;37m`7$[0;33m,[0m              [1;37m,d[0m   [1;30m ko[0;31m$7 [0m

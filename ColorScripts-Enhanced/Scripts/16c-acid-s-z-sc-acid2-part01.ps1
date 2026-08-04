@@ -1,13 +1,4 @@
-﻿# Converted from: SC-ACID2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acid_s-z/raw/SC-ACID2.ANS
-# Source Revision: archive-sha256:1e39be543cd73bd6445def20e0af89859836bb40b21bc0476427cae93491a647
-# Source SHA-256: 62df54e426b34b4c4cde1b731c5a5d2895b9d9f323547a61910cbb66a2222d5e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SC-ACID2.ANS by Tank + Rad Man (acid_s-z); released in acid_s-z and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: SC-ACID2.ANS by Tank + Rad Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acid-s-z-sc-acid2-part01
 
 Write-Host '
          [1;30m──[0;34m──[0;1;34m──[0;1;36m─[0;1;37;47m▌[0;1;36;40m─┼─[0;1;34;40m─[0;34m─[0;1;30m─[0m

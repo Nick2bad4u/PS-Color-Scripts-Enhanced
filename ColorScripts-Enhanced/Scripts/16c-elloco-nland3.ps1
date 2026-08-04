@@ -1,18 +1,4 @@
-﻿# Converted from: NLAND3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/elloco/raw/NLAND3.ANS
-# Source Revision: raw-sha256:5d4bf280b8c19b3e8fbd74cbf381eff95832f2d4dade7ac8e6ebb1702abf228c
-# Source SHA-256: 5d4bf280b8c19b3e8fbd74cbf381eff95832f2d4dade7ac8e6ebb1702abf228c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NLAND3.ANS by The BiKeR (NeveRLanD); released in elloco and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: NeveRLanD Logo
-# SAUCE Author: The BiKeR
-# SAUCE Group: NeveRLanD
-# SAUCE Date: 19960518
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: NeveRLanD Logo by The BiKeR | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-elloco-nland3
 
 Write-Host '
                                                                         [31m▄[0m

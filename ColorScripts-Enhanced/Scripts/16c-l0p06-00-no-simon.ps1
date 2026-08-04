@@ -1,18 +1,4 @@
-﻿# Converted from: NO!SIMON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p06_00/raw/NO!SIMON.ANS
-# Source Revision: archive-sha256:3daad9bd70cd9307445d25e1dbbdc4eae498b83379a5b89ecd2ac9419e6150d3
-# Source SHA-256: 0ce3e7b7bfe8eb41512a1b3a9b30b10d83baa58982ef03cd140ef63de3a6eefb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NO!SIMON.ANS by noches (thelo0p); released in l0p06_00 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: simon
-# SAUCE Author: noches
-# SAUCE Group: thelo0p
-# SAUCE Date: 20000422
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: simon by noches | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p06-00-no-simon
 
 Write-Host '
 

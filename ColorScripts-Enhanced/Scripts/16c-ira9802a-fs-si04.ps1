@@ -1,18 +1,4 @@
-﻿# Converted from: FS-SI04.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira9802a/raw/FS-SI04.ANS
-# Source Revision: archive-sha256:157ead14d43652aeef2256f394202c3af23e0a670018a92df40a323cb79405f8
-# Source SHA-256: a5ff6e9bf78e97f586806f0d60c56e68517f408b7dee4c058e2a5838c0d66c2d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FS-SI04.ANS by flying squirrel (irato); released in ira9802a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: dourze
-# SAUCE Author: flying squirrel
-# SAUCE Group: irato
-# SAUCE Date: 19980202
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: dourze by flying squirrel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira9802a-fs-si04
 
 Write-Host '
                               ▄[34m                    [0;1;33m       [0m

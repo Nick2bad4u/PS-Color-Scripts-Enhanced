@@ -1,13 +1,4 @@
-﻿# Converted from: PPE-PLF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-22/raw/PPE-PLF.ANS
-# Source Revision: archive-sha256:0c97093be7f1ee75b59924d90a141846af1baed6d5e85d431d56994da3822a7c
-# Source SHA-256: 59f55c64172b30d1d9c2d41733c336479dcfc8cb7604b361366cf8b59db30147
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PPE-PLF.ANS by Purplee (purg-22); released in purg-22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: PPE-PLF.ANS by Purplee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-22-ppe-plf-part01
 
 Write-Host '
 [1;30m[0m[1;30m[0m

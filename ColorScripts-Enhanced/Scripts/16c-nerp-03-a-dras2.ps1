@@ -1,18 +1,4 @@
-﻿# Converted from: A-DRAS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-03/raw/A-DRAS2.ANS
-# Source Revision: archive-sha256:9ea26ff16b2d0162532c602fba75b69e539d71620a3b4e34b796de886326619c
-# Source SHA-256: c965aee5f7edd4f2545c6924225e4efff84b852b526186b3829e47b6a5f90a35
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: A-DRAS2.ANS by alecs (nerp); released in nerp-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: drastic .. ...
-# SAUCE Author: alecs
-# SAUCE Group: nerp
-# SAUCE Date: 19971224
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: drastic .. ... by alecs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-03-a-dras2
 
 Write-Host '
 [1;30m[0m

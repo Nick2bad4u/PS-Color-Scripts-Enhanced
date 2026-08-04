@@ -1,18 +1,4 @@
-﻿# Converted from: DME-CHEE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sadist03/raw/DME-CHEE.ANS
-# Source Revision: archive-sha256:aad069a20b3a55e608ff5f7b3cbbfa85da447754484a4340da178067d56a89cc
-# Source SHA-256: 0309125820536337e797513a6ccab1591be96b1ae8e3114320ebfeb897a070c6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DME-CHEE.ANS by damien (sadist); released in sadist03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: cheek
-# SAUCE Author: damien
-# SAUCE Group: sadist
-# SAUCE Date: 19990131
-# SAUCE Dimensions: 80x44
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: cheek by damien | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sadist03-dme-chee
 
 Write-Host '
 [35m      [0;1;35;45m░[0;35m     ▄    [0;1;35;45m▒▒[0;35m█      ▄   [0;1;35;45m▓▓[0;35m██████████████████▄▄          ▄[0;1;35;45m░[0;35m             ▄  [0m

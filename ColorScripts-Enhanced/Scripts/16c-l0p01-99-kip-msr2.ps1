@@ -1,18 +1,4 @@
-﻿# Converted from: KIP_MSR2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p01_99/raw/KIP_MSR2.ANS
-# Source Revision: archive-sha256:8f60f196ab9303212b95219847d0542467217a03e8a054cd4a20b59f229d7873
-# Source SHA-256: 91c9cd883057acec422e9a345e8b916323badba88e8a311959df426c5390acc3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KIP_MSR2.ANS by kipsake (thelo0p); released in l0p01_99 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: measure 2
-# SAUCE Author: kipsake
-# SAUCE Group: thelo0p
-# SAUCE Date: 19990316
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: measure 2 by kipsake | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p01-99-kip-msr2
 
 Write-Host '
        [1;30m░[0m                        [1;30m░[0m                     [1;30m░[0m

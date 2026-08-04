@@ -1,19 +1,4 @@
-﻿# Converted from: AVG-EV24.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-41/raw/AVG-EV24.ANS
-# Source Revision: archive-sha256:ac76c59485a165eaf047917bf134381dd20b2cecdcb1727ff850df7e806295b5
-# Source SHA-256: 3f08f8fb79e4e9ff48a1fcc56973deb93c471e58abfc5583c5c00c3d724748b6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-EV24.ANS by savage (fire graphics); released in fire-41 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: evoke 2024
-# SAUCE Author: savage
-# SAUCE Group: fire graphics
-# SAUCE Date: 20241111
-# SAUCE Dimensions: 80x24
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: evoke 2024 by savage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-41-avg-ev24
 
 Write-Host '
 [1m[0m[1;30m[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: RS-DISP2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9701/raw/RS-DISP2.ANS
-# Source Revision: archive-sha256:45d6a082bca05ad193b510335e91b0bec312e4835ff5735e0eb40fe62d0e1180
-# Source SHA-256: cd87e1ad5b94348371c6474c6aaf3c6b54f1cfee57a4cb16f35c80b2f3775016
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-DISP2.ANS by rorshack (Maiden Brazil); released in mdn-9701 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: disembodied pressure matrix
-# SAUCE Author: rorshack
-# SAUCE Group: Maiden Brazil
-# SAUCE Date: 19961220
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: disembodied pressure matrix by rorshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9701-rs-disp2
 
 Write-Host '
                                             [32m  ▄▄▄▄▄█████████[0;1;32;42m░▒▓██[0;1;32;40m▄▄[0m

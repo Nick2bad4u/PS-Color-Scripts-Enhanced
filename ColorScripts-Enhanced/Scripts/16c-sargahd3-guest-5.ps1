@@ -1,18 +1,4 @@
-﻿# Converted from: GUEST  5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sargahd3/raw/GUEST%C2%A0%C2%A05.ANS
-# Source Revision: archive-sha256:d4be65be862c17debbed01c060fb85aadbdbe00a8282836fa25f3f46073f618d
-# Source SHA-256: 41408f64d4994e2f4171b3874ad475b0f916738081724e0d0eac9eff22a3391d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GUEST  5.ANS by hans-dieter (autonome antifa (m)); released in sargahd3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: they are coming
-# SAUCE Author: hans-dieter
-# SAUCE Group: autonome antifa (m)
-# SAUCE Date: 19970208
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: they are coming by hans-dieter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sargahd3-guest-5
 
 Write-Host '
 [1;30m▒▓■■▀■▀▀■▀▀▀■▀▀▀▀▀■▀▀▀▀▀▀▀■▀▀▀▓░▒▓▓█░▒░▒▒[0m▀░[1;30m▀▒░■▀▀▀■▀▀▀▀▀■▀▀▀▀▀▀▀■▀▀░░▒▒░░▒█▀▓░▒[0m

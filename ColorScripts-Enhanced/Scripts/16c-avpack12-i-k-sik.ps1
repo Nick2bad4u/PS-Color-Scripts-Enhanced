@@ -1,18 +1,4 @@
-﻿# Converted from: I&K-SIK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack12/raw/I%26K-SIK.ANS
-# Source Revision: archive-sha256:55286e18e28c272f11e63b1c16158d9df2657a21ca3df761a4c27630305acaa1
-# Source SHA-256: d08cdbaa74706a041c7e538a46cd688b561dfab6eda37a60cbe743062ba4378d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: I&K-SIK.ANS by KRL + Insurge (Apocalyptic Visions); released in avpack12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Shed
-# SAUCE Author: Mr Krinkle/Insurge
-# SAUCE Group: Apocalyptic Visions
-# SAUCE Date: 19960623
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: The Shed by KRL + Insurge | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack12-i-k-sik
 
 Write-Host '
 [1;30m█▓ ████▀[0m [32m▄[0;1;32;42m ░[0;32m█▄█[0;1;32;42m░░[0;32m▄▄▄▄▄[0;1;32;42m░░▒[0m [1;32;42m░░░[0m [1;32;42m▒▒[0;32m▀▀███[0;37m [0;1;32;42m░░[0;32m█▄▄▄[0;37m [0;32m ▄▄▄▄[0;1;32m  [0m░ [32m▄▄▄[0;37m [0;32m█[0;1;32;42m░▒[0;32m▄▄▄▄▄▄[0;1;30m ▓██▀▀▀▀[0m [1;32;42m░[0;32m█[0;1;32;42m░[0m

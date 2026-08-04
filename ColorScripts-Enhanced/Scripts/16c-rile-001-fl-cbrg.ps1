@@ -1,18 +1,4 @@
-﻿# Converted from: FL-CBRG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile_001/raw/FL-CBRG.ANS
-# Source Revision: archive-sha256:f7a8644489c1d011b91477b5b1eab40d9f39b077b89f158a7a0c3d1c032c6d81
-# Source SHA-256: db7d24e49b125fc23dec9494ff8ba813f7998b5f574691c2ce2fc402209d5a48
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-CBRG.ANS by flame (RILE); released in rile_001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: soldout.
-# SAUCE Author: flame
-# SAUCE Group: RILE
-# SAUCE Date: 19970116
-# SAUCE Dimensions: 80x25
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: soldout. by flame | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile-001-fl-cbrg
 
 Write-Host '
 [31mfl·· [0;30;44m▓[0;33;40m▄▒██[0;1;31;43m▄▄▓[0;1;31;47m▓[0;1;31;43m▀░ ▄▄▀[0;43m░[0;33;47m▓▀[0;1;31;43m▀▀[0;33m█[0;1;31;43m■░[0;43m▒▄▄▀■[0;33;43m£[0;37;43m▄▓[0;1;31;47m░▓▓ ▄▓▀▀▒███[0;1;31;43m█[0;1;31;47m▓[0;1;31;43m███▀░[0;31m░[0;37;41m▄░[0;31;40m▄▀░▄[0;33;40m  [0;35;40m▀█[0;1;37;45m░▒▒▒▒░░[0;1;35;45m£[0;1;37;45m░[0;35m░░░░░[0m

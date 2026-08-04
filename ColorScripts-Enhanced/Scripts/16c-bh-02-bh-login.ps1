@@ -1,13 +1,4 @@
-﻿# Converted from: BH_LOGIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bh-02/raw/BH_LOGIN.ANS
-# Source Revision: archive-sha256:3e7a8c43008c01414f7d65c3640197ee4ffc8aa3ede5c250e177d97829d3a61c
-# Source SHA-256: 1aa4d526b1129293022b0a73fcfa6c5eb15ea6ce2d5a61a91ea4dc953dab5c62
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BH_LOGIN.ANS by Crusader (bh-02); released in bh-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: BH_LOGIN.ANS by Crusader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bh-02-bh-login
 
 Write-Host '
            [1;30m░[0m                 [1;30m▄▀▀▀▄[0m         [1;30m▄▀▀▀▄[0m               [1;30m▄    ▌[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: DW-ALK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile_002/raw/DW-ALK.ANS
-# Source Revision: archive-sha256:09fff222285c90eb6b714714b4c5e3c96cc514cdf338ccf4e30b5898f9a5a64b
-# Source SHA-256: 10619e53d40821d1440ced61916def90b41171091ae060f597132e74ddb9c199
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DW-ALK.ANS by drynwhyl (RILE); released in rile_002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: alkohol header
-# SAUCE Author: drynwhyl
-# SAUCE Group: RILE
-# SAUCE Date: 19970306
-# SAUCE Dimensions: 80x25
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: alkohol header by drynwhyl | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile-002-dw-alk
 
 Write-Host '
       [32m [0;33m▄[0m            [32m▄[0;33m▄[0;32m [0m                  [32m░[0;30;42m▓[0;32;40m▄[0;33;42m▄[0;33;40m▀[0;32;40m [0m                [33;40m■[0;37;40m [0;33;40m▄[0;36;40m░▌░[0;30;46m▓[0;37;40m  [0;32;40m ▄[0;33;40m▌▀[0m

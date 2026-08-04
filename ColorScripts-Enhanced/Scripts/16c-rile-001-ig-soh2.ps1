@@ -1,18 +1,4 @@
-﻿# Converted from: IG-SOH2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile_001/raw/IG-SOH2.ANS
-# Source Revision: archive-sha256:f7a8644489c1d011b91477b5b1eab40d9f39b077b89f158a7a0c3d1c032c6d81
-# Source SHA-256: 144a6e286f537ab5b26f097d724e03fe675b09274a1c8515af61ff4823327114
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IG-SOH2.ANS by ironghost (rile); released in rile_001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: south of heaven!
-# SAUCE Author: ironghost
-# SAUCE Group: rile
-# SAUCE Date: 19970215
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: south of heaven! by ironghost | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile-001-ig-soh2
 
 Write-Host '
                  [31m▄▄▄▄▄▄[0;1;30m [0m  [31m▄▄▄▓▄[0;37m  [0m

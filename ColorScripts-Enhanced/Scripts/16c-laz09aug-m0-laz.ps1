@@ -1,18 +1,4 @@
-﻿# Converted from: M0-LAZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz09aug/raw/M0-LAZ.ANS
-# Source Revision: archive-sha256:3e0bd3039fe877b3970f71e80b4456ee60793f2295ae127a50a6587b17c2d6a2
-# Source SHA-256: fcddb2081278159b386f081a70e2a4a88cfc5dbceb119d8d5971497741d94e47
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M0-LAZ.ANS by mosen (lazarus); released in laz09aug and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Lazarus
-# SAUCE Author: mosen
-# SAUCE Group: lazarus
-# SAUCE Date: 19970804
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Lazarus by mosen | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz09aug-m0-laz
 
 Write-Host '
                   [34m  [0m             [37m             [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: L5-MCLOG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0996/raw/L5-MCLOG.ANS
-# Source Revision: archive-sha256:9d2c16f2326b1b98168bc790edb6aadb0d52c5f6484964980e3ad8168b0cc77f
-# Source SHA-256: c9dabbd7266caa4526d67350e46650b73b1bb22a43397be48b65edd14db7c43a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: L5-MCLOG.ANS by Lord 5patter (Opium); released in opx-0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Moose City
-# SAUCE Author: Lord 5patter
-# SAUCE Group: Opium
-# SAUCE Date: 19960831
-# SAUCE Dimensions: 80x38
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Moose City by Lord 5patter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0996-l5-mclog
 
 Write-Host '
 [1;30m███▀▀▀▀▀▀▀▀██▓▄██▓▓▓▓▒▒▒▒░░░ ░ ░[0m

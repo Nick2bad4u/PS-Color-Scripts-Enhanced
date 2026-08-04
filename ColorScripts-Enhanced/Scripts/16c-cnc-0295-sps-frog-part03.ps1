@@ -1,18 +1,4 @@
-﻿# Converted from: SPS-FROG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cnc-0295/raw/SPS-FROG.ANS
-# Source Revision: archive-sha256:32f9b5691b8cdcdb7e103113cb82451d9ef857f669dc5c54721c6e10560d94bc
-# Source SHA-256: c442a11d2f2a2e96d037455ac64a9966ed8fdbf9e12b73ab1638929e3c8e09a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPS-FROG.ANS by Sir Psycho Sexy (CaNCeR Productions); released in cnc-0295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Frogstar
-# SAUCE Author: Sir Psycho Sexy
-# SAUCE Group: CaNCeR Productions
-# SAUCE Date: 19950105
-# SAUCE Dimensions: 80x25
-# Lines: 75-123
-# Columns: 1-80
+﻿# Artwork: The Frogstar by Sir Psycho Sexy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cnc-0295-sps-frog-part03
 
 Write-Host '
 ▌▀▄[35m▀▒▒▓▓▒▒▒▓▀[0;1;37m▄[0m▀▐ [34m░ [0;35m░▒▓█[0;1;35;45m░▒▓█▓▒░ [0;35m▓▒░ [0;37m█▌  [0;34m░  [0;37m▐[0;1;37;47m░[0m   [35m░░▒▒▓▓▓▓▓███[0;1;35;45m░░░░░░░░[0m ▐█    ▒░

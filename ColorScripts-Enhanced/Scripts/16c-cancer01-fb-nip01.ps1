@@ -1,18 +1,4 @@
-﻿# Converted from: FB-NIP01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cancer01/raw/FB-NIP01.ANS
-# Source Revision: archive-sha256:1d674e5cb6391162607aaf95710b795f9d6c8bbd06eec06cf5932f93f338c133
-# Source SHA-256: fa3d64b7b35f90fb6f742bcbfb8afa362f845db86952cd53bcb2c8dee41f9787
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FB-NIP01.ANS by Fonebone (Cancer); released in cancer01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Nip Matrix
-# SAUCE Author: Fonebone
-# SAUCE Group: Cancer
-# SAUCE Date: 19960303
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Nip Matrix by Fonebone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cancer01-fb-nip01
 
 Write-Host '
         [35m ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m

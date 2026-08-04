@@ -1,13 +1,4 @@
-﻿# Converted from: TG-ICEM.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9410/raw/TG-ICEM.ICE
-# Source Revision: archive-sha256:8c9142d0352992206e7fd9f090a7f89eeb1bb8623b53334a6a4eb0e9111ecc28
-# Source SHA-256: 187bda905c106f31434aed65000d2df5f1e4baf0051fa8e8e3963c1e5fb35009
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TG-ICEM.ICE by Toon Goon (ice-9410); released in ice-9410 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 35-67
-# Columns: 1-80
+﻿# Artwork: TG-ICEM.ICE by Toon Goon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9410-tg-icem-part02
 
 Write-Host '
 [32m █[0;1;37;42m░[0;32m████▓[0;1;30;42m░[0;32m██[0;1;30;42m░[0;32m▓▒[0;1;30m██[0;1;30;42m█[0m [34m▒ [0;1;30;42m▓[0;32m▒[0;1;30m▓[0;1;30;42m▓[0;32m▒▓▓▓ [0;1;37m████ [0;32m█████████▓▓█████████▄██▌[0;1;30m▐[0;1;30;42m▓[0;32m▒▓█▓[0;1;30;42m░[0;32m████▓▀[0;37m▄▄[0;37;47m [0;1;30;47m·  [0m▄[32m▀█[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: US-RMS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9607/raw/US-RMS1.ANS
-# Source Revision: archive-sha256:9e6601fb76997375dd243211c26e8c2351f2e546b672c94103f06b10c1d474c2
-# Source SHA-256: 1668411ceb7c2420b83f5ec42b70444117a5d01d32842a827e977da54a7e0190
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-RMS1.ANS by Eerie + Defiant (Samsara); released in sms-9607 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: RMS
-# SAUCE Author: Defiant & Eerie-Kun
-# SAUCE Group: Samsara
-# SAUCE Date: 19960707
-# SAUCE Dimensions: 80x80
-# Lines: 43-80
-# Columns: 1-80
+﻿# Artwork: RMS by Eerie + Defiant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9607-us-rms1-part02
 
 Write-Host '
 [32m░ [0;30;46m▓▓[0;32;40m▀█▓[0;30;42m░[0;32;40m█▄▐████[0;1;32;42m░▒███[0;32m███[0;1;32;42m▒ [0;32m████████▄[0;30;42m▓[0;30;45m▓▓[0;37;40m [0;32;40m░▄█████[0;1;37;42m░[0;1;33;42m██[0;1;33;40m█[0;1;33;42m▀[0;1;33;40m▀[0;32m▀[0m                 [35m▀[0;1;35;45m▀█[0;1;36;45m▌░[0;35m▌[0m

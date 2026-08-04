@@ -1,18 +1,4 @@
-﻿# Converted from: ED-ANGEL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira9802a/raw/ED-ANGEL.ANS
-# Source Revision: archive-sha256:157ead14d43652aeef2256f394202c3af23e0a670018a92df40a323cb79405f8
-# Source SHA-256: feb60ba023b8987f24706de25c78936cf8476e1da46b7038bd765b1174fe20e9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ED-ANGEL.ANS by enelf daragard (irato); released in ira9802a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: angel eyes
-# SAUCE Author: enelf daragard
-# SAUCE Group: irato
-# SAUCE Date: 19980130
-# SAUCE Dimensions: 80x25
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: angel eyes by enelf daragard | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira9802a-ed-angel
 
 Write-Host '
                        [1;30m ■[0m

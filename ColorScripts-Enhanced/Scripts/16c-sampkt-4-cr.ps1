@@ -1,13 +1,4 @@
-﻿# Converted from: CR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sampkt_4/raw/CR.ANS
-# Source Revision: archive-sha256:be6b7fce6ae136b16e9de0bf5934b172c2efde280c806be55d55cc5d6b51ea38
-# Source SHA-256: ad3cded9800dd099b2d2ac1a80313d2b558be0f7dc09b3403e023ccf54082474
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CR.ANS by Vega (sampkt_4); released in sampkt_4 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: CR.ANS by Vega | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sampkt-4-cr
 
 Write-Host '
                                     .                   [1;30m.[0m

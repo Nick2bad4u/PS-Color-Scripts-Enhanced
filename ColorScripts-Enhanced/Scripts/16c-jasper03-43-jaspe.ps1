@@ -1,18 +1,4 @@
-﻿# Converted from: 43-JASPE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper03/raw/43-JASPE.ANS
-# Source Revision: archive-sha256:96c1272030a36fd5502bf2f34e681c795192c7d49fac9a2ab5dd4a5a2bf5606c
-# Source SHA-256: c4bb368e0c0cef1ee5eeb3020b13ff74c191a830c6389aade956a656dc65cecc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 43-JASPE.ANS by aesthetic (jasper); released in jasper03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: cold as ice
-# SAUCE Author: aesthetic
-# SAUCE Group: jasper
-# SAUCE Date: 20020226
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: cold as ice by aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper03-43-jaspe
 
 Write-Host '
 

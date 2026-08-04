@@ -1,17 +1,4 @@
-﻿# Converted from: US-WM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sys2_03/raw/US-WM.ANS
-# Source Revision: archive-sha256:008fb7d825e566af77ae54caca44158087d80f399f5293cc1f9b3810d9305879
-# Source SHA-256: 92f33688004a03e4e9c433723f8c7a27aefb91c4476df2b043c3ac2a19fbe4ba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-WM.ANS by zerostar (SystemII); released in sys2_03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: zerostar
-# SAUCE Group: SystemII
-# SAUCE Date: 20000501
-# SAUCE Dimensions: 80x38
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: US-WM.ANS by zerostar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sys2-03-us-wm
 
 Write-Host '
 [1;37m▄[0m▄[1;30m▄▄▄▄▄▄▄[0m [1;30m▄▄[0m [34m ▄[0;37m [0;36m [0;1;30m▄[0;36m▄[0;1;30;46m▀░░▀▀[0;1;30;40m█▄▄[0;34m ▬[0m    [34m▄  [0;1;30m ▄▄  ▀[0;34m   ▄ [0;1;30m [0;34m [0;1;30m▀  ▄[0;34m  [0;1;30m▄[0;34m [0;37m [0;1;37m▄[0m▄[1;30m▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄[1;37m▄[0m

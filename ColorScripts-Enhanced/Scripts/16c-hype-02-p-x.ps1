@@ -1,17 +1,4 @@
-﻿# Converted from: P!-X.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hype-02/raw/P!-X.ANS
-# Source Revision: archive-sha256:85e01eadce5f9498d81aff1ce740b243afce4b217290d5d85773c523660d0b86
-# Source SHA-256: 9b12f5a9e4a5aac9f873b1d36e2d0d8bd704b78e0f9f5964e1ead80048d512c0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P!-X.ANS by Pleeto (Hype); released in hype-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: "x" logo
-# SAUCE Author: Pleeto
-# SAUCE Group: Hype
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: "x" logo by Pleeto | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hype-02-p-x
 
 Write-Host '
                     [1;33m [0m   [1;33m▄[0m

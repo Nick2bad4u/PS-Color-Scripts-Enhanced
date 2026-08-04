@@ -1,18 +1,4 @@
-﻿# Converted from: CG-AWEE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-20/raw/CG-AWEE.ANS
-# Source Revision: archive-sha256:23bbf66596e3e4f3c4b9e335dc62ccc331634eba04c3d179b73e396fa3971807
-# Source SHA-256: 3188c80a23f9f36408efac6ee021b6cdcfe91e55fbf2fb41aadd6b8cc12247c8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-AWEE.ANS by Cryogenic (AWE Lettering); released in awe-20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: AWE Promotional
-# SAUCE Author: Cryogenic
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981231
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: AWE Promotional by Cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-20-cg-awee
 
 Write-Host '
                [1;33m░░[0m                                 [1;33m░░[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: MH!PV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/arsin02/raw/MH!PV.ANS
-# Source Revision: archive-sha256:8b3ca93f9d07119d47150f846bba6e8cd466371f5d81106c3318f874455ab21e
-# Source SHA-256: 0355531d831789b75894a88e4de548ea1480577101801347a28cbe46f0101e12
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MH!PV.ANS by Maddog Hoek (arsin02); released in arsin02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: MH!PV.ANS by Maddog Hoek | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-arsin02-mh-pv
 
 Write-Host '
 [1;31m█▀▀▀▀▀▀▀▀[0;31m▀[0;1;31m▀▀▀▀▀▀▀[0;31m▀▀[0;1;31m▀▀▀▀▀▀[0;31m▀▀▀[0;1;31m▀▀▀▀▀[0;31m▀▀▀▀[0;1;31m▀▀▀▀[0;31m▀▀▀▀▀[0;1;31m▀▀▀[0;31m▀▀▀▀▀▀[0;1;31m▀▀[0;31m▀▀▀▀▀▀▀[0;1;31m▀[0;31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m

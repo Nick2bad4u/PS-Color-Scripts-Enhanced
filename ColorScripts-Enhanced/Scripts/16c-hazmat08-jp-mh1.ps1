@@ -1,13 +1,4 @@
-﻿# Converted from: jp-mh1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hazmat08/raw/jp-mh1.ans
-# Source Revision: archive-sha256:f298b8f820ae7c96a0cdd5300c2ea16a973e296960f4fa626d1f2f7f529f4bda
-# Source SHA-256: 49748683569aec2b769a9191844bf2f2ff1e97dec37d32d6010f13a7bbaeddf2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: jp-mh1.ans by Jack Phlash (hazmat08); released in hazmat08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: jp-mh1.ans by Jack Phlash | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hazmat08-jp-mh1
 
 Write-Host '
 

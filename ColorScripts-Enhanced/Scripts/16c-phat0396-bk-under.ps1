@@ -1,18 +1,4 @@
-﻿# Converted from: BK-UNDER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0396/raw/BK-UNDER.ANS
-# Source Revision: archive-sha256:4840956a784b32a4a9e617c5baaeab5274263fdb9ff2d98a840492545e3abb06
-# Source SHA-256: 41cb0475f6a04a5014fb7bf914a6d2b8f777d8f7302d4c73bf644df01ad00b4b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BK-UNDER.ANS by blackknight (READ THE INI FILE); released in phat0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: underground empire logo
-# SAUCE Author: blackknight
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19960301
-# SAUCE Dimensions: 80x25
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: underground empire logo by blackknight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0396-bk-under
 
 Write-Host '
                          ▄▄▄                                       ▄▄▄

@@ -1,17 +1,4 @@
-﻿# Converted from: BC-APPLY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bat04/raw/BC-APPLY.ANS
-# Source Revision: archive-sha256:d176f3f3481cd621bff59d2bfb55aef8be05c9007ac772bba99c98c138cb9e41
-# Source SHA-256: 798cb9f1edcd9d7ac1b262bd5e92d22d562511dec0a1cf06c85fb7a210bf80ac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BC-APPLY.ANS by beeyacH! (bat04); released in bat04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: melack newuserinpho
-# SAUCE Author: beeyacH!
-# SAUCE Date: 19961217
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: melack newuserinpho by beeyacH! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bat04-bc-apply
 
 Write-Host '
  [1m [0;35m·[0;1;37m   [0;35m·[0;1;37m  [0;35m·[0;1;37m  [0;35m··[0;1;37m [0;35mm[0;1;37m    [0;35m·[0;1;37m    [0;35me[0;1;37m    [0;35m·[0;1;37m    [0;35ml[0;1;37m    [0;35m·[0;1;37m    [0;35ma[0;1;37m    [0;35m·[0;1;37m    [0;35mc[0;1;37m   [0;35m ·[0;1;37m    [0;35mk[0;1;37m [0;35m··[0;1;37m  [0;35m·[0;1;37m  [0;35m·[0;1;37m   [0;35m·[0m

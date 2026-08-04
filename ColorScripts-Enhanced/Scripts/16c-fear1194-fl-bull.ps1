@@ -1,17 +1,4 @@
-﻿# Converted from: FL-BULL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fear1194/raw/FL-BULL.ANS
-# Source Revision: archive-sha256:f054d0bb154b653e223e56e77201cae8362bfb38bbbede42a20fa8c74f2102fe
-# Source SHA-256: 9a34f137d9d870c20b763a4d1e121d3df6e347a8b4b82cfb4409cbba59d5f4d2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-BULL.ANS by Fire Lord ([FEAR]); released in fear1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: Fire Lord
-# SAUCE Group: [FEAR]
-# SAUCE Date: 19941104
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: FL-BULL.ANS by Fire Lord | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fear1194-fl-bull
 
 Write-Host '
                              [1;31m▄▄▄▄[0;1;31;41m▓▓▓▓▓▓▓[0;1;31;40m▄[0;1;31;41m▓▓▓▓▓▓▓▓[0;1;31;40m▄▄▄[0m

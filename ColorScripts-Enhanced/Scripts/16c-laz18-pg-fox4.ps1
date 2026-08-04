@@ -1,19 +1,4 @@
-﻿# Converted from: pg_fox4.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz18/raw/pg_fox4.ans
-# Source Revision: archive-sha256:32d30452c4c99022fae4fa2ce9a2923ef46629d3ff7dd35a972944a991699c1f
-# Source SHA-256: d41549e825b9c408a8655ca4397fdec7ccee8303a6f70e53cde385f9684e6638
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: pg_fox4.ans by pinguino (lazarus); released in laz18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: FoxFace
-# SAUCE Author: pinguino
-# SAUCE Group: lazarus
-# SAUCE Date: 20240208
-# SAUCE Dimensions: 80x30
-# SAUCE Font: IBM VGA
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: FoxFace by pinguino | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz18-pg-fox4
 
 Write-Host '
 [36m█[0;1;36;46m░░▒▒▒▒▒▒[0;36m████████[0;1;36;46m▒▒▒▒▓▓▒▒▒░░░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░▒▒▒▓▓▓▒▒░▒▓▓░▒▒▒░░░░░[0;36m██████[0m

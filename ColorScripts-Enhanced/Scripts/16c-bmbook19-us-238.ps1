@@ -1,17 +1,4 @@
-﻿# Converted from: us-238.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook19/raw/us-238.ans
-# Source Revision: archive-sha256:3dd762b50e992d041fc40857f6a08666cf879c80169b27b714b162069a52b736
-# Source SHA-256: 9e37840f685d266e2590da0621fdc5f40d6b22a9e8354c6de9597c0f9c85ba63
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-238.ans by Retribution + Dv8 (black maiden.avenge?); released in bmbook19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: 23-8
-# SAUCE Author: dv8.retribution
-# SAUCE Group: black maiden.avenge?
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: 23-8 by Retribution + Dv8 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook19-us-238
 
 Write-Host '
 [36mdv8[0;1;37m [0;36m█▀[0;1;37m  [0;1;34m▄█▀▄███[0;1;34;44m▓▒░░  ░░░   ░[0;34m███ [0;1;34m▀█[0;1;34;44m██▄ [0;34m█▀[0;34;44m███[0;1;34;44m░░   ░▓████▒▒░[0;34m▄▀[0;34;44m█[0;1;34;44m░▓▓░[0;34;44m█[0;34;40m▀[0;34;44m██[0;1;34;44m░▓▓█[0;34m█[0;1;37m [0;36m▀█[0;1;37m [0;36mret[0m

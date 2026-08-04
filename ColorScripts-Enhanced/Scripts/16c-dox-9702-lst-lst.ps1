@@ -1,19 +1,4 @@
-﻿# Converted from: LST-LST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_9702/raw/LST-LST.ANS
-# Source Revision: archive-sha256:33822ef17727497e570bbe1fb936980d768f5ecb13f914599943b0c787232617
-# Source SHA-256: 1c94ed8ee7fe719fec9591713ffa719c892214a73e44f9b3f91042ec725f774f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LST-LST.ANS by soul trader (d0x!product); released in dox_9702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: hehe its lst!
-# SAUCE Author: soul trader
-# SAUCE Group: d0x!product
-# SAUCE Date: 19970130
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: yep this is the shit. opps. not shit shoot
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: hehe its lst! by soul trader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-9702-lst-lst
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: SMI-NRP2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-02/raw/SMI-NRP2.ANS
-# Source Revision: archive-sha256:3fd9f194d865cfc24c90bdf11a27528d8d82a8ba9c376ebed567183a2f95a9f3
-# Source SHA-256: 326fba9c5ffdc3aad02d661f65c28422f951b4d87f458be185bb8aecd1811ad9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMI-NRP2.ANS by samurai (nerp); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: nerp!
-# SAUCE Author: samurai
-# SAUCE Group: nerp
-# SAUCE Date: 19971104
-# SAUCE Dimensions: 80x25
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: nerp! by samurai | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-02-smi-nrp2
 
 Write-Host '
 

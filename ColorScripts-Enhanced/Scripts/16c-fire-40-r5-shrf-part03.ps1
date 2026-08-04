@@ -1,18 +1,4 @@
-﻿# Converted from: R5-SHRF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-40/raw/R5-SHRF.ANS
-# Source Revision: archive-sha256:aff8105c0a955ac5c43ea367a02b086cd2849f6741fc41b8a5ff440b77e104a7
-# Source SHA-256: 71af4ce2574f1ca11c353bba14ca64d259ecba72bc5857220e8eaa57e3371edb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: R5-SHRF.ANS by resetsurvivor (fire-40); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fire 40 -- blink experiment
-# SAUCE Author: resetsurvivor
-# SAUCE Date: 20240707
-# SAUCE Dimensions: 80x166
-# SAUCE Font: IBM VGA
-# Lines: 101-141
-# Columns: 1-80
+﻿# Artwork: fire 40 -- blink experiment by resetsurvivor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-40-r5-shrf-part03
 
 Write-Host '
 [31m  ▄▄▄▄▄ ▐██  ▄▄▄▄▄▄▄▄███ ▄▌ ▄█▄[0;1;31;41m▐[0;1;31;40m█████▌▐ [0;1;33;40m▄▄▄▄██▌▐[0m                              [1;30mr5[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: KU-AW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cnc-0894/raw/KU-AW.ANS
-# Source Revision: archive-sha256:1b41953359b4903075cddee4a19558a01788588c83e4b31f35133aa0fc5529ef
-# Source SHA-256: 75999fba33a89084fe89659247daecbfbd7b3ea51d9ec3a0a995fa028a12ca36
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KU-AW.ANS by Kung Lao (cnc-0894); released in cnc-0894 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 146-192
-# Columns: 1-80
+﻿# Artwork: KU-AW.ANS by Kung Lao | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cnc-0894-ku-aw-part04
 
 Write-Host '
                [1;37;47m░░░░[0;1;37;40m████[0;1;37;47m▓[0;1;37;40m█[0m

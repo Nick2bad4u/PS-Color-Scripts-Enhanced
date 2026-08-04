@@ -1,15 +1,4 @@
-﻿# Converted from: CP-TEMP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jive1196/raw/CP-TEMP.ANS
-# Source Revision: archive-sha256:74e1c77b15f9f77c425b7a6f94db1ea196521e43a60a356b13371fec7928ab41
-# Source SHA-256: 17e02f6d9f717eed34a41de871617e868dde0022dd259eb2258cbd697a327c41
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CP-TEMP.ANS by Chaotic Prisoner (jive1196); released in jive1196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Empire
-# SAUCE Author: Chaotic Prisoner
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: The Empire by Chaotic Prisoner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jive1196-cp-temp
 
 Write-Host '
                        [32m    [0;36m [0;32m  [0m      [36m          [0m

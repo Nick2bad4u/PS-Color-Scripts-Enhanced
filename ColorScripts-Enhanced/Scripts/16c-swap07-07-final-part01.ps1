@@ -1,13 +1,4 @@
-﻿# Converted from: 07-FINAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/swap07/raw/07-FINAL.ANS
-# Source Revision: archive-sha256:f30ae5dad366da484dcb0ff0cc7cb06689f4df59bb812164e6e30fcbf5f5cf09
-# Source SHA-256: 04a81c7c7d27754a82b9101953fd8de01af4c0fc72856c7e115d314946da681f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 07-FINAL.ANS by Black Viper + Nail + Illusion X + Corinthian + Stone The Crow + Epoxy + Pzyko + Mel Farr Suppastar (swap07); released in swap07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: 07-FINAL.ANS by Black Viper + Nail + Illusion X + Corinthian + Stone The Crow + Epoxy + Pzyko + Mel Farr Suppastar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-swap07-07-final-part01
 
 Write-Host '
                                  [1;30m░[0m  [1;30m░░[0m [1;30m░[0m  [1;30m░[0m  [1;30m░[0m   [1;30m▄ ▒░[0m                  [1;30m░▒ ▄ [0m

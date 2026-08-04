@@ -1,18 +1,4 @@
-﻿# Converted from: DB-SYONE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0195/raw/DB-SYONE.ANS
-# Source Revision: archive-sha256:874f19df1d2975eb4a251b4e9722be66f88a94e2778db4593e3b6fbe57329d35
-# Source SHA-256: c9fa8bd0b59bb5b250c2a07641cdc763ab5d9ccdd569e4443ed87e42a5c24f2b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DB-SYONE.ANS by D-Vibe (Union); released in uni-0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: System One
-# SAUCE Author: D-Vibe
-# SAUCE Group: Union
-# SAUCE Date: 19950101
-# SAUCE Dimensions: 80x25
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: System One by D-Vibe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0195-db-syone-part01
 
 Write-Host '
                                                                        [1;30m▌[0m

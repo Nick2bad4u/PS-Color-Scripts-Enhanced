@@ -1,18 +1,4 @@
-﻿# Converted from: GYP-INF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0497/raw/GYP-INF.ANS
-# Source Revision: archive-sha256:0a24528ad1b8350dc6275ed84884990aa181682392c532082994d5872ceb5801
-# Source SHA-256: da20eab3627874c3c24663a85bc744e61689db27456663014a20e1af0c924783
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GYP-INF.ANS by Gypsy (Fusion); released in fsn-0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Infliction
-# SAUCE Author: Gypsy
-# SAUCE Group: Fusion
-# SAUCE Date: 19970331
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Infliction by Gypsy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0497-gyp-inf
 
 Write-Host '
              [31m▄[0m

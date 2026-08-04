@@ -1,17 +1,4 @@
-﻿# Converted from: RS-EPID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9709/raw/RS-EPID.ANS
-# Source Revision: archive-sha256:a8c36d8798287a241d2dd7ef1ff5dc55fddff796595a296c3f5aa388a9423ee9
-# Source SHA-256: 0e0dae1db54a74482eefa3b46d148a4276471d7963d6b7f9bad392c9b63b1acd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-EPID.ANS by rorshack (Maiden Brazil); released in mdn-9709 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: epidemic warez ansi
-# SAUCE Author: rorshack
-# SAUCE Group: Maiden Brazil
-# SAUCE Dimensions: 80x25
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: epidemic warez ansi by rorshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9709-rs-epid
 
 Write-Host '
                             [1m ░[0m

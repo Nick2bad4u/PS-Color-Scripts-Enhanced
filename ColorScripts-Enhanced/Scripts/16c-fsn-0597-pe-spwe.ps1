@@ -1,13 +1,4 @@
-﻿# Converted from: PE!SPWE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0597/raw/PE!SPWE.ANS
-# Source Revision: archive-sha256:100499c687593fd78c29adf06f5899e8c0d61223958e380a9c31aadb955ab06d
-# Source SHA-256: f4ba96e7c7b21127b35b61b32213e5aba0724567c9b706cbba2f32ec01c227b8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PE!SPWE.ANS by Phonyeye (fsn-0597); released in fsn-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: PE!SPWE.ANS by Phonyeye | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0597-pe-spwe
 
 Write-Host '
 ░[30;47m▓[0m                                                                          [33;40m░[0;30;43m▓[0;33;40m [0m

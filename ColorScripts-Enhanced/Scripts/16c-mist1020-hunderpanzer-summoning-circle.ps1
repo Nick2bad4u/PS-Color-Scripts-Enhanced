@@ -1,19 +1,4 @@
-﻿# Converted from: HUNDERPANZER-SUMMONING_CIRCLE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1020/raw/HUNDERPANZER-SUMMONING_CIRCLE.ANS
-# Source Revision: archive-sha256:002d1e6a310e7d44ac0c83b76a32cb8484c5350a51887c3a545a324c921a8091
-# Source SHA-256: d31c9e20aa761d6e52e7093628017fa67e3119a1c743c2d097c786a615169c02
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HUNDERPANZER-SUMMONING_CIRCLE.ANS by Hunderpanzer (Mistigris); released in mist1020 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Summoning Circle
-# SAUCE Author: Hunderpanzer
-# SAUCE Group: Mistigris
-# SAUCE Date: 20201019
-# SAUCE Dimensions: 80x30
-# SAUCE Font: IBM VGA
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: Summoning Circle by Hunderpanzer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1020-hunderpanzer-summoning-circle
 
 Write-Host '
                                               [31m▀[0m

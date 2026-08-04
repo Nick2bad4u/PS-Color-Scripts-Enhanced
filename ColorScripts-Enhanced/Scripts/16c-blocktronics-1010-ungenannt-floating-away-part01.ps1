@@ -1,13 +1,4 @@
-﻿# Converted from: ungenannt_floating away.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_1010/raw/ungenannt_floating%20away.ans
-# Source Revision: archive-sha256:a99bb1826c554acf497ca2f3d3a318938bda45de706ac9decf9ca308162d3ee1
-# Source SHA-256: 7b731d8998527c545bbd009126734bbf531bbd072892290c21f030bccc136832
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ungenannt_floating away.ans by Ungenannt (blocktronics_1010); released in blocktronics_1010 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: ungenannt_floating away.ans by Ungenannt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-1010-ungenannt-floating-away-part01
 
 Write-Host '
 [1;34;40m████████████████████[0;1;34;44m▓▓▓▓▓▓▓[0;1;34;40m█████████████████████████████████████████████████████[0m

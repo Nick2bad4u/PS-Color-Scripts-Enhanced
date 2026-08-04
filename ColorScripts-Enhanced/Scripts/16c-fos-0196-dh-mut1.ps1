@@ -1,13 +1,4 @@
-﻿# Converted from: DH-MUT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fos-0196/raw/DH-MUT1.ANS
-# Source Revision: archive-sha256:7b35e2d1b77f64a0bb3f52fe512c20b089b55cb938c04933966099eeada5d6ff
-# Source SHA-256: 07172e0ce327c6a8cd967633a3d825bc69e9a65beaf233f4049a16c03853b256
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DH-MUT1.ANS by Dark Horizon (fos-0196); released in fos-0196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: DH-MUT1.ANS by Dark Horizon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fos-0196-dh-mut1
 
 Write-Host '
 [36m████████████████████████████████████████████████████████████████████████████████[0m

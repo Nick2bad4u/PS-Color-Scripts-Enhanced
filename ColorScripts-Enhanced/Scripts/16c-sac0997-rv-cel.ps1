@@ -1,13 +1,4 @@
-﻿# Converted from: RV-CEL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0997/raw/RV-CEL.ANS
-# Source Revision: archive-sha256:da5320832895c3901d4f15edb6d72c8cae3759c8058411ecb6a63c5962f374c9
-# Source SHA-256: 5fbdda8187f99222d4067a1084e6d6a97e2ce5f0add1ea7069d6b19b8f15dfd4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RV-CEL.ANS by Rave (sac0997); released in sac0997 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: RV-CEL.ANS by Rave | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0997-rv-cel
 
 Write-Host '
                         ▀        ▀

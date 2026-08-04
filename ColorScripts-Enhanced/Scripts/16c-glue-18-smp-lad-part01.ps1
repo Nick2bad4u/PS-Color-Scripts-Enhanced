@@ -1,13 +1,4 @@
-﻿# Converted from: SMP-LAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-18/raw/SMP-LAD.ANS
-# Source Revision: archive-sha256:0bc0a975c4de127fd6305114a49451275a1959513e343ea7612d70fa62951816
-# Source SHA-256: 9fc035a5fa1f691584857c8fb5d1dc82f5d72f8d5c97d030f5889de262d62e80
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMP-LAD.ANS by Shrimp (glue-18); released in glue-18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: SMP-LAD.ANS by Shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-18-smp-lad-part01
 
 Write-Host '
 [1;30msmp[0m  [34m▄▄▄▄░▄▄[0;37m [0;33m▄[0m        [31m░[0;37m [0;31m▄[0;1;31;41m░▒▒[0;31m▄▄[0;1;31m▀▀▀█▄[0;33m▀[0;1;31;43m░[0;33m█▀[0;1;31m▄█▀[0;33m▀▀[0;31m▄▄[0;1;31;41m░▒▒[0;31m▄[0m        [37mHEY THIS IS LOCH-NES [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: US-DH01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-05/raw/US-DH01.ANS
-# Source Revision: archive-sha256:c84fdc261f7fd501a311025e55fa5ba4ffaded89b8d307d907b0105e1d45695f
-# Source SHA-256: df06dc5bec8c1e867535e0002ba4583b8d14cdd11cb7edc1dfb115556c225511
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-DH01.ANS by Grymmjack + Mr Wrong (The Used Coalition); released in used-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Dark Horizons
-# SAUCE Author: Multiple Artists
-# SAUCE Group: The Used Coalition
-# SAUCE Date: 20000521
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Dark Horizons by Grymmjack + Mr Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-05-us-dh01
 
 Write-Host '
           [1;30m▄[0m       [1;30m▄[0m [1;30m▀[0m                       [36m▄[0m      [1;30m▄[0m          [1;30m▀[0m [1;30m▄[0m      [1;30m▄[0m

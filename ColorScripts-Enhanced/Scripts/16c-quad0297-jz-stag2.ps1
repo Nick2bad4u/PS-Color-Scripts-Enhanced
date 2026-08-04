@@ -1,18 +1,4 @@
-﻿# Converted from: JZ-STAG2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad0297/raw/JZ-STAG2.ANS
-# Source Revision: archive-sha256:7e8725f9cb41998c7aef740f7948f696079385bf60fa21ec4efc585f384d95ce
-# Source SHA-256: ded507813bbafd32c4cdd414a15377753fd4fc554a5e1891f9549deb53c81f22
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JZ-STAG2.ANS by jaz (quad-p); released in quad0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: stage door
-# SAUCE Author: jaz
-# SAUCE Group: quad-p
-# SAUCE Date: 19961115
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: stage door by jaz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad0297-jz-stag2
 
 Write-Host '
 

@@ -1,13 +1,4 @@
-﻿# Converted from: US-MORAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe06/raw/US-MORAL.ANS
-# Source Revision: archive-sha256:5c196d62748f8a4bdb63c997fd54d96908851bda90b736210110cebfc6625fb9
-# Source SHA-256: 79fa8c69c8f59a32623c532ea05033ff1d95d25b41f39d4610cf9b6357112dec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-MORAL.ANS by Arlequin + Diamond Darrell (circe06); released in circe06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: US-MORAL.ANS by Arlequin + Diamond Darrell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe06-us-moral
 
 Write-Host '
 [1;34;46m  ▓▓[0;1;34;40m▓[0;34m▀[0;1;35m [0;35m▄▄[0;1;35m▀▒▒▒▓▓▓[0;1;35;45m█[0;1;35;47m▀▀▓[0;1;35;40m█▓▀▀[0;35m▀▀[0;1;35m [0;1;33m▄▐▓▓█▀[0;1;33;47m▄[0;1;33;40m▄[0m▒░[33m▄[0;1;31m▒▒▒[0;33m█[0;30;43m░░░[0;33;40m██▌[0;35;40m▐██[0;1;35;40m▒▒[0;35m▀███ [0;34m▀▀▀▀▀▀▀▀▀▀▀ ▀   ▀     [0m

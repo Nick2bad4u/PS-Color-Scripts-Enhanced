@@ -1,18 +1,4 @@
-﻿# Converted from: WM-1B67.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca-9606/raw/WM-1B67.ANS
-# Source Revision: archive-sha256:17184d9de795da70887ff99b1b153045f02122654d7b09784879392fd0a552da
-# Source SHA-256: ecc7cea93e18fab0d4d265590ceeca4fcc704b5e4f2fb3e75f5b6dbf165dae97
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WM-1B67.ANS by Watermelon (R.C.A.); released in rca-9606 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Site 1B67
-# SAUCE Author: Watermelon
-# SAUCE Group: R.C.A.
-# SAUCE Date: 19960519
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Site 1B67 by Watermelon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca-9606-wm-1b67
 
 Write-Host '
 [34m╓────────────────────┬─────────────────────────────────────────────────────────╖[0m

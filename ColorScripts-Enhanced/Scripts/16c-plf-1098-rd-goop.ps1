@@ -1,18 +1,4 @@
-﻿# Converted from: RD-GOOP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-1098/raw/RD-GOOP.ANS
-# Source Revision: archive-sha256:c4e49f581efdb23757cb4cd22ca84401fcd6ac0febdad687007b0b36de54547a
-# Source SHA-256: e81e35f34742495ace12740a5357bd21ee58a1dfd8700cb1b778562090297326
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RD-GOOP.ANS by raider den store (sv?l); released in plf-1098 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: tlaz r?f poog
-# SAUCE Author: raider den store
-# SAUCE Group: sv?l
-# SAUCE Date: 19980809
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: tlaz r?f poog by raider den store | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-1098-rd-goop
 
 Write-Host '
  nevär elmag ned ,tlaz llit[1;30m-─-─────────-────────────────-─-─-──-───────--────[0m-

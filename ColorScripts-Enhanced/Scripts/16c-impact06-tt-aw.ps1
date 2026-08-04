@@ -1,18 +1,4 @@
-﻿# Converted from: TT-AW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impact06/raw/TT-AW.ANS
-# Source Revision: archive-sha256:ef18622c9c66dd847bb2cc457197b6f4440a43602cfe6adb3f0cc31807a0f445
-# Source SHA-256: 0ef298dcc305084e75bd2965a4d10a4643bbdd9a9a9ee463518c7628b7d6d491
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TT-AW.ANS by the thrasher (impact); released in impact06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: alien workshop
-# SAUCE Author: the thrasher
-# SAUCE Group: impact
-# SAUCE Date: 19970114
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: alien workshop by the thrasher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impact06-tt-aw
 
 Write-Host '
                      [1m          [0m    [1m▄▄███▄▄[0m

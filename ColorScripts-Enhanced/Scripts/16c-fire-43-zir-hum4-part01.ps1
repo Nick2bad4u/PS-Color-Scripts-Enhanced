@@ -1,20 +1,4 @@
-﻿# Converted from: ZIR-HUM4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-43/raw/ZIR-HUM4.ANS
-# Source Revision: archive-sha256:d3967e67800d0c773a52f120751caeb2bc01ead5180b478fb0a0e89978edc4ec
-# Source SHA-256: 7776487a642a5d77ddec2369b2977f0aaae34b7137f9c11c9f592acaedebc8b5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-HUM4.ANS by zir (FiRE); released in fire-43 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: human apostrophe
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20250707
-# SAUCE Dimensions: 80x81
-# SAUCE Font: IBM VGA
-# SAUCE Comments: i don't really mean it, unless of course i do.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: human apostrophe by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-43-zir-hum4-part01
 
 Write-Host '
                                          [1;30;40m░░[0m [1;30m▀▌[0m▀[1;30m▐█▀▄[0m ▄▀[1;33;47m░[0;1;37;40m▀[0m▐[1;33;47m·[0m▀▄▄▀[1;33;47m░[0m▌  [1;30m▀▌▄▀[0;1;30;47m▓[0;1;30;40m▄[0m [1;30m▀▌▐█▀[0m

@@ -1,20 +1,4 @@
-﻿# Converted from: ZIR-SPLT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-40/raw/ZIR-SPLT.ANS
-# Source Revision: archive-sha256:aff8105c0a955ac5c43ea367a02b086cd2849f6741fc41b8a5ff440b77e104a7
-# Source SHA-256: 875108e7059bbc2bd706a1a40320c44de2d3796160dad2ae3425931778c2d8f8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-SPLT.ANS by zir (FiRE); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: splatter.haus:666
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20240707
-# SAUCE Dimensions: 80x28
-# SAUCE Font: IBM VGA
-# SAUCE Comments: SPLAT!!!!!!!!!!!!
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: splatter.haus:666 by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-40-zir-splt
 
 Write-Host '
                      [1;30;40m░▓▓[0;1;30;47m▀[0;1;30;40m▓[0m                   [1;30m░░[0;1;30;47m▓[0;1;33;47m░[0;1;37;47m▒[0;1;30;40m▓[0m   [1;30m▐[0;1;30;47m▀▐[0m           [1;30m▄▄░[0m

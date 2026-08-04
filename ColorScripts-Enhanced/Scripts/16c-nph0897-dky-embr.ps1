@@ -1,18 +1,4 @@
-﻿# Converted from: DKY-EMBR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph0897/raw/DKY-EMBR.ANS
-# Source Revision: archive-sha256:3814486a94ec4aaadfe2d1cd2baab60cc94248206ac9cb229e7270a0d2a533fc
-# Source SHA-256: e7942501bcc7856de2eb7b28d176e222e59641fc3677bd5b3485696d673cd80c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DKY-EMBR.ANS by .:(darky'):. (.:(nitrophusion):.); released in nph0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: .:(promotional pic for kromozome):.
-# SAUCE Author: .:(darky'):.
-# SAUCE Group: .:(nitrophusion):.
-# SAUCE Date: 19970731
-# SAUCE Dimensions: 80x25
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: .:(promotional pic for kromozome):. by .:(darky'):. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph0897-dky-embr
 
 Write-Host '
               [34m▄▄▄▄▄▄▄▄▄▄█▓▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▄▄▄▄▄▄▄▄▄▄[0m

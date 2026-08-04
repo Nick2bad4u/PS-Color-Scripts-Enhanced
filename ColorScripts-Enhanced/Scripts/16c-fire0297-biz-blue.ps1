@@ -1,18 +1,4 @@
-﻿# Converted from: BIZ-BLUE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0297/raw/BIZ-BLUE.ANS
-# Source Revision: archive-sha256:12d66e55bc50470ef328e6f9ec21c65dbe558f61a1cf46f5aac359e3cb051dfe
-# Source SHA-256: 95371beb8fb025e69e0fa542f77eec7f8661867c37b5d0db361bc782d419e301
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BIZ-BLUE.ANS by Bisounours (Fire); released in fire0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: untitled.
-# SAUCE Author: Bisounours
-# SAUCE Group: Fire
-# SAUCE Date: 19970129
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: untitled. by Bisounours | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0297-biz-blue
 
 Write-Host '
 [1m██▓▓████ ▐██████▀▀  ██ [0;1;31m████▓▌ ▐███[0;36m [0;1;31m▐██▌[0;1;33m [0;1;31m██▓ ▐███▀[0;1;37m ▄▄██▓▀[0;33m▄[0;30;43m░[0;33;40m▓██████████████[0;1;37;40m ▓██ [0;33m [0m

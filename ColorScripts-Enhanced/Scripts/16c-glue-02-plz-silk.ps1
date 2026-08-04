@@ -1,18 +1,4 @@
-﻿# Converted from: PLZ-SILK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-02/raw/PLZ-SILK.ANS
-# Source Revision: archive-sha256:39d2334584977ac14b33f06b2f4e2bf93d1902538006b996fc8bb6135cc5d15c
-# Source SHA-256: bce073e0b4513a0e1b74fc5743f07d3eb1a75e6f6fbb6ede9393107a5b2ab330
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PLZ-SILK.ANS by plazz (glue); released in glue-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: art for catch22's board
-# SAUCE Author: plazz
-# SAUCE Group: glue
-# SAUCE Date: 19970828
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: art for catch22's board by plazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-02-plz-silk
 
 Write-Host '
                                                         [1;31m [0m

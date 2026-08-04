@@ -1,18 +1,4 @@
-﻿# Converted from: MB-VOS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/legend02/raw/MB-VOS.ANS
-# Source Revision: archive-sha256:3d09510951d722882aec8ec217ff2dbc35e0c5252f8e5685b8b241b7e7a6d9ce
-# Source SHA-256: b78b0ea64d2f0499b546d4e14918fa7a11330975c14615c761914eb331377ebf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MB-VOS.ANS by Morbius (Legend); released in legend02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Visions Of Sacrifice
-# SAUCE Author: Morbius
-# SAUCE Group: Legend
-# SAUCE Date: 19950903
-# SAUCE Dimensions: 80x101
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Visions Of Sacrifice by Morbius | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-legend02-mb-vos-part01
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: TSK-CUR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0902/raw/TSK-CUR1.ANS
-# Source Revision: archive-sha256:8537b7dfc4e56bfe671cea284194fa6f621bcce1f2fa291a7ed7a56a5e107081
-# Source SHA-256: 2d3eb17f22c8d5f4aefb86cb228a169029bf9ded33e0475403fa4b1b66d30f0a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-CUR1.ANS by The Silent Killer (Revival); released in rev0902 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Curatem
-# SAUCE Author: The Silent Killer
-# SAUCE Group: Revival
-# SAUCE Date: 20020915
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Curatem by The Silent Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0902-tsk-cur1
 
 Write-Host '
 

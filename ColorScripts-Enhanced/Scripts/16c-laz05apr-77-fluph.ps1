@@ -1,18 +1,4 @@
-﻿# Converted from: 77-FLUPH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz05apr/raw/77-FLUPH.ANS
-# Source Revision: archive-sha256:1015a880c3c2e42953df14381eb6ae6e6ec0326b482ac0273175f6e6e7073aa4
-# Source SHA-256: 526c04da727f837e6735e5e6d155e702ccb6dc6e02ba9e8193b073a764514ed1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 77-FLUPH.ANS by LUKAS-DOGG (LAZARUSBOBAZARUS); released in laz05apr and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: FLUPH
-# SAUCE Author: LUKAS-DOGG
-# SAUCE Group: LAZARUSBOBAZARUS
-# SAUCE Date: 19970210
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: FLUPH by LUKAS-DOGG | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz05apr-77-fluph
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: KO-RVL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rvl-0396/raw/KO-RVL1.ANS
-# Source Revision: archive-sha256:6ba51b3d0dc168dac68fc2016875b770d4335425f90ca1ed6abc12b1946ac90a
-# Source SHA-256: d32270569218693116a86eff718ca8acd3a1e181deee38f8599a3433ce84f98b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KO-RVL1.ANS by K-os (RiVAL); released in rvl-0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Rival logo
-# SAUCE Author: K-os
-# SAUCE Group: RiVAL
-# SAUCE Date: 19960312
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Rival logo by K-os | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rvl-0396-ko-rvl1
 
 Write-Host '
                                          [33m    [0;37m                        [0;32m  [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: BD-ECL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0996/raw/BD-ECL1.ANS
-# Source Revision: archive-sha256:28df6d6ebb426351f7b23fe6f583a998e03c4447a46d1ae63d7f7aa63a80eb5d
-# Source SHA-256: e5ca0e6bde73b261f357f92ddb54e6882844437db3cf77bac36067472645cede
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BD-ECL1.ANS by b0ld (eclipse); released in acdu0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: eclipse
-# SAUCE Author: b0ld
-# SAUCE Group: eclipse
-# SAUCE Date: 19960825
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: eclipse by b0ld | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0996-bd-ecl1
 
 Write-Host '
 

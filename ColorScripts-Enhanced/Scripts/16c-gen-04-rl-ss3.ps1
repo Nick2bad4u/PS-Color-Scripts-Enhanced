@@ -1,13 +1,4 @@
-﻿# Converted from: rl-ss3.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gen-04/raw/rl-ss3.ans
-# Source Revision: archive-sha256:e213093116f6e1ab2eaa1e638df21b95956d50ac9a8ac57c3b8a10a54175dc97
-# Source SHA-256: 552395f7ec57328827c086796fcb473334b6ee0dd26964598005e285009e8982
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: rl-ss3.ans by Rawlock (gen-04); released in gen-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: rl-ss3.ans by Rawlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gen-04-rl-ss3
 
 Write-Host '
 [37m [0m

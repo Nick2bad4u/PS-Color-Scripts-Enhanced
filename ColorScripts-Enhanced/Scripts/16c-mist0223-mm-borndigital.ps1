@@ -1,19 +1,4 @@
-﻿# Converted from: MM-BORNDIGITAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0223/raw/MM-BORNDIGITAL.ANS
-# Source Revision: archive-sha256:f6abf3bbd53eb017898fa84b28d2ac43fcb70297788ba675e470ca73794cbbfd
-# Source SHA-256: 32d256c8b4de7510749b35b36f63b2bd283fb5e0232defa9f03f5bbfdb8144b4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-BORNDIGITAL.ANS by Mavenmob (Mistigris); released in mist0223 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Born Digital
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20230221
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Born Digital by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0223-mm-borndigital
 
 Write-Host '
 [30m│[0;37m [0;36m$##[0;37m     [0;1;30m0[0m░░[1;30m▀│[0m  [1;30m│[0m     [1;33m#▄[0;1;32m▄▀[0m   [1;32m▄▀[0;1;30m█0[0m  [1;32m▄▄▄[0m   [32m▄[0;1;32m▀[0m [36m#$$s*[0;37m    [0;1;30m▄▄▄[0;1;32m█[0;1;30m█[0m  [1;30m1[0m    [1;33m█#[0;36m##[0;1;32m▄▀[0;1;30m▄█▄[0;1;32m█[0;1;30m█[0m

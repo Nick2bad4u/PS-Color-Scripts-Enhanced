@@ -1,18 +1,4 @@
-﻿# Converted from: BIZ-GOOP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-1098/raw/BIZ-GOOP.ANS
-# Source Revision: archive-sha256:c4e49f581efdb23757cb4cd22ca84401fcd6ac0febdad687007b0b36de54547a
-# Source SHA-256: 046124007d5199af23f4b8f09d3a867b6ccd5deaacc4cb0c554164218e690a35
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BIZ-GOOP.ANS by bizzarro (guesting); released in plf-1098 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: gOOpface
-# SAUCE Author: bizzarro
-# SAUCE Group: guesting
-# SAUCE Date: 19980825
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: gOOpface by bizzarro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-1098-biz-goop
 
 Write-Host '
            [1;30m▄[0m▄▄▄▄ [1m░░[0m▄▄▄[1;47m▄▄[0m█▀[1;30m▀[0m ▄▄[1;30m▄[0m                              [1;30m     [0m

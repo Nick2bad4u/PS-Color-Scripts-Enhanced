@@ -1,19 +1,4 @@
-﻿# Converted from: ZY-RUINS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0223/raw/ZY-RUINS.ANS
-# Source Revision: archive-sha256:f6abf3bbd53eb017898fa84b28d2ac43fcb70297788ba675e470ca73794cbbfd
-# Source SHA-256: b570e81ed393044b61674cd2757acdc7d5d80a568b760ad9a81991edc1d56537
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZY-RUINS.ANS by Zylone (Mistigris); released in mist0223 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the Ruins
-# SAUCE Author: Zylone
-# SAUCE Group: Mistigris
-# SAUCE Date: 20230227
-# SAUCE Dimensions: 80x16
-# SAUCE Font: IBM VGA
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: the Ruins by Zylone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0223-zy-ruins
 
 Write-Host '
 [31m       [0;1;32;42m▄▄▄▒▀[0;32m▀▀[0;1;32;42m▀▒▄▄[0;32m▄[0;37m   [0;1;32;42m▄▄▄▒▀[0m    [1;32;42m▄▄▄▒▀[0m [1;32;42m▄▄▄▒▀[0m [1;32;42m▄▄▄▒▀[0;32m▀▀[0;1;32;42m▀▒▄▄[0;32m▄[0;37m   [0;1;32;42m▄▄▄▒▀[0;32m▀▀[0;1;32;42m▀▒▄▄[0;32m▄[0m

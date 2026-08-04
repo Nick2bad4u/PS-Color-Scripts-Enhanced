@@ -1,18 +1,4 @@
-﻿# Converted from: IF-HLPB2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fog01/raw/IF-HLPB2.ANS
-# Source Revision: archive-sha256:ff23beaaf7c5e678ddfe7245e38bf57fb73116ac88a53b810956f932c8c2da44
-# Source SHA-256: 7416aa35ad648ee01c5cb8f8cb53938bb8540779d7ac5ec15dbdbd772ef99575
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IF-HLPB2.ANS by infernal flames (finish of godz); released in fog01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: horny little piggy bank
-# SAUCE Author: infernal flames
-# SAUCE Group: finish of godz
-# SAUCE Date: 19950704
-# SAUCE Dimensions: 80x47
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: horny little piggy bank by infernal flames | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fog01-if-hlpb2
 
 Write-Host '
 [31;40m    [0m         [1;30;40m▄[0m   [1;30;40m▐[0m    [1;30;40m▐[0m    [1;30;40m█[0m    [1;30;40m█[0m   [1;30;40m█  [0m [1;30;40m▄[0m [1;30;40m  [0m

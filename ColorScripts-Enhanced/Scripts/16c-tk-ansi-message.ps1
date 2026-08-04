@@ -1,18 +1,4 @@
-﻿# Converted from: MESSAGE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tk-ansi/raw/MESSAGE.ANS
-# Source Revision: archive-sha256:7a6e15a450305cb977de0a4eb06cf4ca525baa4933c9f7af1cf6080dced8bf2d
-# Source SHA-256: 1be1dc8d409eef33691d064aa4d8497bfdfebbfebf26994675fe0284a237743c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MESSAGE.ANS by Tank (ACiD Productions); released in tk-ansi and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Electric Commune BBS Msg Center
-# SAUCE Author: Tank
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19920331
-# SAUCE Dimensions: 80x19
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Electric Commune BBS Msg Center by Tank | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tk-ansi-message
 
 Write-Host '
           [34m▄[0m                 [34m▄[0m   [34m▄[0;1;34;44m▄[0;34m▄[0m [34m▄[0m     [34m▄[0;1;34;44m▄[0;34m▄[0m   [34m▄[0m                        [34m▄[0;1;34;44m▄[0;34m▄[0m

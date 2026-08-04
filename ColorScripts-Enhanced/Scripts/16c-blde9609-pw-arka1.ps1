@@ -1,18 +1,4 @@
-﻿# Converted from: PW-ARKA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9609/raw/PW-ARKA1.ANS
-# Source Revision: archive-sha256:ebbff7e3049916d809d893ea2aa04734229c43fb86ad9d17682073c079d4ff3a
-# Source SHA-256: b2a437e6e52ac50053b7c8e587188f3b01793d119df7ba2954ea0cfafc10db52
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PW-ARKA1.ANS by pennywise (blade); released in blde9609 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: arkham asylum
-# SAUCE Author: pennywise
-# SAUCE Group: blade
-# SAUCE Date: 19960814
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: arkham asylum by pennywise | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9609-pw-arka1
 
 Write-Host '
 

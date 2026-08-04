@@ -1,20 +1,4 @@
-﻿# Converted from: wa-sauna.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna01/raw/wa-sauna.ans
-# Source Revision: archive-sha256:70f712dbf565de1ceb0f2b7020b54aa443621235a47b082b92e24e13342b0672
-# Source SHA-256: ab72846015e91bf29f5bee491f95ba8c1e61adbc652a0cd890514afdecb65426
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wa-sauna.ans by warpus (FUEL); released in thesauna01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: SAUNA
-# SAUCE Author: warpus
-# SAUCE Group: FUEL
-# SAUCE Date: 20190831
-# SAUCE Dimensions: 80x227
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Towels for all
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: SAUNA by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna01-wa-sauna-part01
 
 Write-Host '
 [37;40m  [0;30;40m███████████████[0m               [30;40m████████████████[0m

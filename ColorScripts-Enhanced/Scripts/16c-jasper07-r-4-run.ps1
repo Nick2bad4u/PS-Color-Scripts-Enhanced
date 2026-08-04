@@ -1,18 +1,4 @@
-﻿# Converted from: R&4-RUN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper07/raw/R%264-RUN.ANS
-# Source Revision: archive-sha256:c42bfa4438f002452f1a6bc8caf7f32e2e6bfd8fffb358dd625c49ecd6cf6820
-# Source SHA-256: 70a0a0e7fa2a18ea79930df20a64eff82896b508bd54531539eaec3abe58d955
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: R&4-RUN.ANS by Rebal + Aesthetic (jasper); released in jasper07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: run away
-# SAUCE Author: rebal/aesthetic
-# SAUCE Group: jasper
-# SAUCE Date: 20020628
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: run away by Rebal + Aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper07-r-4-run
 
 Write-Host '
                [31m....[0m          [31me[0m       [31mce[0m        [31mev[0m       [31me[0m

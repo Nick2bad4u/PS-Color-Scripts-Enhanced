@@ -1,18 +1,4 @@
-﻿# Converted from: 4THCOVER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-04/raw/4THCOVER.ANS
-# Source Revision: archive-sha256:1dcdf112160ec589150680778cd449e8af485dfba89bb104c44cd133db2d6fc0
-# Source SHA-256: 05d2d2b8004115cc4b6df80c73e77f6a4680f4c0d643e742cf6814c6b27b90fe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 4THCOVER.ANS by Spear + Zerovision (Used); released in used-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Cover Ansi
-# SAUCE Author: spear/zeroVision
-# SAUCE Group: Used
-# SAUCE Date: 20000404
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Cover Ansi by Spear + Zerovision | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-04-4thcover
 
 Write-Host '
   [34m  [0;37m [0;34mT H E [0;37m [0;34mU S E D  C O A L I T I O N[0;37m  [0;1;34;46m:[0;34m  T H E  F O U R T H  C U M I N G[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: MG-GP4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0895/raw/MG-GP4.ANS
-# Source Revision: archive-sha256:d7578eae73cd5d7b840a098302ec5eecc570498f801ff39620bcdfbd3bc36d42
-# Source SHA-256: 8fb38e023b3efe8ec4943cd37b4a197df29cafbda72fd60fa02f8c4d63459a9d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MG-GP4.ANS by Magnus (Union); released in uni-0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Gargoyle's Peak
-# SAUCE Author: Magnus
-# SAUCE Group: Union
-# SAUCE Date: 19950708
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Gargoyle's Peak by Magnus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0895-mg-gp4-part01
 
 Write-Host '
 [1;30m█▀[0;35m▀[0;1;30m▀▀[0;35m▀[0;1;31m▀[0;35m▀[0;1;30m▀[0;35m▀[0;1;31m▀[0;35m▀[0;1;31m▀▀[0;35m▀[0;1;30m▀[0;35m▀▀[0;1;31m▀▀[0;35m▀[0;1;30m▀[0;35m▀▀[0;1;30m▀▀[0;35m▀▀[0;1;30m▀▀[0;35m▀[0;1;30m▀▀[0;35m▀[0;1;30m▀▀▀▀█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m

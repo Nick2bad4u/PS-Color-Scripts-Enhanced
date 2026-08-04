@@ -1,20 +1,4 @@
-﻿# Converted from: goo-WMYBYM.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_yotb/raw/goo-WMYBYM.ans
-# Source Revision: archive-sha256:f702f09f6116b5ac6fa523d36f54d796db6f44f880e4f1cd426d29a9fbda605e
-# Source SHA-256: 7d2e8ccd8ab68423db3a61efba768e28c4f59e46832ff835062951dc54710dcb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: goo-WMYBYM.ans by mypalGOO (blocktronics); released in blocktronics_yotb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: we miss you BYM
-# SAUCE Author: mypalGOO
-# SAUCE Group: blocktronics
-# SAUCE Date: 20141225
-# SAUCE Dimensions: 80x271
-# SAUCE Font: IBM VGA
-# SAUCE Comments: FOR YOU BYM!
-# Lines: 47-91
-# Columns: 1-80
+﻿# Artwork: we miss you BYM by mypalGOO | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-yotb-goo-wmybym-part02
 
 Write-Host '
 [32m▀[0;1;35m░[0;32m▄▀[0;1;31m░[0;1;32m▄[0;1;32;42m▀[0;32m███████[0;1;32;42m▀[0;1;32;40m▄[0;1;31;40m░[0;32m▀▄[0;1;35m░[0;32m▀[0;1;35m░[0;32m▄▀[0;1;31m░[0;1;32m▄[0;1;32;42m▀[0;32m███████[0;1;32;42m▀[0;1;32;40m▄[0;1;31;40m░[0;32m▀▄[0;1;35m░[0;33m▄▄▄▄▄[0;1;31m▒[0;33m▄[0;1;31m▒[0;33m▄█▄[0;1;31m░[0;33m▀▄[0;1;31m░[0;1;33m▀[0;1;33;43m▄[0;33m█████[0;1;33;43m▄[0;1;33;40m▀[0;1;31;40m░[0;33m▄▀[0;1;31m░[0;33m▄█▄[0;1;31m▒[0;33m▄[0;1;31m▒[0;33m▄[0;1;31m▒[0;33m▄[0;1;31m▒[0;33m▄[0m

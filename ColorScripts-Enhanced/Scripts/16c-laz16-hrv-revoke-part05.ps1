@@ -1,20 +1,4 @@
-﻿# Converted from: HRV_REvoke.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz16/raw/HRV_REvoke.ans
-# Source Revision: archive-sha256:b093dd3cb06bf783d59a9df3724c51f9a41f686cd4fd545c920ada008d959f7a
-# Source SHA-256: da9ea768d9e4c47076fceedd4dd943df52abe7db8244c6045cf91cc389e9e1a8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HRV_REvoke.ans by harvest (Lazarus); released in laz16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: REvoke
-# SAUCE Author: harvest
-# SAUCE Group: Lazarus
-# SAUCE Date: 20230102
-# SAUCE Dimensions: 80x208
-# SAUCE Font: IBM VGA
-# SAUCE Comments: ANSIfied version of a pixel piece submitted in Evoke'22
-# Lines: 168-208
-# Columns: 1-80
+﻿# Artwork: REvoke by harvest | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz16-hrv-revoke-part05
 
 Write-Host '
 [37m [0;34m▀▀▄▄▄▀▀[0;37m    [0;1;31m▄ ▀[0;31m▄[0;34m▄▀▄▀░▓▓▒▒▒░[0;37m [0;1;34m█[0m   [34m▒▓█░░░░░░░░░░░▓▒[0;37m   [0;36;44m█[0;34;40m▒[0;1;34;44m░▒▒▒▓▓░▀▄▀[0m [31m▄[0;1;31m▀[0m [1;31m▄[0m    [34m▀▀▄▄▄▀▀[0m

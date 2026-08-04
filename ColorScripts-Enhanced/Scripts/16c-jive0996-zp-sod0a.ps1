@@ -1,15 +1,4 @@
-﻿# Converted from: ZP-SOD0A.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jive0996/raw/ZP-SOD0A.ANS
-# Source Revision: archive-sha256:6b7d48e396de55126b3ae9c64ca3a6e3836b2eee40f86ad76fd1706353435055
-# Source SHA-256: 07d7f5f8ccc6f40662708c60cf775b4fb45bb5969cf8279548df7453e8012c24
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZP-SOD0A.ANS by Zippy (jive0996); released in jive0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Sod userlist *I am co sysop again!*
-# SAUCE Author: Zippy
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Sod userlist *I am co sysop again!* by Zippy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jive0996-zp-sod0a
 
 Write-Host '
      [36m▄[0m                       [1;30m                   [0m                       [36m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: ZII-ITCM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0696/raw/ZII-ITCM.ANS
-# Source Revision: archive-sha256:1ba4c8d098d1b0f05665c254631c4d3b64f02872fa1b37e7519ce6b263840874
-# Source SHA-256: 5f49ba6f1adedea067f2aea4ee44225575496b339658c7deed5d4a1139107639
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-ITCM.ANS by Zeus II (Opium); released in opx-0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Matrix for ITC 2.00
-# SAUCE Author: Zeus II
-# SAUCE Group: Opium
-# SAUCE Date: 19960529
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Matrix for ITC 2.00 by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0696-zii-itcm
 
 Write-Host '
                  [34m▄█[0;1;34;44m░▒[0;1;34;40m▌[0;1;30;40m▄█[0;1;30;47m▓▓▒▒░░░[0m██▄[34m▀[0;1;34;44m░[0;1;34;40m▌[0;34m [0;1;34;44m▒[0;1;34;40m▀[0m▄███[1;30;47m [0m██[1;47m░▒▓▓██[0;1;40m▄[0;1;31;40m [0;34m  ▀█▄▄[0m

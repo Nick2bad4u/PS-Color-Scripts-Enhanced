@@ -1,19 +1,4 @@
-﻿# Converted from: LDA-APRIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0624/raw/LDA-APRIL.ANS
-# Source Revision: archive-sha256:7e2642f67629daefe8d04ebedd2e233be2e8a74b2dea50eb02da49be24298927
-# Source SHA-256: 4c7ed16e103ee311c4f87692b1e0e7b320d9c84d0787c1927a0a8c6af1e51090
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LDA-APRIL.ANS by LDA (Mistigris); released in mist0624 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: AdeptApril
-# SAUCE Author: LDA
-# SAUCE Group: Mistigris
-# SAUCE Date: 20240624
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: AdeptApril by LDA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0624-lda-april
 
 Write-Host '
 [1m████[0;1;42m▓▓▓▓▓██████[0;1;32;40m█[0;1;32;42m▓[0;1;32;45m■[0;35m██[0;1;32;45m▀[0;1;32;40m█[0;1;32;42m▀[0;32;45m▀[0;1;32;45m [0;35m█████████[0;1;32;45m▄[0;35m██[0;1;32;45m▄▄▄[0;35m█[0;32;45m■[0;35;40m███████████[0;30;45m ▄▄[0;35;40m████████████████████████[0m

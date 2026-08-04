@@ -1,18 +1,4 @@
-﻿# Converted from: dev-xlg2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flange01/raw/dev-xlg2.ans
-# Source Revision: archive-sha256:14aba7e5405b940f46aca460d899ba9dad4982ed94cb18dc30ab4dba5911d191
-# Source SHA-256: e357e0518e027c1109cf377939a1e84d9596111197b28a2f4026fa9b6313c39d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: dev-xlg2.ans by dev (flange); released in flange01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: smoking.doggy
-# SAUCE Author: dev
-# SAUCE Group: flange
-# SAUCE Date: 19971215
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: smoking.doggy by dev | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flange01-dev-xlg2
 
 Write-Host '
 [1;30m▓[0m▀▀▀▀▀▀▀▀[1;30m▀▀[0m▀▀▀[1;30m▀[0m▀[1;30m▀[0m▀▀▀▀▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;33m▀[0;1;30m▀[0;33m▀[0;1;30m▀[0;33m▀▀[0;1;30m▀▀[0;33m▀▀▀[0;1;30m▀▀[0;33m▀▀▀▀[0;1;30m▀[0;33m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓[0m

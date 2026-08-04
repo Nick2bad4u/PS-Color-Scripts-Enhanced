@@ -1,13 +1,4 @@
-﻿# Converted from: MC!D38B.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-10/raw/MC!D38B.ANS
-# Source Revision: archive-sha256:ba7c4a4551adb8285347fd98fdb9f0a91fe459313bdff549b9e589778adcfcfe
-# Source SHA-256: 96db0bf13d6c5fa123911611c7836d7180d42ad612ad55f02b366c9c899b8327
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MC!D38B.ANS by Madcap (d38-10); released in d38-10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: MC!D38B.ANS by Madcap | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-10-mc-d38b
 
 Write-Host '
 [1;33m [0;31m░▀▀[0;1;31m▀▀▀▀▀▀[0;31m▓█[0;1;31;41m▀[0;1;31;40m█[0;1;31;41m▀█▀[0;1;31;40m█▄▌██[0;1;31;43m▓▓[0;1;31;45m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;31;40m▐██████████████[0;31m▄[0;1;31;41m [0;31m█▄[0;1;31m███[0;31m▀█▀▀─ [0;1;30m▄[0;31m▄▄▄▄─[0m

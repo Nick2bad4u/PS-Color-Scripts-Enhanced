@@ -1,13 +1,4 @@
-﻿# Converted from: US-HUPS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge03/raw/US-HUPS1.ANS
-# Source Revision: archive-sha256:b53dd4509a562cc71a73a559baa7e13eeefa1cf193e827eee6178c14e3bd46f3
-# Source SHA-256: 5a31349df2ca98ea4e843048e0ea613e6bccfd700f2986e3239f1ea08b187ed7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-HUPS1.ANS by Sudden Death + Ball Tongue (avenge03); released in avenge03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: US-HUPS1.ANS by Sudden Death + Ball Tongue | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge03-us-hups1
 
 Write-Host '
 [30;47msd&bt(Avenge Cult)[0;37;40m█████[0;1;30;47m░░░░░░░░░░░▒▒▒▒▒▒[0;1;30;40m▀▀▀[0;1;37;40m [0;1;35;40m▄▀▀▄[0;35m▄▀▀▄▄[0;1;35;45m▓[0;1;35;40m█[0;1;35;45m▓[0;35m▄▀▀[0;1;35;45m▒▓[0;1;35;40m█████████▄[0;1;30;40m ▀██████[0m

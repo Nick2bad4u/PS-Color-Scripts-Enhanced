@@ -1,13 +1,4 @@
-﻿# Converted from: SRB-SCLR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-16/raw/SRB-SCLR.ANS
-# Source Revision: archive-sha256:59d66419e3269322a471094fea0d3b656b81e81d1490da5e4d1773541b4daab6
-# Source SHA-256: 7cc9db9159dc3152b04d1c132f110ba44e219667f75d32bdb595b60e9ae48ddd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SRB-SCLR.ANS by Sketch Rimanez (sclr-16); released in sclr-16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: SRB-SCLR.ANS by Sketch Rimanez | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-16-srb-sclr
 
 Write-Host '
                            [1;30m┌─────────┐[0m

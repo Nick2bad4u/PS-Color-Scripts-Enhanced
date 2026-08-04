@@ -1,18 +1,4 @@
-﻿# Converted from: CZ-KC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0996/raw/CZ-KC1.ANS
-# Source Revision: archive-sha256:28df6d6ebb426351f7b23fe6f583a998e03c4447a46d1ae63d7f7aa63a80eb5d
-# Source SHA-256: 2252684fbd944fe6ab7ab259edc96e166c87ca845e953e0c20ce0d8e7c887774
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CZ-KC1.ANS by cHEEZE-iT (eclipse); released in acdu0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: kILLA cLOWNS
-# SAUCE Author: cHEEZE-iT
-# SAUCE Group: eclipse
-# SAUCE Date: 19960821
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: kILLA cLOWNS by cHEEZE-iT | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0996-cz-kc1
 
 Write-Host '
 [1;36;47m    ░░░░▒▒▒▒▓▓▓▓[0;1;36;40m█[0;1;36;47m▓[0;1;36;40m███▀▀▀▀▀▀█████████████[0;1;37;40m██▌[0m          [1;36m▐█████████████████████[0;1;37m█[0;1;36m█[0;1;37m███[0m

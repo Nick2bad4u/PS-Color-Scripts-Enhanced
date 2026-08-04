@@ -1,17 +1,4 @@
-﻿# Converted from: US-DOINK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-11/raw/US-DOINK.ANS
-# Source Revision: archive-sha256:124f5de71b4943d1edf363ae27ec83def11b741938d7ad78955f12dc3ea0753e
-# Source SHA-256: 14a426bf06c4e07aeec65c18b1d665214b68e1dc806895bc4a641799f102c043
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-DOINK.ANS by Magnatop + Fever (eclipse/ABDUCTEE); released in ecl-11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: doink sucks cock..
-# SAUCE Author: mo/fv
-# SAUCE Group: eclipse/ABDUCTEE
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: doink sucks cock.. by Magnatop + Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-11-us-doink
 
 Write-Host '
 

@@ -1,17 +1,4 @@
-﻿# Converted from: 5m-iceacid.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna03/raw/5m-iceacid.ans
-# Source Revision: archive-sha256:997aaab655669129eb266c21ca0c4588b603e11c90338498bb530f8bba390fb2
-# Source SHA-256: 87ff3d09bdf7fa84d5a042e89c056830b3e4ed5262a5a72b8f3c71a8e59a3fd7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5m-iceacid.ans by Anonymous (thesauna03); released in thesauna03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: Anonymous
-# SAUCE Date: 20210415
-# SAUCE Dimensions: 80x57
-# SAUCE Font: IBM VGA
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: 5m-iceacid.ans by Anonymous | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna03-5m-iceacid-part01
 
 Write-Host '
 [34m░[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: MAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cnc-0494/raw/MAD.ANS
-# Source Revision: archive-sha256:a2860c6058bc20deb4b9fe584adc3143209a13f75027fe0542d8e0a5a0f55c58
-# Source SHA-256: 3931a6a5ac51ea27d9772522abb0e954c4f729e4b1b526b94a2ea04e393018c8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MAD.ANS by Hanzo The Fiend (cnc-0494); released in cnc-0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 101-137
-# Columns: 1-80
+﻿# Artwork: MAD.ANS by Hanzo The Fiend | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cnc-0494-mad-part03
 
 Write-Host '
 

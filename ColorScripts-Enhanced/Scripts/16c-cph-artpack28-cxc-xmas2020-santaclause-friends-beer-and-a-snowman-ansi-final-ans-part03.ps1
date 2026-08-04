@@ -1,13 +1,4 @@
-﻿# Converted from: cxc_xmas2020_santaclause_friends_beer_and_a_snowman_ansi_final.ans.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cph.artpack28/raw/cxc_xmas2020_santaclause_friends_beer_and_a_snowman_ansi_final.ans.ans
-# Source Revision: archive-sha256:c3d8d299aac3650a51574757712fd9f0940b06f7c2d1f7c898188c562f0549bd
-# Source SHA-256: c0c1ea2d4dc2385ba47bac555eef60d629d0c6b2b813a4e42b54f23559764538
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cxc_xmas2020_santaclause_friends_beer_and_a_snowman_ansi_final.ans.ans by Coaxcable (cph.artpack28); released in cph.artpack28 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 69-101
-# Columns: 1-80
+﻿# Artwork: cxc_xmas2020_santaclause_friends_beer_and_a_snowman_ansi_final.ans.ans by Coaxcable | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cph-artpack28-cxc-xmas2020-santaclause-friends-beer-and-a-snowman-ansi-final-ans-part03
 
 Write-Host '
 [1m▀ [0;36m▀█[0;1;37m▒▒▓▓█[0;36m█▀▀[0;37m [0;1;37m■[0;36m▐[0;1;37m▓█[0;36m▄[0;37m [0;32m▀█▒▓▓[0;37;42m▒▓[0;1;32;42m▒[0;1;36;42m░▒▒[0;32m▒▀▀[0;1;31;42m▒▒[0;32m▓▀▀▓▀[0;1;37m▄████[0;36m▀▀▀▒████▄[0;31m▀▀[0;33m▀▀[0;1;33;41m▀▀[0;1;37;40m▓▓█████▓▀[0;1;31;40m [0;31m▄█[0;1;31;41m░[0;1;31;40m▓▓██[0;1;31;47m▒[0m

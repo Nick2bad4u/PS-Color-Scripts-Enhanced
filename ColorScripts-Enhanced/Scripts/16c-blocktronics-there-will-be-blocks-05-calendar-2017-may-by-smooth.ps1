@@ -1,16 +1,4 @@
-﻿# Converted from: _05_Calendar_2017_May_by_Smooth.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_there_will_be_blocks/raw/_05_Calendar_2017_May_by_Smooth.ans
-# Source Revision: archive-sha256:d99f6502677c5a3c863779944513ac7a61b8122179566cfc94d95537e904aa6b
-# Source SHA-256: e294ae3deeb495dbb6b245f03da080e269618e6a8bbaabf47e03178d32028f7f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _05_Calendar_2017_May_by_Smooth.ans by Smooth (blocktronics_there_will_be_blocks); released in blocktronics_there_will_be_blocks and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20161223
-# SAUCE Dimensions: 80x49
-# SAUCE Font: IBM VGA
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: _05_Calendar_2017_May_by_Smooth.ans by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-there-will-be-blocks-05-calendar-2017-may-by-smooth
 
 Write-Host '
 [37;40m  [0;36;40m ▀▀▀████████████████████ [0;37;40m [0;1;33;43m░░[0;33m██[0;1;33;43m░[0;33m███████████████████████▓[0;37m [0;36m▀█████████████▀▀[0;37m   [0;33m░[0m

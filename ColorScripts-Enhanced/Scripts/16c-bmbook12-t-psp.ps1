@@ -1,18 +1,4 @@
-﻿# Converted from: T-PSP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook12/raw/T-PSP.ANS
-# Source Revision: archive-sha256:ec66f5bb4ed961133c52314c375d67af30a5295789eb6bfc6eda91ebf8999fc2
-# Source SHA-256: 6e77454008a2de3012dee7b181dd1d17a8ee35f329d96d71c27986ff9e76a52d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T-PSP.ANS by toot (black maiden); released in bmbook12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: psp
-# SAUCE Author: toot
-# SAUCE Group: black maiden
-# SAUCE Date: 19961229
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: psp by toot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook12-t-psp
 
 Write-Host '
 [31m▄▄▄▄▄[0;1;31m▄▄[0;31m▄▄▌░[0;30;41m▓[0m                     [31;40m░[0;30;41m▓[0m

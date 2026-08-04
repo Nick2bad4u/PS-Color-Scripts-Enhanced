@@ -1,18 +1,4 @@
-﻿# Converted from: ZO-LEG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9601/raw/ZO-LEG1.ANS
-# Source Revision: archive-sha256:7aa9123f877021b71fa63f38de012fc68287c00ecd76f3a2105e748660eee14f
-# Source SHA-256: dfbeadf49ee73046a760d532cef7729a835aecb294fd5667669a8b91e773f749
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZO-LEG1.ANS by zork (blade productions); released in blde9601 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the legacy fontage
-# SAUCE Author: zork
-# SAUCE Group: blade productions
-# SAUCE Date: 19951228
-# SAUCE Dimensions: 80x25
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: the legacy fontage by zork | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9601-zo-leg1
 
 Write-Host '
 [34m▀■[0;37m  [0;34m▀░▄▄▄■[0;37m [0;1;34;44m▄[0;34m▄▄▄[0;37m [0;34m▄[0;37m  [0;34m▄[0m     [1;30;47m▓[0;1;30;40m▄[0m [35m  ░[0;37m [0;35m■[0m   [1;30m▄[0m [31m■[0m     [1;30m▄[0m    [31m▐▄■[0m   [34m▄[0;37m [0;34m■[0;37m  [0;1;30m░▄[0;1;30;47m▓[0;1;30;40m▄▓[0m [33m░[0;1;30m▀[0m [34m▄[0;37m [0;33m░[0;1;30m▀░[0m [1;30m▄▓■░[0m

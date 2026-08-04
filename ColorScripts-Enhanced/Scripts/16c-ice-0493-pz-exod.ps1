@@ -1,13 +1,4 @@
-﻿# Converted from: PZ-EXOD.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-0493/raw/PZ-EXOD.ICE
-# Source Revision: archive-sha256:1f0165f69f3f1941ca248f15661795ff1f2d94f1528ddd69ffda9e31c5ee2162
-# Source SHA-256: ad2388012e3b6e026eb87e20e27b8073aa11ff97e25e8c1f2666c0e658a000d5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PZ-EXOD.ICE by Pizza (ice-0493); released in ice-0493 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: PZ-EXOD.ICE by Pizza | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-0493-pz-exod
 
 Write-Host '
                  [1;30m▄▄[0m

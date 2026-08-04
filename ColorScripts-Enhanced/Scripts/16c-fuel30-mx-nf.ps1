@@ -1,19 +1,4 @@
-﻿# Converted from: mx-nf.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel30/raw/mx-nf.ans
-# Source Revision: archive-sha256:e3148e82a669aa484baf0738069fbabe44ba2824856e1cb4b05875b86bdd4621
-# Source SHA-256: 9039d6fb358fbcca5ee2a685cbb86dbda4ad91ee47c33a50cb5edb0307f528a2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mx-nf.ans by mx (fuel30); released in fuel30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: necrofiliac
-# SAUCE Author: mx
-# SAUCE Date: 20190714
-# SAUCE Dimensions: 80x45
-# SAUCE Font: IBM VGA
-# SAUCE Comments: My humble tribute to OG necrofiliac <FUEL>, fittingly on the evi | l-ish tip ;)
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: necrofiliac by mx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel30-mx-nf
 
 Write-Host '
                                            [33m▄▀[0m

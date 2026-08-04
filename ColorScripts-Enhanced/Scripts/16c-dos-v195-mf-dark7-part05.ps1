@@ -1,18 +1,4 @@
-﻿# Converted from: MF-DARK7.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dos-v195/raw/MF-DARK7.ANS
-# Source Revision: archive-sha256:59a2d874f32e5b16b44ce5c91ac0499ea2f49cd07f1106869d54aa14595c444c
-# Source SHA-256: 19af0a444e75f51eba9f5e049f5e8d12783aae6ca2d5833505d774461ab2e172
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MF-DARK7.ANS by Mother Fungus (DoS); released in dos-v195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Darker Image Revision
-# SAUCE Author: Mother Fungus
-# SAUCE Group: DoS
-# SAUCE Date: 19950101
-# SAUCE Dimensions: 80x25
-# Lines: 182-226
-# Columns: 1-80
+﻿# Artwork: The Darker Image Revision by Mother Fungus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dos-v195-mf-dark7-part05
 
 Write-Host '
                                                                     [1;30;40m▄    ▄[0m

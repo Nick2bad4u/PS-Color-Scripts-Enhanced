@@ -1,13 +1,4 @@
-﻿# Converted from: JK-LOGON.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9704a/raw/JK-LOGON.ICE
-# Source Revision: archive-sha256:afaee15a3d0dc97869d0b30f626c40f1e86254d9eab5d72e1a8ed0e96379737a
-# Source SHA-256: 84b9fbb44d71964f3a86cb1225cbb9b8da1832bf397e7a2f4ed4a47c67788d7f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JK-LOGON.ICE by Joker (ice9704a); released in ice9704a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: JK-LOGON.ICE by Joker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9704a-jk-logon
 
 Write-Host '
 [1;33m█████████████████████████████████████████████████▀▀[0;33m▄▄▄[0;1;33;43m▄▄▄[0;1;33;40m████▀▀ [0;1;37;40m███████████████[0m

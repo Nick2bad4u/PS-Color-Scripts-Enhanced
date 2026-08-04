@@ -1,18 +1,4 @@
-﻿# Converted from: L5-POFF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0997/raw/L5-POFF.ANS
-# Source Revision: archive-sha256:d6ce507ee095ab9c7ce1d91178b57bff0c61babde42a3957415461a430e18407
-# Source SHA-256: ccf83c036bf3af5760b1103b6645bfb7224ce32a5127381df12177956ff0e012
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: L5-POFF.ANS by lord spatter (poffelipoff); released in plf-0997 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: poffeli[666]poff
-# SAUCE Author: lord spatter
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19960921
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: poffeli[666]poff by lord spatter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0997-l5-poff
 
 Write-Host '
                                                                 [1;30m▀[0m

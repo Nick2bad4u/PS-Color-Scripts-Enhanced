@@ -1,13 +1,4 @@
-﻿# Converted from: ECST-SYS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise02/raw/ECST-SYS.ANS
-# Source Revision: archive-sha256:3c5eae1b029b826705ce867bea68894f1a335fc23718a08e0687e597855e8cb9
-# Source SHA-256: 674eb92592a7f003e2f77350f6e407e87bb5da652574f75ca9b0231cb6a696e6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ECST-SYS.ANS by Systolic (uprise02); released in uprise02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: ECST-SYS.ANS by Systolic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise02-ecst-sys
 
 Write-Host '
              [1;33m       [0m

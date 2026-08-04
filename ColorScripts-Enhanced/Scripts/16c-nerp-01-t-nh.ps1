@@ -1,18 +1,4 @@
-﻿# Converted from: T-NH!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-01/raw/T-NH!.ANS
-# Source Revision: archive-sha256:c4f943c9f8f5c49a2aabdd3612f9f26bd1b04de18aa8de6e38c69a3051111537
-# Source SHA-256: 5e2d10b3532782b93e320b620ee48bec7e257d1bdee8655e47b96158f3e457cf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T-NH!.ANS by toot (nerp); released in nerp-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: our old name ;>
-# SAUCE Author: toot
-# SAUCE Group: nerp
-# SAUCE Date: 19970714
-# SAUCE Dimensions: 80x14
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: our old name ;> by toot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-01-t-nh
 
 Write-Host '
 [31m  ▀▀▀▐[0;1;31;41m▀[0;1;31;47m▄[0;1;31;41m▓[0;31m▓░[0;1;30m ▐▀▀[0m  [31m▀[0;1;31m▀▀[0;1;31;41m▀▐[0;1;31;47m▄[0;1;31;41m▀[0;1;31;40m▀[0;31m▀░░[0;37m [0;35m▄[0;1;35m▄▄▄[0;35m  ▄[0;1;35m▄▄[0m▄[1;35m▄[0;1;35;45m▄[0;1;35;47m▀[0;1;35;45m▌▀[0m [31m░░[0;37m [0;35m▄[0;1;31m▄[0;35m▄  ▄▄▄ [0;1;31;41m░[0;31m▌▀[0;1;31m▀▀▀[0;1;31;41m▀[0;31m▓░[0;35m▄[0;1;31;45m▄[0;35m▄[0;31m░▓[0;1;31;41m▓[0;31m▀[0;35m ▄▄[0;31m [0;1;31;41m░▀[0m

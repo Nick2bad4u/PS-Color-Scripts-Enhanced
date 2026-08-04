@@ -1,18 +1,4 @@
-﻿# Converted from: 144-MATT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eco-16/raw/144-MATT.ANS
-# Source Revision: archive-sha256:c00416c7ddf398f58bbf4e903903b01262636f611404ac6c0f665b0399f0a726
-# Source SHA-256: f83f8860f6aad82213b591ae2e399fc2ada7ca3dddd5949b9e2f9d7cc8c134d6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 144-MATT.ANS by lemon1zer (ecolove); released in eco-16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: matrix
-# SAUCE Author: lemon1zer
-# SAUCE Group: ecolove
-# SAUCE Date: 20000908
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: matrix by lemon1zer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eco-16-144-matt
 
 Write-Host '
 [1;30m░░░[0;33m   [0;37m░░░░░░[0;36m░░░ [0;33m         [0;37m░░░░░░░░░░░░[0;1;37m░░░░░[0;33m░░░▄▄▄▐ ░░░░░░▄[0;1;31;43m▄[0;33m▄░░░░░░░░░░░░░░░▄▄░░░░[0m

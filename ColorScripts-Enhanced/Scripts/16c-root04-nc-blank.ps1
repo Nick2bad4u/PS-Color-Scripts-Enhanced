@@ -1,18 +1,4 @@
-﻿# Converted from: NC-BLANK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root04/raw/NC-BLANK.ANS
-# Source Revision: archive-sha256:8dec1aa0e303d37205499818eaff4458ebf93774cd973f016deaae45658df6b3
-# Source SHA-256: fabab8a1acbb877e51b1f922d37de8286d7781b2e3471ba35741ef1d4a0d1ce9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NC-BLANK.ANS by Necrolyte (Root); released in root04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: blank compo entry
-# SAUCE Author: Necrolyte
-# SAUCE Group: Root
-# SAUCE Date: 19970518
-# SAUCE Dimensions: 80x40
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: blank compo entry by Necrolyte | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root04-nc-blank
 
 Write-Host '
 [1;30m[0m[1;31;41m▄░ [0;31m██▓  [0;1;32m█[0;1;32;42m▒[0;32m█▄   ▀   [0;33m██▀▀  ████ [0;34m█[0;1;34m█ [0;1;32m▄[0;1;32;42m▒[0;34m▄ [0;32m▀ [0;33m████ [0;1;32;42m▒[0;32m█ [0;33m██ [0;1;32m█[0;1;32;42m░[0m  [1;32m█[0;1;32;42m░[0;32m█  [0;1;31m██[0;1;31;41m▄█▀▀[0;31m█[0;1;31;41m▀[0;31m██▀▀▀ [0;36m▄▄██[0;30;46m░[0;36;40m▓[0m

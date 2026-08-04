@@ -1,18 +1,4 @@
-﻿# Converted from: FV-DMZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile_001/raw/FV-DMZ.ANS
-# Source Revision: archive-sha256:f7a8644489c1d011b91477b5b1eab40d9f39b077b89f158a7a0c3d1c032c6d81
-# Source SHA-256: fe49866a1aad73c3bb2ebc93af976af96c1eebeb3d46eb0a9803e70e29b85dad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FV-DMZ.ANS by fe v  e   r (rile); released in rile_001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: dmz compo.  nifty!
-# SAUCE Author: fe v  e   r
-# SAUCE Group: rile
-# SAUCE Date: 19970204
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: dmz compo. nifty! by fe v e r | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile-001-fv-dmz
 
 Write-Host '
 [30;46m▄▄ [0;1;36;46m▄▄▄[0;30;46m▐▀[0;37;40m [0;30;46m▄  [0;1;36;46m▄▄▄▄▄▄[0;30;46m [0;37;40m [0;30;46m▀█[0;36;40m░[0;30;46m▓▀▀ ▄▄[0;37;40m ░[0;30;47m▓▀[0;1;37;47m▄[0;1;33;40m███▀▀[0m [1;33m▄▄█[0;1;33;43m▀[0;1;33;40m▀[0;30;43m▄[0;30;47m██[0;37;40m [0;30;43m▀[0;30;47m█[0;30;43m▀▄[0;30;47m█[0;30;43m▀[0;1;31;43m▄█████[0;1;31;47m█[0;1;31;43m███▄[0;30;43m▀[0;30;47m█[0;1;33;40m  [0;30;47m██████[0;33;40m ▀░░[0m

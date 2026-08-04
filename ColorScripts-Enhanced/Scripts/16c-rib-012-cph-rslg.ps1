@@ -1,18 +1,4 @@
-﻿# Converted from: CPH-RSLG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-012/raw/CPH-RSLG.ANS
-# Source Revision: archive-sha256:4b822377f08e44404edc6b006616be9a58b9ffc0848d36336fc9de37f7065343
-# Source SHA-256: 9640ae7ddfc1253489d315d8679700d8000aee7eed7f619b470cf3ce8bab866d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-RSLG.ANS by {YBERPUNCh (RiB); released in rib-012 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: remote system login
-# SAUCE Author: {YBERPUNCh
-# SAUCE Group: RiB
-# SAUCE Date: 19980901
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: remote system login by {YBERPUNCh | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-012-cph-rslg
 
 Write-Host '
 [34m░░░░░░░░░░░[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: GERONIMOE-ALIEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0222/raw/GERONIMOE-ALIEN.ANS
-# Source Revision: archive-sha256:298b44b8b7049e43debc6d372a2843121b005521ff5ef92f5442efdcf0a21843
-# Source SHA-256: 244ec50509ed68857a8602a965b3fb0793a2833be819af83ebff07d4edf57996
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GERONIMOE-ALIEN.ANS by geronimoe (Mistigris); released in mist0222 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: alien love
-# SAUCE Author: geronimoe
-# SAUCE Group: Mistigris
-# SAUCE Date: 20220226
-# SAUCE Dimensions: 80x210
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: alien love by geronimoe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0222-geronimoe-alien-part01
 
 Write-Host '
 

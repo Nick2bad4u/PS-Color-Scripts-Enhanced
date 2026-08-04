@@ -1,18 +1,4 @@
-﻿# Converted from: BZ-RUM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mskp-03/raw/BZ-RUM.ANS
-# Source Revision: archive-sha256:369f71f9db47e6e5b0d0bdfdf19b2a22bd51dadea3798ab3bf33876f294ae21a
-# Source SHA-256: 28ded35fc13534aa9f2cd108a7303a82f8050ad8f4927e6ac1fbe6ea824a9635
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BZ-RUM.ANS by BiOZARD (masakre productions); released in mskp-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Rumours
-# SAUCE Author: BiOZARD
-# SAUCE Group: masakre productions
-# SAUCE Date: 19961003
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: Rumours by BiOZARD | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mskp-03-bz-rum
 
 Write-Host '
 [1;36mr[0;36mumourz v1.o[0;37m          [0;34m▄■▀▀■▄[0m                           [34m▄■▀■▄[0m

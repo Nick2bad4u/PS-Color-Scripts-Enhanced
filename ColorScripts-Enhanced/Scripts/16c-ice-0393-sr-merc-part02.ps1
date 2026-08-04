@@ -1,13 +1,4 @@
-﻿# Converted from: SR-MERC.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-0393/raw/SR-MERC.ICE
-# Source Revision: archive-sha256:31b03d3a9d263e952227664fe802688e743ab14a707f16c150dab800192d5fc5
-# Source SHA-256: fa1b3a66e7a35c0519b94e5c211e7f6969f9e29f6f6e46ace62a985b1123c0a6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SR-MERC.ICE by Stryker-Ice (ice-0393); released in ice-0393 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 34-51
-# Columns: 1-80
+﻿# Artwork: SR-MERC.ICE by Stryker-Ice | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-0393-sr-merc-part02
 
 Write-Host '
 [40m   [0;34m▄█[0m                [34m▄█[0m           [34m▄█[0m               [34m█▄[0m                     [34m█▄[0m

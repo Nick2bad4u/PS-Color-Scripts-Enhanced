@@ -1,13 +1,4 @@
-﻿# Converted from: MA-ANSI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot0298/raw/MA-ANSI.ANS
-# Source Revision: archive-sha256:526aad9cb7d53a551f92e853d4e6e965514b7a6255b96a5834ea680a400c2a6b
-# Source SHA-256: c17f88f521387447ae38751a4ea9a503d860f7afe39957aea078915b638aeafe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MA-ANSI.ANS by Maelstrom (riot0298); released in riot0298 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: MA-ANSI.ANS by Maelstrom | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot0298-ma-ansi
 
 Write-Host '
 [30;44m      [0;1;37;44m▄[0;1;37;40m▓[0;1;37;44m██[0;1;37;40m█[0;1;37;44m▄▄▄ [0;30;44m [0;1;37;44m   [0;30;44m          [0;1;33;44m▀████████████████▀[0;30;44m                    [0;1;37;44m▄▄▄▄▄▄[0;30;44m       [0m

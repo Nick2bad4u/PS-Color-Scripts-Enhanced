@@ -1,18 +1,4 @@
-﻿# Converted from: MC-HELS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rune0795/raw/MC-HELS.ANS
-# Source Revision: archive-sha256:580e989b49a05ba1007c0d2b238de63ba0496a2b52563512871b7296bb690889
-# Source SHA-256: 1982fc30d25223700ab9413a7642355de5cdf4b16b89872506ad39ecbe1022bf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MC-HELS.ANS by mortal comeback (rune); released in rune0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: helsinki ad
-# SAUCE Author: mortal comeback
-# SAUCE Group: rune
-# SAUCE Date: 19950715
-# SAUCE Dimensions: 80x25
-# Lines: 47-95
-# Columns: 1-80
+﻿# Artwork: helsinki ad by mortal comeback | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rune0795-mc-hels-part02
 
 Write-Host '
                                              [32m▀▄[0m                    [32m█[0m

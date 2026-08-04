@@ -1,18 +1,4 @@
-﻿# Converted from: KG-0399.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge14/raw/KG-0399.ANS
-# Source Revision: archive-sha256:b0e749d5e6297574610409aa68f6dd9e8c54af434247cd2b743b8d1e2d2406d7
-# Source SHA-256: 55580c1a8e8ba7ef2095df200b97cd5d66d6b14fc0b5529d4c388d0b2ab1c4d4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KG-0399.ANS by Kargus + Creator (The AvengeCult); released in avenge14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: GUEST LOGOS
-# SAUCE Author: Kargus
-# SAUCE Group: The AvengeCult
-# SAUCE Date: 19990228
-# SAUCE Dimensions: 80x71
-# Lines: 31-71
-# Columns: 1-80
+﻿# Artwork: GUEST LOGOS by Kargus + Creator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge14-kg-0399-part02
 
 Write-Host '
 [1;30m[0m

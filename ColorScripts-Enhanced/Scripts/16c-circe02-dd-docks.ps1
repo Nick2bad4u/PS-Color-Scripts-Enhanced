@@ -1,18 +1,4 @@
-﻿# Converted from: DD-DOCKS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe02/raw/DD-DOCKS.ANS
-# Source Revision: archive-sha256:ce5cd736ecea3fcfef2c1df40ab4bdd995f6b633f97f1788244355f98c5d174e
-# Source SHA-256: df4908a9eae748bbc4ec8bb3d1a2c9906551923250653b6349fe1eda8a5a96d7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-DOCKS.ANS by Diamond Darrell (Circe); released in circe02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: docksud
-# SAUCE Author: Diamond Darrell
-# SAUCE Group: Circe
-# SAUCE Date: 19971107
-# SAUCE Dimensions: 80x23
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: docksud by Diamond Darrell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe02-dd-docks
 
 Write-Host '
 [1;32m▄▓▓▄▄  [0m       [1;37m▄■▀[0;1;34m  [0;1;32m [0;32m░[0;30;42m▓[0;32;40m░▒▒▓▓▓▒▒░[0;30;42m▓[0;1;34;40m  [0;32m ░░░[0m    [33m░▒▓▓▒[0;30;43m▓▓▓[0;37;40m  [0;1;33;40m [0;33m▄▄▄[0;1;33m▄▄▄▄▄▄▄  [0m   [1;33m░[0;1;34m [0;1;33m░░░[0m    [1;37m▄■▀[0m

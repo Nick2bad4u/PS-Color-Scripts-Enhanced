@@ -1,18 +1,4 @@
-﻿# Converted from: 37-NS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9608/raw/37-NS.ANS
-# Source Revision: archive-sha256:28795cb401df281ef6294233e2af12663ffb83dc390b0bfbadecb49834e6c017
-# Source SHA-256: 7663664d094cb3f0285962aa68986854c3c1f6856237c0772eac1aef7a99a12e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 37-NS.ANS by Exulted + Defiant + Eerie (SAMSARA); released in sms-9608 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: NASAL MALFUNCTION
-# SAUCE Author: EXULTED
-# SAUCE Group: SAMSARA
-# SAUCE Date: 19960731
-# SAUCE Dimensions: 80x93
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: NASAL MALFUNCTION by Exulted + Defiant + Eerie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9608-37-ns-part01
 
 Write-Host '
 

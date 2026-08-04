@@ -1,18 +1,4 @@
-﻿# Converted from: SK!BIOHA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p13_01/raw/SK!BIOHA.ANS
-# Source Revision: archive-sha256:7be01055dd13efccf716f85ba12aeb587f20efb2cff2c3e0ca4196c620859951
-# Source SHA-256: 89902255fa560abcf4d7326ab8bc1eed79ef27ac4cf1ab0ec0420d50885d2938
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!BIOHA.ANS by sIMONkING (thelo0p); released in l0p13_01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: bIOhAZARD BBS
-# SAUCE Author: sIMONkING
-# SAUCE Group: thelo0p
-# SAUCE Date: 20011207
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: bIOhAZARD BBS by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p13-01-sk-bioha
 
 Write-Host '
                                                                       [33m░▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: cxc_mysticbbs-banners_colly_final.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cph.artpack28/raw/cxc_mysticbbs-banners_colly_final.ans
-# Source Revision: archive-sha256:c3d8d299aac3650a51574757712fd9f0940b06f7c2d1f7c898188c562f0549bd
-# Source SHA-256: 0a6963c3908c5974b4483383807098db3ab68cf45ce709c4f861622c629ad287
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cxc_mysticbbs-banners_colly_final.ans by Coaxcable (cph.artpack28); released in cph.artpack28 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: cxc_mysticbbs-banners_colly_final.ans by Coaxcable | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cph-artpack28-cxc-mysticbbs-banners-colly-final
 
 Write-Host '
 [1;41m                                                                               [0m

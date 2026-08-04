@@ -1,18 +1,4 @@
-﻿# Converted from: FLUX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flx-0797/raw/FLUX.ANS
-# Source Revision: archive-sha256:8881bffa0acfdeb90957524533ce6ee992fcd4666c7b6ff313d36d1cb171ca2b
-# Source SHA-256: ae3a0a1888fee2a7751d468f8d22c1aa2a92d243ece6bc7536331f8524fe48ab
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FLUX.ANS by fpt (flux); released in flx-0797 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: flux logo
-# SAUCE Author: fpt
-# SAUCE Group: flux
-# SAUCE Date: 19970628
-# SAUCE Font: SAUCE-ADDER V1.4
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: flux logo by fpt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flx-0797-flux
 
 Write-Host '
                                                [33m [0m

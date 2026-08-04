@@ -1,18 +1,4 @@
-﻿# Converted from: CG-LOGIC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-16/raw/CG-LOGIC.ANS
-# Source Revision: archive-sha256:299c2506fc7c7048919e5ad206603713352cc67a07153aa96e981dc224539522
-# Source SHA-256: d1ec0987df352ba01a6b9939247814ab1fa6e30b358eebfca052983787ca9944
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-LOGIC.ANS by cryogenic (awe); released in awe-16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Logic
-# SAUCE Author: cryogenic
-# SAUCE Group: awe
-# SAUCE Date: 19980810
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Logic by cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-16-cg-logic
 
 Write-Host '
                [33m    [0;37m [0;33m░░[0m                                          [33m   [0;37m [0;33m [0m

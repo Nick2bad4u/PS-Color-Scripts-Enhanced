@@ -1,18 +1,4 @@
-﻿# Converted from: INC^CC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-11/raw/INC%5ECC.ANS
-# Source Revision: archive-sha256:436cbfb96b4d7d25ed4d5deb9e741ca5369f6cf815d67846e965ca9922db78b7
-# Source SHA-256: 4ffe2ab239d50310e0922e9fea9b30f58c7474c6039cb246ee4e77e58e7889b3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: INC^CC.ANS by incarnate (department>38); released in d38-11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: SAOT> just ask ripper^'s mom
-# SAUCE Author: incarnate
-# SAUCE Group: department>38
-# SAUCE Date: 19970911
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: SAOT> just ask ripper^'s mom by incarnate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-11-inc-cc
 
 Write-Host '
 [1m[0m[1m[0;1;36m[0;1;37m[0m[1m[0m  [1;34m [0m          [1m [0;1;34;47m  [0;1;34;40m  [0m                                                              

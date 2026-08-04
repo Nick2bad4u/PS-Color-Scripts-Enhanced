@@ -1,18 +1,4 @@
-﻿# Converted from: _A-ION3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oops_a05/raw/_A-ION3.ANS
-# Source Revision: archive-sha256:cff76c9dd5d3c699dbbd8fb0832eac5d62706a3d9db1909416fdb97b45ddb91f
-# Source SHA-256: eecfc418ce7a428f3f20431267e4b2e727d60666124d016fd4e0f0b81c4c11ac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _A-ION3.ANS by absent spinsister (oOps / awe); released in oops_a05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ion3 for gooe
-# SAUCE Author: absent spinsister
-# SAUCE Group: oOps / awe
-# SAUCE Date: 19970608
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ion3 for gooe by absent spinsister | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oops-a05-a-ion3
 
 Write-Host '
              [1;35m [0;35m,$[0;1;35mb[0;35m,.[0m                    [1;35m,    [0m   [1;35m.         [0m     [35mil[0;1;35m;;[0m

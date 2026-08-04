@@ -1,18 +1,4 @@
-﻿# Converted from: SI!H2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-02/raw/SI!H2.ANS
-# Source Revision: archive-sha256:39d2334584977ac14b33f06b2f4e2bf93d1902538006b996fc8bb6135cc5d15c
-# Source SHA-256: 3e20da329fbb13e8bc446a6ad2b862e8af33adf0e0032551f5cfd7433c961cdf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SI!H2.ANS by sadistic intent (sliver); released in glue-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: hazard/2
-# SAUCE Author: sadistic intent
-# SAUCE Group: sliver
-# SAUCE Date: 19970828
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: hazard/2 by sadistic intent | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-02-si-h2
 
 Write-Host '
                                          [30;46m██[0m        [30;46m███████████[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: KX-ANGEL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-08/raw/KX-ANGEL.ANS
-# Source Revision: archive-sha256:a2a94a05cc0fdb75f6dd155c472d47ed8dbfa09498cb251f9f23d405315c5c99
-# Source SHA-256: 65e1672affdd7647b15f3e8a3ed7a32d3e9898496bf36f9612c2f671b7f12e8f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KX-ANGEL.ANS by Kxmode (rmrs-08); released in rmrs-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 97-145
-# Columns: 1-80
+﻿# Artwork: KX-ANGEL.ANS by Kxmode | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-08-kx-angel-part03
 
 Write-Host '
 [34m~~~~~~~~~~~ [0;1;34m<`   ~ ! [0;31m [0;1;31m`~[0;31m  [0;1;33m$[0;33m$$$$$$$X!X![0;1;33mMH[0;33mX!!!!(.(!!!?[0;1;31mMMMHXXXX[0;31m.[0;1;31m.X[0;31muWFH?![0;1;37m [0;1;34m~~ '' [0;34m~~~[0m

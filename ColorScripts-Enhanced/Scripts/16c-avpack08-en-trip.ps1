@@ -1,18 +1,4 @@
-﻿# Converted from: EN-TRIP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack08/raw/EN-TRIP.ANS
-# Source Revision: archive-sha256:7ef0e3c2ad472ffa0bd326c76b54b5dce9cad3c282a027636325537942ca4734
-# Source SHA-256: 53ef6f145bf96cea6177557ea718b78da8d9c83c78b7c50f8546542207feb974
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EN-TRIP.ANS by nnsanguined (Apocalyptic Visions); released in avpack08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 2 tripped 2 tell
-# SAUCE Author: nnsanguined
-# SAUCE Group: Apocalyptic Visions
-# SAUCE Date: 19951118
-# SAUCE Dimensions: 80x47
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: 2 tripped 2 tell by nnsanguined | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack08-en-trip
 
 Write-Host '
      ▄▄▄▄▄                                                                  

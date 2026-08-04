@@ -1,18 +1,4 @@
-﻿# Converted from: TAE-AFTE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nst_001/raw/TAE-AFTE.ANS
-# Source Revision: archive-sha256:73e351b64f3e5af00925276ea27a29359884e7841f4015afd3acb29f2a370d2d
-# Source SHA-256: 2a122cd40141500a05301163c4d404a658e9db26b2d7c0f389ac0e7ec9a69b33
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TAE-AFTE.ANS by taevore (neon strike); released in nst_001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: "  aftermath "
-# SAUCE Author: taevore
-# SAUCE Group: neon strike
-# SAUCE Date: 19980403
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: " aftermath " by taevore | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nst-001-tae-afte
 
 Write-Host '
                                                                         [1m▄ [0m▄[1m▄▌[0m

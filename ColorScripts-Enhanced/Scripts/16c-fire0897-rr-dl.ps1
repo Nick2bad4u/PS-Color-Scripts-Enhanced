@@ -1,18 +1,4 @@
-﻿# Converted from: RR-DL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0897/raw/RR-DL.ANS
-# Source Revision: archive-sha256:2f847e13ac44c4a612ca9588cf01055509cccf841191e379aa1210361ce47235
-# Source SHA-256: 23a14e53d6bd95f94f491192109b94dedbba6d2a457a17f6efc36a3631134422
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RR-DL.ANS by riddler (fire); released in fire0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dl
-# SAUCE Author: riddler
-# SAUCE Group: fire
-# SAUCE Date: 19970804
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: dl by riddler | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0897-rr-dl
 
 Write-Host '
                        [34m  [0;1;30m▄  ░░ [0m

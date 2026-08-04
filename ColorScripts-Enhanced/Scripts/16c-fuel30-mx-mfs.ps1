@@ -1,19 +1,4 @@
-﻿# Converted from: mx-mfs.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel30/raw/mx-mfs.ans
-# Source Revision: archive-sha256:e3148e82a669aa484baf0738069fbabe44ba2824856e1cb4b05875b86bdd4621
-# Source SHA-256: f38fb7c27a988457bcdb867008cd2b9c8d7fb3c7bc94c27e289326edf1c7621e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mx-mfs.ans by mx (fuel30); released in fuel30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: mEL fARR
-# SAUCE Author: mx
-# SAUCE Date: 20190714
-# SAUCE Dimensions: 80x44
-# SAUCE Font: IBM VGA
-# SAUCE Comments: A little monogram action for MFS <FUEL>
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: mEL fARR by mx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel30-mx-mfs
 
 Write-Host '
 

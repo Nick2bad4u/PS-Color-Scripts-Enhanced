@@ -1,18 +1,4 @@
-﻿# Converted from: SG-QUADP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad0297/raw/SG-QUADP.ANS
-# Source Revision: archive-sha256:7e8725f9cb41998c7aef740f7948f696079385bf60fa21ec4efc585f384d95ce
-# Source SHA-256: 3c6d343f49ffd74cec40850d784fd17697afec10e9f10bda99b57611b97fe3ce
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SG-QUADP.ANS by stygian (quad-p); released in quad0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: quad-p promotional
-# SAUCE Author: stygian
-# SAUCE Group: quad-p
-# SAUCE Date: 19970103
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: quad-p promotional by stygian | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad0297-sg-quadp
 
 Write-Host '
 [1;36m▀▀ ▄▄▄▄[0;1;36;46m█[0;1;36;40m████████[0;1;36;46m█[0;1;36;40m██[0;1;36;46m█[0;1;36;40m██████████████████████████▀▀[0m [33m▄[0;36m [0;1;36m▀██▄[0;36m [0;1;31;43m [0;33m█▄[0;1;31m [0;36m▀█████▄▀███▄ ▀██▄[0;37m [0;1;37m██[0m

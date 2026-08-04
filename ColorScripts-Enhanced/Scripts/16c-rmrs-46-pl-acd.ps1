@@ -1,17 +1,4 @@
-﻿# Converted from: PL-ACD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-46/raw/PL-ACD.ANS
-# Source Revision: archive-sha256:579684f5d08ba80e6f0851ef140b90f977f3d651501f1429d81654246efb3324
-# Source SHA-256: c275e606c62a12b1c7c2efaf7a441aff945fa29cc09440b2fcb664e8e8dfc1e8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PL-ACD.ANS by Palmore (Remorse); released in rmrs-46 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: Palmore
-# SAUCE Group: Remorse
-# SAUCE Date: 20020907
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: PL-ACD.ANS by Palmore | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-46-pl-acd
 
 Write-Host '
 

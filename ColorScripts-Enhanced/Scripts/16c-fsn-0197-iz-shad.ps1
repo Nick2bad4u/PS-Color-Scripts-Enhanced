@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-SHAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0197/raw/IZ-SHAD.ANS
-# Source Revision: archive-sha256:db16ecaf9a5ba2dcf16f11149d4e3768d3e19930159af1ef0ef2625ea12b3e30
-# Source SHA-256: 44afba8b04c18d09a87effbbff1cde83abd80a793eb882581819297182e79533
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-SHAD.ANS by ize (fusion); released in fsn-0197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: shad
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19961216
-# SAUCE Dimensions: 80x21
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: shad by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0197-iz-shad
 
 Write-Host '
                                                       [1;34m [0m

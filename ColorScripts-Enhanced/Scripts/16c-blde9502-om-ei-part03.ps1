@@ -1,18 +1,4 @@
-﻿# Converted from: OM-EI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9502/raw/OM-EI.ANS
-# Source Revision: archive-sha256:2f0f35d61b4c5c0023fdc3bef64ff913e4d59803d220dd8b6aa9559b05c6a214
-# Source SHA-256: ce8ef910d446ab8d00cb2365793ec842ab87b72aadbcb1c9b9ca1b32cdcf0e88
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OM-EI.ANS by omega red (Blade Productions); released in blde9502 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: eternal insanity!
-# SAUCE Author: omega red
-# SAUCE Group: Blade Productions
-# SAUCE Date: 19950201
-# SAUCE Dimensions: 80x25
-# Lines: 85-132
-# Columns: 1-80
+﻿# Artwork: eternal insanity! by omega red | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9502-om-ei-part03
 
 Write-Host '
 [1;30m░▄[0;1;30;43m▓▒[0;33m░[0;37m     [0;33m ▒[0;37m        [0;33m▓[0;37m [0m [33m▄[0m    [33m▒▒░░░░[0m   [33m▒ [0m     [33m▀▀■[0m   [33m▀▀■░░[0m [33m░░░[0;1;33m [0;33m [0;1;33m▄[0;1;33;43m▓[0;1;33;40m [0;1;31;40m▀[0;1;31;43m▒░░[0;1;31;40m      [0;33m▄▓[0;1;31;43m░[0;33m▄[0;1;31m [0m

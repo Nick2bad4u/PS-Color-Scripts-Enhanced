@@ -1,13 +1,4 @@
-﻿# Converted from: MF-PLSTC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/basic-05/raw/MF-PLSTC.ANS
-# Source Revision: archive-sha256:a2f68eccc2948d19a9df8c4fd26441b93a19bdc137d65564784937cd2559a252
-# Source SHA-256: b16862d70b4088f8a623e49c192c3bf28e7e74ef6a4b19952b707068da908064
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MF-PLSTC.ANS by Mortify (basic-05); released in basic-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: MF-PLSTC.ANS by Mortify | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-basic-05-mf-plstc
 
 Write-Host '
 

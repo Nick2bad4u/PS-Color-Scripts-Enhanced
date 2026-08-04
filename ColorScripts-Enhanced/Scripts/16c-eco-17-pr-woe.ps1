@@ -1,18 +1,4 @@
-﻿# Converted from: PR-WOE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eco-17/raw/PR-WOE.ANS
-# Source Revision: archive-sha256:8236759fde5db8ee2caeed4c8b472252ce9b47375d97816d78339cb82ea8285c
-# Source SHA-256: c3ff4c5c161a8f8bde6e04d58128e1bc0d97c58d0efc4a5873ffc0580ba9daab
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PR-WOE.ANS by president (ecolove); released in eco-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: woe zine
-# SAUCE Author: president
-# SAUCE Group: ecolove
-# SAUCE Date: 19991026
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: woe zine by president | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eco-17-pr-woe
 
 Write-Host '
 [1;30m█[0;1;30;47m▓[0;1;30;40m█▀[0;1;30;47m▀██[0;1;30;40m███[0;1;30;47m█[0;1;30;40m███████████[0;1;30;47m▓▒░ [0;1;37;47m░▓[0;1;30;40m [0;1;33;40m█[0;1;37;47m▓[0;34m [0;1;30;47m▓[0;34m [0;1;37;47m▓[0;34m [0;1;37;47m▓░[0;1;30;47m░░▓▓█▓▓▒▓[0;1;30;40m█[0;1;30;47m▒▓█▓▓[0;1;30;40m█[0;1;30;47m███[0;1;30;40m███[0;1;30;47m██[0;1;30;40m████[0;1;30;47m█████[0;1;30;46m██[0;1;30;47m██[0;1;30;40m███▄ [0m

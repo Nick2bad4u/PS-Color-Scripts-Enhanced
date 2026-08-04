@@ -1,16 +1,4 @@
-﻿# Converted from: fil-kali.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_wtf4/raw/fil-kali.ans
-# Source Revision: archive-sha256:250b5eed057a6c043b178a52a71a9f6b183e2a63591879f24e3c64051465130b
-# Source SHA-256: 9a543a671d553603ceb4a3906f4bf43d099099de0966b3e8f4069a7434ad0df3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: fil-kali.ans by Filth (blocktronics_wtf4); released in blocktronics_wtf4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20140725
-# SAUCE Dimensions: 80x397
-# SAUCE Font: IBM VGA
-# Lines: 151-199
-# Columns: 1-80
+﻿# Artwork: fil-kali.ans by Filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-wtf4-fil-kali-part04
 
 Write-Host '
 [37m    [0;31m█[0;1;36;41m░░[0;31m▄[0;1;36m▓▓▓▓ [0;31m▓██████▄▄▄[0;1;36m ▀▀░ ▀███[0;1;37m██████[0;1;36m▓▓▓▓[0;1;37m▓▓▓[0;1;36m [0;1;37m░░▀[0;1;36m▓[0;1;36;41m▀[0;31m████[0;1;37;41m░[0;31m█[0;1;37;41m░░░░[0;31m█[0;1;36m▀[0;31m▌[0;1;37;41m░[0;31m█[0;1;36m [0;31m█▀▄█▀▀[0;1;36m  [0;36m░░░░░[0m

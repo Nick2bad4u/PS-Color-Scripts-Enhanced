@@ -1,18 +1,4 @@
-﻿# Converted from: QT-UFATE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/int-0695/raw/QT-UFATE.ANS
-# Source Revision: archive-sha256:6771e2ee2a532a03e3048eaa1b1bbf7fcd6b77f65d21375ee296ff4fbc6ca5cd
-# Source SHA-256: b459ac5ef90c1ac7729d3317213a722fba5c473c9270ea4f7a87a34dd3f8354d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: QT-UFATE.ANS by Questor (Integrity); released in int-0695 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Unseen Fate
-# SAUCE Author: Questor
-# SAUCE Group: Integrity
-# SAUCE Date: 19950531
-# SAUCE Dimensions: 80x197
-# Lines: 51-97
-# Columns: 1-80
+﻿# Artwork: Unseen Fate by Questor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-int-0695-qt-ufate-part02
 
 Write-Host '
 [35;44m▓▓▒▒▒▒░░░[0;34;40m▀▀[0;37;40m [0;31;40m▄▄▓▒░[0m         [31;40m░ ░▒[0;37;40m  [0;35;40m▀██████████[0;1;35;45m░▒▓[0;1;35;40m▄[0;35m▀████████[0;1;35;45m░▒▓[0;30;44m█[0;1;35;45m▒[0;1;35;40m▄[0;35m▀██[0;35;44m▓▓▓▒▒▒▒░░░░░[0;34;40m▄[0;37;40m▀ [0m

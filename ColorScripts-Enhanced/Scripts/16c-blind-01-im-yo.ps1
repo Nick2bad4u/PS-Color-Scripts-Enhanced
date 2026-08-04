@@ -1,13 +1,4 @@
-﻿# Converted from: im-yo.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blind-01/raw/im-yo.ans
-# Source Revision: archive-sha256:74df0a182d8565b8f40daa4c4ea8bc2d71e1cbb40408d576ae51b526e5cad036
-# Source SHA-256: dc84a6b9401e6956a62016623df815fa4044fa4f1138ad30fb5fab6ee21fff43
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: im-yo.ans by Icedmouse (blind-01); released in blind-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: im-yo.ans by Icedmouse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blind-01-im-yo
 
 Write-Host '
   [1;36m [0;36m    [0;37m [0;1;36m [0;36m        [0;37m [0m   [1;37m ╖ [0m ╖                                [1;30m [0m   [1;30m [0m    [1;30m [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: RS-BLEND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9701/raw/RS-BLEND.ANS
-# Source Revision: archive-sha256:45d6a082bca05ad193b510335e91b0bec312e4835ff5735e0eb40fe62d0e1180
-# Source SHA-256: 83b98780c6c193eb4b554f0b3acf51659faf770c491529cf4d5ffb07e87de3ce
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-BLEND.ANS by rorshack (Maiden Brazil!); released in mdn-9701 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: blend (group)
-# SAUCE Author: rorshack
-# SAUCE Group: Maiden Brazil!
-# SAUCE Date: 19961226
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: blend (group) by rorshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9701-rs-blend
 
 Write-Host '
                                      [36m([0;1;36m?[0;36m)[0m        [1;32;42m▀[0;32m▀''[0m

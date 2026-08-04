@@ -1,18 +1,4 @@
-﻿# Converted from: CO-OPXRU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0296/raw/CO-OPXRU.ANS
-# Source Revision: archive-sha256:06e6dc5afce1ee45051e2bc9293c259c32e010fc92f42b6c050d6f2242a1670c
-# Source SHA-256: 42a9b47f06521cdc2eb068e3953adffb175e5762579b52835eab14a9db00c295
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CO-OPXRU.ANS by cocox (opium); released in opx-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: opium graphix rules!
-# SAUCE Author: cocox
-# SAUCE Group: opium
-# SAUCE Date: 19960204
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: opium graphix rules! by cocox | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0296-co-opxru
 
 Write-Host '
 [30m                                                                                [0m

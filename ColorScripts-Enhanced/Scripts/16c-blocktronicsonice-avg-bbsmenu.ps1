@@ -1,19 +1,4 @@
-﻿# Converted from: avg-bbsmenu.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronicsonice/raw/avg-bbsmenu.ans
-# Source Revision: archive-sha256:09feb7a5adb913c88be16d43a1a4e86bf7073f13399d8bc54e5478cad35282e5
-# Source SHA-256: bf3e131281c49a097568a22df2e60d6ff67d8bc4291db85892e3cf1a74e0521a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-bbsmenu.ans by avg (blocktronics); released in blocktronicsonice and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: bbs menu
-# SAUCE Author: avg
-# SAUCE Group: blocktronics
-# SAUCE Date: 20211029
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: bbs menu by avg | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronicsonice-avg-bbsmenu
 
 Write-Host '
 [31m  ■▀[0;31;43m▄  ■▓▓▓▓[0;31;40m████████████████████████████████████████[0;1;31;40m░░░░[0;33;41m■[0;33;40m██[0;31;43m [0;33;40m░[0;31;40m [0;36;40m░░░░[0;31;40m▄▄▄▄[0;34;41m▀[0;33;41m░░░░░[0;31;40m▄ ■[0m

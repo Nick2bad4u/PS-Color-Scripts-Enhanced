@@ -1,18 +1,4 @@
-﻿# Converted from: PY-RD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mgma0597/raw/PY-RD.ANS
-# Source Revision: archive-sha256:4321ed96c03457476be7881d0c1ef30e9189de218dff8231543b22aa7744f58c
-# Source SHA-256: 6cc3210321a85f56f462a1c5a68617fc680ec67ece22ee8669358ebfe1517585
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PY-RD.ANS by Pyhrrus (magma); released in mgma0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Relentless dead
-# SAUCE Author: Pyhrrus
-# SAUCE Group: magma
-# SAUCE Date: 19970312
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Relentless dead by Pyhrrus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mgma0597-py-rd
 
 Write-Host '
                   [30;41m▒[0;37;40m [0;30;41m▒▓▓[0;31;40m█[0;1;31;41m▄▄[0;31m█▄█▀▀▀█▄[0;37m [0;31mrelentless[0m       [31m▄[0;1;31;41m ▄▄[0;31m█[0;30;41m▓▓▒[0;30;40m [0m

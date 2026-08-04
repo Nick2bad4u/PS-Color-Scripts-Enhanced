@@ -1,13 +1,4 @@
-﻿# Converted from: SM-WM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/moi-1296/raw/SM-WM1.ANS
-# Source Revision: archive-sha256:43ba331c3216dae712e2fc42adda89bce3b1a616e82a7a9594fb7cc9a7f26e06
-# Source SHA-256: cdaf62e4ba35861511ad15f3142983dab4371cd96370b83152cee3ba5795f770
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-WM1.ANS by Smoke (moi-1296); released in moi-1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: SM-WM1.ANS by Smoke | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-moi-1296-sm-wm1
 
 Write-Host '
 [1;47m████▀▀▀▀▀▀[0m█[1;47m▀▀▀[0m█[1;47m▀▀[0m█████████████████▀▀▀▀▀▀▀▀▀▀▀████████████████▀▀▀▀ [1;33m▄▄▄[0;33m▄▄▄[0;1;35m▀███████[0m

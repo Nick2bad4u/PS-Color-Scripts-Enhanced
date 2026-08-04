@@ -1,13 +1,4 @@
-﻿# Converted from: TT-CL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis-t/raw/TT-CL.ANS
-# Source Revision: archive-sha256:1bd05509d0b9d3fd95988cf79c4eba55d4c815a1c253a90ba1bc1e221ff0e0f8
-# Source SHA-256: d85f77550fd266ea699fde50f21b05f39e14f701e274c898608bfa5f0063c563
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TT-CL.ANS by Tempus Thales (ansis-t); released in ansis-t and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: TT-CL.ANS by Tempus Thales | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-t-tt-cl-part01
 
 Write-Host '
                                                      [1;30m▄▓▓█ [0;34m▄▄▄▄▄▄[0m           [1;30m▄[0m

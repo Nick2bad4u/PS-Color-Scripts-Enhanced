@@ -1,13 +1,4 @@
-﻿# Converted from: shd-city.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/prj13-01/raw/shd-city.ans
-# Source Revision: archive-sha256:8b67f7bd9b5f7c4d6344223ba1b935117753dd1a19b2f8911119f91cf503c833
-# Source SHA-256: 586f46b2e3a39a70d3603e8adf765f3f9396e59e63086fe2e4eb6ba7d42ec70b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: shd-city.ans by Shadow (prj13-01); released in prj13-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: shd-city.ans by Shadow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-prj13-01-shd-city
 
 Write-Host '
 [37;40m                .                                                       [0;1;37;40m·[0;37;40m       [0m

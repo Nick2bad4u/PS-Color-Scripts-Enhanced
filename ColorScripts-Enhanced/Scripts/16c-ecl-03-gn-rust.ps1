@@ -1,18 +1,4 @@
-﻿# Converted from: GN-RUST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-03/raw/GN-RUST.ANS
-# Source Revision: archive-sha256:8478e7ed47e52d1e07bf55e17a5f105ced4b468c6f56a8b59fd6b8ef8dada5ca
-# Source SHA-256: cc0a6742eefa44f87501ce14d36b9af0a6f776eec8d2ae7bfaa03d46e54fc50e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GN-RUST.ANS by grinnedstone (eclipse); released in ecl-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the stuff on my dad's car
-# SAUCE Author: grinnedstone
-# SAUCE Group: eclipse
-# SAUCE Date: 19960711
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: the stuff on my dad's car by grinnedstone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-03-gn-rust
 
 Write-Host '
     [36m▄[0;37m  gn[0;1;37miCE[0m

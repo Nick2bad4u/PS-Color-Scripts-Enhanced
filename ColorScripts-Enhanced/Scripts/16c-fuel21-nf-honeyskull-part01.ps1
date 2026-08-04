@@ -1,20 +1,4 @@
-﻿# Converted from: nf-honeyskull.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel21/raw/nf-honeyskull.ans
-# Source Revision: archive-sha256:3c35978fe1aff0d9cad8b96088193a4169b923a7a460fe0bded18e44ac4f0ea9
-# Source SHA-256: 47307013962094a665bce97d1a81820614c854273f1db088e8f0a1de21190b1c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: nf-honeyskull.ans by Necrofiliac (Fuel); released in fuel21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: HoneySkull
-# SAUCE Author: Necrofiliac
-# SAUCE Group: Fuel
-# SAUCE Date: 20170415
-# SAUCE Dimensions: 80x199
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Ansi made by NF/Fuel for the Revision 2017 demo party.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: HoneySkull by Necrofiliac | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel21-nf-honeyskull-part01
 
 Write-Host '
 [1;30;40m▄▄   ▄ ▄▌▄▄▄[0m░

@@ -1,18 +1,4 @@
-﻿# Converted from: SM!DISK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p01_99/raw/SM!DISK.ANS
-# Source Revision: archive-sha256:8f60f196ab9303212b95219847d0542467217a03e8a054cd4a20b59f229d7873
-# Source SHA-256: e912bb8c4282bdf5110d3ed04663898161de74bb83694e35211669284740f390
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM!DISK.ANS by sir mentor (thelo0p); released in l0p01_99 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: dyskietka 3.5"
-# SAUCE Author: sir mentor
-# SAUCE Group: thelo0p
-# SAUCE Date: 19990308
-# SAUCE Dimensions: 80x69
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: dyskietka 3.5" by sir mentor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p01-99-sm-disk-part01
 
 Write-Host '
                        [31mansi by[0;37m   ▄[0;1;37;47m▄[0m█▄   ▄[1;47m▄[0m█▄   ▄[1;47m▄[0m█▄

@@ -1,13 +1,4 @@
-﻿# Converted from: MER-PWHL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/afc-r6/raw/MER-PWHL.ANS
-# Source Revision: raw-sha256:bfbbbe129187e53b5d13c24e6c72fbc84438ac8adc1c558d97a571eea97bccee
-# Source SHA-256: bfbbbe129187e53b5d13c24e6c72fbc84438ac8adc1c558d97a571eea97bccee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MER-PWHL.ANS by Mercer (afc-r6); released in afc-r6 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: MER-PWHL.ANS by Mercer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-afc-r6-mer-pwhl
 
 Write-Host '
              ▄            ▄         ▄▄▄▄▄▄▄█▀██▀█▄              ▄     ▄

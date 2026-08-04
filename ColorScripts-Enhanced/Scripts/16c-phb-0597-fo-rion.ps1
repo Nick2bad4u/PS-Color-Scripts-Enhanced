@@ -1,18 +1,4 @@
-﻿# Converted from: FO-RION.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phb-0597/raw/FO-RION.ANS
-# Source Revision: archive-sha256:5e2897b5aabe339c16f5d2024824fa427f86134be322d4a86a5d7157032f23f1
-# Source SHA-256: fed0a7b2ea2f8a6e14a6d45942a50f82f3f85681480bb90ab0b13432a0ccd502
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FO-RION.ANS by flexor (pHOBIA@!); released in phb-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: tHERION artmag
-# SAUCE Author: flexor
-# SAUCE Group: pHOBIA@!
-# SAUCE Date: 19970409
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: tHERION artmag by flexor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phb-0597-fo-rion
 
 Write-Host '
                     [33m█[0m                        [33m▐[0m         [33m▐[0m        [33m▐[0m       [33m▐[0m

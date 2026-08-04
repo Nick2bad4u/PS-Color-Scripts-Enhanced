@@ -1,18 +1,4 @@
-﻿# Converted from: SM-POO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-01/raw/SM-POO.ANS
-# Source Revision: archive-sha256:98f7ca14920172db6145e44afa4b8ac94de6e46d94b8cf326e89a96c3e7e5c1b
-# Source SHA-256: 754ced48e6e8619bf36b1ba2f7e0376c1376a6019081130e6c728121ff423f9e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-POO.ANS by smokey the bear (eclipse); released in ecl-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: poo
-# SAUCE Author: smokey the bear
-# SAUCE Group: eclipse
-# SAUCE Date: 19960613
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: poo by smokey the bear | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-01-sm-poo
 
 Write-Host '
 

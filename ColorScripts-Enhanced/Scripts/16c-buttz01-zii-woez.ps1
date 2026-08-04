@@ -1,18 +1,4 @@
-﻿# Converted from: ZII-WOEZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/buttz01/raw/ZII-WOEZ.ANS
-# Source Revision: archive-sha256:f4e347ac1e32829287f7c9cd3dc2f74ed0856c453a34f9a477dc3eb22a6b3da5
-# Source SHA-256: 29ec222df9172e05b0674a9a908fdbfa1adc64324be2c9203b2f038dd777ff44
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-WOEZ.ANS by Zeus II (buttraiderz); released in buttz01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: woezine thang
-# SAUCE Author: Zeus II
-# SAUCE Group: buttraiderz
-# SAUCE Date: 20001001
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: woezine thang by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-buttz01-zii-woez
 
 Write-Host '
 

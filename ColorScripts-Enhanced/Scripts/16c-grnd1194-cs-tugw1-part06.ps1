@@ -1,13 +1,4 @@
-﻿# Converted from: CS-TUGW1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/grnd1194/raw/CS-TUGW1.ANS
-# Source Revision: archive-sha256:a46351645581e540e2e9a58eed61604cab2bbdc718b54c2120d2704a9fc83974
-# Source SHA-256: b79ed6fd54ae022dad5b072139d28daa067f478d7e5ad3037d48a25e2b95e729
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CS-TUGW1.ANS by Cryptic Stench (grnd1194); released in grnd1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 228-273
-# Columns: 1-80
+﻿# Artwork: CS-TUGW1.ANS by Cryptic Stench | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-grnd1194-cs-tugw1-part06
 
 Write-Host '
                                      [31m▓▓▒▒▓▓░░▓▓▒▒▓▓[0m

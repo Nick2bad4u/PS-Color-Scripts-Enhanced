@@ -1,18 +1,4 @@
-﻿# Converted from: DH-FORB3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/insm0496/raw/DH-FORB3.ANS
-# Source Revision: archive-sha256:1a45785c82f2140c827f667c29a63ee2b51153892a0849ccd46a2038795f8c22
-# Source SHA-256: 8e61d197369a778f72cbd030a16c22ac84bb65b5b303ca740d4211cef48c16b4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DH-FORB3.ANS by DarkHeart (iNSOMNiA); released in insm0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Forbidden Illusions
-# SAUCE Author: DarkHeart
-# SAUCE Group: iNSOMNiA
-# SAUCE Date: 19960401
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Forbidden Illusions by DarkHeart | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-insm0496-dh-forb3
 
 Write-Host '
                             [32m ▄[0;1;30m [0m                  [1;30m [0;32m▄ [0m      [1;30m [0;32m▄[0m

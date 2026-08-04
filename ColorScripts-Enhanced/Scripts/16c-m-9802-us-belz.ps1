@@ -1,17 +1,4 @@
-﻿# Converted from: US-BELZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m-9802/raw/US-BELZ.ANS
-# Source Revision: archive-sha256:b77081548bd69d77dfa44ebb7c4a66ac6a6977867bc0f2350868e9616f23eb59
-# Source SHA-256: 5c6113e31b2a8b71fcd351019c34798b38b744b2bde89614822f321e72ac167a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-BELZ.ANS by Quip + Sarcasm (mistigris); released in m-9802 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: belEYEz
-# SAUCE Author: quip / sarcasm
-# SAUCE Group: mistigris
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: belEYEz by Quip + Sarcasm | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m-9802-us-belz
 
 Write-Host '
                                     [33m ░░░░[0;1;31m░░░░[0m [1;31m▄[0m

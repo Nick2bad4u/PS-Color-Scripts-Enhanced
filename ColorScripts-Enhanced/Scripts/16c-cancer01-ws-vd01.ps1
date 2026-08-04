@@ -1,18 +1,4 @@
-﻿# Converted from: WS-VD01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cancer01/raw/WS-VD01.ANS
-# Source Revision: archive-sha256:1d674e5cb6391162607aaf95710b795f9d6c8bbd06eec06cf5932f93f338c133
-# Source SHA-256: 5f33f127cc03c2af64da345cce9118d513f1bb1c7f6c42ece456b2ca832b3330
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WS-VD01.ANS by Warrior Soul (Cancer); released in cancer01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Void
-# SAUCE Author: Warrior Soul
-# SAUCE Group: Cancer
-# SAUCE Date: 19960308
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: Void by Warrior Soul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cancer01-ws-vd01
 
 Write-Host '
 [1;30m▓▓█████████████▓▓█████▓▓▄▄▄[0m                         [31m▀▓██[0;30;41mws!cancer?![0;31;40m█████████████[0m

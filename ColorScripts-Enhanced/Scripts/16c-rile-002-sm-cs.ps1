@@ -1,18 +1,4 @@
-﻿# Converted from: SM-CS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile_002/raw/SM-CS.ANS
-# Source Revision: archive-sha256:09fff222285c90eb6b714714b4c5e3c96cc514cdf338ccf4e30b5898f9a5a64b
-# Source SHA-256: 3effb6eb134be4bc86216773ab85c6f1c15991c181bc9918d25eee1617144ee2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-CS.ANS by sammael (rile); released in rile_002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Color Shock
-# SAUCE Author: sammael
-# SAUCE Group: rile
-# SAUCE Date: 19970302
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Color Shock by sammael | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile-002-sm-cs
 
 Write-Host '
    [1;30m [0m                                                     [1m▄[0m

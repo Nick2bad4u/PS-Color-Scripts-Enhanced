@@ -1,15 +1,4 @@
-﻿# Converted from: R!KILLA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jive0996/raw/R!KILLA.ANS
-# Source Revision: archive-sha256:6b7d48e396de55126b3ae9c64ca3a6e3836b2eee40f86ad76fd1706353435055
-# Source SHA-256: 1adc0b701952855f13e31efaaf9b82fb708554eaf1c4d6921cb3ad5e9c256f3c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: R!KILLA.ANS by The Riddler (jive0996); released in jive0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Killa Clowns
-# SAUCE Author: The Riddler
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Killa Clowns by The Riddler | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jive0996-r-killa
 
 Write-Host '
 [1;30m      [0m          [1;30m  [0m    [1;30m  [0m  [1;36m▄■▀[0m    [1;36m░[0m                              [1;36m ░▄■▄ [0;36m [0m

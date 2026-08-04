@@ -1,18 +1,4 @@
-﻿# Converted from: KRL-MUSH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack03/raw/KRL-MUSH.ANS
-# Source Revision: archive-sha256:c5d60b56a09bec72cbe2b2af3e29c924f185f70cd3040fe03a60b1b9071e731a
-# Source SHA-256: 8016d7a868c6323adf1ccf03bee932609085a657e877261f39963f6a71102845
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KRL-MUSH.ANS by Mr KrinKle (aPoCaLYPTiC viSioNS); released in avpack03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ~Dream statE~
-# SAUCE Author: Mr KrinKle
-# SAUCE Group: aPoCaLYPTiC viSioNS
-# SAUCE Date: 19950118
-# SAUCE Dimensions: 80x112
-# Lines: 47-82
-# Columns: 1-80
+﻿# Artwork: ~Dream statE~ by Mr KrinKle | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack03-krl-mush-part02
 
 Write-Host '
 [1;32;42m░░▒▒▓[0;1;32;40m▌[0;1;31;41m▐[0;1;31;40m█[0;1;31;41m▌[0;1;32;40m▐[0;1;32;42m▓▒▒▒▒▒░░░▒▒▒▒░           [0;32m▀[0m                                      [32m▄▄███[0;32;42m [0m

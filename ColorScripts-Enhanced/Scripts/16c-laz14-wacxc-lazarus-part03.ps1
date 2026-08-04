@@ -1,19 +1,4 @@
-﻿# Converted from: wacxc-lazarus.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz14/raw/wacxc-lazarus.ans
-# Source Revision: archive-sha256:41b4e3770fbffb058172283f3da2aa00e47c872480cf93fdef94629ebc0751bb
-# Source SHA-256: 251b00030d7a6c59f2023e4c0ecbe75a1810edeeefd3c86f100929386b8783bf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wacxc-lazarus.ans by Coaxcable + Warpus (LAZARUS); released in laz14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: LAZARUS the motion picture
-# SAUCE Author: CoaXCable & warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20211213
-# SAUCE Dimensions: 80x111
-# SAUCE Font: IBM VGA
-# Lines: 75-111
-# Columns: 1-80
+﻿# Artwork: LAZARUS the motion picture by Coaxcable + Warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz14-wacxc-lazarus-part03
 
 Write-Host '
 [36;41m▌[0;31;40m████████[0;1;31;41m█[0;31m█[0;1;31;41m██ ▒ █▌[0;31m▄[0;1;31m [0;31m■▀■[0;1;31;41m░[0;33m▄▐▌▄[0;31m [0;33m▀[0;1;35;43m▒▓[0;43m░[0;33;40m▀█[0;37;43m▀▄░[0;33;40m▄▀[0;1;31;43m▀[0;33m█▄[0;37;43m░░▀▒▄[0;33;40m▄[0;1;35;43m▒▒[0;33m▓[0;31m [0;33m▄▐▌▒[0;1;31;41m░[0;31m■▀■[0;1;31m [0;31m▄[0;1;31;41m▐█ ▒ ██[0;31m█[0;1;31;41m█[0;36;41m▌[0;31;40m██[0;1;36;41m  [0;31m███[0m

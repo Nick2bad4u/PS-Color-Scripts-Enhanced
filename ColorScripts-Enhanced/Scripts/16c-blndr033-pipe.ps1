@@ -1,13 +1,4 @@
-﻿# Converted from: PIPE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr033/raw/PIPE.ANS
-# Source Revision: archive-sha256:ba2676c0aef2e799bbe32adcea10b184614cf9a4f7f4871b317bbd32b12b3722
-# Source SHA-256: 917dd676ba7d441c2f5736b24eebfb65a198dd5b8f65f825186fcbd71649ec51
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PIPE.ANS by Acolyte + The Knight + Mosen (blndr033); released in blndr033 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: PIPE.ANS by Acolyte + The Knight + Mosen | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr033-pipe
 
 Write-Host '
  [34m  [0m          [1;30m  [0m

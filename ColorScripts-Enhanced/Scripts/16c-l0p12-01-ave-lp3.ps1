@@ -1,17 +1,4 @@
-﻿# Converted from: AVE-LP3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p12_01/raw/AVE-LP3.ANS
-# Source Revision: archive-sha256:678c9348e291c059a717bb7990ccaffc699e8a46d4f8d71e273fe24e3b605bbc
-# Source SHA-256: 4c81ce4843480b48b003cc42e1b59e15a98c17c2943b376a1ade6270996161d5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-LP3.ANS by avenger (black maiden); released in l0p12_01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: avenger
-# SAUCE Group: black maiden
-# SAUCE Date: 20010912
-# SAUCE Dimensions: 80x27
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: AVE-LP3.ANS by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p12-01-ave-lp3
 
 Write-Host '
 

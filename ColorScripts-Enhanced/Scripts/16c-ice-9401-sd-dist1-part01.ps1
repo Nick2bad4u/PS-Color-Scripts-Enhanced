@@ -1,13 +1,4 @@
-﻿# Converted from: SD-DIST1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9401/raw/SD-DIST1.ICE
-# Source Revision: archive-sha256:28c2a17c965dec6a0723040e48f9d01daba4f6802cfeb3f3aca86eb658570671
-# Source SHA-256: dc5b527b69e22230811154745df7d8d546bb6622b96a3641a4762a80c37e0056
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-DIST1.ICE by Sand + Hannibal Lecter (ice-9401); released in ice-9401 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: SD-DIST1.ICE by Sand + Hannibal Lecter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9401-sd-dist1-part01
 
 Write-Host '
 [1;30m████████████████████████████████▓▓████▓▓▓▓▓▓▓▓▓▓▓▓▒▓▒▒▒▒▒▒▒▒▒▒▒░ ░░▒▒▒▓▒▒▓▓▓▓██[0m

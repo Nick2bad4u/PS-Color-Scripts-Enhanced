@@ -1,18 +1,4 @@
-﻿# Converted from: US-LEGIO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eco-15/raw/US-LEGIO.ANS
-# Source Revision: archive-sha256:409ec45d4d8a58bbd858f19a2194e4a9e60ce3a5a22824158eb9e0a6b60e9226
-# Source SHA-256: 90ef5262148f3cfa660727cd1a6c2ce2280c03164263ba3a63bc02e3ff520ede
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-LEGIO.ANS by Snowball + President (ecolove); released in eco-15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the legion
-# SAUCE Author: snowball & president
-# SAUCE Group: ecolove
-# SAUCE Date: 19990603
-# SAUCE Dimensions: 80x138
-# Lines: 46-92
-# Columns: 1-80
+﻿# Artwork: the legion by Snowball + President | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eco-15-us-legio-part02
 
 Write-Host '
 [36m███████[0;33m [0;36m▐███▄▄[0;33m [0;1;33m▄ [0;36m▄████▌[0;33m [0;36m██[0;1;36;46m░░░[0;36m█▀[0;1;31m  [0;31m░[0;1;37m▄[0;1;33;41m▀ [0;31m▀[0;1;33m▄[0;1;33;41m▄░[0;1;33;40m▌ ▐█[0;31m█▀[0;36m▄▄██████████████████▀█▀[0;1;35m [0;31m░▒▓█▀[0;33m  [0;1;30m▀▀[0m

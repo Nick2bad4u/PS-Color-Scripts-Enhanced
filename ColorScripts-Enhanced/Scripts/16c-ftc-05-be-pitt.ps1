@@ -1,18 +1,4 @@
-﻿# Converted from: BE-PITT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ftc-05/raw/BE-PITT.ANS
-# Source Revision: archive-sha256:5c0404cf283912e8831200a8f9dcc6d8ce0402b99e4f686fa062c4223f57d38b
-# Source SHA-256: dd0cbe91fbd44fa68a08fd575037b4840957b0a6b199dc60802cd5b9a8e9c147
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BE-PITT.ANS by brain eater (ftc); released in ftc-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the pitt
-# SAUCE Author: brain eater
-# SAUCE Group: ftc
-# SAUCE Date: 19960917
-# SAUCE Dimensions: 80x23
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: the pitt by brain eater | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ftc-05-be-pitt
 
 Write-Host '
 

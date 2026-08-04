@@ -1,18 +1,4 @@
-﻿# Converted from: &COVER15.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook15/raw/%26COVER15.ANS
-# Source Revision: archive-sha256:e54ebc8c52f8d9379c31843d1a642e9eaaf309656353be720cf874920f543492
-# Source SHA-256: 3286e4c42a0a8a268b609db2bdb7ede8e046bad3ebbde0f74cc1ef8247f069d8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: &COVER15.ANS by -------------------- (black maiden); released in bmbook15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: welcome to black maiden's book 15
-# SAUCE Author: --------------------
-# SAUCE Group: black maiden
-# SAUCE Date: 19971003
-# SAUCE Dimensions: 80x37
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: welcome to black maiden's book 15 by -------------------- | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook15-cover15
 
 Write-Host '
 

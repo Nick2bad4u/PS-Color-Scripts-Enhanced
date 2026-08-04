@@ -1,13 +1,4 @@
-﻿# Converted from: HB-MDGT2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr039/raw/HB-MDGT2.ANS
-# Source Revision: archive-sha256:c9f4089d2b5b2cd460bf831bacf0aedf023ad23933c86c87f99086e5afa1f00f
-# Source SHA-256: 186fc366cc2fca6a56e438ff04d5a0405cce128e999c0ccc7332eac34d75c1a2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HB-MDGT2.ANS by Handiboy (blndr039); released in blndr039 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: HB-MDGT2.ANS by Handiboy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr039-hb-mdgt2
 
 Write-Host '
  [1;33m▄███▄  [0;33m█[0;1;30;43m▒▒  [0;1;33;40m████████████████[0;1;37;40m████[0;1;33;40m█ [0;33m▐██[0;1;33;43m▒▒[0;1;33;40m█[0;1;37;40m███[0;1;33;40m▌ [0;33m█[0;1;33;43m░[0;1;33;40m█████████████████████[0;1;37;40m███[0;1;33;40m█[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: TF-DARKP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impact07/raw/TF-DARKP.ANS
-# Source Revision: archive-sha256:07b2349bb1ba93a9281e6fa758ea73e28867b3746ecdb88c10b3557ff427fd39
-# Source SHA-256: 1fabc9209448e4d26719dd3288fabc80f8dfc01148f52feab1655792738affd1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TF-DARKP.ANS by twisted foo (impact); released in impact07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: darkend penitentury
-# SAUCE Author: twisted foo
-# SAUCE Group: impact
-# SAUCE Date: 19970504
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: darkend penitentury by twisted foo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impact07-tf-darkp
 
 Write-Host '
                  [1;33m  [0m   [33m▄[0;1;33m   ▄   [0;33m   [0m

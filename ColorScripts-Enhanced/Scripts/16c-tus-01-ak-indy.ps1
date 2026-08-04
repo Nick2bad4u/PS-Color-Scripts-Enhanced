@@ -1,13 +1,4 @@
-﻿# Converted from: AK-INDY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tus-01/raw/AK-INDY.ANS
-# Source Revision: archive-sha256:980574136e564d65bad34bed66955fa948f629a55ad38cd4b9370834a305c832
-# Source SHA-256: f77c271e0a4cab73b5c33231fcee7be2f00e9ffe65de53e112aa679fc36931b1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-INDY.ANS by Abstrakt (tus-01); released in tus-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: AK-INDY.ANS by Abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tus-01-ak-indy
 
 Write-Host '
 [1;34m░░  [0;34m [0;1;34m  [0;34m [0;1;34m [0;34m   [0m     [34m [0m      [1;30m ┌      [0m    [1;30m        [0m   [1;30m                               [0m

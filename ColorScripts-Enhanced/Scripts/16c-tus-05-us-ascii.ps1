@@ -1,13 +1,4 @@
-﻿# Converted from: US-ASCII.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tus-05/raw/US-ASCII.ANS
-# Source Revision: archive-sha256:986f1937ec6e5b109228fbbe378b228ec26f4944801472ad65a0c03345d8dc74
-# Source SHA-256: ede8be85ac068c681553c6d9d36a5067b4ed5e2ac1913313ff7d6b927a96bfc7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ASCII.ANS by Prizm + Discyple (tus-05); released in tus-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: US-ASCII.ANS by Prizm + Discyple | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tus-05-us-ascii
 
 Write-Host '
 [1;36m  [0m$$$.[1;36m  [0m$.         [1;36m        [0m$$$$$\\\[1;36m  [0;35mZZ[0m   [35m [0m                          [36m [0;1;36m$$$$[0;36m [0m

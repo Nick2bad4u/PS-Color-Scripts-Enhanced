@@ -1,13 +1,4 @@
-﻿# Converted from: us-cryo.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/karma-03/raw/us-cryo.ans
-# Source Revision: archive-sha256:91bf38a37d265f766584c08474940331977133c323f72bff6bdb797423dda7af
-# Source SHA-256: e06427c16bc936e645d670de98c4d9d048392483201924eb595db9b5ac14eb35
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-cryo.ans by Mankind + Haji (karma-03); released in karma-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: us-cryo.ans by Mankind + Haji | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-karma-03-us-cryo
 
 Write-Host '
 [1m             [0;36m             [0m

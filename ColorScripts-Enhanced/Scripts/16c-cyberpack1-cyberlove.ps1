@@ -1,19 +1,4 @@
-﻿# Converted from: cyberlove.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cyberpack1/raw/cyberlove.ans
-# Source Revision: archive-sha256:22c86100c349017caf42bcccadd068ca0a12bffc273b969eb406d82adaabee60
-# Source SHA-256: ae3ba9351cb1cc08c69c7a59045b51b431110a58446fabf2d6d42537f99ff156
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cyberlove.ans by Revengeday (CORTEXIMPLANT); released in cyberpack1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Cyber Love
-# SAUCE Author: Revengeday
-# SAUCE Group: CORTEXIMPLANT
-# SAUCE Date: 20250727
-# SAUCE Dimensions: 80x55
-# SAUCE Font: IBM VGA
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: Cyber Love by Revengeday | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cyberpack1-cyberlove
 
 Write-Host '
   [35m▄[0;37m   [0;1;35m▄[0m                                                                  [35m▄[0;37m   [0;1;35m▄[0m

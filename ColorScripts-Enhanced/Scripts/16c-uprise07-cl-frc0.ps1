@@ -1,18 +1,4 @@
-﻿# Converted from: CL!-FRC0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise07/raw/CL!-FRC0.ANS
-# Source Revision: archive-sha256:e9fb6933d41a936134d4f2611eadee07355a10c1a02cff6221e1c572c3d24d6d
-# Source SHA-256: 7fd886da9dae0158f734298e5e9fa9b7e630a8b0f33aae811b27373feec471cf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL!-FRC0.ANS by Cleaner (Uprise); released in uprise07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Force^Logo
-# SAUCE Author: Cleaner
-# SAUCE Group: Uprise
-# SAUCE Date: 19980804
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Force^Logo by Cleaner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise07-cl-frc0
 
 Write-Host '
                     [1;33m [0m [1;33;43m▐[0m

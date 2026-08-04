@@ -1,13 +1,4 @@
-﻿# Converted from: 02-TEA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k-smile/raw/02-TEA.ANS
-# Source Revision: archive-sha256:d5b5b03bdca4251d5279a47c22daea5de27d1ebb345b1e7e45d552b7a8a43983
-# Source SHA-256: f838a5c16accc294267ed3d33f8aaf37a719ec6f6bd342fb941c7f6e5bc81d88
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 02-TEA.ANS by Dr Shizuma (k-smile); released in k-smile and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: 02-TEA.ANS by Dr Shizuma | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k-smile-02-tea
 
 Write-Host '
 ▄[1;33;47m▄[0;1;33;40m██[0m▄[1;33;47m▓▓[0;33m░[0;37m  [0;1;30m                       [0m  [1m▄[0m ▐█▌[1;36m▐[0;1;37;46m▓▓[0;1;36;46m▌[0;36m▌[0;1;36m [0m [1;36m▄▄▄▄[0m   [1;34m▄[0;36m▄▄░[0;30;46m▓[0;37;40m [0;1;34;40m▄▄[0;34m▄[0m       [34m░[0;30;44m▓[0;34;40m▄▄▄▄▄▄[0;1;34;40m▒▒[0m

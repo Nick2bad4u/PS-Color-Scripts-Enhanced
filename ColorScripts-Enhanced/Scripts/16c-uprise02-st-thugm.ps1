@@ -1,18 +1,4 @@
-﻿# Converted from: ST-THUGM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise02/raw/ST-THUGM.ANS
-# Source Revision: archive-sha256:3c5eae1b029b826705ce867bea68894f1a335fc23718a08e0687e597855e8cb9
-# Source SHA-256: 3d1e28531e15289f6c6b7c3dee587defcefc500c060ecec4f25c87db97142697
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-THUGM.ANS by Sting (UPRiSe); released in uprise02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: thug life..
-# SAUCE Author: Sting
-# SAUCE Group: UPRiSe
-# SAUCE Date: 19980323
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: thug life.. by Sting | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise02-st-thugm
 
 Write-Host '
 [34m            ░░[0;30;44m▓[0;34;40m░   [0;30;44m██[0;34;40m▄▄▄▄▄▄[0;1;34;44m░░░▒▒▒▓▓████[0;1;34;47m▓▓[0;1;34;40m▄▄▄▄▄[0;34m      ▄▄▄▄▄▄█[0;1;34;44m░[0;34m██[0;1;34;44m░░▒▓▓█[0;1;34;40m▀▀▀▀▀▀▀[0;1;34;44m█[0;1;34;47m▓▒░[0m▄

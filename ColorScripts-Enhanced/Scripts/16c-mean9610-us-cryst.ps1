@@ -1,17 +1,4 @@
-﻿# Converted from: US-CRYST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mean9610/raw/US-CRYST.ANS
-# Source Revision: archive-sha256:eb05f2b8207463fc94de363304abab4a1544e298daf7dc7d1efbc5b0f6afd5eb
-# Source SHA-256: 2eee8048837303d93568ed983f4e3217efafc052700d98977cf52ad6bf4f445e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CRYST.ANS by Nail + Kyp (mean9610); released in mean9610 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the crypt stats
-# SAUCE Author: nail+kyp
-# SAUCE Date: 19961031
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: the crypt stats by Nail + Kyp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mean9610-us-cryst
 
 Write-Host '
   [33m░░[0;37m [0;30;43m▓▓░[0;1;33;43m░░▒▓▓[0;1;33;40m▀[0;1;33;43m▓▓[0;1;33;40m██[0;1;33;47m▓▓▒▒▒▓[0;1;33;40m█[0;1;33;43m▓▓[0;1;33;40m█▀[0m [30;43m▓░[0;1;33;43m░▒▓[0;1;33;40m▄[0;35m   [0m

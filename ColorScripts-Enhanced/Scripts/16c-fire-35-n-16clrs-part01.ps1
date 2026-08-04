@@ -1,19 +1,4 @@
-﻿# Converted from: N-16CLRS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-35/raw/N-16CLRS.ANS
-# Source Revision: archive-sha256:c366a38306f48b13ede280377c5f8ef243fdab7e7890ac3e053ec3ccbc5d901a
-# Source SHA-256: 035e3f28fa50bdffa7c5323ec1e6885672c0f2f2f629dc0378b4c030a0de4034
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-16CLRS.ANS by nail (fire); released in fire-35 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: sixteen colors
-# SAUCE Author: nail
-# SAUCE Group: fire
-# SAUCE Date: 20221107
-# SAUCE Dimensions: 80x125
-# SAUCE Font: IBM VGA
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: sixteen colors by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-35-n-16clrs-part01
 
 Write-Host '
 [34;40m  ▄█[0;1;34;44m▌[0;34m   [0;1;34;44m  ▀▀▓▓▓▓▓██[0;1;34;47m▄ [0;1;37;47m▄[0;1;34;47m▀ [0;1;34;44m██▌[0;34m   █[0;1;34;44m█[0;1;34;46m▀[0;1;34;44m▄[0;32;44m░░░[0;34;40m█▓▓▒▒░░[0m       [34;40m▀[0;1;34;44m▀██▌ ▄▄████▓▓▒▒░░ [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: N!CSCMMN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mean9702/raw/N!CSCMMN.ANS
-# Source Revision: archive-sha256:50188cf6a7b32040057966067eb7319691f159dea5b32b2a96dde8d34c559d2e
-# Source SHA-256: cb8597359178e1dc70467ad6889c61540ff91eed4f283c0a037acd700bff6b63
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N!CSCMMN.ANS by nail (mean scheme); released in mean9702 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: crescent#2 main menu
-# SAUCE Author: nail
-# SAUCE Group: mean scheme
-# SAUCE Date: 19961102
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: crescent#2 main menu by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mean9702-n-cscmmn
 
 Write-Host '
  [33m▄nail[0;37m [0;33m▄▄[0m    [1;37m▄[0;1;33m▄[0;33m▄[0;37m [0;33m▄[0;37m [0;33m▐▄[0;1;33m▄[0m     [33m░░▓▄[0;1;33m▄[0;1;37m▄▄[0;1;33m▄[0;33m▄[0;37m [0;33m    ▀[0;37m [0;1;37m▀█[0;1;33m▄[0;1;33;43m▄[0;33m▀[0m        [1;37m▄▄[0;1;33;43m▄▄[0;33m▄[0m   [33m▄[0;1;37m▄[0m    [33m▄[0;37m  [0;1;33;43m░▄[0;33m▄[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: ZM-KEM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-1098/raw/ZM-KEM.ANS
-# Source Revision: archive-sha256:c4e49f581efdb23757cb4cd22ca84401fcd6ac0febdad687007b0b36de54547a
-# Source SHA-256: 714b4ac1b41f22f24e808e0d278a9da784fcd128fe66a6e9a7a38cc7cff43e1b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZM-KEM.ANS by Zatchmo (Poffelipoff); released in plf-1098 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Kem
-# SAUCE Author: Zatchmo
-# SAUCE Group: Poffelipoff
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Kem by Zatchmo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-1098-zm-kem
 
 Write-Host '
                [30;41m▓▓▓[0;37;40m  ░░ ░[0m

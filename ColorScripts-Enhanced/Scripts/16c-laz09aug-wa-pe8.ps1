@@ -1,18 +1,4 @@
-﻿# Converted from: WA-PE8.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz09aug/raw/WA-PE8.ANS
-# Source Revision: archive-sha256:3e0bd3039fe877b3970f71e80b4456ee60793f2295ae127a50a6587b17c2d6a2
-# Source SHA-256: 2eb252ba170d088a2bf421bd02c901bca6e32c1590198603c27ae19e2d8db0a0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WA-PE8.ANS by warpus (lazarus); released in laz09aug and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: prejac
-# SAUCE Author: warpus
-# SAUCE Group: lazarus
-# SAUCE Date: 19970723
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: prejac by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz09aug-wa-pe8
 
 Write-Host '
 [1;35m[0;1;37m[0;1;35m[0;1;30m[0m[1m[0m

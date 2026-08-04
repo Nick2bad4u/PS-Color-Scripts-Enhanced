@@ -1,13 +1,4 @@
-﻿# Converted from: MR-DEATH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rctpak02/raw/MR-DEATH.ANS
-# Source Revision: archive-sha256:c99af2bcda51b08e86d94290660fb5f051eb3352220923189f65deaddef681a7
-# Source SHA-256: 5777ec847608cbd74d66792d7a6a5738bd5593d6ead3d2830465df66dd311e61
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-DEATH.ANS by Mirage (rctpak02); released in rctpak02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 39-65
-# Columns: 1-80
+﻿# Artwork: MR-DEATH.ANS by Mirage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rctpak02-mr-death-part02
 
 Write-Host '
                        [1;30m■·4[0m·[36m1[0m·[1;36m3[0;1m·■·[0;1;36mP[0;1m·[0;1;36mR[0;1m·[0;1;36mI[0;1m·■·[0;1;36mV[0;1m·[0;1;36mA[0m·[36mT[0m·[1;30mE·■[0m

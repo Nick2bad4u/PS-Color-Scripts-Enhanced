@@ -1,17 +1,4 @@
-﻿# Converted from: HQ-UND1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m-9806-a/raw/HQ-UND1.ANS
-# Source Revision: archive-sha256:eb10640e3f8107bdd0ebee65a225456c83101a551583eb5db847aaf454501a55
-# Source SHA-256: 5a832fb8efc7e9395eb7fbe42ca634326450594422d64f4f458f88f6f40b1472
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HQ-UND1.ANS by Haquisaq (mISTFUNK 1998); released in m-9806-a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Ultimate Underground
-# SAUCE Author: Haquisaq
-# SAUCE Group: mISTFUNK 1998
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Ultimate Underground by Haquisaq | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m-9806-a-hq-und1
 
 Write-Host '
 

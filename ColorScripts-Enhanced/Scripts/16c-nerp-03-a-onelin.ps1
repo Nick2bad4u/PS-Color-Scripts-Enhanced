@@ -1,18 +1,4 @@
-﻿# Converted from: A-ONELIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-03/raw/A-ONELIN.ANS
-# Source Revision: archive-sha256:9ea26ff16b2d0162532c602fba75b69e539d71620a3b4e34b796de886326619c
-# Source SHA-256: af7ff9326f9632a6c0ab35c12d46fac8508cf2bbef9223c073b5ad2096e3c63b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: A-ONELIN.ANS by alecs (nerp); released in nerp-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: qUENdi oneliner
-# SAUCE Author: alecs
-# SAUCE Group: nerp
-# SAUCE Date: 19971224
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: qUENdi oneliner by alecs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-03-a-onelin
 
 Write-Host '
 [1;31m[0m       [34m▄[0;1;36m▄[0;34m▄  [0;1;33m█▄[0;34m [0m           [37m▄[0;1;37m▄▄▄[0m           [1;37m░░[0m                  [34m ▄[0;35m▄▄[0;34m▄ ▄▄▄[0m

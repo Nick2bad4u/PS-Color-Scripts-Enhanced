@@ -1,18 +1,4 @@
-﻿# Converted from: US-CEO2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9702/raw/US-CEO2.ANS
-# Source Revision: archive-sha256:66fa024bb27d2c5c9da5d44e7d12f110f2c57bdedd32c6f0a850d91a30d582a8
-# Source SHA-256: 16c1d0b0238afb5d623ba78fc5241a61d4936dff595b89f8bcf4803b65fe6e72
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CEO2.ANS by The Night Angel + Massm (AWE Lettering); released in awe9702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Ceo
-# SAUCE Author: Multiple Artists
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970130
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Ceo by The Night Angel + Massm | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9702-us-ceo2
 
 Write-Host '
 

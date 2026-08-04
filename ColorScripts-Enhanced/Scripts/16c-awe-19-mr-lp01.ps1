@@ -1,18 +1,4 @@
-﻿# Converted from: MR-LP01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-19/raw/MR-LP01.ANS
-# Source Revision: archive-sha256:db429aaaa9cca2e4296dcb178b9b345b980b5c7d6fe930188ea53fede20ed269
-# Source SHA-256: cb369b7acbc3b58703b5a0724dcb77c3d248218c831fbb3c272669211e47edac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-LP01.ANS by Mr. Wrong (AWE Lettering); released in awe-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Lost Paradise
-# SAUCE Author: Mr. Wrong
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981119
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Lost Paradise by Mr. Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-19-mr-lp01
 
 Write-Host '
         [1;30m [0m   [1;30m  [0m     [33m▄[0m    [33m▀[0m                         [1;31m  [0;31m░[0;33m░[0;37m░[0;33m▄[0;31m [0;37m░[0;1;30m░[0m [1;31m [0;31m   [0;1;31m [0m

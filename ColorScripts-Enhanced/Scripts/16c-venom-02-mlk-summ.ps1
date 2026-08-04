@@ -1,18 +1,4 @@
-﻿# Converted from: MLK-SUMM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/venom-02/raw/MLK-SUMM.ANS
-# Source Revision: archive-sha256:e22715f3c8b29dec1c0bcd005666976507a7359ff81b66f6caf890dd6d6038d0
-# Source SHA-256: da491faa6ac0975ad26d8f07ebb44caea1985c0ff3e85a7722394324dcb384c0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MLK-SUMM.ANS by Milk (venom); released in venom-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Summoning
-# SAUCE Author: Milk
-# SAUCE Group: venom
-# SAUCE Date: 19980331
-# SAUCE Dimensions: 80x25
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: The Summoning by Milk | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-venom-02-mlk-summ
 
 Write-Host '
 

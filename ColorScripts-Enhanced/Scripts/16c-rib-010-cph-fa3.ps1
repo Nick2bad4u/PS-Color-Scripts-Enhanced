@@ -1,15 +1,4 @@
-﻿# Converted from: CPH-FA3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-010/raw/CPH-FA3.ANS
-# Source Revision: archive-sha256:f0e8a1202a9ab4518ddf30655a3e3a838d00336d432c41d2fb4ced8564853688
-# Source SHA-256: 65456fa433eeebd338de65e6b437db8f8df5720e5b8104189b235c2fb543fb9e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-FA3.ANS by Cyberpunch (rib-010); released in rib-010 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 19980625
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: CPH-FA3.ANS by Cyberpunch | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-010-cph-fa3
 
 Write-Host '
 

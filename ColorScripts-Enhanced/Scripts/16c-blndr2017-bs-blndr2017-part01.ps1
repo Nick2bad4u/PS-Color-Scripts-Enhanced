@@ -1,20 +1,4 @@
-﻿# Converted from: bs-blndr2017.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr2017/raw/bs-blndr2017.ans
-# Source Revision: archive-sha256:1fb2f27ae0504f7403b591cef9f24c71fadd041b9f9a32cdfe6b5f567b9fa699
-# Source SHA-256: b0091e6f656cb02718233a3d32d36068e3f5d8a046b3b2e3c1695e1906a641e6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bs-blndr2017.ans by burps (fuel); released in blndr2017 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: blender 2017 entry
-# SAUCE Author: burps
-# SAUCE Group: fuel
-# SAUCE Date: 20170410
-# SAUCE Dimensions: 80x89
-# SAUCE Font: IBM VGA
-# SAUCE Comments: keywords: cool dads / cooking / in the apocalypse
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: blender 2017 entry by burps | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr2017-bs-blndr2017-part01
 
 Write-Host '
          [31m▄███▄   [0;35m▄███▄[0m

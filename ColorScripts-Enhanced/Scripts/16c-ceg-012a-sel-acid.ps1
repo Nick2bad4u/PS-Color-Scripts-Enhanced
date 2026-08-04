@@ -1,17 +1,4 @@
-﻿# Converted from: SEL-ACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ceg-012a/raw/SEL-ACID.ANS
-# Source Revision: archive-sha256:de757e81fef066f837d4c526e6885103684c4d8a8d216c507a8f09c5206b8c26
-# Source SHA-256: e6d85f901c1d29d0bea73011d8b807464aec6925ad5b5f6946b40444e1f66e2a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SEL-ACID.ANS by seltorn (black maiden); released in ceg-012a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: seltorn
-# SAUCE Group: black maiden
-# SAUCE Date: 20000809
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: SEL-ACID.ANS by seltorn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ceg-012a-sel-acid
 
 Write-Host '
   [1;37m [0m                         [30;43m▓▓▓▓[0m                            ▀[1;37;47m▀▓▓[0;1;37;40m████████████████[0m

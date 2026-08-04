@@ -1,18 +1,4 @@
-﻿# Converted from: QP-JADE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m-9801/raw/QP-JADE1.ANS
-# Source Revision: archive-sha256:68027b949f7edfef662f12aa514dfc21e6e156e3984f9866a81997534ce6ce87
-# Source SHA-256: e62668587742fdc57ccf7e5110739381634026fcb6c69c52ea4bbb4656b24a0f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: QP-JADE1.ANS by quip (mistigris); released in m-9801 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the jade monkey
-# SAUCE Author: quip
-# SAUCE Group: mistigris
-# SAUCE Date: 19971218
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: the jade monkey by quip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m-9801-qp-jade1
 
 Write-Host '
 [1m[0m            [1;32m░[0m                [1;33m                  [0m

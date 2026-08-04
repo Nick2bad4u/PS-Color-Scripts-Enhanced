@@ -1,18 +1,4 @@
-﻿# Converted from: SQ-BB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0402/raw/SQ-BB.ANS
-# Source Revision: archive-sha256:19898cc2febb6deadccf50832dc421b4f362a33c899e27278bafd225bbc2d4d4
-# Source SHA-256: bdcaeaa8daea28f0c40e67fe1bc12e28e7c550fe3816f38004c313ec07c0ca6f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SQ-BB.ANS by sharque (Revival); released in rev0402 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Blue Box
-# SAUCE Author: sharque
-# SAUCE Group: Revival
-# SAUCE Date: 20020415
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Blue Box by sharque | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0402-sq-bb
 
 Write-Host '
                         [34m▄[0m                                    [34m░[0m

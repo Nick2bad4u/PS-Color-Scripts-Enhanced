@@ -1,18 +1,4 @@
-﻿# Converted from: KRL-RAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack14/raw/KRL-RAT.ANS
-# Source Revision: archive-sha256:cc504a5dba52c5f998daf5493fac68a658e6668bcf22da76e3af7c67337c8c9c
-# Source SHA-256: 985cdbf6359442f72d43403d8cabd9ae17568ff7bf1f8f98fdf574da26c901b8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KRL-RAT.ANS by Krinkle (apocalyptic visions); released in avpack14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: midian matrix screen
-# SAUCE Author: Krinkle
-# SAUCE Group: apocalyptic visions
-# SAUCE Date: 19960529
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: midian matrix screen by Krinkle | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack14-krl-rat
 
 Write-Host '
 [1;34m████████████████████████████████████████████████████████████[0;1;34;44m▀▀▀▀▀▀▀[0;1;34;40m█████████████[0m

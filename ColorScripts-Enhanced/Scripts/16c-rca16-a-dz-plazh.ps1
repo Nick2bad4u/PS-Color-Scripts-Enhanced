@@ -1,13 +1,4 @@
-﻿# Converted from: DZ-PLAZH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca16-a/raw/DZ-PLAZH.ANS
-# Source Revision: archive-sha256:c66af227f0487c6a2106388d1038f0f141348ecfdbd559edd3cf06b5528480f9
-# Source SHA-256: cd1ae2a7b6a36c5d03c50ab82675f09879767b5ceea847a16068981ab3c7ab2c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DZ-PLAZH.ANS by Dz (rca16-a); released in rca16-a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: DZ-PLAZH.ANS by Dz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca16-a-dz-plazh
 
 Write-Host '
             [35m [0m     [1;30m ▄▄▄████[0;1;30;46m▓▓[0;1;30;40m██████[0;1;30;47m▒▒[0;1;30;40m█▄▄▄▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: AVG-KNO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense12j/raw/AVG-KNO1.ANS
-# Source Revision: archive-sha256:e1859c229de4f4dd1e65990d325e90f1a80e1ce3863ae80925f53e6878990dc6
-# Source SHA-256: a72c69723bd6324609f1b8f3b019860575da554ea02e343d04106b0ea9b8dadd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-KNO1.ANS by avenging angel (sense); released in sense12j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: knocturnal
-# SAUCE Author: avenging angel
-# SAUCE Group: sense
-# SAUCE Date: 20030128
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: knocturnal by avenging angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense12j-avg-kno1
 
 Write-Host '
 

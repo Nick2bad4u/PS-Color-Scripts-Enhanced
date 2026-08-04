@@ -1,18 +1,4 @@
-﻿# Converted from: KID-ROB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph-07/raw/KID-ROB.ANS
-# Source Revision: archive-sha256:05b9134433837782e39338bf79fd6ada6d2fc8bfba82437f2c41c6bc37a6d75a
-# Source SHA-256: c24e0d580feffc08923bec4ddc22b5f854507a810e88dd6dcd9549684454a7f7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KID-ROB.ANS by /4lex 3<idd (Nitrophusion); released in nph-07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Rob the Fireman !
-# SAUCE Author: /4lex 3<idd
-# SAUCE Group: Nitrophusion
-# SAUCE Date: 19980528
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Rob the Fireman ! by /4lex 3<idd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph-07-kid-rob
 
 Write-Host '
            [31m≈,$,≈[0m               [35m$$Ss,[0m                                          [1;35m╨k[0m

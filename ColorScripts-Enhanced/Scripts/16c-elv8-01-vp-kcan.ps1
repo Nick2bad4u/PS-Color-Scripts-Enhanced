@@ -1,13 +1,4 @@
-﻿# Converted from: VP-KCAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/elv8-01/raw/VP-KCAN.ANS
-# Source Revision: archive-sha256:c1b5a83992b69433704d43acb9703ab3d7c9339f803bfd267c4c55bfae789fb6
-# Source SHA-256: f668aee33c44af68bc6d1c03a63e2c6ca40739486214d9b06154e929b28ba6e2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VP-KCAN.ANS by Vapor (elv8-01); released in elv8-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: VP-KCAN.ANS by Vapor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-elv8-01-vp-kcan
 
 Write-Host '
                                                  [1;36m.4$$$6.[0m

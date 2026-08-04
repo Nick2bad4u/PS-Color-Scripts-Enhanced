@@ -1,15 +1,4 @@
-﻿# Converted from: BM-US.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jive0996/raw/BM-US.ANS
-# Source Revision: archive-sha256:6b7d48e396de55126b3ae9c64ca3a6e3836b2eee40f86ad76fd1706353435055
-# Source SHA-256: 5a047861ea54286abaf0ec058e5098eebf65877150011afc7c527163b8c5a08b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BM-US.ANS by Blazemore (jive0996); released in jive0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Untold Saga
-# SAUCE Author: Blazemore
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Untold Saga by Blazemore | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jive0996-bm-us
 
 Write-Host '
 

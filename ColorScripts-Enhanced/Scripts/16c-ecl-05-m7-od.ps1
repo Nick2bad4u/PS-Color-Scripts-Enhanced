@@ -1,18 +1,4 @@
-﻿# Converted from: M7-OD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-05/raw/M7-OD.ANS
-# Source Revision: archive-sha256:9471ca7612415a41916878584e9d9bf710a5efbc5b8d389ed1bde764e2a602ca
-# Source SHA-256: f0203c904b5689f2747851057edeb4edd65d570e17d172e3bc4c8dcbd17757d3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M7-OD.ANS by magna-zip (eclipse); released in ecl-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: O-DEE
-# SAUCE Author: magna-zip
-# SAUCE Group: eclipse
-# SAUCE Date: 19960815
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: O-DEE by magna-zip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-05-m7-od
 
 Write-Host '
 [1m███████████▀▀[0;34m ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;37m [0;1;37m▀▀▀██████████████[0;1;37;47m▀[0;1;37;40m▀▀▀▀▀▀▀▀███▄[0m [1;34m▄▄[0;34m▄[0m

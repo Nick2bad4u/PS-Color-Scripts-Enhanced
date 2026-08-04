@@ -1,13 +1,4 @@
-﻿# Converted from: MG-DICE.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9403/raw/MG-DICE.ICE
-# Source Revision: archive-sha256:256add313f6fb2d9526e695b09f6039aacb3931a76c34081a80ce81f3cc3dbc4
-# Source SHA-256: f488212cde00d9e51a3746971b3fb1e50730cd3d89d59033f4ed3afc1b2624cb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MG-DICE.ICE by Magnus (ice-9403); released in ice-9403 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: MG-DICE.ICE by Magnus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9403-mg-dice-part01
 
 Write-Host '
 [31m█████[0;1;31;41m░░░[0;31m█[0;1;31;41m░░[0;31m▀▀[0;1;31;41m░▒█▓▒▒░░[0;31m██▀[0;35m▄[0;1;35;45m░░▒▓▓▓▓▒▒▒░[0;35m▌[0;31m▐█[0;1;31;41m░░▒▒▓▓█▓▓▒▒░░[0;31m▌[0;35m▐[0;1;35;45m░▒▓▓▒▒░░░[0;35m▀▀▀▀ [0;31m▀[0;1;31;41m░░░░░░▒▒▒▒[0m

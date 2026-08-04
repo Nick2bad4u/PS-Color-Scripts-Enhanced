@@ -1,18 +1,4 @@
-﻿# Converted from: VS-FED1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0494/raw/VS-FED1.ANS
-# Source Revision: archive-sha256:cda9410890e0ae8f5b3a1e8c7fce4e1b3de00d8e334ef300576869cead7a6b53
-# Source SHA-256: debeb0f629afe567a37040c9ac067c94ab56b404fbdbd1a35837a5c687f05ea6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VS-FED1.ANS by Vision (ACiD Productions); released in acdu0494 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Federation Network
-# SAUCE Author: Vision
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940322
-# SAUCE Dimensions: 80x186
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: Federation Network by Vision | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0494-vs-fed1-part01
 
 Write-Host '
 

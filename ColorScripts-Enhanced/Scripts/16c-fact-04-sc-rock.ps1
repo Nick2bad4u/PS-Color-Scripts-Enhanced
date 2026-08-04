@@ -1,18 +1,4 @@
-﻿# Converted from: SC-ROCK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fact-04/raw/SC-ROCK.ANS
-# Source Revision: archive-sha256:ede22877181bcaee0ecbada01269c2c7bf675cbd1fe3cc75db17ea24e9fac1f9
-# Source SHA-256: 2cb86739bf4db07c3bd6be5a040221594c10807aafbd1ee6d16fed30d81f82db
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SC-ROCK.ANS by sCaPe (fACt!); released in fact-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Make.it.rock
-# SAUCE Author: sCaPe
-# SAUCE Group: fACt!
-# SAUCE Date: 19960421
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Make.it.rock by sCaPe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fact-04-sc-rock
 
 Write-Host '
 

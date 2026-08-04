@@ -1,13 +1,4 @@
-﻿# Converted from: STATS_2.ANS
-# Source encoding: CP437
-# Source URL: https://www.roysac.com/images/galleries/ZIP/Roy_EarlyANSI.ZIP
-# Source Revision: archive-sha256:cad71f6167590b04f85d75a819d6aded9a2f6729c741e43ea1101a43159886c1
-# Source SHA-256: 551c1a30b3bd7e7adf26a6e6d1be26baec947e3d770c0cfc76c360a87dc29991
-# Source License: FAL-1.3
-# Source Attribution: STATS_2.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_EarlyANSI.ZIP archive.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: STATS_2.ANS by Roy/SAC aka Carsten Cumbrowski | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=roy-sac-stats-2
 
 Write-Host '
      [31m▄▄▒░▓█▒[0;1;30m▒[0;31m░░▓▄▓▒░▒▄ ▄▓▄[0m                                                   ▄

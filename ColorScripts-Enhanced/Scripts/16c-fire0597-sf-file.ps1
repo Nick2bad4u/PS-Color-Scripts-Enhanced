@@ -1,18 +1,4 @@
-﻿# Converted from: SF-FILE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0597/raw/SF-FILE.ANS
-# Source Revision: archive-sha256:d975415729673826f91e424c4e11b4c04f34184fd3a18803a91e92ec4aab5c0b
-# Source SHA-256: 52e33185b73bd724e02d74ec791a3383775cf7516db712eddc0b4f86fc6d2bed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SF-FILE.ANS by shaft (fire!@); released in fire0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: files
-# SAUCE Author: shaft
-# SAUCE Group: fire!@
-# SAUCE Date: 19970423
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: files by shaft | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0597-sf-file
 
 Write-Host '
          [1;30m▐▀  [0;36m [0;32m▐[0;1;32;42m▄[0;1;32;40m██[0;36m [0;1;30m▌[0m   [36m [0;1;32m░░[0;1;30m▄▄▄▄ [0m                 [1;30m▄[0m   [1;30m [0m

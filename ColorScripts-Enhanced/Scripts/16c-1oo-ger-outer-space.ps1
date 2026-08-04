@@ -1,13 +1,4 @@
-﻿# Converted from: Outer_Space.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1oo-ger/raw/Outer_Space.ans
-# Source Revision: raw-sha256:35868fdfa8cc31681fafd640429e13200128bc4ee82d2fdfbecde0004b22370d
-# Source SHA-256: 35868fdfa8cc31681fafd640429e13200128bc4ee82d2fdfbecde0004b22370d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Outer_Space.ans by Neurodancer (1oo-ger); released in 1oo-ger and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Outer_Space.ans by Neurodancer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1oo-ger-outer-space
 
 Write-Host '
 [40m [0;34;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: GU-GOD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0194/raw/GU-GOD1.ANS
-# Source Revision: archive-sha256:a43017ca40212af646d7cc19e6ecf01d326ebec184a5046d2c7f67040ece2aa4
-# Source SHA-256: 80797e4791ebabf554b487f8c9f66d8ec715fc60666a22f45a742245cc51db9a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GU-GOD1.ANS by Guile (acdu0194); released in acdu0194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 184-231
-# Columns: 1-80
+﻿# Artwork: GU-GOD1.ANS by Guile | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0194-gu-god1-part05
 
 Write-Host '
 [1;40m████[0;1;46m▓▓▒▒░[0;36m▄    [0;1m▀[0;1;47m▓▓▓▒[0;1m▄[0;31m▀[0;1;31;41m▓[0;1;31m█[0;1;31;41m▒▒▓[0;1;31m█[0m                               [36m▄[0;1;46m░░[0;36m▌▐[0;1;46m▓▓▓[0;1m▀▀[0;36m▄[0;1;46m░░░▒▒▒[0;36m▄[0;1m▀██[0m

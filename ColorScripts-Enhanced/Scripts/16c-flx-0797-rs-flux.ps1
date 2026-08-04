@@ -1,18 +1,4 @@
-﻿# Converted from: RS-FLUX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flx-0797/raw/RS-FLUX.ANS
-# Source Revision: archive-sha256:8881bffa0acfdeb90957524533ce6ee992fcd4666c7b6ff313d36d1cb171ca2b
-# Source SHA-256: fe1d4c77fdf464651b1caa006389c667b0f48084f6dad94ea0fcba403d34905e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-FLUX.ANS by rorshack (Maiden Brazil); released in flx-0797 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: flux
-# SAUCE Author: rorshack
-# SAUCE Group: Maiden Brazil
-# SAUCE Date: 19970515
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: flux by rorshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flx-0797-rs-flux
 
 Write-Host '
 [1m██[0;1;36;46m█▓▓░░[0;36m█████████▀▀▀▀▀▀▀▀█████████[0;1;36;46m▄▄▄▄[0;36m█[0;37m [0;1;37m░███[0;1;33m██[0;1;33;43m▓▓░░[0;33m█████▄[0;37m [0;1;37m██[0;1;36m██[0;1;36;46m▓▓░░[0;36m███████[0;1;36;46m░░▓▓██[0;1;37;40m██[0m

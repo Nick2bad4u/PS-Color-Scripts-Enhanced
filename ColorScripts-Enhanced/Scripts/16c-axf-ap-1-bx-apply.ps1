@@ -1,17 +1,4 @@
-﻿# Converted from: BX-APPLY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axf-ap-1/raw/BX-APPLY.ANS
-# Source Revision: archive-sha256:677d92e3c1456f7d379a6bfd6ef2a3e9f4462186ed5fa427899c9f4c329d0aa2
-# Source SHA-256: 1f8ba8ec1d252fac90cdfec5b47bc18ef213bd513234ed93121967b1938c2af4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BX-APPLY.ANS by baxter (axial force); released in axf-ap-1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Main menu for apply-prog
-# SAUCE Author: baxter
-# SAUCE Group: axial force
-# SAUCE Date: 19960913
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Main menu for apply-prog by baxter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axf-ap-1-bx-apply
 
 Write-Host '
      [30;47m▀   [0;1;37;47m▄▄▄[0;30;47m        [0;1;37;47m░[0;30;47m         [0;37;40m▓[0;1;37;47m▓▒[0m█[30;47m              [0;37;40m▀▀▀▀[0;30;47m    [0;1;37;47m░[0;30;47m      [0;37;40m▓[0;30;47m         ▀[0m

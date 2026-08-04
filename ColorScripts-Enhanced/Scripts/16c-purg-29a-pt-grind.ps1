@@ -1,13 +1,4 @@
-﻿# Converted from: PT-GRIND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-29a/raw/PT-GRIND.ANS
-# Source Revision: archive-sha256:5de89fa125eb7333a54bae49908ef76358fcc0ce9b3df66010dca2eb64b17560
-# Source SHA-256: 8114f527e916b2cbcc6070795b4a49640e0bb39ed873eef2092467d4075474d8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PT-GRIND.ANS by Produkt (purg-29a); released in purg-29a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: PT-GRIND.ANS by Produkt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-29a-pt-grind
 
 Write-Host '
 [1;30m█████[0;1;30;44m▓▓[0;1;30;40m▀[0m [34m [0;37m   [0;1;30m▀  [0m  [34m▄    ░ [0;37m [0;34m [0;37m [0;34m▀▓▄▒[0;37m  [0;34m░[0;37m    [0;1;30m▀[0m [1;30m▀[0;1;30;47m▒▒░▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;33;47m░░[0;1;30;47m▀[0;1;30;40m█[0m

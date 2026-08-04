@@ -1,17 +1,4 @@
-﻿# Converted from: N-SPCLGF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0996/raw/N-SPCLGF.ANS
-# Source Revision: archive-sha256:fd0c87547005857a37aee32ff40c82a1e8535aecda68a9edc2483cdc45b21af1
-# Source SHA-256: e013839c858b722bfb02ad437739b7f5a41d8b6ebae7fc869a03f829a89701ac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-SPCLGF.ANS by nail (fire0996); released in fire0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: spice logoff
-# SAUCE Author: nail
-# SAUCE Date: 19960905
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: spice logoff by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0996-n-spclgf
 
 Write-Host '
  [33m      [0m     [33m▀▀▀[0;1;31;43m▀▀▓▌[0;33m ▐█[0;1;31;43m▒[0m [33m▐[0;1;31;43m░[0;33m ▄█▀▀ [0m   [1;30m▀[0;1;30;46m▄░▀[0;1;30;40m▄▓[0m [31m█[0;30;41m░[0;31;40m▌[0;1;30;40m▐▄[0;31m    ▀[0;37m [0;31m▀▀ ▄▄[0;1;31;41m▄▓[0;31m████[0;1;31;41m█[0;31m███████[0;1;31;41m▓[0;31m██████[0m

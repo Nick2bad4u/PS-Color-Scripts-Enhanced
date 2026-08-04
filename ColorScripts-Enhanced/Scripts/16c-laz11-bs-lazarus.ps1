@@ -1,18 +1,4 @@
-﻿# Converted from: bs-lazarus.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz11/raw/bs-lazarus.ans
-# Source Revision: archive-sha256:68621cb5db58e1d89f5deb5798f3990fa932a6b4eb91cc1511f3f4c157d26f38
-# Source SHA-256: 87010b983fd6385c73b09ef0804244cdfe512eb0c442492dacf4f39a6a76370b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bs-lazarus.ans by burps (laz11); released in laz11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: lazarus
-# SAUCE Author: burps
-# SAUCE Date: 20200615
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: lazarus by burps | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz11-bs-lazarus
 
 Write-Host '
 

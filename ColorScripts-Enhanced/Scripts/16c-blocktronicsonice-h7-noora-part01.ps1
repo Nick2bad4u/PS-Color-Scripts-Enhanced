@@ -1,19 +1,4 @@
-﻿# Converted from: H7-noora.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronicsonice/raw/H7-noora.ans
-# Source Revision: archive-sha256:09feb7a5adb913c88be16d43a1a4e86bf7073f13399d8bc54e5478cad35282e5
-# Source SHA-256: dabecdb4d52c0ca5ce2371d4e69cde05b9500e80dfe6287ceb309e21b54344ee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: H7-noora.ans by H7 (Blocktronics); released in blocktronicsonice and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: noora
-# SAUCE Author: H7
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20220315
-# SAUCE Dimensions: 80x58
-# SAUCE Font: Custom
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: noora by H7 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronicsonice-h7-noora-part01
 
 Write-Host '
 [1m████████████████████████████████████████████████████████████████████████████████[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: ANS-0004.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis/raw/ANS-0004.ANS
-# Source Revision: archive-sha256:cabd7c46b38b213194457f50f766681b723f86902e0b5d87c41548c28c231d67
-# Source SHA-256: cb40ae8edee0b7e73abfc9b8c93b96e05954c016853c172b449cc9eedb766fe4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ANS-0004.ANS by Tim Tintle (ansis); released in ansis and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: ANS-0004.ANS by Tim Tintle | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-ans-0004
 
 Write-Host '
 [37;44m   [0;1;37;44mS  A  N  D  C  A  S  T  L  E                                                 [0m

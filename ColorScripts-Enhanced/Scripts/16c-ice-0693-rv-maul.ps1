@@ -1,13 +1,4 @@
-﻿# Converted from: RV-MAUL.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-0693/raw/RV-MAUL.ICE
-# Source Revision: archive-sha256:b784bcbc98d8305f30bf1b6bca15accd20e1e43509d6c036a50e2b6ce86a3e93
-# Source SHA-256: a9611958fd0c19a2bf5f797b5af28be16d995fd09a8587f5043745a9b2c1435d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RV-MAUL.ICE by Random Violence (ice-0693); released in ice-0693 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: RV-MAUL.ICE by Random Violence | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-0693-rv-maul
 
 Write-Host '
                              [1;33m▄▄█[0;1;33;42m██▓▒░[0;32m█████████████████████████▀▀ ░░▒▒▒▓▓▓▓▄▄▄[0m

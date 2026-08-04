@@ -1,18 +1,4 @@
-﻿# Converted from: ST-IMP2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0796/raw/ST-IMP2.ANS
-# Source Revision: archive-sha256:f2392fcbe326be67243a018c170e3f1d8e22753f58b6051ec51575e3fcab8048
-# Source SHA-256: 392f0ab02f156a7a3911d8a194b28f3e7ec4ba23a15a655be270ee8e1a968fc0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-IMP2.ANS by Silverthorn (fire); released in fire0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: impure ( final )
-# SAUCE Author: Silverthorn
-# SAUCE Group: fire
-# SAUCE Date: 19960706
-# SAUCE Dimensions: 80x25
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: impure ( final ) by Silverthorn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0796-st-imp2
 
 Write-Host '
     [1m░[0m   [1m [0;1;30m░[0m   [35m░[0m                                [35m░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: 2STONED-HAPPY_HOLIDAZE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1223/raw/2STONED-HAPPY_HOLIDAZE.ANS
-# Source Revision: archive-sha256:86d02e5103ccb7950792473f0c3e4ca18e595c9011c06df5ce1fe1692dbd9f5a
-# Source SHA-256: 223a50f1927beddb8d83f9e0f7ab8b42c4eb7b1dc8d29e369f9d2dddf38dab41
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2STONED-HAPPY_HOLIDAZE.ANS by 2Stoned (mist1223); released in mist1223 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Happy Holidaze
-# SAUCE Author: 2Stoned
-# SAUCE Date: 20231218
-# SAUCE Dimensions: 80x81
-# SAUCE Font: IBM VGA
-# Lines: 51-80
-# Columns: 1-80
+﻿# Artwork: Happy Holidaze by 2Stoned | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1223-2stoned-happy-holidaze-part02
 
 Write-Host '
 [37m ██████████████████████████████▄▄▄▄███████████████████████[0;34;47m▀[0;34;40m████████████████████[0m

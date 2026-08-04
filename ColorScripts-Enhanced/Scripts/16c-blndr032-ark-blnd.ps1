@@ -1,13 +1,4 @@
-﻿# Converted from: ARK-BLND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr032/raw/ARK-BLND.ANS
-# Source Revision: archive-sha256:90b6409696769330ae38e742a2c2b0598dc8e653f916b6eb5f12bbdad4baab30
-# Source SHA-256: 01fd03aa1524d314fd6f580e3d5ab3c9296f74d454d0ca09c6aa384e2ed6873c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARK-BLND.ANS by Ark Anjel (blndr032); released in blndr032 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: ARK-BLND.ANS by Ark Anjel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr032-ark-blnd
 
 Write-Host '
 [1;33;44m░[0;34m▀▀[0;33m▄[0;1;31;43m▓▓▓▓[0;1;31;40m█[0;1;31;43m▓[0;1;31;40m█▐ [0;1;30;40m░[0;1;31;40m ▄▐██[0;1;31;43m▓[0;1;31;40m██[0;1;31;43m▓▓▒▓▓▓▒░░░[0;1;31;40m [0;34m████[0;1;33;44m░░[0;34m███[0;1;33;44m▀[0;34m███[0;1;31m [0;32m███████████████████████[0;1;32;42m░▒▒░[0;32m▄▌[0;34m▀▀▀▀[0m

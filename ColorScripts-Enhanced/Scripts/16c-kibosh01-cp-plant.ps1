@@ -1,18 +1,4 @@
-﻿# Converted from: CP-PLANT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/kibosh01/raw/CP-PLANT.ANS
-# Source Revision: archive-sha256:8d1a88fa61503d65c439ad29bf67d0608682b94cf1606253ca8fc6eb534b89d8
-# Source SHA-256: 064cded8ea0547dbc7181d3604dc237b1cf8f959ccbd524f455d255c05368bdc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CP-PLANT.ANS by cyberphreak (kibosh); released in kibosh01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: eh, what!?
-# SAUCE Author: cyberphreak
-# SAUCE Group: kibosh
-# SAUCE Date: 19990410
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: eh, what!? by cyberphreak | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-kibosh01-cp-plant
 
 Write-Host '
                                     [34m███[0m

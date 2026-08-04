@@ -1,19 +1,4 @@
-﻿# Converted from: tk-deadline2017.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel24/raw/tk-deadline2017.ans
-# Source Revision: archive-sha256:a7b306ff5b6a5f79d069961e912fc7a6bbecdcf424503ada503978ca0662baf8
-# Source SHA-256: e277a088e56bd13577cf2661d7b66ab71da5da49bbce9a47f7e435f0855bf465
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tk-deadline2017.ans by the knight (FUEL); released in fuel24 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Deadline 2017
-# SAUCE Author: the knight
-# SAUCE Group: FUEL
-# SAUCE Date: 20170930
-# SAUCE Dimensions: 80x191
-# SAUCE Font: IBM VGA
-# Lines: 145-191
-# Columns: 1-80
+﻿# Artwork: Deadline 2017 by the knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel24-tk-deadline2017-part04
 
 Write-Host '
             [33m▐▀███▄▄▄[0;1;30m▀████████████████████████████████████████[0;1;30;47m▓░[0m██████████▀

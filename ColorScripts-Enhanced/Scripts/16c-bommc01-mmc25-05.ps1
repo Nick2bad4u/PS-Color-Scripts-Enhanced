@@ -1,18 +1,4 @@
-﻿# Converted from: mmc25-05.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bommc01/raw/mmc25-05.ans
-# Source Revision: archive-sha256:0e202a554be4c5a61c37230b2f619caf545c069dc1c49e22f04718c59893cd7d
-# Source SHA-256: 283caa73d7d06ba25de7fa001e74905fe1a70610be0f92128e33edf440efe26c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mmc25-05.ans by h7 (mimic); released in bommc01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: hotsluts4u
-# SAUCE Author: h7
-# SAUCE Group: mimic
-# SAUCE Date: 20000711
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: hotsluts4u by h7 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bommc01-mmc25-05
 
 Write-Host '
             [32m_[0m

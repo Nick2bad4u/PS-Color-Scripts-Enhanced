@@ -1,13 +1,4 @@
-﻿# Converted from: dr-mmcr.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic32/raw/dr-mmcr.ans
-# Source Revision: archive-sha256:6ee19509eda7f7889239419194bf93a39d4168b479e1ef00f9178378e6b4514f
-# Source SHA-256: 5ac9f9bd15fa065b6a9d9af648d4827582bc180f879df672765cf47dfbe3e6ce
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: dr-mmcr.ans by Dr Shizuma (mimic32); released in mimic32 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: dr-mmcr.ans by Dr Shizuma | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic32-dr-mmcr
 
 Write-Host '
 [31mdrshiz([0;1;33mmimic[0;31m)[0;37m  [0;1;34m,$[0;34m$;l$$7`[0;1;37m [0;1;36m,d$$[0;36m$[0;34m$[0;1;34m$$$[0;36ml$$[0;1;36mb,[0m [34m.[0;1;34m`7$[0;1;36ml[0;36m$$[0;1;34ml$l `$[0;36m$$$[0;1;34ml$[0;34m;[0;37m [0;36ml[0;1;34m$$[0;34m7`[0m   [37m,¬[0;1;37me\`[0m   [34m`7$\[0m

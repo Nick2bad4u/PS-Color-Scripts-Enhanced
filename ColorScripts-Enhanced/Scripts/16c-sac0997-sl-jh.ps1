@@ -1,13 +1,4 @@
-﻿# Converted from: SL-JH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0997/raw/SL-JH.ANS
-# Source Revision: archive-sha256:da5320832895c3901d4f15edb6d72c8cae3759c8058411ecb6a63c5962f374c9
-# Source SHA-256: fb7710c6993a13bacc930c7b69f9d491de11fa2fa0809ac51bdbc8b562b2e5a1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SL-JH.ANS by Strikeligt (sac0997); released in sac0997 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: SL-JH.ANS by Strikeligt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0997-sl-jh
 
 Write-Host '
                                     [1;30m  [0m       [1;30m ▄▄▄▄▄[0m

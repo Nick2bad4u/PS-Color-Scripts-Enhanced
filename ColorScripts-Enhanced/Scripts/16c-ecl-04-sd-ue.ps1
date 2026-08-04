@@ -1,18 +1,4 @@
-﻿# Converted from: SD-UE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-04/raw/SD-UE.ANS
-# Source Revision: archive-sha256:9de244bc5206a1545721e4db8ef84c4a2cb5d7f6090c2c3eac0f88fbff822794
-# Source SHA-256: 8eda63eabb139d3f0bddf8a45703fcbc99367ad6efb3ad813e86287b214e7b83
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-UE.ANS by sirdeath (eclipse); released in ecl-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: aeiou
-# SAUCE Author: sirdeath
-# SAUCE Group: eclipse
-# SAUCE Date: 19960717
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: aeiou by sirdeath | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-04-sd-ue
 
 Write-Host '
                             [1;30m▄[0m▄▄▄▄ [1;30m▄[0m▄[1m▄[0m  [1;30m▄[0m▄[1m▄[0m      [1;30m▄[0m▄▄▄[1m▄[0m          [1;30m▄[0m▄▄▄[1m▄[0m

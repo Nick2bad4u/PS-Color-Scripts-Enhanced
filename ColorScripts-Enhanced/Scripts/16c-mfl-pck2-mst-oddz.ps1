@@ -1,13 +1,4 @@
-﻿# Converted from: MST!ODDZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mfl_pck2/raw/MST!ODDZ.ANS
-# Source Revision: archive-sha256:77631ce6bb0edd4a43c3ffe0fc3739a864ef0fcb9fc821031da22b9c9ef7dec7
-# Source SHA-256: 272c7299f4063a3a130ea5dad953db75704d4f3ea177777195dda18612d141c6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MST!ODDZ.ANS by Mist (mfl_pck2); released in mfl_pck2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: MST!ODDZ.ANS by Mist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mfl-pck2-mst-oddz
 
 Write-Host '
 mist''01                          [1;30m▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m        [35m▄▀[0m     [35m▄▄[0;37m [0;35m▀[0m     [37m     [0;1;30m██[0m

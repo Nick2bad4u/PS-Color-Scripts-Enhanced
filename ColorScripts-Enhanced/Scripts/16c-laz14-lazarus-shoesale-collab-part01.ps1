@@ -1,19 +1,4 @@
-﻿# Converted from: lazarus-shoesale-collab.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz14/raw/lazarus-shoesale-collab.ans
-# Source Revision: archive-sha256:41b4e3770fbffb058172283f3da2aa00e47c872480cf93fdef94629ebc0751bb
-# Source SHA-256: ea57c20ffe3d48c11f027e4033bfa957cae3d959a43186f568c3279a1ac137d3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: lazarus-shoesale-collab.ans by Various + Warpus + Burps + Smooth + Pinguino + Tainted + Cthulu (LAZARUS); released in laz14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Lazarus Shoe Sale collab
-# SAUCE Author: various
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20211214
-# SAUCE Dimensions: 80x222
-# SAUCE Font: IBM VGA
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Lazarus Shoe Sale collab by Various + Warpus + Burps + Smooth + Pinguino + Tainted + Cthulu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz14-lazarus-shoesale-collab-part01
 
 Write-Host '
 

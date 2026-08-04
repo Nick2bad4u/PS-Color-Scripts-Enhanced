@@ -1,19 +1,4 @@
-﻿# Converted from: wa-twofaced.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel30/raw/wa-twofaced.ans
-# Source Revision: archive-sha256:e3148e82a669aa484baf0738069fbabe44ba2824856e1cb4b05875b86bdd4621
-# Source SHA-256: cb156152a958d7a0691a0ef91936d07ecc7b9946fccaaa011f63bdb470d6ba16
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wa-twofaced.ans by warpus (FUEL); released in fuel30 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Two faced
-# SAUCE Author: warpus
-# SAUCE Group: FUEL
-# SAUCE Date: 20190706
-# SAUCE Dimensions: 80x109
-# SAUCE Font: IBM VGA
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Two faced by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel30-wa-twofaced-part01
 
 Write-Host '
 [1;30;40m  [0m                                                                  [1;30m           [0m

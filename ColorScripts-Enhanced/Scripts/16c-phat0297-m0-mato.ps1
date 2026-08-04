@@ -1,18 +1,4 @@
-﻿# Converted from: M0!-MATO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0297/raw/M0!-MATO.ANS
-# Source Revision: archive-sha256:2e15cb2f2712a143323c9f3c6ecca94c5b5b12a452a019e911d205dd685c6eee
-# Source SHA-256: be4b761a34a7bc37ca68bc94ea8b9a97bab1451cad4fb2cf9d7e58e60b0da817
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M0!-MATO.ANS by m0! (PHAT STUDIOS '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: aldi-matrix
-# SAUCE Author: m0!
-# SAUCE Group: PHAT STUDIOS '97
-# SAUCE Date: 19970201
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: aldi-matrix by m0! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0297-m0-mato
 
 Write-Host '
 [1;32m ▄██[0;1;32;42m▓[0;1;32;40m███[0;1;32;42m▓[0;1;32;40m████████▀▀▀▀▀▀███████▀▀▀▀▀▀▀▀█████████████▀▀▀▀▀▀▀▀▀▀▀▀▀█████████[0;1;32;42m▓[0;1;32;40m████▄ [0m

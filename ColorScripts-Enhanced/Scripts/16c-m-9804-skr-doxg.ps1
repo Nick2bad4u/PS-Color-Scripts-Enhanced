@@ -1,18 +1,4 @@
-﻿# Converted from: SKR-DOXG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m-9804/raw/SKR-DOXG.ANS
-# Source Revision: archive-sha256:384db9ee41d4842b9630e53e583aa2c888b80c553bccd5b732036c8247f3be44
-# Source SHA-256: 691091180da571d9598b7e54ff24e2ab50d5ada8385328a4543da118def88770
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SKR-DOXG.ANS by Skrubly (mISTFUNK 1998); released in m-9804 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Dox logo
-# SAUCE Author: Skrubly
-# SAUCE Group: mISTFUNK 1998
-# SAUCE Date: 19970711
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Dox logo by Skrubly | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m-9804-skr-doxg
 
 Write-Host '
 

@@ -1,13 +1,4 @@
-﻿# Converted from: ko-gasfm.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic43/raw/ko-gasfm.ans
-# Source Revision: archive-sha256:0a74791278cf4c5cbc23554e60025849b7049d64f093ed7e5342fcd51fe1292a
-# Source SHA-256: c67fb68a401adccb86b0702f5bf6ad4ba95d57eba39019d9e08c1ed248dc5544
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ko-gasfm.ans by Konami (mimic43); released in mimic43 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: ko-gasfm.ans by Konami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic43-ko-gasfm
 
 Write-Host '
 [35m [0;1;32m  ;$[0;32m$$[0;1;33m [0m            [31m   [0m   [31m\ [0m   [1;30mSet : 9 [0;1;30;41m 1=[0;1;37;41m« [0;1;30;41m2=[0;1;37;41m» [0;1;30;41m3=[0;1;37;41m≥ [0;1;30;41m4=[0;1;37;41m≤ [0;1;30;41m5=[0;1;37;41m⌐ [0;1;30;41m6=[0;1;37;41m¬ [0;1;30;41m7=[0;1;37;41m² [0;1;30;41m8=[0;1;37;41m÷ [0;1;30;41m9=[0;1;37;41m½ [0;1;30;41m10=[0;1;37;41m¼[0m

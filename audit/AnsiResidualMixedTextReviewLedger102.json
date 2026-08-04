@@ -1,0 +1,182 @@
+{
+  "batch": 102,
+  "summary": {
+    "candidateFiles": 8,
+    "evidenceRows": 8,
+    "categoryRows": {
+      "batch102-obfuscated-profanity": 8
+    }
+  },
+  "candidates": [
+    {
+      "action": "blank-columns",
+      "category": "batch102-obfuscated-profanity",
+      "file": "16c-5th-9703-em-bled.ps1",
+      "rationale": "Exact text-only obfuscated profanity cells.",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "row": 16,
+          "columnRanges": [
+            {
+              "start": 19,
+              "end": 28
+            }
+          ],
+          "sha256": "6ca00ae6491db3f5f1921bd14c9ea0296135e4f3e183ac3fd76d112b9a825173",
+          "expectedRawSha256": "66113e63f8b13e84d98e1d4b6e81b772a71eb2542b3b278d61fd89109b3a96ca",
+          "expectedRenderedSha256": "c7fb77265e3983dc04776537c7a482c0fb7733265ef83ea3d4fdcbfa33ff7133"
+        }
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch102-obfuscated-profanity",
+      "file": "16c-bleach05-ic-sopic-part02.ps1",
+      "rationale": "Exact text-only obfuscated profanity cells.",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "row": 35,
+          "columnRanges": [
+            {
+              "start": 47,
+              "end": 49
+            }
+          ],
+          "sha256": "9331e2cc6f088c19ec99bbd9c94d06353d47bd7cbc44d4d83d15876545403f40",
+          "expectedRawSha256": "7a083b564aad34e6f6ed0a6aa797a8d346710de91cab5571b7a8b51e637113e8",
+          "expectedRenderedSha256": "8eeccfccf3937446c368c8aacb05570268a8aeccfbc831cad2a5a972d54ead90"
+        }
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch102-obfuscated-profanity",
+      "file": "16c-dos-v195-ip-maxx.ps1",
+      "rationale": "Exact text-only obfuscated profanity cells.",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "row": 3,
+          "columnRanges": [
+            {
+              "start": 52,
+              "end": 55
+            }
+          ],
+          "sha256": "4dbbf47fe4e0632498b22ecd9206dbb0d7e4877dff93bf917146c2cbfdeeb32e",
+          "expectedRawSha256": "0b0a413d83dd9880ebe75cc18a9f75085b6c19f5327f96f92957df064e562d2a",
+          "expectedRenderedSha256": "faadef9558a5441fafb74b49da5d073b26da8f6574a9779e2647b754f6180ebd"
+        }
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch102-obfuscated-profanity",
+      "file": "16c-dvl-pk01-ve-dk.ps1",
+      "rationale": "Exact text-only obfuscated profanity cells.",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "row": 2,
+          "columnRanges": [
+            {
+              "start": 1,
+              "end": 5
+            }
+          ],
+          "sha256": "6ad156fa0735b2d5b2822fbc778cd1bc05f449ac4f9875c9653f6eb2b44ce0bd",
+          "expectedRawSha256": "a556f41b33461541a88a852d9b812686325705020525ba34fca573cbcb0fc382",
+          "expectedRenderedSha256": "cd7c1adb76c48374398cfe4ff58ff60a8de5b85f2e255f9acc36af19a1e5e74c"
+        }
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch102-obfuscated-profanity",
+      "file": "16c-lure003-22-fmon1.ps1",
+      "rationale": "Exact text-only obfuscated profanity cells.",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "row": 23,
+          "columnRanges": [
+            {
+              "start": 7,
+              "end": 17
+            }
+          ],
+          "sha256": "dee98ca48a6007f98df79a66b345ac7bb0ef35c33adf3c086f9e33986f44eec8",
+          "expectedRawSha256": "1939f711d1350d81e7a82cbbc70601dd0a93fa9e9128ed35b208e3a555025574",
+          "expectedRenderedSha256": "ca94f6bdfa0b80ddca517c7aaf7e7a875572135b2de269fd39bcb1f1958e60d9"
+        }
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch102-obfuscated-profanity",
+      "file": "16c-rev0502-fv-fuck.ps1",
+      "rationale": "Exact text-only obfuscated profanity cells.",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "row": 5,
+          "columnRanges": [
+            {
+              "start": 64,
+              "end": 69
+            }
+          ],
+          "sha256": "ef6a512eab7c3891db36567a2e99044b427676a3070749603b789975813db627",
+          "expectedRawSha256": "a134d9ba9ebeeaebc141d3af9f6c290a62a56bc586b07aa94fa2d6d36497f0bc",
+          "expectedRenderedSha256": "10f0ffba22e061a226c600a2ec31e43202483f76863a2ec8da52cd0a6bf323a3"
+        }
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch102-obfuscated-profanity",
+      "file": "16c-roc-0495-bp-2fhos-part02.ps1",
+      "rationale": "Exact text-only obfuscated profanity cells.",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "row": 16,
+          "columnRanges": [
+            {
+              "start": 27,
+              "end": 30
+            }
+          ],
+          "sha256": "c30acc9c466e1c42daf944bf827ef54d3abacfc30d668825414aa80278d04e39",
+          "expectedRawSha256": "00d536adf54165da8ee11d1f7e0c686401b01e3c30039209e3f383ffd32944dd",
+          "expectedRenderedSha256": "b44da6a986340f77e3eb6da1e2f8995391dc2e4784dcf5db87590f3d00640745"
+        }
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch102-obfuscated-profanity",
+      "file": "16c-sense27-us-drugz.ps1",
+      "rationale": "Exact text-only obfuscated profanity cells.",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "row": 15,
+          "columnRanges": [
+            {
+              "start": 70,
+              "end": 72
+            }
+          ],
+          "sha256": "92c9ece74b47d1280e40c05a79c0642eda54444cc927e635a3e48ca2258fb98e",
+          "expectedRawSha256": "465826091c50cffce916d9b525a3b268e516a6744ee6b624a4ce915d3dee499b",
+          "expectedRenderedSha256": "103b9fcc5857bd6d7d8abe69c0ecc78bf2652b2838d388f3950783f39e6a6669"
+        }
+      ]
+    }
+  ],
+  "schemaVersion": 1,
+  "status": "ready"
+}

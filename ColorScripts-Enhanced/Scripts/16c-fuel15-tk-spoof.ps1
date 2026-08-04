@@ -1,18 +1,4 @@
-﻿# Converted from: TK-SPOOF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel15/raw/TK-SPOOF.ANS
-# Source Revision: archive-sha256:3b994e59b6a78be97a60517481673ca8661cd10fa275e8c56fe8095a44e5feee
-# Source SHA-256: 2ce85227c921307b91b3a3cc4d94c43c66e8569482084e50d120ce2c6c66344e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TK-SPOOF.ANS by the knight (fuel productions); released in fuel15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: spoof matrix
-# SAUCE Author: the knight
-# SAUCE Group: fuel productions
-# SAUCE Date: 19970716
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: spoof matrix by the knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel15-tk-spoof
 
 Write-Host '
 [34m$$$$$$$$$$$$$$[0;1;34m$$$[0;34m$$$$[0;1;34m$$$$$[0;1;37m$[0;1;34m$ⁿ[0;1;37m$",n$$$$$$$$[0;1;34m$$$$$$$s[0;34m$[0;1;34m$$$[0;1;37m$$$ⁿ$$$$$$[0;1;34m$$[0;1;37m$[0;1;34m$$$$Sⁿ"Γ   [0;34m$$[0;1;34m$[0m

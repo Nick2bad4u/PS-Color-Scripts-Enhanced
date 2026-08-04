@@ -1,18 +1,4 @@
-﻿# Converted from: TSK-BLND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-03/raw/TSK-BLND.ANS
-# Source Revision: archive-sha256:fae30929abb2b921ba96bc7ad0b445be298bbdb28aa42921644d897c08d22f33
-# Source SHA-256: 2c25cecf3dd53aae2fa90820c11aa638d3fb284a82f739b0b2607d1ba847c0ef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-BLND.ANS by the violent thriller (odium); released in odium-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: blind
-# SAUCE Author: the violent thriller
-# SAUCE Group: odium
-# SAUCE Date: 19960129
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: blind by the violent thriller | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-03-tsk-blnd
 
 Write-Host '
                                                      [1;30mu[0m

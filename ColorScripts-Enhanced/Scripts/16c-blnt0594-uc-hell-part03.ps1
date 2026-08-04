@@ -1,13 +1,4 @@
-﻿# Converted from: UC-HELL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blnt0594/raw/UC-HELL.ANS
-# Source Revision: archive-sha256:c92fd222c907eec9e06a7dedf45261d782ceb5e588c7da89b25418f1e8e8f735
-# Source SHA-256: 993ff5cf5efc48666e7168cad17b0ec484c040a05f5f33aae62a63cb92be9577
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UC-HELL.ANS by Unknown Comic (blnt0594); released in blnt0594 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 83-122
-# Columns: 1-80
+﻿# Artwork: UC-HELL.ANS by Unknown Comic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blnt0594-uc-hell-part03
 
 Write-Host '
          [1;37;41m      [0;31m█[0m                              [1;37m█▀▄  ▄█▀[0m          [1;37m█▀▄  ▄█▀[0m      [1;37;41m [0m

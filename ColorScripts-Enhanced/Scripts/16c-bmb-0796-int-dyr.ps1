@@ -1,18 +1,4 @@
-﻿# Converted from: INT-DYR!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0796/raw/INT-DYR!.ANS
-# Source Revision: archive-sha256:f782dac10caec7358fb12f56ab648d6b2d754d33c969b772c25d26329ee46f63
-# Source SHA-256: a63513b0f6cde6111d964e11a5b04a3f1c6a86abac4c61881a78319439512ac1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: INT-DYR!.ANS by intellius (bamboosh); released in bmb-0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Dr. Dyregod & Ko
-# SAUCE Author: intellius
-# SAUCE Group: bamboosh
-# SAUCE Date: 19960712
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Dr. Dyregod & Ko by intellius | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0796-int-dyr
 
 Write-Host '
 [1;30m[0m[1;34m[0m[1;30m[0m[1;30m[0m[1;34m[0m[1;30m[0m[1;30mmy heroes :)[0m        [1;34m.sS$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$Ss.[0m             [1;30m12jul96[0m

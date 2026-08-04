@@ -1,16 +1,4 @@
-﻿# Converted from: pmt-cyberpunks.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impure70/raw/pmt-cyberpunks.ans
-# Source Revision: archive-sha256:a28491e2409c4e4047c47baddc206fceed98203a031228347b90bb9d5459845c
-# Source SHA-256: e2d29d07a045632f81b0d3c913ab97be2bede7eaff15fe612aec51c97298f6fc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: pmt-cyberpunks.ans by Prismate (impure70); released in impure70 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 20180930
-# SAUCE Dimensions: 80x66
-# SAUCE Font: IBM VGA
-# Lines: 35-66
-# Columns: 1-80
+﻿# Artwork: pmt-cyberpunks.ans by Prismate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impure70-pmt-cyberpunks-part02
 
 Write-Host '
 [1;30m░░░░░[0;1;37m██▓▓[0;44m▓[0;1;40m▒░[0m     [1;30m░[0m                                   [1;30m▒[0m       [1m▓[0m  [1m▌[0;1;30m░░░░░░░░░░░░░░░[0m

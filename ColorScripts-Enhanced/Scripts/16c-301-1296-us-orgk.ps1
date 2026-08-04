@@ -1,18 +1,4 @@
-﻿# Converted from: US-ORGK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/301-1296/raw/US-ORGK.ANS
-# Source Revision: archive-sha256:6f239dcc15d58c6d9331e0bb065ccce7fcfdce2ee998eb6b4810f78fc2937b38
-# Source SHA-256: b61cf13eb8e44516d5b40f64782178aee6f15632cf567966f3f5f7c799de703a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ORGK.ANS by Illogic + Criminal Enigma (project/301); released in 301-1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: original kaos
-# SAUCE Author: c. enigma/illogic
-# SAUCE Group: project/301
-# SAUCE Date: 19961227
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: original kaos by Illogic + Criminal Enigma | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-301-1296-us-orgk
 
 Write-Host '
 

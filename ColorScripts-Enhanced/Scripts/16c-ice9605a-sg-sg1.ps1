@@ -1,13 +1,4 @@
-﻿# Converted from: SG-SG1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9605a/raw/SG-SG1.ICE
-# Source Revision: archive-sha256:cf7acb12a0ec01e1383bf24c3c45a68bc55fde8f0e38cd56180a1936aa9f8089
-# Source SHA-256: ed36d203d3ce77032f598e1b059cc03749888c1d3d15bb404c86ba4bb448b784
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SG-SG1.ICE by Snake Grunger (ice9605a); released in ice9605a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: SG-SG1.ICE by Snake Grunger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9605a-sg-sg1
 
 Write-Host '
  [1;34;44m░▒▒▓▓██▀[0;1;34;40m▀▀▀▀[0;34m▀▀ [0m   [33m▄[0;1;31m▄▄▄[0;33m▄[0;1;31m▄[0;33m▄[0;32m [0;33m▄[0;1;31m▄▄▄▄▄[0;33m▄[0;32m [0;33m▄[0;1;31m▄[0;33m ▄▄[0;32m      [0;33m▄[0;1;31m▄▄▄▄▄[0;33m▄[0;32m [0;33m▄[0;1;31m▄▄▄[0;33m▄[0;32m  [0m   [34m ▀▀[0;1;34m▀▀▀▀[0;1;34;44m▀██▓▓▒▒░[0m

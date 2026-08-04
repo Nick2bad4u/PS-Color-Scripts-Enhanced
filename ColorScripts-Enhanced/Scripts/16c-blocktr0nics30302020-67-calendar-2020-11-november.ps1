@@ -1,19 +1,4 @@
-﻿# Converted from: 67_Calendar_2020_11_November.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktr0nics30302020/raw/67_Calendar_2020_11_November.ans
-# Source Revision: archive-sha256:9a86a13b1ff7cef4b57ed39c1aca190028df54b44bffe10202b539bef3cd3dcc
-# Source SHA-256: c0d55d620d4931afc4e301ce542c4ec74990e01fdf0ba0a786972a31d1b8e517
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 67_Calendar_2020_11_November.ans by Nail + Avg (blocktronics); released in blocktr0nics30302020 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: our little secret
-# SAUCE Author: nail + avg
-# SAUCE Group: blocktronics
-# SAUCE Date: 20191222
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: our little secret by Nail + Avg | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktr0nics30302020-67-calendar-2020-11-november
 
 Write-Host '
 [36;40m█▌[0;1;34;40m█▌[0;36m [0;37m [0;36m   [0;37m [0;31m ▄██  ▓▓▓█[0;1;31;43m     ▒  ▄[0;1;31;40m██[0;1;31;43m█▄[0;1;31;40m [0;33m▀[0;1;31;43m  [0;1;31;40m  ▓▓  ▒▓▓▓▓[0;1;31;43m█▄[0;1;31;40m▒▒▒[0;31m▄■▄[0m

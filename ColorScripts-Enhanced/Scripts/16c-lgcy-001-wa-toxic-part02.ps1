@@ -1,20 +1,4 @@
-﻿# Converted from: wa-toxic.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-001/raw/wa-toxic.ans
-# Source Revision: archive-sha256:589c804657c8d15ba617f7c0fd80723e4505d519989b80eba9584665be49eb54
-# Source SHA-256: 9060805c4fa7a47e6f991ccba259b7991ffacabce77ea425b1c6570c6395eee5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wa-toxic.ans by warpus (Legacy Krew); released in lgcy-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: TOXIC BBS
-# SAUCE Author: warpus
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20191228
-# SAUCE Dimensions: 80x93
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Toxic BBS ad for MadDog
-# Lines: 48-93
-# Columns: 1-80
+﻿# Artwork: TOXIC BBS by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-001-wa-toxic-part02
 
 Write-Host '
 [36;40m██[0;36;46m███[0;36;40m██████████████▌[0;1;30;40m▓[0m  [1;34m■[0;1;34;47m▓[0;1;34;40m [0;1;32;46m▌[0;36m█[0;35;46m░[0;1;37;40m▐▓[0;34m██ [0;1;34m███[0;36m▐[0;36;46m██████[0;36;40m██[0;36;46m█[0;37;46m▐[0;1;37;40m■ [0;34m██▌[0;1;34;46m█[0;36;46m█[0;36;40m█[0;36;46m██████████[0;36;40m██████████████[0m

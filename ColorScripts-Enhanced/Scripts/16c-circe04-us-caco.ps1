@@ -1,18 +1,4 @@
-﻿# Converted from: US-CACO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe04/raw/US-CACO.ANS
-# Source Revision: archive-sha256:4f0496a9701d4903473a706c6407c52ebc6554ce22b4b35c3cd1e5bc9689ea7f
-# Source SHA-256: 37f564863d64e5347f061aa63fee6a8f9adc9c7fbb2b9e149ea13047ca0b466c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CACO.ANS by Cleaner + Ball Tongue (Circe/Cia/Gray); released in circe04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: "Caco"
-# SAUCE Author: Multiple Artists
-# SAUCE Group: Circe/Cia/Gray
-# SAUCE Date: 19980219
-# SAUCE Dimensions: 80x37
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: "Caco" by Cleaner + Ball Tongue | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe04-us-caco
 
 Write-Host '
 [1;47m▒▒▓[0;1;40m██████████[0;1;36;40m███▀▀▀▀▀[0m [1;31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0m

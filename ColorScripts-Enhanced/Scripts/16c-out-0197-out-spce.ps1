@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-SPCE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0197/raw/OUT-SPCE.ANS
-# Source Revision: archive-sha256:cd3236e0655bee5ba400dd6252ba2ee923995041f95ca558186d016b62049b9d
-# Source SHA-256: 76d3d7a285ad96359eba4f238bcd9bca4e893b58b6463245beb743dd20656a2d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-SPCE.ANS by Sandy Chidester (out-0197); released in out-0197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: OUT-SPCE.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0197-out-spce
 
 Write-Host '
   [1;36m·[0m     [1;36m·[0m        [1;34m·   [0;34m·    [0;1;36m·[0m      [1;36m·   [0;34m·   [0;1;34m·    [0;34m·   [0;1;34m·[0m       [34m·   [0;1;34m·[0m      [34m·   [0;1;34m·[0m

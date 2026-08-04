@@ -1,18 +1,4 @@
-﻿# Converted from: AS-DJV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drop9706/raw/AS-DJV.ANS
-# Source Revision: archive-sha256:079746c0436c4b2cca0b37d391f0826b546c4f9888ce659d162ddd4c73d2f47a
-# Source SHA-256: 730992731079d3eb6cd4ea75b56050c5948684f3154fb8fc2bc3e4584b47b0c2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AS-DJV.ANS by aerosmith (drop); released in drop9706 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: dejavu
-# SAUCE Author: aerosmith
-# SAUCE Group: drop
-# SAUCE Date: 19970528
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: dejavu by aerosmith | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drop9706-as-djv
 
 Write-Host '
 

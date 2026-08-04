@@ -1,18 +1,4 @@
-﻿# Converted from: MR-SV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cri-0495/raw/MR-SV.ANS
-# Source Revision: archive-sha256:68a525dc058e129b1830b66b54cbf91bf90c51e195457f4b9c43c4e7f818ef1e
-# Source SHA-256: 3a972c87899631783172876750ea3f688256cbeba6a75fe5f4e3d5965eb62c9b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-SV.ANS by Mr. Omerta (CRiSiS); released in cri-0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Spiritual Void - unreleased.
-# SAUCE Author: Mr. Omerta
-# SAUCE Group: CRiSiS
-# SAUCE Date: 19940521
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Spiritual Void - unreleased. by Mr. Omerta | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cri-0495-mr-sv
 
 Write-Host '
 [1m[[0mC[1;30mRiSi[0mS[1m][0m         [1;36;46m█▓▒░ ░▒▓█[0;1;36;40m▀[0m                       [1;36;40m▄[0;1;36;46m█▓▒░ ░▒▓█[0;1;36;40m▀[0m

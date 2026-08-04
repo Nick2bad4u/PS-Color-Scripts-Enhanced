@@ -1,18 +1,4 @@
-﻿# Converted from: FV-UGLY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile_001/raw/FV-UGLY.ANS
-# Source Revision: archive-sha256:f7a8644489c1d011b91477b5b1eab40d9f39b077b89f158a7a0c3d1c032c6d81
-# Source SHA-256: ad660b7badd37125fd9b502bbdba9b27f664bb0746c62d436bbdcec410bae650
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FV-UGLY.ANS by fe v  e   r (rile); released in rile_001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: bio matrix.
-# SAUCE Author: fe v  e   r
-# SAUCE Group: rile
-# SAUCE Date: 19970124
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: bio matrix. by fe v e r | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile-001-fv-ugly
 
 Write-Host '
 [1;32m█[0;1;32;42m▓░▀[0;1;32;40m▀[0m  [1;32m▄▄[0;1;32;42m▓[0;1;32;40m▌[0m [30;46m▌[0;1;36;46m░▓▓▄[0;30;46m▀[0;1;36;46m▄██▄░░[0;30;46m▀[0;32;40m▀▐[0;1;32;42m░[0;32m▀[0;30;47m█[0;32;40m▀[0;1;32;40m▀[0;1;32;42m▀[0;1;32;40m█[0;1;32;42m▓▓[0m [30;47m█[0;30;46m▀▀▌   [0;35;46m░░[0;30;46m ▐[0;30;42m▄[0;1;32;40m■[0m   [1;30m ── ─b[0m [1;30mi[0m [1;30mo[0m [1;30mh[0m [1;30ma[0m [1;30mz[0m [1;30ma[0m [1;30mr[0m [1;30md─[0m [1;30m──[0m

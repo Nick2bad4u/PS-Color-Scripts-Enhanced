@@ -1,18 +1,4 @@
-﻿# Converted from: ACID-2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axelgear/raw/ACID-2.ANS
-# Source Revision: archive-sha256:b47467ff2f44fba1583ea1e079d55dd2548eadef82dd6d664541c9909c9928e2
-# Source SHA-256: dadec45b586a24f634e27aa2467c52bb16439639e304a3bdbb983eef4e4ddd7d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ACID-2.ANS by Sodium (Acid Productions); released in axelgear and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Acid Piece Number Two
-# SAUCE Author: Sodium
-# SAUCE Group: Acid Productions
-# SAUCE Date: 19970418
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Acid Piece Number Two by Sodium | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axelgear-acid-2
 
 Write-Host '
                       [1;30m▒ ▄▄[0m     [33m░[0m           [33m▒[0m

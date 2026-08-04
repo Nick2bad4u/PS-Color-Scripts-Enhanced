@@ -1,19 +1,4 @@
-﻿# Converted from: US-BEHEMOTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0224/raw/US-BEHEMOTH.ANS
-# Source Revision: archive-sha256:1a4cb7c29a353c2afa0810057f800e5309b23e585d4ef3b711249cd25433ea84
-# Source SHA-256: 53cb2c53bc58a3c022ee3deac86c7c173ca40df8029be46a22962388fd5685ac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-BEHEMOTH.ANS by Zylone + Cthulu (Mistigris); released in mist0224 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Behemoth
-# SAUCE Author: Zylone and Cthulu
-# SAUCE Group: Mistigris
-# SAUCE Date: 20240224
-# SAUCE Dimensions: 80x55
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Behemoth by Zylone + Cthulu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0224-us-behemoth
 
 Write-Host '
          [1;33m▄                                                                  ▄▀[0m

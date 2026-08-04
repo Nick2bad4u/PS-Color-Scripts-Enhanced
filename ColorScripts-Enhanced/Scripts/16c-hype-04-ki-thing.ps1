@@ -1,17 +1,4 @@
-﻿# Converted from: KI-THING.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hype-04/raw/KI-THING.ANS
-# Source Revision: archive-sha256:d0917030b27b9e907ef52cd30dd36996f1f4d775686af44e1bfd4859874789fb
-# Source SHA-256: 2134f74aa3b6d88075e533d9aae91289cf655fe0efd49d2d8658e7dcf5dae2ef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KI-THING.ANS by Kirin (Hype Inc.); released in hype-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: " Thing of Marvel Pic "
-# SAUCE Author: Kirin
-# SAUCE Group: Hype Inc.
-# SAUCE Dimensions: 80x25
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: " Thing of Marvel Pic " by Kirin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hype-04-ki-thing
 
 Write-Host '
 [1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m▓▓▓███████████▓▄      ▄████████████████████████████████████████████████████████

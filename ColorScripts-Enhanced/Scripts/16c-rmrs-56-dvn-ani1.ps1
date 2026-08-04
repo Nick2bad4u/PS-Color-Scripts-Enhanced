@@ -1,13 +1,4 @@
-﻿# Converted from: dvn-ani1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-56/raw/dvn-ani1.ans
-# Source Revision: archive-sha256:07331e98d58e584f7ee567ff58411de2d2136646e78007f87e7445752e64ecd6
-# Source SHA-256: 3eb52e00fb5a5b01b1cdefd0db38018ab8373dfa89f9ad85811d9d923c98bca8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: dvn-ani1.ans by Devin (rmrs-56); released in rmrs-56 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: dvn-ani1.ans by Devin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-56-dvn-ani1
 
 Write-Host '
 [31m⌠[0;1;30m▀═┌    [0m             [35m [0;37m            [0;30m            [0;37m  [0;31m⌠[0;1;30m ─ ─ ─ ─ ── ─   ─           [0m

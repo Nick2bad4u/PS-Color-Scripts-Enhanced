@@ -1,18 +1,4 @@
-﻿# Converted from: MS-TIS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad0496/raw/MS-TIS2.ANS
-# Source Revision: archive-sha256:960943c476b61359c1b17ae6c4a5539da57f7ea96e794f9bb260d9e20b598157
-# Source SHA-256: 11b20bd7af277b1a1931a9613f6c4c688a0e31019881473e3461e8a159a3b5aa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MS-TIS2.ANS by Morphius ([Quad-P]); released in quad0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Inmost Sanctum
-# SAUCE Author: Morphius
-# SAUCE Group: [Quad-P]
-# SAUCE Date: 19960331
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: The Inmost Sanctum by Morphius | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad0496-ms-tis2
 
 Write-Host '
                  ▄▄▄■▓██████■▄▄▄  [1;32m▄[0;1;32;42m██[0;1;32m▄  ▄▄[0m

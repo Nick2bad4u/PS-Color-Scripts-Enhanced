@@ -1,18 +1,4 @@
-﻿# Converted from: ST-SG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/301-1296/raw/ST-SG.ANS
-# Source Revision: archive-sha256:6f239dcc15d58c6d9331e0bb065ccce7fcfdce2ee998eb6b4810f78fc2937b38
-# Source SHA-256: 7b9827dcb10a5aab7604be5ecb513c67dad4b285d57827cd0b7055b743ddd2ff
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-SG.ANS by stile (project/301); released in 301-1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: spinal gamma
-# SAUCE Author: stile
-# SAUCE Group: project/301
-# SAUCE Date: 19961227
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: spinal gamma by stile | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-301-1296-st-sg
 
 Write-Host '
          ▄[1;30;47m░▒▓[0;1;30;40m█▓▒ [0m   [1;30m ▄▒[0m▄    [1;30m▀[0;1;37m█[0;1;37;47m▀[0m█[1;47m▀[0;1;30;40m▀[0m  [32m▓▄[0;37m [0;1;30m▄▒[0m▄        [1;30m▄▒[0m▄    [1;30m▀[0;1;37m█[0;1;37;47m▀[0m█[1;47m▀[0;1;30;40m▀[0m

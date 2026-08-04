@@ -1,13 +1,4 @@
-﻿# Converted from: US-DD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense17j/raw/US-DD.ANS
-# Source Revision: archive-sha256:dd9d1d0c2e9d18c52916147f75b54ea93779080fcdcf859439501b8e3996efb6
-# Source SHA-256: d424c3b65adede585c1d6d3f8fd81c086eac227d3ee8d0bc914e5c04aa67e479
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-DD.ANS by Avenging Angel + Ansichrist + Maytag (sense17j); released in sense17j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: US-DD.ANS by Avenging Angel + Ansichrist + Maytag | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense17j-us-dd
 
 Write-Host '
  [36m [0;37m  [0;36m [0;1;30m▀▓▄▄[0m                                              [1;30m░░░░[0m

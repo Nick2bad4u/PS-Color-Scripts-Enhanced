@@ -1,17 +1,4 @@
-﻿# Converted from: smp-mtx2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic36/raw/smp-mtx2.ans
-# Source Revision: archive-sha256:394ba7094da783b48563604e25be73eb1abefb09d7bb52180dadefd94b2dddd6
-# Source SHA-256: 4feb8dceb495a6037634ef07ece89f796542809a4c77b98700e8aa0e730da375
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: smp-mtx2.ans by Shrimp (Mimic Productions); released in mimic36 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: Shrimp
-# SAUCE Group: Mimic Productions
-# SAUCE Date: 20010606
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: smp-mtx2.ans by Shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic36-smp-mtx2
 
 Write-Host '
 [1mShrimp[0;36mMimic[0;37m ,┌a# [0;33m   ,┌[0;1;31ma#S$$S#[0;33ma. `/$[0;1;31m$[0;33m$$[0;37m `┘*┘` [0;33mj$[0;1;31m$$$$$$$$$$[0;33m$$$$[0;1;31m$$$$[0;33m$b[0;37m  `?$$$$b┐.  [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: CM-SITU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/moonlgt1/raw/CM-SITU.ANS
-# Source Revision: archive-sha256:9c3296d479bffdc90be8aa4a3f3118a85ae9456683674c3e67716221b3c262b5
-# Source SHA-256: 6533ec8a53ee4c6402dbd8f0e887a79062029fe990a67f40645fe8bd297b6ccb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CM-SITU.ANS by CHeeZe MoNKeY (MooNLiGHT (ELiTE)); released in moonlgt1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: SeX iN THe uNDeRGRouND
-# SAUCE Author: CHeeZe MoNKeY
-# SAUCE Group: MooNLiGHT (ELiTE)
-# SAUCE Date: 19960818
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: SeX iN THe uNDeRGRouND by CHeeZe MoNKeY | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-moonlgt1-cm-situ
 
 Write-Host '
 cm[1;36m██  ▄▄ ██▄▄▄▄    ▄▄▄ ██▄▄▄▄ [0;1;36;41m▒▓[0;1;36;40m▄▄▄▄ ██▄▄▄▄ ██▄▄▄▄ ██▄▄▄▄ ██ ▓▄▄ ██▄▄▄▄    ▄▄▄[0m

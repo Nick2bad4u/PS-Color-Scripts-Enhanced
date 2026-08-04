@@ -1,18 +1,4 @@
-﻿# Converted from: RZ-BYEOK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/soc-05/raw/RZ-BYEOK.ANS
-# Source Revision: archive-sha256:46523a4b1dc7d3ea7673c682260d26883a5d9a96c30ca837d4327e8bd8747ff4
-# Source SHA-256: cb7b3b3667aa5cdfc3b6bb63fa18e0e90731a0dcbd45e815b58cb90149b9c9ef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RZ-BYEOK.ANS by rzarector (society); released in soc-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: organized kaos!
-# SAUCE Author: rzarector
-# SAUCE Group: society
-# SAUCE Date: 19971208
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: organized kaos! by rzarector | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-soc-05-rz-byeok
 
 Write-Host '
                                             [35m▄▄▌ [0m

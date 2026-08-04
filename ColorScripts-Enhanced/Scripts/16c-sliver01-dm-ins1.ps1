@@ -1,18 +1,4 @@
-﻿# Converted from: DM!INS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sliver01/raw/DM!INS1.ANS
-# Source Revision: archive-sha256:e5a3c8ea93717a75852aeb6374224de5eb80eea4e5f90fbc775d9d9b7a8991a0
-# Source SHA-256: 24852fa09aca38b6944ab698c15ab1ed52ea90fe4119e7a545842df8125feae9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DM!INS1.ANS by dEMOLISHER (sliver); released in sliver01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: insanity lg0
-# SAUCE Author: dEMOLISHER
-# SAUCE Group: sliver
-# SAUCE Date: 19970220
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: insanity lg0 by dEMOLISHER | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sliver01-dm-ins1
 
 Write-Host '
 [1;33;47m▀▀▀[0;1;33;40m█████[0;1;33;47m▀▀▀▀[0;1;33;40m████[0;1;33;47m▀▀▀[0;1;33;40m████[0;1;33;47m▀▀▀▀▀[0;1;33;40m▀▀▀▀▀▀▀[0;1;33;47m▀▀▀▀▀▀▀▀▀[0;1;33;40m▀[0m [1;34m▄▄▄[0;1;34;44m▓▓▒▓▒[0;1;34;40m▀[0m [1;34m▄▄[0;1;34;44m▒▓[0;1;34;40m▒▓▀[0;1;33;40m [0;1;33;47m▀▀▀▀[0;1;33;40m████[0;1;33;47m▀▀▀[0;1;33;40m████[0;1;33;47m▀[0m

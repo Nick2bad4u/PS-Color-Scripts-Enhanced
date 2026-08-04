@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-HAND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0599/raw/OUT-HAND.ANS
-# Source Revision: archive-sha256:d1c311f963fa778919e061bc773a7bd4708a6d6ed9ec4682aacef5efb33d45e2
-# Source SHA-256: 44c3807917004db70841cfe14abc35c07a2850d0272944a5a8c6d44345a1c682
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-HAND.ANS by Sandy Chidester (out-0599); released in out-0599 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: OUT-HAND.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0599-out-hand
 
 Write-Host '
                       [32m▄▄▄▄[0m

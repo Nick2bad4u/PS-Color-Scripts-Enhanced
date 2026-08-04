@@ -1,13 +1,4 @@
-﻿# Converted from: ARL-ADC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe02/raw/ARL-ADC.ANS
-# Source Revision: archive-sha256:ce5cd736ecea3fcfef2c1df40ab4bdd995f6b633f97f1788244355f98c5d174e
-# Source SHA-256: 85f736ad4a5d08d86539de9f4b491526deade3e614595f0698c73c1b9c03aa9e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARL-ADC.ANS by Arlequin (circe02); released in circe02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: ARL-ADC.ANS by Arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe02-arl-adc
 
 Write-Host '
              [31m▄▄▄[0;1;31;41m▄[0;31m█[0;1;31m          [0m     [1;31m     [0m                     [31m▄▄▄[0;1;31;41m▄[0;31m▄   [0;34m  ▄[0m

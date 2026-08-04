@@ -1,13 +1,4 @@
-﻿# Converted from: DKNY-ERT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac-28/raw/DKNY-ERT.ANS
-# Source Revision: archive-sha256:483f92bf3615a39635e80a0f8f997200bbf34b681f2a07efb69d3783925983f3
-# Source SHA-256: 100becf5f828a724c184be2bfb416024309c730fe09bc9aab07ad6d2bbcf3f1c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DKNY-ERT.ANS by Davek (sac-28); released in sac-28 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: DKNY-ERT.ANS by Davek | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac-28-dkny-ert
 
 Write-Host '
           [36m▄[0;1;36m▄▄ [0m         [36m▄[0;1;36m▄▄ [0m         [36m▄[0;1;36m▄▄ [0m         [36m▄[0;1;36m▄▄ [0m

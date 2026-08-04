@@ -1,17 +1,4 @@
-﻿# Converted from: CY-TRIO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend05/raw/CY-TRIO.ANS
-# Source Revision: archive-sha256:3346c70671a4c24e002cb42d75f3af112f478c146f28bb98b9942b55d0894a44
-# Source SHA-256: ecae07e5259ab15a9e93d49563d798423bd9a08e6aafae6216c2b4ea9baf0d64
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CY-TRIO.ANS by Crayon (Eclipse); released in blend05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: Crayon
-# SAUCE Group: Eclipse
-# SAUCE Date: 19970103
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: CY-TRIO.ANS by Crayon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend05-cy-trio
 
 Write-Host '
 

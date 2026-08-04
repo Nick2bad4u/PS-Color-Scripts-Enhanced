@@ -1,13 +1,4 @@
-﻿# Converted from: SP-JASP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper07/raw/SP-JASP1.ANS
-# Source Revision: archive-sha256:c42bfa4438f002452f1a6bc8caf7f32e2e6bfd8fffb358dd625c49ecd6cf6820
-# Source SHA-256: 693a52f42e4b1777e1f28547b1c61a61b64dc960be191e84f87d7d0399728606
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SP-JASP1.ANS by Spear (jasper07); released in jasper07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: SP-JASP1.ANS by Spear | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper07-sp-jasp1
 
 Write-Host '
 

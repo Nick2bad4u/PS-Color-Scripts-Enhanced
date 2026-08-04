@@ -1,18 +1,4 @@
-﻿# Converted from: ICP-GJ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rage964a/raw/ICP-GJ.ANS
-# Source Revision: archive-sha256:d0c496f91fed24b1bfed72b7c636d15c2adfb5af3e83677e65b76d3b0bb34662
-# Source SHA-256: 50626db2081940aabef217267cb49cd8cd363c13e8e7b02172669240696c1153
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ICP-GJ.ANS by Icepick (RAGE); released in rage964a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Green
-# SAUCE Author: Icepick
-# SAUCE Group: RAGE
-# SAUCE Date: 19960414
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Green by Icepick | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rage964a-icp-gj
 
 Write-Host '
                   [32m▄▄▄▄[0m

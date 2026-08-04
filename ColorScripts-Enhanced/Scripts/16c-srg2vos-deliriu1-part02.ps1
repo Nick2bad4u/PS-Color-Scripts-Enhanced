@@ -1,18 +1,4 @@
-﻿# Converted from: DELIRIU1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/srg2vos/raw/DELIRIU1.ANS
-# Source Revision: raw-sha256:db2f6c5d3cf18d19334e8014024e36164631fd5d8b9844c17aa4b61783cd75a7
-# Source SHA-256: db2f6c5d3cf18d19334e8014024e36164631fd5d8b9844c17aa4b61783cd75a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DELIRIU1.ANS by delirium (fbk.sargahd^vos); released in srg2vos and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: mobser
-# SAUCE Author: delirium
-# SAUCE Group: fbk.sargahd^vos
-# SAUCE Date: 19961111
-# SAUCE Dimensions: 80x54
-# Lines: 28-54
-# Columns: 1-80
+﻿# Artwork: mobser by delirium | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-srg2vos-deliriu1-part02
 
 Write-Host '
 [34m§∙[0;1;34m.:[0;34m.[0;1;34m`;∙.:!`!$$i$P`b,.[0m [34m∙`!S!$$$.[0;33m  [0;1;30m,[0;33mS§§$$$$$$l[0;37m [0;1;30m`$[0;33m$$$$$$$$$''[0;37m [0;34mi:$i[0;37m [0;1;30m$[0m [1;30m![0m [34m;.∙.[0;37m [0;31m ''∙ ∙;∙[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: XP-TBL2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/myst5_95/raw/XP-TBL2.ANS
-# Source Revision: archive-sha256:8bb09a6689ce4926adf475b4d141f7f6ebf52233dc1d444fee248661004cb45d
-# Source SHA-256: efeffc98519ccec535776b5721d9502b8b0f185b3d00e7607399f05fe5de79d7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XP-TBL2.ANS by Xavier Pyros (myst5_95); released in myst5_95 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: XP-TBL2.ANS by Xavier Pyros | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-myst5-95-xp-tbl2-part01
 
 Write-Host '
 [1;36;47m░░░░░░[0;1;36;43m███[0;1;36;47m░[0;1;36;43m█[0;1;36;47m░[0;1;36;43m██[0;33m█████[0;1;36;43m▀[0;1;36;47m▒▒[0;1;36;43m█[0;1;36;47m░▒▒[0;1;36;43m██[0;1;36;47m▒[0;1;36;43m██▀[0;33m█[0;1;36;43m▄[0;1;36;47m░░[0;1;36;43m██[0;1;36;47m▒▒░▒░░[0;1;36;43m█▀     █[0;1;36;47m░[0;1;36;43m█[0;1;36;47m░░▒▒[0;1;36;43m█[0;1;36;47m░▒░░▒[0;1;36;43m█████[0;1;36;47m░░[0;1;36;43m█[0;1;36;47m▒▒[0;1;36;43m██[0;1;36;47m▒▒░[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: MSG-TR2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/grim-03/raw/MSG-TR2.ANS
-# Source Revision: archive-sha256:ebc036abf9a775cca5b26ca6cd97418b4cbcbb8a88c78d39df773432429bd88a
-# Source SHA-256: d87e711d78c2197e506336854b2fdbabbf6b43ba718ae98db93c82169eecbc66
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MSG-TR2.ANS by Manslaughter (grim-03); released in grim-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: MSG-TR2.ANS by Manslaughter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-grim-03-msg-tr2-part01
 
 Write-Host '
 

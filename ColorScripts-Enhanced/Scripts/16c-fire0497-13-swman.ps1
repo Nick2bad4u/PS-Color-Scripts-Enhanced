@@ -1,18 +1,4 @@
-﻿# Converted from: 13-SWMAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0497/raw/13-SWMAN.ANS
-# Source Revision: archive-sha256:42e18118a4fe23187162d4202e0e64c79c23017db87b8967f1816ba2b79540c6
-# Source SHA-256: 1fafa2fa0153139436dabcaa535542d1198d5dd535721c3c7706e7b59658bf8d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 13-SWMAN.ANS by ville (blend&fire); released in fire0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Rising death login
-# SAUCE Author: ville
-# SAUCE Group: blend&fire
-# SAUCE Date: 19970305
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Rising death login by ville | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0497-13-swman
 
 Write-Host '
   ░  ░░▓▄    ░▓▀▀▀▄▄▄░ ▀[1;47m▀▓▄[0m▄▄▄     ▄▄███[1;47m▄▄██▀▀░[0m███[1;47m▒▄[0m███████▌▄▄[1m▒[0m▄▄▄▄▄▄▄▄[1m░░░[0m

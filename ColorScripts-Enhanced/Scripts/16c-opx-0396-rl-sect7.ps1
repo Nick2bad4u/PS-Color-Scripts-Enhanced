@@ -1,18 +1,4 @@
-﻿# Converted from: RL-SECT7.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0396/raw/RL-SECT7.ANS
-# Source Revision: archive-sha256:8cd29f20ca0e9cb17c1100c76cb617825c92262f6ff8862ed793e9086f6dea43
-# Source SHA-256: b375cea1df642235bec058abf9055b8c46f01bb6deedaac9eafddbf6ef55665c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RL-SECT7.ANS by Rawlock (Opium); released in opx-0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: - --[ sECTOr sEVEN ]-- -
-# SAUCE Author: Rawlock
-# SAUCE Group: Opium
-# SAUCE Date: 19960226
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: - --[ sECTOr sEVEN ]-- - by Rawlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0396-rl-sect7
 
 Write-Host '
 [1;30m [0m

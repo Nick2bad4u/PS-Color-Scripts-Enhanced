@@ -1,17 +1,4 @@
-﻿# Converted from: US-BH1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense11/raw/US-BH1.ANS
-# Source Revision: archive-sha256:0690b90402a70581c8f215d3ac545dcd69504e18bce536e07fefa6abfa4129ef
-# Source SHA-256: a5e881e244a726a4cffe49b6b5967f3ad8f9a83b8396ee83d090796af256175f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-BH1.ANS by Scrye + Cyber Phreak (sense11); released in sense11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: BH!
-# SAUCE Author: Multiple Artists
-# SAUCE Date: 19980710
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: BH! by Scrye + Cyber Phreak | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense11-us-bh1
 
 Write-Host '
    █[1;47m▄▄[0;1;30;47m▀[0;1;30;40m▄[0m█▄[1;47m▄█▀[0m▀ ▀[1;36;46m▀▀[0;36m▀[0;1;37;47m▀█▀[0m▀[1;47m▀████▀▀[0;1;30;47m▄[0m▀[1;30m▀[0m [32m▐[0m   [37m█[0;1;37;47m████▀[0;1;30;47m▄[0m▀[1;30m▀[0m▀[1;30m▀[0m  [32m    ▄▄▄▄▄▄▄[0;1;32;42m▄[0;32m█▄[0m        [31m░[0m

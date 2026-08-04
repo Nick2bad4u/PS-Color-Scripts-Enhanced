@@ -1,19 +1,4 @@
-﻿# Converted from: 67C21-07.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-34/raw/67C21-07.ANS
-# Source Revision: archive-sha256:14c1d4ed9a32af54f838fd5875705e49ce8fe765c2877b1c2d24ee04edc23b21
-# Source SHA-256: e3c2522a1e5f159caeedfcd10964e368f2d810e1cfd46a9984ef12b69fef5c1d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 67C21-07.ANS by f1L7H (bLOCKtR0NiCS); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: JULY
-# SAUCE Author: f1L7H
-# SAUCE Group: bLOCKtR0NiCS
-# SAUCE Date: 20201013
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: JULY by f1L7H | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-34-67c21-07
 
 Write-Host '
 [1;33;41m▲[0;30;41m─────── [0;1;33;41m5 U P 3 2 C H 4 2 6 3 D  F L 4 5 H L 1 6 H 7  C 2 4 C K 3 2 5[0;30;41m ────────[0;1;33;41m▲[0m

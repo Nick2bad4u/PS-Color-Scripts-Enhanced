@@ -1,18 +1,4 @@
-﻿# Converted from: RL!-ELIT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0596/raw/RL!-ELIT.ANS
-# Source Revision: archive-sha256:06f164afecd2a38c1a107122cbc0c2c2d07c6484c9e867e2eecffd5f8b0065bf
-# Source SHA-256: 8666571c9981623b9157904c002322c2e03523c6e12319e92cfbb1edd1b182a3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RL!-ELIT.ANS by Rawlock (Opium); released in opx-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Eleetbajz 2000
-# SAUCE Author: Rawlock
-# SAUCE Group: Opium
-# SAUCE Date: 19960310
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Eleetbajz 2000 by Rawlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0596-rl-elit
 
 Write-Host '
                                                               [1;30m  [0m

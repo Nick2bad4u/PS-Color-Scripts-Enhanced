@@ -1,13 +1,4 @@
-﻿# Converted from: DY-PROG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tus-02/raw/DY-PROG.ANS
-# Source Revision: archive-sha256:1847ccf8f73b78fd290bcfae71e9f3879e98988c4912942d1ab6ff427e924c10
-# Source SHA-256: 07bceaaf62c56bca8909c2011c03dfacaad56a3cff93420b163ace3b3d79bedb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DY-PROG.ANS by Discyple (tus-02); released in tus-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: DY-PROG.ANS by Discyple | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tus-02-dy-prog
 
 Write-Host '
 [36m$$$[0;37m  [0;36m$$$ [0;37m [0;36m$$$ $$$[0m   [36m$$$ $$$$$$$$$[0;37m [0;36m$$$$$$$$$[0;37m [0;36m$$$$$$$$$[0;37m [0;36m$$$[0m   [36m$$$[0;37m  [0;36m $$$$$$$$$$$$$[0m

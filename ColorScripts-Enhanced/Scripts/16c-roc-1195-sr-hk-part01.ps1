@@ -1,18 +1,4 @@
-﻿# Converted from: SR-HK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roc-1195/raw/SR-HK.ANS
-# Source Revision: archive-sha256:8dcfa5971e7cb6bfb17cdd69d77ff4fc3f113e1c74428a77911119ab622b401a
-# Source SHA-256: 36bfd63cd330908376cae51b5c8bd79375bae5648820b858b59950b1be203372
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SR-HK.ANS by Silver Rat 1994 (VOR); released in roc-1195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Hell's Kitchen
-# SAUCE Author: Silver Rat 1994
-# SAUCE Group: VOR
-# SAUCE Date: 19951031
-# SAUCE Dimensions: 80x25
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: Hell's Kitchen by Silver Rat 1994 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roc-1195-sr-hk-part01
 
 Write-Host '
 

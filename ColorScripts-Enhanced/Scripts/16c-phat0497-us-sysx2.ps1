@@ -1,18 +1,4 @@
-﻿# Converted from: US-SYSX2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0497/raw/US-SYSX2.ANS
-# Source Revision: archive-sha256:ac23f379eb24f5f6ad8faa432723caa3c85fc7d4fc380b1d3e101e8eb50ca483
-# Source SHA-256: 3233a2bbb418d3e43f05470b205b8a9b0f055d68ea1c775728b6319ee22ff8a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SYSX2.ANS by Alecs + Mr4tune (phat + awe); released in phat0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: system X - main
-# SAUCE Author: al3cs + mr4tune
-# SAUCE Group: phat + awe
-# SAUCE Date: 19970330
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: system X - main by Alecs + Mr4tune | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0497-us-sysx2
 
 Write-Host '
 [1;30mal3cs&4o  [0m                       [1m░░[0m ▄[1m▄▄[0;1;47m▄[0;1;40m█▓▒░[0m [1m system X [0m▀█▐[1;47m██▓▓███[0;1;33;40m███[0;1;37;47m███▓▓▓▓▀▌▀▀[0m

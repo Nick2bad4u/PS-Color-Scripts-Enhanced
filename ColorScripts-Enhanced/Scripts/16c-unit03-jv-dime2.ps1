@@ -1,18 +1,4 @@
-﻿# Converted from: JV-DIME2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/unit03/raw/JV-DIME2.ANS
-# Source Revision: archive-sha256:14397867310c247896cee9ae85588007c2e913800ae4fa325b0eb998bbd62f6a
-# Source SHA-256: e08512418c755e94e395d56d64a035cf17d714c2b32a78589d441b6e5e77abf1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JV-DIME2.ANS by jeeves (UNiT Productions); released in unit03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: dime!@!~!@
-# SAUCE Author: jeeves
-# SAUCE Group: UNiT Productions
-# SAUCE Date: 19961016
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: dime!@!~!@ by jeeves | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-unit03-jv-dime2
 
 Write-Host '
 [32m$$$$$$$$$$²"²Q$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$S²"²$$$$$$$$$$[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SPH_HTC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sadist05/raw/SPH_HTC.ANS
-# Source Revision: archive-sha256:48539c7fd3103651a6474c72efa2d6287c0500d048769b6f96b3f80e7845070c
-# Source SHA-256: bf18e9d553f9502502d72a44a3ff70826e0d351d1aee1cc4d82ffb27662c998a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPH_HTC.ANS by Sephiroth (Sadist); released in sadist05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Haunting The Chapel
-# SAUCE Author: Sephiroth
-# SAUCE Group: Sadist
-# SAUCE Date: 20050220
-# SAUCE Dimensions: 80x74
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: Haunting The Chapel by Sephiroth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sadist05-sph-htc-part01
 
 Write-Host '
 

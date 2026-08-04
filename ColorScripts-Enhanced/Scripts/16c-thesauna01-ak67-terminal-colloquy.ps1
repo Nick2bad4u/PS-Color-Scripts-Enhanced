@@ -1,19 +1,4 @@
-﻿# Converted from: ak67-terminal-colloquy.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna01/raw/ak67-terminal-colloquy.ans
-# Source Revision: archive-sha256:70f712dbf565de1ceb0f2b7020b54aa443621235a47b082b92e24e13342b0672
-# Source SHA-256: a43d6c499ec2b7b93048d8e529e9147c79a873e687cd0701bd240ab5bd2bd0dc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ak67-terminal-colloquy.ans by alpha king (sauna); released in thesauna01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: terminal colloquy
-# SAUCE Author: alpha king
-# SAUCE Group: sauna
-# SAUCE Date: 20190926
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: terminal colloquy by alpha king | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna01-ak67-terminal-colloquy
 
 Write-Host '
                [31m░░[0;37m                                                          [0;31m▒▒▒[0m

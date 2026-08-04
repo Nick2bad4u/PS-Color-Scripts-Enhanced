@@ -1,13 +1,4 @@
-﻿# Converted from: OP-SPRAY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ilsn0993/raw/OP-SPRAY.ANS
-# Source Revision: archive-sha256:e7e7c6f73942c5463cc3a2518ebe2afadd1de8982d1fa83f99bde36882861526
-# Source SHA-256: df1a911ff5b17ceff9856a1d36cc558d565e2038f5cb50b355fc0034f5067cad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OP-SPRAY.ANS by Opium (ilsn0993); released in ilsn0993 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: OP-SPRAY.ANS by Opium | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ilsn0993-op-spray
 
 Write-Host '
                                  [34m▄█▀ [0;1;30m▄▄▄▄▄▀ [0;1;34m▄[0m▄ [1;30m█ [0;34m██[0m

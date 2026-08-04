@@ -1,17 +1,4 @@
-﻿# Converted from: GR-DOINK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rune0696/raw/GR-DOINK.ANS
-# Source Revision: archive-sha256:1f139170931bfda825b255d0e37aea90e1c1419d401b8b6f4039b6839c030655
-# Source SHA-256: 095e39b06d55d4111f53c8b2bbdd0747633c031b71ce7fa33bc43c9aaeff3634
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GR-DOINK.ANS by gunthar (rune); released in rune0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: doink!
-# SAUCE Author: gunthar
-# SAUCE Group: rune
-# SAUCE Date: 19960531
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: doink! by gunthar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rune0696-gr-doink
 
 Write-Host '
                               [32m▄[0m

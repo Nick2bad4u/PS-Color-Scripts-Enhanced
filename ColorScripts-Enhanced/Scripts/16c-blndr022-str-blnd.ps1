@@ -1,13 +1,4 @@
-﻿# Converted from: STR-BLND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr022/raw/STR-BLND.ANS
-# Source Revision: archive-sha256:1105fcab5f96be85e1c5d7fc82de0569b7a9bc9775f6dd9595256b07657f96f3
-# Source SHA-256: 8d6caabf1cc90e58c07ce5b52c41217e8f09e24f9462acdaa53da86d4b20d342
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: STR-BLND.ANS by Strike (blndr022); released in blndr022 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: STR-BLND.ANS by Strike | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr022-str-blnd
 
 Write-Host '
                             [1;30m▄[0m

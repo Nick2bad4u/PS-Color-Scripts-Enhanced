@@ -1,18 +1,4 @@
-﻿# Converted from: KT-DOOD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force10a/raw/KT-DOOD1.ANS
-# Source Revision: archive-sha256:f2af75efab7b036cdbeddf266674e60423caa5c7ddcc4b43d8307cb5d3c84b64
-# Source SHA-256: e64b784212c13a8b7b0d844369d16964996141d35b5b06d15ad06e6fced9404d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KT-DOOD1.ANS by kURRUPt (fORCE); released in force10a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dOOdlE
-# SAUCE Author: kURRUPt
-# SAUCE Group: fORCE
-# SAUCE Date: 19960705
-# SAUCE Dimensions: 80x19
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: dOOdlE by kURRUPt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force10a-kt-dood1
 
 Write-Host '
 [1;30m[0m                                                     [1;30m \[0m [34m▄▄▄▄▄▄[0;1;34m [0m

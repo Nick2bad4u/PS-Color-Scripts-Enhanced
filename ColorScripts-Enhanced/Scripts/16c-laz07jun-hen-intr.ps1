@@ -1,18 +1,4 @@
-﻿# Converted from: HEN-INTR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz07jun/raw/HEN-INTR.ANS
-# Source Revision: archive-sha256:6a4341d9d0364566769256e4356d86035ad4ee53c0aa654acf41be18e58ca462
-# Source SHA-256: 3ce94cd4f5bcd44ffe67c0bff87d8a3714e7d12d932fdeba24a60f502d380810
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HEN-INTR.ANS by hennifer (lazarus); released in laz07jun and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: interniq
-# SAUCE Author: hennifer
-# SAUCE Group: lazarus
-# SAUCE Date: 19970531
-# SAUCE Dimensions: 80x38
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: interniq by hennifer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz07jun-hen-intr
 
 Write-Host '
      [1;34m█[0;1;34;44m▌[0;1;34;40m▐[0;1;30;44m▐[0;1;30;40m█[0;1;30;44m▌[0;1;30;40m████▐[0m                                            [34m▌[0m   [34m▌▐▌██[0m

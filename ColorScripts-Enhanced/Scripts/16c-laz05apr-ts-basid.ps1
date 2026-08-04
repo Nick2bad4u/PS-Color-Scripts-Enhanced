@@ -1,18 +1,4 @@
-﻿# Converted from: TS-BASID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz05apr/raw/TS-BASID.ANS
-# Source Revision: archive-sha256:1015a880c3c2e42953df14381eb6ae6e6ec0326b482ac0273175f6e6e7073aa4
-# Source SHA-256: bfc6bbb160ed26758cc156076f7bd6082760d861fd86deddc10a5e66a6479942
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-BASID.ANS by transient (lazarus); released in laz05apr and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the rebels basid.
-# SAUCE Author: transient
-# SAUCE Group: lazarus
-# SAUCE Date: 19970215
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: the rebels basid. by transient | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz05apr-ts-basid
 
 Write-Host '
                              [33m░░░▀▀[0m           [35m▓▒░[0m        [36m▓▒░[0m

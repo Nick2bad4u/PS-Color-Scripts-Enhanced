@@ -1,18 +1,4 @@
-﻿# Converted from: T2-ACID1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/legend07/raw/T2-ACID1.ANS
-# Source Revision: archive-sha256:3712cd566b8bed7b1760317a3fccc3f73308ec1824fc5f6c1df906c5288bfa19
-# Source SHA-256: 8a1ff53fed468fb6ae943dbabc4ea3c19fb6667e5a7d8d1b4b11caf32a7593b4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T2-ACID1.ANS by Terminator 2 (Legend); released in legend07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Acid
-# SAUCE Author: Terminator 2
-# SAUCE Group: Legend
-# SAUCE Date: 19960731
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Acid by Terminator 2 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-legend07-t2-acid1
 
 Write-Host '
 

@@ -1,19 +1,4 @@
-﻿# Converted from: WZ - Cityscapes - Gold Coast.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-6710/raw/WZ%20-%20Cityscapes%20-%20Gold%20Coast.ans
-# Source Revision: archive-sha256:65fe9e2a2e2016f30e4b0141be2d1472e9b7cc814d922f9663e0d0a04142d70a
-# Source SHA-256: 79b55fa1116245ce1b4d0954b31e772bee15e305e940c9907c22b13936f91d71
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WZ - Cityscapes - Gold Coast.ans by Whazzit (Blocktronics); released in blocktronics-6710 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Cityscapes - Gold Coast
-# SAUCE Author: Whazzit
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20180729
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Cityscapes - Gold Coast by Whazzit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-6710-wz-cityscapes-gold-coast
 
 Write-Host '
 [1;34;47m███████████████████████████████████████████[0;1;34;40m▀[0;1;34;47m████████████████████████████████████[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: FX-NOCT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0697/raw/FX-NOCT.ANS
-# Source Revision: archive-sha256:608fe2b98dcac70515ce221c11f606d898ec739b4fcdd1a5448c437eb640df82
-# Source SHA-256: 276d46574f0d76d3d83a2beab749e63b64cf13ddf8b35240892d02400c427cba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FX-NOCT.ANS by Flux (Psychic Release); released in bmb-0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: nocturne (newuser)(small)
-# SAUCE Author: Flux
-# SAUCE Group: Psychic Release
-# SAUCE Dimensions: 80x25
-# Lines: 1-11
-# Columns: 1-80
+﻿# Artwork: nocturne (newuser)(small) by Flux | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0697-fx-noct
 
 Write-Host '
 

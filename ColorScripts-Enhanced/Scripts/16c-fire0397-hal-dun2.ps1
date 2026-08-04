@@ -1,18 +1,4 @@
-﻿# Converted from: HAL-DUN2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0397/raw/HAL-DUN2.ANS
-# Source Revision: archive-sha256:92948d41234c0b51c2e1cbae1fc45d03877af276dfc89419c464eee360a4eed8
-# Source SHA-256: fbfa47e11c0bab208fa23ecfdd0e356599cbb97de3df66995f965f849ff938f1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HAL-DUN2.ANS by Halaster (Fire); released in fire0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Dune
-# SAUCE Author: Halaster
-# SAUCE Group: Fire
-# SAUCE Date: 19970215
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Dune by Halaster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0397-hal-dun2
 
 Write-Host '
                                                              [36m  [0m      [36m▄▄[0;37m  [0;36m [0m

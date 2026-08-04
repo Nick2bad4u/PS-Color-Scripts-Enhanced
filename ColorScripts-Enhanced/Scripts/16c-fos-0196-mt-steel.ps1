@@ -1,13 +1,4 @@
-﻿# Converted from: MT-STEEL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fos-0196/raw/MT-STEEL.ANS
-# Source Revision: archive-sha256:7b35e2d1b77f64a0bb3f52fe512c20b089b55cb938c04933966099eeada5d6ff
-# Source SHA-256: 2417b6de4689d0bcdb46bda3a7493af6867cb92ddb1cf768c5bef62ef6622ed8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MT-STEEL.ANS by Morbid Thought (fos-0196); released in fos-0196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: MT-STEEL.ANS by Morbid Thought | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fos-0196-mt-steel
 
 Write-Host '
 

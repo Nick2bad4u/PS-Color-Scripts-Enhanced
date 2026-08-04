@@ -1,18 +1,4 @@
-﻿# Converted from: RV-XS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0995/raw/RV-XS2.ANS
-# Source Revision: archive-sha256:cc360b79185ba045775293710395ac2d0a043a893088560f3313eb0514dcb071
-# Source SHA-256: 31fb6a8736ba7524ad17c7cc2d4787cd6f3b9fdbf5adeb110e00dc382f672ea7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RV-XS2.ANS by rave; released in sac0995 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ACCESS DENIED BBS
-# SAUCE Author: RaVe
-# SAUCE Group: SAC
-# SAUCE Date: 19950724
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ACCESS DENIED BBS by rave | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0995-rv-xs2
 
 Write-Host '
                   [33m▄▄▄▄▄[0m                                      [1;30m▄[0m

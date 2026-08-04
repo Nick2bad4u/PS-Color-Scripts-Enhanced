@@ -1,18 +1,4 @@
-﻿# Converted from: a-odd-blender-robots_traning_in_virtual_reality.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr2020/raw/a-odd-blender-robots_traning_in_virtual_reality.ans
-# Source Revision: archive-sha256:9d4f52c1185463990664e9f171bfbfc9162b0a67262c063ea6cad81ca1993d3a
-# Source SHA-256: 34e63af3830ef5f4f0eab029f106dd5a3866985b83355127ad7b626deaef54bb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: a-odd-blender-robots_traning_in_virtual_reality.ans by Odd (Solo FTM); released in blndr2020 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: Odd
-# SAUCE Group: Solo FTM
-# SAUCE Date: 20200418
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: a-odd-blender-robots_traning_in_virtual_reality.ans by Odd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr2020-a-odd-blender-robots-traning-in-virtual-reality
 
 Write-Host '
 [1;47m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░[0m [1m█[0m  [35m/\[0;37m  [0;35m/\[0;37m  [0;35m/\[0;37m  [0;35m/\  /\[0;37m  [0;35m/\[0;37m  [0;35m/\[0;37m  [0;35m/\[0;37m  [0;35m/\[0;37m  [0;35m/\[0;37m  [0;35m/\[0;37m  [0;35m/\[0;37m  [0;35m/\[0m

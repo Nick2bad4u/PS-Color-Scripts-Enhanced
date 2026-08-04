@@ -1,13 +1,4 @@
-﻿# Converted from: GO-MERC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0793/raw/GO-MERC1.ANS
-# Source Revision: archive-sha256:53c4c708dbd6a2fb65eed7d51a29c309854b530cc87938709e377b669e74ecbe
-# Source SHA-256: 092f6d0fa20f5ca011afac38194d0255b4545d526ad6f199a027ec90d9f28d8b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GO-MERC1.ANS by Golgotha (acdu0793); released in acdu0793 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: GO-MERC1.ANS by Golgotha | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0793-go-merc1-part01
 
 Write-Host '
                             [1;33m▄▄ ████▄ ▀██▄  ░▒▓███▓▒ █ ▓███▀▀▄▄▀▀▀▀▀▀▄▄▀[0m

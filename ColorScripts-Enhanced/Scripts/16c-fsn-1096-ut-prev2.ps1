@@ -1,17 +1,4 @@
-﻿# Converted from: UT-PREV2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-1096/raw/UT-PREV2.ANS
-# Source Revision: archive-sha256:56cf270ca2ee7a92e0d4d66d5887e29752c7c199e9629aac9f429015d003259b
-# Source SHA-256: 7b2c6b1340f917553a9eeb491e8411e4775da01cea7b393d5f20d40e138cfc8b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UT-PREV2.ANS by Undertaker (fsn-1096); released in fsn-1096 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: [+] prevail logo [+]
-# SAUCE Author: Undertaker
-# SAUCE Date: 19961006
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: [+] prevail logo [+] by Undertaker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-1096-ut-prev2
 
 Write-Host '
 [1;33m▀[0m▄   [1;33m▄▄▄▄▄   [0m▄[1;33m▀▀▀▄[0m       [1;35m▄▄[0;1;35;45m▀▀[0;35m███[0;1;35;45m░▀▀▀[0;1;35;40m██▓▓[0;1;35;45m▀ [0;1;35;40m███[0;1;35;45m▀▀[0;1;35;40m▓▄▄▄▄[0m     [1m▄▓██[0;1;47m▄[0m   [1m▄▄██████████[0;1;47m█▄[0;1;40m▄[0m

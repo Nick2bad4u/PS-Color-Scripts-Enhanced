@@ -1,18 +1,4 @@
-﻿# Converted from: lmn-isocub.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impure79/raw/lmn-isocub.ans
-# Source Revision: archive-sha256:b4622c4fdfafdd578f3db64bb2bcff19a7154106ecf4c0e2e9ebef264d05fe2b
-# Source SHA-256: fcbd830b802966cf895daa68f72d6c294ed1085616cc7669c8bb00daa6d4eb95
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: lmn-isocub.ans by lmn (brx); released in impure79 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: lmn
-# SAUCE Group: brx
-# SAUCE Date: 20210425
-# SAUCE Dimensions: 80x44
-# SAUCE Font: IBM VGA
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: lmn-isocub.ans by lmn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impure79-lmn-isocub
 
 Write-Host '
   [30m██████████████████████████████████████████████████████████████████████████████[0m

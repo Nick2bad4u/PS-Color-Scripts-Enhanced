@@ -1,13 +1,4 @@
-﻿# Converted from: avg-clutch25.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_awaken/raw/avg-clutch25.ans
-# Source Revision: archive-sha256:9d338d3910f6730204698339e869f7ab219513c3aa8e2f1b0bb278c633114d95
-# Source SHA-256: 94a260779992543c637fd578b2c6685bfbe19b3b73f7720c0cf8b65440296f24
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-clutch25.ans by Avenging Angel (blocktronics_awaken); released in blocktronics_awaken and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: avg-clutch25.ans by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-awaken-avg-clutch25
 
 Write-Host '
 [1;36m░░░[0;1;34;46m▄▄[0;1;36;46m▄▄[0;36;44m█████████[0;1;34;46m▄▄[0;36;44m███████[0;1;36;46m▄▄[0;36;44m████[0;1;36;40m░░░░░░░[0;36;44m░░[0;1;34;44m   [0;34m ▄[0;37;44m▄█[0;34;40m███████████▄ [0;37;44m▄[0;34;40m█[0;36;44m░░░[0;1;36;40m░░░░░░░░░░░░░░[0;36;44m▒[0m

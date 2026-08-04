@@ -1,13 +1,4 @@
-﻿# Converted from: MST!DZWO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mfl_pck2/raw/MST!DZWO.ANS
-# Source Revision: archive-sha256:77631ce6bb0edd4a43c3ffe0fc3739a864ef0fcb9fc821031da22b9c9ef7dec7
-# Source SHA-256: 3b4a653f07e368f8781e7e60d45a7d0f057704a830e06c4cd7a525bf54d2558b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MST!DZWO.ANS by Mist (mfl_pck2); released in mfl_pck2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: MST!DZWO.ANS by Mist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mfl-pck2-mst-dzwo
 
 Write-Host '
 [1;30m▀▀▀▀█████████████████████████████████[0m  [31m [0m     [1;30m▒▒[0m                       - mist''01

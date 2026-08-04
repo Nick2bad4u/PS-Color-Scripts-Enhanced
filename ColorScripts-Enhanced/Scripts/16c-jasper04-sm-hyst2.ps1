@@ -1,18 +1,4 @@
-﻿# Converted from: SM-HYST2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper04/raw/SM-HYST2.ANS
-# Source Revision: archive-sha256:80df5b962e79c7e1df6d776b244f2783526ab7713c133db68d5f1c8d518678b1
-# Source SHA-256: 40a90ddd88e7e91274b526af64ea66786b6c4e2fad7cbbfe124a83ff0753930d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-HYST2.ANS by smoke (jasper); released in jasper04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: "hyst?"
-# SAUCE Author: smoke
-# SAUCE Group: jasper
-# SAUCE Date: 20020327
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: "hyst?" by smoke | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper04-sm-hyst2
 
 Write-Host '
 

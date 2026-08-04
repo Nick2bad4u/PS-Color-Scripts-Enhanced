@@ -1,13 +1,4 @@
-﻿# Converted from: DA-FCKER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/da-pack/raw/DA-FCKER.ANS
-# Source Revision: archive-sha256:3646b82433f4ebdd35704c3becc3c2b5f9f417d12abc68810f6dc052314a8cc0
-# Source SHA-256: 53b9cc8737e1c4376cc1b2822d78bfe24684bdda5e1e4230c61c29b125951ee5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DA-FCKER.ANS by Drunk Angel (da-pack); released in da-pack and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: DA-FCKER.ANS by Drunk Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-da-pack-da-fcker
 
 Write-Host '
          [1m■[0m    [1;33m▀[0m               [1;33m▄[0m        [1;33m▀[0m                [1;33m■[0m        [1;33m▐[0m

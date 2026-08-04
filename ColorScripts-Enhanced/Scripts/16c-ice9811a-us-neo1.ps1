@@ -1,13 +1,4 @@
-﻿# Converted from: US-NEO1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9811a/raw/US-NEO1.ICE
-# Source Revision: archive-sha256:96b316fb8340c104fc47a45343f74618f8c7f20316b5ac03c800f98e3344853d
-# Source SHA-256: fa0bcb39f75911558d80c898198c7c44c2690a60812d0fd9668545279480de3e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-NEO1.ICE by Rage + Black Viper + Grindstoned (ice9811a); released in ice9811a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: US-NEO1.ICE by Rage + Black Viper + Grindstoned | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9811a-us-neo1
 
 Write-Host '
  [1;34m▄▄[0m          [34m▄▄[0m          [1;34m  [0m     [34m▄[0;37m [0;1;34m▄▄▄▄▄▄▄▄[0;34m  [0;37m [0;34m [0;37m [0;34m▄▄[0;37m [0;34m▄▄▄[0;1;34m▄[0;34m▄▄[0;1;34m▄[0;34m▄[0;1;34m▄▄▄▄▄▄▄▄▄[0;34m   [0m   [34m [0m    [34m [0m

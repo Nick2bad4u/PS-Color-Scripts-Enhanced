@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-BD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-30/raw/AVE-BD.ANS
-# Source Revision: archive-sha256:3b54a3ca5cf24b49daaa164f9b343386c409e97270d30a4eb2997d0a7e0901dd
-# Source SHA-256: efdd33a99718496da6a5465e32bce3525949e8b5252667966474de504b162cba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-BD.ANS by avenger (black maiden); released in fire-30 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: brain damage
-# SAUCE Author: avenger
-# SAUCE Group: black maiden
-# SAUCE Date: 19970525
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: brain damage by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-30-ave-bd
 
 Write-Host '
      [1;30m           ▄▌ ░ ░[0m

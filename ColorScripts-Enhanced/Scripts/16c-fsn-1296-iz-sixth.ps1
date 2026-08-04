@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-SIXTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-1296/raw/IZ-SIXTH.ANS
-# Source Revision: archive-sha256:335d72ea88974be53669cf31a72ea37012b04dc993bc1fa4727d94939a55db7e
-# Source SHA-256: cd561f77f199c1f52ace757666551a926f278619673370f82c548afb2e794dab
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-SIXTH.ANS by ize (fusion); released in fsn-1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: the sixth sense
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19961117
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: the sixth sense by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-1296-iz-sixth
 
 Write-Host '
                    [1;32m [0m

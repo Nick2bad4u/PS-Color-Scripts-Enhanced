@@ -1,18 +1,4 @@
-﻿# Converted from: ID-SUCCO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shv-0695/raw/ID-SUCCO.ANS
-# Source Revision: archive-sha256:bb4ff0be2845c295b33fa1a12cfa10d6f27c56c159b0d7d43aa0404a3b850a05
-# Source SHA-256: 3e0afb12dcb8d874ced362bd7a6e690a538080775872e1142331b0432d7c6897
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ID-SUCCO.ANS by Iodine (Shiver); released in shv-0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Succotash
-# SAUCE Author: Iodine
-# SAUCE Group: Shiver
-# SAUCE Date: 19950506
-# SAUCE Dimensions: 80x89
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: Succotash by Iodine | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shv-0695-id-succo-part01
 
 Write-Host '
 

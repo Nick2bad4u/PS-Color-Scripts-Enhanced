@@ -1,13 +1,4 @@
-﻿# Converted from: 70-epic.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roots02/raw/70-epic.ans
-# Source Revision: archive-sha256:76e48703c4ae574ec2cec39d9f297f8abe09593046838247863eedaee737caa1
-# Source SHA-256: 4d1d22e1aa25fd8b91cd9d61013785586a48e3ad428c2cd396587f9c7d38db2d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 70-epic.ans by Tombin (roots02); released in roots02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: 70-epic.ans by Tombin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roots02-70-epic
 
 Write-Host '
        [34m▄[0;1;34;44m▄▄[0;34m▄[0;37m  [0;35m▄[0m

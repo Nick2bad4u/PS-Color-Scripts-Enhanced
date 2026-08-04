@@ -1,13 +1,4 @@
-﻿# Converted from: CBRA#P&R.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/btg_ans2/raw/CBRA%23P%26R.ANS
-# Source Revision: archive-sha256:ef1d7f5aa7f6ddd3a18962651dfef7920d45568f5c91446255731618604ffcb4
-# Source SHA-256: a882af0583e573e02565a9e783dd3e312ed53977e143bdf809fa7c4174870ae7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CBRA#P&R.ANS by Rage + Paz (btg_ans2); released in btg_ans2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 35-70
-# Columns: 1-80
+﻿# Artwork: CBRA#P&R.ANS by Rage + Paz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-btg-ans2-cbra-p-r-part02
 
 Write-Host '
 [32m█[0;30;42m░▒▓[0;1;32;40m▐░░  ████ ░▒▒[0;30;42m█▒▒░[0;32;40m▌   █[0;1;31;40m█▓[0m     [1;37;40m▌[0;35m░░░ [0;30;44m▓▓▒░░[0m [35;40m░[0;1;37;40m▐▌[0;35m░░  [0;1;31m▓█[0;32m█[0m        [1;32;42m▒▒░[0m  [1;32;42m░▒[0m

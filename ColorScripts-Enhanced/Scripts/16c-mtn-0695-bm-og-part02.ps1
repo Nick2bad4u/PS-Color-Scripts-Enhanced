@@ -1,18 +1,4 @@
-﻿# Converted from: BM!OG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mtn-0695/raw/BM!OG.ANS
-# Source Revision: archive-sha256:01dd59399f2e8a58353f1b1f371c45734c706b251afcfee6e2cfe8849635b194
-# Source SHA-256: 91e6f1707f06f6d7d48ecb26b934860213242adb48bdf465773cc45754a0c5f0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BM!OG.ANS by blIndman (READ THE INI FILE); released in mtn-0695 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Original Gangsters
-# SAUCE Author: blIndman
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19950505
-# SAUCE Dimensions: 80x25
-# Lines: 51-74
-# Columns: 1-80
+﻿# Artwork: Original Gangsters by blIndman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mtn-0695-bm-og-part02
 
 Write-Host '
 [1;30m■■▀■▀▀■▀■▀▀▀▀▀▀■▀■▀▀▀■▀▀▀▀■▀▀▀▀▀▀▀▀▀▀▀▀■▀■▀▀▀▀▀▀▀▀▀▀■▀▀▀■▀▀▀▀▀▀▀▀▀■▀▀▀▀■▀■▀▀■▀■■[0m

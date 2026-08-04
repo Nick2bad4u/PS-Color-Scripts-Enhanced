@@ -1,18 +1,4 @@
-﻿# Converted from: BZ-HDR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mskp-03/raw/BZ-HDR.ANS
-# Source Revision: archive-sha256:369f71f9db47e6e5b0d0bdfdf19b2a22bd51dadea3798ab3bf33876f294ae21a
-# Source SHA-256: b57aa8ee31a6645d0ad7e35ff48db3b36f9ea28d0c91ba31538ba26e2c556f1b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BZ-HDR.ANS by BiOZARD (Masakre productions); released in mskp-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: biozard header
-# SAUCE Author: BiOZARD
-# SAUCE Group: Masakre productions
-# SAUCE Date: 19960921
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: biozard header by BiOZARD | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mskp-03-bz-hdr
 
 Write-Host '
                                                                 [1;30m▄[0m

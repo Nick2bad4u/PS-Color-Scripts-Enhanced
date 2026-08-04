@@ -1,18 +1,4 @@
-﻿# Converted from: BYM%FRST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/303pack1/raw/BYM%25FRST.ANS
-# Source Revision: archive-sha256:d96bc08a467a2a6ea2a6e843ebd49b97b1020499b45630ef796714f352c9da8a
-# Source SHA-256: be6cbf04f9dcafe05996ee003ebb9bea8ba955a3a38b8084a70e46aa3b0ca1ca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM%FRST.ANS by big y3llow man (phobia); released in 303pack1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: forest
-# SAUCE Author: big y3llow man
-# SAUCE Group: phobia
-# SAUCE Date: 19970309
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: forest by big y3llow man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-303pack1-bym-frst
 
 Write-Host '
 

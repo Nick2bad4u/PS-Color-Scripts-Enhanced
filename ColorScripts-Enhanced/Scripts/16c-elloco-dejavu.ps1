@@ -1,18 +1,4 @@
-﻿# Converted from: DEJAVU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/elloco/raw/DEJAVU.ANS
-# Source Revision: raw-sha256:c31f250e330da744be49f04eba259d40e35cd2d22b762a5ca6a677d6956bd65d
-# Source SHA-256: c31f250e330da744be49f04eba259d40e35cd2d22b762a5ca6a677d6956bd65d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DEJAVU.ANS by El LoCo (NeveRLanD People); released in elloco and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Deja Vu BBS
-# SAUCE Author: El LoCo
-# SAUCE Group: NeveRLanD People
-# SAUCE Date: 19960518
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Deja Vu BBS by El LoCo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-elloco-dejavu
 
 Write-Host '
              [1;30m  ▄▄▄▄▄▄▄▄▄▄       [0m       [1;30m           ▄▄▄▄▄▄▄▄▄▄    [0m

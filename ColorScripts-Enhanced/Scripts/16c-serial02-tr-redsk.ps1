@@ -1,13 +1,4 @@
-﻿# Converted from: TR-REDSK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/serial02/raw/TR-REDSK.ANS
-# Source Revision: archive-sha256:931d9b67ca76383ace53d796c9cdf620b09c74be427676b9b3693778e13bc6c8
-# Source SHA-256: 490310a007504d02928a7edeba48911f86b1a2057a4fbd505f0ac8b744124bdd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-REDSK.ANS by Terrato (serial02); released in serial02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: TR-REDSK.ANS by Terrato | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-serial02-tr-redsk
 
 Write-Host '
                             [1m,,++²²"""""""""""²²++,,[0m

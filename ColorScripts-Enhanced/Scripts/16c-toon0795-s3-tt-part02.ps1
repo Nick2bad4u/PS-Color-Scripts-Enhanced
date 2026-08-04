@@ -1,18 +1,4 @@
-﻿# Converted from: S3-TT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/toon0795/raw/S3-TT.ANS
-# Source Revision: archive-sha256:bbccc4a82016f54ecf3d0de5a108241c8f74bda668aff69f0bedbbe0a900b9a1
-# Source SHA-256: 88cada0a00fbfa2482003f789101fb3a86c1a650387aab45a9a4577f3b83fe26
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S3-TT.ANS by Shamanize (Toon); released in toon0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Toon's Town
-# SAUCE Author: Shamanize
-# SAUCE Group: Toon
-# SAUCE Date: 19950628
-# SAUCE Dimensions: 80x83
-# Lines: 37-83
-# Columns: 1-80
+﻿# Artwork: Toon's Town by Shamanize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-toon0795-s3-tt-part02
 
 Write-Host '
 [36m██▓[0m           [1;30;47m▓▓[0;1;30;40m████▀██████▄▀▓█████████[0m     [1;30m███████▄████████████████[0;1;30;47m▓[0m [1;32;42m▀▓▓▓[0;1;32;40m▄▄▓▄ [0;36m▀[0m

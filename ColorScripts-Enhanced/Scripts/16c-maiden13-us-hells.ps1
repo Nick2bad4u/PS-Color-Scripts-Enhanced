@@ -1,18 +1,4 @@
-﻿# Converted from: US-HELLS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden13/raw/US-HELLS.ANS
-# Source Revision: archive-sha256:70e231ea8653cd02d349f122b1a39f57757322f3913b0c8f20698b54c8795e68
-# Source SHA-256: a6f46d5b71d64cebbaf4e5ba23cdab4dec61b67a62b3cb7e29872491dc062037
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-HELLS.ANS by Minotaur + Rorshack (Maiden Brazil); released in maiden13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: hell storm. fIRE IN THE SKY!@#
-# SAUCE Author: minotaur + rorshack
-# SAUCE Group: Maiden Brazil
-# SAUCE Date: 19970905
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: hell storm. fIRE IN THE SKY!@# by Minotaur + Rorshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden13-us-hells
 
 Write-Host '
                         [1;31m▄[0;31m  [0m    [1;31m▄[0;31m  [0m       [31m░[0;30;41m▓[0;31;40m░░[0;37;40m  [0;31;40m░[0m                   [1;30;40m░[0m

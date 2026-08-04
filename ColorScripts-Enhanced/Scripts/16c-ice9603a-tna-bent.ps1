@@ -1,13 +1,4 @@
-﻿# Converted from: TNA-BENT.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9603a/raw/TNA-BENT.ICE
-# Source Revision: archive-sha256:51bcd96b8979115d69f1f707dc5c3d398256f0ac7a750005c0ccb144327b6f27
-# Source SHA-256: 7577140688949494bfb147e1705f82c74491e8e7d97c298ef09b46c3aa464798
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-BENT.ICE by The Night Angel (ice9603a); released in ice9603a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: TNA-BENT.ICE by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9603a-tna-bent
 
 Write-Host '
 

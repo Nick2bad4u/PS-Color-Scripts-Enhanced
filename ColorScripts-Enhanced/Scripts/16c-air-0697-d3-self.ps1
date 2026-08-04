@@ -1,18 +1,4 @@
-﻿# Converted from: D3!-SELF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/air_0697/raw/D3!-SELF.ANS
-# Source Revision: archive-sha256:5cd3011ba297092d80d79117f4d787f8ea3f225f068d30fcf0de8461325ab083
-# Source SHA-256: 87d4fb8256ff732bf24eacbaad619905c78e224dcfc32e501ecc7b4ffdbac639
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: D3!-SELF.ANS by debauch (air); released in air_0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: self_recognition
-# SAUCE Author: debauch
-# SAUCE Group: air
-# SAUCE Date: 19970530
-# SAUCE Dimensions: 80x23
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: self_recognition by debauch | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-air-0697-d3-self
 
 Write-Host '
 

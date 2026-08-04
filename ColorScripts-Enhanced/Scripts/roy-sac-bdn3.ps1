@@ -1,13 +1,4 @@
-﻿# Converted from: ROY-BDN3.ANS
-# Source encoding: CP437
-# Source URL: https://www.roysac.com/images/galleries/ZIP/Roy_ANSI.ZIP
-# Source Revision: archive-sha256:8598a9432b4feb86c4e79552795b407b9d7c576fb6f25e9828d6143f1c7b35bc
-# Source SHA-256: 36be1a121985eba714be1a848d23c7c6a7a0713ce4d265f0e533b07d96b55c72
-# Source License: FAL-1.3
-# Source Attribution: ROY-BDN3.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_ANSI.ZIP archive.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: ROY-BDN3.ANS by Roy/SAC aka Carsten Cumbrowski | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=roy-sac-bdn3
 
 Write-Host '
                                            [1;34m▄▄[0;36m▄[0;1;44m▄[0;36m▄[0;1;34m▄▄▄▄▄▄▄▄▄▄[0m

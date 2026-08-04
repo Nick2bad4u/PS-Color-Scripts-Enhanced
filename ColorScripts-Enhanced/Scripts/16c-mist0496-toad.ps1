@@ -1,18 +1,4 @@
-﻿# Converted from: TOAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0496/raw/TOAD.ANS
-# Source Revision: archive-sha256:be1a395f385261920c9bce8fb9a4a50e5287b1be7689ad97116617524efc6b52
-# Source SHA-256: b24354e7994ba9c9a077b8e1696da9524f6e9bc4c6d02a0c896e3bd81ac34a2b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TOAD.ANS by toad mEmbaH (MiSTiGRiS); released in mist0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: rIbbIt rIbbIt
-# SAUCE Author: toad mEmbaH
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 19960323
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: rIbbIt rIbbIt by toad mEmbaH | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0496-toad
 
 Write-Host '
 [32m▐▓▓▓▒▒░░░░░░▒▒▓▓▓ ▐▓▓▓▒▒░░░░░░░▒▒▓▓▓ ▐▓▓▓▒▒░░░░░░░▒▒▓▓▓▓ ▐▓▓▓▒▒░░░░░▒▒▓▓[0m

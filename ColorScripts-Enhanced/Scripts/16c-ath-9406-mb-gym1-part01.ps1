@@ -1,13 +1,4 @@
-﻿# Converted from: MB-GYM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ath-9406/raw/MB-GYM1.ANS
-# Source Revision: archive-sha256:a3906759401bc9792763a3ae8c772351e6cc6c6beab17d77eeae19b286502e34
-# Source SHA-256: 2412be4e0a0e3c13e54375f4ca7ac9064dc5f6ee0b312f26fa274d2841ba3942
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MB-GYM1.ANS by Mabus (ath-9406); released in ath-9406 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: MB-GYM1.ANS by Mabus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ath-9406-mb-gym1-part01
 
 Write-Host '
                                  [35m▒▒▒▒▒▒   ▒▒▒▒   ▒▒▒▒  ▒▒   ▒▒ ▒▒  ▒▒  ▒▒▒▒▒[0m

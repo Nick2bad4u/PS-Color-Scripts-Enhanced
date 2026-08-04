@@ -1,13 +1,4 @@
-﻿# Converted from: po-uglee.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/equate01/raw/po-uglee.ans
-# Source Revision: archive-sha256:506fc5c18b5520e9f45281cc2ad676b8785fdfc919cf45da1b34d236b6b9fd10
-# Source SHA-256: 621a18eca28203759b17e255a43e3481a9b7c969f3f6be9fe47934a3b9342651
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: po-uglee.ans by Portia (equate01); released in equate01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 94-141
-# Columns: 1-80
+﻿# Artwork: po-uglee.ans by Portia | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-equate01-po-uglee-part03
 
 Write-Host '
   [1;33m  ░░  [0;1;37;41m░░[0;1;35;40m  [0m       [30m [0;37m  [0;1;36m    [0;1;33m▀▀▀▀[0m [1;35m ░ [0;1;36m       [0m            [1;33;45m█▓[0;1;33;40m▄[0m

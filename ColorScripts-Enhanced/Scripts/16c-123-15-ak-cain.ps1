@@ -1,13 +1,4 @@
-﻿# Converted from: AK-CAIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/123-15/raw/AK-CAIN.ANS
-# Source Revision: archive-sha256:39cd46aa66b81888c9d6e1f67d00b1ce1214c30f0218c42ae55e96cdc4550c9e
-# Source SHA-256: 8274142050451edeec8c388dee5d962f1d55a4cca96eb31aaebe9caf1084666a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-CAIN.ANS by Abstrakt (123-15); released in 123-15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: AK-CAIN.ANS by Abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-123-15-ak-cain
 
 Write-Host '
 

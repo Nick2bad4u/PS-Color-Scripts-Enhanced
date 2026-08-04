@@ -1,18 +1,4 @@
-﻿# Converted from: DT-CIT2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root05/raw/DT-CIT2.ANS
-# Source Revision: raw-sha256:f46b1b866ffc985c8e2e0d9791f63112b1f9df5f83b7375e7fe663d3bcb974de
-# Source SHA-256: f46b1b866ffc985c8e2e0d9791f63112b1f9df5f83b7375e7fe663d3bcb974de
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-CIT2.ANS by Defiant (Root); released in root05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Citadel 8
-# SAUCE Author: Defiant
-# SAUCE Group: Root
-# SAUCE Date: 19970717
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Citadel 8 by Defiant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root05-dt-cit2
 
 Write-Host '
       [35m▄▄█[0;1;35;45m░▄▄▄[0;1;35;40m▄▌░[0;35m░ ▄▄█[0;1;35;45m░▄▄[0;35m▄ ▀[0;1;35;45m▄▄[0;1;35;40m▄[0;1;35;45m▓[0;1;35;40m▄▄[0;35m▄[0;37m░[0;1;30m░ [0;35m▀██▀▀▄▄▄▄ [0;30;43m▓[0;33;40m░[0;30;43m▓[0;37;40m [0;33;40m░ [0;35;40m▐[0;1;35;45m▄▄▓[0;1;35;40m▒░[0;35m▄▄▄▄▄▄▄ [0;1;30m░  [0;35m█[0;1;35;45m▀▓░[0;35m▐[0m

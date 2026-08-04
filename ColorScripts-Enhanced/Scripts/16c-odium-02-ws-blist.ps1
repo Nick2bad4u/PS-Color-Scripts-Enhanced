@@ -1,18 +1,4 @@
-﻿# Converted from: WS-BLIST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-02/raw/WS-BLIST.ANS
-# Source Revision: archive-sha256:47a67f112d88796e8c1419ea3c6c084684ff2719dfc540b2668a69dc0343be0d
-# Source SHA-256: 7d3aa1800bb118d6a6cc039ea9bf622821b10036e4c6b23e862314ce0d00f5c7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WS-BLIST.ANS by whitesnake (odium); released in odium-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: blister
-# SAUCE Author: whitesnake
-# SAUCE Group: odium
-# SAUCE Date: 19951227
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: blister by whitesnake | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-02-ws-blist
 
 Write-Host '
                                                             [1;30m▄■[0m

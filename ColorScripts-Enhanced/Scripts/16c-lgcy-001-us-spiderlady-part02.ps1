@@ -1,20 +1,4 @@
-﻿# Converted from: us-spiderlady.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-001/raw/us-spiderlady.ans
-# Source Revision: archive-sha256:589c804657c8d15ba617f7c0fd80723e4505d519989b80eba9584665be49eb54
-# Source SHA-256: 3cf57f12574c9836b74de624e77553b8f7fb117461e4248a84a71e0f18870bb3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-spiderlady.ans by Whazzit + The Knight (B7 / Legacy Krew); released in lgcy-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Little Miss Muffet
-# SAUCE Author: Whazzit / The Knight
-# SAUCE Group: B7 / Legacy Krew
-# SAUCE Date: 20191126
-# SAUCE Dimensions: 80x150
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Little miss Muffet all grown up.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: Little Miss Muffet by Whazzit + The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-001-us-spiderlady-part02
 
 Write-Host '
      [37m████[0;1;30;47m [0m▓▓████▀ ▄[1;30m▄[0;1;30;47m█[0m [31m░[0;1;30m ░▒░[0m ███████████████▌[1m▐[0;1;47m▐[0m ██████▒▓████▒[1;30m░[0;30m█[0;1;37;47m▌▐[0;1;37;40m██▄[0m▀███[30m██[0m

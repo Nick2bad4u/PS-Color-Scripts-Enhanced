@@ -1,18 +1,4 @@
-﻿# Converted from: TE-CIZB4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira9801a/raw/TE-CIZB4.ANS
-# Source Revision: archive-sha256:e078b6410509abad43422f2b2341d3c9069c369cc769e7c4238a292c9d0a2694
-# Source SHA-256: c69ed222c76f662f4273b2c84ffb852d29dbf0d35d5aac6df1cf0e010a34e9f2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TE-CIZB4.ANS by The ExtremisT (FIRE!/Mistigris); released in ira9801a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: City iz Burning Matrix
-# SAUCE Author: The ExtremisT
-# SAUCE Group: FIRE!/Mistigris
-# SAUCE Date: 19961212
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: City iz Burning Matrix by The ExtremisT | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira9801a-te-cizb4
 
 Write-Host '
 [31m▄▓▓▓▓▓▓▓▓▓▓▓▓██████▀ [0;32m▄▄[0;1;32;42m▒▓██[0;1;32;40m▄ [0;31m▐██  ▒▓▓▓▓▓▓▓▓▓▓▓▓████████████▄▄▄███▄    ▄█▓▓▓▓▓▓▓[0m

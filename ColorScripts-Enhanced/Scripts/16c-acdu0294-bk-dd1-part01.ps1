@@ -1,18 +1,4 @@
-﻿# Converted from: BK-DD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0294/raw/BK-DD1.ANS
-# Source Revision: archive-sha256:0b07fb9329d81f40ead17ad1bfccb58be060a9dc7ff2828ea9938c5cac09a5a8
-# Source SHA-256: 390985e91eaf0181d6c2c6f607a6de4a494e671530253fff46987f078877d738
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BK-DD1.ANS by Bad Karma (ACiD Productions); released in acdu0294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Digital Disturbance
-# SAUCE Author: Bad Karma
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940131
-# SAUCE Dimensions: 80x165
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: Digital Disturbance by Bad Karma | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0294-bk-dd1-part01
 
 Write-Host '
 [1;47m█[0;1m██████████████████████████████████████████████████████████████████████████████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: RS-SAC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac1294/raw/RS-SAC1.ANS
-# Source Revision: archive-sha256:4cf7765ee6660556cb900dacf0ec67f070b8e4df414172b5e01733a49d10031f
-# Source SHA-256: d51e739994435734cfc9bdee226cb2b2d9abb54f1d095ec2dfc3a92b2d68a082
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-SAC1.ANS by raiser; released in sac1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
-# SAUCE Title: 1ST-SAC.ANS
-# SAUCE Author: RAiSER
-# SAUCE Group: SAC
-# SAUCE Date: 19941211
-# SAUCE Dimensions: 80x99
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: 1ST-SAC.ANS by raiser | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac1294-rs-sac1-part01
 
 Write-Host '
 [34;40m░░░  ░░ ░ ░   ░░░░░ ░░░░░░░░░░░[0;1;33;40m░[0;34m░░░░░░░   ░░  ░ ░░░░░░  ░░░░ ░░ ░░   ░░ ░░   ░░[0m

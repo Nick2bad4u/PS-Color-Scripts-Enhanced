@@ -1,18 +1,4 @@
-﻿# Converted from: TE-PROMO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lap-1194/raw/TE-PROMO.ANS
-# Source Revision: archive-sha256:1249a7858c55d8a511f785f1b29dba584237c46767e902f3f2cbf3e9c28c54a2
-# Source SHA-256: 32c93551708159808163314363fc845dbad7c193436a86cbc70db6ab454e980b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TE-PROMO.ANS by T/4E (Lapse); released in lap-1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Lapse Promotional 11/94
-# SAUCE Author: T/4E
-# SAUCE Group: Lapse
-# SAUCE Date: 19941027
-# SAUCE Dimensions: 80x138
-# Lines: 45-90
-# Columns: 1-80
+﻿# Artwork: Lapse Promotional 11/94 by T/4E | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lap-1194-te-promo-part02
 
 Write-Host '
  [1;30m [0;1;31;41m▒▒▒▓▓[0;31m▀[0m [1;37m▄▄[0m▄▄[1;47m░░[0;1;30;47m░[0m▄▄▄ [30;44m█▄[0;37;44m  [0;1;34;44m▒░[0;44m [0;30;44m░▒▓[0;37;40m [0;35;45m [0;1;35;45m▒░[0;35;45m  [0;37;40m [0;30;41m▓▒░░▒▓[0;37;40m [0;35;45m  [0;1;35;45m░▒[0;35;45m [0;37;40m [0;30;44m▓▒░[0;35;44m [0;1;34;44m░▒[0;35;44m  [0;30;44m▄█[0m [37;40m▄▄▄[0;1;30;47m░[0;1;37;47m░░[0m▄▄▄▄ [31m▀[0;1;31;41m▓▓▒▒▒[0;33m [0;37m [0m

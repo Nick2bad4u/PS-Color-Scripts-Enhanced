@@ -1,13 +1,4 @@
-﻿# Converted from: DT-RPTR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1193/raw/DT-RPTR1.ANS
-# Source Revision: archive-sha256:884ed780ed9db7320ba69a9b0efc2d586f74c5e51ace62ea3bd0be7c29ac5255
-# Source SHA-256: 32932adf7580d26989ebc8f92657ca399be7f395c8fe8bdbae057cb252075189
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-RPTR1.ANS by Dr Tongue (acdu1193); released in acdu1193 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: DT-RPTR1.ANS by Dr Tongue | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1193-dt-rptr1-part01
 
 Write-Host '
 [30m▄[0m                                             [30m▄    [0;1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

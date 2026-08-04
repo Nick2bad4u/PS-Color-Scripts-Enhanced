@@ -1,13 +1,4 @@
-﻿# Converted from: S&-SHE_W.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-13/raw/S%26-SHE_W.ANS
-# Source Revision: archive-sha256:1a2968c25b051f2b7445b499fa5cc5c82fc02017f286a7353384ed280dda5c1e
-# Source SHA-256: 48b8b76d609b1ed6e51d32e85027ab16e5408e70ee56bbcd6d3c595bafefe2d0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S&-SHE_W.ANS by Sandman604 (sclr-13); released in sclr-13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: S&-SHE_W.ANS by Sandman604 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-13-s-she-w
 
 Write-Host '
 [1;36m████████████████▀[0;1;34m▄██[0;1;34;44m▓▓▓▓▓[0;1;34;40m██[0;1;34;44m▓▓[0;1;34;40m█▀▀█[0;1;34;44m▓[0;1;34;40m█▌[0;33m▐[0;1;31;43m░[0;33m█[0;1;31;43m░[0;33m▀▀[0;1;37m▄▄████▀▄▄[0;33m▀[0;1;31;43m░░[0;33m [0;1;34m██▀[0;33m▄▄▄[0;1;34m▀██[0;1;34;44m▓▓▒▒░░░░░░░░░░░[0;1;33;40m [0m

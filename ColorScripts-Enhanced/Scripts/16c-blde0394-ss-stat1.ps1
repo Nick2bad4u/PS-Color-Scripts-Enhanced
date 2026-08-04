@@ -1,13 +1,4 @@
-﻿# Converted from: SS-STAT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde0394/raw/SS-STAT1.ANS
-# Source Revision: archive-sha256:de6ed9ab061eb3873e65e8592983e98d7529a8bb505e6f2812dc10ac1d2b7ff0
-# Source SHA-256: 8ee8cc9f9364e048bcf792d46ef4a2bf65e2fbf8a99d5e62226274d848e7ff92
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SS-STAT1.ANS by Soul Seeker (blde0394); released in blde0394 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: SS-STAT1.ANS by Soul Seeker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde0394-ss-stat1
 
 Write-Host '
                      [32m▄[0;32;42m [0;1;32;42m▄▀▀▀▀▀▀▀▄▄[0;32m█████████[0;1;32;42m▄▄▀▀▀▀▀▀▀▀▄[0;32m█▄[0m

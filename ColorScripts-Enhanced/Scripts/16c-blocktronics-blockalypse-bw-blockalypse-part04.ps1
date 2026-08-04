@@ -1,16 +1,4 @@
-﻿# Converted from: bw_blockalypse.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_blockalypse/raw/bw_blockalypse.ans
-# Source Revision: archive-sha256:29ba148fe5fc8b4a774ee58a56a5b6d8104f139a95cba3df944ffda7c075e06a
-# Source SHA-256: 4892399de5ed643aa4e6b900c597815eb9d4006faf421ff09f0210322b467b05
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bw_blockalypse.ans by Binary Walker (blocktronics_blockalypse); released in blocktronics_blockalypse and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 20140121
-# SAUCE Dimensions: 80x355
-# SAUCE Font: IBM VGA
-# Lines: 138-181
-# Columns: 1-80
+﻿# Artwork: bw_blockalypse.ans by Binary Walker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-blockalypse-bw-blockalypse-part04
 
 Write-Host '
 [35m██████[0;33m  ▀    ▄▀[0;37m [0;32m▀▄▄  ▀ ▄[0;37m [0;32m▓▀[0;37m▄[0;33m  ▀ ▄▄▄█ ░[0;1;31m████[0;33m  █▄▄▄ ▀  ▄ [0;32m  ▀▀▀▀  [0;33m▄▄ ▀▄    ▀  [0;35m ▓████[0m

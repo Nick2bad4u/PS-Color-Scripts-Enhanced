@@ -1,15 +1,4 @@
-﻿# Converted from: CR-ANS09.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hx03/raw/CR-ANS09.ANS
-# Source Revision: archive-sha256:104d110f52c5a40262f58802193cf32ea325fb9abe1cb8693a60510126f73185
-# Source SHA-256: bcd00f9eaecc7a6788b66f099109379f42622025a8a199362298bc91512a498d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CR-ANS09.ANS by cORRUPT! (HOAX); released in hx03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: cORRUPT!
-# SAUCE Group: HOAX
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: CR-ANS09.ANS by cORRUPT! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hx03-cr-ans09
 
 Write-Host '
         [33m            [0;1;32m░░[0;33m                  [0;1;32m  [0;33m [0;1;33m▄▄[0m

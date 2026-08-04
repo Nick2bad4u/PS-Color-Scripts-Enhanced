@@ -1,17 +1,4 @@
-﻿# Converted from: NOH-BMB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0397/raw/NOH-BMB.ANS
-# Source Revision: archive-sha256:dbc842066d628a57d7819da260b477c6ec1e4d0ba1a7d08ba504501e875a1ea3
-# Source SHA-256: 164bdaf52854af3a58e478451c5daf6c39d8674b04e573f74141374c4e35d4d4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NOH-BMB.ANS by nOah! (bmb-0397); released in bmb-0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: bamboosh!
-# SAUCE Author: nOah!
-# SAUCE Date: 19970311
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: bamboosh! by nOah! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0397-noh-bmb
 
 Write-Host '
  [34m  [0m

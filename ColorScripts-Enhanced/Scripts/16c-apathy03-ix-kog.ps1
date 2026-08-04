@@ -1,17 +1,4 @@
-﻿# Converted from: IX-KOG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy03/raw/IX-KOG.ANS
-# Source Revision: archive-sha256:a3a53ea79bcbcd57bc05c6d80b9369444063e81f9dc4053225ede5f60d209f4b
-# Source SHA-256: f6d1d65efb5037393728c4327a2a775c8a408ddf2e14c1f12502a5ec228f216d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IX-KOG.ANS by Illusion X (apathy03); released in apathy03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Kingdom of Groove
-# SAUCE Author: Illusion X
-# SAUCE Date: 19951025
-# SAUCE Dimensions: 80x31
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: Kingdom of Groove by Illusion X | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy03-ix-kog
 
 Write-Host '
                         [34m▄[0m       [34m▄■▀▀■▄[0m   [34m▄[0m      [34m▀  ▄[0m

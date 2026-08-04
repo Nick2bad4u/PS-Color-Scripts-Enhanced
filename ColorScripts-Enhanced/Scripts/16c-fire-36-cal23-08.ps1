@@ -1,19 +1,4 @@
-﻿# Converted from: CAL23-08.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-36/raw/CAL23-08.ANS
-# Source Revision: archive-sha256:43e7d46e56dc094cf8502b299dcd82ee875dea0a064a36248f4e6c844180fd25
-# Source SHA-256: 8f5a0d1f904886bb944e9d543ba925afafc1838f19018b77e6a7982d370a0891
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CAL23-08.ANS by avg (fire); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: eddie munson
-# SAUCE Author: avg
-# SAUCE Group: fire
-# SAUCE Date: 20230303
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: eddie munson by avg | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-36-cal23-08
 
 Write-Host '
 [1;35;40m░▓▓▓▓▓▓[0;1;35;41m▄▀▄[0;1;37;41m▀█▄[0;31m█[0;1;35;41m▄[0;31m█[0;1;35;41m■[0;31m█[0;34;41m·[0;1;37;41m [0;34;41m■ ░░░▓▓▓▓[0;34;40m▄[0;34;41m▓[0;34;40m▄ ▄▀[0;31;44m■▄[0;1;35;44m■[0;1;37;40m▓[0;1;35;44m▀[0;1;35;40m▓▓▓[0;1;35;41m▄[0;31m██[0;1;35;41m▄▄ ■[0;31m██[0;35;41m▀▄[0;31;40m█[0;35;41m░░░░░[0;1;35;41m░░[0;31m█[0;1;35;41m░░░▓▓▀[0;1;37;45m█[0;1;35;41m▄▄[0;1;35;40m▓▓▓▓▓▓▓▒[0m

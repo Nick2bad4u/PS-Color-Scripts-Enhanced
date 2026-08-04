@@ -1,18 +1,4 @@
-﻿# Converted from: K1-AEX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-02/raw/K1-AEX.ANS
-# Source Revision: archive-sha256:bb8ce420598b36a52d4f9cba3bdfbad44af088efeb11a778f52d121622116149
-# Source SHA-256: b04b6d3368bcd9b3d4af7562503856530e048e93f7d875dc65a191085c996177
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K1-AEX.ANS by Knocturnal (Hieroglyphics); released in hiero-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Autechre
-# SAUCE Author: Knocturnal
-# SAUCE Group: Hieroglyphics
-# SAUCE Date: 20001002
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Autechre by Knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-02-k1-aex
 
 Write-Host '
   [35m▄[0m

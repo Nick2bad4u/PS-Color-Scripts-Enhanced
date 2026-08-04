@@ -1,18 +1,4 @@
-﻿# Converted from: GR-ZOOK3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spas1095/raw/GR-ZOOK3.ANS
-# Source Revision: archive-sha256:13aa954ec08efcd1f4481b6694a8326cc5ced74bc0da1cb72e8e636d69af3c30
-# Source SHA-256: d02c858a4228c75ec00dcf5d57ee1e327762f69a6059853181ee1f39866e469d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GR-ZOOK3.ANS by Gradius (spastique); released in spas1095 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: zook!
-# SAUCE Author: Gradius
-# SAUCE Group: spastique
-# SAUCE Date: 19951012
-# SAUCE Dimensions: 80x45
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: zook! by Gradius | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spas1095-gr-zook3
 
 Write-Host '
                        [1;30m [0m

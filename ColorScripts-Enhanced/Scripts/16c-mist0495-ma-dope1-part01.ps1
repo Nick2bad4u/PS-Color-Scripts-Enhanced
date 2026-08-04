@@ -1,18 +1,4 @@
-﻿# Converted from: MA-DOPE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0495/raw/MA-DOPE1.ANS
-# Source Revision: archive-sha256:525a1fa828f0ef0c2a2e860ebb621879784bd64788d1492a84528f5ba9128087
-# Source SHA-256: 224fe90c8d39d8fb9c2bff9aa8bdd2c72794c19f5a91d60203422143c4cba4a2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MA-DOPE1.ANS by Mavrik (Mistigris); released in mist0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Dope Essay Ad
-# SAUCE Author: Mavrik
-# SAUCE Group: Mistigris
-# SAUCE Date: 19950404
-# SAUCE Dimensions: 80x25
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Dope Essay Ad by Mavrik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0495-ma-dope1-part01
 
 Write-Host '
 ▀▀▀▀▀▀▀▀▀█████████████████[1;30;47m▀▀▀▀▀██[0;1;30;40m▄▄▄▄[0;1;32;40m▀▀▀▀▀[0;1;32;42m██▀▀[0;1;32;40m▀▀▀▀[0;32m▄▄▄[0;1;32m▄▄[0;32m▀██  [0;1;32m████████████▌[0;32m▐[0;1;32m▌▐███[0m

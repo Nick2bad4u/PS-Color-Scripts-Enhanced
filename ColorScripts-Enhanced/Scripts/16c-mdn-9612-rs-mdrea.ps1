@@ -1,18 +1,4 @@
-﻿# Converted from: RS-MDREA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9612/raw/RS-MDREA.ANS
-# Source Revision: archive-sha256:7d43e63ae2db90d8db330e19aba6fa45cd28e0b1ce3f3269a9d48b4adf2a6fa9
-# Source SHA-256: 37cc93e893509517bad8a9906035c95a6ca75a517b0c4832ed3909ccdba4476e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-MDREA.ANS by rorsh4ck (Maiden Brazil!); released in mdn-9612 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: magic dreams fast logo
-# SAUCE Author: rorsh4ck
-# SAUCE Group: Maiden Brazil!
-# SAUCE Date: 19961113
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: magic dreams fast logo by rorsh4ck | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9612-rs-mdrea
 
 Write-Host '
                   [1;30m█▀▀▀▀▀▀▀▀▀▀▀█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀██[0m

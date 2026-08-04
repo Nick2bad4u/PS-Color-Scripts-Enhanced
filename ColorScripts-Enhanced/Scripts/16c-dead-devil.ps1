@@ -1,13 +1,4 @@
-﻿# Converted from: DEVIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dead/raw/DEVIL.ANS
-# Source Revision: archive-sha256:42002c7465322e6567b6ada22b7d24270f500cdc26769d5efac519e13d8ec757
-# Source SHA-256: af35de9944e952f78972097b3aea1ce7df60b08129c71f956d5ad106d6747d3f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DEVIL.ANS by Death Knight (dead); released in dead and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: DEVIL.ANS by Death Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dead-devil
 
 Write-Host '
 

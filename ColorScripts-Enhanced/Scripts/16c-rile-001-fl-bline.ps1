@@ -1,18 +1,4 @@
-﻿# Converted from: FL-BLINE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile_001/raw/FL-BLINE.ANS
-# Source Revision: archive-sha256:f7a8644489c1d011b91477b5b1eab40d9f39b077b89f158a7a0c3d1c032c6d81
-# Source SHA-256: 604b84c917217f95602f84b89f6536e50541a82696576b94f482b096df339358
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-BLINE.ANS by flame (rile); released in rile_001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: bloodline, +o vade
-# SAUCE Author: flame
-# SAUCE Group: rile
-# SAUCE Date: 19970208
-# SAUCE Dimensions: 80x25
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: bloodline, +o vade by flame | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile-001-fl-bline
 
 Write-Host '
 [30mfl[0;31m▓▄[0;1;31m▄[0;1;31;41m▄[0;31m▀[0;1;31;41m░[0;31m▌▀[0;35m ▄▌ ▄[0;1;31;45m▄[0;35m▄[0;1;31;45m▄██▀[0;35m▀█[0;1;31;45m▄[0;35m█▄[0m       [30;41m█[0;35;40m▄[0;1;31;45m▀▄░[0;35m▀[0;1;31;45m▄[0;35m▄ [0;37m [0;35m▄░■[0;30;45m██[0;37;40m [0;31;40m▀▄█[0;1;31;41m▄[0;1;31;40m▄▄▄[0m▄▄▄[1;31m▄▄[0;1;31;41m▄▄▄███[0;1;31;47m▄▄▓▓▓█▀▀[0;1;31;41m▄[0;31m█▄£ [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: PA-ICE1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9602a/raw/PA-ICE1.ICE
-# Source Revision: archive-sha256:a7cb032b47574ac80269aea88d994085abecd77228955f55ef8d0e5338bc0184
-# Source SHA-256: 4e37c163758750d1c1ef3fadc1f3442efdfcf7589af33dd696d9702b54498259
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PA-ICE1.ICE by Parasite (iCE); released in ice9602a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: iCE Promo!
-# SAUCE Author: Parasite
-# SAUCE Group: iCE
-# SAUCE Date: 19960305
-# SAUCE Dimensions: 80x49
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: iCE Promo! by Parasite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9602a-pa-ice1
 
 Write-Host '
 [34m    ░░             [0m              [34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0m          [34m                   [0m

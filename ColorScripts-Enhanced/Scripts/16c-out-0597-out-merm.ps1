@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-MERM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0597/raw/OUT-MERM.ANS
-# Source Revision: archive-sha256:3de32686811f55d4f9292a8cd6f2301bd8ca3b20d8fe15c3e36372269dc00d36
-# Source SHA-256: 555f4dbb37f5f6decb2143ff32fb48ecb5c20b598c1ae402a08292975ffe11fe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-MERM.ANS by Sandy Chidester (out-0597); released in out-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: OUT-MERM.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0597-out-merm
 
 Write-Host '
 [31m███████████████████████████████████████▀[0m      [31m▀█████████████████████████████████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: PT-1296.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9612/raw/PT-1296.ANS
-# Source Revision: archive-sha256:634aaac85c7d9b6072d119f8ce41f9d77a163e2892fb18d233be18fe4fed4816
-# Source SHA-256: 5b9ff73660b6df99d3132155ac4aadc75c3b0ff013c45b2b0d29f2f3425fa922
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PT-1296.ANS by Platinum (Blist); released in blde9612 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Logocolly for December
-# SAUCE Author: Platinum
-# SAUCE Group: Blist
-# SAUCE Date: 19961201
-# SAUCE Dimensions: 80x42
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Logocolly for December by Platinum | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9612-pt-1296
 
 Write-Host '
                [31m░   ░░░░░░  ░░░     [0;1;37;47m░[0;31m ░░░░     ░░░░░░░░░░░░░░░░░░[0m

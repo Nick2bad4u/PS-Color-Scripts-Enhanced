@@ -1,18 +1,4 @@
-﻿# Converted from: EL-TRA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/div-0495/raw/EL-TRA.ANS
-# Source Revision: archive-sha256:36be8065bfe90ad824a198d77443ef6585ffb6a898051b94c4c49a6ff96eff74
-# Source SHA-256: e61ac8234eebe59c9710a2cd16de2fcd53af6a200a98496734e819eaf511c34d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EL-TRA.ANS by Elysius (DIVINE); released in div-0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Realms Above
-# SAUCE Author: Elysius
-# SAUCE Group: DIVINE
-# SAUCE Date: 19950316
-# SAUCE Dimensions: 80x120
-# Lines: 81-119
-# Columns: 1-80
+﻿# Artwork: The Realms Above by Elysius | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-div-0495-el-tra-part03
 
 Write-Host '
 [1;37m▄▀[0;30m█[0;1;37m█[0;1;37;46m▓[0;1;37;40m▀▄[0;30m█[0;1;37m▀[0;30m██[0;1;37m▄▄[0;30m██[0;1;37m▄[0;30m████████████[0;1;30m▀▓▄▄▓▄■[0;30m█[0;1;30m▀▄▒[0;30m████[0;1;30m▄■[0;30m██[0;1;30m▓▄▄▒[0;30m█[0;1;30m▄■[0;30m██████████[0;1;37m▄[0;30m██[0;1;37m▄▄[0;30m█[0;1;37m▀[0;30m██[0;1;37;46m▓[0;1;37;40m▀▄▄▀▄[0;30m█[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: CPH-NSC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/engine01/raw/CPH-NSC.ANS
-# Source Revision: archive-sha256:684ed7e133aab63fda6f762ca041f6afe4ccc183b91f2e66e44e1d4b55e3dcd9
-# Source SHA-256: 60b145b36b0fdb54ac81c7dd9483432ae7dcc2fac605a1b6d8b93fb6bd1b2509
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-NSC.ANS by Cyberpunch (engine01); released in engine01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: CPH-NSC.ANS by Cyberpunch | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-engine01-cph-nsc-part02
 
 Write-Host '
 [1;30;40m   ▀█[0;1;30;43m▀[0;1;30;40m█████████████▀ ▀[0;1;30;45m█[0;1;30;43m▓▓▓█[0;1;30;40m█  [0m      [1m███▀[0m [1;30m   [0m [1m█[0;1;33m██[0;1;37m█[0m      [33m  ▀[0;1;31;43m▀▀▀▀[0;33m█▌ [0;37m [0;34m░██[0;1;34;44m███▄▄    [0;34m██[0m

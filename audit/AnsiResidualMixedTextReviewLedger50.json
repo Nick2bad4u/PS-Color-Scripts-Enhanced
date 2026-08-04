@@ -1,0 +1,1176 @@
+{
+  "batch": 50,
+  "candidates": [
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 80,
+              "start": 61
+            }
+          ],
+          "expectedRawSha256": "ed260b26a1340764cfe62898af467969958c48ac060da106e2b693474d895f1a",
+          "expectedRenderedSha256": "92a5ac2737dd4690727048047c255ba672fb8650df7b9da182a493b20624562a",
+          "row": 31,
+          "sha256": "0ea4fe19049d81f3fd1b79e2f9942d2449ecaf3e65edccb9c3ee547fbba91bbb"
+        }
+      ],
+      "file": "16c-acdu1195-pg-gzero-part03.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 60,
+              "start": 44
+            }
+          ],
+          "expectedRawSha256": "2e0d644184b5ea0941e7839d9fe38c50da1fa3bbd4e311042a36d911a3e1890c",
+          "expectedRenderedSha256": "eb702da249bdd0907110593bbea0d162794a77b55f7b1e5bcba7cd6e9b2fed51",
+          "row": 29,
+          "sha256": "ba97031dfed9199061ac27e28cf59827845b5b1a21fc999a461d2026db267d36"
+        }
+      ],
+      "file": "16c-air-0697-lg-face1.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 57
+            }
+          ],
+          "expectedRawSha256": "0ee72485d3e8d8e6e57142fa20b348da40f0512c70c21c119ad6b152b6255888",
+          "expectedRenderedSha256": "de21c72422810df3c970b1bd29767c6c7570e6795ebfe9dcc93708736779e2ff",
+          "row": 20,
+          "sha256": "4b995a40cc47a00361d1aca2e7fc960a8c12a94e70b64cab0b98638827eb6492"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 57
+            }
+          ],
+          "expectedRawSha256": "b836519d6cd4d5381fd3629b8cf7ae5bbdd3096b056f89c4cf68143400eec1c0",
+          "expectedRenderedSha256": "534410d3ee65394a39972a1257cf15611c835386a314c6e8733f0c3fd50a59eb",
+          "row": 22,
+          "sha256": "2564f09064219056021a21083481ec3ed05d1c6658f999ae1de5d53c3b3508c7"
+        }
+      ],
+      "file": "16c-allnc-01-la-colbx-part01.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 28,
+              "start": 17
+            }
+          ],
+          "expectedRawSha256": "ec673997131720fd509e2bd5d6b6bc6cbb664f49150ea5fd326a2455d49e989b",
+          "expectedRenderedSha256": "74bd670eed073023904741aa42fa137139da085bbfe5c2b3b8f43f31ad64bc22",
+          "row": 16,
+          "sha256": "d8ebadc8494a62b43cc990fcf5602d8b63f9d02cd8b71a60433a4ae55240943e"
+        }
+      ],
+      "file": "16c-anger09-dt-sabo.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 51
+            }
+          ],
+          "expectedRawSha256": "3d4af34dca8dca189ca0887c07ad5ebfdd68cad1fab1feaad27f6ea7dbe7c014",
+          "expectedRenderedSha256": "fdf6d13e3fa51b2c4d79eedd1ee985a45a1244da6d57e4eacb67ed605e4e8b29",
+          "row": 24,
+          "sha256": "2f2a5c9d46a0c26c8a8614f3f1bf03a55e2f2f2a95dde114c26857641170fc67"
+        }
+      ],
+      "file": "16c-apathy09-us-ddn.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 46
+            }
+          ],
+          "expectedRawSha256": "71ceafd0c35123fef686adf6a3e9e05d0bd5eb69270d2a7db42a61f1898d337b",
+          "expectedRenderedSha256": "cab2c7b32036ab6197134c73e6c21c403f1663552274055520aa6f6f4e99dabb",
+          "row": 6,
+          "sha256": "0be21cb80314e2c9a52d6ebff2db2d4ee1e67a906a6e41b3e09627c4f033dac6"
+        }
+      ],
+      "file": "16c-avenge15-cg-col1-part01.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 80,
+              "start": 57
+            }
+          ],
+          "expectedRawSha256": "5f6f286002a4826addcc5894ffba49a3e3e0209440713676c37de0c90a0c3f6e",
+          "expectedRenderedSha256": "647394815f09f2ecc36bee6c6ed8e1b86d6b60d258bff041efba48c333acc939",
+          "row": 14,
+          "sha256": "64d8f901740697c9cf3da15e44975b06dfe252d85745a24f71c0c9e6fa90d857"
+        }
+      ],
+      "file": "16c-bli-0994-ht-order-part01.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 10,
+              "start": 6
+            }
+          ],
+          "expectedRawSha256": "9005c26f8cb56c77381d5a7cfe24dc5cb62cf4852868876ce10d05c9e88b8703",
+          "expectedRenderedSha256": "d19cbfce7b2a4390b70dacfac8da885591eeb3e6e1577e5fb23224665f86e36f",
+          "row": 25,
+          "sha256": "aa138826ecb1d0d1c3daad637de3801de1c8baf819803538843de3fe00021cae"
+        }
+      ],
+      "file": "16c-blocktronics-yotb-zii-coly-part01.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 52
+            }
+          ],
+          "expectedRawSha256": "9d5f6747c6d8c1e0c6433e00b05c5a9fb704b9135a8ace0bdc33ddadd6c9c57c",
+          "expectedRenderedSha256": "24917f4e3cc15aac7b52b65ddcf2a09891109b6f1f31821f5f6e2020758b831c",
+          "row": 24,
+          "sha256": "79e9deefbc016ba163e3027299ad20eb8fd91609be7273d7db168e877d08decf"
+        }
+      ],
+      "file": "16c-bmb-0597-pyx-skev.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 27,
+              "start": 6
+            }
+          ],
+          "expectedRawSha256": "488a4b49db860977258c31fe8dca278ad11b8c1a4331a110a8d790babcbfe766",
+          "expectedRenderedSha256": "3bba289594942c710eff85474de8d0542e9e3cb35817293d1e03c363227d81e7",
+          "row": 10,
+          "sha256": "144b1a8e57faf310a60f9d2810c0a4a5adf951a046bde013957aa9658190b9bf"
+        }
+      ],
+      "file": "16c-bmb-0696-ib-spiff.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 79,
+              "start": 57
+            }
+          ],
+          "expectedRawSha256": "4c48693d619a3581c676b643a50fd224f8ce592b47ebad8eed05b6d6d7421339",
+          "expectedRenderedSha256": "9712b3a584821fc1d94191f9e836f70feaeba02853b8097e0dd0e24fca165cf9",
+          "row": 4,
+          "sha256": "d1f8b39ebefe4f63b3ad1d5b9ce7b8750f25725e272b071aa0b4f8c29d869f7b"
+        }
+      ],
+      "file": "16c-ecl-pak9-cpl-puto.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 43,
+              "start": 28
+            }
+          ],
+          "expectedRawSha256": "a6d1d7e7ebfc832efab4ebe558a623a7f6c56617ca10646281e6256d79c291a1",
+          "expectedRenderedSha256": "b16a70f0fc72e97c7960fcdd671171c60c6c1d6bb3586c83d932b914b1755204",
+          "row": 18,
+          "sha256": "fbbc4bb499069ce9d20dab8aa0c9bf8b0d5e88202698f8cae688112b64353844"
+        }
+      ],
+      "file": "16c-fire-46-fil-nehi-part02.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 78,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "b13ffaa5c852cada0dfbc3d8ffadea9ee95eaf09b8feeec25e4f7df9657601a0",
+          "expectedRenderedSha256": "34025ab942f16ee6cc8cf0c3310e672c23bee6d2170633e38c13099a2a2a1aa4",
+          "row": 4,
+          "sha256": "185766794f4bed00d55d6901636f4d4bc2c0e86fb162f30184688410f34931b9"
+        }
+      ],
+      "file": "16c-fire0396-33-sup2.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 78,
+              "start": 57
+            }
+          ],
+          "expectedRawSha256": "3a4802f9ab958bec18379de5b19cec8115e06fd1014710360361aebf174cc9eb",
+          "expectedRenderedSha256": "e346c7f96cb1fa34b541c5f6979a38ac3bb6c9028ad95337b70d8a3a18a97d47",
+          "row": 31,
+          "sha256": "051d8b38d31b6d69e07e273db1d397f91009ee27814783b25613cb9199101ccf"
+        }
+      ],
+      "file": "16c-force-02-jxl-homy-part03.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 52,
+              "start": 47
+            }
+          ],
+          "expectedRawSha256": "e75f5dd87031ae127ade0b97f8a534307fdf929f1abf9879b2ad16f35b2395b2",
+          "expectedRenderedSha256": "f61c51df78ed860769103bdc7de4370ea7019b574449d0997c4b025c7fa00098",
+          "row": 9,
+          "sha256": "baa70a8182d14b730a8abe53e317d56b5727ad59520fccee917b701bd050ed9a"
+        }
+      ],
+      "file": "16c-fsn-1296-iz-artre.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 17,
+              "start": 3
+            }
+          ],
+          "expectedRawSha256": "978ebb151aed857da3a829fc0eb2ec3080ac301f161838b63a1de22cf6cadedf",
+          "expectedRenderedSha256": "062d3515fa0525d3e17e589bdb6e057f06677ca69cd81b1983c7e96c0dfcd97f",
+          "row": 18,
+          "sha256": "0a9eafaba53bbd2e46b148d4c14e5a060e19be7cf3899f2e85f6a497a3e856cd"
+        }
+      ],
+      "file": "16c-ice-9506-bz-nacho-part03.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 73,
+              "start": 56
+            }
+          ],
+          "expectedRawSha256": "f23c6b8670631bdd59ac798bacb90440485c64abcfb78b347024a2264807bcc7",
+          "expectedRenderedSha256": "854a01b4bc5548b3a8b017f5fb41e6b5c8c73974a46c58f1bd16533292267ea1",
+          "row": 5,
+          "sha256": "bca484fe78b6cc15166a155eb86b91cf2cc0aa75b1160bb6289748735b75b5c0"
+        }
+      ],
+      "file": "16c-ice9508a-sl-aldr1-part01.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 39,
+              "start": 34
+            },
+            {
+              "end": 49,
+              "start": 41
+            }
+          ],
+          "expectedRawSha256": "bb5960dacd805407feefd91845e96ef9ac00153ce95b1cc935444f83b7838fae",
+          "expectedRenderedSha256": "95810579380e2e1c9fd0e541403103a0fc958d264477fc6ba0735ae39ce1b2a3",
+          "row": 16,
+          "sha256": "6a22c8100808f02ac8d317e3e4340fae5e75b0d26e4f196a18f63bda754c51f5"
+        }
+      ],
+      "file": "16c-impure-p7-imp.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 22,
+              "start": 2
+            }
+          ],
+          "expectedRawSha256": "ff2626e03c6ab937f06d52bd33a268e7eafa2e6958115f61596b09386186e44b",
+          "expectedRenderedSha256": "87db583a41dffccca1dae9423a1dc8afab93d8148f7758a17c1a34f696a2c8b5",
+          "row": 25,
+          "sha256": "c0a483255dee5efd48902ada9d54158cb6e61bc34c1797c557971c5083327516"
+        }
+      ],
+      "file": "16c-laz14-k1-roxy-part03.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 35,
+              "start": 25
+            }
+          ],
+          "expectedRawSha256": "26a9c7f369ea8fd5320516571cd6c52760fa1d865d08c01610ab852a84f74da0",
+          "expectedRenderedSha256": "6b7f137035cf68f40b5aa55c35a22515437b3864f07737bcb2c72e3779bf5cfa",
+          "row": 38,
+          "sha256": "1e368dfda075f8e22880e68b5eb3eca6d3cefacc24fe60bdb5aae336b1fe99f4"
+        }
+      ],
+      "file": "16c-lght9405-qt-tub-part02.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 33,
+              "start": 16
+            }
+          ],
+          "expectedRawSha256": "77b72c0ff3c234aedcb06361cb9e6ac1c6fe2fbc8db25053691d97eeeb69f53c",
+          "expectedRenderedSha256": "224dcae9b9ae2be0b271e4b4814cf4e431243d9812090b3db41c330cecab2b63",
+          "row": 19,
+          "sha256": "a921f1a69f2409d1a3171db95c9e68fd30bdc3b80f03510e5c09445ff83d98cd"
+        }
+      ],
+      "file": "16c-mdn-9701-mr-spitz.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 78,
+              "start": 64
+            }
+          ],
+          "expectedRawSha256": "e728f5aee99c2fe0cc5f5db5eb8eca38912d9cd53aa4fe011b0149c0e4ad6a44",
+          "expectedRenderedSha256": "0dab93d33a447878f52e5c7206e024fd593d7b94bbfa1dd1b53ad09ecdd6d75b",
+          "row": 49,
+          "sha256": "2f5eecde80aed668f96dc4e48209693bfddb2c1611c44528c797480cc07547e2"
+        }
+      ],
+      "file": "16c-mist0695-tb-dnd-part01.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 68,
+              "start": 46
+            }
+          ],
+          "expectedRawSha256": "734aae450c92c3b4f84866362a2083dbe2aec17ea2c7bdee51590ef10ef7f68b",
+          "expectedRenderedSha256": "ef7b48ddc0dba206fea683022c41979c97fabc7ebd26daf3a8acf8fb2a683b3a",
+          "row": 7,
+          "sha256": "771bb275a627209cc54fd50df88f9154112f1bcf8a461f7a4dccf3a8b1418323"
+        }
+      ],
+      "file": "16c-nh-0597-iz-hi.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 53
+            }
+          ],
+          "expectedRawSha256": "6948ba1a9f41d0f07a1715905372922dbb1fe5ba104189f15a7ea487723aecc4",
+          "expectedRenderedSha256": "b838ca9928ba7b92c37ea4bb0e5ed8262ade23b9102d42357c3dc2e94c0bf23c",
+          "row": 11,
+          "sha256": "089b6ccfc7c717f5097cf5d7b3a69fa020a44b2668b8898bd23ca11100b098c7"
+        }
+      ],
+      "file": "16c-odium-03-rf-mlgff.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 73,
+              "start": 54
+            }
+          ],
+          "expectedRawSha256": "110d05adb5660d7198626f085d75ce94137afa7792070a9fd2898e4616138add",
+          "expectedRenderedSha256": "0072a7c748560087e1fc671ee7fd3a33d19ea7c6c9ce441cc8361018f25d848d",
+          "row": 33,
+          "sha256": "b6f71cf90e0f2fe0982175cf8deda26127f25b31472b1c16a23fad92833c3119"
+        }
+      ],
+      "file": "16c-phat0697-bw-cl2-part02.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 58,
+              "start": 40
+            }
+          ],
+          "expectedRawSha256": "b319876e2b0d1469037a0f62e0a99ebe99c862be7b9b81830795c3371a434a31",
+          "expectedRenderedSha256": "47c2b2a20cf0e1e698dcd71787a9dbe093b5e858e4f59d9e95f1dfb31514108a",
+          "row": 15,
+          "sha256": "79c13047e5c9536580acdd6d66906ca78f488cae73dd3ff16e415d3568771844"
+        }
+      ],
+      "file": "16c-plf-0797-l8er0n.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 58,
+              "start": 40
+            }
+          ],
+          "expectedRawSha256": "b319876e2b0d1469037a0f62e0a99ebe99c862be7b9b81830795c3371a434a31",
+          "expectedRenderedSha256": "47c2b2a20cf0e1e698dcd71787a9dbe093b5e858e4f59d9e95f1dfb31514108a",
+          "row": 15,
+          "sha256": "79c13047e5c9536580acdd6d66906ca78f488cae73dd3ff16e415d3568771844"
+        }
+      ],
+      "file": "16c-plf-0897-l8er0n.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 54
+            }
+          ],
+          "expectedRawSha256": "74bc620cfb72f28475d10cfd01a63f7b6ead47366958162d4c887d272bbd9166",
+          "expectedRenderedSha256": "b134c1cac457f94adf5138e9d8ee12bc39f362bdb60493a29ec562b9ea72fd84",
+          "row": 30,
+          "sha256": "57c8450a47ac9656f12ea9b97369192f0f45b3d634fdb6c8a1afd738b265fc69"
+        }
+      ],
+      "file": "16c-rgr-1195-fl-rf.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 47
+            }
+          ],
+          "expectedRawSha256": "9aed9d9d9c86baaebc9d6177768b39945992810ec8e0455ca7ec080cb0b3e8e4",
+          "expectedRenderedSha256": "30734d16b3d15476883f3b7e4a4cb3897595387264b8b88c4e7dc3e31f826416",
+          "row": 14,
+          "sha256": "b989d411e1aad177ae65adb8d9ca63dbefe0a636825df63e00b8a9a732f649d4"
+        }
+      ],
+      "file": "16c-sfc0295-ph-inf1-part01.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 44,
+              "start": 36
+            }
+          ],
+          "expectedRawSha256": "c90bf3f5368975dee35b342d90a75a3a73e7c4c1d8e3b7f7a0aff59392a29883",
+          "expectedRenderedSha256": "d8afc33f7f961ab47b22b2cb6c418f16a057582d6d2d477dbb9d124af7289972",
+          "row": 20,
+          "sha256": "2a3e715a5d14b5fb61a07ceba60bb20ce7feb6c5da3aa0f183ea94654af9a386"
+        }
+      ],
+      "file": "16c-sliver05-dm-suck.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 73,
+              "start": 54
+            }
+          ],
+          "expectedRawSha256": "8901d95aaa15df9d698f6694c4781d56b5c381aeb7da9a688651e01f38e69a16",
+          "expectedRenderedSha256": "7c6dc7552a4920566a04acf25a082642e0070a51eafb5f54de002af42723843e",
+          "row": 12,
+          "sha256": "dd98cd420041b454d3d25afef983443c558365e80328762dd2d56cef6415fefc"
+        }
+      ],
+      "file": "16c-spr-01-mst-klop.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 56,
+              "start": 47
+            }
+          ],
+          "expectedRawSha256": "76d5ffc7e3836d9c71b717eb6054bf674d382c8f7b5973f69bc021034e57f289",
+          "expectedRenderedSha256": "180e1e18aff2a49423a6ea0742d7e4e13b600e8bae96681cc4f93f46210da7b5",
+          "row": 7,
+          "sha256": "c9a1218e6ea78bf728d4bcbcc1ab6e6c612ceb468e7f1726af9ee90242aeaa04"
+        }
+      ],
+      "file": "16c-tdd-0295-nm-md-part01.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 56,
+              "start": 47
+            }
+          ],
+          "expectedRawSha256": "c7a5c202f0a683176998ca81bfea29e7b006d920692a0d134cc276f2d9b4e00e",
+          "expectedRenderedSha256": "4c1c6b63ea94ff3fed4c0d64fc42b39589807d36d82f22a7bf774803d3d7c996",
+          "row": 6,
+          "sha256": "0f1dbd7816906a222e1587f2c860751d571d2f053a2424018fa03cb03141b402"
+        }
+      ],
+      "file": "16c-tdd-0295-nm-nc-part01.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 79,
+              "start": 57
+            }
+          ],
+          "expectedRawSha256": "dbc7f1e3f7623d51b6145bbcd320978677ee28f0cdeac7d05489cbc897206091",
+          "expectedRenderedSha256": "6cbb5c262175bc12ef10e1a15361c4bbf65418670bf9f82cae8724eac596492d",
+          "row": 8,
+          "sha256": "4c188dc98b7590345ca91f9b35787d47e71a34a73285d0699e5a66a3213042c8"
+        }
+      ],
+      "file": "16c-toon0895-ca-eek-part01.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 44,
+              "start": 41
+            }
+          ],
+          "expectedRawSha256": "cdf0878b09d2dabda1d2d0b3de4ae6695add8391c04a9738845240aa14efb708",
+          "expectedRenderedSha256": "12a563303c081a70b89689ff59e72668c863047d734a1aa223a6c5f15cab3943",
+          "row": 4,
+          "sha256": "1fa6c89835b86206dba0e2e5e645635a149d0ae32a7d705860c562b2029d7d9e"
+        }
+      ],
+      "file": "16c-twi-9707-fv-hell2.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 78,
+              "start": 55
+            }
+          ],
+          "expectedRawSha256": "a74100d86fe140a11220be4b26b2af5e5d46f57796d16ca8302bcf0a6d980715",
+          "expectedRenderedSha256": "0ba37e7c826aa743843187e38bfbedb0b3a6d2700979216266c04e57ec38f9ad",
+          "row": 24,
+          "sha256": "0af82c1b2e70f5257dd514913dc079ecffd0f9ff8d52308de784f0a0369107db"
+        }
+      ],
+      "file": "16c-uni-0995-mt-gzer0.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 54,
+              "start": 48
+            }
+          ],
+          "expectedRawSha256": "c9c7b3e7bdf34a33b67d74a1cdcb15e19d99a2d0db403fe872b170cb148a0dd5",
+          "expectedRenderedSha256": "82395aeae032da2884b33a334505c8c277d0d5079bd5a8e1b00463e949ccdd35",
+          "row": 8,
+          "sha256": "f72ade0c5087bb63fe4a2eeaeeb78e26c2a230cceedc3257b5358988429c1dd7"
+        }
+      ],
+      "file": "16c-utd-0495-mf-spsma-part01.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 69,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "2158298cb4f0d0ef024d2130bdf2547f24ba66f7264d2b3e636f9db93072ed8b",
+          "expectedRenderedSha256": "3d483428535db10c6a8a767c2ac4c612c83bfaba11f5c1e5d946f52d4ed2ce0e",
+          "row": 5,
+          "sha256": "03a3528f23dace72009f65d768f91d8ab3cfd532f31ecace17cb681c0da39db8"
+        }
+      ],
+      "file": "16c-void0295-wz-hf1-part01.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch50-bracketed-orphan-text",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 33,
+              "start": 21
+            }
+          ],
+          "expectedRawSha256": "22d48b941831ea65f9c622491d23798051d607e7c085f8f2f8b8d1d515263599",
+          "expectedRenderedSha256": "5c642aa3bef5f865a95d49b643cb2a4e51a3da2a3317ec836c6305dd1a615cf6",
+          "row": 20,
+          "sha256": "1c9d4111ddc6a785be821a6b204a00b66600f7bacb980a6c846cf2dd7e343646"
+        }
+      ],
+      "file": "16c-xmasgalm12-galm.ps1",
+      "rationale": "Each exact span is a surviving prose, greeting, solicitation, process-commentary, or obvious filler fragment bracketed by two earlier accepted redactions. Full-payload review, supplemented by aligned import-preimage evidence where available, proves the fragment belongs to the same disposable text family. Exact cell projections preserve structural lettering, CP437 art, ANSI controls, colored spaces, width, and row coordinates; no tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch50-adjacent-lexical-scan.json",
+        "temp/text-blanking-continuation/batch50-bracketed-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch50-focused-review.json",
+        "temp/text-blanking-continuation/batch50-terminal-review.json"
+      ]
+    }
+  ],
+  "normalization": "SHA-256 of UTF-8 visible terminal-cell rows after ANSI-control removal and outer-whitespace trimming. Every row also pins exact raw projected and rendered hashes plus one-based inclusive blank-column ranges.",
+  "pendingInputs": [],
+  "policy": "Fail-closed review of all 130 surviving lexical rows immediately bracketed by accepted redactions in the post-Batch-49 gallery. Accept only spans proven to continue the same disposable prose, greeting, solicitation, process-commentary, or filler family. Retain functional interface and BBS copy, titles, identities, attribution, structural lettering, authored dialogue, narrative and captions, source-significant content, and ambiguous fragments. Completed-history collisions and tracked accepted projections are forbidden.",
+  "reviewedAt": "2026-08-01",
+  "schemaVersion": 1,
+  "status": "ready",
+  "summary": {
+    "blankColumnRows": 40,
+    "candidateFiles": 39,
+    "candidateGroups": 39,
+    "categoryRows": {
+      "batch50-bracketed-orphan-text": 40
+    },
+    "detectorRows": 130,
+    "evidenceRows": 40,
+    "familyExtensions": 40,
+    "importReconstructionFailures": 6,
+    "importedRowsReconstructed": 124,
+    "priorAcceptExtensions": 40,
+    "priorRetainSupersessions": 0,
+    "retainedDetectorRows": 90,
+    "skippedRemovedDuplicateScripts": 2
+  }
+}

@@ -1,16 +1,4 @@
-﻿# Converted from: ISBDUO.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/duodaughters01/raw/ISBDUO.ans
-# Source Revision: archive-sha256:107dcc7639647744884177ba1bc2147746cc2fe523012ebd967c4f8ee48caaef
-# Source SHA-256: ee3ad1f621e1c537c93a71d972bcf0596bd1c2cacaaa79071fbf7298203991d7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ISBDUO.ans by Dark Wizard (duodaughters01); released in duodaughters01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 20151211
-# SAUCE Dimensions: 80x70
-# SAUCE Font: IBM VGA
-# Lines: 36-70
-# Columns: 1-80
+﻿# Artwork: ISBDUO.ans by Dark Wizard | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-duodaughters01-isbduo-part02
 
 Write-Host '
 [1;30m  [0;1;37;47m▒░▓░[0;1;30;47m▓▒ [0;1;37;47m░[0;1;30;47m▒▓▒░░[0;1;30;40m▓[0m▓▒[1;30m▒[0m░[1;30m▒[0m               ▀▀▀ ▄▄[1;30m▀ ▄[0m            [1;30m░░░░[0m

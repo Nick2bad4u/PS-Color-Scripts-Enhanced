@@ -1,17 +1,4 @@
-﻿# Converted from: KPN-HOOD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/brhood03/raw/KPN-HOOD.ANS
-# Source Revision: archive-sha256:4cd213cf952550d2b2cce157593e130bdc5b8fbd3808fe4a09f963be04adb8ee
-# Source SHA-256: 47878b8ab427cbfc6133417707f373b8b8bb5f865eaa1af5dda86e7a72e22b1e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KPN-HOOD.ANS by Kingpin octopus (brhood03); released in brhood03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: brotherhood logo
-# SAUCE Author: Kingpin octopus
-# SAUCE Date: 19990302
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: brotherhood logo by Kingpin octopus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-brhood03-kpn-hood
 
 Write-Host '
         [1;30m▄▀[0;33m▄▄[0;1;33;43m░▓[0;1;33;40m█[0;1;37;40m███[0;1;33;40m█[0;1;33;42m▓▓[0;1;33;40m████████  [0;1;30;40m░[0m   [1;33m████████[0;1;33;42m▓▓[0;1;33;40m█[0;1;37;40m███[0;1;33;40m█[0;1;33;43m█▓[0;33m▄▄▄▄▄▄▄   [0;1;30m▀▀█▄ [0m

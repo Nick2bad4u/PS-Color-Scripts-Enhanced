@@ -1,17 +1,4 @@
-﻿# Converted from: FF-SLDER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hype-01/raw/FF-SLDER.ANS
-# Source Revision: archive-sha256:426dbb36b724e33c2040ddd8594afb85cb1f6463b96a01a2c52ed58e8dd1db9c
-# Source SHA-256: 70352c3d47a52beb1ce005dff9993ac1cbbc6855d2814a3aca64f5434a2ad05e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FF-SLDER.ANS by Free Fall (Hype.produktions); released in hype-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: some.cheap.soldier
-# SAUCE Author: Free Fall
-# SAUCE Group: Hype.produktions
-# SAUCE Dimensions: 80x25
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: some.cheap.soldier by Free Fall | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hype-01-ff-slder
 
 Write-Host '
 [1mfF[0m([1mHype[0m)[1m [0;34m▄█[0;1;34;44m░░[0;34m█[0;1;34;44m░[0;34m▓█▀▀▀▀[0;37m [0;34m░[0m   [34m░░[0;37m [0;34m░[0;37m  [0;34m▀▀█▓▓█▄▄▄▄▄▄▓▀▀[0m

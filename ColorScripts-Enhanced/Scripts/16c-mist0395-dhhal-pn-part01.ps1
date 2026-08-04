@@ -1,18 +1,4 @@
-﻿# Converted from: DHHAL-PN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0395/raw/DHHAL-PN.ANS
-# Source Revision: archive-sha256:f2a95642991562087407da2d5718c9539e60d73ef03932f3b9b3875815fbc27c
-# Source SHA-256: ec4ce0f336e9c31d2d7c6afcb2cc5d1b8d2c0c0f8306ff5423994a01a064b4a1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DHHAL-PN.ANS by Donut Hole/Halaster (Mistigris); released in mist0395 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Pinion
-# SAUCE Author: Donut Hole/Halaster
-# SAUCE Group: Mistigris
-# SAUCE Date: 19950303
-# SAUCE Dimensions: 80x25
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Pinion by Donut Hole/Halaster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0395-dhhal-pn-part01
 
 Write-Host '
   [33;40m░[0;30;47m▄▄[0;37;40m█████[0;30;47m▄▄▄▄▀▄[0;37;40m█[0;30;47m▀██▄▄▄[0;37;40m████████████████[0;30;47m  [0;37;40m███████[0;30;47m   ▄▄[0;33;40m░[0;30;47m█[0;33;40m░[0;30;47m█▀▀▀[0;37;40m█[0;30;47m ■[0;37;40m█[0;30;47m▄▄[0;37;40m████[0;30;47m▄█[0;37;40m████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: US-CORE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-01/raw/US-CORE.ANS
-# Source Revision: archive-sha256:c4f943c9f8f5c49a2aabdd3612f9f26bd1b04de18aa8de6e38c69a3051111537
-# Source SHA-256: e58bec5321d3f42536311ee422eff438974d83ad81a291985473af50e52deb1e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CORE.ANS by Crayon + Tarot (nerp/lazarus); released in nerp-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: core
-# SAUCE Author: tarot/crayon
-# SAUCE Group: nerp/lazarus
-# SAUCE Date: 19970720
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: core by Crayon + Tarot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-01-us-core
 
 Write-Host '
 

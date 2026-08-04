@@ -1,18 +1,4 @@
-﻿# Converted from: RS-SHSYS.ANS
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/sac0395/raw/RS-SHSYS.ANS
-# Source Revision: archive-sha256:7b30118405d4d21f05022ba0c6f9cc20d209f8b3e8684cf8db7bf6713b2b2425
-# Source SHA-256: e6e6c3d27a3e6d1fa9a8d3e17cba792842aa91124fbbd85bc6d239acce7af0f4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-SHSYS.ANS by raiser; released in sac0395 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: SHADOW SYSTEM 1ST.
-# SAUCE Author: RAiSER
-# SAUCE Group: SAC
-# SAUCE Date: 19950106
-# SAUCE Dimensions: 80x25
-# Lines: 77-123
-# Columns: 1-80
+﻿# Artwork: SHADOW SYSTEM 1ST. by raiser | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0395-rs-shsys-part03
 
 Write-Host '
 [1;30m▓▒░░[0m    [1;30m░░[0m [1;30m░[0m [1;30m░[0m [1;30m░░[0m [1;30m░[0m    [1;30m░[0m [1;30m░░[0m [1;30m░[0m [1;30m░░▒▒▒▓▓▓▓▒▒▒▒░░[0m [1;30m░[0m    [1;30m░░[0m      [1;30m░[0m   [1;30m░[0m [1;30m░[0m [1;30m░[0m [1;30m░[0m [1;30m░░[0m  [1;30m░[0m [1;30m░▒[0m

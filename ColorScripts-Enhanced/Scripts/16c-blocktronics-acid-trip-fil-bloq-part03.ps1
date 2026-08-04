@@ -1,20 +1,4 @@
-﻿# Converted from: fil-BLOQ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_acid_trip/raw/fil-BLOQ.ANS
-# Source Revision: archive-sha256:c0717ff5cb7d462ed7fa9a55edd7235adbd3f09e01132486021497c9281171b6
-# Source SHA-256: c6faae65edb67b18cedf254b8f6bb47a94528f5fdfb6d0839cd4f1e78311aef8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: fil-BLOQ.ANS by Filth (blocktronics); released in blocktronics_acid_trip and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: BLOCKTRONICS
-# SAUCE Author: Filth
-# SAUCE Group: blocktronics
-# SAUCE Date: 20190724
-# SAUCE Dimensions: 80x275
-# SAUCE Font: IBM VGA
-# SAUCE Comments: ...machines that build robots that build factories that build ma | chines that build robots that build factories that build machine | s that build robots that build factories that build machines tha | t build robots...
-# Lines: 93-138
-# Columns: 1-80
+﻿# Artwork: BLOCKTRONICS by Filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-acid-trip-fil-bloq-part03
 
 Write-Host '
 [1;33m███████████████████▓[0m                               [36m░░▄█▓▓  ▄▓▓▓▒▓▓▒▒▒░░░[0m

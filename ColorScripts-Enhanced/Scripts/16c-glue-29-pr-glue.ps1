@@ -1,18 +1,4 @@
-﻿# Converted from: pr-glue.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-29/raw/pr-glue.ans
-# Source Revision: archive-sha256:64287797434ba5c34f8fdee757bcedec56b8ae5a9f153947e0e8412775bc9c8e
-# Source SHA-256: 8cdedcc146ee8983721c480cb2061d7f0707e190992f5b6c6d31531118272c25
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: pr-glue.ans by president (glue); released in glue-29 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: glue
-# SAUCE Author: president
-# SAUCE Group: glue
-# SAUCE Date: 20000102
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: glue by president | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-29-pr-glue
 
 Write-Host '
                       [1;30m▄▄[0;35m [0;1;30m▄[0m▄[1;33m▄[0m▄[1;30m▄[0;35m [0m   [35m▄ [0;1;30m█ [0m     [1;30m▄▄[0m    [1;30m▄[0m▄▄

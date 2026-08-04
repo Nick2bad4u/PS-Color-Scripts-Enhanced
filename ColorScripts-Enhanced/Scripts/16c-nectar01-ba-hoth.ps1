@@ -1,13 +1,4 @@
-﻿# Converted from: BA-HOTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nectar01/raw/BA-HOTH.ANS
-# Source Revision: archive-sha256:db3812836800ba5278d4a1a62edfe8d06c2001872f9fe3d1064cdbc02eec11ac
-# Source SHA-256: 631f79d30a70769e1486e48315f462a1529fafd4d07a184040899a906178e54d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BA-HOTH.ANS by Bambooz (nectar01); released in nectar01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: BA-HOTH.ANS by Bambooz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nectar01-ba-hoth
 
 Write-Host '
             [1;30m▄█[0;1;30;46m▓[0;1;30;40m▓█████▓█[0;1;30;46m█▒[0;1;30;40m████████████████████[0;1;30;46m▀[0;1;30;40m████████[0;1;30;47m██[0;1;30;40m█████▄[0m

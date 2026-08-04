@@ -1,18 +1,4 @@
-﻿# Converted from: NOH-BULS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nh-0597/raw/NOH-BULS.ANS
-# Source Revision: archive-sha256:87cec95111e4a1ac9fd985bbb75e4ede9867484f10b0355a7e43919af699000f
-# Source SHA-256: 1265bef931b83c0126297c7fe681d94d09749b7935832582207e69dc3236c645
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NOH-BULS.ANS by nOah (nH!); released in nh-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: bulletins..
-# SAUCE Author: nOah
-# SAUCE Group: nH!
-# SAUCE Date: 19970511
-# SAUCE Dimensions: 80x13
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: bulletins.. by nOah | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nh-0597-noh-buls
 
 Write-Host '
                                               [31m        [0m

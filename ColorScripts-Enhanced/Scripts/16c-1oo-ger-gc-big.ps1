@@ -1,13 +1,4 @@
-﻿# Converted from: GC_big.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1oo-ger/raw/GC_big.ans
-# Source Revision: raw-sha256:848e74b976dc6a91eb7252dc9c0905107c7fa41dd23cd4ece9292141dd07cd66
-# Source SHA-256: 848e74b976dc6a91eb7252dc9c0905107c7fa41dd23cd4ece9292141dd07cd66
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GC_big.ans by Neurodancer (1oo-ger); released in 1oo-ger and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: GC_big.ans by Neurodancer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1oo-ger-gc-big
 
 Write-Host '
                [37;40m▄[0m                                                   [37;40m▄[0m

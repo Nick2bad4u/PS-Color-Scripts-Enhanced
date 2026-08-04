@@ -1,18 +1,4 @@
-﻿# Converted from: DD-SOUR8.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/misery01/raw/DD-SOUR8.ANS
-# Source Revision: archive-sha256:e802ebf512d2eb802f079fd327fff852b8c112992e81e4f15801eeb22870d111
-# Source SHA-256: 9b666e5196311260d2777750caf59693247f10c1c05dbe672726947c8283da23
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-SOUR8.ANS by Da Drug (Misery Productions.); released in misery01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The world has gone sour.
-# SAUCE Author: Da Drug
-# SAUCE Group: Misery Productions.
-# SAUCE Date: 19970319
-# SAUCE Dimensions: 80x25
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: The world has gone sour. by Da Drug | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-misery01-dd-sour8
 
 Write-Host '
          [34m▀■  ▄[0;1;34m▄▄▄▄▄▄[0m        [1;30m                          [0m            [1;34m▄▄▄[0m

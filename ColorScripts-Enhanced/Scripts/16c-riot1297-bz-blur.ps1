@@ -1,13 +1,4 @@
-﻿# Converted from: bz-blur.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot1297/raw/bz-blur.ans
-# Source Revision: archive-sha256:7bd5836fa16624c33d90d7b8d157576c042e1a7f12ab842c8fb178c52f465fc3
-# Source SHA-256: 1a6ff029f32038a9cf4906d4e7bfc3c25f7c9ad5ee7ba0b929606a6c154df8db
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bz-blur.ans by Cyberboy-Riot (riot1297); released in riot1297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: bz-blur.ans by Cyberboy-Riot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot1297-bz-blur
 
 Write-Host '
 

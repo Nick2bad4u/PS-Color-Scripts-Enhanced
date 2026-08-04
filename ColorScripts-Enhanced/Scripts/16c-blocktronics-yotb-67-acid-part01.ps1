@@ -1,16 +1,4 @@
-﻿# Converted from: 67-acid.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_yotb/raw/67-acid.ans
-# Source Revision: archive-sha256:f702f09f6116b5ac6fa523d36f54d796db6f44f880e4f1cd426d29a9fbda605e
-# Source SHA-256: bb6c3fb02ec0887e1d8022d353858fc9cd33b91db72a8fac09691a8a1b87ba53
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 67-acid.ans by Tcf + Filth + Catbones (blocktronics_yotb); released in blocktronics_yotb and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 20141013
-# SAUCE Dimensions: 80x353
-# SAUCE Font: IBM VGA
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: 67-acid.ans by Tcf + Filth + Catbones | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-yotb-67-acid-part01
 
 Write-Host '
 

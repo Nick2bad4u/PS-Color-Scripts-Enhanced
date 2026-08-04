@@ -1,18 +1,4 @@
-﻿# Converted from: GR-ICONN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icon0395/raw/GR-ICONN.ANS
-# Source Revision: archive-sha256:3fb39d674dc987e27647cf5bcb61e28e263ef492756fb8c6153b27c4382a2b98
-# Source SHA-256: e91085d812a3d57be34f81e4699c75d26e4d03f5b1be55e37ba1de3b6d088ada
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GR-ICONN.ANS by Grim (iCON); released in icon0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: fase
-# SAUCE Author: Grim
-# SAUCE Group: iCON
-# SAUCE Date: 19950208
-# SAUCE Dimensions: 80x81
-# Lines: 41-80
-# Columns: 1-80
+﻿# Artwork: fase by Grim | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icon0395-gr-iconn-part02
 
 Write-Host '
 [1;31m██████[0;1;31;43m████▓▓▓▓▓▓▒▒░▒▓▓▓▓██████████[0;1;31;40m▀▀▀▀▀▀[0;1;31;43m▒▒▓▓████████████▓▓▓▓▒░▒▒▓▓▓▓▓▓█[0;1;31;40m█▀[0;1;34;40m▄▄[0;1;34;44m███▓▒[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: REK-INV2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/afc-r5/raw/REK-INV2.ANS
-# Source Revision: raw-sha256:aebbc00ea26e26290750cdd91067b0ea3c51ad75528357da1b1b96f5e443f320
-# Source SHA-256: aebbc00ea26e26290750cdd91067b0ea3c51ad75528357da1b1b96f5e443f320
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: REK-INV2.ANS by Rekku (afc-r5); released in afc-r5 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: REK-INV2.ANS by Rekku | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-afc-r5-rek-inv2-part01
 
 Write-Host '
 ██▄▄▄                                                                     ▄▄▄██

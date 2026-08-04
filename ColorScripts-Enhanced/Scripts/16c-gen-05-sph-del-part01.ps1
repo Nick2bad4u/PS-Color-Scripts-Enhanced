@@ -1,18 +1,4 @@
-﻿# Converted from: sph_del.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gen-05/raw/sph_del.ans
-# Source Revision: archive-sha256:4349b3f4bfcb88936ca2127b4df67c9a4f57f9270c0ef29b3cd115a6790b3afb
-# Source SHA-256: c0a691df2bcd06bc699cb1c7c5b504a87ebdec8ad3fd3d8ab8d627ad0fda507c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sph_del.ans by sephiroth (gen-05); released in gen-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: delirium bbs
-# SAUCE Author: sephiroth
-# SAUCE Group: ..
-# SAUCE Date: 19990525
-# SAUCE Dimensions: 80x100
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: delirium bbs by sephiroth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gen-05-sph-del-part01
 
 Write-Host '
 

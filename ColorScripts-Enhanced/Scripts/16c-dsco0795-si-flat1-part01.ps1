@@ -1,18 +1,4 @@
-﻿# Converted from: SI-FLAT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dsco0795/raw/SI-FLAT1.ANS
-# Source Revision: archive-sha256:966d7b267f819de4a0302f2a724bfb71dbffa0f22349c348b7676601afc61d5b
-# Source SHA-256: 77f597dc5e8998347fdcc08d5bea8dab8e3f3b2e308812c6c08ae156304a362c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SI-FLAT1.ANS by Spirit of Illusion (READ THE INI FILE); released in dsco0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Flatliner
-# SAUCE Author: Spirit of Illusion
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19950706
-# SAUCE Dimensions: 80x25
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: Flatliner by Spirit of Illusion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dsco0795-si-flat1-part01
 
 Write-Host '
 [34m███░ ██████▌ [0;34;44m                [0;34;40m██████████████████████████████████▌ ██████ ░██████[0m

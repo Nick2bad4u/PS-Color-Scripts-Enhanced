@@ -14,12 +14,24 @@ const {
     stripAnsiControls,
 } = require("./Audit-ColorScriptContent.js");
 const { assertSafeFileName } = require("./Apply-ColorScriptContentReview.js");
+const {
+    DEFAULT_PROVENANCE_PATH,
+    parseLeadingCommentHeader,
+    readArtworkProvenance,
+    sha256,
+    updateArtworkProvenanceScriptProperties,
+} = require("./ArtworkProvenance.js");
 
 const REPOSITORY_ROOT = path.resolve(__dirname, "..");
 const DEFAULT_SCRIPTS_DIRECTORY = path.join(
     REPOSITORY_ROOT,
     "ColorScripts-Enhanced",
     "Scripts"
+);
+const HEADER_MIGRATION_PATH = path.join(
+    REPOSITORY_ROOT,
+    "audit",
+    "ArtworkHeaderMigration.json"
 );
 const DEFAULT_BASELINE_COMMIT = "0cac422b";
 const DEFAULT_MAXIMUM_ROWS = 50;
@@ -160,6 +172,7 @@ const REBALANCE_ACTIONS = new Set([
  *     presentationRows: 1;
  *     rawRowsSha256: string;
  *     source: string;
+ *     sourceRows: SourceRange;
  *     suffix: string;
  * }} PlannedFile
  */
@@ -265,6 +278,9 @@ function parseSourceRows(source) {
  */
 function replaceSourceRows(source, range) {
     const matches = [...source.matchAll(SOURCE_ROWS_PATTERN)];
+    if (matches.length === 0 && /^\uFEFF?# Artwork: /u.test(source)) {
+        return source;
+    }
     if (matches.length !== 1) {
         throw new Error(
             "A split colorscript must contain exactly one '# Lines: start-end' header."
@@ -1740,6 +1756,7 @@ function planRebalance(manifest, options = {}) {
                 presentationRows: 1,
                 rawRowsSha256: output.expectedRawRowsSha256,
                 source: replaceSourceRows(updatedPayload, output.sourceRows),
+                sourceRows: output.sourceRows,
                 suffix: boundary.suffix,
             };
         });
@@ -1785,6 +1802,53 @@ function writeFileAtomic(targetPath, source) {
  */
 function writePlan(plan, scriptsDirectory) {
     const originals = new Map();
+    const usesCheckedInScripts =
+        path.resolve(scriptsDirectory).toLowerCase() ===
+        path.resolve(DEFAULT_SCRIPTS_DIRECTORY).toLowerCase();
+    let updatedProvenance = null;
+    let updatedMigrationManifest = null;
+    if (usesCheckedInScripts) {
+        const provenance = readArtworkProvenance(DEFAULT_PROVENANCE_PATH);
+        const updates = new Map();
+        for (const family of plan.families) {
+            for (const output of family.files) {
+                const name = path.basename(output.file, ".ps1");
+                if (!provenance.scripts.has(name)) {
+                    throw new Error(`${name}: artwork provenance is missing.`);
+                }
+                updates.set(name, {
+                    SourceRows: `${output.sourceRows.start}-${output.sourceRows.end}`,
+                });
+            }
+        }
+        updatedProvenance = updateArtworkProvenanceScriptProperties(
+            provenance.source,
+            updates
+        );
+        if (fs.existsSync(HEADER_MIGRATION_PATH)) {
+            const migration = JSON.parse(
+                fs.readFileSync(HEADER_MIGRATION_PATH, "utf8")
+            );
+            for (const family of plan.families) {
+                for (const output of family.files) {
+                    const name = path.basename(output.file, ".ps1");
+                    const record = migration.records?.[name];
+                    if (!record) continue;
+                    const parsed = parseLeadingCommentHeader(output.source);
+                    if (!parsed) {
+                        throw new Error(`${name}: compact header is missing.`);
+                    }
+                    record.currentCompactFileSha256 = sha256(
+                        Buffer.from(output.source, "utf8")
+                    );
+                    record.currentPayloadSha256 = sha256(parsed.body);
+                    record.payloadModifiedAfterMigration =
+                        record.currentPayloadSha256 !== record.payloadSha256;
+                }
+            }
+            updatedMigrationManifest = `${JSON.stringify(migration, null, 2)}\n`;
+        }
+    }
     try {
         for (const family of plan.families) {
             for (const output of family.files) {
@@ -1792,6 +1856,20 @@ function writePlan(plan, scriptsDirectory) {
                 originals.set(targetPath, readRegularFile(targetPath));
                 writeFileAtomic(targetPath, output.source);
             }
+        }
+        if (updatedProvenance !== null) {
+            originals.set(
+                DEFAULT_PROVENANCE_PATH,
+                fs.readFileSync(DEFAULT_PROVENANCE_PATH)
+            );
+            writeFileAtomic(DEFAULT_PROVENANCE_PATH, updatedProvenance);
+        }
+        if (updatedMigrationManifest !== null) {
+            originals.set(
+                HEADER_MIGRATION_PATH,
+                fs.readFileSync(HEADER_MIGRATION_PATH)
+            );
+            writeFileAtomic(HEADER_MIGRATION_PATH, updatedMigrationManifest);
         }
     } catch (error) {
         for (const [targetPath, buffer] of originals) {

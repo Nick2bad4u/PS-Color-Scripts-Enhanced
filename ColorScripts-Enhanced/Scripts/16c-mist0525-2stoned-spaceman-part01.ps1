@@ -1,19 +1,4 @@
-﻿# Converted from: 2STONED-SPACEMAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0525/raw/2STONED-SPACEMAN.ANS
-# Source Revision: archive-sha256:3f1c54fcce63651d0da098cd25cb8253b5a6b2c25c827a57c95e7c0e8210b5fb
-# Source SHA-256: 3be45c0b7f0a71b33d26942c67dab8fbb68c2d88c19fd7deec8feb92641e0235
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2STONED-SPACEMAN.ANS by 2Stoned (Mistigris); released in mist0525 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Spacewalk
-# SAUCE Author: 2Stoned
-# SAUCE Group: Mistigris
-# SAUCE Date: 20250509
-# SAUCE Dimensions: 80x134
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Spacewalk by 2Stoned | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0525-2stoned-spaceman-part01
 
 Write-Host '
             ·          ·             [1m∙[0m               ·

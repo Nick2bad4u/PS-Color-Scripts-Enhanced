@@ -1,18 +1,4 @@
-﻿# Converted from: WM-BURN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9701/raw/WM-BURN.ANS
-# Source Revision: archive-sha256:d9ee1d58a6a06d01c9f7c4f38cd8e5ab0dc2d9bdfc6b97ab0ed0cc65c400a40c
-# Source SHA-256: 0e7bb54153617b3c5b0aeee9b85d269a087b001a57b131909bac0a4b72739fb3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WM-BURN.ANS by Widowmaker (AWE Lettering); released in awe9701 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Burning Desires
-# SAUCE Author: Widowmaker
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961228
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Burning Desires by Widowmaker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9701-wm-burn
 
 Write-Host '
                [34m▄[0m                          [34m▄[0m

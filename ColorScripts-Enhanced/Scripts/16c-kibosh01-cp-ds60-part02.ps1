@@ -1,17 +1,4 @@
-﻿# Converted from: CP-DS60.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/kibosh01/raw/CP-DS60.ANS
-# Source Revision: archive-sha256:8d1a88fa61503d65c439ad29bf67d0608682b94cf1606253ca8fc6eb534b89d8
-# Source SHA-256: ff39bdbae32b806bdc2365d2359ca8dc53ec1dc750ec03dc6f693053161e529a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CP-DS60.ANS by cyberphreak (kibosh01); released in kibosh01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: -
-# SAUCE Author: cyberphreak
-# SAUCE Date: 19990410
-# SAUCE Dimensions: 80x51
-# Lines: 25-51
-# Columns: 1-80
+﻿# Artwork: - by cyberphreak | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-kibosh01-cp-ds60-part02
 
 Write-Host '
 [37;40m██▐  ██ ██████[0;1;30;40m█▐██▌██[0;30;47m██[0;1;30;40m▄▄[0m▀▀[30;47m▄▄▄[0;37;40m██[0;35;47m▀▀▀▀▀▀[0;37;40m████[0;30;47m▄▄███[0;37;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀[0m      [37;40m▀▀▀▀▀▀▀▀▀▀[0m

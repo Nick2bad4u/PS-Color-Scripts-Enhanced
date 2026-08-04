@@ -1,18 +1,4 @@
-﻿# Converted from: CC-MT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gvt-0296/raw/CC-MT1.ANS
-# Source Revision: archive-sha256:ce5ce2f88803ecb991303ecc9690b8abbeef1beef3b2c9cd3308a585d80c61b7
-# Source SHA-256: c3775920d2d88c312654775c3cdc47c700baa6119f07688466d752f7086ec070
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CC-MT1.ANS by clorox cowboy (gravity!); released in gvt-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: minorthreat?!
-# SAUCE Author: clorox cowboy
-# SAUCE Group: gravity!
-# SAUCE Date: 19960130
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: minorthreat?! by clorox cowboy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gvt-0296-cc-mt1
 
 Write-Host '
 [36m███████████████████████████▀▀[0;37m ▓██[0m     [37m░ █████████ [0m          [37m▄▄████████████████▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-C4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0397/raw/AVE-C4.ANS
-# Source Revision: archive-sha256:92948d41234c0b51c2e1cbae1fc45d03877af276dfc89419c464eee360a4eed8
-# Source SHA-256: 1acd6f60a7fbb3f326f2148c59e3d3e17a2335695953822845ecd873cf549a01
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-C4.ANS by Avenger (Fire); released in fire0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Crypt
-# SAUCE Author: Avenger
-# SAUCE Group: Fire
-# SAUCE Date: 19970227
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: The Crypt by Avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0397-ave-c4
 
 Write-Host '
 [1;31;41m░░[0;31m█[0;37m  [0;1;33m░▄▐[0m [1;33m▀[0m       [1;33m▄▄▓░[0m [1;31;41m▐[0;1;31;47m▓▀[0;1;31;41m▀█▓░[0;31m█████████▀▐████████████[0;1;31m▒▒[0;31m▀▀[0;37m [0;31m▀█▀[0;37m [0;31m▀█▀▀██████████[0;31;44m█▌[0;31;40m▄[0;34;40m▄[0;1;36;40m [0m

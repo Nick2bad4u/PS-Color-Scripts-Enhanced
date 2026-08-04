@@ -1,17 +1,4 @@
-﻿# Converted from: PE!LIME.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9707/raw/PE!LIME.ANS
-# Source Revision: archive-sha256:718ad2b08b14a24156d1af86433f0063bd9bba178c290c317100b8e5ffb3939c
-# Source SHA-256: f23e6acd3064950d2e4abdfbbaff19539b20b9c8a22590a2e13a8c5336c4432b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PE!LIME.ANS by Phony Eye (AWE Lettering); released in awe9707 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Lime
-# SAUCE Author: Phony Eye
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Lime by Phony Eye | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9707-pe-lime
 
 Write-Host '
                    [31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m             [31m▄  ▄[0m      [31m▄[0m

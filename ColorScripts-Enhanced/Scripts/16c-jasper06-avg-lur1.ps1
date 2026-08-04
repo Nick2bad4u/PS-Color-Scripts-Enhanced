@@ -1,18 +1,4 @@
-﻿# Converted from: AVG-LUR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper06/raw/AVG-LUR1.ANS
-# Source Revision: archive-sha256:e9db58af17bee8935edbe50f24a227bef7a311667f4a639d4f37f775998e9055
-# Source SHA-256: c51232cb6c8f3417794d547be1ee0f67ff45b5f832b18c1a6af908104438f0b6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-LUR1.ANS by avenging angel (jasper); released in jasper06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: lure promo
-# SAUCE Author: avenging angel
-# SAUCE Group: jasper
-# SAUCE Date: 20020602
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: lure promo by avenging angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper06-avg-lur1
 
 Write-Host '
 

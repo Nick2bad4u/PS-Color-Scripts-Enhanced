@@ -1,18 +1,4 @@
-﻿# Converted from: SPF-FACE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rawoe-98/raw/SPF-FACE.ANS
-# Source Revision: archive-sha256:72c3cf0f44a476eef694d1cf3a1552a03dc3aa0478a61b3b389cc598bf59ebb8
-# Source SHA-256: af88ef622edbf9a3ba146b9c6e9df02fed4d54e9b44d226781fa5cbefd338e89
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPF-FACE.ANS by [sPITFIRE] (pAng/w0e); released in rawoe-98 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fAce?!
-# SAUCE Author: [sPITFIRE]
-# SAUCE Group: pAng/w0e
-# SAUCE Date: 19980704
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: fAce?! by [sPITFIRE] | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rawoe-98-spf-face
 
 Write-Host '
 

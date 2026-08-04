@@ -1,18 +1,4 @@
-﻿# Converted from: 33-PAULS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9608/raw/33-PAULS.ANS
-# Source Revision: archive-sha256:28795cb401df281ef6294233e2af12663ffb83dc390b0bfbadecb49834e6c017
-# Source SHA-256: c46679264561d8a1f295ff26402d9b1b552a8733960fce5b2cb531b52f6f3d7b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-PAULS.ANS by EERIE-KUN (SAMSARA); released in sms-9608 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: PAUL'S BOUTIQUE
-# SAUCE Author: EERIE-KUN
-# SAUCE Group: SAMSARA
-# SAUCE Date: 19960731
-# SAUCE Dimensions: 80x87
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: PAUL'S BOUTIQUE by EERIE-KUN | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9608-33-pauls-part01
 
 Write-Host '
                                                         [31m▄   ▄[0m

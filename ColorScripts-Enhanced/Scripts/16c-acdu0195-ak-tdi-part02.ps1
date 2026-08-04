@@ -1,18 +1,4 @@
-﻿# Converted from: AK-TDI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0195/raw/AK-TDI.ANS
-# Source Revision: archive-sha256:bba094e7325779ca430921c43e89d6d5eeb3533a54f085963b521f20303604f4
-# Source SHA-256: 6e42af8cad2e61135cd7d6858df28370e7f83908450843439c268552c5fd46d4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-TDI.ANS by Asian Knight (ACiD Productions); released in acdu0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Darker Image
-# SAUCE Author: Asian Knight
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950101
-# SAUCE Dimensions: 80x88
-# Lines: 40-88
-# Columns: 1-80
+﻿# Artwork: The Darker Image by Asian Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0195-ak-tdi-part02
 
 Write-Host '
 [1;30m▀    ▀█▀[0m     [1;30m▒▀█[0;1;30;47m█▓[0;1;30;40m▄█▄[0m                    [1;30;40m░[0m      [1;30;40m░    ▄▀[0m       [1;30;40m▄▄█▀[0m

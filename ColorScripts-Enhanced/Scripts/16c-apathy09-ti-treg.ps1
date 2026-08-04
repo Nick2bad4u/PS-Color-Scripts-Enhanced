@@ -1,18 +1,4 @@
-﻿# Converted from: TI-TREG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy09/raw/TI-TREG.ANS
-# Source Revision: archive-sha256:4a76e66d96462ed923b8b41dd8e01625078b4c791bda0ef6180f08638853037b
-# Source SHA-256: 21fc9c8f3416c99cefdd9386faece0be243c97d864010974ab77c3722b67fd73
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TI-TREG.ANS by Trip (Apathy); released in apathy09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Regency
-# SAUCE Author: Trip
-# SAUCE Group: Apathy
-# SAUCE Date: 19960422
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: The Regency by Trip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy09-ti-treg
 
 Write-Host '
 [1;30m██████[0;1;30;47m▓▓[0;1;30;40m████████████  ▄▄  ▀█████████ ▐████[0;1;30;47m▓▓▒▒[0m   [34m▄[0;1;34m▄▄▄▄▄▄▄▄▄[0;34m▄▄  ▄[0;1;34m▄▄▄▄▄▄▄▄▄▄▄▄▄[0;34m▄▄[0m

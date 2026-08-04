@@ -1,13 +1,4 @@
-﻿# Converted from: UT-BL22.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr022/raw/UT-BL22.ANS
-# Source Revision: archive-sha256:1105fcab5f96be85e1c5d7fc82de0569b7a9bc9775f6dd9595256b07657f96f3
-# Source SHA-256: 240bf9c0b36c96d1b5a1fb784780d8732d885fdb7f085cb0ac67f7e8297c1ef0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UT-BL22.ANS by Grind King + Samurai (blndr022); released in blndr022 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: UT-BL22.ANS by Grind King + Samurai | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr022-ut-bl22
 
 Write-Host '
 [1;30m[0m

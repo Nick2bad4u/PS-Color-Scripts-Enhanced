@@ -1,18 +1,4 @@
-﻿# Converted from: PO-POO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook13/raw/PO-POO.ANS
-# Source Revision: archive-sha256:f383b37d2f0265a83b82afcdde57a4dae359d8a5127c467dcea28d0c8500d000
-# Source SHA-256: b2ddda428c1424c74db8dc4ee32fc066a6796ddac5a738e46a5c46d6bc35ba6e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PO-POO.ANS by poti (black maiden); released in bmbook13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: poo
-# SAUCE Author: poti
-# SAUCE Group: black maiden
-# SAUCE Date: 19970424
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: poo by poti | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook13-po-poo
 
 Write-Host '
 [1m ┌─────■ " poo " for trip/misfit [0m·───────────────────────────────────────────┌┌

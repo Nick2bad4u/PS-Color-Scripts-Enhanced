@@ -1,13 +1,4 @@
-﻿# Converted from: US-SLUT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/locus-05/raw/US-SLUT.ANS
-# Source Revision: archive-sha256:e794f4a6bc7d61ceeb91dcf253d8af6f1d242da726d5159e3be21f4afcead4b3
-# Source SHA-256: b7f42ce70bd936dbfc3f12bd3e97cad9a7cb055cc479c8790c13a200eb3635b9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SLUT.ANS by Avenging Angel + Immortality (locus-05); released in locus-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 26-68
-# Columns: 1-80
+﻿# Artwork: US-SLUT.ANS by Avenging Angel + Immortality | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-locus-05-us-slut-part02
 
 Write-Host '
 [37m                                                                                [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: BD-DUNG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-02/raw/BD-DUNG.ANS
-# Source Revision: archive-sha256:815fb0802a5a645b19e4bb1a2e67405cbfe5a7d016a5808efe6ef55f809d080c
-# Source SHA-256: f2a396fce8c1571df4d6b1d15ceb2070abc975388120873f97bddce99679868e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BD-DUNG.ANS by old (eclipse); released in ecl-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: DUNG
-# SAUCE Author: old
-# SAUCE Group: eclipse
-# SAUCE Date: 19960630
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: DUNG by old | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-02-bd-dung
 
 Write-Host '
 

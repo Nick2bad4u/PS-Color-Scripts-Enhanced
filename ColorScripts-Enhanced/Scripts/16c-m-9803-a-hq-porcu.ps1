@@ -1,18 +1,4 @@
-﻿# Converted from: HQ-PORCU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m-9803-a/raw/HQ-PORCU.ANS
-# Source Revision: archive-sha256:9b291fea9c9f60fd85250a6fc2081ea1821e1ac6174d9d60ed23ee66add063ff
-# Source SHA-256: c63a5157f383167b6e97c3c779c745d681cb7f1c1f1fa184b2c6344eae66ed98
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HQ-PORCU.ANS by Haquisaq (Mistigris); released in m-9803-a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Porcupine Stats Screen
-# SAUCE Author: Haquisaq
-# SAUCE Group: Mistigris
-# SAUCE Date: 19980312
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Porcupine Stats Screen by Haquisaq | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m-9803-a-hq-porcu
 
 Write-Host '
 [36m▒[0;1;36;46m▄▄▄▐████[0;1;36;42m██[0;1;37;46m█████████[0;1;36;46m████[0;1;37;46m██████[0;1;36;46m█████▓▓▒▒░[0;36m▌ [0;1;37m██[0;1;36m█[0;1;36;46m█ [0;36m█ ▐█▀▀[0;1;37;46m░██ [0;36m░░   [0;37m▀▀▀[0;1;37;47m▀[0;1;36;47m▀▀[0m██▀▀▀▀▀▀█[1;36;47m▀[0m█

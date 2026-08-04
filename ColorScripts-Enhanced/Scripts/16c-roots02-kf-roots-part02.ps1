@@ -1,13 +1,4 @@
-﻿# Converted from: kf-roots.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roots02/raw/kf-roots.ans
-# Source Revision: archive-sha256:76e48703c4ae574ec2cec39d9f297f8abe09593046838247863eedaee737caa1
-# Source SHA-256: 48d9da7079c5fbcef2146532ec4f7081513f3e6f944e9f97d4eb10fd4a03483b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: kf-roots.ans by Kid Frost (roots02); released in roots02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 49-90
-# Columns: 1-80
+﻿# Artwork: kf-roots.ans by Kid Frost | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roots02-kf-roots-part02
 
 Write-Host '
 [1;30m·─[0m [1;30m─[0m─── ──[1;30m─[0m─[1;30m──[0m──────[1m─────[0m [1m──[0m [1m────[0m [1m──────[0m  [1m───[0m [1m─[0m [1m───────────[0m───────[1;30m──[0m────[1;30m─[0m── ─[1;30m──·[0m

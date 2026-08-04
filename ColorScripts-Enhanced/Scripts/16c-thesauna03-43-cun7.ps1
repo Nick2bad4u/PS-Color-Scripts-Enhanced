@@ -1,20 +1,4 @@
-﻿# Converted from: 43-cun7.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna03/raw/43-cun7.ans
-# Source Revision: archive-sha256:997aaab655669129eb266c21ca0c4588b603e11c90338498bb530f8bba390fb2
-# Source SHA-256: 5944571def03e24435c2c7797b5ee87c952ab2b96b19bb904230d876b95bf911
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 43-cun7.ans by aesthetic (Sauna); released in thesauna03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Cee U Next Tuesday
-# SAUCE Author: aesthetic
-# SAUCE Group: Sauna
-# SAUCE Date: 20210407
-# SAUCE Dimensions: 80x38
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Dedicated to all variants of the word out there
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Cee U Next Tuesday by aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna03-43-cun7
 
 Write-Host '
                                                                            [1;30;40m░[0m

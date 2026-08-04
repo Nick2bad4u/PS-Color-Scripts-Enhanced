@@ -1,18 +1,4 @@
-﻿# Converted from: SUI-MIST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/haze_002/raw/SUI-MIST.ANS
-# Source Revision: archive-sha256:38330e2f246542d7e8592e16d69ba19463233f347fc04dc4d56a7647ea25c49d
-# Source SHA-256: e6d9c97cc8b1a5c84bd1c410ac6be8965e1c2cb78fac1262c7f504e129634d1c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SUI-MIST.ANS by SuiCyco (haze); released in haze_002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: guardian of the mist
-# SAUCE Author: SuiCyco
-# SAUCE Group: haze
-# SAUCE Date: 19950225
-# SAUCE Dimensions: 80x181
-# Lines: 89-137
-# Columns: 1-80
+﻿# Artwork: guardian of the mist by SuiCyco | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-haze-002-sui-mist-part03
 
 Write-Host '
 ███████████[1;30;47m░▒▓█[0m████[1;30;47m ░▒▓[0;1;30;40m███[0m [1;30m░[0m

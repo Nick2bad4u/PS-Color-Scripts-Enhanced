@@ -1,17 +1,4 @@
-﻿# Converted from: AOH-ANP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel11/raw/AOH-ANP.ANS
-# Source Revision: archive-sha256:bc01376bbeb692c1fce16796b92a6fd889f89dbf4c55eb291719d5ea3fd5846c
-# Source SHA-256: bfe2e470e60ab43da72e0b8141f9afb13955afd37035e7916a9448efa3fffb4c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AOH-ANP.ANS by Angel of Hell (Fuel); released in fuel11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Artnophobia
-# SAUCE Author: Angel of Hell
-# SAUCE Group: Fuel
-# SAUCE Dimensions: 80x25
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: Artnophobia by Angel of Hell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel11-aoh-anp
 
 Write-Host '
                        [1m▄[0m                   [35m▄[0m

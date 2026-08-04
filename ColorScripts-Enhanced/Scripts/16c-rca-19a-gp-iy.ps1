@@ -1,13 +1,4 @@
-﻿# Converted from: GP-IY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca-19a/raw/GP-IY.ANS
-# Source Revision: archive-sha256:81f21b6ad591f112e54dc904e184a85b63ca9af95a156ccc7d812cfbc401b70a
-# Source SHA-256: 5a32d03f6df1faf6c3c34a46ae16d73f2167b8769beb913c21345b7f01785a5a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GP-IY.ANS by Gp (rca-19a); released in rca-19a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: GP-IY.ANS by Gp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca-19a-gp-iy
 
 Write-Host '
                     [32m▄[0;1;32m▄▄[0;1;32;42m▄██▄[0;1;32;40m▄▄[0;32m▄[0m                 [32m▄[0;1;32m▄▄[0;1;32;42m▄██▄[0;1;32;40m▄▄[0;32m▄[0m

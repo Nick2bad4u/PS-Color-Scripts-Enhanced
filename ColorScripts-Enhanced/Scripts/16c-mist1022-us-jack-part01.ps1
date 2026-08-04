@@ -1,20 +1,4 @@
-﻿# Converted from: US-JACK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1022/raw/US-JACK.ANS
-# Source Revision: archive-sha256:b4cfb070b10229c71b6cdba49fff141c03f4ad9e6e51a5ef68dfa1930822da97
-# Source SHA-256: 62eee3323f53588dd156daf87ef421675e23c39287a73a9c7bbfb8a8330109ef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-JACK.ANS by Polyducks + Zeus Ii + LDA (Mistigris); released in mist1022 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Jack has been pumpkin iron
-# SAUCE Author: Zeus II / LDA / PDX
-# SAUCE Group: Mistigris
-# SAUCE Date: 20221029
-# SAUCE Dimensions: 80x96
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Did ZII even manage to get a couple blocks out of The Knight in | here?
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Jack has been pumpkin iron by Polyducks + Zeus Ii + LDA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1022-us-jack-part01
 
 Write-Host '
 

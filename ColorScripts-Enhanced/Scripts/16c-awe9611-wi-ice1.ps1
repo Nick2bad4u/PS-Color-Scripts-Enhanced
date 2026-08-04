@@ -1,18 +1,4 @@
-﻿# Converted from: WI-ICE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9611/raw/WI-ICE1.ANS
-# Source Revision: archive-sha256:2b73e149488dc761d99422832825743596588d59e58f9bfecfb5d0e9dbffd274
-# Source SHA-256: 9d1b2d316a6266184133fb3d622b4e0194d373d6d5320c7a99bcd277b315a933
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WI-ICE1.ANS by Widowmaker (AWE Lettering); released in awe9611 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: iCE Promo.
-# SAUCE Author: Widowmaker
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961026
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: iCE Promo. by Widowmaker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9611-wi-ice1
 
 Write-Host '
    [33m▐▌▀[0;1;33m [0;33m▄[0m   [1;33m░░░[0m

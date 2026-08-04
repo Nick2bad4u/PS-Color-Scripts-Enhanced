@@ -1,18 +1,4 @@
-﻿# Converted from: PYX-MT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0297/raw/PYX-MT.ANS
-# Source Revision: archive-sha256:be68381e2a6eb66da2c3748632738b57ddbb1f82deb6e57bebe558461357279b
-# Source SHA-256: e06c908e5a9c3f0e1d398fed0f64835e6cb5c98e629de5a49d67be339bc4da20
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PYX-MT.ANS by Pyx (Bamboosh); released in bmb-0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Minor Threat
-# SAUCE Author: Pyx
-# SAUCE Group: Bamboosh
-# SAUCE Date: 19970121
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Minor Threat by Pyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0297-pyx-mt
 
 Write-Host '
                                               [1;33m▄▄▄ [0m     [1;33m▄▓▄▄▄▓    [0m

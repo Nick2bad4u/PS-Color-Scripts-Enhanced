@@ -1,18 +1,4 @@
-﻿# Converted from: SVX-SLT2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge13/raw/SVX-SLT2.ANS
-# Source Revision: archive-sha256:347f6c69918fead9ee3c845f2d1356dd84e1411d92cae5bcb8386da796611dd6
-# Source SHA-256: 6997281cf38bc7e42492e7319666b732449639df77bde6e50d2519706ee60143
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SVX-SLT2.ANS by SalvationX (A v e n g e); released in avenge13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Salt Matrix
-# SAUCE Author: SalvationX
-# SAUCE Group: A v e n g e
-# SAUCE Date: 19981230
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Salt Matrix by SalvationX | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge13-svx-slt2
 
 Write-Host '
 [1;47m▓▓▒▒░░[0m▀[1;30m▀  [0m           [34m░[0;30;44m░[0;34;40m▓░[0;37;40m          [0;34;40m░▄▄[0;30;44m░[0;34;40m▓▒▒░[0;30;44m▓[0;37;40m       [0;34;40m░[0;37;40m [0;34;40m  ░[0;30;44m▓[0;34;40m▒░[0;37;40m            [0;1;30;40m▀[0m▀[1;47m░░▒▒▓▓[0m

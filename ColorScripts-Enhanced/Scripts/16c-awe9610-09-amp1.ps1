@@ -1,18 +1,4 @@
-﻿# Converted from: 09-AMP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9610/raw/09-AMP1.ANS
-# Source Revision: archive-sha256:2f6e3c8c2e64cc8380afc3a639da2793e02ea87790d90b8b4bede4b760040753
-# Source SHA-256: 9fb8c11b6c9241a2e24a241ec6fc94a7dc0e4730c6f89378c138e3e06717c2e1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 09-AMP1.ANS by Fluor (awe lettering); released in awe9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: & (aMPERSAND)
-# SAUCE Author: Fluor
-# SAUCE Group: awe lettering
-# SAUCE Date: 19961001
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: & (aMPERSAND) by Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9610-09-amp1
 
 Write-Host '
   [1m     [0;1;36m [0;1;37m [0m [1;33m─[0;1;37m          [0m

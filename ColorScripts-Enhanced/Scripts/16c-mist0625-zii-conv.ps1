@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-CONV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0625/raw/ZII-CONV.ANS
-# Source Revision: archive-sha256:6ee9af28fa25e25a7c8d524c0b340107e083c251e59a271e20836a9f47bec3b2
-# Source SHA-256: c0568f8e8ceb2a72e3b92c8582b5d944453daeb9b5ed96f7208c4ca2009680c3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-CONV.ANS by Zeus II (Mistigris); released in mist0625 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Convolution colly
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20250629
-# SAUCE Dimensions: 80x26
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Convolution colly by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0625-zii-conv
 
 Write-Host '
                           [1;47m▒[0;1;35;40m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀██▓▓░[0;1;37;47m▀[0m

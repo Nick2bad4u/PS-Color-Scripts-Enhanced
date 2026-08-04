@@ -1,17 +1,4 @@
-﻿# Converted from: CF-SMURF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force10a/raw/CF-SMURF.ANS
-# Source Revision: archive-sha256:f2af75efab7b036cdbeddf266674e60423caa5c7ddcc4b43d8307cb5d3c84b64
-# Source SHA-256: 9cd25b4a7e5768a1ab33764b8987c84a5f09ada8ddfcfab8e969a1b79a195008
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CF-SMURF.ANS by chef (force10a); released in force10a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Smurf Village
-# SAUCE Author: chef
-# SAUCE Date: 19960803
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Smurf Village by chef | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force10a-cf-smurf
 
 Write-Host '
        [1;30m        [0m  [36m▄[0;37m▄[0;36;47m▀[0;37;40m█▌   [0;36;40m▄[0;36;47m▀[0;1;36;47m▄▄[0;1;37;47m▄[0;1;36;47m [0m▄ [1;30m [0;34m                 [0;1;30m                       [0m

@@ -1,17 +1,4 @@
-﻿# Converted from: OK-FART.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9701/raw/OK-FART.ANS
-# Source Revision: archive-sha256:d9ee1d58a6a06d01c9f7c4f38cd8e5ab0dc2d9bdfc6b97ab0ed0cc65c400a40c
-# Source SHA-256: 514f792d88e7927e3777746fef9112fb1f5103beedfb5036e475e691400f7ed3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OK-FART.ANS by Outkast (AWE Lettering); released in awe9701 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Chronic Farts
-# SAUCE Author: Outkast
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Chronic Farts by Outkast | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9701-ok-fart
 
 Write-Host '
 

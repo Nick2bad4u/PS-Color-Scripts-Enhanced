@@ -1,18 +1,4 @@
-﻿# Converted from: HX-PAGZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense10/raw/HX-PAGZ.ANS
-# Source Revision: archive-sha256:b6321b8225c23719ad6deac35de4ad4ee43be60d289a60a77bc643ba3343ad2f
-# Source SHA-256: ecc1b2d007d961131e00167ec85f5e552fa860a0b8f2c8b84e451b81b9fa1c7f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HX-PAGZ.ANS by HeXD (SeNSe); released in sense10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Pagz, man!
-# SAUCE Author: HeXD
-# SAUCE Group: SeNSe
-# SAUCE Date: 19980416
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Pagz, man! by HeXD | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense10-hx-pagz
 
 Write-Host '
 [34m`$$$$$$$$$P[0;1;33m._[0m [34m?$$$P''[0;1;33m,P''[0;34md$$$Pⁿ°?$$$$$$$$''[0;1;34m,d$$$b.[0;34m`$$$$$$$$$$$$$$$$$$$$$$$$$$$$''[0;1;34m,d$[0m

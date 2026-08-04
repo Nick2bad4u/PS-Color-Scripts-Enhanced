@@ -1,16 +1,4 @@
-﻿# Converted from: TI-PSS2.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9906a/raw/TI-PSS2.ICE
-# Source Revision: archive-sha256:0dc01179b9735202ce9e3063dbd8924b46ecbfa119b74c7b925d1eaf5340d752
-# Source SHA-256: 7caa9c7982dcd7e95a798b13a14945df9c76484225f371174441cbb05bc625d1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TI-PSS2.ICE by Trip (iCE); released in ice9906a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: PS Scrabble
-# SAUCE Author: Trip
-# SAUCE Group: iCE
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: PS Scrabble by Trip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9906a-ti-pss2
 
 Write-Host '
 [1;34;44m ░░░░░░ [0;34m█▌[0;37m  [0;34m▐[0;1;34;44m▒[0m   [34m▐[0;37m  [0;34m▓░ [0m       [37mTrip(iCE) ANSi 1999.[0m        [34m░▓[0;37m  [0;34m▌[0m   [1;34;44m▒[0;34m▌[0;37m  [0;34m▐████[0;1;34;44m░░░░░[0m

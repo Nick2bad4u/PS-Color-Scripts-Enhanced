@@ -1,13 +1,4 @@
-﻿# Converted from: AB-GATOH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/doa-0494/raw/AB-GATOH.ANS
-# Source Revision: archive-sha256:9908dd5b5e7bb30f460296490cbe9e045fe85638c040fe74d770a98c459a5e3a
-# Source SHA-256: dde43530054005394ab675b7f27e0d1ff1d603b8335bb6485d70289f299b6bdd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AB-GATOH.ANS by Anubis-Doa (doa-0494); released in doa-0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: AB-GATOH.ANS by Anubis-Doa | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-doa-0494-ab-gatoh-part02
 
 Write-Host '
 [1;37;47m░░░░░░     [0;31m█[0;1;31;41m░░▒▒▒▒▒  ░░░██▓▓▓▓[0;1;33;40m██▓█[0;1;31;41m▓▓▓▓▓▓▓▓░ ░░░░▓▒░░  [0m     [1;31;41m▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓██[0m

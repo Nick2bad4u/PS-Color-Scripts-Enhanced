@@ -1,18 +1,4 @@
-﻿# Converted from: TEX!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook14/raw/TEX!.ANS
-# Source Revision: archive-sha256:f7fe2a62d3e7b3b16687ce251209098ea8d86719a4cfa33dae1489e0c9af9278
-# Source SHA-256: dcad51d7e7f7944e652406f823ccf61c8f657c32144e7b1ba6dcfe1511e2cfb8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TEX!.ANS by -------------------- (black maiden); released in bmbook14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: tex
-# SAUCE Author: --------------------
-# SAUCE Group: black maiden
-# SAUCE Date: 19970701
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: tex by -------------------- | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook14-tex
 
 Write-Host '
 

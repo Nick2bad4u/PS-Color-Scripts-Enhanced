@@ -1,17 +1,4 @@
-﻿# Converted from: NM-NC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tdd-0295/raw/NM-NC.ANS
-# Source Revision: archive-sha256:063b5b78a890bb3c399deeb92102d5f30efb787cb4a09cd122443a1ac10670d0
-# Source SHA-256: 0e9901bc12fdca76070eff4a201952bd3815dc3231e3d35891247505cd870124
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NM-NC.ANS by Netman (tdd-0295); released in tdd-0295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: No Carrier
-# SAUCE Author: Netman
-# SAUCE Date: 19950215
-# SAUCE Dimensions: 80x80
-# Lines: 41-80
-# Columns: 1-80
+﻿# Artwork: No Carrier by Netman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tdd-0295-nm-nc-part02
 
 Write-Host '
 [34;44m    [0;34;40m▀▀[0;1;31;40m▄████[0;1;31;41m▀[0;31m█▀[0;1;30m▄ [0;1;30;42m  [0;32m▀▄[0;1;32m████████████████▀▀▀▀███████[0;32m▀▀▀ [0;1;31m▄▄███[0;1;31;41m▀▀[0;31m▀▀[0;34m▄▄[0;34;44m                 [0;37;40m [0m

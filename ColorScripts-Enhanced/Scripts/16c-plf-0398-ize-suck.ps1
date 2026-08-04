@@ -1,18 +1,4 @@
-﻿# Converted from: IZE-SUCK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0398/raw/IZE-SUCK.ANS
-# Source Revision: archive-sha256:f8b78bce0ded523528171ee9d37c603a9a96c5e8abf885d101375334b587e435
-# Source SHA-256: bc50bc21b56fe3ccdb36bc4f1e5af4a88070c674e7a6216e62cfbe1eeeddf264
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZE-SUCK.ANS by ize (guesting); released in plf-0398 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: this sucks (guest)
-# SAUCE Author: ize
-# SAUCE Group: guesting
-# SAUCE Date: 19980103
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: this sucks (guest) by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0398-ize-suck
 
 Write-Host '
 

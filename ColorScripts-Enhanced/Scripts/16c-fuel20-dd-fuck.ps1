@@ -1,13 +1,4 @@
-﻿# Converted from: DD-FUCK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel20/raw/DD-FUCK.ANS
-# Source Revision: archive-sha256:76cc71407da52d22474028b5badac0ae5ae0b321b8be74ac60820db9d7a1dc71
-# Source SHA-256: 25e42cbdd972c674e4af32429c733487523851117158b51c9fb801457e1371d9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-FUCK.ANS by Da Drug (fuel20); released in fuel20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: DD-FUCK.ANS by Da Drug | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel20-dd-fuck
 
 Write-Host '
 [30;44mansi by        [0;34;40m██████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀████████████ [0;31;40m▐[0;1;31;41m▄█▓░[0;31m▀▀▀▀ ▄▄▄▄▀▀▀▀ ▄[0;1;31;41m░▒▒▓▓▓▒░[0m

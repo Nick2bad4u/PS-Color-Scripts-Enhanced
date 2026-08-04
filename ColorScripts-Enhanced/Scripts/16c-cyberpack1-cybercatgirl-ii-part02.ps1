@@ -1,19 +1,4 @@
-﻿# Converted from: cybercatgirl-ii.ans
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/cyberpack1/raw/cybercatgirl-ii.ans
-# Source Revision: archive-sha256:22c86100c349017caf42bcccadd068ca0a12bffc273b969eb406d82adaabee60
-# Source SHA-256: d31694216963876ef1f8570856780745431ff12bfb5b4a89f5b4289c870cb301
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cybercatgirl-ii.ans by Revengeday (CORTEXIMPLANT); released in cyberpack1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Cyber Cat Girl II
-# SAUCE Author: Revengeday
-# SAUCE Group: CORTEXIMPLANT
-# SAUCE Date: 20250727
-# SAUCE Dimensions: 80x250
-# SAUCE Font: IBM VGA
-# Lines: 32-62
-# Columns: 1-80
+﻿# Artwork: Cyber Cat Girl II by Revengeday | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cyberpack1-cybercatgirl-ii-part02
 
 Write-Host '
   █ [1;32;42m█[0m [32m▄[0;1;32;42m▄[0;1;32;40m▄█▄▄▄[0;1;32;42m▄[0;1;32;40m▄▄▀[0m   [35m░░██▓▓█[0;1;37m██▀[0m  [1m████████████████[0m   [1m█████████[0;1;45m▀▀[0;35m██████░░[0;37m    [0;1;32;42m█[0m █[1;30m█[0m

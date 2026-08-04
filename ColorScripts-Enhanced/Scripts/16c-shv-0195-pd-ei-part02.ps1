@@ -1,18 +1,4 @@
-﻿# Converted from: PD-EI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shv-0195/raw/PD-EI.ANS
-# Source Revision: archive-sha256:61101c28616354ea6de1a5f63028a9a84092498953bdd03ef403dd1afba796ff
-# Source SHA-256: 145b57bdbd88ea67f72a3a06b503795ed171f7a86b164cf0d796cc9ed017818b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PD-EI.ANS by Paradox (Shiver); released in shv-0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Evil Intentions
-# SAUCE Author: Paradox
-# SAUCE Group: Shiver
-# SAUCE Date: 19941231
-# SAUCE Dimensions: 80x25
-# Lines: 37-65
-# Columns: 1-80
+﻿# Artwork: Evil Intentions by Paradox | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shv-0195-pd-ei-part02
 
 Write-Host '
                      [1;31m▒[0m                           [31m▀ [0;1;31m░[0;31m▄ [0;1;31m▒  [0;31m▄    ▄[0m

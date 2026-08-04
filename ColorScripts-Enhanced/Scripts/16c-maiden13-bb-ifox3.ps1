@@ -1,18 +1,4 @@
-﻿# Converted from: BB-IFOX3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden13/raw/BB-IFOX3.ANS
-# Source Revision: archive-sha256:70e231ea8653cd02d349f122b1a39f57757322f3913b0c8f20698b54c8795e68
-# Source SHA-256: 7ab091ae9ff63a445eb591cc47f5883b8c56112cb4dd44381e5db013b6920a5b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BB-IFOX3.ANS by Bugs Bunny (Maiden_br); released in maiden13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: irOnfOx!
-# SAUCE Author: Bugs Bunny
-# SAUCE Group: Maiden_br
-# SAUCE Date: 19971009
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: irOnfOx! by Bugs Bunny | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden13-bb-ifox3
 
 Write-Host '
            [33m░[0;30;43m▓[0m           [30;43m▓[0;33;40m▐[0;1;33;43m ▄▓[0;33m██[0;32m [0;30;43m░[0;33;40m▌▄▄░[0;30;43m▓[0;32;40m  [0m    [32;40m   [0m   [32;40m                       [0m

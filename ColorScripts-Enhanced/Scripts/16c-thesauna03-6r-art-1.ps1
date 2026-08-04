@@ -1,18 +1,4 @@
-﻿# Converted from: 6R-ART-1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna03/raw/6R-ART-1.ans
-# Source Revision: archive-sha256:997aaab655669129eb266c21ca0c4588b603e11c90338498bb530f8bba390fb2
-# Source SHA-256: 2805c4fbd451fcffd4bd2380cd9cf47d253288242297f63facf8deb906238c5a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 6R-ART-1.ans by Groove (thesauna03); released in thesauna03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Artpacks // 01
-# SAUCE Author: Groove
-# SAUCE Date: 20220323
-# SAUCE Dimensions: 80x24
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Artpacks // 01 by Groove | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna03-6r-art-1
 
 Write-Host '
                                 [1;30m▀[0m        [36m▄  ░[0m

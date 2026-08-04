@@ -1,18 +1,4 @@
-﻿# Converted from: IN-0297B.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0297/raw/IN-0297B.ANS
-# Source Revision: archive-sha256:2e15cb2f2712a143323c9f3c6ecca94c5b5b12a452a019e911d205dd685c6eee
-# Source SHA-256: 29508d74971b01cffa401bec290a099cec7b13e9e59fa5a11bd7b6f3bb73881e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IN-0297B.ANS by insert (Phat Studios '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ansi clusta ii
-# SAUCE Author: insert
-# SAUCE Group: Phat Studios '97
-# SAUCE Date: 19970114
-# SAUCE Dimensions: 80x209
-# Lines: 178-209
-# Columns: 1-80
+﻿# Artwork: ansi clusta ii by insert | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0297-in-0297b-part05
 
 Write-Host '
 [1;37m╒                  [0m

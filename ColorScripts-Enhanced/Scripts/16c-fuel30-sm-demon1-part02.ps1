@@ -1,19 +1,4 @@
-﻿# Converted from: sm-demon1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel30/raw/sm-demon1.ans
-# Source Revision: archive-sha256:e3148e82a669aa484baf0738069fbabe44ba2824856e1cb4b05875b86bdd4621
-# Source SHA-256: b63e0856ed6777e26835bdc7e6a83868c8584a113bc09332ecf1802b66cbb36f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sm-demon1.ans by Smooth (Fuel); released in fuel30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Demon Logo
-# SAUCE Author: Smooth
-# SAUCE Group: Fuel
-# SAUCE Date: 20190610
-# SAUCE Dimensions: 80x56
-# SAUCE Font: IBM VGA
-# Lines: 29-56
-# Columns: 1-80
+﻿# Artwork: Demon Logo by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel30-sm-demon1-part02
 
 Write-Host '
 [31;40m [0;1;30;40m [0m [31m▄▄█████▀▀▀▀[0;37m █  ██  ▀▄   ▀ ▒███[0;1;37;47m░[0m▀▓███[30;47m++[0;37;40m█████ [0;1;37;47m░[0m██░▀▀▀   █  ██  █ [31m▀▀▀▀█████▄▄[0m

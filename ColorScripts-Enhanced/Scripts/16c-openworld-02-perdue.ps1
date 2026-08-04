@@ -1,13 +1,4 @@
-﻿# Converted from: Perdue.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/openworld-02/raw/Perdue.ans
-# Source Revision: archive-sha256:e6a9b74c273d22a2d7965d3de31cdbe68ad1a8fc7c323f54e28427a4c9d376b0
-# Source SHA-256: 9fcb48c5501964dac0e5bcf7985b9bcbed965a20bdf8404617040b5c84aa7914
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Perdue.ans by Luxuse (openworld-02); released in openworld-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Perdue.ans by Luxuse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-openworld-02-perdue
 
 Write-Host '
  [31m░░ ░  ░[0m                                    [31m░░░[0m                           [30;43m▀[0;33;43m█[0;33;40m [0;1;30;40mlx [0m

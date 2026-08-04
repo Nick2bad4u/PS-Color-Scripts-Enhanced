@@ -1,18 +1,4 @@
-﻿# Converted from: MR-WOE01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-19/raw/MR-WOE01.ANS
-# Source Revision: archive-sha256:db429aaaa9cca2e4296dcb178b9b345b980b5c7d6fe930188ea53fede20ed269
-# Source SHA-256: 443b5692e3ef22092c7aacbf72d790bedc5bc2216cb61e217aeda5a48f424da4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-WOE01.ANS by Mr. Wrong (AWE Lettering); released in awe-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Woezine
-# SAUCE Author: Mr. Wrong
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981130
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Woezine by Mr. Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-19-mr-woe01
 
 Write-Host '
     [31m░[0m     [34m▀ [0;1;36m▄[0;34m▄[0m

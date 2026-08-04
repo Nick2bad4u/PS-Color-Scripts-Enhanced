@@ -1,18 +1,4 @@
-﻿# Converted from: MW-INNER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dsco0895/raw/MW-INNER.ANS
-# Source Revision: archive-sha256:c5eafe9a144b7f2a60871b789ee8823ca79eafbd0e867cafcaf16646225c9998
-# Source SHA-256: b8159e42e113e9924413665f363261b15f8afc30c6f1a06ce688c8d3a7d7c7b8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MW-INNER.ANS by Maeve Wolf (discO); released in dsco0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Inner Sanctum
-# SAUCE Author: Maeve Wolf
-# SAUCE Group: discO
-# SAUCE Date: 19950523
-# SAUCE Dimensions: 80x99
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Inner Sanctum by Maeve Wolf | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dsco0895-mw-inner-part01
 
 Write-Host '
         [1;34m▄[0m             [1;30m▄   [0;1;34m▄[0m       [1;30m                                              [0m

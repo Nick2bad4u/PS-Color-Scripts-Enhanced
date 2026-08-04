@@ -1,18 +1,4 @@
-﻿# Converted from: CX-COLY2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/one-04a/raw/CX-COLY2.ANS
-# Source Revision: archive-sha256:01550923b0a1bcd95096534750e3829f7b161ebd7e1156106cd69ef8aa73e1ab
-# Source SHA-256: a309cca3536cb8a2e1f160b99a8c1c7a808aed9a8957f01e85b953d955be6336
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CX-COLY2.ANS by Cyrix (One); released in one-04a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Logo Collection #2
-# SAUCE Author: Cyrix
-# SAUCE Group: One
-# SAUCE Date: 19970330
-# SAUCE Dimensions: 80x25
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: Logo Collection #2 by Cyrix | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-one-04a-cx-coly2
 
 Write-Host '
 [1;35;45m██▄[0;35m▄[0;37m [0;35m  [0;33m▄[0;1;33m▄▄▄▄▄▄[0;1;37m▄▄[0;1;33m▄▄  [0;33m▄[0;1;33m▄▄▄  [0;33m▄[0;1;33m▄▄▄▄▄▄ [0;33m▄[0;1;33m▄▄▄[0;33m▄[0;1;33m▄▄▄  [0;33m▄[0;1;33m▄▄▄▄▄[0;1;37m▄[0;1;33m        [0;1;37m   [0m [33m   [0;35m            [0m

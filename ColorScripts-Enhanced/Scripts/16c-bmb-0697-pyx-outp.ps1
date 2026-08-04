@@ -1,17 +1,4 @@
-﻿# Converted from: PYX-OUTP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0697/raw/PYX-OUTP.ANS
-# Source Revision: archive-sha256:608fe2b98dcac70515ce221c11f606d898ec739b4fcdd1a5448c437eb640df82
-# Source SHA-256: 00ae12b4f688fdd95496ac9a51dde4c025828fa8322f42cb5e098880c8f22c18
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PYX-OUTP.ANS by Pyx (Bamboosh); released in bmb-0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Outpost
-# SAUCE Author: Pyx
-# SAUCE Group: Bamboosh
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: The Outpost by Pyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0697-pyx-outp
 
 Write-Host '
                      [1;30m░[0m

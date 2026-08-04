@@ -1,18 +1,4 @@
-﻿# Converted from: SM-AIA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile_001/raw/SM-AIA.ANS
-# Source Revision: archive-sha256:f7a8644489c1d011b91477b5b1eab40d9f39b077b89f158a7a0c3d1c032c6d81
-# Source SHA-256: 440c970ad31c9d75d8a1e5fedf83ea1d9932e7c5cafdd34478012d030c23954e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-AIA.ANS by sammael (rile); released in rile_001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: auggies in ansi
-# SAUCE Author: sammael
-# SAUCE Group: rile
-# SAUCE Date: 19970215
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: auggies in ansi by sammael | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile-001-sm-aia
 
 Write-Host '
 [1;30m▀▀[0m ░ [1;30m▀[0;1;32m  [0;1;37m▓▓[0;30;42m▀▀▀▀▀ [0;1;32;42m▀▀▀▀[0;1;37;47m██[0;1;32;42m▀[0;30;42m  ░[0;32;40m░[0;37;40m [0;1;30;40m▀▀[0m ▄▄▄[1;30m▄▄▄▄[0m [1;30m▀[0m [1;30m▀▀▀▀███[0;1;30;46m▓[0;1;30;47m▓▓[0;1;30;40m▀▀▀[0m  [1;30m▀[0m [30;47m▓[0;1;30;40m▀▀▀[0;1;30;47m▓▓[0;1;30;40m█████[0;1;30;47m▓░░▓[0;1;30;40m████[0;1;30;47m▓▒░[0m

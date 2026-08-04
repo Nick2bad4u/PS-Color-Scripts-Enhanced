@@ -1,20 +1,4 @@
-﻿# Converted from: sKsubmarine_vampire_mixngsdrinks_1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr2021d/raw/sKsubmarine_vampire_mixngsdrinks_1.ans
-# Source Revision: archive-sha256:c9438c0bcd954b25748b050f94a979453aa1121c38319d9e358aad6b2ccad3a3
-# Source SHA-256: e77f30005e8c1024add30cda662e43617fe64c8f37725cc40b8606d6d68ef0e9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sKsubmarine_vampire_mixngsdrinks_1.ans by sIMONkING (LAZARUS/thelo0p!); released in blndr2021d and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Vampire / Mixing Drinks / Submarine
-# SAUCE Author: sIMONkING
-# SAUCE Group: LAZARUS/thelo0p!
-# SAUCE Date: 20211017
-# SAUCE Dimensions: 80x100
-# SAUCE Font: IBM VGA
-# SAUCE Comments: for Blender 2021.10.17
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Vampire / Mixing Drinks / Submarine by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr2021d-sksubmarine-vampire-mixngsdrinks-1-part01
 
 Write-Host '
         [1m█[0;1;36m▀▀█[0m  [1m█[0m    [1m█[0;1;36m▀▀[0m   [1m█[0;1;36m▄[0m  [1;36m█[0m [1m█[0;1;36m▀█▄[0m  [1m█[0;1;36m▀▀[0m   [1m█[0;1;36m▀▀█[0m       [1m█[0;1;36m▀▀█[0m [1m█[0;1;36m▀▀█[0m [1m█[0;1;36m▀▀█[0m [1m█[0m

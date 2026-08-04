@@ -1,13 +1,4 @@
-﻿# Converted from: ^SUNSET.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k-endorp/raw/%5ESUNSET.ANS
-# Source Revision: archive-sha256:497545ed0c2744b20980a37ccf1a9818b53bd7cdaf102771db2cb19b2e84ea40
-# Source SHA-256: 621008ade1b5b4c0cfc8f67e44d4e462e80a4f1f24f0a660b2c26c9e16933e0c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ^SUNSET.ANS by Flame (k-endorp); released in k-endorp and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: ^SUNSET.ANS by Flame | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k-endorp-sunset
 
 Write-Host '
                                                                     [32m░[0m

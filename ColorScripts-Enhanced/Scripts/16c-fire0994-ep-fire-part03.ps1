@@ -1,13 +1,4 @@
-﻿# Converted from: EP-FIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0994/raw/EP-FIRE.ANS
-# Source Revision: archive-sha256:3703c7bad075d71c4631b4c27fbba8a167ccd10c7343d2d2bf3447e74000d1a8
-# Source SHA-256: 68825a51b2f393d9e2a0d2834e24e1b61874e1bd4ddc5ff02ae516d3b98ba7c3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EP-FIRE.ANS by Epitaph + Halaster (fire0994); released in fire0994 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 93-139
-# Columns: 1-80
+﻿# Artwork: EP-FIRE.ANS by Epitaph + Halaster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0994-ep-fire-part03
 
 Write-Host '
 [1;30;40m▒[0;1;30;43m▓▓▓▓▓▓▓▒▒▒▒▒▒▒░▒▒▒▒▒▒░░▒▒▒▒▒▒▒▒▒▒▒▒▒[0m             [1;30;43m▒▒▒▒▒▒▒▒▒▒▒▒▒▒░  █▓▒▒░░░ ░▒▒▓▓[0m

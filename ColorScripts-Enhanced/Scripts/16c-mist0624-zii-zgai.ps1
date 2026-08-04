@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-ZGAI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0624/raw/ZII-ZGAI.ANS
-# Source Revision: archive-sha256:7e2642f67629daefe8d04ebedd2e233be2e8a74b2dea50eb02da49be24298927
-# Source SHA-256: 5f0b379c6ea4f3bf9d89a9fc6d9935a6c7e2bd0108cacbb8ef3e92dbcc31d5e2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-ZGAI.ANS by Zeus II (mist0624); released in mist0624 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Ten-Oh Hyuga login
-# SAUCE Author: Zeus II
-# SAUCE Group: ?
-# SAUCE Date: 20240602
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Ten-Oh Hyuga login by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0624-zii-zgai
 
 Write-Host '
  [35m▀▀▀██[0;35;41m▓▓▓▓▒[0;37;40m [0;33;40m█[0;1;33;43m░░░░░[0;33m█[0;37m    [0;33m▄[0;1;33;43m [0;33m▀▀[0;1;33;43m░[0;33m▄[0;37m    [0;33m█[0;1;33;43m░░░░▒░[0m  [35m▄[0;1;35;45m▄▀▄[0;35m█[0;1;35;45m▀[0;35m███▀▀[0;37m    [0;35m▄▄███[0;1;35;45m▄▄[0;35m██[0;1;35;45m▀▀[0;35m████▀▀█▄▄▄█[0m

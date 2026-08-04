@@ -1,13 +1,4 @@
-﻿# Converted from: DF-FF1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/moi-1096/raw/DF-FF1.ANS
-# Source Revision: archive-sha256:b08f58ff6462f4244b49eaabf5e3eaec7c8e12fe3cf4d84f161db4bcc4a6f782
-# Source SHA-256: 526f7009917bba19271c7f4834d226f44d70ce41845ff6a22ff2d70abf3d231c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DF-FF1.ANS by Dark Force (moi-1096); released in moi-1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: DF-FF1.ANS by Dark Force | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-moi-1096-df-ff1
 
 Write-Host '
 [1;35;45m░▓[0;1;35;40m▄[0;35m▀[0;1;35;45m▓[0;1;35;40m█▀  [0;33m█[0;33;43m                     [0;1;31;40m▄▄ [0;1;35;45m░[0;35m▀▄[0;1;35m▌ [0;33m█▄█[0;33;43m   [0;1;31;43m░░▓▓[0;1;31;40m██ darkforce[0;1;35;40mmOist    [0;35m▄[0;1;35;45m░[0;35m▄[0;1;35;45m░░▓▓[0;1;35;40m██▀[0m

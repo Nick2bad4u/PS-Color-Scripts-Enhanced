@@ -1,17 +1,4 @@
-﻿# Converted from: AM-BABE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dls0296/raw/AM-BABE.ANS
-# Source Revision: archive-sha256:d07307efd5446d199a1d6623b0197b51b6d7034a39dc2f4b298cb8296f7c3796
-# Source SHA-256: 976a26aa403a7f48d2d94a4621761946f9a327ba759b808dba2f496cce58dba0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AM-BABE.ANS by Amorphis (Delusion); released in dls0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Babe
-# SAUCE Author: Amorphis
-# SAUCE Group: Delusion
-# SAUCE Font: his bitch!?[37m ?[0m?
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Babe by Amorphis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dls0296-am-babe
 
 Write-Host '
 [31m▀[0;37m [0;31m▒▒██[0;1;33;43m░░[0;31m██▓[0;37m [0;31m█[0;1;30mAm[0m     [1;31m▒[0;1;31;41m ▒░▄▄[0;1;31;40m██████[0m  [33m▀▀▀▄▄▄▒▒▒▀▀▓█▄[0;37m  [0;1;33;43m░[0;1;33;40m▄[0m  [33m▀▀▒[0;1;33;43m░░▒[0;33m███▒▄[0;37m [0;33m█▓▓░[0;37m [0;33m▀[0;1;33;43m░▒[0;1;33;40m██[0;1;33;43m▒[0;1;33;40m▄▄[0m

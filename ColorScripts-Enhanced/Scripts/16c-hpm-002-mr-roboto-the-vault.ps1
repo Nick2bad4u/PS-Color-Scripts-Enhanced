@@ -1,19 +1,4 @@
-﻿# Converted from: Mr_Roboto-The_Vault.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hpm-002/raw/Mr_Roboto-The_Vault.ans
-# Source Revision: archive-sha256:ac1c5734e02a8b9f6dc786a430b6a4555daba27767e3a09c6335e008cfa324e4
-# Source SHA-256: 792874f7f2f21261c4bcec8588bd11335e9df2c6eb890ce330f7d60c510e815c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Mr_Roboto-The_Vault.ans by Mr.R0b070 (HPM); released in hpm-002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Vault
-# SAUCE Author: Mr.R0b070
-# SAUCE Group: HPM
-# SAUCE Date: 20221017
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: The Vault by Mr.R0b070 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hpm-002-mr-roboto-the-vault
 
 Write-Host '
                           [1;30m··─[0m [1;30m────────────────────────··[0m

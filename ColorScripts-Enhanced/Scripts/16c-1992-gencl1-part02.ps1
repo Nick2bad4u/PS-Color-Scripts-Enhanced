@@ -1,13 +1,4 @@
-﻿# Converted from: GENCL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1992/raw/GENCL1.ANS
-# Source Revision: archive-sha256:408f6102282b4b4f582d319af7c00d0c1a49a9b89d70dc7754d4cd44f475f4fb
-# Source SHA-256: 94e7cc4ec6bd9bf8fc0496c5fe27ae5f36ff6017d686598a28e7377c74168a98
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GENCL1.ANS by Genesis (1992); released in 1992 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: GENCL1.ANS by Genesis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1992-gencl1-part02
 
 Write-Host '
                      [1;30;47m▒░[0;1;37;47m░░░[0m▀▀[1m▀[0m▀▀[1m▀[0m▀ [1;30m▀▀▀[0;31m▀▀▀▀▀[0;1;31m▀▀▀▀▀▀██[0;1;37m███[0;1;31m████████████████▄[0;1;37m▀[0;1;37;47m▒░▄▄[0;1;30;47m▓▓▓[0;1;30;40m██[0m

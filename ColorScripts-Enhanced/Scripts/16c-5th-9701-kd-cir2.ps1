@@ -1,18 +1,4 @@
-﻿# Converted from: KD-CIR2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/5th-9701/raw/KD-CIR2.ANS
-# Source Revision: archive-sha256:4f91e0f396f05128ca3a4b19191b45ca21644658a04c7337a8b354546e2c1a2a
-# Source SHA-256: 794d98eefb583b10aab0b35c62faaca991c1b9c7a1dd280e75c16559df058469
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KD-CIR2.ANS by KLeaR DiSToRTioN ([Chaos InC. Rhyme]); released in 5th-9701 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: cir
-# SAUCE Author: KLeaR DiSToRTioN
-# SAUCE Group: [Chaos InC. Rhyme]
-# SAUCE Date: 19970429
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: cir by KLeaR DiSToRTioN | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-5th-9701-kd-cir2
 
 Write-Host '
 [1m▐[0;1;33m█[0;1;36m█[0;1;32m█[0;1;35m█[0;1;31m█[0;1;34m█[0m [1;47m▓[0;1;40m▀▀   [0;1;47m░[0m▀[1;47m░[0;1;40m [0;1;47m▓[0;1;40m▀[0;1;47m▒[0;1;40m [0;1;47m▓[0;1;40m▀[0;1;47m▒[0m [1;30m░▒▓[0m▒▓█[1m▌[0m        [1;30m  [0m  [1;30m  [0m [1m    [0m [1;30m  [0m [1m  [0m [1m [0m     [1;30m  [0m   [1;37m   ▐[0m█▓▒[1;30m▓▒░[0m

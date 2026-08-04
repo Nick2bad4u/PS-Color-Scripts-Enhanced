@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-PHLEM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0996/raw/IZ-PHLEM.ANS
-# Source Revision: archive-sha256:707c5fe12f8b115f37bf0df62a8bbf61a1e95140c1ed59c95af84379ad4a0dbe
-# Source SHA-256: 2913499642522cae064c944406c63d4b7e3fb111aec52fff656fc53ed86d8999
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-PHLEM.ANS by ize (fusion); released in fsn-0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: phlem
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19960921
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: phlem by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0996-iz-phlem
 
 Write-Host '
       [1;30m░░[0m

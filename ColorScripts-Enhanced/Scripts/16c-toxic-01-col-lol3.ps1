@@ -1,18 +1,4 @@
-﻿# Converted from: COL-LOL3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/toxic-01/raw/COL-LOL3.ANS
-# Source Revision: archive-sha256:3b597be1b67b12799dd35541511cf17a47483b999aba055f1358423895441c18
-# Source SHA-256: 2765c303b8d804292dedd591039b388d5708227865679ffd82cecffa54b8778d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: COL-LOL3.ANS by colorblind (toxic); released in toxic-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: land'o'lettuce
-# SAUCE Author: colorblind
-# SAUCE Group: toxic
-# SAUCE Date: 19960528
-# SAUCE Dimensions: 80x45
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: land'o'lettuce by colorblind | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-toxic-01-col-lol3
 
 Write-Host '
                            [1;30m    [0m         [1;30m  [0m▄▄[1;30m      [0m▄[1;30;47m░░[0m▄[1;30m  [0m

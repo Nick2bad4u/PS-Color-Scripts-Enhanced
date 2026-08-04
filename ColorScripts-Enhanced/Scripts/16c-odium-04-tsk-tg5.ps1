@@ -1,18 +1,4 @@
-﻿# Converted from: TSK-TG5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-04/raw/TSK-TG5.ANS
-# Source Revision: archive-sha256:8dc8586a37ce2081b7e99529b7087f421e6ff8d5ba2d146ef1d30bd490016720
-# Source SHA-256: 481d79e833865b3061ee2db7d21a6826e57019bbde687eeebe5282b9239fd559
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-TG5.ANS by the silent killer (odium); released in odium-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the gauntlet
-# SAUCE Author: the silent killer
-# SAUCE Group: odium
-# SAUCE Date: 19960220
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: the gauntlet by the silent killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-04-tsk-tg5
 
 Write-Host '
 

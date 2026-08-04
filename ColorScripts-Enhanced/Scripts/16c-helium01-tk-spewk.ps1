@@ -1,18 +1,4 @@
-﻿# Converted from: TK-SPEWK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/helium01/raw/TK-SPEWK.ANS
-# Source Revision: archive-sha256:07d8759f10fea4e17af6dcb88e6f2f43e74915e40d49cbcecc26379922d3a782
-# Source SHA-256: 3a794569c410abfba9dc502f76c2084e8644fbadfac3b249abbbbb0e2b4dcdc8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TK-SPEWK.ANS by The Knight/Fuel-iCE (Fuel - iCE); released in helium01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Spewky Trajic
-# SAUCE Author: The Knight/Fuel-iCE
-# SAUCE Group: Fuel - iCE
-# SAUCE Date: 19960225
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Spewky Trajic by The Knight/Fuel-iCE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-helium01-tk-spewk
 
 Write-Host '
         [1;30m    [0m [1;30m  ▄▀■▄[0m

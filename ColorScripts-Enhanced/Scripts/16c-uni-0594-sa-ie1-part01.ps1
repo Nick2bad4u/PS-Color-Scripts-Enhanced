@@ -1,18 +1,4 @@
-﻿# Converted from: SA-IE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0594/raw/SA-IE1.ANS
-# Source Revision: archive-sha256:db2a228a3fd36387543cf50f2d4002959c041991ff20ee6a7b4aeaef602533bd
-# Source SHA-256: 3f1daa2981ed77ae05f2ddff865e31e05951b5c74ad83d1ec2c9a79f12d149be
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SA-IE1.ANS by Stone Angel (UNiON); released in uni-0594 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Illegal Embassy
-# SAUCE Author: Stone Angel
-# SAUCE Group: UNiON
-# SAUCE Date: 19940501
-# SAUCE Dimensions: 80x25
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Illegal Embassy by Stone Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0594-sa-ie1-part01
 
 Write-Host '
      [1;36m▄▄▄▄▄▄▄▄▄▄▄▄[0m         [36m▄▄▄▄▄[0m

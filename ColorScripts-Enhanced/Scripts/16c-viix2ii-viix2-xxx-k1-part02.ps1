@@ -1,13 +1,4 @@
-﻿# Converted from: ViiX2 - XXX - K1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/viix2ii/raw/ViiX2%20-%20XXX%20-%20K1.ans
-# Source Revision: archive-sha256:6b58db64a496db7dca4458b96e985fd3167eddf90989e07fbdc9d0b35b24d182
-# Source SHA-256: f650f3017b8ba7cfdd4998b8dc02f4a385de695a1c36734c78bbff1e14e91a09
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ViiX2 - XXX - K1.ans by Knocturnal + Spear + Enzo + Aesthetic + Taintedx (viix2ii); released in viix2ii and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 37-72
-# Columns: 1-80
+﻿# Artwork: ViiX2 - XXX - K1.ans by Knocturnal + Spear + Enzo + Aesthetic + Taintedx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-viix2ii-viix2-xxx-k1-part02
 
 Write-Host '
 [1;30;44m▀▀▀[0;1;30;46m▓[0;1;30;40m▄ ░▀[0;36m▀▀█[0;1;36;46m▀[0;1;32;46m■[0;36m▀▀▒[0;37m [0;34m [0;34;46m▓▓[0;34;40m [0;1;34;44m▀▌[0;34m ▄▀▀[0;1;30m▄[0m  [1;30m▀[0m [1;30m    [0m   [34m░░  ░   [0;1;30m■[0m     [1;30m░░[0;34m▀▌ ▀▒[0;32;44m■[0;34;40m▄▄▀[0;32;44m▀[0;1;32;42m█▀[0;32;44m▓▓▒▒░░░[0;34;40m▀▀[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: US-FRLOG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rare-002/raw/US-FRLOG.ANS
-# Source Revision: archive-sha256:0a3a1ab211a696c0dde542e6c378313f7a0800dd36697e1287d0a21d1dc7f85f
-# Source SHA-256: 559fa0b6b39e39a9c475836b8646f4965a24fa176b4a20f35210ff434733f0ce
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FRLOG.ANS by Square + Cuckoo (rare!ascii); released in rare-002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: final refuge login
-# SAUCE Author: cuckoo vs. square
-# SAUCE Group: rare!ascii
-# SAUCE Date: 19980424
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: final refuge login by Square + Cuckoo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rare-002-us-frlog
 
 Write-Host '
 [33m^`┘b.    [0;1;30m`*[0;33m''`s,   [0;1;30m,[0;33m┌s┌.   ,┌[0;1;30m.  [0m,┌.  [1;30m.,.____l l________________l l l____________[0m

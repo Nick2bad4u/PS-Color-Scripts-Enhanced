@@ -1,18 +1,4 @@
-﻿# Converted from: 2m-ea.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot1197/raw/2m-ea.ans
-# Source Revision: archive-sha256:42a4ff2f69bb7f52710e2ec33efed1616917289c2c21517459d11ab153763ccb
-# Source SHA-256: 61fc4658f93d629755f8e2d4174ff268563361c0fa0ec0d7aea27370e69d63d7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2m-ea.ans by 2much4u (RioT Productions); released in riot1197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Elite Alliance
-# SAUCE Author: 2much4u
-# SAUCE Group: RioT Productions
-# SAUCE Date: 19971103
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Elite Alliance by 2much4u | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot1197-2m-ea
 
 Write-Host '
                                                                              [1;30m2m[0m

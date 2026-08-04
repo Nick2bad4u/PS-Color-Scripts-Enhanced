@@ -1,18 +1,4 @@
-﻿# Converted from: N-DOODLE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0397/raw/N-DOODLE.ANS
-# Source Revision: archive-sha256:92948d41234c0b51c2e1cbae1fc45d03877af276dfc89419c464eee360a4eed8
-# Source SHA-256: d5aabd065f00e401dfc5a4f8b5d6e7fa835d46cd052175efe65c099a6b6a933c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-DOODLE.ANS by Nail (fire); released in fire0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Doodle E-Mag
-# SAUCE Author: Nail
-# SAUCE Group: fire
-# SAUCE Date: 19970216
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Doodle E-Mag by Nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0397-n-doodle
 
 Write-Host '
  [31m▄[0;1;31m▄[0;31m▄[0;1;31;41m░░[0m [1;31m▄▄[0;31m▄▄[0;37m  [0;31m▄[0;1;31m▄[0;31m▄▄[0;37m [0;31m [0;1;31m▄[0;31m▄▄[0;1;31m▐▀[0m [1;31m▀[0;31m▀[0;37m [0;34m▄▄▄[0m

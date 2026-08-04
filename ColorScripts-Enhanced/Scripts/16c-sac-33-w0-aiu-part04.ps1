@@ -1,13 +1,4 @@
-﻿# Converted from: w0-aiu.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac-33/raw/w0-aiu.ans
-# Source Revision: archive-sha256:1d07b9782d9991278905b5bd4c94ff2127b055b900ae74d9b26d3447f5757e4c
-# Source SHA-256: a26f5705750a3b853d9a0367ef0708f0d74d4f86769e4f7adf2b23d624ca5709
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: w0-aiu.ans by Webpige0 (sac-33); released in sac-33 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 118-155
-# Columns: 1-80
+﻿# Artwork: w0-aiu.ans by Webpige0 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac-33-w0-aiu-part04
 
 Write-Host '
                       [1;30m▐[0;1;30;47m▓▒▒[0m▌[1m  [0;1;30m▄▄[0;1;30;47m▓▓[0;1;30;40m▀[0m            [1;30;40m▄▄▄▄▄[0;1;30;47m▒▒░░░░░░[0m▌              [1;30m░[0m

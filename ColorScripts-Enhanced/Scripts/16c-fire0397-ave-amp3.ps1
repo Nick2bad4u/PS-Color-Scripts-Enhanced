@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-AMP3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0397/raw/AVE-AMP3.ANS
-# Source Revision: archive-sha256:92948d41234c0b51c2e1cbae1fc45d03877af276dfc89419c464eee360a4eed8
-# Source SHA-256: aecf91e08379eddf9a0a57e6d827f314e7599e4c9d446397f0cb373b36d5c4d4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-AMP3.ANS by Avenger (Fire); released in fire0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Ampersand
-# SAUCE Author: Avenger
-# SAUCE Group: Fire
-# SAUCE Date: 19970227
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Ampersand by Avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0397-ave-amp3
 
 Write-Host '
  [35m░[0;30;45m▓[0m   [30;45m▓[0m            [35;40m░░[0;30;45m▓[0m       [36;40m░░░░[0m           [35;40m░░░[0;30;45m▓[0m   [30;45m▓[0;37;40m [0;30;45m▓[0;1;37;40m░[0m  [30;45m▓[0m

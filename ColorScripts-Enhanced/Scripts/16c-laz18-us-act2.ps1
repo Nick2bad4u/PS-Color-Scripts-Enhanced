@@ -1,20 +1,4 @@
-﻿# Converted from: us-act2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz18/raw/us-act2.ans
-# Source Revision: archive-sha256:32d30452c4c99022fae4fa2ce9a2923ef46629d3ff7dd35a972944a991699c1f
-# Source SHA-256: 54d7f223f4a247b034dab26c9e0c72f12fdf73e4bab4ac20ab2739d570da4644
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-act2.ans by Warpus + The Silent Killer (LAZARUS); released in laz18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: activamusic
-# SAUCE Author: TSK & warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20240128
-# SAUCE Dimensions: 80x22
-# SAUCE Font: IBM VGA
-# SAUCE Comments: activamusic.bandcamp.com
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: activamusic by Warpus + The Silent Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz18-us-act2
 
 Write-Host '
 [30m████████████████████[0;30;107m█████████████[0;30m███████████[0;30;106m█[0;30;45m███████████[0;30;106m██[0;30m██████████████████████[0m

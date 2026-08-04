@@ -1,17 +1,4 @@
-﻿# Converted from: IH8NUMB1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire1196/raw/IH8NUMB1.ANS
-# Source Revision: archive-sha256:cd18ecfdae0904c56df3d636c6b858a4e9c49ad095ac3f517a511bb0e7a7a68e
-# Source SHA-256: 6c76f7b2b036f7e5e9e8e8cf077ab0a479af2d4c282b2f0f3c5c1866ac18d8d4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IH8NUMB1.ANS by Lord Jazz (fire1196); released in fire1196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: I Hate Numb.
-# SAUCE Author: Lord Jazz
-# SAUCE Date: 19961111
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: I Hate Numb. by Lord Jazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire1196-ih8numb1
 
 Write-Host '
 ▒▓█▀▀▄   [1;30m▀[0m▄  ▀[1;30;47m▀[0;1;30;40m▄  ▀▄[0;1;37;40m██[0;1;30;40m▀[0;1;37;40m█▀▌ [0;1;30;40m         [0m [1;30m    [0m [1;30m [0m [1m                [0;1;30m  [0m [1;30m██[0m

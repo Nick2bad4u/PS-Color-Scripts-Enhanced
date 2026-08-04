@@ -1,13 +1,4 @@
-﻿# Converted from: ST-BLEND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr015/raw/ST-BLEND.ANS
-# Source Revision: archive-sha256:207257efec59abae2611bc00a45085830a91002aa8a590ce35f7b3ac437e031e
-# Source SHA-256: 9da7900413954203f9a2a2b612e885f75e96316c438767b4f70bebde48bfc7db
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-BLEND.ANS by Stereo (blndr015); released in blndr015 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: ST-BLEND.ANS by Stereo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr015-st-blend
 
 Write-Host '
                [31m▓▓▓▓▓▓▓▓▓▓▓[0m                    [1;33m▄▄▄▄▄[0m

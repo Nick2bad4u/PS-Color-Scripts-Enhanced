@@ -1,18 +1,4 @@
-﻿# Converted from: MG-ANEMI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ane-0895/raw/MG-ANEMI.ANS
-# Source Revision: archive-sha256:f02f6820c274e454ea9b3d3b4fd7310b06760bc3d22fe1b341f3dda97d828d46
-# Source SHA-256: f320a758872ac274cd81e0124dc45c3a824b26df029565a02e8b8dd80369f3ee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MG-ANEMI.ANS by Mung (anemia); released in ane-0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Anemia Promo #1
-# SAUCE Author: Mung
-# SAUCE Group: anemia
-# SAUCE Date: 19950717
-# SAUCE Dimensions: 80x92
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Anemia Promo #1 by Mung | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ane-0895-mg-anemi-part01
 
 Write-Host '
 [1;30;42m▓▒▒░░▒▒░[0;32m█████████[0;30;42mmung.anemia[0;32;40m███████████████[0;1;30;42m░░░░▒░░░░░[0;32m▄▄▄ [0;1;30m▀▀▀▀██████████████████[0m

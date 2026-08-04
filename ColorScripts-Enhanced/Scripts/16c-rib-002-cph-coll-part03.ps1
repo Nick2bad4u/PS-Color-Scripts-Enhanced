@@ -1,13 +1,4 @@
-﻿# Converted from: CPH-COLL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-002/raw/CPH-COLL.ANS
-# Source Revision: archive-sha256:e8ee016fc6dc7010d1669f3004c9056199d6b9f109e6b9a2a84d085b333352fc
-# Source SHA-256: 3d7795a4c1fb33688da45993897592f75623625288d1dca4d53f70f91ecde144
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-COLL.ANS by Cyberpunch (rib-002); released in rib-002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 89-136
-# Columns: 1-80
+﻿# Artwork: CPH-COLL.ANS by Cyberpunch | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-002-cph-coll-part03
 
 Write-Host '
                                               [33m░▒[0m

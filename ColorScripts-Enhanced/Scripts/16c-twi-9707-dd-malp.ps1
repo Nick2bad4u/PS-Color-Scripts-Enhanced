@@ -1,17 +1,4 @@
-﻿# Converted from: DD-MALP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twi-9707/raw/DD-MALP.ANS
-# Source Revision: archive-sha256:45f176586f3b4789bcbef0a4c75b2f85d21418108c7ec2a4ab268a104d12eb41
-# Source SHA-256: 1af6bfcda7cec715181b54398a8ced2e6c3c677511671522e0190c4a96753172
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-MALP.ANS by Deeply disturbed (Twilight); released in twi-9707 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Malpractice 25 liner
-# SAUCE Author: Deeply disturbed
-# SAUCE Group: Twilight
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Malpractice 25 liner by Deeply disturbed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twi-9707-dd-malp
 
 Write-Host '
 [31m▄[0;1;30m [0m▄[1m▄[0;1;47m▄[0;1;33;47m▓▓[0;1;33;43m▒░░[0;33m██▓░   ▄[0;37m [0;31m█[0;33m▓[0m   [33m▄[0;1;30m [0m [33;41m▓▓[0;1;30;40m [0;1;31;40m [0;33m░▒▓▓▒░ [0;37m  [0;1;31m    [0;1;33m  [0;33m▀[0;31;43m▄[0;33;40m▓▄[0;31;40m▄[0;37;40m [0;31;40m·[0;37;40m [0;31;40m·····[0;33;40m··[0;31;40m·[0;33;40m···[0;37;40m [0;31;40mM[0;33;40mal[0;31;40mP[0;33;40mractice[0;1;37;40m [0m▐

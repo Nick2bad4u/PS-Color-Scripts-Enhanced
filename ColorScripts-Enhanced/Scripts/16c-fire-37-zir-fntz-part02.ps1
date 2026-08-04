@@ -1,20 +1,4 @@
-﻿# Converted from: ZIR-FNTZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-37/raw/ZIR-FNTZ.ANS
-# Source Revision: archive-sha256:42913eb56742cc8575f96af5b8a027e63b5172fdb84271b8ac973c7820ea43ef
-# Source SHA-256: b16615b2dee47d49859ff916db6dc980c4c9033d8db590a4442d681b8399a322
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-FNTZ.ANS by zir (FiRE); released in fire-37 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: logo collection, summer '23.
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20230707
-# SAUCE Dimensions: 80x236
-# SAUCE Font: IBM VGA
-# SAUCE Comments: lettering experiments are fun.
-# Lines: 41-89
-# Columns: 1-80
+﻿# Artwork: logo collection, summer '23. by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-37-zir-fntz-part02
 
 Write-Host '
 [38;2;171;171;171;48;2;0;0;0m [0;38;2;0;0;171;48;2;0;0;0m░░░░  [0;1;38;2;87;255;255;48;2;0;0;0m·[0;1;38;2;87;87;255;48;2;171;171;171m▀[0;1;38;2;87;255;255;48;2;171;171;171m▓[0;1;38;2;87;255;255;48;2;0;171;171m▄[0;1;38;2;87;255;255;48;2;0;0;0m ·[0m       [38;2;0;0;171;48;2;0;0;0m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ ░░░ ░░   [0;1;38;2;255;255;255;48;2;0;0;0m·[0;38;2;0;0;171;48;2;0;0;0m ░░░[0m

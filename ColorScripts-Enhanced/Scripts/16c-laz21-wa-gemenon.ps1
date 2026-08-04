@@ -1,19 +1,4 @@
-﻿# Converted from: wa-gemenon.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz21/raw/wa-gemenon.ans
-# Source Revision: archive-sha256:daa0e008ccfccc8179e0635097f8fe4a46a32781b45bbd86ff6e4505514c9e6d
-# Source SHA-256: 2b9718bfa3411f212c2ec372455d484e8a6d2b94273c565094909f0e417ef35f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wa-gemenon.ans by warpus (LAZARUS); released in laz21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: gemenon bbs
-# SAUCE Author: warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20251011
-# SAUCE Dimensions: 80x19
-# SAUCE Font: IBM VGA
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: gemenon bbs by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz21-wa-gemenon
 
 Write-Host '
 

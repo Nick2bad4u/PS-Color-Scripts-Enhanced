@@ -1,18 +1,4 @@
-﻿# Converted from: CZ-KC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-05/raw/CZ-KC1.ANS
-# Source Revision: archive-sha256:9471ca7612415a41916878584e9d9bf710a5efbc5b8d389ed1bde764e2a602ca
-# Source SHA-256: 65ee59e0587abc34a9d8713b50f0d412537d3b9ace2c17bd305d94ca31ae6166
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CZ-KC1.ANS by ch33ze (eclipse); released in ecl-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: kill4 cl0wns
-# SAUCE Author: ch33ze
-# SAUCE Group: eclipse
-# SAUCE Date: 19960815
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: kill4 cl0wns by ch33ze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-05-cz-kc1
 
 Write-Host '
 [35m [0;37m   ▄▄▄████▄▄▄▄▄▄▄▄▄ elk lips? ▄▄▄▄▄▄▄▄▄▄▄▄████████[0;1;33;47m░░[0m▌ [35m        [0;37m [0;33m▄▄▄▄[0;37m [0;33m▄▄▄▄▄▄▄▄▄[0;37m [0;35m [0m

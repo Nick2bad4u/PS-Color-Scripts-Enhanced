@@ -1,17 +1,4 @@
-﻿# Converted from: GJ-WM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-04/raw/GJ-WM.ANS
-# Source Revision: archive-sha256:1dcdf112160ec589150680778cd449e8af485dfba89bb104c44cd133db2d6fc0
-# Source SHA-256: 90bdf835557c4683074d46c8e9a806924e695389f357aaa784c59ab0a0a5639f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GJ-WM.ANS by Grymmjack (used-04); released in used-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Wicked Minority
-# SAUCE Author: Grymmjack
-# SAUCE Date: 20000403
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Wicked Minority by Grymmjack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-04-gj-wm
 
 Write-Host '
                  [32m ▄[0;37m [0;32m■[0;37m [0;32m [0m             [32m░[0;30;42m▓[0m                        [32;40m▄▄▄[0m

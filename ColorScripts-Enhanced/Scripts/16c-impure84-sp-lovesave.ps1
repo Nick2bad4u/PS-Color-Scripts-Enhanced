@@ -1,20 +1,4 @@
-﻿# Converted from: sp-lovesave.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impure84/raw/sp-lovesave.ans
-# Source Revision: archive-sha256:d8a09ea8caa6a7527c42f29f38b4d95854161d144db19311f361c7c38d2a14cf
-# Source SHA-256: c3d9c17cb9c99e180dff047b29cb7b8baac801425ee4e23add31a85e76e3ada1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sp-lovesave.ans by spinsane (ALL OF EM); released in impure84 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: LOVE WILL SAVE THE DAY
-# SAUCE Author: spinsane
-# SAUCE Group: ALL OF EM
-# SAUCE Date: 20230201
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: love you.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: LOVE WILL SAVE THE DAY by spinsane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impure84-sp-lovesave
 
 Write-Host '
                                                         [1;33m__[0m

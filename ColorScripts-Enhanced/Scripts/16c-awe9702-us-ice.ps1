@@ -1,18 +1,4 @@
-﻿# Converted from: US-ICE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9702/raw/US-ICE.ANS
-# Source Revision: archive-sha256:66fa024bb27d2c5c9da5d44e7d12f110f2c57bdedd32c6f0a850d91a30d582a8
-# Source SHA-256: 5af7ae9740eeafbe04e84125a9fa37366e98bed49e3e92e788475d29059139e0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ICE.ANS by Massm + Discyple (AWE Lettering); released in awe9702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ICE
-# SAUCE Author: Multiple Artists
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970129
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: ICE by Massm + Discyple | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9702-us-ice
 
 Write-Host '
                [1;30m▄[0m                                                [1;30m▄▄▄▄[0m▒[1;30m░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: FL-UREKA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile0296/raw/FL-UREKA.ANS
-# Source Revision: archive-sha256:e0799bed4025fcb07c582e52908fc52eee56a172381968e99c9dbe61586559df
-# Source SHA-256: 785930af56a147feaedbe1f0cbe895bcb5061a1bf9b4fa33dd584677b9fa893f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-UREKA.ANS by flame (rile); released in rile0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: EUREkA!
-# SAUCE Author: flame
-# SAUCE Group: rile
-# SAUCE Date: 19960102
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: EUREkA! by flame | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile0296-fl-ureka
 
 Write-Host '
 

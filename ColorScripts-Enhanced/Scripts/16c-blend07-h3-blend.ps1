@@ -1,18 +1,4 @@
-﻿# Converted from: H3-BLEND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend07/raw/H3-BLEND.ANS
-# Source Revision: archive-sha256:ca5dd679a175bb824bf5bf250a5bbd7f932645b5aabbf63799cb92711cab24b8
-# Source SHA-256: ecf490af651ee071fbfc6a5c2635b8031f68ccb70906e75e4fa34052441a92fe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: H3-BLEND.ANS by h3ck (blend); released in blend07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: blend
-# SAUCE Author: h3ck
-# SAUCE Group: blend
-# SAUCE Date: 19970210
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: blend by h3ck | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend07-h3-blend
 
 Write-Host '
 

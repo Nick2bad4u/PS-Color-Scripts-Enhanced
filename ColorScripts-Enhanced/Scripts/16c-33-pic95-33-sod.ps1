@@ -1,18 +1,4 @@
-﻿# Converted from: 33-SOD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/33-pic95/raw/33-SOD.ANS
-# Source Revision: archive-sha256:cb087acd81a851210de22e3c5d37c8f07d2236b75952adfe16e824d8820e530d
-# Source SHA-256: 52177858f5f59aa741569a5c4c2e4914afca4d3d91b16a7f4e1ad918f5d7c5ef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-SOD.ANS by Eerie (Shiver); released in 33-pic95 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Seeds of Destruction
-# SAUCE Author: Eerie
-# SAUCE Group: Shiver
-# SAUCE Date: 19941223
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Seeds of Destruction by Eerie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-33-pic95-33-sod
 
 Write-Host '
                                                       [1m▄▄▄▄▄▄▄[0m

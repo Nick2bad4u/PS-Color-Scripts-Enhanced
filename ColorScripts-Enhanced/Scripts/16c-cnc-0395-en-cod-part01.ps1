@@ -1,18 +1,4 @@
-﻿# Converted from: EN-COD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cnc-0395/raw/EN-COD.ANS
-# Source Revision: archive-sha256:65c9b4b76cd545d5804f47ea52466c6bb38d18dbd927daf92eedc6f2f9d62387
-# Source SHA-256: cc9348db41f418cf6b6ba77bdcaff084aebd14cf1ff2e458725282dc654b8c5c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EN-COD.ANS by Entreri (CaNCeR Productions); released in cnc-0395 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Castle Of Darkness
-# SAUCE Author: Entreri
-# SAUCE Group: CaNCeR Productions
-# SAUCE Date: 19950219
-# SAUCE Dimensions: 80x25
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: Castle Of Darkness by Entreri | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cnc-0395-en-cod-part01
 
 Write-Host '
 [1;34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m

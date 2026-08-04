@@ -1,18 +1,4 @@
-﻿# Converted from: US-HYSTR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden13/raw/US-HYSTR.ANS
-# Source Revision: archive-sha256:70e231ea8653cd02d349f122b1a39f57757322f3913b0c8f20698b54c8795e68
-# Source SHA-256: c738304d4e407c688db938121dfab44f0b03d7d9d7f474791f7173ab6e51b4c8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-HYSTR.ANS by Slayer Dreams + Bugs Bunny (MAIDEN BRAZIL rulzzz); released in maiden13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: hysteria 1st menu!
-# SAUCE Author: slayer/bunny
-# SAUCE Group: MAIDEN BRAZIL rulzzz
-# SAUCE Date: 19971018
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: hysteria 1st menu! by Slayer Dreams + Bugs Bunny | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden13-us-hystr
 
 Write-Host '
            ▄▄▄▄▄▄▄          ▄▄▄▄▄▄▄     [34m   [0m               [34m▄▄▄▄▄[0m

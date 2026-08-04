@@ -1,13 +1,4 @@
-﻿# Converted from: GAL1#P&R.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/btg-r3/raw/GAL1%23P%26R.ANS
-# Source Revision: raw-sha256:cf4c424939774a771a83e9031b64a3a2b0c5d1feaa8a2576341cdd1f83dc05bb
-# Source SHA-256: cf4c424939774a771a83e9031b64a3a2b0c5d1feaa8a2576341cdd1f83dc05bb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GAL1#P&R.ANS by Paz + Rage (btg-r3); released in btg-r3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: GAL1#P&R.ANS by Paz + Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-btg-r3-gal1-p-r-part01
 
 Write-Host '
 [34m████████████████████████████████████████████████████████████████████████████████[0m

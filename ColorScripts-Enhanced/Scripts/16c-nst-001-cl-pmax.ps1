@@ -1,18 +1,4 @@
-﻿# Converted from: CL!-PMAX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nst_001/raw/CL!-PMAX.ANS
-# Source Revision: archive-sha256:73e351b64f3e5af00925276ea27a29359884e7841f4015afd3acb29f2a370d2d
-# Source SHA-256: 8da1db34fd10ee80504c039990b2b3dcbd8e5337a6d641fae1f3bb0508f8ba7f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL!-PMAX.ANS by .:(cLEANER):. (.:(nEON^sTRIKE):.); released in nst_001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: .:(pEPSI^mAX^oVERDOSE):.
-# SAUCE Author: .:(cLEANER):.
-# SAUCE Group: .:(nEON^sTRIKE):.
-# SAUCE Date: 19971130
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: .:(pEPSI^mAX^oVERDOSE):. by .:(cLEANER):. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nst-001-cl-pmax
 
 Write-Host '
       [1;34m▄[0;34m▄[0m       [34m▄[0;1;34m▄[0m      [1;34m▄[0;34m▄[0m       [34m▄[0;1;34m▄[0m      [34m▄▄[0m       [34m▄▄[0;1;34m▄[0m        [34m▄▄    [0;1;34m■[0;34m▄[0m        [34m▄[0;1;34m■[0m

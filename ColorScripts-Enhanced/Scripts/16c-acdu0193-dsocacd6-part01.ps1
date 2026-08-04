@@ -1,13 +1,4 @@
-﻿# Converted from: DSOCACD6.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0193/raw/DSOCACD6.ANS
-# Source Revision: archive-sha256:c729763da203493829eaf520c8dfb3731964e34fb4b62c8fede76fdf5a43fced
-# Source SHA-256: 5d716755dccb6722786bd81cce7a256799bb06348c1525c089a9843b3505321e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DSOCACD6.ANS by Sonic (acdu0193); released in acdu0193 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: DSOCACD6.ANS by Sonic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0193-dsocacd6-part01
 
 Write-Host '
 

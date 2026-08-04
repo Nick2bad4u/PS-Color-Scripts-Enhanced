@@ -1,13 +1,4 @@
-﻿# Converted from: ST-OIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise05/raw/ST-OIL.ANS
-# Source Revision: archive-sha256:8a04f72dbd0084a3dd089505796d41f1fc098ce192bbfa410f8bc1039eb33f03
-# Source SHA-256: 7d88d631f35131074b994761507a3b843c85ffe527342d21bc89cd80cf5bd006
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-OIL.ANS by Sting (uprise05); released in uprise05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: ST-OIL.ANS by Sting | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise05-st-oil
 
 Write-Host '
 

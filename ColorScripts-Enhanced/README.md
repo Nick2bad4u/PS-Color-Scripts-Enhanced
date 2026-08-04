@@ -4,11 +4,11 @@
 
 <!-- Download & Version Badges -->
 
-[![PowerShell Gallery Version.](https://img.shields.io/powershellgallery/v/ColorScripts-Enhanced?logo=powershell\&label=PSGallery)](https://www.powershellgallery.com/packages/ColorScripts-Enhanced)
-[![PowerShell Gallery Downloads.](https://img.shields.io/powershellgallery/dt/ColorScripts-Enhanced?logo=powershell\&label=Downloads)](https://www.powershellgallery.com/packages/ColorScripts-Enhanced)
-[![NuGet Version.](https://img.shields.io/nuget/v/ColorScripts-Enhanced?logo=nuget\&label=NuGet)](https://www.nuget.org/packages/ColorScripts-Enhanced/)
-[![NuGet Downloads.](https://img.shields.io/nuget/dt/ColorScripts-Enhanced?logo=nuget\&label=Downloads)](https://www.nuget.org/packages/ColorScripts-Enhanced/)
-[![GitHub Release.](https://img.shields.io/github/v/release/Nick2bad4u/ps-color-scripts-enhanced?logo=github\&label=Release)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/releases/latest)
+[![PowerShell Gallery Version.](https://img.shields.io/powershellgallery/v/ColorScripts-Enhanced?logo=powershell&label=PSGallery)](https://www.powershellgallery.com/packages/ColorScripts-Enhanced)
+[![PowerShell Gallery Downloads.](https://img.shields.io/powershellgallery/dt/ColorScripts-Enhanced?logo=powershell&label=Downloads)](https://www.powershellgallery.com/packages/ColorScripts-Enhanced)
+[![NuGet Version.](https://img.shields.io/nuget/v/ColorScripts-Enhanced?logo=nuget&label=NuGet)](https://www.nuget.org/packages/ColorScripts-Enhanced/)
+[![NuGet Downloads.](https://img.shields.io/nuget/dt/ColorScripts-Enhanced?logo=nuget&label=Downloads)](https://www.nuget.org/packages/ColorScripts-Enhanced/)
+[![GitHub Release.](https://img.shields.io/github/v/release/Nick2bad4u/ps-color-scripts-enhanced?logo=github&label=Release)](https://github.com/Nick2bad4u/ps-color-scripts-enhanced/releases/latest)
 
 <!-- CI/CD & Quality Badges -->
 
@@ -49,6 +49,7 @@ A cross-platform PowerShell module for discovering and displaying ANSI colorscri
 - 🐾 **Thousands of Pokémon ColorScripts** — Pokémon and shiny-Pokémon collections participate in normal selection
 
   To opt out, use `-ExcludeCategory Pokemon,ShinyPokemon` with `Show-ColorScript`.
+
 - 🌍 **10 Languages** — English, German, Spanish, French, Italian, Japanese, Dutch, Portuguese, Russian, Chinese
 - 🧩 **Easy to Use** — Simple commands with tab completion
 - 🗄️ **Platform-Aware Cache** — Query `(Get-ColorScriptConfiguration).Cache.EffectivePath` for the user-scoped location
@@ -145,18 +146,18 @@ Set-Alias -Name cs -Value Show-ColorScript
 
 ## 🔧 Commands Reference
 
-| Command                          | Alias                                               | Description                                      |
-| -------------------------------- | --------------------------------------------------- | ------------------------------------------------ |
-| `Show-ColorScript`               | `scs`                                               | Render, list, or browse colorscripts             |
-| `Get-ColorScriptList`            | —                                                   | Query colorscript inventory records              |
-| `New-ColorScriptCache`           | `Update-ColorScriptCache`, `Build-ColorScriptCache` | Build policy-selected cache entries              |
-| `Clear-ColorScriptCache`         | —                                                   | Remove selected cache entries                    |
-| `Add-ColorScriptProfile`         | —                                                   | Add a managed module profile block               |
-| `Get-ColorScriptConfiguration`   | —                                                   | Read effective configuration                     |
-| `Set-ColorScriptConfiguration`   | —                                                   | Persist cache and startup preferences            |
-| `Reset-ColorScriptConfiguration` | —                                                   | Restore built-in configuration defaults          |
-| `Export-ColorScriptMetadata`     | —                                                   | Return metadata objects or write JSON            |
-| `New-ColorScript`                | —                                                   | Scaffold a UTF-8 colorscript file                |
+| Command                          | Alias                                               | Description                             |
+| -------------------------------- | --------------------------------------------------- | --------------------------------------- |
+| `Show-ColorScript`               | `scs`                                               | Render, list, or browse colorscripts    |
+| `Get-ColorScriptList`            | —                                                   | Query colorscript inventory records     |
+| `New-ColorScriptCache`           | `Update-ColorScriptCache`, `Build-ColorScriptCache` | Build policy-selected cache entries     |
+| `Clear-ColorScriptCache`         | —                                                   | Remove selected cache entries           |
+| `Add-ColorScriptProfile`         | —                                                   | Add a managed module profile block      |
+| `Get-ColorScriptConfiguration`   | —                                                   | Read effective configuration            |
+| `Set-ColorScriptConfiguration`   | —                                                   | Persist cache and startup preferences   |
+| `Reset-ColorScriptConfiguration` | —                                                   | Restore built-in configuration defaults |
+| `Export-ColorScriptMetadata`     | —                                                   | Return metadata objects or write JSON   |
+| `New-ColorScript`                | —                                                   | Scaffold a UTF-8 colorscript file       |
 
 **Get help for any command:**
 
@@ -175,16 +176,19 @@ Some colorscripts use special glyphs that require a [Nerd Font](https://www.nerd
 ## 🐛 Troubleshooting
 
 **Colorscript not displaying correctly?**
+
 ```powershell
 Show-ColorScript -Name "scriptname" -NoCache
 ```
 
 **Cache seems stale?**
+
 ```powershell
 New-ColorScriptCache -Force
 ```
 
 **Module not found?**
+
 ```powershell
 Get-Module ColorScripts-Enhanced -ListAvailable
 ```
@@ -250,6 +254,7 @@ Get-Module ColorScripts-Enhanced -ListAvailable
 ## 🙏 Credits
 
 Built upon the work of:
+
 - [Derek Taylor (DistroTube)](https://gitlab.com/dwt1/shell-color-scripts) — Original shell-color-scripts
 - [Scott McKendry](https://github.com/scottmckendry/ps-color-scripts) — PowerShell port
 
@@ -261,7 +266,7 @@ Project-authored code is provided under the [Unlicense](https://github.com/Nick2
 
 ### Artwork Sources and Provenance
 
-New curated imports are mapped in [ArtworkProvenance.psd1](ArtworkProvenance.psd1), with preserved evidence under [ThirdPartyNotices](ThirdPartyNotices/), compact [archive](AnsiArchiveCurationCheckpoint.json) and [content-curation](AnsiContentCurationCheckpoint.json) checkpoints, and browsing/licensing context in the [Artwork Sources guide](docs/ARTWORK_SOURCES.md). This includes [The Lake House](https://16colo.rs/pack/mist0624/ZII-LAHO.ANS) by Zeus II of Mistigris, preserved as six contiguous, full-width scripts, and 126 unique Roy-authored works represented by 153 scripts under FAL-1.3. The exhaustive 1990-2026 16colors review is complete: 64,929 `.ANS` or `.ICE` candidates across 5,479 enumerated packs yielded 15,073 retained works and 21,495 scripts after post-import content, adult-policy, quality, source-continuity, promotional-content, and duplicate-render curation. Historical archive-recovery entries retain exact source evidence without inventing metadata that 16colors does not provide.
+New curated imports are mapped in the repository-only [ArtworkProvenance.psd1](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/audit/ArtworkProvenance.psd1), with a compact [artwork-details page](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html), preserved evidence under [ThirdPartyNotices](ThirdPartyNotices/), compact [archive](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/audit/AnsiArchiveCurationCheckpoint.json) and [content-curation](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/audit/AnsiContentCurationCheckpoint.json) checkpoints, and browsing/licensing context in the [Artwork Sources guide](docs/ARTWORK_SOURCES.md). The large development records stay outside the published module; mapped scripts retain only an offline title/artist attribution and a script-scoped details link. This includes [The Lake House](https://16colo.rs/pack/mist0624/ZII-LAHO.ANS) by Zeus II of Mistigris, preserved as six contiguous, full-width scripts, and 126 unique Roy-authored works represented by 153 scripts under FAL-1.3. The exhaustive 1990-2026 16colors review is complete: 64,929 `.ANS` or `.ICE` candidates across 5,479 enumerated packs yielded 15,073 retained works and 21,495 scripts after post-import content, adult-policy, quality, source-continuity, promotional-content, and duplicate-render curation. Historical archive-recovery entries retain exact source evidence without inventing metadata that 16colors does not provide.
 
 ---
 
@@ -270,6 +275,7 @@ New curated imports are mapped in [ArtworkProvenance.psd1](ArtworkProvenance.psd
 ## Contributors ✨
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors.](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 

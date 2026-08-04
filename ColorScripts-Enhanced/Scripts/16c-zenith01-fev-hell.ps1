@@ -1,18 +1,4 @@
-﻿# Converted from: FEV-HELL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zenith01/raw/FEV-HELL.ANS
-# Source Revision: archive-sha256:89a769066be1ade04361b16bc2aabeb1a280fe034deee0fe7ee4c75badc7461d
-# Source SHA-256: bf84e5fba161c0ffddba5eb5a57b07378b99397809fb11c06d75be5b1296e319
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FEV-HELL.ANS by Fever (Zenith); released in zenith01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Interface
-# SAUCE Author: Fever
-# SAUCE Group: Zenith
-# SAUCE Date: 19980529
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Interface by Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zenith01-fev-hell
 
 Write-Host '
 [1;46m░[0;36m▓[0;37m  [0;36m█[0;1;37;46m░[0;36m▓█▓[0;37m [0;36m▐▓[0;37m  [0;36m▌░[0;30;47m█[0;36;40m▬▀▄██▌[0;37;40m  [0;36;40m▌[0;37;40m [0;36;40m▓▌[0;37;40m [0;36;40m█▓█[0;1;36;46m░[0;36m▓[0;37m   [0;36m█[0;1;36;46m░[0;36m▐[0;1;36;46m░[0;36m▐[0;1;36;46m░░[0;36m█▌▐█[0;1;33;46m░[0;36m█[0;37m [0;1;30m▐[0m [36m▒▓█▓[0;37m      [0;36m░[0;37m [0;36m▓▓▓[0;37m [0;36m▀▓[0m

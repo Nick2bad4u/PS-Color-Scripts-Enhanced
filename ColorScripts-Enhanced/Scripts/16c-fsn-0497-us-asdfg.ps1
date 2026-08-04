@@ -1,17 +1,4 @@
-﻿# Converted from: US-ASDFG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0497/raw/US-ASDFG.ANS
-# Source Revision: archive-sha256:0a24528ad1b8350dc6275ed84884990aa181682392c532082994d5872ceb5801
-# Source SHA-256: af388f3ceecf6729a0466980eff549803076761278876ca3471457b2b89ff194
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ASDFG.ANS by Noah + Blind Sniper (fsn-0497); released in fsn-0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: some emag!
-# SAUCE Author: nOah?+blind sniper!
-# SAUCE Date: 19970406
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: some emag! by Noah + Blind Sniper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0497-us-asdfg
 
 Write-Host '
                      [35m [0m

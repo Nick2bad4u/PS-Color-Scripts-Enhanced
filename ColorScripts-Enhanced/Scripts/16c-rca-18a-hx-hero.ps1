@@ -1,13 +1,4 @@
-﻿# Converted from: HX-HERO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca-18a/raw/HX-HERO.ANS
-# Source Revision: archive-sha256:79b264e900b0f3c0c1e1dfcb2a371291868034bc95083657623124fe09fd8162
-# Source SHA-256: cf6b3949e93888ef58921f7104c9b57c3699adea4717ebf6c72b4195d7dd9e81
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HX-HERO.ANS by Hexd (rca-18a); released in rca-18a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: HX-HERO.ANS by Hexd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca-18a-hx-hero
 
 Write-Host '
 [1m██[0;1;35m█[0;1;37m█[0;1;35m█[0;1;37m████[0;1;35m█[0;1;37m██[0;1;35m█[0;1;37m███[0;1;35m█[0;1;37m████[0;1;35m█[0;1;37m███[0;1;35m█[0;1;37m██[0;1;35m██[0;1;37m█[0;35m█[0;37m [0;37;45m [0m

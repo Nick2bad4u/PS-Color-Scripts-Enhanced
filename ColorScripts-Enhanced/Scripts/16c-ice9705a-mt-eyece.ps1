@@ -1,18 +1,4 @@
-﻿# Converted from: MT-EYECE.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9705a/raw/MT-EYECE.ICE
-# Source Revision: archive-sha256:bd2829310a06c2b2f414da2c9f6416a34fd79bbeccf9215019785ab4bb1ae973
-# Source SHA-256: 35d0cd660a87c17600c5208c9c36e3e496c5b4b4d31004c59e1cb9c5b2bf7f82
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MT-EYECE.ICE by Misfit (iCE Productions); released in ice9705a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: iCE Promo
-# SAUCE Author: Misfit
-# SAUCE Group: iCE Productions
-# SAUCE Date: 19970502
-# SAUCE Dimensions: 80x41
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: iCE Promo by Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9705a-mt-eyece
 
 Write-Host '
 [1;34m████████▀▀▀▀▀▀███████████████████████████████[0;1;34;47m██████[0;1;34;40m███████████████████[0;1;34;47m█████[0;1;34;40m█[0;1;34;47m█[0;1;34;40m███[0m

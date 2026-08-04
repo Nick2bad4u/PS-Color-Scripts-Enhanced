@@ -1,18 +1,4 @@
-﻿# Converted from: HG-MEM01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-01/raw/HG-MEM01.ANS
-# Source Revision: archive-sha256:e8b205b17eac83888609630b9bd71a542fbf945c585fd366e8ff82cd7970c1c6
-# Source SHA-256: 76f4878e643a0b5bc3a879ec76e820e4d266b8ae45435684e6f86df0bc53c074
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HG-MEM01.ANS by Hieroglyphics (Hieroglyphics); released in hiero-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Member Roster #1
-# SAUCE Author: Hieroglyphics
-# SAUCE Group: Hieroglyphics
-# SAUCE Date: 19990502
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Member Roster #1 by Hieroglyphics | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-01-hg-mem01
 
 Write-Host '
         [1;30m█[0;1;30;47m▀[0m▄ [1;33m▄[0m▀[1;33m██[0m                        [1;30m  [0m [1;30m      [0m

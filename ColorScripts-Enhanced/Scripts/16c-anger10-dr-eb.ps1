@@ -1,16 +1,4 @@
-﻿# Converted from: DR-EB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/anger10/raw/DR-EB.ANS
-# Source Revision: archive-sha256:a84fd6d21030f26985899f91a956dceb5637b0b2cbc8b90ab0b918890b9e87cd
-# Source SHA-256: 401f80b1c8f0ae85f108695baf75cce53d373eacdd88ad630b76e9b74372362f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DR-EB.ANS by druid (anger); released in anger10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: easier by 3
-# SAUCE Author: druid
-# SAUCE Group: anger
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: easier by 3 by druid | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-anger10-dr-eb
 
 Write-Host '
 [1m                           [0;36m .,,[0;1;37m''`''"[0m

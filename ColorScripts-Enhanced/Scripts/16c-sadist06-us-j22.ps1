@@ -1,13 +1,4 @@
-﻿# Converted from: US-J22.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sadist06/raw/US-J22.ANS
-# Source Revision: archive-sha256:1eda2c553fc1b343de31ccaf53757c655038556d26b3d8884755f7500b3b4608
-# Source SHA-256: cf8205377d0775e370b14b7c36dc866086f1bfcfd3c90e0180fcf95a759efc92
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-J22.ANS by Sephiroth + Tcf (sadist06); released in sadist06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: US-J22.ANS by Sephiroth + Tcf | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sadist06-us-j22
 
 Write-Host '
 [32m▄[0;1;32;42m▀░▄▄[0;32m▄▒[0;1;32;42m░▄▄[0;32m▄█▄█▄░[0;37m [0;32m▄▄▓[0;1;32;42m█▀▄▀[0;32m▀█[0;1;32;42m▀▓░[0;32m▀▀▄▄[0;1;32;42m▒[0;32m█[0;1;32;42m▀▄[0;32m█[0;1;32;42m▄[0;32m▄░░[0;37m  [0;33m░░[0;37m  [0;33m░[0;37m [0;33m▄▄▄▀▀[0;37m [0;33m░░[0;32m░▀▌░▒[0;37m  [0;32m▄▀[0;37m [0;33m▄▄▄[0;37m [0;33m▀[0;37m [0;33;42m▓▒[0;37;40m [0;33;40m▄▀[0m

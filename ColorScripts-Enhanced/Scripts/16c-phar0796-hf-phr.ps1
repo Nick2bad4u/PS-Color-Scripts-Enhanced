@@ -1,13 +1,4 @@
-﻿# Converted from: HF-PHR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phar0796/raw/HF-PHR.ANS
-# Source Revision: archive-sha256:0bbb57a5611ace6464dcbff61380889167ded23847139e255a2f0848c50f7473
-# Source SHA-256: d271ac274b47cf7d5544c9586e72a77faef1dee1e223c45162c9aed2722f33bb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HF-PHR.ANS by Hf (phar0796); released in phar0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: HF-PHR.ANS by Hf | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phar0796-hf-phr
 
 Write-Host '
                                      [1;34m▄[0m

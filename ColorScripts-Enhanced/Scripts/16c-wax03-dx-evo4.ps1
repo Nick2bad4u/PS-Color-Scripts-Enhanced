@@ -1,13 +1,4 @@
-﻿# Converted from: DX-EVO4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wax03/raw/DX-EVO4.ANS
-# Source Revision: archive-sha256:8abfa43a62dd015a080596c8ad5586e96cf62a3664ebe2532297158d0dcb3a78
-# Source SHA-256: 6d0fea301eb053e594c0ea45fb4fd2b200d81a3255615aea1a5ff77192487aac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DX-EVO4.ANS by Drax (wax03); released in wax03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: DX-EVO4.ANS by Drax | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wax03-dx-evo4
 
 Write-Host '
        [1;33m  [0m      [1;33m                   [0m                  [1;34m..[0m [1;33m.[0m     [1;33m.[0m    [1;33m.[0m

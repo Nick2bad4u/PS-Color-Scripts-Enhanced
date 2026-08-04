@@ -1,18 +1,4 @@
-﻿# Converted from: SCOW-FIG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/epic0004/raw/SCOW-FIG.ANS
-# Source Revision: archive-sha256:c75b9e867fa35125e489436a8824c556bb5ed530e56134a70eaa34a6b213a513
-# Source SHA-256: 7e1b6a5af1938b12ad92e7c8b7de6376cfa7fb45ffa69981977a16031a53ff2a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SCOW-FIG.ANS by SavageCOW (EPiC); released in epic0004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Savage Cowfiger
-# SAUCE Author: SavageCOW
-# SAUCE Group: EPiC
-# SAUCE Date: 19991115
-# SAUCE Dimensions: 80x25
-# Lines: 88-128
-# Columns: 1-80
+﻿# Artwork: Savage Cowfiger by SavageCOW | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-epic0004-scow-fig-part03
 
 Write-Host '
              [34m ▀[0;1;34;44m [0;34m█[0;1;34;44m▀▀[0;1;34;46m▄[0;1;34;44m██▄[0;34m██▀██[0;1;34;44m▀▀[0;1;34;46m▄[0;1;34;44m█▀[0;34m██▀       ▄  ▀██[0;1;34;44m▀█[0;1;34;46m█▄[0;1;36;46m▀█[0;1;37;40m██[0;1;36;46m▀[0;1;34;46m▄[0;1;34;44m▀[0;34m█▀ ▄██[0;37m [0;1;37m▐████████████[0m

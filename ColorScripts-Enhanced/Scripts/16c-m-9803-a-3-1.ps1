@@ -1,18 +1,4 @@
-﻿# Converted from: (3)-1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m-9803-a/raw/(3)-1.ANS
-# Source Revision: archive-sha256:9b291fea9c9f60fd85250a6fc2081ea1821e1ac6174d9d60ed23ee66add063ff
-# Source SHA-256: 71f67cf889b275ff837c6d5ae442755280a656d56851a0c66646e4fa733901a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: (3)-1.ANS by Tricolore (Mistigris); released in m-9803-a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: HipE
-# SAUCE Author: Tricolore
-# SAUCE Group: Mistigris
-# SAUCE Date: 19980318
-# SAUCE Dimensions: 80x38
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: HipE by Tricolore | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m-9803-a-3-1
 
 Write-Host '
   [1;34m│[0m                                                                          [1;34m│[0m

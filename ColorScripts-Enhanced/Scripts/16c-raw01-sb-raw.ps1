@@ -1,17 +1,4 @@
-﻿# Converted from: SB-RAW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/raw01/raw/SB-RAW.ANS
-# Source Revision: archive-sha256:68018d98da2353ea67bd0935370f9f9e7167a56c319420d702baa29dd9d82b28
-# Source SHA-256: d2d9ba64431085db1bcd39383006b190cb620772588cb86cd0e8d20cc17e3e93
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SB-RAW.ANS by sabotar (raw01); released in raw01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: (guest) raw97
-# SAUCE Author: sabotar
-# SAUCE Date: 19970405
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: (guest) raw97 by sabotar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-raw01-sb-raw
 
 Write-Host '
               [1;30m▄▄▄[0;1;30;47m▓[0;1;30;40m▀▀▀▀█▄▄[0m     [1;30mREAL ART WORK-┐[0m

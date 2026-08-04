@@ -1,18 +1,4 @@
-﻿# Converted from: MR-IRAT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira1097a/raw/MR-IRAT1.ANS
-# Source Revision: archive-sha256:07d85d7b1ace3ea382bd86ac8e385803a9939676404af93c0be4c41385f607a2
-# Source SHA-256: 0bc736f25096cd5548c66edb94018fe7c4cede51d7302725b0f24f66060253e3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-IRAT1.ANS by Mr.Wrong (Irato); released in ira1097a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Irato promotional
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: Irato
-# SAUCE Date: 19970925
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Irato promotional by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira1097a-mr-irat1
 
 Write-Host '
                                                    [31m▄ [0;37m [0;31m▄  [0m

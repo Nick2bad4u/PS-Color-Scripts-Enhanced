@@ -1,13 +1,4 @@
-﻿# Converted from: ko-thurs.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic42/raw/ko-thurs.ans
-# Source Revision: archive-sha256:ae138c51c11acf5bcf446042b0dc3362763566dac770cdbc28748f0d79dab7a0
-# Source SHA-256: 8cdba5bc24f6e01ee840d1189a75d9664e04c32bdef5ac59574348a18b1ed0ed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ko-thurs.ans by Konami (mimic42); released in mimic42 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ko-thurs.ans by Konami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic42-ko-thurs
 
 Write-Host '
 [1;30m[0m[31m[0;1;31m[0;31m[0;1;31m[0;31m[0m[34m[0m[34m[0m[1;30m[0m[1;30m[0m        [31m,d `$[0;1;31mll[0;31m` $[0;1;31ml[0;31m$7`b[0m   [34mll`  l[0m                  [34m`- /[0m        [1;30ml[0ml[1;30m `7$7` $$  `7[0m

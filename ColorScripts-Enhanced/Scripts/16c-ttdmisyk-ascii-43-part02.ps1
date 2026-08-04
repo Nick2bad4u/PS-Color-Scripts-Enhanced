@@ -1,13 +1,4 @@
-﻿# Converted from: ASCII-43.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ttdmisyk/raw/ASCII-43.ANS
-# Source Revision: archive-sha256:691d88fad8510c75499187262885f1f653d52455952817f34e55b7599917acfc
-# Source SHA-256: e12783f3ffa4ce1bc0edb5f92bfbcf6356b25e651ce2e89ba979e03523e81bcc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ASCII-43.ANS by Konami (ttdmisyk); released in ttdmisyk and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 41-67
-# Columns: 1-80
+﻿# Artwork: ASCII-43.ANS by Konami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ttdmisyk-ascii-43-part02
 
 Write-Host '
                   [33ml☻☻☻☻☻☻☻☻☻☻☻☻☻☻[0;1;31m☻☻☻☻☻☻[0;33m☻☻☻☻☻☻[0;1;31m☺☻;[0m

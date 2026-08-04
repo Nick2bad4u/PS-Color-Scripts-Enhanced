@@ -1,18 +1,4 @@
-﻿# Converted from: US-ENDOR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cap-01/raw/US-ENDOR.ANS
-# Source Revision: archive-sha256:3a30c7b77791e87d815903f98420152c863b9d1c1a9f4d5832ccdb2bfd9f8926
-# Source SHA-256: 5be5295068bbed23f89ff57a8eb3c7e828c4ee4c7b60ba66a6153d474ad82ebe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ENDOR.ANS by Excidium + Luminous + The Chef (dark/caption); released in cap-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: endor +o dopie
-# SAUCE Author: xid, lume, chef
-# SAUCE Group: dark/caption
-# SAUCE Date: 19980801
-# SAUCE Dimensions: 80x37
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: endor +o dopie by Excidium + Luminous + The Chef | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cap-01-us-endor
 
 Write-Host '
 [1;31;41m  ░▒▓▓█████[0;1;31;47m▓▓▒▒░░  [0m▀▀▀[1;31m [0m▀▀     ▀          [1;31m▀▀▀[0m  [1;31m▀▀[0m [1;31m▀▀▀▀▀▀███████████[0;1;31;47m▓▓[0;1;31;40m████[0;1;31;47m▓▓▒▒░░  [0m

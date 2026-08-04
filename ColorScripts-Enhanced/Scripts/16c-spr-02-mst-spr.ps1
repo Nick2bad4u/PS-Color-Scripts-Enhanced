@@ -1,13 +1,4 @@
-﻿# Converted from: MST!SPR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spr_02/raw/MST!SPR.ANS
-# Source Revision: archive-sha256:de213db32bec9e7b234598875579e360fcbdfa4c59f3f92173fe1b75c68a8cff
-# Source SHA-256: b1b6052170cc80bd7198c77e6dfe16b8e1191ef33f09adb1cc62c2c937a65bb8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MST!SPR.ANS by Mist (spr_02); released in spr_02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: MST!SPR.ANS by Mist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spr-02-mst-spr
 
 Write-Host '
 [1m████████[0;1;47m█████▀▀▀[0m▀▀▀▀▀ ▀▀ [1;30m▀[0m                [1;30m▀[0m ▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[1m██████[0;1;47m▓▓▒▒░░[0;1;40m [0m

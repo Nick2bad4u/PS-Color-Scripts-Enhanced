@@ -1,13 +1,4 @@
-﻿# Converted from: PL-AMOK2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac-17/raw/PL-AMOK2.ANS
-# Source Revision: archive-sha256:143ba0b02cb6e0c3c0ef0ef67e5dad2b30187f657127441ee41c3731c02ed4a2
-# Source SHA-256: 0c232a8b3fbd7ee24a2de2003ded2ffdfd0a238e0ead7c4b0e07c107ab520071
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PL-AMOK2.ANS by puschel; released in sac-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: PL-AMOK2.ANS by puschel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac-17-pl-amok2
 
 Write-Host '
                                                      [1;32m_.,o$.[0m     [1;32m.,$,[0m           [1;32m [0m

@@ -1,0 +1,989 @@
+{
+  "batch": 57,
+  "candidates": [
+    {
+      "action": "blank-columns",
+      "category": "batch57-literal-runtime-placeholders",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 5,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "7879981d4f226a8f0191d36730c07205d7a5ff1c780fca9b2f905f25264cf636",
+          "expectedRenderedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "row": 2,
+          "sha256": "4cc8efe49eae77f45883f32b4a1c4f1224c0bc60710cfc52086e8b22c59d5114"
+        }
+      ],
+      "file": "16c-aeon0196-logon5.ps1",
+      "rationale": "Complete-family review proves each selected @TOKEN@ span is an unexpanded runtime directive or value placeholder. Functional labels, panel borders, titles, attribution, authored text, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch57-at-placeholders.json",
+        "temp/text-blanking-continuation/batch57-focused-review.json",
+        "temp/text-blanking-continuation/batch57-terminal-review.json",
+        "temp/text-blanking-continuation/batch57-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch57-literal-runtime-placeholders",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 5,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "df3268335d69bf5c71454f3137b66fba6084af1ccc05d3ccc2ed9c45ff900d06",
+          "expectedRenderedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "row": 2,
+          "sha256": "4cc8efe49eae77f45883f32b4a1c4f1224c0bc60710cfc52086e8b22c59d5114"
+        }
+      ],
+      "file": "16c-fire0996-id-dvoc2.ps1",
+      "rationale": "Complete-family review proves each selected @TOKEN@ span is an unexpanded runtime directive or value placeholder. Functional labels, panel borders, titles, attribution, authored text, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch57-at-placeholders.json",
+        "temp/text-blanking-continuation/batch57-focused-review.json",
+        "temp/text-blanking-continuation/batch57-terminal-review.json",
+        "temp/text-blanking-continuation/batch57-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch57-literal-runtime-placeholders",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 68
+            }
+          ],
+          "expectedRawSha256": "1a4bffcfac182ae9e8daedf3de290245e925c3d4cd3fe152dfbdb118e7800469",
+          "expectedRenderedSha256": "544763f0d79184ed772a9eb184fa9189ee0e5b90093d1db9d1645070052fb284",
+          "row": 9,
+          "sha256": "34df030c85ccf96a51d47bf13c0e20f43eb2d003e1dada7b2e119a4d13dc2cca"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 68
+            }
+          ],
+          "expectedRawSha256": "94a228f6387e7ec97eeb3b2b9e0647e4355a0639c38699533dfd9e01dd2ea24d",
+          "expectedRenderedSha256": "1f0b8ca598e059e56dee03c6cf3034d8ce62045ab85a8bc095d05516ea9c272d",
+          "row": 10,
+          "sha256": "6f8b42f9316b39268345f89fc3238da6788a2bf1d99481e453b298433ead8073"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 74,
+              "start": 68
+            }
+          ],
+          "expectedRawSha256": "85a1238bbd854fb148502790d649364910d7eeb80df683aee5f2e42fa3b5f6a3",
+          "expectedRenderedSha256": "7c98acaaf5d238c8e4d52ca13d570e435dea1a3bf4851da858a9025ce18225e4",
+          "row": 11,
+          "sha256": "06a0063ef944b241732d7d89e40163e61a70029c755b37e493df000cacea5de1"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 74,
+              "start": 68
+            }
+          ],
+          "expectedRawSha256": "456cb678634a1f6c353449e7f6de84fc50c9d1654317a2636eb3fc3110bf16aa",
+          "expectedRenderedSha256": "b9d4da05a561faa4b10a09605e68bbd38ac27af94219b83250f6c50fdb073f25",
+          "row": 12,
+          "sha256": "ed92eeda974c90e837dedd316af36e7b9995b093799d69d335c57452bb792a69"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 73,
+              "start": 68
+            }
+          ],
+          "expectedRawSha256": "f772225a18e1d07fc4fc130878445dd813e2a7bb7fe4f9f2af22391329eb9777",
+          "expectedRenderedSha256": "debed2a16e84fdeb1272a215ce79e4a378ed488cfa37a12473b5f625e19ad992",
+          "row": 13,
+          "sha256": "c784596190232a2cc114d9d478ea45c0513a3ae5ea43abd05d1ada4df0cdeb8a"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 68
+            }
+          ],
+          "expectedRawSha256": "f5ad640422dbe884d880b875f1f58d69fc4b52309b62e7453482e686c10b2df2",
+          "expectedRenderedSha256": "523870560fe197f0d73be2c1d5299f1d2e7eadd82366156361e93e72a5b7cfc1",
+          "row": 14,
+          "sha256": "72a40bb389beeb5f749280f143c6296f04dd5cf8cc77ff09334568ff826ac519"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 73,
+              "start": 68
+            }
+          ],
+          "expectedRawSha256": "524f2eef6eab2a3865941656b8ffb0aa591a588a9967716c67a736ae54247f1b",
+          "expectedRenderedSha256": "b408ae4a035d536b48c63a93cc64d9296cf8965023203499bf59ce196f6d5b5c",
+          "row": 15,
+          "sha256": "608456eed43edbaf748df2a40314a642e798df63b30d31a0ddcf01a8086ad5f1"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 74,
+              "start": 68
+            }
+          ],
+          "expectedRawSha256": "bd8b5b16d69e667aaebfc7ef4216b5955e210eed1fedb410dee2c5d9ed6f4a9d",
+          "expectedRenderedSha256": "e6fd22bc459556036eeff35562f55b10cfb5ab6afeba4b41127012c55dd09c27",
+          "row": 16,
+          "sha256": "8cdfdbc59fdc25461c184c3f83e5faed33978c89795f0cf8b3922e2b1a362031"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 68
+            }
+          ],
+          "expectedRawSha256": "aaa02cb15fc94cd683027a28a669d07894a9489acd364bc43776456545868e24",
+          "expectedRenderedSha256": "89d67c6534dbae6285a915a6650b230c57ef5543f73532e2a9260520a88b9dbf",
+          "row": 17,
+          "sha256": "455554b77bcbf3a7b767c882ab069536979a5456a67fdf850a7d873ec5c0fad1"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 73,
+              "start": 68
+            }
+          ],
+          "expectedRawSha256": "f13ac210e4bad290bad8bf7db76fcea9be783a09aa31ccee0fe7d564d4fab8e5",
+          "expectedRenderedSha256": "1ab17bd21a56c50830a3e3706a3ec27d7113ac099f097c04c930fc955717c68c",
+          "row": 18,
+          "sha256": "1ca794541ad25c8bb2157d2603a8257bae35214f55678256ff8e8dc01e57aec7"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 68
+            }
+          ],
+          "expectedRawSha256": "432961c92bc0f4dea2fc1bff352f45eef2744e59bc892446b0a678506d02065a",
+          "expectedRenderedSha256": "d70cb82c988a98eb50b91bbc746e3dc7964581366ca83a3173434b9708afa21d",
+          "row": 19,
+          "sha256": "3698ff1543ddf0d54ffe4ee5a8a425bb21c81885f5590b02d137d9a0d1d35907"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 73,
+              "start": 68
+            }
+          ],
+          "expectedRawSha256": "e308b418e75fd02702ea716a194c3ddd868088284adcc2d6c1cef122e6804e8c",
+          "expectedRenderedSha256": "bc6f71c76c927940f9c3047ef52ca11cc64e1f4c74371ba077712117cd1d0a92",
+          "row": 20,
+          "sha256": "251c2f4cb2c186eb04333b668c7c6452f2a41a36034b26efa4defb11d5ebb39b"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 68
+            }
+          ],
+          "expectedRawSha256": "afbf2f0996ffff458e1a3bf836a21a4a8cbd9bf6d59b16b106d3c167eb9fdb52",
+          "expectedRenderedSha256": "0940c97d854e469c90c5444bc947babce5329c522f7274ca5e0390974d437fbe",
+          "row": 21,
+          "sha256": "d7cbec6fdae1caca1b030d8c69ec958247fd88caa6594634ff7c0375767279f7"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 68
+            }
+          ],
+          "expectedRawSha256": "b1e9d4a331813aa06eb3f591f3264b1977833f1215304683f056a29739132aff",
+          "expectedRenderedSha256": "aeeecda9ee9640290452de9a24fc95f861ed7f8466604e1b180e651a71d77e99",
+          "row": 23,
+          "sha256": "2a82c21e1ac811c18a7eb1fa87aa2c0fd8c765a94574658e41ffb77d0e850a0f"
+        }
+      ],
+      "file": "16c-opx-0996-zii-21us.ps1",
+      "rationale": "Complete-family review proves each selected @TOKEN@ span is an unexpanded runtime directive or value placeholder. Functional labels, panel borders, titles, attribution, authored text, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch57-at-placeholders.json",
+        "temp/text-blanking-continuation/batch57-focused-review.json",
+        "temp/text-blanking-continuation/batch57-terminal-review.json",
+        "temp/text-blanking-continuation/batch57-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch57-literal-runtime-placeholders",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 33,
+              "start": 28
+            }
+          ],
+          "expectedRawSha256": "c8183b4eb15fde6ea3c3f32d03ed3e0dbbd9e05a8c472bcd1e4d9eefd093b4a1",
+          "expectedRenderedSha256": "ebef4b0f31f6e217e1cbe47d68f0858519f30dd1a641aba34e44f7986a81f47d",
+          "row": 36,
+          "sha256": "c1c8becdb59f167bc0cc4c083f88a6aa57f023002ec4eb2bd2556aff02aa1e1b"
+        }
+      ],
+      "file": "16c-phat0297-in-0297c-part02.ps1",
+      "rationale": "Complete-family review proves each selected @TOKEN@ span is an unexpanded runtime directive or value placeholder. Functional labels, panel borders, titles, attribution, authored text, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch57-at-placeholders.json",
+        "temp/text-blanking-continuation/batch57-focused-review.json",
+        "temp/text-blanking-continuation/batch57-terminal-review.json",
+        "temp/text-blanking-continuation/batch57-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch57-literal-runtime-placeholders",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 69,
+              "start": 61
+            }
+          ],
+          "expectedRawSha256": "2b3a99ff94b8c3d7261d78f9029f5e6e97f7992dab00ef1b5032c01c457a7502",
+          "expectedRenderedSha256": "045d9ab3d1dfd8e9b0ed30a37e4ea97eed70f1847e47b3f29162fdb52b60a2e2",
+          "row": 18,
+          "sha256": "96bed0443c879b17b43c6228e3d77c6f2bc78316cad479ab65eae0cdfe3ea358"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 69,
+              "start": 61
+            }
+          ],
+          "expectedRawSha256": "6a93614a6193f9ad9b15b07bd73fd3a31a1118ebf6f86eb3c48972bea3a1c896",
+          "expectedRenderedSha256": "335cba1ccc5f05d1aaa6fad698958d240b8c966b27e78ccea0294ba19cb8b3b2",
+          "row": 19,
+          "sha256": "67d4bc6d165bdc71603df12549adc71b34dbc27fe63bf4d6963fc8b918ff1c3a"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 69,
+              "start": 61
+            }
+          ],
+          "expectedRawSha256": "87518a03bf6e1b8a6de3e947dfc116c53fe4999b318c3f0fcad45e49446a0d59",
+          "expectedRenderedSha256": "3b0ea67de66fb8647ebcab572728962d6cc8b9490a4382b4e128808c8902a9de",
+          "row": 22,
+          "sha256": "72b2098fcc1db34a16439a09c1606b047a421dff01b9a3fa81554a4d18f3e31c"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 69,
+              "start": 61
+            }
+          ],
+          "expectedRawSha256": "9a7dcb8145c1195647ec6d08e1e4b72408a63b301ba78de4cdafc02353323be0",
+          "expectedRenderedSha256": "c95fc713757d2481e4a3638306bfb6152c6f21db03a3e1446098c11ec3af5bbf",
+          "row": 23,
+          "sha256": "0889fc4a3b7409c7c9ad0ead041e3911e7609268102e1269e59590ecea0f4f77"
+        }
+      ],
+      "file": "16c-purg-30a-zb-col30-part04.ps1",
+      "rationale": "Complete-family review proves each selected @TOKEN@ span is an unexpanded runtime directive or value placeholder. Functional labels, panel borders, titles, attribution, authored text, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch57-at-placeholders.json",
+        "temp/text-blanking-continuation/batch57-focused-review.json",
+        "temp/text-blanking-continuation/batch57-terminal-review.json",
+        "temp/text-blanking-continuation/batch57-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch57-literal-runtime-placeholders",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 5,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "7879981d4f226a8f0191d36730c07205d7a5ff1c780fca9b2f905f25264cf636",
+          "expectedRenderedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "row": 2,
+          "sha256": "4cc8efe49eae77f45883f32b4a1c4f1224c0bc60710cfc52086e8b22c59d5114"
+        }
+      ],
+      "file": "16c-roy-stuf-roy-syso.ps1",
+      "rationale": "Complete-family review proves each selected @TOKEN@ span is an unexpanded runtime directive or value placeholder. Functional labels, panel borders, titles, attribution, authored text, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch57-at-placeholders.json",
+        "temp/text-blanking-continuation/batch57-focused-review.json",
+        "temp/text-blanking-continuation/batch57-terminal-review.json",
+        "temp/text-blanking-continuation/batch57-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch57-literal-runtime-placeholders",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 6,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "399141be1d30ac2656d89eedcf0d8dcedaa72d6c29bf959cae243dc7b1442cf6",
+          "expectedRenderedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "row": 2,
+          "sha256": "53477166e9b5e33990f79a8e7ca06c69e1ccc46e35e9191574761bc89fec0705"
+        }
+      ],
+      "file": "16c-royart3-cos2-part01.ps1",
+      "rationale": "Complete-family review proves each selected @TOKEN@ span is an unexpanded runtime directive or value placeholder. Functional labels, panel borders, titles, attribution, authored text, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch57-at-placeholders.json",
+        "temp/text-blanking-continuation/batch57-focused-review.json",
+        "temp/text-blanking-continuation/batch57-terminal-review.json",
+        "temp/text-blanking-continuation/batch57-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch57-literal-runtime-placeholders",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 6,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "399141be1d30ac2656d89eedcf0d8dcedaa72d6c29bf959cae243dc7b1442cf6",
+          "expectedRenderedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "row": 2,
+          "sha256": "53477166e9b5e33990f79a8e7ca06c69e1ccc46e35e9191574761bc89fec0705"
+        }
+      ],
+      "file": "16c-royart3-csoc-part01.ps1",
+      "rationale": "Complete-family review proves each selected @TOKEN@ span is an unexpanded runtime directive or value placeholder. Functional labels, panel borders, titles, attribution, authored text, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch57-at-placeholders.json",
+        "temp/text-blanking-continuation/batch57-focused-review.json",
+        "temp/text-blanking-continuation/batch57-terminal-review.json",
+        "temp/text-blanking-continuation/batch57-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch57-literal-runtime-placeholders",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 74,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "a4aeb9e745fc39442d53e3cec2e1478a61482677837787b8b8d4264f6b343fd2",
+          "expectedRenderedSha256": "ec2c9ba2ce8fe1f3ee3daaa04d80b9306676631de86ac37c1055f5dc47ac8fdd",
+          "row": 4,
+          "sha256": "422d1089a32dc25d48ded39e323cacddecabb4e3ec37c148389573b5712bc238"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "afdf5348261c82ecdf36c46c6d5d85acf6bd29c1cdae819c4d0849a93490ee92",
+          "expectedRenderedSha256": "6cf04a6972b31e5c9311a4ddf883ac66f15768d3a49e5c4417f6a3b1c2a6fe73",
+          "row": 5,
+          "sha256": "6692490c390cd027789e62f452c79bf53cd01b0034bd5480ee642179d4ed2109"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 73,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "8cefbbe651945cc069772c340ef5503fe6c9e82382ffa55994452f2b5621c75f",
+          "expectedRenderedSha256": "1eae10ce0edd59ccf7b34281b24c35b9f476e83a69d1768771d08cc3959789e5",
+          "row": 6,
+          "sha256": "44f5ae93573d1d1bae42b0123301a88359424a9349081a6c14bdfd7b115b7015"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 73,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "2055263bdf9c715f72c291877df45a3b19e0169995e205e5ea079433681e9bf1",
+          "expectedRenderedSha256": "d986979e5d88ed1cb590c52e9514268a272a026a26be3f114d38322cbb952749",
+          "row": 7,
+          "sha256": "1896f66e3c778dcfa53a85cb899f9d7dd2f3fd818ba5b6230482c903b3194bda"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 73,
+              "start": 68
+            }
+          ],
+          "expectedRawSha256": "3dbc00c4c8365fc50df0874509874eb320845406bcb3910c6cf626fd386bc822",
+          "expectedRenderedSha256": "7e7e85ca998834ab6ac15ddf66c650d078d1f0b46eabf7553e4b2034cb13fbda",
+          "row": 8,
+          "sha256": "cf887f2b36a1960ea666596da0ef91da6f50f05b4702d9f2d6f965f436f50467"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "6633e13a6ee4a4fcb608fa80aef2953eb6f28824e2c861ed3956be07c88199b8",
+          "expectedRenderedSha256": "12a263e7fe338d2d83143c480a5f082f1fbae4989ce5c9078b8d47e35ccaf3a9",
+          "row": 9,
+          "sha256": "20d3fea12ae0c379cffb055d05d7a130e76a56d65adf8893ca4b559dd50ed89b"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "642523492f9f6869fdef35099a5f17b215a5f3887078fa3a74bb20ac330eeb52",
+          "expectedRenderedSha256": "dd79962e26db30ac8827de5b8550570244d3b655ba7d3acef54db218d40e99f5",
+          "row": 10,
+          "sha256": "a4ae2539bae097f9e5aaf3dbcd85307cd6d37ffb8a328776ceac406df1714453"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 73,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "2526381acb0aee1e211926bb90d58b8a8bad2e68f6955702045560aacfddd5f5",
+          "expectedRenderedSha256": "f62e905cd14865df7827adcbd61b02f2e86502ba2b1e209248f79626e7aff3f3",
+          "row": 11,
+          "sha256": "3c1886409a12acf5b3d18734ec6fbca45c34b95d0c92ae6253506423f99c86a9"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "61e087b5f4e6319f4d22725c1f5193a551c78282d4b135cae6b027a4415469e8",
+          "expectedRenderedSha256": "083383a1f2f6a0081f27213741426e7e71c947df26803858e3b3934a3facccf4",
+          "row": 12,
+          "sha256": "0d3ce14d85dc82f1116e7f026783cbe37688feaabaab30eca2967599fadcf691"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "e4f00e92c311f20eee474a15a78a2d4d4931e98b9bfd8cd5b2723b3ab780098b",
+          "expectedRenderedSha256": "18d40f78e0fc8e4a952cd62dd46b2c7bd6fafb954c4a2573a14c60c65a9e31ee",
+          "row": 13,
+          "sha256": "e605e55c02dbbcc66fd905fcf7d577d3c28e5aaa13d22ca0cd438dc0fcd02680"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "e786f74bc2679c3136d0744c72ca364e61fa8fbf319d49a95aa50bd8d3b2d015",
+          "expectedRenderedSha256": "a1d20387ecb54cb9270edc1381918cb85b704b2b6b313e9425d01aa886bd2d21",
+          "row": 14,
+          "sha256": "3f2fde9846c5bb4ddc7accab18096c79f3e125c00ab465211519ce1c74527730"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "49ca3167c9a7ac30ab6623344a187f4c030cf201ad65d41b3b18458b8ebc40f5",
+          "expectedRenderedSha256": "b36a6e96e66710298e1f6012875fe177a2fdcf3c06cb451bb1fe97d25e484707",
+          "row": 15,
+          "sha256": "2720207f898e4ec2547b89d15bb859b80035c1865d43bddf279f5e8ae489a25c"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 74,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "5e488b5219064a32dabe28c1f6ab7c820173de0f934ac1cf2ff27564891afe4b",
+          "expectedRenderedSha256": "f50aae4cb812bcf612fc299088af47f07f6ec295c46791319912d11d76913267",
+          "row": 16,
+          "sha256": "9f98e1540354bc6bed4b466f8b4e3813f007b24341a628f646d85a864b7530aa"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 77,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "a059b4dcae080ff3499e7b204c59c61eebc7a637301ff73f3a36a62e554e25d6",
+          "expectedRenderedSha256": "3e4f8713c27fce6df128926f208099344e71baaecf7e2ae234e9005a5f299add",
+          "row": 17,
+          "sha256": "f1bdb0db4e54cbc64220967e20cf90f362d169f25ee32043d1f4d8e6f2980e43"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 74,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "97b356194806b98982786c7e10937c4168f84fa4c4ab067912b7c13120958093",
+          "expectedRenderedSha256": "86457859607576b4083a104c9229473562a5c6fa77066443ca611980ce1cef19",
+          "row": 18,
+          "sha256": "e4d5816423d03a308fa7e350bc474e542fe66c125f542db48b2e5303cc9fe5ad"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "79427ca2ffb4f3b998842ce723ea7e0142b2d34f6939deff0e54ef28ae2400d8",
+          "expectedRenderedSha256": "5093f371a08952c7700c418f1267e6795c55fedecc3eeefd41cfdbed1bfc675a",
+          "row": 19,
+          "sha256": "b5189424cf4e923e11a22bbc3f8782c86ce8433bbc07f17d291672c91832a89e"
+        }
+      ],
+      "file": "16c-shade002-we-stats.ps1",
+      "rationale": "Complete-family review proves each selected @TOKEN@ span is an unexpanded runtime directive or value placeholder. Functional labels, panel borders, titles, attribution, authored text, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch57-at-placeholders.json",
+        "temp/text-blanking-continuation/batch57-focused-review.json",
+        "temp/text-blanking-continuation/batch57-terminal-review.json",
+        "temp/text-blanking-continuation/batch57-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch57-literal-runtime-placeholders",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 5,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "7879981d4f226a8f0191d36730c07205d7a5ff1c780fca9b2f905f25264cf636",
+          "expectedRenderedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "row": 2,
+          "sha256": "4cc8efe49eae77f45883f32b4a1c4f1224c0bc60710cfc52086e8b22c59d5114"
+        }
+      ],
+      "file": "roy-sac-cons.ps1",
+      "rationale": "Complete-family review proves each selected @TOKEN@ span is an unexpanded runtime directive or value placeholder. Functional labels, panel borders, titles, attribution, authored text, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch57-at-placeholders.json",
+        "temp/text-blanking-continuation/batch57-focused-review.json",
+        "temp/text-blanking-continuation/batch57-terminal-review.json",
+        "temp/text-blanking-continuation/batch57-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch57-literal-runtime-placeholders",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 69,
+              "start": 64
+            }
+          ],
+          "expectedRawSha256": "10adaf3da649c17a072ac4c7aa69f77ce4396f15437de6f4d137c7beee92dad0",
+          "expectedRenderedSha256": "884d48d7442fb090c5fc20880416fc37cbade56a2f8499ac97b9dc253876d2b5",
+          "row": 4,
+          "sha256": "2b6c668ca541fb4d09c76d2d6590466789e1038852d4974e5e3c1ccf81fd1354"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 64
+            }
+          ],
+          "expectedRawSha256": "f18841a64f6dc6dfc18438820b31b875bce141223f63ecb919a1d839d9a1ed70",
+          "expectedRenderedSha256": "0d61adea211e828eff8ba136b065b87ee5f674e817192e4bd00427a7f6dc1056",
+          "row": 5,
+          "sha256": "17805a9e524c44a31993b9c97e55c061311bf8f526b63f2374987ee0ceb9aa54"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 64
+            }
+          ],
+          "expectedRawSha256": "cbebefab64865c777b9b11373f61d95a70c89c50c5071ad5b65593207f7f2e93",
+          "expectedRenderedSha256": "7ec720484b781f0b05fe447f923aecf6c45634cf48e60e01c216daf6dc88b9f1",
+          "row": 6,
+          "sha256": "305acf2b12859340f374822a4c911820d1c3f17904b694eb985330a35e6bb520"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 74,
+              "start": 64
+            }
+          ],
+          "expectedRawSha256": "d1a8de2bcc1b79e39952e02e1810a491dc3a336eda2fb54addafe126c631e4d4",
+          "expectedRenderedSha256": "da201d70c210757259b30eb70d04bca1d82bea1aa5a6d74a63e83276281137fc",
+          "row": 8,
+          "sha256": "d159b982832e585494b5841fcc5f01f7db598a397a5a636b3eb24cfcd8589c9a"
+        }
+      ],
+      "file": "roy-sac-pcnf.ps1",
+      "rationale": "Complete-family review proves each selected @TOKEN@ span is an unexpanded runtime directive or value placeholder. Functional labels, panel borders, titles, attribution, authored text, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch57-at-placeholders.json",
+        "temp/text-blanking-continuation/batch57-focused-review.json",
+        "temp/text-blanking-continuation/batch57-terminal-review.json",
+        "temp/text-blanking-continuation/batch57-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch57-literal-runtime-placeholders",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 5,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "7879981d4f226a8f0191d36730c07205d7a5ff1c780fca9b2f905f25264cf636",
+          "expectedRenderedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "row": 2,
+          "sha256": "4cc8efe49eae77f45883f32b4a1c4f1224c0bc60710cfc52086e8b22c59d5114"
+        }
+      ],
+      "file": "roy-sac-smem.ps1",
+      "rationale": "Complete-family review proves each selected @TOKEN@ span is an unexpanded runtime directive or value placeholder. Functional labels, panel borders, titles, attribution, authored text, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch57-at-placeholders.json",
+        "temp/text-blanking-continuation/batch57-focused-review.json",
+        "temp/text-blanking-continuation/batch57-terminal-review.json",
+        "temp/text-blanking-continuation/batch57-history-collisions.json"
+      ]
+    }
+  ],
+  "normalization": "SHA-256 of UTF-8 visible terminal-cell rows after ANSI-control removal and outer-whitespace trimming. Every row also pins exact raw projected and rendered hashes plus one-based inclusive blank-column ranges.",
+  "pendingInputs": [],
+  "policy": "Fail-closed review of every current @TOKEN@-shaped span. Accept only names proven by complete runtime-template families or standalone control directives; retain all at-delimited ASCII-art texture and ambiguity.",
+  "priorRetainSupersessions": [
+    {
+      "coordinate": "16c-opx-0996-zii-21us.ps1:10",
+      "sources": [
+        "batch56-terminal-review.json",
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-opx-0996-zii-21us.ps1:11",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-opx-0996-zii-21us.ps1:12",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-opx-0996-zii-21us.ps1:13",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-opx-0996-zii-21us.ps1:14",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-opx-0996-zii-21us.ps1:15",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-opx-0996-zii-21us.ps1:16",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-opx-0996-zii-21us.ps1:17",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-opx-0996-zii-21us.ps1:18",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-opx-0996-zii-21us.ps1:19",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-opx-0996-zii-21us.ps1:21",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-opx-0996-zii-21us.ps1:23",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-opx-0996-zii-21us.ps1:9",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-purg-30a-zb-col30-part04.ps1:19",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-purg-30a-zb-col30-part04.ps1:22",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-purg-30a-zb-col30-part04.ps1:23",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-shade002-we-stats.ps1:10",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-shade002-we-stats.ps1:11",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-shade002-we-stats.ps1:12",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-shade002-we-stats.ps1:13",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-shade002-we-stats.ps1:14",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-shade002-we-stats.ps1:15",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-shade002-we-stats.ps1:16",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-shade002-we-stats.ps1:17",
+      "sources": [
+        "batch30-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-shade002-we-stats.ps1:18",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-shade002-we-stats.ps1:19",
+      "sources": [
+        "batch28-completed-history-index.json",
+        "batch30-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-shade002-we-stats.ps1:4",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-shade002-we-stats.ps1:5",
+      "sources": [
+        "batch56-terminal-review.json",
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-shade002-we-stats.ps1:6",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-shade002-we-stats.ps1:7",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-shade002-we-stats.ps1:8",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-shade002-we-stats.ps1:9",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    }
+  ],
+  "reviewedAt": "2026-08-01",
+  "schemaVersion": 1,
+  "status": "ready",
+  "summary": {
+    "blankColumnRows": 46,
+    "candidateFiles": 12,
+    "candidateGroups": 12,
+    "categoryRows": {
+      "batch57-literal-runtime-placeholders": 46
+    },
+    "detectorAcceptedRows": 46,
+    "detectorRows": 80,
+    "evidenceRows": 46,
+    "parseFailures": 21,
+    "priorAcceptExtensions": 46,
+    "priorRetainSupersessions": 32,
+    "retainedDetectorRows": 34
+  }
+}

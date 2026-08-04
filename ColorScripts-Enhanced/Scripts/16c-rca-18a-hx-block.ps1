@@ -1,13 +1,4 @@
-﻿# Converted from: HX-BLOCK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca-18a/raw/HX-BLOCK.ANS
-# Source Revision: archive-sha256:79b264e900b0f3c0c1e1dfcb2a371291868034bc95083657623124fe09fd8162
-# Source SHA-256: f66b41b541cc087cd8b9ce7edbcced8df68d1409992163b14378bd0fb518c51f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HX-BLOCK.ANS by Hexd (rca-18a); released in rca-18a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: HX-BLOCK.ANS by Hexd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca-18a-hx-block
 
 Write-Host '
 [1;34m████████████████████████████████▀▀▀▀▀█████████████████████▀▀▀▀▀█████████████████[0m

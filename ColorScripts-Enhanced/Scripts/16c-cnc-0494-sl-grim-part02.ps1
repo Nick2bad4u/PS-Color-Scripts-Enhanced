@@ -1,13 +1,4 @@
-﻿# Converted from: SL-GRIM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cnc-0494/raw/SL-GRIM.ANS
-# Source Revision: archive-sha256:a2860c6058bc20deb4b9fe584adc3143209a13f75027fe0542d8e0a5a0f55c58
-# Source SHA-256: 40c7df662e23a5930562f83ab0e480ca0ecdf947a817741cc513d3d061e3f913
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SL-GRIM.ANS by Sir Lancelot (cnc-0494); released in cnc-0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 49-98
-# Columns: 1-80
+﻿# Artwork: SL-GRIM.ANS by Sir Lancelot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cnc-0494-sl-grim-part02
 
 Write-Host '
       ░░▒▒▓▓▒▓▒▒▒░░░░░░▒▒▒▒▒              ▒▒▒░░░░░░░▒▒▒▒▒▒▓▓▓▒▒▒░░░

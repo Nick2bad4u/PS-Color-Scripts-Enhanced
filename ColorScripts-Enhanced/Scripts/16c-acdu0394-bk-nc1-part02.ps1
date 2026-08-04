@@ -1,18 +1,4 @@
-﻿# Converted from: BK-NC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0394/raw/BK-NC1.ANS
-# Source Revision: archive-sha256:7805df52925a98aad31489bafc7cabadb416309b42badbbd7aa9aecbdec2b1cf
-# Source SHA-256: 7a02be87383262c17b65fded554b60736b828dddaf897ad0606736dffadf2d50
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BK-NC1.ANS by Bad Karma (ACiD Productions); released in acdu0394 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: No Carrier
-# SAUCE Author: Bad Karma
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940228
-# SAUCE Dimensions: 80x139
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: No Carrier by Bad Karma | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0394-bk-nc1-part02
 
 Write-Host '
 [37;41m░[0;31;40m███[0;37;41m░[0;31;40m█[0;37;41m░▒▓[0;31;40m██ ████▀  [0;33;40m██▀▄█████████████████[0;1;30;43m▐[0;1;30;40m▌[0;1;37;40m▐█▀██[0;1;37;46m▄[0;1;37;40m██[0;1;37;46m▀[0;36m▀[0;31m▄██████████████████████████[0m

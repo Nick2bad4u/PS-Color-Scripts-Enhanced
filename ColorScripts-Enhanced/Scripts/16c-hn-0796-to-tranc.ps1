@@ -1,13 +1,4 @@
-﻿# Converted from: TO-TRANC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hn-0796/raw/TO-TRANC.ANS
-# Source Revision: archive-sha256:6df303d0096d1bde90a7977c01a26e91a10f0b86301b3cabfcc166dcbb74ed6b
-# Source SHA-256: 445ad4f482c6fbea1abd23a00319915acdc1845758eef73fce4a5165e8e1528c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TO-TRANC.ANS by Toadie (hn-0796); released in hn-0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: TO-TRANC.ANS by Toadie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hn-0796-to-tranc
 
 Write-Host '
                                                            [31m░[0m

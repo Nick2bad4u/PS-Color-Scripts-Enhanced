@@ -1,18 +1,4 @@
-﻿# Converted from: US!SPONG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-15/raw/US!SPONG.ANS
-# Source Revision: archive-sha256:cd2d406ee7567eb1c250b9572bb0b7fdd8b6cfa2b5014b290774725da37d8cc8
-# Source SHA-256: 8f0413f4873562350e5f08415caa043d0db91af77bbff625aa413cefeaa87ba4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US!SPONG.ANS by Dangermouse + Rgt (fORCE Productions 97); released in force-15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: sponge logo
-# SAUCE Author: dangermouse/rGt
-# SAUCE Group: fORCE Productions 97
-# SAUCE Date: 19970114
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: sponge logo by Dangermouse + Rgt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-15-us-spong
 
 Write-Host '
 [1;36m [0;1;37m   [0;1;36m  [0;36m    [0m                   [1;37m░[0m ▄▄[1;30;47m░░▒▄██[0;1;30;40m▄█[0;1;30;47m███▄▄▒▓██[0;1;30;40m████▄▄[0m

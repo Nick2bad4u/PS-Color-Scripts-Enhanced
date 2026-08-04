@@ -1,18 +1,4 @@
-﻿# Converted from: US-S7GREEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0602/raw/US-S7GREEN.ANS
-# Source Revision: archive-sha256:eda7ced449224c105e12a5409de54d9f7839715cee6913970969dbabd435477f
-# Source SHA-256: cf4c218b4ef9b858583b444642cd44aeffd84270eb9f0cefa1b097682a5a1373
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-S7GREEN.ANS by Jinx + Grymmjack (revival); released in rev0602 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: sector7bbs.com
-# SAUCE Author: jinx && grymmjack
-# SAUCE Group: revival
-# SAUCE Date: 20020615
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: sector7bbs.com by Jinx + Grymmjack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0602-us-s7green
 
 Write-Host '
 

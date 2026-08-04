@@ -1,18 +1,4 @@
-﻿# Converted from: 13-RDMNU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend07/raw/13-RDMNU.ANS
-# Source Revision: archive-sha256:ca5dd679a175bb824bf5bf250a5bbd7f932645b5aabbf63799cb92711cab24b8
-# Source SHA-256: ed9fd6c8445a9b9607f9fad3a0ad43d8f36c05d7f7a1042b308f04b7652156a3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 13-RDMNU.ANS by ville (blend&fire); released in blend07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: rising death
-# SAUCE Author: ville
-# SAUCE Group: blend&fire
-# SAUCE Date: 19970303
-# SAUCE Dimensions: 80x14
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: rising death by ville | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend07-13-rdmnu
 
 Write-Host '
 [1;33;41m█▓░[0;1;31;43m▀▀[0;31;43m  [0;1;31;43m▄███▀▀▀░[0;31;43m [0;33;42m▓[0;31;43m [0;33;42m▓[0;31;43m [0;33;40m▌▄▄▄▄▄[0;1;31;43m▄[0;33m▄░[0;30;43m▓[0m    [31;40m░▄▄[0m     [1;37;40m░[0;32m [0;33m [0;30;43m▓[0;33;40m▄▄░ [0m

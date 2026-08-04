@@ -1,18 +1,4 @@
-﻿# Converted from: FD-RZRS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_08/raw/FD-RZRS.ANS
-# Source Revision: archive-sha256:f5d36139e5f7f2e2e6d40888afe2c0fec7cd427ccc34b8a60d8fe55ece2d0c15
-# Source SHA-256: 2804b84629c6081ba9c8e7ceb7a2cdc6c21584dd0b3e72a45b5901e0e169cf4f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FD-RZRS.ANS by flood/chef (dox); released in dox_08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: [ none given ]
-# SAUCE Author: flood/chef
-# SAUCE Group: dox
-# SAUCE Date: 19970315
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: [ none given ] by flood/chef | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-08-fd-rzrs
 
 Write-Host '
 [1;30m     [0m

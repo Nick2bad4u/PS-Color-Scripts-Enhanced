@@ -1,13 +1,4 @@
-﻿# Converted from: ZS-BTWOS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sys2_02/raw/ZS-BTWOS.ANS
-# Source Revision: archive-sha256:4be7ec805fb2a4a39fee328474e69db4f25855ccd9f3e08bd6de462c5c223bd8
-# Source SHA-256: 6a4a783499cbfa9ff91eba2a4ef68d383b5623e4b03fda0f3b1668c53d31c041
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZS-BTWOS.ANS by Zerostar (sys2_02); released in sys2_02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: ZS-BTWOS.ANS by Zerostar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sys2-02-zs-btwos
 
 Write-Host '
                               .

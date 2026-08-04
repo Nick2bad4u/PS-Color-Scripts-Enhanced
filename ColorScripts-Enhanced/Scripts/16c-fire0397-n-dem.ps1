@@ -1,18 +1,4 @@
-﻿# Converted from: N-DEM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0397/raw/N-DEM.ANS
-# Source Revision: archive-sha256:92948d41234c0b51c2e1cbae1fc45d03877af276dfc89419c464eee360a4eed8
-# Source SHA-256: 05fb34f7666e1b096b6e39e9bfc8c48098b878d1485a6cdd5d21f9dac777d1f4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-DEM.ANS by Nail (fire); released in fire0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Demesne
-# SAUCE Author: Nail
-# SAUCE Group: fire
-# SAUCE Date: 19970223
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Demesne by Nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0397-n-dem
 
 Write-Host '
 [1;31;41m▄[0;1;31;47m▀▓[0;1;31;40m▀▀[0;31m▀[0;1;31m▀[0;31m▀[0;1;31;41m░[0;30;41m░[0;37;40m [0;1;31;40m▄[0;1;31;47m▀[0;1;31;41m▀[0;1;31;40m▀[0;31m▀█[0;37m [0;1;31m▄[0;1;31;47m▀[0;1;31;41m▀[0;31m▀[0;1;31m▐▀[0;1;31;47m▓[0;1;31;40m▄▐[0;1;31;47m▓[0;41m▀[0;1;31;40m▀[0;31m▀[0;1;30m ▐▀▀▄[0m      [1;30m▐▄▄[0m       [1;30m▄[0m            [1;30m▄▄▄ ▄  [0mnail[1;30mfire[0m

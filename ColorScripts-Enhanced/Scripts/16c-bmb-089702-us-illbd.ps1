@@ -1,18 +1,4 @@
-﻿# Converted from: US-ILLBD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-089702/raw/US-ILLBD.ANS
-# Source Revision: archive-sha256:e48c38fcf9ad1e8bdcd70f413f385ac4fe4835bcda18b3e71092baf5cce2e35b
-# Source SHA-256: 8032ef0fcc9246478b4ff89e1b684213d660bacc5626120247f6b757aa1097c9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ILLBD.ANS by anOmite + pyx (bamboosh); released in bmb-089702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: iLLbRED?!
-# SAUCE Author: anOmite + pyx
-# SAUCE Group: bamboosh
-# SAUCE Date: 19880110
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: iLLbRED?! by anOmite + pyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-089702-us-illbd
 
 Write-Host '
                [32m  [0m

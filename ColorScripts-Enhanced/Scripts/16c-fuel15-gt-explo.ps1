@@ -1,18 +1,4 @@
-﻿# Converted from: GT-EXPLO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel15/raw/GT-EXPLO.ANS
-# Source Revision: archive-sha256:3b994e59b6a78be97a60517481673ca8661cd10fa275e8c56fe8095a44e5feee
-# Source SHA-256: cc4863373dc3a226eaa80e5d97b586f1e6a1a5e2470e137350b2c2f665543e6b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GT-EXPLO.ANS by graphital (fuel productions); released in fuel15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: explode                (ansimation)
-# SAUCE Author: graphital
-# SAUCE Group: fuel productions
-# SAUCE Date: 19970714
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: explode (ansimation) by graphital | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel15-gt-explo
 
 Write-Host '
                               [31m▀[0m         [31m▄[0m  [1;36m■▄[0;36m▄▄[0m     [31m▀[0m        [31m▀[0m

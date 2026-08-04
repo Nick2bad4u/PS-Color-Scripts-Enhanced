@@ -1,18 +1,4 @@
-﻿# Converted from: IR-BF1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/idle-03/raw/IR-BF1.ANS
-# Source Revision: archive-sha256:de0b9b28f255e1cb9ab562a1ef9b6f1152dc7f06e952e19862071341f6d6c4c3
-# Source SHA-256: 221d1994031671f84445b8a2c377b823eb03b217eab57f6b04af4b6a1491e6a5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IR-BF1.ANS by infrared (idle); released in idle-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: brain freeze
-# SAUCE Author: infrared
-# SAUCE Group: idle
-# SAUCE Date: 19961002
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: brain freeze by infrared | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-idle-03-ir-bf1
 
 Write-Host '
 

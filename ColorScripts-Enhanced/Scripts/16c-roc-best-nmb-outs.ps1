@@ -1,18 +1,4 @@
-﻿# Converted from: NMB-OUTS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roc-best/raw/NMB-OUTS.ANS
-# Source Revision: archive-sha256:ed2172be4f351fbbe490297eada190fa8af16bee5a8ce8834dea50cd318904c2
-# Source SHA-256: ac0022e4657c418e4dbf79cf8f15761fcba165f59dfd99b3fccf01cca53854bf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NMB-OUTS.ANS by Ninja-Man Bob (Rulers Of Chaos); released in roc-best and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Outcast Society
-# SAUCE Author: Ninja-Man Bob
-# SAUCE Group: Rulers Of Chaos
-# SAUCE Date: 19950506
-# SAUCE Dimensions: 80x25
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: Outcast Society by Ninja-Man Bob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roc-best-nmb-outs
 
 Write-Host '
 [1;34m   [0;34m    [0m  [34m ▒[0m  [34m░[0m                 [34m▒[0m [34m■▄[0m [34m▒░[0m   [34m [0m                [34m░ ░▒▓            [0;31m [0;34m  [0m

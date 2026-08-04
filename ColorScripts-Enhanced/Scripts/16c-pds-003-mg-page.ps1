@@ -1,18 +1,4 @@
-﻿# Converted from: MG-PAGE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pds-003/raw/MG-PAGE.ANS
-# Source Revision: archive-sha256:a5e16e3dfa74397227460ffa3672d3754312817219d0c293cf2236e24ef7a3f6
-# Source SHA-256: e4383185f8f49a193e6269c1277c74ba2c1553e598df4949f293ded1ab08082d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MG-PAGE.ANS by Magician (Paradise); released in pds-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Page
-# SAUCE Author: Magician
-# SAUCE Group: Paradise
-# SAUCE Date: 19960506
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Page by Magician | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pds-003-mg-page
 
 Write-Host '
              [1m [0m

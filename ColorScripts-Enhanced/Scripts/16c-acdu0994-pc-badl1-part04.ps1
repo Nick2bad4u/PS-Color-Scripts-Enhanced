@@ -1,18 +1,4 @@
-﻿# Converted from: PC-BADL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0994/raw/PC-BADL1.ANS
-# Source Revision: archive-sha256:70e9e3ba45456511eb6a648215e7531dd3b7a09ca51f860ca2dd613c7dbc4d28
-# Source SHA-256: aa81a3debfce9f5df1a58ae711376b6e5f71c1baf4e4f9cea0c11c6a12f69c80
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-BADL1.ANS by P-Chan (ACiD Productions); released in acdu0994 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The BadLands
-# SAUCE Author: P-Chan
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940901
-# SAUCE Dimensions: 80x194
-# Lines: 145-194
-# Columns: 1-80
+﻿# Artwork: The BadLands by P-Chan | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0994-pc-badl1-part04
 
 Write-Host '
 [34m  [0;32m▀▄▄[0;34m   [0;1;32m▀▄[0;1;32;42m▓[0;1;32;40m▄■[0;1;34;40m  [0;32m▄[0m      [1;30m█[0;1;30;47m▀░[0;1;30;40m█▄▄██[0;1;30;47m██[0;1;30;40m▀ █[0;1;30;47m▀░[0;1;30;40m█   █[0;1;30;47m▓░[0;1;30;40m█▓ █[0;1;30;47m▀░[0;1;30;40m█ ▄█[0;1;30;47m█▄[0;1;30;40m▀[0m        [32m▄[0;1;32;42m░[0m        [32m■▀[0m

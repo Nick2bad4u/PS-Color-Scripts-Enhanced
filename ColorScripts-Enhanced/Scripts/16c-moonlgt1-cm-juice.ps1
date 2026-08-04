@@ -1,18 +1,4 @@
-﻿# Converted from: CM-JUICE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/moonlgt1/raw/CM-JUICE.ANS
-# Source Revision: archive-sha256:9c3296d479bffdc90be8aa4a3f3118a85ae9456683674c3e67716221b3c262b5
-# Source SHA-256: 03c26deca71b3d4ae800a998ee8ed7e046965f2cc13dee9bbe04904df0626a08
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CM-JUICE.ANS by ch33z3 munk33 (m3wn l1ght); released in moonlgt1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ju1c3
-# SAUCE Author: ch33z3 munk33
-# SAUCE Group: m3wn l1ght
-# SAUCE Date: 19960818
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: ju1c3 by ch33z3 munk33 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-moonlgt1-cm-juice
 
 Write-Host '
                           [1;30m▄[0m▄            [1;34m             [0m

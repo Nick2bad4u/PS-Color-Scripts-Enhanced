@@ -1,18 +1,4 @@
-﻿# Converted from: SC-I.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl199612/raw/SC-I.ANS
-# Source Revision: archive-sha256:272b018023f0b5ea55159e057acdcd402c186f8d17b921be9b64ff7fedb6634a
-# Source SHA-256: 02f085a6667672ef54885346f9b115a38497cd07c7afc4bae670417e5226e029
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SC-I.ANS by Scope (Teklordz); released in tl199612 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Happy Birthday
-# SAUCE Author: Scope
-# SAUCE Group: Teklordz
-# SAUCE Date: 19961220
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Happy Birthday by Scope | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl199612-sc-i
 
 Write-Host '
                                   [35m [0;37m [0;31m  [0;35m▄▄▄[0;31m  [0m          [1;30m [0m

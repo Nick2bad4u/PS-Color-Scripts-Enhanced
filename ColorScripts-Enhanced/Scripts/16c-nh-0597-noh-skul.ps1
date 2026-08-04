@@ -1,18 +1,4 @@
-﻿# Converted from: NOH-SKUL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nh-0597/raw/NOH-SKUL.ANS
-# Source Revision: archive-sha256:87cec95111e4a1ac9fd985bbb75e4ede9867484f10b0355a7e43919af699000f
-# Source SHA-256: ae91142947e08cae8e2d77cd22a0797c5ca5611e3b74eb145fc0ee2179e1a5f5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NOH-SKUL.ANS by noah (nh!); released in nh-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: skull
-# SAUCE Author: noah
-# SAUCE Group: nh!
-# SAUCE Date: 19970511
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: skull by noah | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nh-0597-noh-skul
 
 Write-Host '
      [1;30m [0;34m   ▄[0;37m▄[0;37;44m▄[0;1;37;47m▄▄[0;44m▌[0;34;40m▌▄[0;37;40m▄[0;34;40m▄ [0m                       [31;40m       ▄▄▄▄▄▄▄[0;33;41m▄▄▄[0;31;40m█▐▄▄▄▄[0m

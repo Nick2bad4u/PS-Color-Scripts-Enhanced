@@ -1,18 +1,4 @@
-﻿# Converted from: us-k.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/charm05/raw/us-k.ans
-# Source Revision: raw-sha256:74819e824ece7f1b0ecbd956a36eed22bb5fae02e3a62cb72e4a9ce55128ac3f
-# Source SHA-256: 74819e824ece7f1b0ecbd956a36eed22bb5fae02e3a62cb72e4a9ce55128ac3f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-k.ans by H7 + Horza (charm & stream); released in charm05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: "k"
-# SAUCE Author: h7 & Horza
-# SAUCE Group: charm & stream
-# SAUCE Date: 19971228
-# SAUCE Dimensions: 80x42
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: "k" by H7 + Horza | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-charm05-us-k
 
 Write-Host '
       ░▀   ▄                                    ▄  ░▀▀     ▄       ▄  ░▀

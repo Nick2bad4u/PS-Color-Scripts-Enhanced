@@ -1,18 +1,4 @@
-﻿# Converted from: TF-SQIRT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impact07/raw/TF-SQIRT.ANS
-# Source Revision: archive-sha256:07b2349bb1ba93a9281e6fa758ea73e28867b3746ecdb88c10b3557ff427fd39
-# Source SHA-256: 6486b0850370e98f21bb7cbcf80030d2603adb330047b419660e2adba4ecf5cd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TF-SQIRT.ANS by twisted foo (wtf do you think?!); released in impact07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: morals obsCURE 4 cancer
-# SAUCE Author: twisted foo
-# SAUCE Group: wtf do you think?!
-# SAUCE Date: 19970511
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: morals obsCURE 4 cancer by twisted foo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impact07-tf-sqirt
 
 Write-Host '
                               ▄▄▄▄█▄▄█[34;47m▄▄▄▄ ▄▄ ▄▄▄▄[0;37;40m▓ ▄▄▄█▀▄[0m

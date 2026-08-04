@@ -1,18 +1,4 @@
-﻿# Converted from: CL-ELDO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9611/raw/CL-ELDO.ANS
-# Source Revision: archive-sha256:2b73e149488dc761d99422832825743596588d59e58f9bfecfb5d0e9dbffd274
-# Source SHA-256: 7e74cb46546134ffe0177614ffa8fe68afbea8eea7da830a1109fbf054b8c3d1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL-ELDO.ANS by Colourless (AWE Lettering); released in awe9611 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Eldorado
-# SAUCE Author: Colourless
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961030
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Eldorado by Colourless | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9611-cl-eldo
 
 Write-Host '
            [32m▄ ▀░▄[0m         [32m▄▐[0;1;32;42m░▄[0;32m▄[0m

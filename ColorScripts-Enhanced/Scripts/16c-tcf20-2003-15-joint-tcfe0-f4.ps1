@@ -1,13 +1,4 @@
-﻿# Converted from: 2003 - 15 - Joint - TCFE0-F4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tcf20/raw/2003%20-%2015%20-%20Joint%20-%20TCFE0-F4.ANS
-# Source Revision: archive-sha256:af8609219fccc484668fb405a7f1d45efb8c574501a461c5c1b47d87a12921ce
-# Source SHA-256: 7ac6a8b83db46e43e3477c10ac2adcd7e26bd323ce20981ec625351f4a0adb90
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2003 - 15 - Joint - TCFE0-F4.ANS by The Creep Fever + Enzo + F4 (tcf20); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: 2003 - 15 - Joint - TCFE0-F4.ANS by The Creep Fever + Enzo + F4 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tcf20-2003-15-joint-tcfe0-f4
 
 Write-Host '
 [33m▓[0;1;33m [0;33m▀▒[0;1;33m [0;33m▀■[0;1;33m  [0;33m▀▄▐[0;1;36;43m ░[0;1;31;40m [0;33m▐[0;1;31;43m░[0;1;31;40m▒ ▒ [0;1;31;43m░▓▓▒▓█[0;1;31;40m█[0;1;31;43m█[0;1;31;47m▀   ▄[0;1;31;40m███[0;1;31;43m▀▀█[0;1;31;40m████[0;1;31;43m█▓█▓░▒[0;1;31;40m▒ [0;1;31;43m▐▓░░░[0;1;31;40m▒   [0;33m▐[0;1;31;43m░[0;33m░[0;1;31m [0;1;33;43m░[0;1;31;40m [0;33m▄■ ▒▀ [0;1;33;43m [0;33m▄▄▀ █[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: US!OKO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spr_07/raw/US!OKO.ANS
-# Source Revision: archive-sha256:491a09c0e89bb57ae22cc79be83b57d04e479fcd9fe6a15bcb489d11b02aee41
-# Source SHA-256: 810191c52961b7be017e88b2feed895bb350fee8395d90b18a67b29d418422d5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US!OKO.ANS by Mike + Mist (spr_07); released in spr_07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: US!OKO.ANS by Mike + Mist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spr-07-us-oko
 
 Write-Host '
      [1m         [0;33m▄▀[0;1;37m   [0;1;31m [0;1;31;43m▄[0;1;37;40m   [0;33m   [0m            [37m░ [0m
