@@ -1,6 +1,6 @@
 # Publishing Guide
 
-This guide documents the repository's current release pipeline for **ColorScripts-Enhanced**. The PowerShell Gallery is the primary destination; NuGet.org is optional. The workflow does not publish to GitHub Packages.
+This guide documents the repository's current release pipeline for **ColorScripts-Enhanced**. The PowerShell Gallery is the primary destination; NuGet.org is optional and uses OIDC trusted publishing. The workflow does not publish to GitHub Packages.
 
 ## Release Contract
 
@@ -28,7 +28,7 @@ The workflow:
 5. generates release notes with git-cliff;
 6. creates or updates the GitHub release when requested;
 7. publishes to the PowerShell Gallery when `PSGALLERYAPIKEY` is available; and
-8. optionally publishes to NuGet.org when `NUGETAPIKEY` is available and `publishToNuGet` is not `false`.
+8. optionally transfers the verified package to a dedicated OIDC job and publishes it to NuGet.org when `publishToNuGet` is not `false`.
 
 ### Manual Inputs
 
@@ -40,14 +40,31 @@ The workflow:
 
 The workflow does not define a `publishToGitHub` input or push to GitHub Packages.
 
-### Required Secrets
+### Publishing Credentials
 
 | Secret            | Purpose                                                |
 | ----------------- | ------------------------------------------------------ |
 | `PSGALLERYAPIKEY` | Publishes the normalized package to PowerShell Gallery |
-| `NUGETAPIKEY`     | Publishes the same package to NuGet.org when enabled   |
 
-Both are optional for reusable-workflow calls. A missing key causes its corresponding publish step to skip; it does not turn validation into a failure.
+`PSGALLERYAPIKEY` is optional for reusable-workflow calls. A missing key causes the PowerShell Gallery publish step to skip; it does not turn validation into a failure. NuGet.org does not use a repository API-key secret.
+
+### NuGet.org Trusted Publishing
+
+The dedicated `publish-nuget` job has `id-token: write`, downloads the exact normalized package produced by the validation job, and uses `NuGet/login` to exchange GitHub's OIDC token for a one-hour NuGet.org API key immediately before the push. The build and GitHub-release job does not have OIDC permission.
+
+The NuGet.org trusted-publishing policy must match these values:
+
+| Policy field      | Value                       |
+| ----------------- | --------------------------- |
+| Package owner     | `typpi`                     |
+| Repository owner  | `Nick2bad4u`                |
+| Repository        | `PS-Color-Scripts-Enhanced` |
+| Workflow file     | `publish.yml`               |
+| Environment       | empty                       |
+
+Leave Environment empty while the workflow does not declare a GitHub Actions `environment`. If a protected environment is added later, use its exact name in both the workflow job and the NuGet.org policy. A reusable-workflow caller must allow `id-token: write`; permissions cannot be elevated by the called workflow.
+
+After the first successful trusted publish, revoke any superseded NuGet.org API key and remove the old `NUGETAPIKEY` repository secret. The workflow no longer reads it.
 
 ### Manual Dispatch
 
@@ -129,9 +146,10 @@ dotnet nuget push $package.FullName `
     --source https://www.powershellgallery.com/api/v2/package `
     --skip-duplicate
 
-# Optional second destination.
+# Optional second destination for a manual emergency publish. The automated
+# workflow obtains its NuGet.org credential through trusted publishing instead.
 dotnet nuget push $package.FullName `
-    --api-key $env:NUGETAPIKEY `
+    --api-key $env:NUGET_API_KEY `
     --source https://api.nuget.org/v3/index.json `
     --skip-duplicate
 ```
@@ -145,7 +163,8 @@ Avoid converting a secure string back to plaintext in managed memory merely to p
 - [ ] `npm run verify`, `npm run test`, `npm run lint`, and `npm run release:verify` pass.
 - [ ] Generated help, documentation counts, changelog, and release notes are current.
 - [ ] A `v<ModuleVersion>` tag does not already exist for another commit.
-- [ ] Repository secrets use the exact names `PSGALLERYAPIKEY` and `NUGETAPIKEY`.
+- [ ] The repository secret uses the exact name `PSGALLERYAPIKEY`.
+- [ ] The NuGet.org trusted-publishing policy matches the owner, repository, workflow file, and blank Environment value documented above.
 - [ ] The GitHub release contains the normalized `.nupkg` asset.
 - [ ] The new version is visible in each selected public gallery.
 
@@ -166,7 +185,8 @@ Use an isolated PowerShell process or module path for installation checks so an 
 - **Version rejected:** confirm the value parses as `[version]`. Four-part date versions such as `2026.7.20.2250` are valid.
 - **Release tag mismatch:** the tag without its leading `v` must exactly equal the built manifest version and resolve to the published commit.
 - **Duplicate package:** increment `ModuleVersion`; gallery versions cannot be replaced.
-- **Publish step skipped:** verify the exact secret name and that the API key is visible to the invoking workflow.
+- **PowerShell Gallery publish step skipped:** verify the exact `PSGALLERYAPIKEY` secret name and that it is visible to the invoking workflow.
+- **NuGet trusted publishing rejected:** verify `id-token: write`, the `typpi` profile name, and every trusted-publishing policy field. Environment must remain blank unless the job declares the same GitHub environment name.
 - **Package metadata missing:** run `scripts/Update-NuGetPackageMetadata.ps1` against the staged package before pushing.
 - **Release notes mismatch:** fetch tags and run `npm run release:verify`; release notes use git-cliff's `--current` range.
 
@@ -175,3 +195,4 @@ Use an isolated PowerShell process or module path for installation checks so an 
 - [PowerShell Gallery package publishing](https://learn.microsoft.com/powershell/gallery/how-to/publishing-packages/publishing-a-package)
 - [PowerShell repositories](https://learn.microsoft.com/powershell/gallery/how-to/working-with-local-psrepositories)
 - [NuGet push command](https://learn.microsoft.com/nuget/reference/cli-reference/cli-ref-push)
+- [NuGet.org trusted publishing](https://learn.microsoft.com/nuget/nuget-org/trusted-publishing)

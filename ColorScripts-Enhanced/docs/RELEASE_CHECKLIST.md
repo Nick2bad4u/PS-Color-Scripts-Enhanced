@@ -27,7 +27,8 @@ Use this checklist with [PUBLISHING.md](PUBLISHING.md). The workflow file remain
 - [ ] The release tag is exactly `v<ModuleVersion>`.
 - [ ] The tag resolves to the exact commit being released.
 - [ ] That version/tag does not already identify another published package.
-- [ ] Repository secrets use the exact names `PSGALLERYAPIKEY` and, if used, `NUGETAPIKEY`.
+- [ ] The repository secret uses the exact name `PSGALLERYAPIKEY`.
+- [ ] The NuGet.org trusted-publishing policy targets `Nick2bad4u/PS-Color-Scripts-Enhanced`, `publish.yml`, and no Environment value.
 - [ ] Manual dispatch inputs are correct: `publishToNuGet`, `versionOverride`, and `createRelease`.
 
 The Publish workflow runs for a published GitHub release, manual dispatch, or `workflow_call`. It does not trigger merely because a tag was pushed, and it does not publish to GitHub Packages.
