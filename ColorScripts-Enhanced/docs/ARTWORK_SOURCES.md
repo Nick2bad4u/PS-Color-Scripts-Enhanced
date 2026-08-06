@@ -14,7 +14,7 @@ The corresponding third-party notices are:
 - [os-ansi ISC notice](../../ColorScripts-Enhanced/ThirdPartyNotices/os-ansi-ISC.txt)
 - [Asciiville MIT notice](../../ColorScripts-Enhanced/ThirdPartyNotices/asciiville-MIT.txt)
 - [Durdraw BSD-3-Clause notice](../../ColorScripts-Enhanced/ThirdPartyNotices/durdraw-BSD-3-Clause.txt)
-- [16colors artist-authorized permission notice](../../ColorScripts-Enhanced/ThirdPartyNotices/16colors-discord-permission.txt)
+- [16colors artist-authorized permission notice](../../ColorScripts-Enhanced/ThirdPartyNotices/16colors.txt)
 - [Roy/SAC FAL-1.3 notice](../../ColorScripts-Enhanced/ThirdPartyNotices/roy-sac-FAL-1.3.txt)
 
 The older catalog predates this per-file registry. Missing historical provenance must not be replaced with guesses.
@@ -74,7 +74,7 @@ The native `indyz-kali.utf8.ans` example contains 2,481 SGR sequences across exa
 - API documentation: <https://16colo.rs/api/>
 - API documentation: <https://16colo.rs/api/>
 - Archive rights policy: <https://16colo.rs/faq/>
-- Permission evidence: [maintainer attestation](../../ColorScripts-Enhanced/ThirdPartyNotices/16colors-discord-permission.txt)
+- Permission evidence: [maintainer attestation](../../ColorScripts-Enhanced/ThirdPartyNotices/16colors.txt)
 - Compact audit checkpoint: [AnsiArchiveCurationCheckpoint.json](../../audit/AnsiArchiveCurationCheckpoint.json)
 - Content-curation checkpoint: [AnsiContentCurationCheckpoint.json](../../audit/AnsiContentCurationCheckpoint.json)
 - Hash-locked review evidence: [repository audit directory](../../audit/README.md), containing the complete content, contact, mixed-text, geometry, retention, and removal ledger series

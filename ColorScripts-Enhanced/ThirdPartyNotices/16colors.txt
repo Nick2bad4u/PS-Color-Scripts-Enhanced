@@ -1,0 +1,13 @@
+16colors artist-authorized artwork permission notice
+
+Permission attestation
+----------------------
+
+On 2026-07-22, the maintainer confirmed that permission was granted by the
+artists, rightsholders, fair use, or an authorized representative for use in this
+project. This project relies on that permission, not on an assertion that
+archived artwork is freely licensed or covered by fair use.
+
+https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html
+
+https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/audit/ArtworkProvenance.psd1

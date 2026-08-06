@@ -228,7 +228,7 @@ fs.writeFileSync(process.argv[3], reader.serializeArtworkProvenanceJson(provenan
     It 'keeps every 16colors permission import outside the repository Unlicense' {
         $collection = $script:Provenance.Collections['16colors-permitted']
         $collection.License | Should -Be 'LicenseRef-16colors-discord-permission'
-        $collection.LicenseEvidence | Should -Be 'ThirdPartyNotices/16colors-discord-permission.txt'
+        $collection.LicenseEvidence | Should -Be 'ThirdPartyNotices/16colors.txt'
         $collection.PermissionDate | Should -Be '2026-07-22'
 
         $rootLicense = [System.IO.File]::ReadAllText((Join-Path -Path $script:RepoRoot -ChildPath 'LICENSE'))

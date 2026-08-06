@@ -6,7 +6,7 @@ ColorScripts-Enhanced combines project-authored renderers with curated third-par
 
 New curated imports are recorded in the repository-only [ArtworkProvenance.psd1](../audit/ArtworkProvenance.psd1). This is the authoritative record for source collections, pinned revisions and archive hashes, source and rendered hashes, encoding, conversion mode, attribution, SAUCE details, and split coordinates. It remains outside the publishable module; a generated [artwork-details page](artwork.html) exposes a compact web index without adding the roughly 53 MiB PSD1 file to every PowerShell Gallery installation.
 
-Each mapped script carries one offline-readable title/artist line and a script-scoped details URL. The executable `Write-Host` payload contains no archival metadata, and migration evidence in [ArtworkHeaderMigration.json](../audit/ArtworkHeaderMigration.json) hash-locks the original header, the replacement header, and the unchanged payload. Older scripts without an exact registry entry keep their existing headers; provenance must never be guessed. Their whole-script hashes normalize only CRLF pairs to LF so Git's platform-specific checkout conversion does not create false drift; every other byte remains hash-locked.
+Each mapped script carries one offline-readable title/artist line and a script-scoped details URL. The executable `Write-Host` payload contains no archival metadata, and migration evidence in [ArtworkHeaderMigration.json](../audit/ArtworkHeaderMigration.json) hash-locks the original header, the replacement header, and the unchanged payload. Older scripts without an exact registry entry keep their existing headers; provenance must never be guessed. Their whole-script hashes normalize only CRLF pairs to LF, so Git's platform-specific checkout conversion does not create false drift; every other byte remains hash-locked.
 
 The corresponding third-party notices are:
 
@@ -14,7 +14,7 @@ The corresponding third-party notices are:
 - [os-ansi ISC notice](../ColorScripts-Enhanced/ThirdPartyNotices/os-ansi-ISC.txt)
 - [Asciiville MIT notice](../ColorScripts-Enhanced/ThirdPartyNotices/asciiville-MIT.txt)
 - [Durdraw BSD-3-Clause notice](../ColorScripts-Enhanced/ThirdPartyNotices/durdraw-BSD-3-Clause.txt)
-- [16colors artist-authorized permission notice](../ColorScripts-Enhanced/ThirdPartyNotices/16colors-discord-permission.txt)
+- [16colors artist-authorized permission notice](../ColorScripts-Enhanced/ThirdPartyNotices/16colors.txt)
 - [Roy/SAC FAL-1.3 notice](../ColorScripts-Enhanced/ThirdPartyNotices/roy-sac-FAL-1.3.txt)
 
 The older catalog predates this per-file registry. Missing historical provenance must not be replaced with guesses.
@@ -30,7 +30,7 @@ The older catalog predates this per-file registry. Missing historical provenance
 - Reviewed inventory: 72 `.ansi` files and 74 related art assets
 - Current import: 17 flowering final-stage (`*3.ansi`) plants
 
-botany is a terminal plant-growing application with compact ANSI plant artwork. All 72 ANSI files fit within 120 columns by 50 rows and rendered cleanly. The import selects 17 visually distinct flowering final-stage files; the other 55 are primarily earlier growth, seed-bearing, death, mutation, or redundant variants. These files are already sequential ANSI streams, so conversion preserves their original SGR sequences and CRLF geometry byte-for-byte in passthrough mode instead of flattening them through the terminal emulator. A source-hash regression test prevents later conversion or line-ending changes from altering their colors or spacing.
+Botany is a terminal plant-growing application with compact ANSI plant artwork. All 72 ANSI files fit within 120 columns by 50 rows and rendered cleanly. The import selects 17 visually distinct flowering final-stage files; the other 55 are primarily earlier growth, seed-bearing, death, mutation, or redundant variants. These files are already sequential ANSI streams, so conversion preserves their original SGR sequences and CRLF geometry byte-for-byte in passthrough mode instead of flattening them through the terminal emulator. A source-hash regression test prevents later conversion or line-ending changes from altering their colors or spacing.
 
 ### os-ansi
 
@@ -55,7 +55,7 @@ This collection focuses on operating-system logo ANSI art. Only the five-color m
 - Reviewed inventory: 946 `.asc` files, including 697 multicolor files
 - Current import: 1 project-authored rainbow wordmark
 
-Only Ronald Record's compact 67-by-4 Asciiville wordmark has a sufficiently clear authorship and MIT license chain. It uses nine visible 256-color foregrounds and is preserved as an LF-only passthrough stream. The other galleries are not bulk-imported: 686 multicolor files are roughly 400-500 rows tall, and most are conversions of externally sourced Flickr, Wallhaven, vintage, or otherwise undocumented images. The `Vintage` directory also has conflicting public-domain and noncommercial notices. A project license on the conversion does not prove rights to relicense the underlying image.
+Only Ronald Record's compact 67-by-4 Asciiville wordmark has a sufficiently clear authorship and MIT license chain. It uses nine visible 256-color foregrounds and is preserved as an LF-only passthrough stream. The other galleries are not bulk-imported: 686 multicolor files are roughly 400–500 rows tall, and most are conversions of externally sourced Flickr, Wallhaven, vintage, or otherwise undocumented images. The `Vintage` directory also has conflicting public-domain and noncommercial notices. A project license on the conversion does not prove rights to relicense the underlying image.
 
 ### Durdraw
 
@@ -74,7 +74,7 @@ The native `indyz-kali.utf8.ans` example contains 2,481 SGR sequences across exa
 - API documentation: <https://16colo.rs/api/>
 - API documentation: <https://16colo.rs/api/>
 - Archive rights policy: <https://16colo.rs/faq/>
-- Permission evidence: [maintainer attestation](../ColorScripts-Enhanced/ThirdPartyNotices/16colors-discord-permission.txt)
+- Permission evidence: [maintainer attestation](../ColorScripts-Enhanced/ThirdPartyNotices/16colors.txt)
 - Compact audit checkpoint: [AnsiArchiveCurationCheckpoint.json](../audit/AnsiArchiveCurationCheckpoint.json)
 - Content-curation checkpoint: [AnsiContentCurationCheckpoint.json](../audit/AnsiContentCurationCheckpoint.json)
 - Hash-locked review evidence: [repository audit directory](../audit/README.md), containing the complete content, contact, mixed-text, geometry, retention, and removal ledger series
@@ -83,11 +83,11 @@ The native `indyz-kali.utf8.ans` example contains 2,481 SGR sequences across exa
 - Current named import: [The Lake House](https://16colo.rs/pack/mist0624/ZII-LAHO.ANS) by Zeus II of Mistigris, represented by six contiguous scripts
 - Review status: 1990-2026 review-complete, with every accepted work imported
 
-The archive remains a browsing and preservation service; public availability is not treated as a license. For this project, the maintainer attested on 2026-07-22 that artists, rightsholders, or an explicitly authorized representative granted project-specific permission to redistribute and convert artwork from the 16colors and Roy/SAC sites with attribution. This does not relicense the archive for unrelated uses.
+The archive remains a browsing and preservation service; public availability is not treated as a license. For this project, the maintainer attested on 2026-07-22 that artists, rights holders, or an explicitly authorized representative granted project-specific permission to redistribute and convert artwork from the 16colors and Roy/SAC sites with attribution. This does not relicense the archive for unrelated uses.
 
 The resumable `npm run ansi:audit -- --source=all` workflow enumerates the canonical pack API and Roy download inventory, caches raw candidates and previews under ignored `temp/`, fingerprints source bytes and rendered terminal cells, rejects monochrome and duotone output, and writes an interactive review sheet. A candidate is imported only after general-audience, artistic-quality, composition, terminal-safety, duplicate, and attribution review. The normal gallery limits are 120 columns and 50 rows per script. Tall art is kept in contiguous source-row order; wide art is split only at coherent panel boundaries and is otherwise rejected. Source margins and background-colored spaces remain intact except where the tracked post-import content audit blanks standalone writing, readable prose embedded in framed panels, or policy-ineligible display cells and removes rendered-blank rows after the final retained artwork row. Explicit `Passthrough` conversion markers protect byte-preserved sources from those mutations.
 
-The 1990-2026 review is complete and its retained works are in the module. Across those 37 archive years, the audit enumerated 5,479 packs and reviewed 64,929 `.ANS` or `.ICE` candidates. Post-import content, adult-policy, quality, source-continuity, and duplicate-render curation leaves 15,073 accepted works represented by 21,495 scripts. The content checkpoint records 49,772 reviewed text, contact, or policy rows blanked without narrowing their canvases; 23,971 trailing rendered-blank rows removed after restoring 34 source-significant passthrough rows; 8,610 rows compacted only after curation made them blank; 62 explicitly reviewed rows removed; and 767 high-confidence geometry rows removed. The geometry total includes 26 rebalanced families represented by 134 scripts, with 69 generated presentation rows discarded separately from source-row accounting. It also records 299 empty, low-quality, source-incomplete, duplicate-render, adult-policy, or principally promotional scripts removed. The archive checkpoint records each year's inventory fingerprint and disposition totals, one source/hash entry per retained original work, and exact-source duplicates already represented elsewhere in the gallery.
+The 1990-2026 review is complete, and its retained works are in the module. Across those 37 archive years, the audit enumerated 5,479 packs and reviewed 64,929 `.ANS` or `.ICE` candidates. Post-import content, adult-policy, quality, source-continuity, and duplicate-render curation leaves 15,073 accepted works represented by 21,495 scripts. The content checkpoint records 49,772 reviewed text, contact, or policy rows blanked without narrowing their canvases; 23,971 trailing rendered-blank rows removed after restoring 34 source-significant passthrough rows; 8,610 rows compacted only after curation made them blank; 62 explicitly reviewed rows removed; and 767 high-confidence geometry rows removed. The geometry total includes 26 rebalanced families represented by 134 scripts, with 69 generated presentation rows discarded separately from source-row accounting. It also records 299 empty, low-quality, source-incomplete, duplicate-render, adult-policy, or principally promotional scripts removed. The archive checkpoint records each year's inventory fingerprint and disposition totals, one source/hash entry per retained original work, and exact-source duplicates already represented elsewhere in the gallery.
 
 The API inventory currently reports 5,487 packs but returns 5,479 records. Live refreshes through 2026-07-24 reproduced the same eight-record gap at both 500- and 250-record page sizes. Those unreturned records provide no pack name, year, or file metadata to inspect; the checkpoint retains all three counts explicitly. A completed-year claim therefore means every pack record the canonical API actually returned for that year was audited, not that the project inferred or silently skipped the eight opaque records.
 
@@ -164,7 +164,7 @@ This is the largest cleanly licensed additional collection. Strong generic candi
 - License: [CC0-1.0](https://github.com/domsson/nuru/blob/0cb3d08971e8a76d02636c50eaf1a04f87f4ccf7/LICENSE)
 - Reviewed inventory: 15 `.nui` files
 
-The art-like candidates are `house` (9x4, 5 colors), `togglebit` (14x7, 7), `nuru-cat` (64x11, 15), `nuru-dot-net` (63x5, 5), and `nuru` (78x12, 8). CC0 makes the rights boundary simple, but `.nui` is a binary glyph/palette format and requires a native parser. Screenshots are not acceptable conversion sources.
+The art-like candidates are `house` (9x4, 5 colors), `togglebit` (14x7, 7), `nuru-cat` (64x11, 15), `nuru-dot-net` (63x5, 5), and `nuru` (78x12, 8). CC0 makes the right's boundary simple, but `.nui` is a binary glyph/palette format and requires a native parser. Screenshots are not acceptable conversion sources.
 
 ### PowerShell Paint
 
@@ -174,7 +174,7 @@ The art-like candidates are `house` (9x4, 5 colors), `togglebit` (14x7, 7), `nur
 - License: [MIT](https://github.com/ShaunLawrie/PwshPaint/blob/a0cd969c466c6147eab56a9e3024ae199aadfdb1/LICENSE.md)
 - Reviewed inventory: 7 RGB JSON pixel images
 
-`spiral` (12x12, 16 colors), `snake` (28x28, 7), and `heart` (28x28, 3) are plausible generic imports. The Pokemon, Clippy, and branded `pwshcorn` pieces are excluded. A future RGB-cell importer must document its aspect policy; if half-blocks compact vertical pixels, it must not also compact the horizontal axis.
+`spiral` (12x12, 16 colors), `snake` (28x28, 7), and `heart` (28x28, 3) are plausible generic imports. The Pokémon, Clippy, and branded `pwshcorn` pieces are excluded. A future RGB-cell importer must document its aspect policy; if half-blocks compact vertical pixels, it must not also compact the horizontal axis.
 
 ### Procedural and generator sources
 
@@ -193,7 +193,7 @@ The art-like candidates are `house` (9x4, 5 colors), `togglebit` (14x7, 7), `nur
 - [PhMajerus/ANSI-art](https://github.com/PhMajerus/ANSI-art): raw ANSI files but no license.
 - [ASCII Art Archive](https://www.asciiart.eu/terms-of-use): personal, noncommercial terms and anti-scraping restrictions.
 - [Asciiquarium](https://github.com/cmatsuoka/asciiquarium): GPL covers the program, but its art includes Joan Stark work and pieces of unknown origin.
-- Character-oriented collections involving Pokemon, Mario, Kirby, film characters, or similar properties remain unsuitable merely because their repository wrapper uses a permissive license.
+- Character-oriented collections involving Pokémon, Mario, Kirby, film characters, or similar properties remain unsuitable merely because their repository wrapper uses a permissive license.
 
 ## Existing Upstream Collections
 
