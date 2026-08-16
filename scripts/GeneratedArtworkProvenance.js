@@ -246,6 +246,41 @@ function validateCompleteGeneratedEntry(entry, name) {
 }
 
 /**
+ * @param {string} sourceEncoding
+ */
+function normalizeGeneratedEncoding(sourceEncoding) {
+    const normalized = sourceEncoding.toLowerCase();
+    if (normalized === "cp437" || normalized === "437") {
+        return { input: "cp437", display: "CP437" };
+    }
+    if (normalized === "utf8" || normalized === "utf-8") {
+        return { input: normalized, display: "UTF-8" };
+    }
+    return { input: normalized, display: sourceEncoding };
+}
+
+/**
+ * @param {Record<string, ProvenanceValue>} entry
+ * @param {import("./Convert-AnsiToColorScript.js").SauceRecord | null} sauce
+ */
+function applySauceProvenance(entry, sauce) {
+    if (!sauce) return;
+    if (sauce.title) entry.SauceTitle = sauce.title;
+    if (sauce.author) entry.SauceAuthor = sauce.author;
+    if (sauce.group) entry.SauceGroup = sauce.group;
+    if (isValidSauceDate(sauce.date)) entry.SauceDate = sauce.date;
+    if (sauce.commentLines.length > 0) {
+        entry.SauceComments = sauce.commentLines.join(" | ");
+    }
+    if (sauce.tInfo1 > 0 && sauce.tInfo2 > 0) {
+        entry.SauceDimensions = `${sauce.tInfo1}x${sauce.tInfo2}`;
+    }
+    entry.SauceFlags = sauce.flags;
+    const sauceFont = getPrintableSauceFont(sauce);
+    if (sauceFont) entry.SauceFont = sauceFont;
+}
+
+/**
  * @param {{
  *     conversionMode: "Passthrough" | "TerminalEmulation";
  *     name: string;
@@ -262,26 +297,13 @@ function validateCompleteGeneratedEntry(entry, name) {
  */
 function buildGeneratedArtworkEntry(options) {
     const sourceHash = sha256(options.sourceBuffer);
-    const normalizedEncoding = options.sourceEncoding.toLowerCase();
-    let displayEncoding = options.sourceEncoding;
-    if (normalizedEncoding === "cp437" || normalizedEncoding === "437") {
-        displayEncoding = "CP437";
-    } else if (
-        normalizedEncoding === "utf8" ||
-        normalizedEncoding === "utf-8"
-    ) {
-        displayEncoding = "UTF-8";
-    }
+    const encoding = normalizeGeneratedEncoding(options.sourceEncoding);
     const sourceName = path.basename(options.sourceName);
     const format = path.extname(sourceName).slice(1).toUpperCase() || "ANS";
     requireMatchingString(sourceHash, "SourceSha256", options.template);
     requireMatchingString(sourceName, "OriginalFilename", options.template);
     requireMatchingString(sourceName, "ConvertedFrom", options.template);
-    requireMatchingString(
-        normalizedEncoding === "437" ? "cp437" : normalizedEncoding,
-        "InputEncoding",
-        options.template
-    );
+    requireMatchingString(encoding.input, "InputEncoding", options.template);
 
     /** @type {Record<string, ProvenanceValue>} */
     const entry = {
@@ -291,33 +313,16 @@ function buildGeneratedArtworkEntry(options) {
         SourceSha256: sourceHash,
         SourceRows: options.sourceRows,
         SourceColumns: options.sourceColumns,
-        InputEncoding:
-            normalizedEncoding === "437" ? "cp437" : normalizedEncoding,
+        InputEncoding: encoding.input,
         ConversionMode: options.conversionMode,
         HasSauce: Boolean(options.sauce),
         IceColors: Boolean(options.sauce && options.sauce.flags & 1),
         ConvertedFrom: sourceName,
-        SourceEncoding: displayEncoding,
+        SourceEncoding: encoding.display,
         HeaderFormat: "CompactV1",
     };
     if (!Object.hasOwn(entry, "SourceFile")) entry.SourceFile = sourceName;
-    if (options.sauce) {
-        if (options.sauce.title) entry.SauceTitle = options.sauce.title;
-        if (options.sauce.author) entry.SauceAuthor = options.sauce.author;
-        if (options.sauce.group) entry.SauceGroup = options.sauce.group;
-        if (isValidSauceDate(options.sauce.date)) {
-            entry.SauceDate = options.sauce.date;
-        }
-        if (options.sauce.commentLines.length > 0) {
-            entry.SauceComments = options.sauce.commentLines.join(" | ");
-        }
-        if (options.sauce.tInfo1 > 0 && options.sauce.tInfo2 > 0) {
-            entry.SauceDimensions = `${options.sauce.tInfo1}x${options.sauce.tInfo2}`;
-        }
-        entry.SauceFlags = options.sauce.flags;
-        const sauceFont = getPrintableSauceFont(options.sauce);
-        if (sauceFont) entry.SauceFont = sauceFont;
-    }
+    applySauceProvenance(entry, options.sauce);
     validateCompleteGeneratedEntry(entry, options.name);
     return Object.freeze(entry);
 }

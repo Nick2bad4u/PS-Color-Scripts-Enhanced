@@ -9,9 +9,7 @@ const {
     getReviewEvidenceHash,
     stripAnsiControls,
 } = require("./Audit-ColorScriptContent.js");
-const {
-    loadReview,
-} = require("./Apply-ColorScriptContentReview.js");
+const { loadReview } = require("./Apply-ColorScriptContentReview.js");
 
 const REPOSITORY_ROOT = path.resolve(__dirname, "..");
 const DEFAULT_SCRIPTS_DIRECTORY = path.join(
@@ -23,6 +21,7 @@ const DEFAULT_SCRIPTS_DIRECTORY = path.join(
 /**
  * @param {string} targetPath
  * @param {string} content
+ *
  * @returns {void}
  */
 function writeFileAtomic(targetPath, content) {
@@ -32,8 +31,58 @@ function writeFileAtomic(targetPath, content) {
 }
 
 /**
+ * @param {string} payload
+ *
+ * @returns {Map<string, number[]>}
+ */
+function indexPayloadRowHashes(payload) {
+    const hashRows = new Map();
+    for (const [index, row] of payload
+        .replace(/\r\n?/gu, "\n")
+        .split("\n")
+        .entries()) {
+        const sha256 = getReviewEvidenceHash(stripAnsiControls(row));
+        const rows = hashRows.get(sha256) || [];
+        rows.push(index + 1);
+        hashRows.set(sha256, rows);
+    }
+    return hashRows;
+}
+
+/**
+ * @param {string} fileName
+ * @param {ReturnType<typeof loadReview> extends Map<string, infer T> ? T : never} evidence
+ * @param {Map<string, number[]>} hashRows
+ * @param {object[]} remaining
+ */
+function findRemainingEvidence(fileName, evidence, hashRows, remaining) {
+    for (const item of evidence) {
+        const sha256 =
+            item.sha256 ||
+            (typeof item.text === "string"
+                ? getReviewEvidenceHash(item.text)
+                : null);
+        if (!sha256) {
+            throw new Error("Reviewed evidence lacks a verifiable hash.");
+        }
+        const rows = hashRows.get(sha256);
+        const allowedRemainingOccurrences =
+            item.allowedRemainingOccurrences || 0;
+        if (rows && rows.length > allowedRemainingOccurrences) {
+            remaining.push({
+                allowedRemainingOccurrences,
+                file: fileName,
+                rows,
+                sha256,
+            });
+        }
+    }
+}
+
+/**
  * @param {string} scriptsDirectory
  * @param {ReturnType<typeof loadReview>} review
+ *
  * @returns {{
  *     failures: { error: string; file: string }[];
  *     missing: string[];
@@ -69,51 +118,16 @@ function verifyReviewApplied(scriptsDirectory, review) {
             const payload = extractPowerShellPayload(
                 fs.readFileSync(filePath, "utf8")
             );
-            const hashRows = new Map();
-            for (const [index, row] of payload.value
-                .replace(/\r\n?/gu, "\n")
-                .split("\n")
-                .entries()) {
-                const sha256 = getReviewEvidenceHash(
-                    stripAnsiControls(row)
-                );
-                const rows = hashRows.get(sha256) || [];
-                rows.push(index + 1);
-                hashRows.set(sha256, rows);
-            }
-            for (const item of evidence) {
-                const sha256 =
-                    item.sha256 ||
-                    (typeof item.text === "string"
-                        ? getReviewEvidenceHash(item.text)
-                        : null);
-                if (!sha256) {
-                    throw new Error(
-                        "Reviewed evidence lacks a verifiable hash."
-                    );
-                }
-                evidenceHashes += 1;
-                const rows = hashRows.get(sha256);
-                const allowedRemainingOccurrences =
-                    item.allowedRemainingOccurrences || 0;
-                if (
-                    rows &&
-                    rows.length > allowedRemainingOccurrences
-                ) {
-                    remaining.push({
-                        allowedRemainingOccurrences,
-                        file: fileName,
-                        rows,
-                        sha256,
-                    });
-                }
-            }
+            findRemainingEvidence(
+                fileName,
+                evidence,
+                indexPayloadRowHashes(payload.value),
+                remaining
+            );
+            evidenceHashes += evidence.length;
         } catch (error) {
             failures.push({
-                error:
-                    error instanceof Error
-                        ? error.message
-                        : String(error),
+                error: error instanceof Error ? error.message : String(error),
                 file: fileName,
             });
         }
@@ -134,6 +148,7 @@ function verifyReviewApplied(scriptsDirectory, review) {
 
 /**
  * @param {string[]} arguments_
+ *
  * @returns {{
  *     outputPath: string;
  *     reviewPath: string;
@@ -192,6 +207,7 @@ Options:
 
 /**
  * @param {string[]} arguments_
+ *
  * @returns {void}
  */
 function main(arguments_ = process.argv.slice(2)) {
@@ -201,16 +217,10 @@ function main(arguments_ = process.argv.slice(2)) {
         loadReview(options.reviewPath)
     );
     fs.mkdirSync(path.dirname(options.outputPath), { recursive: true });
-    writeFileAtomic(
-        options.outputPath,
-        `${JSON.stringify(result, null, 2)}\n`
-    );
+    writeFileAtomic(options.outputPath, `${JSON.stringify(result, null, 2)}\n`);
     console.log(JSON.stringify(result.summary, null, 2));
     console.log(`Report: ${options.outputPath}`);
-    if (
-        result.summary.failures > 0 ||
-        result.summary.remainingMatches > 0
-    ) {
+    if (result.summary.failures > 0 || result.summary.remainingMatches > 0) {
         process.exitCode = 1;
     }
 }

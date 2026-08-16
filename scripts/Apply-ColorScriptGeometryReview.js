@@ -13,9 +13,7 @@ const {
     removeRowsPreservingControls,
     replacePayloadRows,
 } = require("./Audit-ColorScriptContent.js");
-const {
-    assertSafeFileName,
-} = require("./Apply-ColorScriptContentReview.js");
+const { assertSafeFileName } = require("./Apply-ColorScriptContentReview.js");
 
 const REPOSITORY_ROOT = path.resolve(__dirname, "..");
 const DEFAULT_SCRIPTS_DIRECTORY = path.join(
@@ -26,6 +24,7 @@ const DEFAULT_SCRIPTS_DIRECTORY = path.join(
 
 /**
  * @param {string} value
+ *
  * @returns {string}
  */
 function getPayloadSha256(value) {
@@ -37,6 +36,7 @@ function getPayloadSha256(value) {
 /**
  * @param {string} targetPath
  * @param {string} content
+ *
  * @returns {void}
  */
 function writeFileAtomic(targetPath, content) {
@@ -47,6 +47,7 @@ function writeFileAtomic(targetPath, content) {
 
 /**
  * @param {unknown} document
+ *
  * @returns {{
  *     action: "crop-leading-blank-rows" | "crop-orphaned-tail";
  *     expectedPayloadSha256: string;
@@ -101,12 +102,9 @@ function validateManifest(document) {
             candidate.action === "crop-leading-blank-rows" &&
             (!Number.isSafeInteger(candidate.rows) ||
                 candidate.rows < 1 ||
-                !Number.isSafeInteger(
-                    candidate.preserveLeadingRows ?? 0
-                ) ||
+                !Number.isSafeInteger(candidate.preserveLeadingRows ?? 0) ||
                 (candidate.preserveLeadingRows ?? 0) < 0 ||
-                candidate.rows +
-                    (candidate.preserveLeadingRows ?? 0) >=
+                candidate.rows + (candidate.preserveLeadingRows ?? 0) >=
                     candidate.totalRows)
         ) {
             throw new Error(
@@ -139,6 +137,7 @@ function validateManifest(document) {
 /**
  * @param {string} source
  * @param {ReturnType<typeof validateManifest>[number]} action
+ *
  * @returns {{ removedRows: number; source: string }}
  */
 function applyGeometryAction(source, action) {
@@ -160,65 +159,10 @@ function applyGeometryAction(source, action) {
         );
     }
     const blankRows = getRenderedBlankRows(rows);
-    const indexes = new Set();
-    if (action.action === "crop-leading-blank-rows") {
-        const preserveLeadingRows = action.preserveLeadingRows ?? 0;
-        for (
-            let index = 0;
-            index < preserveLeadingRows;
-            index += 1
-        ) {
-            if (!blankRows[index]) {
-                throw new Error(
-                    `${action.script}: preserved presentation row ${index + 1} is no longer rendered blank.`
-                );
-            }
-        }
-        for (
-            let index = preserveLeadingRows;
-            index < preserveLeadingRows + action.rows;
-            index += 1
-        ) {
-            if (!blankRows[index]) {
-                throw new Error(
-                    `${action.script}: reviewed leading row ${index + 1} is no longer rendered blank.`
-                );
-            }
-            indexes.add(index);
-        }
-        if (blankRows[preserveLeadingRows + action.rows]) {
-            throw new Error(
-                `${action.script}: reviewed leading crop no longer ends before visible content.`
-            );
-        }
-    } else {
-        for (
-            let index = action.gapStartRow - 1;
-            index < action.gapEndRow;
-            index += 1
-        ) {
-            if (!blankRows[index]) {
-                throw new Error(
-                    `${action.script}: reviewed orphan gap row ${index + 1} is no longer rendered blank.`
-                );
-            }
-        }
-        const visibleTailRows = blankRows
-            .slice(action.gapEndRow)
-            .filter((isBlank) => !isBlank).length;
-        if (visibleTailRows !== action.visibleTailRows) {
-            throw new Error(
-                `${action.script}: reviewed orphan tail has drifted.`
-            );
-        }
-        for (
-            let index = action.keepRows;
-            index < rows.length;
-            index += 1
-        ) {
-            indexes.add(index);
-        }
-    }
+    const indexes =
+        action.action === "crop-leading-blank-rows"
+            ? collectLeadingCropRows(blankRows, action)
+            : collectOrphanTailRows(blankRows, rows.length, action);
     const updatedRows = removeRowsPreservingControls(rows, indexes);
     return {
         removedRows: indexes.size,
@@ -229,7 +173,77 @@ function applyGeometryAction(source, action) {
 }
 
 /**
+ * @param {boolean[]} blankRows
+ * @param {ReturnType<typeof validateManifest>[number]} action
+ *
+ * @returns {Set<number>}
+ */
+function collectLeadingCropRows(blankRows, action) {
+    const preserveLeadingRows = action.preserveLeadingRows ?? 0;
+    for (let index = 0; index < preserveLeadingRows; index += 1) {
+        if (!blankRows[index]) {
+            throw new Error(
+                `${action.script}: preserved presentation row ${index + 1} is no longer rendered blank.`
+            );
+        }
+    }
+    const indexes = new Set();
+    for (
+        let index = preserveLeadingRows;
+        index < preserveLeadingRows + action.rows;
+        index += 1
+    ) {
+        if (!blankRows[index]) {
+            throw new Error(
+                `${action.script}: reviewed leading row ${index + 1} is no longer rendered blank.`
+            );
+        }
+        indexes.add(index);
+    }
+    if (blankRows[preserveLeadingRows + action.rows]) {
+        throw new Error(
+            `${action.script}: reviewed leading crop no longer ends before visible content.`
+        );
+    }
+    return indexes;
+}
+
+/**
+ * @param {boolean[]} blankRows
+ * @param {number} rowCount
+ * @param {ReturnType<typeof validateManifest>[number]} action
+ *
+ * @returns {Set<number>}
+ */
+function collectOrphanTailRows(blankRows, rowCount, action) {
+    for (
+        let index = action.gapStartRow - 1;
+        index < action.gapEndRow;
+        index += 1
+    ) {
+        if (!blankRows[index]) {
+            throw new Error(
+                `${action.script}: reviewed orphan gap row ${index + 1} is no longer rendered blank.`
+            );
+        }
+    }
+    const visibleTailRows = blankRows
+        .slice(action.gapEndRow)
+        .filter((isBlank) => !isBlank).length;
+    if (visibleTailRows !== action.visibleTailRows) {
+        throw new Error(`${action.script}: reviewed orphan tail has drifted.`);
+    }
+    return new Set(
+        Array.from(
+            { length: rowCount - action.keepRows },
+            (unusedValue, index) => index + action.keepRows
+        )
+    );
+}
+
+/**
  * @param {string[]} arguments_
+ *
  * @returns {{
  *     manifestPath: string;
  *     onlyScript: string | null;
@@ -287,13 +301,12 @@ Options:
 
 /**
  * @param {string[]} arguments_
+ *
  * @returns {{ changedFiles: number; removedRows: number; write: boolean }}
  */
 function main(arguments_ = process.argv.slice(2)) {
     const options = parseArguments(arguments_);
-    const manifest = JSON.parse(
-        fs.readFileSync(options.manifestPath, "utf8")
-    );
+    const manifest = JSON.parse(fs.readFileSync(options.manifestPath, "utf8"));
     const manifestActions = validateManifest(manifest);
     const actions =
         options.onlyScript == null
@@ -308,10 +321,7 @@ function main(arguments_ = process.argv.slice(2)) {
     }
     let removedRows = 0;
     for (const action of actions) {
-        const filePath = path.join(
-            options.scriptsDirectory,
-            action.script
-        );
+        const filePath = path.join(options.scriptsDirectory, action.script);
         if (!fs.existsSync(filePath)) {
             throw new Error(`${action.script}: reviewed script is missing.`);
         }
