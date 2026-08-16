@@ -393,6 +393,49 @@ function loadAnalysisExceptions(filePath) {
 }
 
 /**
+ * @param {ReturnType<typeof loadAnalysisExceptions>[number]} exception
+ */
+function formatAnalysisException(exception) {
+    const panelSuffix = exception.panel ? `/panel${exception.panel}` : "";
+    const rowSuffix = exception.boundaryAfterRow
+        ? `/row${exception.boundaryAfterRow}`
+        : "";
+    return `${exception.issueType}/${exception.family}${panelSuffix}${rowSuffix}`;
+}
+
+/**
+ * @param {Record<string, unknown>} issue
+ * @param {ReturnType<typeof loadAnalysisExceptions>[number]} exception
+ */
+function matchesAnalysisException(issue, exception) {
+    const panelMatches =
+        exception.panel === undefined || issue.panel === exception.panel;
+    const rowMatches =
+        exception.boundaryAfterRow === undefined ||
+        issue.boundaryAfterRow === exception.boundaryAfterRow;
+    return (
+        issue.type === exception.issueType &&
+        issue.family === exception.family &&
+        panelMatches &&
+        rowMatches
+    );
+}
+
+/**
+ * @param {Record<string, unknown>[]} issues
+ * @param {ReturnType<typeof loadAnalysisExceptions>[number]} exception
+ */
+function findExceptionMatches(issues, exception) {
+    const matchingIndexes = [];
+    for (const [index, issue] of issues.entries()) {
+        if (matchesAnalysisException(issue, exception)) {
+            matchingIndexes.push(index);
+        }
+    }
+    return matchingIndexes;
+}
+
+/**
  * Suppress only exact, currently present findings. A stale, duplicate, or
  * ambiguous entry is an error so the exception ledger cannot quietly rot.
  *
@@ -410,34 +453,15 @@ function applyAnalysisExceptions(issues, exceptions) {
     for (const exception of exceptions) {
         const signature = `${exception.issueType}\0${exception.family}\0${exception.panel ?? "*"}\0${exception.boundaryAfterRow ?? "*"}`;
         if (signatures.has(signature)) {
-            const panelSuffix = exception.panel
-                ? `/panel${exception.panel}`
-                : "";
-            const rowSuffix = exception.boundaryAfterRow
-                ? `/row${exception.boundaryAfterRow}`
-                : "";
             throw new Error(
-                `Duplicate analysis exception for ${exception.issueType}/${exception.family}${panelSuffix}${rowSuffix}.`
+                `Duplicate analysis exception for ${formatAnalysisException(exception)}.`
             );
         }
         signatures.add(signature);
-        const matchingIndexes = [];
-        for (let index = 0; index < issues.length; index += 1) {
-            const issue = issues[index];
-            if (
-                issue.type === exception.issueType &&
-                issue.family === exception.family &&
-                (exception.panel === undefined ||
-                    issue.panel === exception.panel) &&
-                (exception.boundaryAfterRow === undefined ||
-                    issue.boundaryAfterRow === exception.boundaryAfterRow)
-            ) {
-                matchingIndexes.push(index);
-            }
-        }
+        const matchingIndexes = findExceptionMatches(issues, exception);
         if (matchingIndexes.length !== 1) {
             throw new Error(
-                `Stale or ambiguous analysis exception for ${exception.issueType}/${exception.family}${exception.panel ? `/panel${exception.panel}` : ""}${exception.boundaryAfterRow ? `/row${exception.boundaryAfterRow}` : ""}: matched ${matchingIndexes.length} findings.`
+                `Stale or ambiguous analysis exception for ${formatAnalysisException(exception)}: matched ${matchingIndexes.length} findings.`
             );
         }
         suppressedIndexes.add(matchingIndexes[0]);
