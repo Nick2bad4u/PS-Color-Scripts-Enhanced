@@ -158,6 +158,29 @@ function parsePowerShellStringArray(lines, startIndex, context) {
 }
 
 /**
+ * Parse one fixed-indentation property assignment without a backtracking
+ * expression. Unsupported lines remain non-assignments and are ignored by the
+ * containing data-block parser.
+ *
+ * @param {string} line
+ *
+ * @returns {{ name: string; rawValue: string } | null}
+ */
+function parseEntryAssignment(line) {
+    const indentation = "            ";
+    if (!line.startsWith(indentation)) return null;
+    const assignment = line.slice(indentation.length);
+    const separator = assignment.indexOf("=");
+    if (separator < 1) return null;
+    const name = assignment.slice(0, separator).trimEnd();
+    if (!/^[A-Za-z][A-Za-z\d]*$/u.test(name)) return null;
+    return {
+        name,
+        rawValue: assignment.slice(separator + 1).trimStart(),
+    };
+}
+
+/**
  * @param {string} block
  * @param {string} context
  *
@@ -167,17 +190,14 @@ function parseEntryProperties(block, context) {
     /** @type {Record<string, ProvenanceValue>} */
     const properties = {};
     const lines = block.replaceAll("\r\n", "\n").split("\n");
-    for (let index = 0; index < lines.length; index += 1) {
-        const match =
-            /^ {12}([A-Za-z][A-Za-z\d]*)[ \t]*=[ \t]*([^\r\n]*)$/u.exec(
-                lines[index]
-            );
-        if (!match) continue;
-        const [
-            ,
-            name,
-            rawValue,
-        ] = match;
+    let index = 0;
+    while (index < lines.length) {
+        const assignment = parseEntryAssignment(lines[index]);
+        if (!assignment) {
+            index += 1;
+            continue;
+        }
+        const { name, rawValue } = assignment;
         if (Object.hasOwn(properties, name)) {
             throw new Error(`${context}: duplicate property ${name}.`);
         }
@@ -186,6 +206,7 @@ function parseEntryProperties(block, context) {
                 rawValue,
                 `${context}.${name}`
             );
+            index += 1;
             continue;
         }
         const parsedArray = parsePowerShellStringArray(
@@ -193,8 +214,8 @@ function parseEntryProperties(block, context) {
             index + 1,
             `${context}.${name}`
         );
-        index = parsedArray.endIndex;
         properties[name] = parsedArray.value;
+        index = parsedArray.endIndex + 1;
     }
     return Object.freeze(properties);
 }
