@@ -1888,6 +1888,177 @@ function getTerminalRows(terminal) {
 }
 
 /**
+ * @param {Record<string, unknown>} attrs
+ *
+ * @returns {{ background: string; foreground: string }}
+ */
+function getPreviewCellColors(attrs) {
+    let foreground = attrs.fg;
+    let background = attrs.bg;
+    if (attrs.inverse) [foreground, background] = [background, foreground];
+    const backgroundColor = colorToPreviewHex(background) || "#000000";
+    const defaultForeground = ANSI_PREVIEW_PALETTE[attrs.bold ? 15 : 7];
+    return {
+        background: backgroundColor,
+        foreground: attrs.hidden
+            ? backgroundColor
+            : colorToPreviewHex(foreground, Boolean(attrs.bold)) ||
+              defaultForeground,
+    };
+}
+
+/**
+ * @param {string[]} svg
+ * @param {{ start: number; end: number; color: string } | null} run
+ * @param {number} rowNumber
+ * @param {{ width: number; height: number }} cell
+ */
+function flushPreviewBackground(svg, run, rowNumber, cell) {
+    if (!run) return;
+    svg.push(
+        `<rect x="${run.start * cell.width}" y="${rowNumber * cell.height}" width="${(run.end - run.start + 1) * cell.width}" height="${cell.height}" fill="${run.color}"/>`
+    );
+}
+
+/**
+ * @param {string[]} svg
+ * @param {{ start: number; end: number; color: string } | null} run
+ * @param {number} column
+ * @param {string} color
+ * @param {number} rowNumber
+ * @param {{ width: number; height: number }} cell
+ *
+ * @returns {{ start: number; end: number; color: string } | null}
+ */
+function updatePreviewBackground(svg, run, column, color, rowNumber, cell) {
+    if (color === "#000000") {
+        flushPreviewBackground(svg, run, rowNumber, cell);
+        return null;
+    }
+    if (run && run.end + 1 === column && run.color === color) {
+        return { ...run, end: column };
+    }
+    flushPreviewBackground(svg, run, rowNumber, cell);
+    return { start: column, end: column, color };
+}
+
+/**
+ * @param {string[]} text
+ * @param {{
+ *     start: number;
+ *     chars: string[];
+ *     color: string;
+ *     bold: boolean;
+ *     underline: boolean;
+ *     strike: boolean;
+ * } | null} run
+ * @param {number} rowNumber
+ * @param {{ width: number; height: number }} cell
+ */
+function flushPreviewText(text, run, rowNumber, cell) {
+    if (!run) return;
+    const value = run.chars.join("");
+    if (!/\S/u.test(value)) return;
+    const decorations = [
+        run.underline ? "underline" : "",
+        run.strike ? "line-through" : "",
+    ]
+        .filter(Boolean)
+        .join(" ");
+    const boldAttribute = run.bold ? ' font-weight="700"' : "";
+    const decorationAttribute = decorations
+        ? ` text-decoration="${decorations}"`
+        : "";
+    text.push(
+        `<text x="${run.start * cell.width}" y="${rowNumber * cell.height + 13}" fill="${run.color}" font-family="Consolas, 'Courier New', monospace" font-size="16"${boldAttribute}${decorationAttribute} textLength="${run.chars.length * cell.width}" lengthAdjust="spacingAndGlyphs" xml:space="preserve">${escapeXmlText(value)}</text>`
+    );
+}
+
+/**
+ * @param {string[]} text
+ * @param {Record<string, unknown> | null} run
+ * @param {number} column
+ * @param {{ char: string; attrs: Record<string, unknown> }} terminalCell
+ * @param {string} foreground
+ * @param {number} rowNumber
+ * @param {{ width: number; height: number }} cell
+ *
+ * @returns {Record<string, unknown>}
+ */
+function updatePreviewText(
+    text,
+    run,
+    column,
+    terminalCell,
+    foreground,
+    rowNumber,
+    cell
+) {
+    const attrs = terminalCell.attrs;
+    const key = [
+        foreground,
+        Boolean(attrs.bold),
+        Boolean(attrs.underline),
+        Boolean(attrs.strike),
+    ].join("|");
+    if (run && run.end + 1 === column && run.key === key) {
+        run.end = column;
+        run.chars.push(terminalCell.char);
+        return run;
+    }
+    flushPreviewText(text, run, rowNumber, cell);
+    return {
+        start: column,
+        end: column,
+        key,
+        color: foreground,
+        chars: [terminalCell.char],
+        bold: Boolean(attrs.bold),
+        underline: Boolean(attrs.underline),
+        strike: Boolean(attrs.strike),
+    };
+}
+
+/**
+ * @param {string[]} svg
+ * @param {string[]} text
+ * @param {number} rowNumber
+ * @param {{
+ *     cells: Map<number, { char: string; attrs: Record<string, unknown> }>;
+ * }} row
+ * @param {{ width: number; height: number }} cell
+ */
+function renderTerminalPreviewRow(svg, text, rowNumber, row, cell) {
+    const cells = [...row.cells.entries()].sort(
+        (left, right) => left[0] - right[0]
+    );
+    let backgroundRun = null;
+    let textRun = null;
+    for (const [column, terminalCell] of cells) {
+        const colors = getPreviewCellColors(terminalCell.attrs);
+        backgroundRun = updatePreviewBackground(
+            svg,
+            backgroundRun,
+            column,
+            colors.background,
+            rowNumber,
+            cell
+        );
+        textRun = updatePreviewText(
+            text,
+            textRun,
+            column,
+            terminalCell,
+            colors.foreground,
+            rowNumber,
+            cell
+        );
+    }
+    flushPreviewBackground(svg, backgroundRun, rowNumber, cell);
+    flushPreviewText(text, textRun, rowNumber, cell);
+}
+
+/**
  * Write a browser-safe, fixed-cell SVG fallback when an archive does not
  * provide an official preview. This is a review artifact only; conversion and
  * hashes continue to use the terminal cell matrix directly.
@@ -1913,121 +2084,18 @@ function writeTerminalPreviewSvg(terminal, outputPath) {
         Number(terminalRecord.maxCol) + 1 || 0
     );
     const rowCount = Math.max(1, Number(terminalRecord.maxRow) + 1 || 0);
-    const cellWidth = 8;
-    const cellHeight = 16;
+    const cell = { width: 8, height: 16 };
     const svg = [
         '<?xml version="1.0" encoding="UTF-8"?>',
-        `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${columns * cellWidth} ${rowCount * cellHeight}" width="${columns * cellWidth}" height="${rowCount * cellHeight}">`,
-        `<rect width="${columns * cellWidth}" height="${rowCount * cellHeight}" fill="#000000"/>`,
+        `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${columns * cell.width} ${rowCount * cell.height}" width="${columns * cell.width}" height="${rowCount * cell.height}">`,
+        `<rect width="${columns * cell.width}" height="${rowCount * cell.height}" fill="#000000"/>`,
         '<g shape-rendering="crispEdges">',
     ];
     const text = [];
     for (const [rowNumber, row] of [...rows.entries()].sort(
         (left, right) => left[0] - right[0]
     )) {
-        const cells = [...row.cells.entries()].sort(
-            (left, right) => left[0] - right[0]
-        );
-        /** @type {{ start: number; end: number; color: string } | null} */
-        let backgroundRun = null;
-        /**
-         * @type {{
-         *     start: number;
-         *     end: number;
-         *     key: string;
-         *     color: string;
-         *     chars: string[];
-         *     bold: boolean;
-         *     underline: boolean;
-         *     strike: boolean;
-         * } | null}
-         */
-        let textRun = null;
-        const flushBackground = () => {
-            if (!backgroundRun) return;
-            svg.push(
-                `<rect x="${backgroundRun.start * cellWidth}" y="${rowNumber * cellHeight}" width="${(backgroundRun.end - backgroundRun.start + 1) * cellWidth}" height="${cellHeight}" fill="${backgroundRun.color}"/>`
-            );
-            backgroundRun = null;
-        };
-        const flushText = () => {
-            if (!textRun) return;
-            const value = textRun.chars.join("");
-            if (/\S/u.test(value)) {
-                const decorations = [
-                    textRun.underline ? "underline" : "",
-                    textRun.strike ? "line-through" : "",
-                ]
-                    .filter(Boolean)
-                    .join(" ");
-                const boldAttribute = textRun.bold ? ' font-weight="700"' : "";
-                const decorationAttribute = decorations
-                    ? ` text-decoration="${decorations}"`
-                    : "";
-                text.push(
-                    `<text x="${textRun.start * cellWidth}" y="${rowNumber * cellHeight + 13}" fill="${textRun.color}" font-family="Consolas, 'Courier New', monospace" font-size="16"${boldAttribute}${decorationAttribute} textLength="${textRun.chars.length * cellWidth}" lengthAdjust="spacingAndGlyphs" xml:space="preserve">${escapeXmlText(value)}</text>`
-                );
-            }
-            textRun = null;
-        };
-        for (const [column, cell] of cells) {
-            const attrs = cell.attrs;
-            let foreground = attrs.fg;
-            let background = attrs.bg;
-            if (attrs.inverse) {
-                [foreground, background] = [background, foreground];
-            }
-            const backgroundColor = colorToPreviewHex(background) || "#000000";
-            const defaultForegroundColor =
-                ANSI_PREVIEW_PALETTE[attrs.bold ? 15 : 7];
-            const foregroundColor = attrs.hidden
-                ? backgroundColor
-                : colorToPreviewHex(foreground, Boolean(attrs.bold)) ||
-                  defaultForegroundColor;
-            if (backgroundColor !== "#000000") {
-                if (
-                    backgroundRun &&
-                    backgroundRun.end + 1 === column &&
-                    backgroundRun.color === backgroundColor
-                ) {
-                    backgroundRun.end = column;
-                } else {
-                    flushBackground();
-                    backgroundRun = {
-                        start: column,
-                        end: column,
-                        color: backgroundColor,
-                    };
-                }
-            } else {
-                flushBackground();
-            }
-
-            const key = [
-                foregroundColor,
-                Boolean(attrs.bold),
-                Boolean(attrs.underline),
-                Boolean(attrs.strike),
-            ].join("|");
-            if (textRun && textRun.end + 1 === column && textRun.key === key) {
-                textRun.end = column;
-                textRun.chars.push(cell.char);
-            } else {
-                flushText();
-                textRun = {
-                    start: column,
-                    end: column,
-                    key,
-                    color: foregroundColor,
-                    chars: [cell.char],
-                    bold: Boolean(attrs.bold),
-                    underline: Boolean(attrs.underline),
-                    strike: Boolean(attrs.strike),
-                };
-            }
-        }
-        flushBackground();
-        flushText();
+        renderTerminalPreviewRow(svg, text, rowNumber, row, cell);
     }
     svg.push(
         "</g>",
