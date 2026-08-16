@@ -87,6 +87,155 @@ function getAnalysisRowOffset(
 }
 
 /**
+ * @param {string} scriptName
+ * @param {string} scriptsDirectory
+ *
+ * @returns {string | null}
+ */
+function getExternalSourceRows(scriptName, scriptsDirectory) {
+    const isCheckedInDirectory =
+        path.resolve(scriptsDirectory).toLowerCase() ===
+        path.resolve(DEFAULT_SCRIPTS_DIRECTORY).toLowerCase();
+    if (!isCheckedInDirectory) return null;
+    checkedInProvenance ??= readArtworkProvenance();
+    const sourceRows = checkedInProvenance.scripts.get(scriptName)?.SourceRows;
+    return typeof sourceRows === "string" ? sourceRows : null;
+}
+
+/**
+ * @param {object} finding
+ * @param {string} scriptsDirectory
+ */
+function loadGeometryFinding(finding, scriptsDirectory) {
+    if (
+        typeof finding.script !== "string" ||
+        typeof finding.rationale !== "string"
+    ) {
+        throw new TypeError("Geometry classification finding is malformed.");
+    }
+    assertSafeScriptName(finding.script);
+    const script = `${finding.script}.ps1`;
+    const filePath = path.join(scriptsDirectory, script);
+    if (!fs.existsSync(filePath)) {
+        throw new Error(`${script}: reviewed script is missing.`);
+    }
+    const source = fs.readFileSync(filePath, "utf8");
+    if (isSourceFidelityLocked(source)) {
+        throw new Error(
+            `${script}: source-fidelity-locked payload cannot enter a geometry manifest.`
+        );
+    }
+    const payload = extractPowerShellPayload(source);
+    const rows = payload.value.replace(/\r\n?/gu, "\n").split("\n");
+    const blankRows = getRenderedBlankRows(rows);
+    const presentationRows = payload.kind === "literal" && blankRows[0] ? 1 : 0;
+    const analysisRowOffset = getAnalysisRowOffset(
+        source,
+        rows,
+        presentationRows,
+        finding,
+        getExternalSourceRows(finding.script, scriptsDirectory)
+    );
+    return {
+        analysisRowOffset,
+        blankRows,
+        common: {
+            action: ACTION_MAP.get(finding.recommendedAction),
+            expectedPayloadSha256: getPayloadSha256(payload.value),
+            reason: finding.rationale,
+            script,
+            totalRows: rows.length,
+        },
+        presentationRows,
+        rows,
+        script,
+    };
+}
+
+/**
+ * @param {object} finding
+ * @param {ReturnType<typeof loadGeometryFinding>} context
+ */
+function createLeadingGeometryAction(finding, context) {
+    const classifiedPresentationRows =
+        context.analysisRowOffset === 0 ? context.presentationRows : 0;
+    const removableRows = finding.rows - classifiedPresentationRows;
+    const reviewedRowsAreBlank = context.blankRows
+        .slice(
+            context.presentationRows,
+            context.presentationRows + removableRows
+        )
+        .every(Boolean);
+    const valid =
+        Number.isSafeInteger(finding.rows) &&
+        Number.isSafeInteger(removableRows) &&
+        removableRows >= 1 &&
+        removableRows + context.presentationRows < context.rows.length &&
+        reviewedRowsAreBlank &&
+        !context.blankRows[context.presentationRows + removableRows];
+    if (!valid) {
+        throw new Error(
+            `${context.script}: leading geometry no longer matches the reviewed finding.`
+        );
+    }
+    return {
+        ...context.common,
+        preserveLeadingRows: context.presentationRows,
+        rows: removableRows,
+    };
+}
+
+/**
+ * @param {object} finding
+ * @param {ReturnType<typeof loadGeometryFinding>} context
+ */
+function createOrphanTailGeometryAction(finding, context) {
+    const gapStartRow = finding.startRow + context.analysisRowOffset;
+    const gapEndRow = finding.endRow + context.analysisRowOffset;
+    const reviewedGapIsBlank = context.blankRows
+        .slice(gapStartRow - 1, gapEndRow)
+        .every(Boolean);
+    const valid =
+        Number.isSafeInteger(finding.startRow) &&
+        Number.isSafeInteger(finding.endRow) &&
+        finding.startRow >= 2 &&
+        finding.endRow >= finding.startRow &&
+        gapEndRow < context.rows.length &&
+        reviewedGapIsBlank;
+    if (!valid) {
+        throw new Error(
+            `${context.script}: orphan-tail geometry no longer matches the reviewed finding.`
+        );
+    }
+    const visibleTailRows = context.blankRows
+        .slice(gapEndRow)
+        .filter((isBlank) => !isBlank).length;
+    if (visibleTailRows < 1) {
+        throw new Error(
+            `${context.script}: reviewed orphan tail is now blank.`
+        );
+    }
+    return {
+        ...context.common,
+        gapEndRow,
+        gapStartRow,
+        keepRows: gapStartRow - 1,
+        visibleTailRows,
+    };
+}
+
+/**
+ * @param {object} finding
+ * @param {string} scriptsDirectory
+ */
+function createGeometryAction(finding, scriptsDirectory) {
+    const context = loadGeometryFinding(finding, scriptsDirectory);
+    return context.common.action === "crop-leading-blank-rows"
+        ? createLeadingGeometryAction(finding, context)
+        : createOrphanTailGeometryAction(finding, context);
+}
+
+/**
  * @param {unknown} classification
  * @param {string} scriptsDirectory
  *
@@ -110,110 +259,7 @@ function createGeometryReviewManifest(classification, scriptsDirectory) {
         ) {
             continue;
         }
-        if (
-            typeof finding.script !== "string" ||
-            typeof finding.rationale !== "string"
-        ) {
-            throw new TypeError(
-                "Geometry classification finding is malformed."
-            );
-        }
-        assertSafeScriptName(finding.script);
-        const script = `${finding.script}.ps1`;
-        const filePath = path.join(scriptsDirectory, script);
-        if (!fs.existsSync(filePath)) {
-            throw new Error(`${script}: reviewed script is missing.`);
-        }
-        const source = fs.readFileSync(filePath, "utf8");
-        let externalSourceRows = null;
-        if (
-            path.resolve(scriptsDirectory).toLowerCase() ===
-            path.resolve(DEFAULT_SCRIPTS_DIRECTORY).toLowerCase()
-        ) {
-            checkedInProvenance ??= readArtworkProvenance();
-            const entry = checkedInProvenance.scripts.get(finding.script);
-            externalSourceRows =
-                typeof entry?.SourceRows === "string" ? entry.SourceRows : null;
-        }
-        if (isSourceFidelityLocked(source)) {
-            throw new Error(
-                `${script}: source-fidelity-locked payload cannot enter a geometry manifest.`
-            );
-        }
-        const payload = extractPowerShellPayload(source);
-        const rows = payload.value.replace(/\r\n?/gu, "\n").split("\n");
-        const blankRows = getRenderedBlankRows(rows);
-        const presentationRows =
-            payload.kind === "literal" && blankRows[0] ? 1 : 0;
-        const analysisRowOffset = getAnalysisRowOffset(
-            source,
-            rows,
-            presentationRows,
-            finding,
-            externalSourceRows
-        );
-        const action = ACTION_MAP.get(finding.recommendedAction);
-        const common = {
-            action,
-            expectedPayloadSha256: getPayloadSha256(payload.value),
-            reason: finding.rationale,
-            script,
-            totalRows: rows.length,
-        };
-        if (action === "crop-leading-blank-rows") {
-            const classifiedPresentationRows =
-                analysisRowOffset === 0 ? presentationRows : 0;
-            const removableRows = finding.rows - classifiedPresentationRows;
-            if (
-                !Number.isSafeInteger(finding.rows) ||
-                !Number.isSafeInteger(removableRows) ||
-                removableRows < 1 ||
-                removableRows + presentationRows >= rows.length ||
-                blankRows
-                    .slice(presentationRows, presentationRows + removableRows)
-                    .some((isBlank) => !isBlank) ||
-                blankRows[presentationRows + removableRows]
-            ) {
-                throw new Error(
-                    `${script}: leading geometry no longer matches the reviewed finding.`
-                );
-            }
-            actions.push({
-                ...common,
-                preserveLeadingRows: presentationRows,
-                rows: removableRows,
-            });
-            continue;
-        }
-        const gapStartRow = finding.startRow + analysisRowOffset;
-        const gapEndRow = finding.endRow + analysisRowOffset;
-        if (
-            !Number.isSafeInteger(finding.startRow) ||
-            !Number.isSafeInteger(finding.endRow) ||
-            finding.startRow < 2 ||
-            finding.endRow < finding.startRow ||
-            gapEndRow >= rows.length ||
-            blankRows
-                .slice(gapStartRow - 1, gapEndRow)
-                .some((isBlank) => !isBlank)
-        ) {
-            throw new Error(
-                `${script}: orphan-tail geometry no longer matches the reviewed finding.`
-            );
-        }
-        const visibleTailRows = blankRows
-            .slice(gapEndRow)
-            .filter((isBlank) => !isBlank).length;
-        if (visibleTailRows < 1) {
-            throw new Error(`${script}: reviewed orphan tail is now blank.`);
-        }
-        actions.push({
-            ...common,
-            gapEndRow,
-            gapStartRow,
-            keepRows: gapStartRow - 1,
-            visibleTailRows,
-        });
+        actions.push(createGeometryAction(finding, scriptsDirectory));
     }
     const manifest = {
         schemaVersion: 1,

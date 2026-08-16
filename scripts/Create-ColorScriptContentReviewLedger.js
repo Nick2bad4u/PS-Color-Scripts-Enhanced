@@ -134,6 +134,140 @@ function addEvidence(candidates, evidence) {
 }
 
 /**
+ * @param {unknown} candidate
+ * @param {Map<string, Map<number, object>>} candidates
+ */
+function addRawCandidateEvidence(candidate, candidates) {
+    if (
+        !candidate ||
+        typeof candidate !== "object" ||
+        typeof candidate.file !== "string" ||
+        !Array.isArray(candidate.evidence)
+    ) {
+        throw new Error("Raw review candidate is malformed.");
+    }
+    assertSafeFileName(candidate.file);
+    if (candidate.sourceFidelityLocked === true) {
+        throw new Error(
+            `${candidate.file}: source-fidelity-locked payload cannot enter the review ledger.`
+        );
+    }
+    for (const evidence of candidate.evidence) {
+        if (
+            !evidence ||
+            typeof evidence !== "object" ||
+            !Number.isInteger(evidence.row) ||
+            evidence.row < 1 ||
+            typeof evidence.text !== "string" ||
+            (evidence.action != null &&
+                evidence.action !== "blank-text" &&
+                evidence.action !== "remove-row")
+        ) {
+            throw new Error(
+                `${candidate.file}: raw row evidence is malformed.`
+            );
+        }
+        const severity =
+            typeof evidence.severity === "string" &&
+            ALLOWED_SEVERITIES.has(evidence.severity)
+                ? evidence.severity
+                : undefined;
+        addEvidence(candidates, {
+            action:
+                evidence.action === "remove-row" ? "remove-row" : "blank-text",
+            categories: normalizeCategories(
+                evidence.categories ?? evidence.category
+            ),
+            file: candidate.file,
+            row: evidence.row,
+            ...(severity ? { severity } : {}),
+            sha256: getReviewEvidenceHash(evidence.text),
+        });
+    }
+}
+
+/**
+ * @param {Map<string, Map<number, object>>} candidates
+ * @param {{
+ *     action: "blank-text" | "remove-row";
+ *     categories: string[];
+ *     file: string;
+ *     row: number;
+ * }} evidence
+ * @param {string} scriptsDirectory
+ */
+function addSupplementalEvidence(candidates, evidence, scriptsDirectory) {
+    const filePath = path.join(scriptsDirectory, evidence.file);
+    if (!fs.existsSync(filePath)) {
+        throw new Error(
+            `${evidence.file}: additional review target is missing.`
+        );
+    }
+    const payload = extractPowerShellPayload(fs.readFileSync(filePath, "utf8"));
+    const rows = payload.value.replace(/\r\n?/gu, "\n").split("\n");
+    const row = rows[evidence.row - 1];
+    if (row == null) {
+        throw new RangeError(
+            `${evidence.file}: additional review row ${evidence.row} is outside the payload.`
+        );
+    }
+    addEvidence(candidates, {
+        action: evidence.action,
+        categories: evidence.categories,
+        file: evidence.file,
+        row: evidence.row,
+        severity: "critical",
+        sha256: getReviewEvidenceHash(stripAnsiControls(row)),
+    });
+}
+
+/**
+ * @param {Map<string, Map<number, object>>} candidates
+ */
+function buildReviewedCandidates(candidates) {
+    return [...candidates]
+        .sort(([left], [right]) => left.localeCompare(right, "en-US"))
+        .map(([file, rows]) => ({
+            evidence: [...rows.values()].sort(
+                (left, right) => left.row - right.row
+            ),
+            file,
+        }));
+}
+
+/**
+ * @param {{
+ *     candidates: unknown[];
+ *     explicitExceptions?: unknown[];
+ *     falsePositives?: unknown[];
+ *     parseFailures?: unknown[];
+ *     summary?: Record<string, unknown>;
+ * }} raw
+ */
+function buildSourceAudit(raw) {
+    const summary = raw.summary || {};
+    return {
+        candidateFiles:
+            typeof summary.candidateFiles === "number"
+                ? summary.candidateFiles
+                : raw.candidates.length,
+        explicitFunctionalExceptions: Array.isArray(raw.explicitExceptions)
+            ? raw.explicitExceptions.length
+            : 0,
+        filesScanned:
+            typeof summary.filesScanned === "number"
+                ? summary.filesScanned
+                : null,
+        parseFailures: Array.isArray(raw.parseFailures)
+            ? raw.parseFailures.length
+            : 0,
+        reviewedFalsePositiveRows: Array.isArray(raw.falsePositives)
+            ? raw.falsePositives.length
+            : 0,
+    };
+}
+
+/**
  * @param {unknown} rawDocument
  * @param {{
  *     action: "blank-text" | "remove-row";
@@ -166,121 +300,25 @@ function createReviewLedger(rawDocument, additional, scriptsDirectory) {
     const candidates = new Map();
 
     for (const candidate of raw.candidates) {
-        if (
-            !candidate ||
-            typeof candidate !== "object" ||
-            typeof candidate.file !== "string" ||
-            !Array.isArray(candidate.evidence)
-        ) {
-            throw new Error("Raw review candidate is malformed.");
-        }
-        assertSafeFileName(candidate.file);
-        if (candidate.sourceFidelityLocked === true) {
-            throw new Error(
-                `${candidate.file}: source-fidelity-locked payload cannot enter the review ledger.`
-            );
-        }
-        for (const evidence of candidate.evidence) {
-            if (
-                !evidence ||
-                typeof evidence !== "object" ||
-                !Number.isInteger(evidence.row) ||
-                evidence.row < 1 ||
-                typeof evidence.text !== "string" ||
-                (evidence.action != null &&
-                    evidence.action !== "blank-text" &&
-                    evidence.action !== "remove-row")
-            ) {
-                throw new Error(
-                    `${candidate.file}: raw row evidence is malformed.`
-                );
-            }
-            const severity =
-                typeof evidence.severity === "string" &&
-                ALLOWED_SEVERITIES.has(evidence.severity)
-                    ? evidence.severity
-                    : undefined;
-            addEvidence(candidates, {
-                action:
-                    evidence.action === "remove-row"
-                        ? "remove-row"
-                        : "blank-text",
-                categories: normalizeCategories(
-                    evidence.categories ?? evidence.category
-                ),
-                file: candidate.file,
-                row: evidence.row,
-                ...(severity ? { severity } : {}),
-                sha256: getReviewEvidenceHash(evidence.text),
-            });
-        }
+        addRawCandidateEvidence(candidate, candidates);
     }
 
     for (const evidence of additional) {
-        const filePath = path.join(scriptsDirectory, evidence.file);
-        if (!fs.existsSync(filePath)) {
-            throw new Error(
-                `${evidence.file}: additional review target is missing.`
-            );
-        }
-        const payload = extractPowerShellPayload(
-            fs.readFileSync(filePath, "utf8")
-        );
-        const rows = payload.value.replace(/\r\n?/gu, "\n").split("\n");
-        const row = rows[evidence.row - 1];
-        if (row == null) {
-            throw new RangeError(
-                `${evidence.file}: additional review row ${evidence.row} is outside the payload.`
-            );
-        }
-        addEvidence(candidates, {
-            action: evidence.action,
-            categories: evidence.categories,
-            file: evidence.file,
-            row: evidence.row,
-            severity: "critical",
-            sha256: getReviewEvidenceHash(stripAnsiControls(row)),
-        });
+        addSupplementalEvidence(candidates, evidence, scriptsDirectory);
     }
 
-    const reviewedCandidates = [...candidates]
-        .sort(([left], [right]) => left.localeCompare(right, "en-US"))
-        .map(([file, rows]) => ({
-            evidence: [...rows.values()].sort(
-                (left, right) => left.row - right.row
-            ),
-            file,
-        }));
+    const reviewedCandidates = buildReviewedCandidates(candidates);
     const evidenceRows = reviewedCandidates.reduce(
         (total, candidate) => total + candidate.evidence.length,
         0
     );
-    const summary = raw.summary || {};
     return {
         schemaVersion: 1,
         reviewedAt: "2026-07-27",
         normalization:
             "SHA-256 of UTF-8 rendered row text after ANSI-control removal and outer-whitespace trimming.",
         policy: "Rows were manually reviewed for contact details, identifying information, promotional blocks, or policy-ineligible standalone text. Hash-only evidence avoids retaining removed text.",
-        sourceAudit: {
-            candidateFiles:
-                typeof summary.candidateFiles === "number"
-                    ? summary.candidateFiles
-                    : raw.candidates.length,
-            explicitFunctionalExceptions: Array.isArray(raw.explicitExceptions)
-                ? raw.explicitExceptions.length
-                : 0,
-            filesScanned:
-                typeof summary.filesScanned === "number"
-                    ? summary.filesScanned
-                    : null,
-            parseFailures: Array.isArray(raw.parseFailures)
-                ? raw.parseFailures.length
-                : 0,
-            reviewedFalsePositiveRows: Array.isArray(raw.falsePositives)
-                ? raw.falsePositives.length
-                : 0,
-        },
+        sourceAudit: buildSourceAudit(raw),
         summary: {
             candidateFiles: reviewedCandidates.length,
             evidenceRows,
