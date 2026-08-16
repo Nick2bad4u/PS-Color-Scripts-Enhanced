@@ -1155,11 +1155,10 @@ function buildBalancedRanges(start, end, maxRows) {
 
 /**
  * @param {ScriptRecord[]} records
- * @param {AnalysisOptions} options
  *
- * @returns {Record<string, unknown>[]}
+ * @returns {Map<string, ScriptRecord[]>}
  */
-function analyzeSplitFamilies(records, options) {
+function groupSplitFamilies(records) {
     const families = new Map();
     for (const record of records) {
         if (!record.splitBase) continue;
@@ -1168,210 +1167,278 @@ function analyzeSplitFamilies(records, options) {
         members.push(record);
         families.set(key, members);
     }
+    return families;
+}
 
-    const issues = [];
-    for (const members of families.values()) {
-        members.sort(
-            (left, right) =>
-                (left.sourceRowStart || 0) - (right.sourceRowStart || 0)
-        );
-        const first = members[0];
-        const last = members.at(-1);
-        if (
-            first.sourceRowStart === null ||
-            last.sourceRowEnd === null ||
-            members.some(
-                (member) =>
-                    member.sourceRowStart === null ||
-                    member.sourceRowEnd === null
-            )
-        ) {
-            issues.push({
+/**
+ * @param {ScriptRecord[]} members
+ *
+ * @returns {boolean}
+ */
+function hasMissingSplitCoordinates(members) {
+    return members.some(
+        (member) =>
+            member.sourceRowStart === null || member.sourceRowEnd === null
+    );
+}
+
+/**
+ * @param {ScriptRecord} previous
+ * @param {ScriptRecord} current
+ * @param {AnalysisOptions} options
+ * @param {Record<string, unknown>[]} issues
+ * @param {Record<string, unknown>[]} mergeablePairs
+ * @param {Record<string, unknown>[]} continuousBoundaries
+ */
+function analyzeSplitBoundary(
+    previous,
+    current,
+    options,
+    issues,
+    mergeablePairs,
+    continuousBoundaries
+) {
+    if (current.sourceRowStart !== previous.sourceRowEnd + 1) {
+        issues.push({
+            type: "source-row-gap-or-overlap",
+            family: previous.splitBase,
+            scripts: [previous.name, current.name],
+            previousEnd: previous.sourceRowEnd,
+            currentStart: current.sourceRowStart,
+        });
+        return;
+    }
+    const adjacentRows =
+        previous.sourceRowEnd -
+        previous.sourceRowStart +
+        1 +
+        (current.sourceRowEnd - current.sourceRowStart + 1);
+    if (adjacentRows <= options.maxRows) {
+        mergeablePairs.push({
+            scripts: [previous.name, current.name],
+            combinedRows: adjacentRows,
+            suggestedRange: `${previous.sourceRowStart}-${current.sourceRowEnd}`,
+        });
+    }
+    if (!previous.metrics || !current.metrics) return;
+    const boundaryWidth = Math.min(
+        previous.metrics.width,
+        current.metrics.width
+    );
+    const minimumBoundaryCells = Math.max(12, Math.ceil(boundaryWidth * 0.25));
+    const denseBoundary =
+        boundaryWidth > 0 &&
+        previous.metrics.lastRowVisibleCells >= minimumBoundaryCells &&
+        current.metrics.firstRowVisibleCells >= minimumBoundaryCells;
+    if (!denseBoundary) return;
+    const boundary = {
+        scripts: [previous.name, current.name],
+        boundaryAfterRow: previous.sourceRowEnd,
+        previousVisibleCells: previous.metrics.lastRowVisibleCells,
+        nextVisibleCells: current.metrics.firstRowVisibleCells,
+        boundaryWidth,
+        minimumBoundaryCells,
+    };
+    const suggestedBoundaryAfterRow = findNearbyBlankBoundary(
+        previous,
+        current,
+        options.maxRows
+    );
+    if (suggestedBoundaryAfterRow === null) {
+        continuousBoundaries.push(boundary);
+        return;
+    }
+    issues.push({
+        type: "dense-split-boundary",
+        family: previous.splitBase,
+        panel: previous.panel,
+        scripts: boundary.scripts,
+        boundaryAfterRow: boundary.boundaryAfterRow,
+        suggestedBoundaryAfterRow,
+        previousVisibleCells: boundary.previousVisibleCells,
+        nextVisibleCells: boundary.nextVisibleCells,
+        boundaryWidth: boundary.boundaryWidth,
+        minimumBoundaryCells: boundary.minimumBoundaryCells,
+    });
+}
+
+/**
+ * @param {ScriptRecord[]} members
+ * @param {Record<string, unknown>[]} issues
+ * @param {Record<string, unknown>[]} mergeablePairs
+ * @param {Record<string, unknown>[]} continuousBoundaries
+ */
+function appendSplitBoundarySummaries(
+    members,
+    issues,
+    mergeablePairs,
+    continuousBoundaries
+) {
+    const first = members[0];
+    const last = members.at(-1);
+    if (continuousBoundaries.length > 0) {
+        issues.push({
+            type: "continuous-split-review",
+            family: first.splitBase,
+            panel: first.panel,
+            scripts: members.map((member) => member.name),
+            partCount: members.length,
+            boundaryCount: continuousBoundaries.length,
+            boundaryRatio:
+                continuousBoundaries.length / Math.max(1, members.length - 1),
+            sourceRows: `${first.sourceRowStart}-${last.sourceRowEnd}`,
+            boundaries: continuousBoundaries,
+        });
+    }
+    if (mergeablePairs.length > 0) {
+        issues.push({
+            type: "mergeable-adjacent-parts",
+            family: first.splitBase,
+            panel: first.panel,
+            pairs: mergeablePairs,
+        });
+    }
+}
+
+/**
+ * @param {ScriptRecord[]} members
+ *
+ * @returns {number | null}
+ */
+function getMedianPreviousVisibleCells(members) {
+    const values = members
+        .slice(0, -1)
+        .map((member) => member.metrics?.visibleCells)
+        .filter((count) => typeof count === "number")
+        .sort((left, right) => left - right);
+    return values.length === 0 ? null : values[Math.floor(values.length / 2)];
+}
+
+/**
+ * @param {ScriptRecord[]} members
+ * @param {AnalysisOptions} options
+ * @param {Record<string, unknown>[]} issues
+ */
+function appendSplitTailIssues(members, options, issues) {
+    const first = members[0];
+    const last = members.at(-1);
+    const tailRows = last.sourceRowEnd - last.sourceRowStart + 1;
+    const totalRows = last.sourceRowEnd - first.sourceRowStart + 1;
+    const minimumParts = Math.ceil(totalRows / options.maxRows);
+    const medianPreviousVisibleCells = getMedianPreviousVisibleCells(members);
+    const tailVisibleCellRatio =
+        medianPreviousVisibleCells && last.metrics
+            ? last.metrics.visibleCells / medianPreviousVisibleCells
+            : null;
+    const tailRowRatio = tailRows / options.maxRows;
+    const tinyByRows = tailRows <= options.tinyTailRows || tailRowRatio <= 0.25;
+    const tinyByVisibleCells =
+        tailVisibleCellRatio !== null && tailVisibleCellRatio <= 0.15;
+    const currentRanges = members.map(
+        (member) => `${member.sourceRowStart}-${member.sourceRowEnd}`
+    );
+    const suggestedRanges = buildBalancedRanges(
+        first.sourceRowStart,
+        last.sourceRowEnd,
+        options.maxRows
+    );
+    if (tinyByRows || tinyByVisibleCells) {
+        issues.push({
+            type: "tiny-tail-part",
+            family: first.splitBase,
+            panel: first.panel,
+            script: last.name,
+            tailRows,
+            tailRowRatio,
+            tailVisibleCells: last.metrics?.visibleCells ?? null,
+            medianPreviousVisibleCells,
+            tailVisibleCellRatio,
+            signals: [
+                ...(tinyByRows ? ["row-count"] : []),
+                ...(tinyByVisibleCells ? ["visible-cell-ratio"] : []),
+            ],
+            currentRanges,
+            suggestedRanges,
+        });
+    }
+    if (members.length > minimumParts) {
+        issues.push({
+            type: "avoidable-extra-part",
+            family: first.splitBase,
+            panel: first.panel,
+            currentParts: members.length,
+            minimumParts,
+            currentRanges,
+            suggestedRanges,
+        });
+    }
+}
+
+/**
+ * @param {ScriptRecord[]} members
+ * @param {AnalysisOptions} options
+ *
+ * @returns {Record<string, unknown>[]}
+ */
+function analyzeSplitFamily(members, options) {
+    members.sort(
+        (left, right) =>
+            (left.sourceRowStart || 0) - (right.sourceRowStart || 0)
+    );
+    const first = members[0];
+    if (hasMissingSplitCoordinates(members)) {
+        return [
+            {
                 type: "missing-source-coordinates",
                 family: first.splitBase,
                 scripts: members.map((member) => member.name),
-            });
-            continue;
-        }
-        const mergeablePairs = [];
-        const continuousBoundaries = [];
-        if (first.sourceRowStart !== 1) {
-            issues.push({
-                type: "source-row-gap-or-overlap",
-                family: first.splitBase,
-                scripts: [first.name],
-                previousEnd: 0,
-                currentStart: first.sourceRowStart,
-            });
-        }
-        for (let index = 1; index < members.length; index += 1) {
-            const previous = members[index - 1];
-            const current = members[index];
-            if (current.sourceRowStart !== previous.sourceRowEnd + 1) {
-                issues.push({
-                    type: "source-row-gap-or-overlap",
-                    family: first.splitBase,
-                    scripts: [previous.name, current.name],
-                    previousEnd: previous.sourceRowEnd,
-                    currentStart: current.sourceRowStart,
-                });
-                continue;
-            }
-            const adjacentRows =
-                previous.sourceRowEnd -
-                previous.sourceRowStart +
-                1 +
-                (current.sourceRowEnd - current.sourceRowStart + 1);
-            if (adjacentRows <= options.maxRows) {
-                mergeablePairs.push({
-                    scripts: [previous.name, current.name],
-                    combinedRows: adjacentRows,
-                    suggestedRange: `${previous.sourceRowStart}-${current.sourceRowEnd}`,
-                });
-            }
-            if (previous.metrics && current.metrics) {
-                const boundaryWidth = Math.min(
-                    previous.metrics.width,
-                    current.metrics.width
-                );
-                const minimumBoundaryCells = Math.max(
-                    12,
-                    Math.ceil(boundaryWidth * 0.25)
-                );
-                if (
-                    boundaryWidth > 0 &&
-                    previous.metrics.lastRowVisibleCells >=
-                        minimumBoundaryCells &&
-                    current.metrics.firstRowVisibleCells >= minimumBoundaryCells
-                ) {
-                    const suggestedBoundaryAfterRow = findNearbyBlankBoundary(
-                        previous,
-                        current,
-                        options.maxRows
-                    );
-                    if (suggestedBoundaryAfterRow !== null) {
-                        issues.push({
-                            type: "dense-split-boundary",
-                            family: first.splitBase,
-                            panel: first.panel,
-                            scripts: [previous.name, current.name],
-                            boundaryAfterRow: previous.sourceRowEnd,
-                            suggestedBoundaryAfterRow,
-                            previousVisibleCells:
-                                previous.metrics.lastRowVisibleCells,
-                            nextVisibleCells:
-                                current.metrics.firstRowVisibleCells,
-                            boundaryWidth,
-                            minimumBoundaryCells,
-                        });
-                    } else {
-                        continuousBoundaries.push({
-                            scripts: [previous.name, current.name],
-                            boundaryAfterRow: previous.sourceRowEnd,
-                            previousVisibleCells:
-                                previous.metrics.lastRowVisibleCells,
-                            nextVisibleCells:
-                                current.metrics.firstRowVisibleCells,
-                            boundaryWidth,
-                            minimumBoundaryCells,
-                        });
-                    }
-                }
-            }
-        }
-        if (continuousBoundaries.length > 0) {
-            issues.push({
-                type: "continuous-split-review",
-                family: first.splitBase,
-                panel: first.panel,
-                scripts: members.map((member) => member.name),
-                partCount: members.length,
-                boundaryCount: continuousBoundaries.length,
-                boundaryRatio:
-                    continuousBoundaries.length /
-                    Math.max(1, members.length - 1),
-                sourceRows: `${first.sourceRowStart}-${last.sourceRowEnd}`,
-                boundaries: continuousBoundaries,
-            });
-        }
-        if (mergeablePairs.length > 0) {
-            issues.push({
-                type: "mergeable-adjacent-parts",
-                family: first.splitBase,
-                panel: first.panel,
-                pairs: mergeablePairs,
-            });
-        }
+            },
+        ];
+    }
+    const issues = [];
+    const mergeablePairs = [];
+    const continuousBoundaries = [];
+    if (first.sourceRowStart !== 1) {
+        issues.push({
+            type: "source-row-gap-or-overlap",
+            family: first.splitBase,
+            scripts: [first.name],
+            previousEnd: 0,
+            currentStart: first.sourceRowStart,
+        });
+    }
+    for (let index = 1; index < members.length; index += 1) {
+        analyzeSplitBoundary(
+            members[index - 1],
+            members[index],
+            options,
+            issues,
+            mergeablePairs,
+            continuousBoundaries
+        );
+    }
+    appendSplitBoundarySummaries(
+        members,
+        issues,
+        mergeablePairs,
+        continuousBoundaries
+    );
+    appendSplitTailIssues(members, options, issues);
+    return issues;
+}
 
-        const tailRows = last.sourceRowEnd - last.sourceRowStart + 1;
-        const totalRows = last.sourceRowEnd - first.sourceRowStart + 1;
-        const minimumParts = Math.ceil(totalRows / options.maxRows);
-        const previousVisibleCellCounts = members
-            .slice(0, -1)
-            .map((member) => member.metrics?.visibleCells)
-            .filter((count) => typeof count === "number")
-            .sort((left, right) => left - right);
-        const medianPreviousVisibleCells =
-            previousVisibleCellCounts.length === 0
-                ? null
-                : previousVisibleCellCounts[
-                      Math.floor(previousVisibleCellCounts.length / 2)
-                  ];
-        const tailVisibleCellRatio =
-            medianPreviousVisibleCells &&
-            last.metrics &&
-            medianPreviousVisibleCells > 0
-                ? last.metrics.visibleCells / medianPreviousVisibleCells
-                : null;
-        const tailRowRatio = tailRows / options.maxRows;
-        const tinyByRows =
-            tailRows <= options.tinyTailRows || tailRowRatio <= 0.25;
-        const tinyByVisibleCells =
-            tailVisibleCellRatio !== null && tailVisibleCellRatio <= 0.15;
-        if (tinyByRows || tinyByVisibleCells) {
-            issues.push({
-                type: "tiny-tail-part",
-                family: first.splitBase,
-                panel: first.panel,
-                script: last.name,
-                tailRows,
-                tailRowRatio,
-                tailVisibleCells: last.metrics?.visibleCells ?? null,
-                medianPreviousVisibleCells,
-                tailVisibleCellRatio,
-                signals: [
-                    ...(tinyByRows ? ["row-count"] : []),
-                    ...(tinyByVisibleCells ? ["visible-cell-ratio"] : []),
-                ],
-                currentRanges: members.map(
-                    (member) =>
-                        `${member.sourceRowStart}-${member.sourceRowEnd}`
-                ),
-                suggestedRanges: buildBalancedRanges(
-                    first.sourceRowStart,
-                    last.sourceRowEnd,
-                    options.maxRows
-                ),
-            });
-        }
-        if (members.length > minimumParts) {
-            issues.push({
-                type: "avoidable-extra-part",
-                family: first.splitBase,
-                panel: first.panel,
-                currentParts: members.length,
-                minimumParts,
-                currentRanges: members.map(
-                    (member) =>
-                        `${member.sourceRowStart}-${member.sourceRowEnd}`
-                ),
-                suggestedRanges: buildBalancedRanges(
-                    first.sourceRowStart,
-                    last.sourceRowEnd,
-                    options.maxRows
-                ),
-            });
-        }
+/**
+ * @param {ScriptRecord[]} records
+ * @param {AnalysisOptions} options
+ *
+ * @returns {Record<string, unknown>[]}
+ */
+function analyzeSplitFamilies(records, options) {
+    const families = groupSplitFamilies(records);
+
+    const issues = [];
+    for (const members of families.values()) {
+        issues.push(...analyzeSplitFamily(members, options));
     }
     return issues;
 }
