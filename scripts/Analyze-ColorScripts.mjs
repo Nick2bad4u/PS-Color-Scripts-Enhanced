@@ -669,6 +669,120 @@ function isVisibleCell(cell) {
     );
 }
 
+function createAnsiMetricsState() {
+    return {
+        asciiGlyphs: 0,
+        blankRows: [],
+        blockGlyphs: 0,
+        boxGlyphs: 0,
+        coloredCells: 0,
+        colorFamilies: new Set(),
+        extendedGlyphs: 0,
+        glyphCount: 0,
+        glyphs: new Set(),
+        rowPatterns: new Set(),
+        styles: new Set(),
+        visibleCells: 0,
+        visibleCellsByRow: [],
+        width: 0,
+    };
+}
+
+/**
+ * @param {{ attrs: object; char: string }} cell
+ * @param {number} column
+ * @param {ReturnType<typeof createAnsiMetricsState>} state
+ * @param {{ pattern: string[]; visibleCells: number }} rowState
+ */
+function analyzeVisibleCell(cell, column, state, rowState) {
+    if (!isVisibleCell(cell)) return;
+    rowState.visibleCells += 1;
+    state.visibleCells += 1;
+    state.width = Math.max(state.width, column + 1);
+    const key = styleKey(cell.attrs);
+    state.styles.add(key);
+    rowState.pattern.push(`${column}:${cell.char}:${key}`);
+    const cellColorFamilies = visibleCellColorFamilies(cell);
+    let usesColor = false;
+    for (const family of cellColorFamilies) {
+        state.colorFamilies.add(family);
+        if (family !== "neutral") usesColor = true;
+    }
+    if (usesColor) state.coloredCells += 1;
+    if (cell.char === " ") return;
+    state.glyphCount += 1;
+    state.glyphs.add(cell.char);
+    if (ASCII_GLYPH.test(cell.char)) state.asciiGlyphs += 1;
+    if (BLOCK_GLYPH.test(cell.char)) state.blockGlyphs += 1;
+    if (BOX_GLYPH.test(cell.char)) state.boxGlyphs += 1;
+    if (cell.char.codePointAt(0) > 0x7f) state.extendedGlyphs += 1;
+}
+
+/**
+ * @param {{ cells: Map<number, { attrs: object; char: string }> } | undefined} row
+ * @param {ReturnType<typeof createAnsiMetricsState>} state
+ */
+function analyzeTerminalRow(row, state) {
+    const entries = row
+        ? [...row.cells.entries()].sort(
+              ([leftColumn], [rightColumn]) => leftColumn - rightColumn
+          )
+        : [];
+    const rowState = { pattern: [], visibleCells: 0 };
+    for (const [column, cell] of entries) {
+        analyzeVisibleCell(cell, column, state, rowState);
+    }
+    const isBlank = rowState.visibleCells === 0;
+    state.blankRows.push(isBlank);
+    state.visibleCellsByRow.push(rowState.visibleCells);
+    if (!isBlank) state.rowPatterns.add(rowState.pattern.join("|"));
+}
+
+/**
+ * @param {boolean[]} blankRows
+ */
+function analyzeBlankRuns(blankRows) {
+    let longestBlankRun = 0;
+    let currentBlankRun = 0;
+    let runStart = null;
+    const blankRuns = [];
+    for (let index = 0; index <= blankRows.length; index += 1) {
+        const isBlank = blankRows[index] === true;
+        if (isBlank && runStart === null) runStart = index;
+        if (isBlank) {
+            currentBlankRun += 1;
+            longestBlankRun = Math.max(longestBlankRun, currentBlankRun);
+            continue;
+        }
+        if (runStart === null) continue;
+        blankRuns.push({
+            endRow: index,
+            kind: getBlankRunKind(runStart, index, blankRows.length),
+            rows: index - runStart,
+            startRow: runStart + 1,
+        });
+        runStart = null;
+        currentBlankRun = 0;
+    }
+    return { blankRuns, longestBlankRun };
+}
+
+/**
+ * @param {boolean[]} blankRows
+ */
+function countBlankMargins(blankRows) {
+    const firstVisibleIndex = blankRows.findIndex((isBlank) => !isBlank);
+    const lastVisibleIndex = blankRows.findLastIndex((isBlank) => !isBlank);
+    return {
+        leadingBlankRows:
+            firstVisibleIndex === -1 ? blankRows.length : firstVisibleIndex,
+        trailingBlankRows:
+            lastVisibleIndex === -1
+                ? blankRows.length
+                : blankRows.length - lastVisibleIndex - 1,
+    };
+}
+
 /**
  * Analyze terminal-cell complexity without treating background-colored spaces
  * as blank. The returned measurements are review signals, not an automatic
@@ -720,130 +834,57 @@ function analyzeAnsiLines(lines) {
         columns: 2048,
         stripSpaceBackground: false,
     });
-    const glyphs = new Set();
-    const styles = new Set();
-    const rowPatterns = new Set();
-    const colorFamilies = new Set();
-    const blankRows = [];
-    const visibleCellsByRow = [];
-    let visibleCells = 0;
-    let coloredCells = 0;
-    let asciiGlyphs = 0;
-    let blockGlyphs = 0;
-    let boxGlyphs = 0;
-    let extendedGlyphs = 0;
-    let glyphCount = 0;
-    let width = 0;
+    const state = createAnsiMetricsState();
 
     for (let rowIndex = 0; rowIndex < lines.length; rowIndex += 1) {
-        const row = converted.terminal.rows.get(rowIndex);
-        const entries = row
-            ? [...row.cells.entries()].sort(
-                  ([leftColumn], [rightColumn]) => leftColumn - rightColumn
-              )
-            : [];
-        let rowVisible = false;
-        let rowVisibleCells = 0;
-        const pattern = [];
-        for (const [column, cell] of entries) {
-            if (!isVisibleCell(cell)) continue;
-            rowVisible = true;
-            rowVisibleCells += 1;
-            visibleCells += 1;
-            width = Math.max(width, column + 1);
-            const key = styleKey(cell.attrs);
-            styles.add(key);
-            pattern.push(`${column}:${cell.char}:${key}`);
-            const cellColorFamilies = visibleCellColorFamilies(cell);
-            let cellUsesColor = false;
-            for (const family of cellColorFamilies) {
-                colorFamilies.add(family);
-                if (family !== "neutral") cellUsesColor = true;
-            }
-            if (cellUsesColor) {
-                coloredCells += 1;
-            }
-            if (cell.char !== " ") {
-                glyphCount += 1;
-                glyphs.add(cell.char);
-                if (ASCII_GLYPH.test(cell.char)) asciiGlyphs += 1;
-                if (BLOCK_GLYPH.test(cell.char)) blockGlyphs += 1;
-                if (BOX_GLYPH.test(cell.char)) boxGlyphs += 1;
-                if (cell.char.codePointAt(0) > 0x7f) extendedGlyphs += 1;
-            }
-        }
-        blankRows.push(!rowVisible);
-        visibleCellsByRow.push(rowVisibleCells);
-        if (rowVisible) rowPatterns.add(pattern.join("|"));
+        analyzeTerminalRow(converted.terminal.rows.get(rowIndex), state);
     }
 
-    let longestBlankRun = 0;
-    let currentBlankRun = 0;
-    let runStart = null;
-    const blankRuns = [];
-    for (let index = 0; index <= blankRows.length; index += 1) {
-        const isBlank = blankRows[index] === true;
-        if (isBlank && runStart === null) {
-            runStart = index;
-        }
-        if (isBlank) {
-            currentBlankRun += 1;
-            longestBlankRun = Math.max(longestBlankRun, currentBlankRun);
-        } else if (runStart !== null) {
-            blankRuns.push({
-                endRow: index,
-                kind: getBlankRunKind(runStart, index, blankRows.length),
-                rows: index - runStart,
-                startRow: runStart + 1,
-            });
-            runStart = null;
-            currentBlankRun = 0;
-        }
-    }
-    const leadingBlankRows = blankRows.findIndex((isBlank) => !isBlank);
-    const firstVisible =
-        leadingBlankRows === -1 ? blankRows.length : leadingBlankRows;
-    const lastVisibleFromEnd = [...blankRows]
-        .reverse()
-        .findIndex((isBlank) => !isBlank);
-    const trailingBlankRows =
-        lastVisibleFromEnd === -1 ? blankRows.length : lastVisibleFromEnd;
-    const ratio = (count) => (glyphCount === 0 ? 0 : count / glyphCount);
+    const { blankRuns, longestBlankRun } = analyzeBlankRuns(state.blankRows);
+    const { leadingBlankRows, trailingBlankRows } = countBlankMargins(
+        state.blankRows
+    );
+    const ratio = (count) =>
+        state.glyphCount === 0 ? 0 : count / state.glyphCount;
     const plainText = content.replace(ESCAPE_SEQUENCE, "");
 
     return {
         rows: lines.length,
-        visibleRows: blankRows.length - blankRows.filter(Boolean).length,
-        visibleCells,
-        leadingBlankRows: firstVisible,
+        visibleRows:
+            state.blankRows.length - state.blankRows.filter(Boolean).length,
+        visibleCells: state.visibleCells,
+        leadingBlankRows,
         trailingBlankRows,
         longestBlankRun,
         blankRuns,
-        uniqueGlyphs: glyphs.size,
-        uniqueStyles: styles.size,
-        uniqueRowPatterns: rowPatterns.size,
-        asciiGlyphRatio: ratio(asciiGlyphs),
-        blockGlyphRatio: ratio(blockGlyphs),
-        boxGlyphRatio: ratio(boxGlyphs),
-        extendedGlyphRatio: ratio(extendedGlyphs),
-        colorFamilies: [...colorFamilies].sort((left, right) =>
+        uniqueGlyphs: state.glyphs.size,
+        uniqueStyles: state.styles.size,
+        uniqueRowPatterns: state.rowPatterns.size,
+        asciiGlyphRatio: ratio(state.asciiGlyphs),
+        blockGlyphRatio: ratio(state.blockGlyphs),
+        boxGlyphRatio: ratio(state.boxGlyphs),
+        extendedGlyphRatio: ratio(state.extendedGlyphs),
+        colorFamilies: [...state.colorFamilies].sort((left, right) =>
             left.localeCompare(right, "en-US")
         ),
-        uniqueColorFamilies: colorFamilies.size,
-        coloredCellRatio: visibleCells === 0 ? 0 : coloredCells / visibleCells,
-        cellDensity:
-            width === 0 || blankRows.length === 0
+        uniqueColorFamilies: state.colorFamilies.size,
+        coloredCellRatio:
+            state.visibleCells === 0
                 ? 0
-                : visibleCells / (width * blankRows.length),
-        firstRowVisibleCells: visibleCellsByRow[0] || 0,
-        lastRowVisibleCells: visibleCellsByRow.at(-1) || 0,
-        rowVisibleCellCounts: visibleCellsByRow,
+                : state.coloredCells / state.visibleCells,
+        cellDensity:
+            state.width === 0 || state.blankRows.length === 0
+                ? 0
+                : state.visibleCells / (state.width * state.blankRows.length),
+        firstRowVisibleCells: state.visibleCellsByRow[0] || 0,
+        lastRowVisibleCells: state.visibleCellsByRow.at(-1) || 0,
+        rowVisibleCellCounts: state.visibleCellsByRow,
         replacementCharacters:
             plainText.match(REPLACEMENT_CHARACTER)?.length || 0,
         mojibakeSequences: plainText.match(MOJIBAKE_SEQUENCE)?.length || 0,
         dosEofCharacters: plainText.split(DOS_EOF_CHARACTER).length - 1,
         sgrSequences: content.match(ESCAPE_SEQUENCE)?.length || 0,
-        width,
+        width: state.width,
     };
 }
 
