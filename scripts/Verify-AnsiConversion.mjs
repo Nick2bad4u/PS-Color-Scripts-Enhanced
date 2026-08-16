@@ -322,6 +322,161 @@ function analyzeCoverage(coordinates, sourceWidth, sourceHeight) {
 }
 
 /**
+ * @param {Parameters<typeof verifyAnsiConversion>[0]} options
+ */
+function loadVerificationSource(options) {
+    const sourcePath = path.resolve(options.sourcePath);
+    if (!fs.existsSync(sourcePath)) {
+        throw new Error(`ANSI source file does not exist: ${sourcePath}`);
+    }
+    const encoding = options.encoding || "cp437";
+    const { content, sauce } = readAnsiFile(sourcePath, encoding);
+    const sourceSha256 = sha256(fs.readFileSync(sourcePath));
+    const sourceWidth = options.columns || sauce?.tInfo1 || 80;
+    const iceColors =
+        options.iceColors === true ||
+        (options.iceColors !== false && Boolean(sauce && sauce.flags & 1));
+    const convertedSource = convertAnsiToPs1(content, {
+        columns: sourceWidth,
+        iceColors,
+        stripSpaceBackground: false,
+        dosAnsi: !/^(?:utf8|utf-8)$/u.test(encoding.toLowerCase()),
+    });
+    return {
+        convertedSource,
+        encoding,
+        iceColors,
+        provenance: getCheckedInProvenance(),
+        sauce,
+        sourceLines: convertedSource.terminal.buildLines(),
+        sourcePath,
+        sourceSha256,
+        sourceWidth,
+    };
+}
+
+/**
+ * @param {string} scriptPath
+ * @param {ReturnType<typeof getCheckedInProvenance>} provenance
+ */
+function readScriptCoordinates(scriptPath, provenance) {
+    const scriptSource = fs.readFileSync(scriptPath, "utf8");
+    const scriptName = path.basename(scriptPath, path.extname(scriptPath));
+    const provenanceEntry = provenance.scripts.get(scriptName);
+    const rowMatch = provenanceEntry
+        ? /^(\d+)-(\d+)$/u.exec(String(provenanceEntry.SourceRows || ""))
+        : SOURCE_ROWS.exec(scriptSource);
+    const columnMatch = provenanceEntry
+        ? /^(\d+)-(\d+)$/u.exec(String(provenanceEntry.SourceColumns || ""))
+        : SOURCE_COLUMNS.exec(scriptSource);
+    if (!rowMatch || !columnMatch) {
+        throw new Error(
+            `${scriptPath} must have both source-row and source-column provenance.`
+        );
+    }
+    return {
+        columnEnd: Number(columnMatch[2]),
+        columnStart: Number(columnMatch[1]),
+        provenanceEntry,
+        rowEnd: Number(rowMatch[2]),
+        rowStart: Number(rowMatch[1]),
+        scriptSource,
+    };
+}
+
+/**
+ * @param {ReturnType<typeof readScriptCoordinates>} coordinates
+ * @param {ReturnType<typeof loadVerificationSource>} source
+ * @param {string} scriptPath
+ */
+function validateScriptCoordinates(coordinates, source, scriptPath) {
+    const { columnEnd, columnStart, rowEnd, rowStart } = coordinates;
+    const valid =
+        rowStart >= 1 &&
+        rowEnd >= rowStart &&
+        rowEnd <= source.sourceLines.length &&
+        columnStart >= 1 &&
+        columnEnd >= columnStart &&
+        columnEnd <= source.sourceWidth;
+    if (!valid) {
+        throw new RangeError(
+            `${scriptPath} declares coordinates outside the ${source.sourceWidth}x${source.sourceLines.length} source canvas.`
+        );
+    }
+}
+
+/**
+ * @param {string[]} actualLines
+ * @param {number} expectedRowCount
+ *
+ * @returns {string[]}
+ */
+function normalizeGeneratedLines(actualLines, expectedRowCount) {
+    const hasPresentationRow =
+        actualLines.length === expectedRowCount + 1 && actualLines[0] === "";
+    return hasPresentationRow ? actualLines.slice(1) : actualLines;
+}
+
+/**
+ * @param {string} unresolvedScriptPath
+ * @param {ReturnType<typeof loadVerificationSource>} source
+ */
+function verifyGeneratedScript(unresolvedScriptPath, source) {
+    const scriptPath = path.resolve(unresolvedScriptPath);
+    if (!fs.existsSync(scriptPath)) {
+        throw new Error(`PowerShell script does not exist: ${scriptPath}`);
+    }
+    const coordinates = readScriptCoordinates(scriptPath, source.provenance);
+    validateScriptCoordinates(coordinates, source, scriptPath);
+    const { columnEnd, columnStart, provenanceEntry, rowEnd, rowStart } =
+        coordinates;
+    const expectedLines = source.convertedSource.terminal
+        .buildLines({ start: columnStart - 1, end: columnEnd - 1 })
+        .slice(rowStart - 1, rowEnd);
+    const expectedRowCount = rowEnd - rowStart + 1;
+    const actualLines = normalizeGeneratedLines(
+        extractLinesFromPs1(scriptPath),
+        expectedRowCount
+    );
+    const expectedRenderSha256 = fingerprintLines(expectedLines);
+    const actualRenderSha256 = fingerprintLines(actualLines);
+    const declaredSourceSha256 =
+        (typeof provenanceEntry?.SourceSha256 === "string"
+            ? provenanceEntry.SourceSha256
+            : SOURCE_SHA256.exec(coordinates.scriptSource)?.[1]
+        )?.toLowerCase() || null;
+    const sourceIdentityMatches =
+        declaredSourceSha256 === null ||
+        declaredSourceSha256 === source.sourceSha256;
+    const mismatchedRows = findMismatchedRows(
+        expectedLines,
+        actualLines,
+        rowStart
+    );
+    const matches =
+        actualLines.length === expectedRowCount &&
+        expectedRenderSha256 === actualRenderSha256 &&
+        sourceIdentityMatches;
+    return {
+        coordinates: { columnEnd, columnStart, rowEnd, rowStart },
+        part: {
+            script: path.basename(scriptPath),
+            sourceRows: `${rowStart}-${rowEnd}`,
+            sourceColumns: `${columnStart}-${columnEnd}`,
+            expectedRows: expectedRowCount,
+            actualRows: actualLines.length,
+            expectedRenderSha256,
+            actualRenderSha256,
+            declaredSourceSha256,
+            sourceIdentityMatches,
+            mismatchedRows,
+            firstMismatchedRow: mismatchedRows[0] || null,
+            matches,
+        },
+    };
+}
+
+/**
  * @param {{
  *     allowPartial?: boolean;
  *     columns?: number | null;
@@ -340,10 +495,6 @@ function analyzeCoverage(coordinates, sourceWidth, sourceHeight) {
  * }}
  */
 function verifyAnsiConversion(options) {
-    const sourcePath = path.resolve(options.sourcePath);
-    if (!fs.existsSync(sourcePath)) {
-        throw new Error(`ANSI source file does not exist: ${sourcePath}`);
-    }
     if (
         !Array.isArray(options.scriptPaths) ||
         options.scriptPaths.length === 0
@@ -352,117 +503,14 @@ function verifyAnsiConversion(options) {
             "At least one generated PowerShell script is required."
         );
     }
-    const { content, sauce } = readAnsiFile(
-        sourcePath,
-        options.encoding || "cp437"
+    const source = loadVerificationSource(options);
+    const verificationResults = options.scriptPaths.map((scriptPath) =>
+        verifyGeneratedScript(scriptPath, source)
     );
-    const raw = fs.readFileSync(sourcePath);
-    const sourceSha256 = sha256(raw);
-    const sourceWidth = options.columns || sauce?.tInfo1 || 80;
-    const iceColors =
-        options.iceColors === true ||
-        (options.iceColors !== false && Boolean(sauce && sauce.flags & 1));
-    const convertedSource = convertAnsiToPs1(content, {
-        columns: sourceWidth,
-        iceColors,
-        stripSpaceBackground: false,
-        dosAnsi: !/^(?:utf8|utf-8)$/u.test(
-            (options.encoding || "cp437").toLowerCase()
-        ),
-    });
-    const sourceLines = convertedSource.terminal.buildLines();
-    const parts = [];
-    const coordinates = [];
-    const provenance = getCheckedInProvenance();
-    for (const unresolvedScriptPath of options.scriptPaths) {
-        const scriptPath = path.resolve(unresolvedScriptPath);
-        if (!fs.existsSync(scriptPath)) {
-            throw new Error(`PowerShell script does not exist: ${scriptPath}`);
-        }
-        let actualLines = extractLinesFromPs1(scriptPath);
-        const scriptSource = fs.readFileSync(scriptPath, "utf8");
-        const scriptName = path.basename(scriptPath, path.extname(scriptPath));
-        const provenanceEntry = provenance.scripts.get(scriptName);
-        const rowMatch = provenanceEntry
-            ? /^(\d+)-(\d+)$/u.exec(String(provenanceEntry.SourceRows || ""))
-            : SOURCE_ROWS.exec(scriptSource);
-        const columnMatch = provenanceEntry
-            ? /^(\d+)-(\d+)$/u.exec(String(provenanceEntry.SourceColumns || ""))
-            : SOURCE_COLUMNS.exec(scriptSource);
-        if (!rowMatch || !columnMatch) {
-            throw new Error(
-                `${scriptPath} must have both source-row and source-column provenance.`
-            );
-        }
-        const rowStart = Number(rowMatch[1]);
-        const rowEnd = Number(rowMatch[2]);
-        const columnStart = Number(columnMatch[1]);
-        const columnEnd = Number(columnMatch[2]);
-        if (
-            rowStart < 1 ||
-            rowEnd < rowStart ||
-            rowEnd > sourceLines.length ||
-            columnStart < 1 ||
-            columnEnd < columnStart ||
-            columnEnd > sourceWidth
-        ) {
-            throw new RangeError(
-                `${scriptPath} declares coordinates outside the ${sourceWidth}x${sourceLines.length} source canvas.`
-            );
-        }
-        const expectedLines = convertedSource.terminal
-            .buildLines({
-                start: columnStart - 1,
-                end: columnEnd - 1,
-            })
-            .slice(rowStart - 1, rowEnd);
-        const expectedRowCount = rowEnd - rowStart + 1;
-        if (
-            actualLines.length === expectedRowCount + 1 &&
-            actualLines[0] === ""
-        ) {
-            actualLines = actualLines.slice(1);
-        }
-        const expectedRenderSha256 = fingerprintLines(expectedLines);
-        const actualRenderSha256 = fingerprintLines(actualLines);
-        const declaredSourceSha256 =
-            (typeof provenanceEntry?.SourceSha256 === "string"
-                ? provenanceEntry.SourceSha256
-                : SOURCE_SHA256.exec(scriptSource)?.[1]
-            )?.toLowerCase() || null;
-        const sourceIdentityMatches =
-            declaredSourceSha256 === null ||
-            declaredSourceSha256 === sourceSha256;
-        const mismatchedRows = findMismatchedRows(
-            expectedLines,
-            actualLines,
-            rowStart
-        );
-        const matches =
-            actualLines.length === expectedRowCount &&
-            expectedRenderSha256 === actualRenderSha256 &&
-            sourceIdentityMatches;
-        coordinates.push({
-            columnEnd,
-            columnStart,
-            rowEnd,
-            rowStart,
-        });
-        parts.push({
-            script: path.basename(scriptPath),
-            sourceRows: `${rowStart}-${rowEnd}`,
-            sourceColumns: `${columnStart}-${columnEnd}`,
-            expectedRows: expectedRowCount,
-            actualRows: actualLines.length,
-            expectedRenderSha256,
-            actualRenderSha256,
-            declaredSourceSha256,
-            sourceIdentityMatches,
-            mismatchedRows,
-            firstMismatchedRow: mismatchedRows[0] || null,
-            matches,
-        });
-    }
+    const parts = verificationResults.map(({ part }) => part);
+    const coordinates = verificationResults.map(
+        ({ coordinates: partCoordinates }) => partCoordinates
+    );
     parts.sort((left, right) =>
         String(left.script).localeCompare(String(right.script), undefined, {
             numeric: true,
@@ -470,23 +518,23 @@ function verifyAnsiConversion(options) {
     );
     const coverage = analyzeCoverage(
         coordinates,
-        sourceWidth,
-        sourceLines.length
+        source.sourceWidth,
+        source.sourceLines.length
     );
     return {
         schemaVersion: 1,
         source: {
-            file: path.basename(sourcePath),
-            sourceSha256,
-            renderSha256: fingerprintTerminal(convertedSource.terminal)
+            file: path.basename(source.sourcePath),
+            sourceSha256: source.sourceSha256,
+            renderSha256: fingerprintTerminal(source.convertedSource.terminal)
                 .renderSha256,
-            encoding: options.encoding || "cp437",
-            width: sourceWidth,
-            height: sourceLines.length,
-            iceColors,
-            sauceWidth: sauce?.tInfo1 || null,
-            sauceHeight: sauce?.tInfo2 || null,
-            warnings: convertedSource.warnings,
+            encoding: source.encoding,
+            width: source.sourceWidth,
+            height: source.sourceLines.length,
+            iceColors: source.iceColors,
+            sauceWidth: source.sauce?.tInfo1 || null,
+            sauceHeight: source.sauce?.tInfo2 || null,
+            warnings: source.convertedSource.warnings,
         },
         coverage,
         parts,

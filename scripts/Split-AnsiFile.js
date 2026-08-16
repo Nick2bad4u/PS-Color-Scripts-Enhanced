@@ -359,52 +359,66 @@ function extractLinesFromPs1(filePath) {
 function determineBreaks(totalLines, options, lines) {
     const breaks = new Set();
 
-    let accumulated = 0;
-    if (options.heights.length > 0) {
-        options.heights.forEach((segmentHeight) => {
-            accumulated += segmentHeight;
-            if (accumulated > 0 && accumulated < totalLines) {
-                breaks.add(accumulated);
-            }
-        });
+    addHeightBreaks(breaks, options.heights, totalLines);
+    for (const value of options.breaks) {
+        if (value > 0 && value < totalLines) breaks.add(value);
     }
-
-    options.breaks
-        .filter((value) => value > 0 && value < totalLines)
-        .forEach((value) => breaks.add(value));
-
-    if (options.segmentEvery && options.segmentEvery > 0) {
-        for (
-            let position = options.segmentEvery;
-            position < totalLines;
-            position += options.segmentEvery
-        ) {
-            breaks.add(position);
-        }
-    }
-
+    addPeriodicBreaks(breaks, options.segmentEvery, totalLines);
     if (options.autoDetect && Array.isArray(lines)) {
-        let runLength = 0;
-        for (let index = 0; index < lines.length; index += 1) {
-            const content = lines[index] || "";
-            const isBlank = content.trim().length === 0;
-            if (isBlank) {
-                runLength += 1;
-            } else {
-                if (
-                    runLength >= options.gap &&
-                    index >= options.minSegment &&
-                    index < totalLines - options.minSegment
-                ) {
-                    breaks.add(index);
-                }
-                runLength = 0;
-            }
-        }
+        addDetectedBlankBreaks(breaks, lines, totalLines, options);
     }
 
-    const sorted = [...breaks].sort((a, b) => a - b);
-    return sorted;
+    return [...breaks].sort((a, b) => a - b);
+}
+
+/**
+ * @param {Set<number>} breaks
+ * @param {number[]} heights
+ * @param {number} totalLines
+ */
+function addHeightBreaks(breaks, heights, totalLines) {
+    let accumulated = 0;
+    for (const segmentHeight of heights) {
+        accumulated += segmentHeight;
+        if (accumulated > 0 && accumulated < totalLines) {
+            breaks.add(accumulated);
+        }
+    }
+}
+
+/**
+ * @param {Set<number>} breaks
+ * @param {number | null} interval
+ * @param {number} totalLines
+ */
+function addPeriodicBreaks(breaks, interval, totalLines) {
+    if (!interval || interval < 1) return;
+    for (let position = interval; position < totalLines; position += interval) {
+        breaks.add(position);
+    }
+}
+
+/**
+ * @param {Set<number>} breaks
+ * @param {string[]} lines
+ * @param {number} totalLines
+ * @param {SplitOptions} options
+ */
+function addDetectedBlankBreaks(breaks, lines, totalLines, options) {
+    let runLength = 0;
+    for (let index = 0; index < lines.length; index += 1) {
+        const isBlank = (lines[index] || "").trim().length === 0;
+        if (isBlank) {
+            runLength += 1;
+            continue;
+        }
+        const isUsableBoundary =
+            runLength >= options.gap &&
+            index >= options.minSegment &&
+            index < totalLines - options.minSegment;
+        if (isUsableBoundary) breaks.add(index);
+        runLength = 0;
+    }
 }
 
 /**

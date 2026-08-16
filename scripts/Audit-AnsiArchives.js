@@ -458,19 +458,8 @@ function delay(milliseconds) {
  * @returns {Promise<Buffer | string>}
  */
 async function fetchCached(url, options) {
-    if (fs.existsSync(options.cachePath)) {
-        if (
-            options.maxBytes &&
-            fs.statSync(options.cachePath).size > options.maxBytes
-        ) {
-            throw new RangeError(
-                `Cached response exceeds the ${options.maxBytes}-byte limit for ${url}`
-            );
-        }
-        return options.binary
-            ? fs.readFileSync(options.cachePath)
-            : fs.readFileSync(options.cachePath, "utf8");
-    }
+    const cached = readCachedResponse(url, options);
+    if (cached !== null) return cached;
     if (options.offline) {
         throw new Error(`Offline cache miss for ${url}`);
     }
@@ -482,42 +471,13 @@ async function fetchCached(url, options) {
     const maxBytes = options.maxBytes || 64 * 1024 * 1024;
     let lastError = null;
     for (let attempt = 1; attempt <= attempts; attempt += 1) {
-        const controller = new AbortController();
-        /** @type {ReturnType<typeof setTimeout> | undefined} */
-        let timeout;
         try {
-            const request = (async () => {
-                const response = await fetchImpl(url, {
-                    headers: { "User-Agent": USER_AGENT },
-                    redirect: "follow",
-                    signal: controller.signal,
-                });
-                if (!response.ok) {
-                    if (response.status === 429 || response.status >= 500) {
-                        throw new Error(`HTTP ${response.status} for ${url}`);
-                    }
-                    throw new Error(
-                        `Non-retryable HTTP ${response.status} for ${url}`
-                    );
-                }
-                return readResponseWithLimit(
-                    response,
-                    maxBytes,
-                    options.binary === true
-                );
-            })();
-            const deadline = new Promise((unusedResolve, reject) => {
-                timeout = setTimeout(() => {
-                    controller.abort();
-                    reject(
-                        new Error(
-                            `Request timed out after ${timeoutMs} ms for ${url}`
-                        )
-                    );
-                }, timeoutMs);
-            });
-            const content = /** @type {Buffer | string} */ (
-                await Promise.race([request, deadline])
+            const content = await requestWithDeadline(
+                url,
+                fetchImpl,
+                timeoutMs,
+                maxBytes,
+                options.binary === true
             );
             writeFileAtomic(options.cachePath, content);
             return content;
@@ -532,11 +492,101 @@ async function fetchCached(url, options) {
                 break;
             }
             await delayImpl(500 * 2 ** (attempt - 1));
-        } finally {
-            if (timeout !== undefined) clearTimeout(timeout);
         }
     }
     throw lastError || new Error(`Unable to fetch ${url}`);
+}
+
+/**
+ * @param {string} url
+ * @param {{ cachePath: string; binary?: boolean; maxBytes?: number }} options
+ *
+ * @returns {Buffer | string | null}
+ */
+function readCachedResponse(url, options) {
+    if (!fs.existsSync(options.cachePath)) return null;
+    if (
+        options.maxBytes &&
+        fs.statSync(options.cachePath).size > options.maxBytes
+    ) {
+        throw new RangeError(
+            `Cached response exceeds the ${options.maxBytes}-byte limit for ${url}`
+        );
+    }
+    return options.binary
+        ? fs.readFileSync(options.cachePath)
+        : fs.readFileSync(options.cachePath, "utf8");
+}
+
+/**
+ * @param {string} url
+ * @param {typeof fetch} fetchImpl
+ * @param {number} timeoutMs
+ * @param {number} maxBytes
+ * @param {boolean} binary
+ *
+ * @returns {Promise<Buffer | string>}
+ */
+async function requestWithDeadline(
+    url,
+    fetchImpl,
+    timeoutMs,
+    maxBytes,
+    binary
+) {
+    const controller = new AbortController();
+    /** @type {ReturnType<typeof setTimeout> | undefined} */
+    let timeout;
+    try {
+        const request = fetchBoundedResponse(
+            url,
+            fetchImpl,
+            controller.signal,
+            maxBytes,
+            binary
+        );
+        const deadline = new Promise((unusedResolve, reject) => {
+            timeout = setTimeout(() => {
+                controller.abort();
+                reject(
+                    new Error(
+                        `Request timed out after ${timeoutMs} ms for ${url}`
+                    )
+                );
+            }, timeoutMs);
+        });
+        const content = /** @type {Buffer | string} */ (
+            await Promise.race([request, deadline])
+        );
+        return content;
+    } finally {
+        if (timeout !== undefined) clearTimeout(timeout);
+    }
+}
+
+/**
+ * @param {string} url
+ * @param {typeof fetch} fetchImpl
+ * @param {AbortSignal} signal
+ * @param {number} maxBytes
+ * @param {boolean} binary
+ *
+ * @returns {Promise<Buffer | string>}
+ */
+async function fetchBoundedResponse(url, fetchImpl, signal, maxBytes, binary) {
+    const response = await fetchImpl(url, {
+        headers: { "User-Agent": USER_AGENT },
+        redirect: "follow",
+        signal,
+    });
+    if (!response.ok) {
+        const prefix =
+            response.status === 429 || response.status >= 500
+                ? "HTTP"
+                : "Non-retryable HTTP";
+        throw new Error(`${prefix} ${response.status} for ${url}`);
+    }
+    return readResponseWithLimit(response, maxBytes, binary);
 }
 
 /**
@@ -1092,7 +1142,7 @@ async function cacheSixteenColorsArchive(pack, candidates, options) {
  *
  * @returns {ZipEntry[]}
  */
-function readZipCentralDirectory(zipBuffer) {
+function findZipEndRecord(zipBuffer) {
     const minimumEocd = 22;
     if (zipBuffer.length < minimumEocd) {
         throw new Error("ZIP archive is too small to contain an end record.");
@@ -1112,6 +1162,82 @@ function readZipCentralDirectory(zipBuffer) {
     if (eocdOffset < 0) {
         throw new Error("ZIP end-of-central-directory record was not found.");
     }
+    return eocdOffset;
+}
+
+/**
+ * @param {Buffer} filenameBuffer
+ * @param {number} flags
+ *
+ * @returns {string}
+ */
+function decodeZipFilename(filenameBuffer, flags) {
+    return flags & 0x0800
+        ? filenameBuffer.toString("utf8")
+        : iconv.decode(filenameBuffer, "cp437");
+}
+
+/**
+ * @param {Buffer} zipBuffer
+ * @param {number} offset
+ * @param {number} index
+ *
+ * @returns {{ entry: ZipEntry; entryEnd: number }}
+ */
+function readZipCentralEntry(zipBuffer, offset, index) {
+    if (
+        offset + 46 > zipBuffer.length ||
+        zipBuffer.readUInt32LE(offset) !== 0x02014b50
+    ) {
+        throw new Error(`ZIP central directory entry ${index + 1} is invalid.`);
+    }
+    const flags = zipBuffer.readUInt16LE(offset + 8);
+    const compressionMethod = zipBuffer.readUInt16LE(offset + 10);
+    const crc32 = zipBuffer.readUInt32LE(offset + 16);
+    const compressedSize = zipBuffer.readUInt32LE(offset + 20);
+    const uncompressedSize = zipBuffer.readUInt32LE(offset + 24);
+    const filenameLength = zipBuffer.readUInt16LE(offset + 28);
+    const extraLength = zipBuffer.readUInt16LE(offset + 30);
+    const commentLength = zipBuffer.readUInt16LE(offset + 32);
+    const localHeaderOffset = zipBuffer.readUInt32LE(offset + 42);
+    const entryEnd = offset + 46 + filenameLength + extraLength + commentLength;
+    if (entryEnd > zipBuffer.length) {
+        throw new Error(
+            `ZIP central directory entry ${index + 1} is truncated.`
+        );
+    }
+    if (
+        compressedSize === 0xffffffff ||
+        uncompressedSize === 0xffffffff ||
+        localHeaderOffset === 0xffffffff
+    ) {
+        throw new Error("ZIP64 archives are not supported by this auditor.");
+    }
+    const filenameBuffer = zipBuffer.subarray(
+        offset + 46,
+        offset + 46 + filenameLength
+    );
+    return {
+        entry: {
+            name: decodeZipFilename(filenameBuffer, flags),
+            flags,
+            compressionMethod,
+            crc32,
+            compressedSize,
+            uncompressedSize,
+            localHeaderOffset,
+        },
+        entryEnd,
+    };
+}
+
+/**
+ * @param {Buffer} zipBuffer
+ *
+ * @returns {ZipEntry[]}
+ */
+function readZipCentralDirectory(zipBuffer) {
+    const eocdOffset = findZipEndRecord(zipBuffer);
     const entryCount = zipBuffer.readUInt16LE(eocdOffset + 10);
     const directorySize = zipBuffer.readUInt32LE(eocdOffset + 12);
     const directoryOffset = zipBuffer.readUInt32LE(eocdOffset + 16);
@@ -1127,65 +1253,67 @@ function readZipCentralDirectory(zipBuffer) {
     let offset = directoryOffset;
     let totalUncompressed = 0;
     for (let index = 0; index < entryCount; index += 1) {
-        if (
-            offset + 46 > zipBuffer.length ||
-            zipBuffer.readUInt32LE(offset) !== 0x02014b50
-        ) {
-            throw new Error(
-                `ZIP central directory entry ${index + 1} is invalid.`
-            );
-        }
-        const flags = zipBuffer.readUInt16LE(offset + 8);
-        const compressionMethod = zipBuffer.readUInt16LE(offset + 10);
-        const crc32 = zipBuffer.readUInt32LE(offset + 16);
-        const compressedSize = zipBuffer.readUInt32LE(offset + 20);
-        const uncompressedSize = zipBuffer.readUInt32LE(offset + 24);
-        const filenameLength = zipBuffer.readUInt16LE(offset + 28);
-        const extraLength = zipBuffer.readUInt16LE(offset + 30);
-        const commentLength = zipBuffer.readUInt16LE(offset + 32);
-        const localHeaderOffset = zipBuffer.readUInt32LE(offset + 42);
-        const entryEnd =
-            offset + 46 + filenameLength + extraLength + commentLength;
-        if (entryEnd > zipBuffer.length) {
-            throw new Error(
-                `ZIP central directory entry ${index + 1} is truncated.`
-            );
-        }
-        if (
-            compressedSize === 0xffffffff ||
-            uncompressedSize === 0xffffffff ||
-            localHeaderOffset === 0xffffffff
-        ) {
-            throw new Error(
-                "ZIP64 archives are not supported by this auditor."
-            );
-        }
-        const filenameBuffer = zipBuffer.subarray(
-            offset + 46,
-            offset + 46 + filenameLength
+        const { entry, entryEnd } = readZipCentralEntry(
+            zipBuffer,
+            offset,
+            index
         );
-        const name =
-            flags & 0x0800
-                ? filenameBuffer.toString("utf8")
-                : iconv.decode(filenameBuffer, "cp437");
-        totalUncompressed += uncompressedSize;
+        totalUncompressed += entry.uncompressedSize;
         if (totalUncompressed > MAX_ZIP_UNCOMPRESSED_BYTES) {
             throw new RangeError(
                 `ZIP exceeds the ${MAX_ZIP_UNCOMPRESSED_BYTES}-byte uncompressed limit.`
             );
         }
-        entries.push({
+        entries.push(entry);
+        offset = entryEnd;
+    }
+    return entries;
+}
+
+/**
+ * @param {Buffer} zipBuffer
+ * @param {number} offset
+ *
+ * @returns {{ entry: ZipEntry | null; nextOffset: number }}
+ */
+function readZipLocalEntry(zipBuffer, offset) {
+    const flags = zipBuffer.readUInt16LE(offset + 6);
+    if (flags & 0x0008) return { entry: null, nextOffset: offset + 1 };
+
+    const compressionMethod = zipBuffer.readUInt16LE(offset + 8);
+    const crc32 = zipBuffer.readUInt32LE(offset + 14);
+    const compressedSize = zipBuffer.readUInt32LE(offset + 18);
+    const uncompressedSize = zipBuffer.readUInt32LE(offset + 22);
+    const filenameLength = zipBuffer.readUInt16LE(offset + 26);
+    const extraLength = zipBuffer.readUInt16LE(offset + 28);
+    if (compressedSize === 0xffffffff || uncompressedSize === 0xffffffff) {
+        return { entry: null, nextOffset: offset + 1 };
+    }
+    const nameStart = offset + 30;
+    const nameEnd = nameStart + filenameLength;
+    const dataEnd = nameEnd + extraLength + compressedSize;
+    if (nameEnd > zipBuffer.length || dataEnd > zipBuffer.length) {
+        return { entry: null, nextOffset: offset + 1 };
+    }
+    const name = decodeZipFilename(
+        zipBuffer.subarray(nameStart, nameEnd),
+        flags
+    );
+    if (name.length === 0 || name.includes("\0")) {
+        return { entry: null, nextOffset: offset + 1 };
+    }
+    return {
+        entry: {
             name,
             flags,
             compressionMethod,
             crc32,
             compressedSize,
             uncompressedSize,
-            localHeaderOffset,
-        });
-        offset = entryEnd;
-    }
-    return entries;
+            localHeaderOffset: offset,
+        },
+        nextOffset: dataEnd,
+    };
 }
 
 /**
@@ -1217,54 +1345,18 @@ function readZipLocalDirectory(zipBuffer, centralDirectoryError) {
                 `ZIP exceeds the ${MAX_ZIP_ENTRIES}-entry limit.`
             );
         }
-        const flags = zipBuffer.readUInt16LE(offset + 6);
-        if (flags & 0x0008) {
-            offset = zipBuffer.indexOf(localSignature, offset + 1);
+        const parsed = readZipLocalEntry(zipBuffer, offset);
+        offset = zipBuffer.indexOf(localSignature, parsed.nextOffset);
+        if (!parsed.entry) {
             continue;
         }
-        const compressionMethod = zipBuffer.readUInt16LE(offset + 8);
-        const crc32 = zipBuffer.readUInt32LE(offset + 14);
-        const compressedSize = zipBuffer.readUInt32LE(offset + 18);
-        const uncompressedSize = zipBuffer.readUInt32LE(offset + 22);
-        const filenameLength = zipBuffer.readUInt16LE(offset + 26);
-        const extraLength = zipBuffer.readUInt16LE(offset + 28);
-        if (compressedSize === 0xffffffff || uncompressedSize === 0xffffffff) {
-            offset = zipBuffer.indexOf(localSignature, offset + 1);
-            continue;
-        }
-        const nameStart = offset + 30;
-        const nameEnd = nameStart + filenameLength;
-        const dataStart = nameEnd + extraLength;
-        const dataEnd = dataStart + compressedSize;
-        if (nameEnd > zipBuffer.length || dataEnd > zipBuffer.length) {
-            offset = zipBuffer.indexOf(localSignature, offset + 1);
-            continue;
-        }
-        const filenameBuffer = zipBuffer.subarray(nameStart, nameEnd);
-        const name =
-            flags & 0x0800
-                ? filenameBuffer.toString("utf8")
-                : iconv.decode(filenameBuffer, "cp437");
-        if (name.length === 0 || name.includes("\0")) {
-            offset = zipBuffer.indexOf(localSignature, offset + 1);
-            continue;
-        }
-        totalUncompressed += uncompressedSize;
+        totalUncompressed += parsed.entry.uncompressedSize;
         if (totalUncompressed > MAX_ZIP_UNCOMPRESSED_BYTES) {
             throw new RangeError(
                 `ZIP exceeds the ${MAX_ZIP_UNCOMPRESSED_BYTES}-byte uncompressed limit.`
             );
         }
-        entries.push({
-            name,
-            flags,
-            compressionMethod,
-            crc32,
-            compressedSize,
-            uncompressedSize,
-            localHeaderOffset: offset,
-        });
-        offset = zipBuffer.indexOf(localSignature, dataEnd);
+        entries.push(parsed.entry);
     }
     if (entries.length === 0) {
         throw centralDirectoryError;
