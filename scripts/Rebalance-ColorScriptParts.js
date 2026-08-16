@@ -1385,7 +1385,7 @@ function buildManifest(options) {
  *
  * @returns {RebalanceManifest}
  */
-function validateManifest(document) {
+function assertManifestHeader(document) {
     const invariants = document?.invariants;
     if (
         !document ||
@@ -1411,159 +1411,181 @@ function validateManifest(document) {
             "Rebalance manifest must use schemaVersion 2, a baseline commit, and a non-empty families array."
         );
     }
-    const familyNames = new Set();
-    const allFiles = new Set();
-    for (const family of document.families) {
-        if (
-            !family ||
-            typeof family !== "object" ||
-            typeof family.family !== "string" ||
-            familyNames.has(family.family) ||
-            !Number.isSafeInteger(family.fixedPartCount) ||
-            family.fixedPartCount < 2 ||
-            !Number.isSafeInteger(family.maximumRows) ||
-            family.maximumRows < 1 ||
-            !HASH_PATTERN.test(family.expectedFamilyRowsSha256) ||
-            !HASH_PATTERN.test(family.expectedMappedFamilyRowsSha256) ||
-            !Number.isSafeInteger(family.mappedRowCount) ||
-            family.mappedRowCount < 1 ||
-            !Number.isSafeInteger(family.retainedRowCount) ||
-            family.retainedRowCount < family.fixedPartCount ||
-            !family.outerTrim ||
-            typeof family.outerTrim !== "object" ||
-            !Number.isSafeInteger(family.outerTrim.leadingRows) ||
-            family.outerTrim.leadingRows < 0 ||
-            !Number.isSafeInteger(family.outerTrim.trailingRows) ||
-            family.outerTrim.trailingRows < 0 ||
-            !HASH_PATTERN.test(family.outerTrim.expectedLeadingRowsSha256) ||
-            !HASH_PATTERN.test(family.outerTrim.expectedTrailingRowsSha256) ||
-            family.retainedRowCount +
-                family.outerTrim.leadingRows +
-                family.outerTrim.trailingRows !==
-                family.mappedRowCount ||
-            !Array.isArray(family.inputs) ||
-            !Array.isArray(family.outputs) ||
-            family.inputs.length !== family.fixedPartCount ||
-            family.outputs.length !== family.fixedPartCount ||
-            !Array.isArray(family.reviewFindings) ||
-            family.reviewFindings.length < 1 ||
-            !isValidRange(family.sourceRows)
-        ) {
-            throw new Error("Rebalance family record is malformed.");
-        }
-        familyNames.add(family.family);
-        const orderedFiles = sortAndValidatePartNames(
-            family.inputs.map((input) => input.file),
-            family.family
-        );
-        const reviewedScripts = new Set();
-        for (const finding of family.reviewFindings) {
-            if (
-                !finding ||
-                typeof finding !== "object" ||
-                typeof finding.script !== "string" ||
-                typeof finding.signal !== "string" ||
-                !REBALANCE_ACTIONS.has(finding.action) ||
-                reviewedScripts.has(finding.script) ||
-                parsePartName(`${finding.script}.ps1`).family !==
-                    family.family ||
-                !orderedFiles.includes(`${finding.script}.ps1`)
-            ) {
-                throw new Error(
-                    `${family.family}: review finding is malformed.`
-                );
-            }
-            reviewedScripts.add(finding.script);
-        }
-        let totalCurrentRows = 0;
-        let totalExcludedPresentationRows = 0;
-        let baselineRangeStart = family.sourceRows.start;
-        for (const [index, input] of family.inputs.entries()) {
-            if (
-                !input ||
-                typeof input !== "object" ||
-                input.file !== orderedFiles[index] ||
-                allFiles.has(input.file) ||
-                typeof input.relativePath !== "string" ||
-                input.relativePath.includes("\\") ||
-                input.relativePath.startsWith("../") ||
-                !input.relativePath.endsWith(`/${input.file}`) ||
-                !HASH_PATTERN.test(input.expectedBaselineFileSha256) ||
-                !HASH_PATTERN.test(input.expectedCurrentFileSha256) ||
-                !HASH_PATTERN.test(input.expectedCurrentPayloadSha256) ||
-                !HASH_PATTERN.test(input.expectedCurrentRowsSha256) ||
-                !Number.isSafeInteger(input.baselinePayloadRows) ||
-                !Number.isSafeInteger(input.currentPayloadRows) ||
-                input.baselinePayloadRows < 1 ||
-                input.currentPayloadRows < 1 ||
-                !Number.isSafeInteger(input.excludedPresentationRows) ||
-                input.excludedPresentationRows < 0 ||
-                input.excludedPresentationRows > 1 ||
-                input.currentPayloadRows <= input.excludedPresentationRows ||
-                !isValidRange(input.sourceRows) ||
-                input.sourceRows.start !== baselineRangeStart ||
-                !isValidAlignment(
-                    input.alignment,
-                    input.baselinePayloadRows,
-                    input.currentPayloadRows
-                )
-            ) {
-                throw new Error(`${family.family}: input record is malformed.`);
-            }
-            allFiles.add(input.file);
-            totalCurrentRows += input.currentPayloadRows;
-            totalExcludedPresentationRows += input.excludedPresentationRows;
-            baselineRangeStart = input.sourceRows.end + 1;
-        }
-        const totalRows = totalCurrentRows - totalExcludedPresentationRows;
-        if (
-            baselineRangeStart !== family.sourceRows.end + 1 ||
-            totalRows !== family.mappedRowCount ||
-            family.retainedRowCount > family.fixedPartCount * family.maximumRows
-        ) {
-            throw new Error(
-                `${family.family}: input conservation geometry is invalid.`
-            );
-        }
-        let startRow = 0;
-        let sourceStart = family.sourceRows.start;
-        for (const [index, output] of family.outputs.entries()) {
-            if (
-                !output ||
-                typeof output !== "object" ||
-                output.file !== orderedFiles[index] ||
-                !Number.isSafeInteger(output.startRow) ||
-                !Number.isSafeInteger(output.endRowExclusive) ||
-                !Number.isSafeInteger(output.rowCount) ||
-                output.startRow !== startRow ||
-                output.endRowExclusive <= output.startRow ||
-                output.rowCount !== output.endRowExclusive - output.startRow ||
-                output.rowCount > family.maximumRows ||
-                !Number.isSafeInteger(output.visibleRowCount) ||
-                output.visibleRowCount < 1 ||
-                output.visibleRowCount > output.rowCount ||
-                !HASH_PATTERN.test(output.expectedRawRowsSha256) ||
-                !isValidRange(output.sourceRows) ||
-                output.sourceRows.start !== sourceStart
-            ) {
-                throw new Error(
-                    `${family.family}: output record is malformed.`
-                );
-            }
-            startRow = output.endRowExclusive;
-            sourceStart = output.sourceRows.end + 1;
-        }
-        if (
-            startRow !== family.retainedRowCount ||
-            sourceStart !== family.sourceRows.end + 1
-        ) {
-            throw new Error(
-                `${family.family}: outputs do not conserve rows and source coordinates.`
-            );
-        }
+}
+
+/**
+ * @param {ManifestFamily} family
+ * @param {Set<string>} familyNames
+ */
+function assertManifestFamilyShape(family, familyNames) {
+    if (
+        !family ||
+        typeof family !== "object" ||
+        typeof family.family !== "string" ||
+        familyNames.has(family.family) ||
+        !Number.isSafeInteger(family.fixedPartCount) ||
+        family.fixedPartCount < 2 ||
+        !Number.isSafeInteger(family.maximumRows) ||
+        family.maximumRows < 1 ||
+        !HASH_PATTERN.test(family.expectedFamilyRowsSha256) ||
+        !HASH_PATTERN.test(family.expectedMappedFamilyRowsSha256) ||
+        !Number.isSafeInteger(family.mappedRowCount) ||
+        family.mappedRowCount < 1 ||
+        !Number.isSafeInteger(family.retainedRowCount) ||
+        family.retainedRowCount < family.fixedPartCount ||
+        !family.outerTrim ||
+        typeof family.outerTrim !== "object" ||
+        !Number.isSafeInteger(family.outerTrim.leadingRows) ||
+        family.outerTrim.leadingRows < 0 ||
+        !Number.isSafeInteger(family.outerTrim.trailingRows) ||
+        family.outerTrim.trailingRows < 0 ||
+        !HASH_PATTERN.test(family.outerTrim.expectedLeadingRowsSha256) ||
+        !HASH_PATTERN.test(family.outerTrim.expectedTrailingRowsSha256) ||
+        family.retainedRowCount +
+            family.outerTrim.leadingRows +
+            family.outerTrim.trailingRows !==
+            family.mappedRowCount ||
+        !Array.isArray(family.inputs) ||
+        !Array.isArray(family.outputs) ||
+        family.inputs.length !== family.fixedPartCount ||
+        family.outputs.length !== family.fixedPartCount ||
+        !Array.isArray(family.reviewFindings) ||
+        family.reviewFindings.length < 1 ||
+        !isValidRange(family.sourceRows)
+    ) {
+        throw new Error("Rebalance family record is malformed.");
     }
-    const expectedSummary = {
-        excludedPresentationRows: document.families.reduce(
+    familyNames.add(family.family);
+}
+
+/**
+ * @param {ManifestFamily} family
+ * @param {string[]} orderedFiles
+ */
+function validateManifestReviewFindings(family, orderedFiles) {
+    const reviewedScripts = new Set();
+    for (const finding of family.reviewFindings) {
+        if (
+            !finding ||
+            typeof finding !== "object" ||
+            typeof finding.script !== "string" ||
+            typeof finding.signal !== "string" ||
+            !REBALANCE_ACTIONS.has(finding.action) ||
+            reviewedScripts.has(finding.script) ||
+            parsePartName(`${finding.script}.ps1`).family !== family.family ||
+            !orderedFiles.includes(`${finding.script}.ps1`)
+        ) {
+            throw new Error(`${family.family}: review finding is malformed.`);
+        }
+        reviewedScripts.add(finding.script);
+    }
+}
+
+/**
+ * @param {ManifestFamily} family
+ * @param {string[]} orderedFiles
+ * @param {Set<string>} allFiles
+ */
+function validateManifestInputs(family, orderedFiles, allFiles) {
+    let totalCurrentRows = 0;
+    let totalExcludedPresentationRows = 0;
+    let baselineRangeStart = family.sourceRows.start;
+    for (const [index, input] of family.inputs.entries()) {
+        if (
+            !input ||
+            typeof input !== "object" ||
+            input.file !== orderedFiles[index] ||
+            allFiles.has(input.file) ||
+            typeof input.relativePath !== "string" ||
+            input.relativePath.includes("\\") ||
+            input.relativePath.startsWith("../") ||
+            !input.relativePath.endsWith(`/${input.file}`) ||
+            !HASH_PATTERN.test(input.expectedBaselineFileSha256) ||
+            !HASH_PATTERN.test(input.expectedCurrentFileSha256) ||
+            !HASH_PATTERN.test(input.expectedCurrentPayloadSha256) ||
+            !HASH_PATTERN.test(input.expectedCurrentRowsSha256) ||
+            !Number.isSafeInteger(input.baselinePayloadRows) ||
+            !Number.isSafeInteger(input.currentPayloadRows) ||
+            input.baselinePayloadRows < 1 ||
+            input.currentPayloadRows < 1 ||
+            !Number.isSafeInteger(input.excludedPresentationRows) ||
+            input.excludedPresentationRows < 0 ||
+            input.excludedPresentationRows > 1 ||
+            input.currentPayloadRows <= input.excludedPresentationRows ||
+            !isValidRange(input.sourceRows) ||
+            input.sourceRows.start !== baselineRangeStart ||
+            !isValidAlignment(
+                input.alignment,
+                input.baselinePayloadRows,
+                input.currentPayloadRows
+            )
+        ) {
+            throw new Error(`${family.family}: input record is malformed.`);
+        }
+        allFiles.add(input.file);
+        totalCurrentRows += input.currentPayloadRows;
+        totalExcludedPresentationRows += input.excludedPresentationRows;
+        baselineRangeStart = input.sourceRows.end + 1;
+    }
+    const totalRows = totalCurrentRows - totalExcludedPresentationRows;
+    if (
+        baselineRangeStart !== family.sourceRows.end + 1 ||
+        totalRows !== family.mappedRowCount ||
+        family.retainedRowCount > family.fixedPartCount * family.maximumRows
+    ) {
+        throw new Error(
+            `${family.family}: input conservation geometry is invalid.`
+        );
+    }
+}
+
+/**
+ * @param {ManifestFamily} family
+ * @param {string[]} orderedFiles
+ */
+function validateManifestOutputs(family, orderedFiles) {
+    let startRow = 0;
+    let sourceStart = family.sourceRows.start;
+    for (const [index, output] of family.outputs.entries()) {
+        if (
+            !output ||
+            typeof output !== "object" ||
+            output.file !== orderedFiles[index] ||
+            !Number.isSafeInteger(output.startRow) ||
+            !Number.isSafeInteger(output.endRowExclusive) ||
+            !Number.isSafeInteger(output.rowCount) ||
+            output.startRow !== startRow ||
+            output.endRowExclusive <= output.startRow ||
+            output.rowCount !== output.endRowExclusive - output.startRow ||
+            output.rowCount > family.maximumRows ||
+            !Number.isSafeInteger(output.visibleRowCount) ||
+            output.visibleRowCount < 1 ||
+            output.visibleRowCount > output.rowCount ||
+            !HASH_PATTERN.test(output.expectedRawRowsSha256) ||
+            !isValidRange(output.sourceRows) ||
+            output.sourceRows.start !== sourceStart
+        ) {
+            throw new Error(`${family.family}: output record is malformed.`);
+        }
+        startRow = output.endRowExclusive;
+        sourceStart = output.sourceRows.end + 1;
+    }
+    if (
+        startRow !== family.retainedRowCount ||
+        sourceStart !== family.sourceRows.end + 1
+    ) {
+        throw new Error(
+            `${family.family}: outputs do not conserve rows and source coordinates.`
+        );
+    }
+}
+
+/**
+ * @param {ManifestFamily[]} families
+ */
+function getManifestSummary(families) {
+    return {
+        excludedPresentationRows: families.reduce(
             (total, family) =>
                 total +
                 family.inputs.reduce(
@@ -1573,32 +1595,54 @@ function validateManifest(document) {
                 ),
             0
         ),
-        families: document.families.length,
-        inputs: document.families.reduce(
+        families: families.length,
+        inputs: families.reduce(
             (total, family) => total + family.inputs.length,
             0
         ),
-        outputs: document.families.reduce(
+        outputs: families.reduce(
             (total, family) => total + family.outputs.length,
             0
         ),
-        retainedRows: document.families.reduce(
+        retainedRows: families.reduce(
             (total, family) => total + family.retainedRowCount,
             0
         ),
-        reviewFindings: document.families.reduce(
+        reviewFindings: families.reduce(
             (total, family) => total + family.reviewFindings.length,
             0
         ),
-        trimmedLeadingRows: document.families.reduce(
+        trimmedLeadingRows: families.reduce(
             (total, family) => total + family.outerTrim.leadingRows,
             0
         ),
-        trimmedTrailingRows: document.families.reduce(
+        trimmedTrailingRows: families.reduce(
             (total, family) => total + family.outerTrim.trailingRows,
             0
         ),
     };
+}
+
+/**
+ * @param {RebalanceManifest} document
+ *
+ * @returns {RebalanceManifest}
+ */
+function validateManifest(document) {
+    assertManifestHeader(document);
+    const familyNames = new Set();
+    const allFiles = new Set();
+    for (const family of document.families) {
+        assertManifestFamilyShape(family, familyNames);
+        const orderedFiles = sortAndValidatePartNames(
+            family.inputs.map((input) => input.file),
+            family.family
+        );
+        validateManifestReviewFindings(family, orderedFiles);
+        validateManifestInputs(family, orderedFiles, allFiles);
+        validateManifestOutputs(family, orderedFiles);
+    }
+    const expectedSummary = getManifestSummary(document.families);
     if (JSON.stringify(document.summary) !== JSON.stringify(expectedSummary)) {
         throw new Error("Rebalance manifest summary is inconsistent.");
     }
