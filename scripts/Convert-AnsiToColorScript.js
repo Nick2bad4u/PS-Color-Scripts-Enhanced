@@ -1529,6 +1529,110 @@ class TerminalEmulator {
     }
 
     /**
+     * @param {{ start: number; end: number } | null} columnRange
+     *
+     * @returns {{ start: number; end: number }}
+     */
+    resolveBuildColumnRange(columnRange) {
+        const resolved = {
+            start: columnRange?.start ?? 0,
+            end: columnRange?.end ?? this.maxCol,
+        };
+        if (
+            !Number.isSafeInteger(resolved.start) ||
+            !Number.isSafeInteger(resolved.end) ||
+            resolved.start < 0 ||
+            resolved.end < resolved.start ||
+            resolved.end >= MAX_TERMINAL_COLUMNS
+        ) {
+            throw new RangeError(
+                `Column range must be within the supported 1-${MAX_TERMINAL_COLUMNS} terminal columns.`
+            );
+        }
+        return resolved;
+    }
+
+    /**
+     * @param {Cell | undefined} cell
+     * @param {CellAttributes} defaultAttrs
+     *
+     * @returns {Cell}
+     */
+    prepareCellForSerialization(cell, defaultAttrs) {
+        if (!cell) return { char: " ", attrs: defaultAttrs };
+        const removeBackground =
+            this.stripSpaceBackground && cell.char === " " && cell.attrs.bg;
+        if (!removeBackground) return cell;
+        const attrs = cloneAttrs(cell.attrs);
+        attrs.bg = null;
+        return { char: cell.char, attrs };
+    }
+
+    /**
+     * @param {Cell[]} cells
+     * @param {CellAttributes} defaultAttrs
+     *
+     * @returns {number}
+     */
+    findSerializedCellLength(cells, defaultAttrs) {
+        let length = cells.length;
+        while (length > 0) {
+            const cell = cells[length - 1];
+            if (cell.char !== " " || !attrsEqual(cell.attrs, defaultAttrs)) {
+                break;
+            }
+            length -= 1;
+        }
+        return length;
+    }
+
+    /**
+     * @param {Cell[]} cells
+     * @param {CellAttributes} defaultAttrs
+     *
+     * @returns {string}
+     */
+    serializeCells(cells, defaultAttrs) {
+        const length = this.findSerializedCellLength(cells, defaultAttrs);
+        let line = "";
+        let lastAttrs = defaultAttrs;
+        for (let index = 0; index < length; index += 1) {
+            const cell = cells[index];
+            const diff = diffAttrs(lastAttrs, cell.attrs);
+            if (diff.length > 0) {
+                line += `${ESC}[${diff.join(";")}m`;
+                lastAttrs = cell.attrs;
+            }
+            line += cell.char;
+        }
+        if (length > 0 && !attrsEqual(lastAttrs, defaultAttrs)) {
+            line += `${ESC}[0m`;
+        }
+        return line;
+    }
+
+    /**
+     * @param {TerminalRow} row
+     * @param {{ start: number; end: number }} columnRange
+     * @param {CellAttributes} defaultAttrs
+     *
+     * @returns {string}
+     */
+    serializeRow(row, columnRange, defaultAttrs) {
+        const cells = [];
+        const lastColumn = Math.min(row.maxCol, columnRange.end);
+        for (let col = columnRange.start; col <= lastColumn; col += 1) {
+            cells.push(
+                this.prepareCellForSerialization(
+                    row.cells.get(col),
+                    defaultAttrs
+                )
+            );
+        }
+        return this.serializeCells(cells, defaultAttrs);
+    }
+
+    /**
      * Serialize the rendered terminal, optionally limiting each row to an
      * inclusive zero-based column range. Column slicing happens against the
      * terminal cell matrix so SGR state is reconstructed at the beginning of
@@ -1540,74 +1644,17 @@ class TerminalEmulator {
      */
     buildLines(columnRange = null) {
         this.recalculateBounds();
-        const startColumn = columnRange ? columnRange.start : 0;
-        const endColumn = columnRange ? columnRange.end : this.maxCol;
-        if (
-            !Number.isSafeInteger(startColumn) ||
-            !Number.isSafeInteger(endColumn) ||
-            startColumn < 0 ||
-            endColumn < startColumn ||
-            endColumn >= MAX_TERMINAL_COLUMNS
-        ) {
-            throw new RangeError(
-                `Column range must be within the supported 1-${MAX_TERMINAL_COLUMNS} terminal columns.`
-            );
-        }
+        const resolvedRange = this.resolveBuildColumnRange(columnRange);
         const lines = [];
         const defaultAttrs = createDefaultAttrs();
         for (let rowIndex = 0; rowIndex <= this.maxRow; rowIndex += 1) {
             const row = this.rows.get(rowIndex);
-            if (!row || row.maxCol < startColumn) {
-                lines.push("");
-                continue;
-            }
-            const cells = [];
-            const lastColumn = Math.min(row.maxCol, endColumn);
-            for (let col = startColumn; col <= lastColumn; col += 1) {
-                const cell = row.cells.get(col);
-                if (cell) {
-                    let attrsToUse = cell.attrs;
-                    if (
-                        this.stripSpaceBackground &&
-                        cell.char === " " &&
-                        cell.attrs.bg
-                    ) {
-                        const cloned = cloneAttrs(cell.attrs);
-                        cloned.bg = null;
-                        attrsToUse = cloned;
-                    }
-                    cells.push({ char: cell.char, attrs: attrsToUse });
-                } else {
-                    cells.push({ char: " ", attrs: defaultAttrs });
-                }
-            }
-            let effectiveLength = cells.length;
-            while (effectiveLength > 0) {
-                const lastCell = cells[effectiveLength - 1];
-                if (
-                    lastCell.char === " " &&
-                    attrsEqual(lastCell.attrs, defaultAttrs)
-                ) {
-                    effectiveLength -= 1;
-                } else {
-                    break;
-                }
-            }
-            let line = "";
-            let lastAttrs = defaultAttrs;
-            for (let i = 0; i < effectiveLength; i += 1) {
-                const cell = cells[i];
-                const diff = diffAttrs(lastAttrs, cell.attrs);
-                if (diff.length > 0) {
-                    line += `${ESC}[${diff.join(";")}m`;
-                    lastAttrs = cell.attrs;
-                }
-                line += cell.char;
-            }
-            if (effectiveLength > 0 && !attrsEqual(lastAttrs, defaultAttrs)) {
-                line += `${ESC}[0m`;
-            }
-            lines.push(line);
+            const hasVisibleRange = row && row.maxCol >= resolvedRange.start;
+            lines.push(
+                hasVisibleRange
+                    ? this.serializeRow(row, resolvedRange, defaultAttrs)
+                    : ""
+            );
         }
         return lines;
     }
