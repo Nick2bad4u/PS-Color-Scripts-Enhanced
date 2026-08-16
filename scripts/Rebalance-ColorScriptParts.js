@@ -1934,80 +1934,106 @@ function writeFileAtomic(targetPath, source) {
 
 /**
  * @param {RebalancePlan} plan
- * @param {string} scriptsDirectory
  *
- * @returns {void}
+ * @returns {string}
  */
-function writePlan(plan, scriptsDirectory) {
-    const originals = new Map();
-    const usesCheckedInScripts =
-        path.resolve(scriptsDirectory).toLowerCase() ===
-        path.resolve(DEFAULT_SCRIPTS_DIRECTORY).toLowerCase();
-    let updatedProvenance = null;
-    let updatedMigrationManifest = null;
-    if (usesCheckedInScripts) {
-        const provenance = readArtworkProvenance(DEFAULT_PROVENANCE_PATH);
-        const updates = new Map();
-        for (const family of plan.families) {
-            for (const output of family.files) {
-                const name = path.basename(output.file, ".ps1");
-                if (!provenance.scripts.has(name)) {
-                    throw new Error(`${name}: artwork provenance is missing.`);
-                }
-                updates.set(name, {
-                    SourceRows: `${output.sourceRows.start}-${output.sourceRows.end}`,
-                });
+function prepareRebalancedProvenance(plan) {
+    const provenance = readArtworkProvenance(DEFAULT_PROVENANCE_PATH);
+    const updates = new Map();
+    for (const family of plan.families) {
+        for (const output of family.files) {
+            const name = path.basename(output.file, ".ps1");
+            if (!provenance.scripts.has(name)) {
+                throw new Error(`${name}: artwork provenance is missing.`);
             }
-        }
-        updatedProvenance = updateArtworkProvenanceScriptProperties(
-            provenance.source,
-            updates
-        );
-        if (fs.existsSync(HEADER_MIGRATION_PATH)) {
-            const migration = JSON.parse(
-                fs.readFileSync(HEADER_MIGRATION_PATH, "utf8")
-            );
-            for (const family of plan.families) {
-                for (const output of family.files) {
-                    const name = path.basename(output.file, ".ps1");
-                    const record = migration.records?.[name];
-                    if (!record) continue;
-                    const parsed = parseLeadingCommentHeader(output.source);
-                    if (!parsed) {
-                        throw new Error(`${name}: compact header is missing.`);
-                    }
-                    record.currentCompactFileSha256 = sha256(
-                        Buffer.from(output.source, "utf8")
-                    );
-                    record.currentPayloadSha256 = sha256(parsed.body);
-                    record.payloadModifiedAfterMigration =
-                        record.currentPayloadSha256 !== record.payloadSha256;
-                }
-            }
-            updatedMigrationManifest = `${JSON.stringify(migration, null, 2)}\n`;
+            updates.set(name, {
+                SourceRows: `${output.sourceRows.start}-${output.sourceRows.end}`,
+            });
         }
     }
+    return updateArtworkProvenanceScriptProperties(provenance.source, updates);
+}
+
+/**
+ * @param {RebalancePlan} plan
+ *
+ * @returns {string | null}
+ */
+function prepareRebalancedMigrationManifest(plan) {
+    if (!fs.existsSync(HEADER_MIGRATION_PATH)) return null;
+    const migration = JSON.parse(
+        fs.readFileSync(HEADER_MIGRATION_PATH, "utf8")
+    );
+    for (const family of plan.families) {
+        for (const output of family.files) {
+            const name = path.basename(output.file, ".ps1");
+            const record = migration.records?.[name];
+            if (!record) continue;
+            const parsed = parseLeadingCommentHeader(output.source);
+            if (!parsed) throw new Error(`${name}: compact header is missing.`);
+            record.currentCompactFileSha256 = sha256(
+                Buffer.from(output.source, "utf8")
+            );
+            record.currentPayloadSha256 = sha256(parsed.body);
+            record.payloadModifiedAfterMigration =
+                record.currentPayloadSha256 !== record.payloadSha256;
+        }
+    }
+    return `${JSON.stringify(migration, null, 2)}\n`;
+}
+
+/**
+ * @param {RebalancePlan} plan
+ * @param {string} scriptsDirectory
+ * @param {string | null} updatedProvenance
+ * @param {string | null} updatedMigrationManifest
+ *
+ * @returns {{ targetPath: string; source: string; isScript: boolean }[]}
+ */
+function buildRebalanceWriteSet(
+    plan,
+    scriptsDirectory,
+    updatedProvenance,
+    updatedMigrationManifest
+) {
+    const writes = plan.families.flatMap((family) =>
+        family.files.map((output) => ({
+            targetPath: path.join(scriptsDirectory, output.file),
+            source: output.source,
+            isScript: true,
+        }))
+    );
+    if (updatedProvenance !== null) {
+        writes.push({
+            targetPath: DEFAULT_PROVENANCE_PATH,
+            source: updatedProvenance,
+            isScript: false,
+        });
+    }
+    if (updatedMigrationManifest !== null) {
+        writes.push({
+            targetPath: HEADER_MIGRATION_PATH,
+            source: updatedMigrationManifest,
+            isScript: false,
+        });
+    }
+    return writes;
+}
+
+/**
+ * @param {{ targetPath: string; source: string; isScript: boolean }[]} writes
+ */
+function applyRebalanceWriteSet(writes) {
+    const originals = new Map();
     try {
-        for (const family of plan.families) {
-            for (const output of family.files) {
-                const targetPath = path.join(scriptsDirectory, output.file);
-                originals.set(targetPath, readRegularFile(targetPath));
-                writeFileAtomic(targetPath, output.source);
-            }
-        }
-        if (updatedProvenance !== null) {
+        for (const { targetPath, source, isScript } of writes) {
             originals.set(
-                DEFAULT_PROVENANCE_PATH,
-                fs.readFileSync(DEFAULT_PROVENANCE_PATH)
+                targetPath,
+                isScript
+                    ? readRegularFile(targetPath)
+                    : fs.readFileSync(targetPath)
             );
-            writeFileAtomic(DEFAULT_PROVENANCE_PATH, updatedProvenance);
-        }
-        if (updatedMigrationManifest !== null) {
-            originals.set(
-                HEADER_MIGRATION_PATH,
-                fs.readFileSync(HEADER_MIGRATION_PATH)
-            );
-            writeFileAtomic(HEADER_MIGRATION_PATH, updatedMigrationManifest);
+            writeFileAtomic(targetPath, source);
         }
     } catch (error) {
         for (const [targetPath, buffer] of originals) {
@@ -2015,6 +2041,31 @@ function writePlan(plan, scriptsDirectory) {
         }
         throw error;
     }
+}
+
+/**
+ * @param {RebalancePlan} plan
+ * @param {string} scriptsDirectory
+ *
+ * @returns {void}
+ */
+function writePlan(plan, scriptsDirectory) {
+    const usesCheckedInScripts =
+        path.resolve(scriptsDirectory).toLowerCase() ===
+        path.resolve(DEFAULT_SCRIPTS_DIRECTORY).toLowerCase();
+    const updatedProvenance = usesCheckedInScripts
+        ? prepareRebalancedProvenance(plan)
+        : null;
+    const updatedMigrationManifest = usesCheckedInScripts
+        ? prepareRebalancedMigrationManifest(plan)
+        : null;
+    const writes = buildRebalanceWriteSet(
+        plan,
+        scriptsDirectory,
+        updatedProvenance,
+        updatedMigrationManifest
+    );
+    applyRebalanceWriteSet(writes);
 }
 
 /**
