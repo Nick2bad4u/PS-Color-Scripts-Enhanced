@@ -3024,141 +3024,115 @@ function duplicateCanonicalPriority(candidate) {
 }
 
 /**
- * Deduplicate the current inventory after analysis and decision merging. Raw
- * source hashes take precedence over rendered-cell hashes so exact repacks are
- * distinguished from differently encoded streams that render identically.
- *
- * @param {Record<string, unknown>[]} candidates
- *
- * @returns {Record<string, unknown>[]}
+ * @param {Record<string, unknown>} canonical
+ * @param {Record<string, unknown>[]} group
  */
-function deduplicateCandidates(candidates) {
-    const records = candidates.map((candidate) => ({ ...candidate }));
-    /**
-     * Preserve useful archive metadata when an accepted or otherwise preferred
-     * copy is byte-identical to a better-attributed repack. This does not merge
-     * artwork or infer authorship: it only carries explicit metadata attached
-     * to the exact same source bytes.
-     *
-     * @param {Record<string, unknown>} canonical
-     * @param {Record<string, unknown>[]} group
-     */
-    const enrichCanonical = (canonical, group) => {
-        let enriched = false;
-        for (const field of [
-            "artists",
-            "groups",
-            "content",
-        ]) {
-            const current = Array.isArray(canonical[field])
-                ? canonical[field].filter(Boolean).map(String)
-                : [];
-            if (current.length > 0) continue;
-            const inherited = [
-                ...new Set(
-                    group.flatMap((candidate) =>
-                        Array.isArray(candidate[field])
-                            ? candidate[field].filter(Boolean).map(String)
-                            : []
-                    )
-                ),
-            ].sort((left, right) => left.localeCompare(right));
-            if (inherited.length > 0) {
-                canonical[field] = inherited;
-                enriched = true;
-            }
-        }
-        for (const field of ["previewUrl", "galleryUrl"]) {
-            if (canonical[field]) continue;
-            const source = group.find(
-                (candidate) => typeof candidate[field] === "string"
-            );
-            if (source) {
-                canonical[field] = source[field];
-                enriched = true;
-            }
-        }
-        if (enriched) {
-            canonical.metadataSources = group
-                .filter((candidate) => candidate !== canonical)
-                .map((candidate) => requireString(candidate.id, "candidate id"))
-                .sort((left, right) => left.localeCompare(right));
-        }
-    };
-    /**
-     * @param {Record<string, unknown>[]} group
-     *
-     * @returns {Record<string, unknown>}
-     */
-    const chooseCanonical = (group) =>
-        [...group].sort((left, right) => {
-            const priority =
-                duplicateCanonicalPriority(left) -
-                duplicateCanonicalPriority(right);
-            const leftId = requireString(left.id, "candidate id");
-            const rightId = requireString(right.id, "candidate id");
-            return priority || leftId.localeCompare(rightId);
-        })[0];
-    /**
-     * @param {"sourceSha256" | "renderSha256" | "normalizedRenderSha256"} hashName
-     * @param {Set<string>} excludedDispositions
-     *
-     * @returns {Map<string, Record<string, unknown>[]>}
-     */
-    const groupByHash = (hashName, excludedDispositions) => {
-        const groups = new Map();
-        for (const candidate of records) {
-            const disposition = requireString(
-                candidate.disposition,
-                "candidate disposition"
-            );
-            if (excludedDispositions.has(disposition)) {
-                continue;
-            }
-            const analysis = candidate.analysis;
-            if (!analysis || typeof analysis !== "object") continue;
-            const hash = /** @type {Record<string, unknown>} */ (analysis)[
-                hashName
-            ];
-            if (typeof hash !== "string" || !/^[a-f\d]{64}$/u.test(hash)) {
-                continue;
-            }
-            const matches = groups.get(hash) || [];
-            matches.push(candidate);
-            groups.set(hash, matches);
-        }
-        return groups;
-    };
+function enrichDuplicateCanonical(canonical, group) {
+    let enriched = false;
+    for (const field of [
+        "artists",
+        "groups",
+        "content",
+    ]) {
+        const current = Array.isArray(canonical[field])
+            ? canonical[field].filter(Boolean).map(String)
+            : [];
+        if (current.length > 0) continue;
+        const inherited = [
+            ...new Set(
+                group.flatMap((candidate) =>
+                    Array.isArray(candidate[field])
+                        ? candidate[field].filter(Boolean).map(String)
+                        : []
+                )
+            ),
+        ].sort((left, right) => left.localeCompare(right));
+        if (inherited.length === 0) continue;
+        canonical[field] = inherited;
+        enriched = true;
+    }
+    for (const field of ["previewUrl", "galleryUrl"]) {
+        if (canonical[field]) continue;
+        const source = group.find(
+            (candidate) => typeof candidate[field] === "string"
+        );
+        if (!source) continue;
+        canonical[field] = source[field];
+        enriched = true;
+    }
+    if (!enriched) return;
+    canonical.metadataSources = group
+        .filter((candidate) => candidate !== canonical)
+        .map((candidate) => requireString(candidate.id, "candidate id"))
+        .sort((left, right) => left.localeCompare(right));
+}
 
-    const sourceExclusions = new Set([
-        "already-imported-source",
-        "already-imported-render",
-        "rejected-malformed",
-    ]);
-    for (const group of groupByHash(
-        "sourceSha256",
-        sourceExclusions
-    ).values()) {
+/**
+ * @param {Record<string, unknown>[]} group
+ */
+function chooseDuplicateCanonical(group) {
+    return [...group].sort((left, right) => {
+        const priority =
+            duplicateCanonicalPriority(left) -
+            duplicateCanonicalPriority(right);
+        const leftId = requireString(left.id, "candidate id");
+        const rightId = requireString(right.id, "candidate id");
+        return priority || leftId.localeCompare(rightId);
+    })[0];
+}
+
+/**
+ * @param {Record<string, unknown>[]} records
+ * @param {"sourceSha256" | "renderSha256" | "normalizedRenderSha256"} hashName
+ * @param {Set<string>} excludedDispositions
+ */
+function groupCandidatesByHash(records, hashName, excludedDispositions) {
+    const groups = new Map();
+    for (const candidate of records) {
+        const disposition = requireString(
+            candidate.disposition,
+            "candidate disposition"
+        );
+        if (excludedDispositions.has(disposition)) continue;
+        const analysis = candidate.analysis;
+        if (!analysis || typeof analysis !== "object") continue;
+        const hash = /** @type {Record<string, unknown>} */ (analysis)[
+            hashName
+        ];
+        if (typeof hash !== "string" || !/^[a-f\d]{64}$/u.test(hash)) continue;
+        const matches = groups.get(hash) || [];
+        matches.push(candidate);
+        groups.set(hash, matches);
+    }
+    return groups;
+}
+
+/**
+ * @param {Iterable<Record<string, unknown>[]>} groups
+ * @param {"rejected-duplicate-render" | "rejected-duplicate-source"} disposition
+ * @param {boolean} enrichCanonical
+ */
+function rejectDuplicateGroups(groups, disposition, enrichCanonical) {
+    for (const group of groups) {
         if (group.length < 2) continue;
-        const canonical = chooseCanonical(group);
-        enrichCanonical(canonical, group);
+        const canonical = chooseDuplicateCanonical(group);
+        if (enrichCanonical) enrichDuplicateCanonical(canonical, group);
         for (const candidate of group) {
             if (candidate === canonical) continue;
-            candidate.disposition = "rejected-duplicate-source";
+            candidate.disposition = disposition;
             candidate.review = false;
             candidate.duplicateOf = canonical.id;
         }
     }
+}
 
-    const renderExclusions = new Set([
-        ...sourceExclusions,
-        "rejected-duplicate-source",
-    ]);
+/**
+ * @param {Record<string, unknown>[]} records
+ */
+function normalizeCandidateRenderHashes(records) {
     for (const candidate of records) {
         const analysis = candidate.analysis;
-        if (!analysis || typeof analysis !== "object") {
-            continue;
-        }
+        if (!analysis || typeof analysis !== "object") continue;
         const analysisRecord = /** @type {Record<string, unknown>} */ (
             analysis
         );
@@ -3169,19 +3143,48 @@ function deduplicateCandidates(candidates) {
             analysisRecord.normalizedRenderSha256 = analysisRecord.renderSha256;
         }
     }
-    for (const group of groupByHash(
-        "normalizedRenderSha256",
-        renderExclusions
-    ).values()) {
-        if (group.length < 2) continue;
-        const canonical = chooseCanonical(group);
-        for (const candidate of group) {
-            if (candidate === canonical) continue;
-            candidate.disposition = "rejected-duplicate-render";
-            candidate.review = false;
-            candidate.duplicateOf = canonical.id;
-        }
-    }
+}
+
+/**
+ * Deduplicate the current inventory after analysis and decision merging. Raw
+ * source hashes take precedence over rendered-cell hashes so exact repacks are
+ * distinguished from differently encoded streams that render identically.
+ *
+ * @param {Record<string, unknown>[]} candidates
+ *
+ * @returns {Record<string, unknown>[]}
+ */
+function deduplicateCandidates(candidates) {
+    const records = candidates.map((candidate) => ({ ...candidate }));
+    const sourceExclusions = new Set([
+        "already-imported-source",
+        "already-imported-render",
+        "rejected-malformed",
+    ]);
+    rejectDuplicateGroups(
+        groupCandidatesByHash(
+            records,
+            "sourceSha256",
+            sourceExclusions
+        ).values(),
+        "rejected-duplicate-source",
+        true
+    );
+
+    const renderExclusions = new Set([
+        ...sourceExclusions,
+        "rejected-duplicate-source",
+    ]);
+    normalizeCandidateRenderHashes(records);
+    rejectDuplicateGroups(
+        groupCandidatesByHash(
+            records,
+            "normalizedRenderSha256",
+            renderExclusions
+        ).values(),
+        "rejected-duplicate-render",
+        false
+    );
     return records;
 }
 
