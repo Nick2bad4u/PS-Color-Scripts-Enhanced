@@ -146,9 +146,9 @@ function parseColumnRanges(value) {
  *
  * @returns {{ options: SplitOptions; positional: string[] }}
  */
-function parseArguments(argv) {
+function createSplitOptions() {
     /** @type {SplitOptions} */
-    const options = {
+    return {
         outputDir: DEFAULT_OUTPUT_DIR,
         outputBase: null,
         columns: null,
@@ -176,136 +176,202 @@ function parseArguments(argv) {
             modification: null,
         },
     };
+}
+
+function parseOutputBase(value) {
+    const outputBase = sanitizeName(value);
+    if (!outputBase) {
+        throw new Error(
+            "Output base must contain at least one safe filename character."
+        );
+    }
+    return outputBase;
+}
+
+/**
+ * @param {string} value
+ * @param {string} option
+ * @param {readonly string[]} allowed
+ */
+function parseChoiceOption(value, option, allowed) {
+    if (!allowed.includes(value)) {
+        throw new Error(`${option} must be ${allowed.join(" or ")}.`);
+    }
+    return value;
+}
+
+function parseSplitEncoding(value) {
+    if (value === "cp437" || value === "437") return "cp437";
+    if (value === "utf8" || value === "utf-8") return "utf8";
+    throw new Error("--encoding must be cp437 or utf8.");
+}
+
+function parseSourceSha256(value) {
+    if (!/^[a-f\d]{64}$/iu.test(value)) {
+        throw new Error(
+            "Source SHA-256 must contain exactly 64 hexadecimal characters."
+        );
+    }
+    return value.toLowerCase();
+}
+
+/**
+ * @param {SplitOptions} options
+ * @param {string} argument
+ *
+ * @returns {boolean} Whether the argument was an option.
+ */
+function applySplitOption(options, argument) {
+    const flags = new Map([
+        ["--ansi", () => (options.format = "ansi")],
+        ["--auto", () => (options.autoDetect = true)],
+        ["--dry-run", () => (options.dryRun = true)],
+        ["--force", () => (options.force = true)],
+        ["--from-ps1", () => (options.inputFormat = "ps1")],
+        ["--keep-space-bg", () => (options.stripSpaceBackground = false)],
+        ["--ps1", () => (options.format = "ps1")],
+        [
+            "--strip-space-background",
+            () => (options.stripSpaceBackground = true),
+        ],
+        ["--strip-space-bg", () => (options.stripSpaceBackground = true)],
+        ["--utf8", () => (options.encoding = "utf8")],
+    ]);
+    const applyFlag = flags.get(argument);
+    if (applyFlag) {
+        applyFlag();
+        return true;
+    }
+    if (!argument.startsWith("--")) return false;
+    const optionMatch = /^--([^=]+)=(.*)$/u.exec(argument);
+    if (!optionMatch) throw new Error(`Unknown option: ${argument}`);
+    const [
+        ,
+        name,
+        value,
+    ] = optionMatch;
+    switch (name) {
+        case "output-dir":
+            options.outputDir = path.resolve(value);
+            return true;
+        case "output-base":
+            options.outputBase = parseOutputBase(value);
+            return true;
+        case "columns":
+            options.columns = parsePositiveOption(value, options.columns);
+            return true;
+        case "column-ranges":
+            options.columnRanges = parseColumnRanges(value);
+            return true;
+        case "heights":
+            options.heights = parseNumberList(value);
+            return true;
+        case "breaks":
+            options.breaks = parseNumberList(value);
+            return true;
+        case "gap":
+            options.gap = parsePositiveOption(value, options.gap);
+            return true;
+        case "min-segment":
+            options.minSegment = parsePositiveOption(value, options.minSegment);
+            return true;
+        case "every":
+            options.segmentEvery = parsePositiveOption(
+                value,
+                options.segmentEvery
+            );
+            return true;
+        case "format":
+            options.format = parseChoiceOption(value, "--format", [
+                "ps1",
+                "ansi",
+            ]);
+            return true;
+        case "input":
+            options.inputFormat = parseChoiceOption(value, "--input", [
+                "ps1",
+                "ansi",
+            ]);
+            return true;
+        case "encoding":
+            options.encoding = parseSplitEncoding(value);
+            return true;
+        case "provenance-record":
+            options.provenanceRecordPath = path.resolve(value);
+            return true;
+        case "provenance-path":
+            options.provenancePath = path.resolve(value);
+            return true;
+        case "source-url":
+            options.sourceProvenance.url = validateSourceUrl(value);
+            return true;
+        case "source-revision":
+            options.sourceProvenance.revision = validateSourceMetadataValue(
+                value,
+                "Source revision",
+                256
+            );
+            return true;
+        case "source-sha256":
+            options.sourceProvenance.sha256 = parseSourceSha256(value);
+            return true;
+        case "source-license":
+            options.sourceProvenance.license = validateSourceMetadataValue(
+                value,
+                "Source license",
+                256
+            );
+            return true;
+        case "source-attribution":
+            options.sourceProvenance.attribution = validateSourceMetadataValue(
+                value,
+                "Source attribution",
+                1024
+            );
+            return true;
+        case "source-modification":
+            options.sourceProvenance.modification = validateSourceMetadataValue(
+                value,
+                "Source modification",
+                1024
+            );
+            return true;
+        default:
+            throw new Error(`Unknown option: ${argument}`);
+    }
+}
+
+/**
+ * Preserve the prior CLI behavior: invalid non-positive numeric overrides are
+ * ignored and leave the default value unchanged.
+ *
+ * @param {string} value
+ * @param {number | null} fallback
+ */
+function parsePositiveOption(value, fallback) {
+    const parsed = Number.parseInt(value, 10);
+    return !Number.isNaN(parsed) && parsed > 0 ? parsed : fallback;
+}
+
+/**
+ * @param {string[]} argv
+ *
+ * @returns {{ options: SplitOptions; positional: string[] }}
+ */
+function parseArguments(argv) {
+    const options = createSplitOptions();
     /** @type {string[]} */
     const positional = [];
 
     let optionsEnded = false;
-    argv.forEach((arg) => {
+    for (const arg of argv) {
         if (!optionsEnded && arg === "--") {
             optionsEnded = true;
-            return;
+            continue;
         }
-        if (optionsEnded) {
-            positional.push(arg);
-            return;
-        }
-        if (arg.startsWith("--output-dir=")) {
-            options.outputDir = path.resolve(arg.split("=")[1]);
-        } else if (arg.startsWith("--output-base=")) {
-            const outputBase = sanitizeName(arg.slice("--output-base=".length));
-            if (!outputBase) {
-                throw new Error(
-                    "Output base must contain at least one safe filename character."
-                );
-            }
-            options.outputBase = outputBase;
-        } else if (arg.startsWith("--columns=")) {
-            const value = Number.parseInt(arg.split("=")[1], 10);
-            if (!Number.isNaN(value) && value > 0) {
-                options.columns = value;
-            }
-        } else if (arg.startsWith("--column-ranges=")) {
-            options.columnRanges = parseColumnRanges(
-                arg.slice("--column-ranges=".length)
-            );
-        } else if (arg.startsWith("--heights=")) {
-            options.heights = parseNumberList(arg.split("=")[1]);
-        } else if (arg.startsWith("--breaks=")) {
-            options.breaks = parseNumberList(arg.split("=")[1]);
-        } else if (arg === "--auto") {
-            options.autoDetect = true;
-        } else if (arg.startsWith("--gap=")) {
-            const value = Number.parseInt(arg.split("=")[1], 10);
-            if (!Number.isNaN(value) && value > 0) {
-                options.gap = value;
-            }
-        } else if (arg.startsWith("--min-segment=")) {
-            const value = Number.parseInt(arg.split("=")[1], 10);
-            if (!Number.isNaN(value) && value > 0) {
-                options.minSegment = value;
-            }
-        } else if (arg.startsWith("--every=")) {
-            const value = Number.parseInt(arg.split("=")[1], 10);
-            if (!Number.isNaN(value) && value > 0) {
-                options.segmentEvery = value;
-            }
-        } else if (arg === "--format=ps1" || arg === "--ps1") {
-            options.format = "ps1";
-        } else if (arg === "--format=ansi" || arg === "--ansi") {
-            options.format = "ansi";
-        } else if (arg === "--input=ps1" || arg === "--from-ps1") {
-            options.inputFormat = "ps1";
-        } else if (arg === "--input=ansi") {
-            options.inputFormat = "ansi";
-        } else if (arg === "--encoding=cp437" || arg === "--encoding=437") {
-            options.encoding = "cp437";
-        } else if (
-            arg === "--encoding=utf8" ||
-            arg === "--encoding=utf-8" ||
-            arg === "--utf8"
-        ) {
-            options.encoding = "utf8";
-        } else if (arg === "--dry-run") {
-            options.dryRun = true;
-        } else if (
-            arg === "--strip-space-bg" ||
-            arg === "--strip-space-background"
-        ) {
-            options.stripSpaceBackground = true;
-        } else if (arg === "--keep-space-bg") {
-            options.stripSpaceBackground = false;
-        } else if (arg === "--force") {
-            options.force = true;
-        } else if (arg.startsWith("--provenance-record=")) {
-            options.provenanceRecordPath = path.resolve(
-                arg.slice("--provenance-record=".length)
-            );
-        } else if (arg.startsWith("--provenance-path=")) {
-            options.provenancePath = path.resolve(
-                arg.slice("--provenance-path=".length)
-            );
-        } else if (arg.startsWith("--source-url=")) {
-            options.sourceProvenance.url = validateSourceUrl(
-                arg.slice("--source-url=".length)
-            );
-        } else if (arg.startsWith("--source-revision=")) {
-            options.sourceProvenance.revision = validateSourceMetadataValue(
-                arg.slice("--source-revision=".length),
-                "Source revision",
-                256
-            );
-        } else if (arg.startsWith("--source-sha256=")) {
-            const value = arg.slice("--source-sha256=".length);
-            if (!/^[a-f\d]{64}$/iu.test(value)) {
-                throw new Error(
-                    "Source SHA-256 must contain exactly 64 hexadecimal characters."
-                );
-            }
-            options.sourceProvenance.sha256 = value.toLowerCase();
-        } else if (arg.startsWith("--source-license=")) {
-            options.sourceProvenance.license = validateSourceMetadataValue(
-                arg.slice("--source-license=".length),
-                "Source license",
-                256
-            );
-        } else if (arg.startsWith("--source-attribution=")) {
-            options.sourceProvenance.attribution = validateSourceMetadataValue(
-                arg.slice("--source-attribution=".length),
-                "Source attribution",
-                1024
-            );
-        } else if (arg.startsWith("--source-modification=")) {
-            options.sourceProvenance.modification = validateSourceMetadataValue(
-                arg.slice("--source-modification=".length),
-                "Source modification",
-                1024
-            );
-        } else if (arg.startsWith("--")) {
-            throw new Error(`Unknown option: ${arg}`);
-        } else {
-            positional.push(arg);
-        }
-    });
+        if (!optionsEnded && applySplitOption(options, arg)) continue;
+        positional.push(arg);
+    }
 
     return { options, positional };
 }
@@ -730,131 +796,73 @@ function describeChunks(chunks) {
     );
 }
 
+function printSplitUsage() {
+    console.error(`Usage: node scripts/Split-AnsiFile.js [options] <ansi-file>
+Options:
+  --output-dir=<path>        Where to place generated files
+  --output-base=<name>       Override the generated filename prefix
+  --format=ps1|ansi          Output format (default: ps1)
+  --columns=<n>              Override SAUCE width for ANSI input
+  --column-ranges=1-80,...   Emit cell-sliced logical panels
+  --strip-space-bg           Clear backgrounds on plain spaces
+  --heights=h1,h2,...        Segment heights (cumulative)
+  --every=<n>                Split after every n lines
+  --breaks=b1,b2,...         Absolute one-based row breakpoints
+  --auto                     Enable automatic break detection
+  --gap=<n>                  Blank-line run for automatic breaks
+  --min-segment=<n>          Minimum rows around automatic breaks
+  --input=ansi|ps1           Force input interpretation
+  --encoding=cp437|utf8      Input and ANSI-output encoding
+  --dry-run                  Report without writing files
+  --force                    Replace existing outputs
+  --source-url=<url>         Original artwork URL
+  --source-revision=<id>     Source revision or archive identifier
+  --source-sha256=<hash>     Original artwork SHA-256
+  --source-license=<id>      Source license identifier
+  --source-attribution=<text> Source attribution
+  --source-modification=<text> Source modification description
+  --provenance-record=<json> Upsert complete external provenance
+  --provenance-path=<psd1>   Override authoritative provenance data`);
+}
+
 /**
- * @param {string[]} [argv]
- *
- * @returns {void}
+ * @param {string} ansiPath
+ * @param {SplitOptions} options
  */
-function main(argv = process.argv.slice(2)) {
-    const { options, positional } = parseArguments(argv);
-    if (positional.length === 0) {
-        console.error(
-            "Usage: node scripts/Split-AnsiFile.js [options] <ansi-file>"
-        );
-        console.error("Options:");
-        console.error(
-            "  --output-dir=<path>        Where to place the generated files (default: module scripts dir)"
-        );
-        console.error(
-            "  --output-base=<name>       Override the generated part filename prefix"
-        );
-        console.error(
-            "  --format=ps1|ansi          Output format (default: ps1)"
-        );
-        console.error(
-            "  --columns=<n>              Override SAUCE column width (ANSI input only)"
-        );
-        console.error(
-            "  --column-ranges=1-80,...   Emit logical panels from one-based inclusive cell ranges (ANSI input only)"
-        );
-        console.error(
-            "  --strip-space-bg           Clear background color on plain spaces (ANSI input only)"
-        );
-        console.error(
-            "  --heights=h1,h2,...        Segment heights (cumulative)"
-        );
-        console.error(
-            "  --every=<n>                Split after every <n> lines"
-        );
-        console.error(
-            "  --breaks=b1,b2,...         Absolute row breakpoints (1-based)"
-        );
-        console.error(
-            "  --auto                     Enable automatic break detection"
-        );
-        console.error(
-            "  --gap=<n>                  Consecutive blank lines to trigger auto break (default: 4)"
-        );
-        console.error(
-            "  --min-segment=<n>          Minimum lines before/after auto break (default: 60)"
-        );
-        console.error(
-            "  --input=ansi|ps1           Force input interpretation (default: auto)"
-        );
-        console.error(
-            "  --encoding=cp437|utf8      Input and ANSI-output encoding (default: cp437 for ANSI input, utf8 for PS1 input)"
-        );
-        console.error(
-            "  --dry-run                  Report planned splits without writing files"
-        );
-        console.error(
-            "  --force                    Replace existing output files"
-        );
-        console.error(
-            "  --source-url=<url>         Embed the original artwork URL in each part"
-        );
-        console.error(
-            "  --source-revision=<id>     Embed the source revision or archive identifier"
-        );
-        console.error(
-            "  --source-sha256=<hash>     Embed the original artwork SHA-256"
-        );
-        console.error(
-            "  --source-license=<id>      Embed the source license identifier"
-        );
-        console.error(
-            "  --source-attribution=<text> Embed source attribution in each part"
-        );
-        console.error(
-            "  --source-modification=<text> Describe source modifications in each part"
-        );
-        console.error(
-            "  --provenance-record=<json> Emit compact headers and upsert complete external records"
-        );
-        console.error(
-            "  --provenance-path=<psd1>   Override the authoritative provenance data file"
-        );
-        process.exit(1);
-    }
+function resolveInputFormat(ansiPath, options) {
+    if (options.inputFormat !== "auto") return options.inputFormat;
+    return path.extname(ansiPath).toLowerCase() === ".ps1" ? "ps1" : "ansi";
+}
 
-    const ansiPath = path.resolve(positional[0]);
-    if (!fs.existsSync(ansiPath)) {
-        console.error(`Input file not found: ${ansiPath}`);
-        process.exit(1);
+/**
+ * @param {SplitOptions} options
+ * @param {"ansi" | "ps1"} inputFormat
+ */
+function loadProvenanceTemplate(options, inputFormat) {
+    if (!options.provenanceRecordPath) return null;
+    const template = readGeneratedArtworkTemplate(options.provenanceRecordPath);
+    if (inputFormat !== "ansi" || options.format !== "ps1") {
+        throw new Error(
+            "--provenance-record requires ANSI/ICE input and PowerShell output."
+        );
     }
-
-    const ext = path.extname(ansiPath).toLowerCase();
-    let inputFormat = options.inputFormat;
-    if (inputFormat === "auto") {
-        inputFormat = ext === ".ps1" ? "ps1" : "ansi";
+    if (
+        Object.values(options.sourceProvenance).some((value) => value !== null)
+    ) {
+        throw new Error(
+            "--provenance-record cannot be combined with legacy --source-* header options. Put those values in the JSON record."
+        );
     }
-    const provenanceTemplate = options.provenanceRecordPath
-        ? readGeneratedArtworkTemplate(options.provenanceRecordPath)
-        : null;
-    if (provenanceTemplate) {
-        if (inputFormat !== "ansi" || options.format !== "ps1") {
-            throw new Error(
-                "--provenance-record requires ANSI/ICE input and PowerShell output."
-            );
-        }
-        if (
-            Object.values(options.sourceProvenance).some(
-                (value) => value !== null
-            )
-        ) {
-            throw new Error(
-                "--provenance-record cannot be combined with legacy --source-* header options. Put those values in the JSON record."
-            );
-        }
-    }
+    return template;
+}
 
-    /** @type {string[][]} */
-    let panels;
-    let sauce = null;
-    let fullSourceColumns = null;
-    const sourceEncoding =
-        options.encoding || (inputFormat === "ansi" ? "cp437" : "utf8");
-
+/**
+ * @param {string} ansiPath
+ * @param {SplitOptions} options
+ * @param {"ansi" | "ps1"} inputFormat
+ * @param {string} sourceEncoding
+ */
+function loadSplitPanels(ansiPath, options, inputFormat, sourceEncoding) {
     if (inputFormat === "ps1") {
         if (options.columnRanges.length > 0) {
             throw new Error(
@@ -866,55 +874,257 @@ function main(argv = process.argv.slice(2)) {
                 "Warning: --strip-space-bg has no effect when splitting a PowerShell script input."
             );
         }
-        panels = [extractLinesFromPs1(ansiPath)];
-    } else {
-        const ansiFile = readAnsiFile(ansiPath, sourceEncoding);
-        const content = ansiFile.content;
-        sauce = ansiFile.sauce;
-        const columns = options.columns || sauce?.tInfo1 || null;
-        fullSourceColumns = columns || 80;
-
-        const terminalOptions = {
-            columns: columns || undefined,
-            stripSpaceBackground: options.stripSpaceBackground,
-            iceColors: Boolean(sauce?.flags & 1),
-            dosAnsi: usesDosAnsiSemantics(sourceEncoding),
+        return {
+            fullSourceColumns: null,
+            panels: [extractLinesFromPs1(ansiPath)],
+            sauce: null,
         };
-
-        const converted = convertAnsiToPs1(content, terminalOptions);
-        if (options.columnRanges.length > 0) {
-            converted.terminal.recalculateBounds();
-            if (
-                options.columnRanges.at(-1).end >
-                Math.max(
-                    converted.terminal.maxCol,
-                    converted.terminal.columns - 1
-                )
-            ) {
-                throw new RangeError(
-                    "A requested column range extends beyond the declared or rendered terminal width."
-                );
-            }
-            panels = options.columnRanges.map((range) =>
-                converted.terminal.buildLines(range)
+    }
+    const ansiFile = readAnsiFile(ansiPath, sourceEncoding);
+    const columns = options.columns || ansiFile.sauce?.tInfo1 || null;
+    const converted = convertAnsiToPs1(ansiFile.content, {
+        columns: columns || undefined,
+        stripSpaceBackground: options.stripSpaceBackground,
+        iceColors: Boolean(ansiFile.sauce?.flags & 1),
+        dosAnsi: usesDosAnsiSemantics(sourceEncoding),
+    });
+    if (options.columnRanges.length > 0) {
+        converted.terminal.recalculateBounds();
+        const lastColumn = options.columnRanges.at(-1).end;
+        const availableColumns = Math.max(
+            converted.terminal.maxCol,
+            converted.terminal.columns - 1
+        );
+        if (lastColumn > availableColumns) {
+            throw new RangeError(
+                "A requested column range extends beyond the declared or rendered terminal width."
             );
-        } else {
-            panels = [converted.lines];
         }
     }
+    return {
+        fullSourceColumns: columns || 80,
+        panels:
+            options.columnRanges.length > 0
+                ? options.columnRanges.map((range) =>
+                      converted.terminal.buildLines(range)
+                  )
+                : [converted.lines],
+        sauce: ansiFile.sauce,
+    };
+}
 
-    const panelChunks = panels.map((panelLines, panelIndex) => {
-        const breakpoints = determineBreaks(
-            panelLines.length,
-            options,
-            panelLines
+/**
+ * @param {string[][]} panels
+ * @param {SplitOptions} options
+ */
+function buildPanelChunks(panels, options) {
+    return panels.map((panelLines, panelIndex) => ({
+        panelIndex,
+        range: options.columnRanges[panelIndex] || null,
+        chunks: splitLines(
+            panelLines,
+            determineBreaks(panelLines.length, options, panelLines)
+        ),
+    }));
+}
+
+/**
+ * @param {ReturnType<typeof buildPanelChunks>} panelChunks
+ */
+function printSplitPlan(panelChunks) {
+    for (const panel of panelChunks) {
+        console.log(
+            panel.range
+                ? `Panel ${panel.panelIndex + 1}: columns ${panel.range.start + 1}-${panel.range.end + 1}`
+                : "Chunks:"
         );
-        return {
-            panelIndex,
-            range: options.columnRanges[panelIndex] || null,
-            chunks: splitLines(panelLines, breakpoints),
-        };
-    });
+        for (const line of describeChunks(panel.chunks)) console.log(line);
+    }
+}
+
+/**
+ * @param {ReturnType<typeof buildPanelChunks>} panelChunks
+ * @param {string} baseName
+ * @param {string} outputDir
+ * @param {string} extension
+ */
+function buildSplitOutputs(panelChunks, baseName, outputDir, extension) {
+    return panelChunks.flatMap((panel) =>
+        panel.chunks.map((chunk, partIndex) => ({
+            chunk,
+            range: panel.range,
+            outputPath: path.join(
+                outputDir,
+                panel.range
+                    ? formatPanelChunkName(
+                          baseName,
+                          panel.panelIndex,
+                          partIndex,
+                          panel.chunks.length,
+                          extension
+                      )
+                    : formatChunkName(baseName, partIndex, extension)
+            ),
+        }))
+    );
+}
+
+/**
+ * @param {ReturnType<typeof buildSplitOutputs>} outputs
+ * @param {SplitOptions} options
+ * @param {string} outputDir
+ */
+function prepareOutputDirectory(outputs, options, outputDir) {
+    if (!options.force) {
+        const existingOutput = outputs
+            .map(({ outputPath }) => outputPath)
+            .find((outputPath) => fs.existsSync(outputPath));
+        if (existingOutput) {
+            throw new Error(
+                `Output file already exists: ${existingOutput}. Use --force to replace it.`
+            );
+        }
+    }
+    fs.mkdirSync(outputDir, { recursive: true });
+}
+
+/**
+ * @param {ReturnType<typeof buildSplitOutputs>} outputs
+ * @param {Readonly<
+ *     Record<string, import("./ArtworkProvenance.js").ProvenanceValue>
+ * >} provenanceTemplate
+ * @param {{
+ *     fullSourceColumns: number | null;
+ *     sauce: import("./Convert-AnsiToColorScript.js").SauceRecord | null;
+ * }} source
+ * @param {string} ansiPath
+ * @param {string} sourceEncoding
+ * @param {SplitOptions} options
+ */
+function writeProvenanceOutputs(
+    outputs,
+    provenanceTemplate,
+    source,
+    ansiPath,
+    sourceEncoding,
+    options
+) {
+    const sourceBuffer = fs.readFileSync(ansiPath);
+    const entries = new Map();
+    for (const { chunk, range, outputPath } of outputs) {
+        const scriptName = path.basename(outputPath, ".ps1");
+        const sourceColumns = range
+            ? `${range.start + 1}-${range.end + 1}`
+            : `1-${source.fullSourceColumns || 80}`;
+        entries.set(
+            scriptName,
+            buildGeneratedArtworkEntry({
+                conversionMode: "TerminalEmulation",
+                name: scriptName,
+                sauce: source.sauce,
+                sourceBuffer,
+                sourceColumns,
+                sourceEncoding,
+                sourceName: ansiPath,
+                sourceRows: `${chunk.start + 1}-${chunk.end}`,
+                template: provenanceTemplate,
+            })
+        );
+    }
+    const prepared = prepareGeneratedArtworkProvenance(
+        options.provenancePath,
+        entries
+    );
+    const scripts = new Map();
+    for (const { chunk, range, outputPath } of outputs) {
+        const scriptName = path.basename(outputPath, ".ps1");
+        scripts.set(
+            path.resolve(outputPath),
+            buildChunkPs1(chunk, {
+                compactHeader: prepared.headers.get(scriptName),
+                sauce: source.sauce,
+                sourceColumns: range
+                    ? `${range.start + 1}-${range.end + 1}`
+                    : `1-${source.fullSourceColumns || 80}`,
+                sourceEncoding,
+                sourceName: path.basename(ansiPath),
+            })
+        );
+    }
+    writeGeneratedArtworkTransaction(
+        options.provenancePath,
+        prepared.provenanceSource,
+        scripts
+    );
+}
+
+/**
+ * @param {ReturnType<typeof buildSplitOutputs>} outputs
+ * @param {{
+ *     fullSourceColumns: number | null;
+ *     sauce: import("./Convert-AnsiToColorScript.js").SauceRecord | null;
+ * }} source
+ * @param {string} ansiPath
+ * @param {string} sourceEncoding
+ * @param {SplitOptions} options
+ */
+function writeStandardOutputs(
+    outputs,
+    source,
+    ansiPath,
+    sourceEncoding,
+    options
+) {
+    for (const { chunk, range, outputPath } of outputs) {
+        if (options.format === "ansi") {
+            writeChunkAnsi(outputPath, chunk, sourceEncoding);
+            continue;
+        }
+        let sourceColumns = null;
+        if (range) {
+            sourceColumns = `${range.start + 1}-${range.end + 1}`;
+        } else if (source.fullSourceColumns) {
+            sourceColumns = `1-${source.fullSourceColumns}`;
+        }
+        writeChunkPs1(outputPath, chunk, {
+            sourceName: path.basename(ansiPath),
+            sourceEncoding,
+            sauce: source.sauce,
+            sourceProvenance: options.sourceProvenance,
+            sourceColumns,
+        });
+    }
+}
+
+/**
+ * @param {string[]} [argv]
+ *
+ * @returns {void}
+ */
+function main(argv = process.argv.slice(2)) {
+    const { options, positional } = parseArguments(argv);
+    if (positional.length === 0) {
+        printSplitUsage();
+        process.exit(1);
+    }
+
+    const ansiPath = path.resolve(positional[0]);
+    if (!fs.existsSync(ansiPath)) {
+        console.error(`Input file not found: ${ansiPath}`);
+        process.exit(1);
+    }
+
+    const inputFormat = resolveInputFormat(ansiPath, options);
+    const provenanceTemplate = loadProvenanceTemplate(options, inputFormat);
+    const sourceEncoding =
+        options.encoding || (inputFormat === "ansi" ? "cp437" : "utf8");
+    const source = loadSplitPanels(
+        ansiPath,
+        options,
+        inputFormat,
+        sourceEncoding
+    );
+    const panelChunks = buildPanelChunks(source.panels, options);
     const chunks = panelChunks.flatMap((panel) => panel.chunks);
 
     if (chunks.length === 0) {
@@ -934,17 +1144,8 @@ function main(argv = process.argv.slice(2)) {
 
     console.log(`Input file : ${ansiPath}`);
     console.log(`Input mode : ${inputFormat.toUpperCase()}`);
-    console.log(`Total lines: ${panels[0].length}`);
-    panelChunks.forEach((panel) => {
-        if (panel.range) {
-            console.log(
-                `Panel ${panel.panelIndex + 1}: columns ${panel.range.start + 1}-${panel.range.end + 1}`
-            );
-        } else {
-            console.log("Chunks:");
-        }
-        describeChunks(panel.chunks).forEach((line) => console.log(line));
-    });
+    console.log(`Total lines: ${source.panels[0].length}`);
+    printSplitPlan(panelChunks);
 
     if (options.dryRun) {
         console.log("Dry run complete; no files written.");
@@ -952,107 +1153,31 @@ function main(argv = process.argv.slice(2)) {
     }
 
     const extension = options.format === "ansi" ? "ans" : "ps1";
-    const outputs = panelChunks.flatMap((panel) =>
-        panel.chunks.map((chunk, partIndex) => ({
-            chunk,
-            range: panel.range,
-            outputPath: path.join(
-                outputDir,
-                panel.range
-                    ? formatPanelChunkName(
-                          baseName,
-                          panel.panelIndex,
-                          partIndex,
-                          panel.chunks.length,
-                          extension
-                      )
-                    : formatChunkName(baseName, partIndex, extension)
-            ),
-        }))
+    const outputs = buildSplitOutputs(
+        panelChunks,
+        baseName,
+        outputDir,
+        extension
     );
-    const outputPaths = outputs.map((output) => output.outputPath);
-    if (!options.force) {
-        const existingOutput = outputPaths.find((outputPath) =>
-            fs.existsSync(outputPath)
-        );
-        if (existingOutput) {
-            throw new Error(
-                `Output file already exists: ${existingOutput}. Use --force to replace it.`
-            );
-        }
-    }
-    if (!fs.existsSync(outputDir)) {
-        fs.mkdirSync(outputDir, { recursive: true });
-    }
+    prepareOutputDirectory(outputs, options, outputDir);
 
     if (provenanceTemplate) {
-        const sourceBuffer = fs.readFileSync(ansiPath);
-        const entries = new Map();
-        for (const { chunk, range, outputPath } of outputs) {
-            const scriptName = path.basename(outputPath, ".ps1");
-            const sourceColumns = range
-                ? `${range.start + 1}-${range.end + 1}`
-                : `1-${fullSourceColumns || 80}`;
-            entries.set(
-                scriptName,
-                buildGeneratedArtworkEntry({
-                    conversionMode: "TerminalEmulation",
-                    name: scriptName,
-                    sauce,
-                    sourceBuffer,
-                    sourceColumns,
-                    sourceEncoding,
-                    sourceName: ansiPath,
-                    sourceRows: `${chunk.start + 1}-${chunk.end}`,
-                    template: provenanceTemplate,
-                })
-            );
-        }
-        const prepared = prepareGeneratedArtworkProvenance(
-            options.provenancePath,
-            entries
-        );
-        const scripts = new Map();
-        for (const { chunk, range, outputPath } of outputs) {
-            const scriptName = path.basename(outputPath, ".ps1");
-            scripts.set(
-                path.resolve(outputPath),
-                buildChunkPs1(chunk, {
-                    compactHeader: prepared.headers.get(scriptName),
-                    sauce,
-                    sourceColumns: range
-                        ? `${range.start + 1}-${range.end + 1}`
-                        : `1-${fullSourceColumns || 80}`,
-                    sourceEncoding,
-                    sourceName: path.basename(ansiPath),
-                })
-            );
-        }
-        writeGeneratedArtworkTransaction(
-            options.provenancePath,
-            prepared.provenanceSource,
-            scripts
+        writeProvenanceOutputs(
+            outputs,
+            provenanceTemplate,
+            source,
+            ansiPath,
+            sourceEncoding,
+            options
         );
     } else {
-        outputs.forEach(({ chunk, range, outputPath }) => {
-            if (options.format === "ansi") {
-                writeChunkAnsi(outputPath, chunk, sourceEncoding);
-            } else {
-                let sourceColumns = null;
-                if (range) {
-                    sourceColumns = `${range.start + 1}-${range.end + 1}`;
-                } else if (fullSourceColumns) {
-                    sourceColumns = `1-${fullSourceColumns}`;
-                }
-                writeChunkPs1(outputPath, chunk, {
-                    sourceName: path.basename(ansiPath),
-                    sourceEncoding,
-                    sauce,
-                    sourceProvenance: options.sourceProvenance,
-                    sourceColumns,
-                });
-            }
-        });
+        writeStandardOutputs(
+            outputs,
+            source,
+            ansiPath,
+            sourceEncoding,
+            options
+        );
     }
     outputs.forEach(({ outputPath }) => console.log(`  → ${outputPath}`));
 
