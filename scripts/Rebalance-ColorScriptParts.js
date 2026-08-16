@@ -1741,6 +1741,257 @@ function isValidAlignment(value, baselineRows, currentRows) {
 }
 
 /**
+ * @param {ManifestInput} input
+ * @param {{
+ *     baselineCommit: string;
+ *     readBaselineFile: (commit: string, relativePath: string) => Buffer;
+ *     scriptsDirectory: string;
+ * }} context
+ */
+function recomputeManifestInput(input, context) {
+    const filePath = path.join(context.scriptsDirectory, input.file);
+    if (!fs.existsSync(filePath)) {
+        throw new Error(`${input.file}: current input is missing.`);
+    }
+    const currentBuffer = readRegularFile(filePath);
+    const currentSource = currentBuffer.toString("utf8");
+    if (isSourceFidelityLocked(currentSource)) {
+        throw new Error(
+            `${input.file}: source-fidelity-locked payload cannot be rebalanced.`
+        );
+    }
+    if (getSha256(currentBuffer) !== input.expectedCurrentFileSha256) {
+        throw new Error(`${input.file}: current file hash has drifted.`);
+    }
+    const currentPayload = extractPowerShellPayload(currentSource);
+    const currentRows = getPayloadRows(currentPayload.value);
+    if (
+        getSha256(currentPayload.value.replace(/\r\n?/gu, "\n")) !==
+            input.expectedCurrentPayloadSha256 ||
+        getRowsSha256(currentRows) !== input.expectedCurrentRowsSha256 ||
+        currentRows.length !== input.currentPayloadRows
+    ) {
+        throw new Error(`${input.file}: current payload has drifted.`);
+    }
+    const baselineBuffer = context.readBaselineFile(
+        context.baselineCommit,
+        input.relativePath
+    );
+    if (baselineBuffer.length > MAX_SCRIPT_BYTES) {
+        throw new Error(
+            `${input.file}: baseline colorscript exceeds the size limit.`
+        );
+    }
+    if (getSha256(baselineBuffer) !== input.expectedBaselineFileSha256) {
+        throw new Error(`${input.file}: baseline file hash has drifted.`);
+    }
+    const baselineSource = baselineBuffer.toString("utf8");
+    if (isSourceFidelityLocked(baselineSource)) {
+        throw new Error(
+            `${input.file}: baseline source-fidelity lock forbids rebalancing.`
+        );
+    }
+    const baselineRows = getPayloadRows(
+        extractPowerShellPayload(baselineSource).value
+    );
+    const sourceRows = parseSourceRows(baselineSource);
+    const alignment = alignCurrentRowsToBaseline(baselineRows, currentRows);
+    if (
+        JSON.stringify(alignment) !== JSON.stringify(input.alignment) ||
+        JSON.stringify(sourceRows) !== JSON.stringify(input.sourceRows)
+    ) {
+        throw new Error(
+            `${input.file}: baseline alignment or source coordinates have drifted.`
+        );
+    }
+    const baselineCoordinates = mapBaselineSourceCoordinates(
+        baselineRows,
+        sourceRows
+    );
+    const currentCoordinates = baselineCoordinates.slice(
+        alignment.baselineStart,
+        alignment.baselineEnd
+    );
+    const mapped = excludeGeneratedPresentationRows(
+        currentRows,
+        currentCoordinates
+    );
+    if (mapped.excludedRows !== input.excludedPresentationRows) {
+        throw new Error(
+            `${input.file}: generated presentation-row count has drifted.`
+        );
+    }
+    const replayBefore = getSgrReplayBeforeRows(currentRows);
+    return {
+        mapped,
+        replayBefore: mapped.originalIndexes.map(
+            (index) => replayBefore[index] ?? ""
+        ),
+    };
+}
+
+/**
+ * @param {ManifestFamily} family
+ * @param {Parameters<typeof recomputeManifestInput>[1]} context
+ */
+function recomputeManifestFamilyRows(family, context) {
+    const mappedRows = [];
+    const mappedCoordinates = [];
+    const mappedInputStartRows = [];
+    const mappedReplayBefore = [];
+    for (const input of family.inputs) {
+        const result = recomputeManifestInput(input, context);
+        mappedInputStartRows.push(mappedRows.length);
+        mappedReplayBefore.push(...result.replayBefore);
+        mappedCoordinates.push(...result.mapped.coordinates);
+        mappedRows.push(...result.mapped.rows);
+    }
+    if (
+        mappedRows.length !== family.mappedRowCount ||
+        getRowsSha256(mappedRows) !== family.expectedMappedFamilyRowsSha256
+    ) {
+        throw new Error(
+            `${family.family}: concatenated mapped rows have drifted.`
+        );
+    }
+    const outerTrim = trimRenderedBlankOuterRows(mappedRows, mappedCoordinates);
+    if (
+        outerTrim.leadingRows.length !== family.outerTrim.leadingRows ||
+        outerTrim.trailingRows.length !== family.outerTrim.trailingRows ||
+        getRowsSha256(outerTrim.leadingRows) !==
+            family.outerTrim.expectedLeadingRowsSha256 ||
+        getRowsSha256(outerTrim.trailingRows) !==
+            family.outerTrim.expectedTrailingRowsSha256
+    ) {
+        throw new Error(
+            `${family.family}: reviewed outer blank-row trim has drifted.`
+        );
+    }
+    if (
+        outerTrim.rows.length !== family.retainedRowCount ||
+        getRowsSha256(outerTrim.rows) !== family.expectedFamilyRowsSha256
+    ) {
+        throw new Error(`${family.family}: retained raw rows have drifted.`);
+    }
+    return {
+        coordinates: outerTrim.coordinates,
+        inputStartRows: mappedInputStartRows
+            .map((row) => row - outerTrim.leadingRows.length)
+            .filter((row) => row >= 0 && row < outerTrim.rows.length),
+        replayBefore: mappedReplayBefore.slice(
+            outerTrim.leadingRows.length,
+            mappedReplayBefore.length - outerTrim.trailingRows.length
+        ),
+        rows: outerTrim.rows,
+    };
+}
+
+/**
+ * @param {ManifestFamily} family
+ * @param {string[]} familyRows
+ *
+ * @returns {number[]}
+ */
+function getReviewedBreaks(family, familyRows) {
+    const reviewed = family.outputs.map((output) => output.endRowExclusive);
+    const deterministic = chooseFixedPartBreaks(
+        familyRows,
+        family.fixedPartCount,
+        family.maximumRows
+    );
+    if (JSON.stringify(reviewed) !== JSON.stringify(deterministic)) {
+        throw new Error(
+            `${family.family}: reviewed output boundaries are not the deterministic visible-balanced split.`
+        );
+    }
+    return reviewed;
+}
+
+/**
+ * @param {ManifestOutput} output
+ * @param {number} index
+ * @param {{
+ *     familyRows: string[];
+ *     inputStartRows: number[];
+ *     outputRanges: SourceRange[];
+ *     replayBefore: string[];
+ *     scriptsDirectory: string;
+ * }} context
+ *
+ * @returns {PlannedFile}
+ */
+function planRebalancedOutput(output, index, context) {
+    const rawRows = context.familyRows.slice(
+        output.startRow,
+        output.endRowExclusive
+    );
+    if (
+        getRowsSha256(rawRows) !== output.expectedRawRowsSha256 ||
+        getRenderedBlankRows(rawRows).filter((isBlank) => !isBlank).length !==
+            output.visibleRowCount ||
+        JSON.stringify(context.outputRanges[index]) !==
+            JSON.stringify(output.sourceRows)
+    ) {
+        throw new Error(
+            `${output.file}: reviewed output rows or coordinates have drifted.`
+        );
+    }
+    const boundary = applyBoundaryControls(
+        rawRows,
+        context.replayBefore[output.startRow] ?? "",
+        context.inputStartRows
+            .filter(
+                (row) => row > output.startRow && row < output.endRowExclusive
+            )
+            .map((row) => row - output.startRow)
+    );
+    const templatePath = path.join(context.scriptsDirectory, output.file);
+    const templateSource = readRegularFile(templatePath).toString("utf8");
+    const payload = extractPowerShellPayload(templateSource);
+    const updatedPayload = replacePayloadRows(templateSource, payload, [
+        "",
+        ...boundary.rows,
+    ]);
+    return {
+        file: output.file,
+        internalResetIndexes: boundary.internalResetIndexes,
+        prefix: boundary.prefix,
+        presentationRows: 1,
+        rawRowsSha256: output.expectedRawRowsSha256,
+        source: replaceSourceRows(updatedPayload, output.sourceRows),
+        sourceRows: output.sourceRows,
+        suffix: boundary.suffix,
+    };
+}
+
+/**
+ * @param {ManifestFamily} family
+ * @param {Parameters<typeof recomputeManifestInput>[1]} context
+ */
+function planRebalanceFamily(family, context) {
+    const recomputed = recomputeManifestFamilyRows(family, context);
+    const reviewedBreaks = getReviewedBreaks(family, recomputed.rows);
+    const outputRanges = deriveOutputSourceRanges(
+        recomputed.coordinates,
+        reviewedBreaks,
+        family.sourceRows
+    );
+    return {
+        family: family.family,
+        files: family.outputs.map((output, index) =>
+            planRebalancedOutput(output, index, {
+                familyRows: recomputed.rows,
+                inputStartRows: recomputed.inputStartRows,
+                outputRanges,
+                replayBefore: recomputed.replayBefore,
+                scriptsDirectory: context.scriptsDirectory,
+            })
+        ),
+        retainedRows: recomputed.rows.length,
+    };
+}
+
+/**
  * Recompute all locked inputs and output slices. No writes happen until every
  * family passes.
  *
@@ -1767,220 +2018,15 @@ function planRebalance(manifest, options = {}) {
     let retainedRows = 0;
 
     for (const family of manifest.families) {
-        /** @type {string[]} */
-        const mappedFamilyRows = [];
-        /** @type {number[]} */
-        const mappedFamilyCoordinates = [];
-        /** @type {number[]} */
-        const mappedInputStartRows = [];
-        /** @type {string[]} */
-        const mappedReplayBefore = [];
-        for (const input of family.inputs) {
-            const filePath = path.join(scriptsDirectory, input.file);
-            if (!fs.existsSync(filePath)) {
-                throw new Error(`${input.file}: current input is missing.`);
-            }
-            const currentBuffer = readRegularFile(filePath);
-            const currentSource = currentBuffer.toString("utf8");
-            if (isSourceFidelityLocked(currentSource)) {
-                throw new Error(
-                    `${input.file}: source-fidelity-locked payload cannot be rebalanced.`
-                );
-            }
-            if (getSha256(currentBuffer) !== input.expectedCurrentFileSha256) {
-                throw new Error(
-                    `${input.file}: current file hash has drifted.`
-                );
-            }
-            const currentPayload = extractPowerShellPayload(currentSource);
-            const currentRows = getPayloadRows(currentPayload.value);
-            if (
-                getSha256(currentPayload.value.replace(/\r\n?/gu, "\n")) !==
-                    input.expectedCurrentPayloadSha256 ||
-                getRowsSha256(currentRows) !==
-                    input.expectedCurrentRowsSha256 ||
-                currentRows.length !== input.currentPayloadRows
-            ) {
-                throw new Error(`${input.file}: current payload has drifted.`);
-            }
-            const baselineBuffer = readBaselineFile(
-                manifest.baselineCommit,
-                input.relativePath
-            );
-            if (baselineBuffer.length > MAX_SCRIPT_BYTES) {
-                throw new Error(
-                    `${input.file}: baseline colorscript exceeds the size limit.`
-                );
-            }
-            if (
-                getSha256(baselineBuffer) !== input.expectedBaselineFileSha256
-            ) {
-                throw new Error(
-                    `${input.file}: baseline file hash has drifted.`
-                );
-            }
-            const baselineSource = baselineBuffer.toString("utf8");
-            if (isSourceFidelityLocked(baselineSource)) {
-                throw new Error(
-                    `${input.file}: baseline source-fidelity lock forbids rebalancing.`
-                );
-            }
-            const baselineRows = getPayloadRows(
-                extractPowerShellPayload(baselineSource).value
-            );
-            const sourceRows = parseSourceRows(baselineSource);
-            const alignment = alignCurrentRowsToBaseline(
-                baselineRows,
-                currentRows
-            );
-            if (
-                JSON.stringify(alignment) !== JSON.stringify(input.alignment) ||
-                JSON.stringify(sourceRows) !== JSON.stringify(input.sourceRows)
-            ) {
-                throw new Error(
-                    `${input.file}: baseline alignment or source coordinates have drifted.`
-                );
-            }
-            const baselineCoordinates = mapBaselineSourceCoordinates(
-                baselineRows,
-                sourceRows
-            );
-            const currentCoordinates = baselineCoordinates.slice(
-                alignment.baselineStart,
-                alignment.baselineEnd
-            );
-            const mapped = excludeGeneratedPresentationRows(
-                currentRows,
-                currentCoordinates
-            );
-            if (mapped.excludedRows !== input.excludedPresentationRows) {
-                throw new Error(
-                    `${input.file}: generated presentation-row count has drifted.`
-                );
-            }
-            const inputReplayBefore = getSgrReplayBeforeRows(currentRows);
-            mappedInputStartRows.push(mappedFamilyRows.length);
-            mappedReplayBefore.push(
-                ...mapped.originalIndexes.map(
-                    (index) => inputReplayBefore[index] ?? ""
-                )
-            );
-            mappedFamilyCoordinates.push(...mapped.coordinates);
-            mappedFamilyRows.push(...mapped.rows);
-        }
-        if (
-            mappedFamilyRows.length !== family.mappedRowCount ||
-            getRowsSha256(mappedFamilyRows) !==
-                family.expectedMappedFamilyRowsSha256
-        ) {
-            throw new Error(
-                `${family.family}: concatenated mapped rows have drifted.`
-            );
-        }
-        const outerTrim = trimRenderedBlankOuterRows(
-            mappedFamilyRows,
-            mappedFamilyCoordinates
-        );
-        if (
-            outerTrim.leadingRows.length !== family.outerTrim.leadingRows ||
-            outerTrim.trailingRows.length !== family.outerTrim.trailingRows ||
-            getRowsSha256(outerTrim.leadingRows) !==
-                family.outerTrim.expectedLeadingRowsSha256 ||
-            getRowsSha256(outerTrim.trailingRows) !==
-                family.outerTrim.expectedTrailingRowsSha256
-        ) {
-            throw new Error(
-                `${family.family}: reviewed outer blank-row trim has drifted.`
-            );
-        }
-        const familyRows = outerTrim.rows;
-        const familyCoordinates = outerTrim.coordinates;
-        const replayBefore = mappedReplayBefore.slice(
-            outerTrim.leadingRows.length,
-            mappedReplayBefore.length - outerTrim.trailingRows.length
-        );
-        const inputStartRows = mappedInputStartRows
-            .map((row) => row - outerTrim.leadingRows.length)
-            .filter((row) => row >= 0 && row < familyRows.length);
-        if (
-            familyRows.length !== family.retainedRowCount ||
-            getRowsSha256(familyRows) !== family.expectedFamilyRowsSha256
-        ) {
-            throw new Error(
-                `${family.family}: retained raw rows have drifted.`
-            );
-        }
-        const reviewedBreaks = family.outputs.map(
-            (output) => output.endRowExclusive
-        );
-        const deterministicBreaks = chooseFixedPartBreaks(
-            familyRows,
-            family.fixedPartCount,
-            family.maximumRows
-        );
-        if (
-            JSON.stringify(reviewedBreaks) !==
-            JSON.stringify(deterministicBreaks)
-        ) {
-            throw new Error(
-                `${family.family}: reviewed output boundaries are not the deterministic visible-balanced split.`
-            );
-        }
-        const outputRanges = deriveOutputSourceRanges(
-            familyCoordinates,
-            reviewedBreaks,
-            family.sourceRows
-        );
-        const files = family.outputs.map((output, index) => {
-            const rawRows = familyRows.slice(
-                output.startRow,
-                output.endRowExclusive
-            );
-            if (
-                getRowsSha256(rawRows) !== output.expectedRawRowsSha256 ||
-                getRenderedBlankRows(rawRows).filter((isBlank) => !isBlank)
-                    .length !== output.visibleRowCount ||
-                JSON.stringify(outputRanges[index]) !==
-                    JSON.stringify(output.sourceRows)
-            ) {
-                throw new Error(
-                    `${output.file}: reviewed output rows or coordinates have drifted.`
-                );
-            }
-            const boundary = applyBoundaryControls(
-                rawRows,
-                replayBefore[output.startRow] ?? "",
-                inputStartRows
-                    .filter(
-                        (row) =>
-                            row > output.startRow &&
-                            row < output.endRowExclusive
-                    )
-                    .map((row) => row - output.startRow)
-            );
-            const templatePath = path.join(scriptsDirectory, output.file);
-            const templateSource =
-                readRegularFile(templatePath).toString("utf8");
-            const payload = extractPowerShellPayload(templateSource);
-            const updatedPayload = replacePayloadRows(templateSource, payload, [
-                "",
-                ...boundary.rows,
-            ]);
-            return {
-                file: output.file,
-                internalResetIndexes: boundary.internalResetIndexes,
-                prefix: boundary.prefix,
-                presentationRows: 1,
-                rawRowsSha256: output.expectedRawRowsSha256,
-                source: replaceSourceRows(updatedPayload, output.sourceRows),
-                sourceRows: output.sourceRows,
-                suffix: boundary.suffix,
-            };
+        const planned = planRebalanceFamily(family, {
+            baselineCommit: manifest.baselineCommit,
+            readBaselineFile,
+            scriptsDirectory,
         });
-        retainedRows += familyRows.length;
+        retainedRows += planned.retainedRows;
         plannedFamilies.push({
-            family: family.family,
-            files,
+            family: planned.family,
+            files: planned.files,
         });
     }
     return {
