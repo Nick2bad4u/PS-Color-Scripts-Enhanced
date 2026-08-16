@@ -2719,6 +2719,195 @@ function getCandidateArtists(artists, sauce) {
 }
 
 /**
+ * @param {Record<string, unknown>} candidate
+ * @param {AuditOptions} options
+ * @param {{ id: string; source: string; pack: string; filename: string }} names
+ */
+async function loadCandidateRaw(candidate, options, names) {
+    if (candidate.raw) {
+        return { raw: candidate.raw, rawPath: candidate.rawPath };
+    }
+    const year =
+        candidate.year === undefined || candidate.year === null
+            ? "unknown"
+            : requireSafeInteger(candidate.year, `${names.id} year`).toString();
+    const rawPath = path.join(
+        options.cacheDir,
+        names.source,
+        "raw",
+        safePathSegment(year),
+        safePathSegment(names.pack),
+        safePathSegment(names.filename)
+    );
+    const raw = await fetchCached(
+        requireString(candidate.sourceUrl, "candidate source URL"),
+        {
+            cachePath: rawPath,
+            offline: options.offline,
+            binary: true,
+            maxBytes: MAX_INPUT_BYTES,
+        }
+    );
+    return { raw, rawPath };
+}
+
+/**
+ * @param {Record<string, unknown>} classified
+ * @param {string | null} previewUrl
+ * @param {AuditOptions} options
+ * @param {{ source: string; pack: string; filename: string }} names
+ */
+async function attachOfficialCandidatePreview(
+    classified,
+    previewUrl,
+    options,
+    names
+) {
+    if (!previewUrl) return;
+    const previewPath = path.join(
+        options.cacheDir,
+        "previews",
+        safePathSegment(names.source),
+        safePathSegment(names.pack),
+        `${safePathSegment(names.filename)}.png`
+    );
+    try {
+        await fetchCached(previewUrl, {
+            cachePath: previewPath,
+            offline: options.offline,
+            binary: true,
+            maxBytes: MAX_INPUT_BYTES,
+        });
+        classified.previewPath = previewPath;
+    } catch (error) {
+        classified.previewError =
+            error instanceof Error ? error.message : String(error);
+    }
+}
+
+/**
+ * @param {Record<string, unknown>} classified
+ * @param {import("./Convert-AnsiToColorScript.js").TerminalEmulator} terminal
+ * @param {AuditOptions} options
+ * @param {{ source: string; pack: string; filename: string }} names
+ */
+function attachLocalCandidatePreview(classified, terminal, options, names) {
+    const previewPath = path.join(
+        options.cacheDir,
+        "previews",
+        "local-render",
+        safePathSegment(names.source),
+        safePathSegment(names.pack),
+        `${safePathSegment(names.filename)}.svg`
+    );
+    try {
+        if (!fs.existsSync(previewPath)) {
+            writeTerminalPreviewSvg(terminal, previewPath);
+        }
+        classified.previewPath = previewPath;
+        classified.previewKind = "local-terminal-render";
+    } catch (error) {
+        classified.localPreviewError =
+            error instanceof Error ? error.message : String(error);
+    }
+}
+
+/**
+ * @param {Record<string, unknown>} classified
+ * @param {string | null} previewUrl
+ * @param {import("./Convert-AnsiToColorScript.js").TerminalEmulator} terminal
+ * @param {AuditOptions} options
+ * @param {{ source: string; pack: string; filename: string }} names
+ */
+async function attachCandidatePreview(
+    classified,
+    previewUrl,
+    terminal,
+    options,
+    names
+) {
+    if (!classified.review) return;
+    await attachOfficialCandidatePreview(
+        classified,
+        previewUrl,
+        options,
+        names
+    );
+    if (classified.previewPath) {
+        classified.previewKind = "official-archive-preview";
+        return;
+    }
+    attachLocalCandidatePreview(classified, terminal, options, names);
+}
+
+/**
+ * @param {Record<string, unknown>} candidate
+ * @param {AuditOptions} options
+ * @param {{ source: Set<string>; render: Set<string> }} existingHashes
+ */
+async function analyzeCandidate(candidate, options, existingHashes) {
+    const id = requireString(candidate.id, "candidate id");
+    const names = {
+        id,
+        source: requireString(candidate.source, `${id} source`),
+        pack: requireString(candidate.pack, `${id} pack`),
+        filename: requireString(candidate.filename, `${id} filename`),
+    };
+    const previewUrl = readOptionalString(
+        candidate.previewUrl,
+        `${id} preview URL`
+    );
+    const { raw, rawPath } = await loadCandidateRaw(candidate, options, names);
+    const { analysis, terminal } = analyzeAnsiRender(
+        /** @type {Buffer} */ (raw)
+    );
+    const sauce = analysis.sauce
+        ? requireObject(analysis.sauce, `${id} SAUCE`)
+        : null;
+    const classified = classifyCandidate(
+        {
+            ...candidate,
+            raw: undefined,
+            rawPath,
+            analysis,
+            artists: getCandidateArtists(candidate.artists, sauce),
+            groups:
+                typeof sauce?.group === "string" && sauce.group
+                    ? [sauce.group]
+                    : [],
+        },
+        existingHashes
+    );
+    await attachCandidatePreview(
+        classified,
+        previewUrl,
+        terminal,
+        options,
+        names
+    );
+    return classified;
+}
+
+/**
+ * @param {Record<string, unknown>} candidate
+ * @param {AuditOptions} options
+ * @param {{ source: Set<string>; render: Set<string> }} existingHashes
+ */
+async function analyzeCandidateSafely(candidate, options, existingHashes) {
+    try {
+        return await analyzeCandidate(candidate, options, existingHashes);
+    } catch (error) {
+        return {
+            ...candidate,
+            raw: undefined,
+            disposition: "rejected-malformed",
+            review: false,
+            error: error instanceof Error ? error.message : String(error),
+        };
+    }
+}
+
+/**
  * @param {Record<string, unknown>[]} candidates
  * @param {AuditOptions} options
  * @param {{ source: Set<string>; render: Set<string> }} existingHashes
@@ -2729,122 +2918,11 @@ async function analyzeCandidates(candidates, options, existingHashes) {
     let completed = 0;
     return mapConcurrent(candidates, options.concurrency, async (candidate) => {
         try {
-            const candidateId = requireString(candidate.id, "candidate id");
-            const source = requireString(
-                candidate.source,
-                `${candidateId} source`
-            );
-            const pack = requireString(candidate.pack, `${candidateId} pack`);
-            const filename = requireString(
-                candidate.filename,
-                `${candidateId} filename`
-            );
-            const previewUrl = readOptionalString(
-                candidate.previewUrl,
-                `${candidateId} preview URL`
-            );
-            let raw = candidate.raw;
-            let rawPath = candidate.rawPath;
-            if (!raw) {
-                const year =
-                    candidate.year === undefined || candidate.year === null
-                        ? "unknown"
-                        : requireSafeInteger(
-                              candidate.year,
-                              `${candidateId} year`
-                          ).toString();
-                rawPath = path.join(
-                    options.cacheDir,
-                    source,
-                    "raw",
-                    safePathSegment(year),
-                    safePathSegment(pack),
-                    safePathSegment(filename)
-                );
-                raw = await fetchCached(
-                    requireString(candidate.sourceUrl, "candidate source URL"),
-                    {
-                        cachePath: rawPath,
-                        offline: options.offline,
-                        binary: true,
-                        maxBytes: MAX_INPUT_BYTES,
-                    }
-                );
-            }
-            const { analysis, terminal } = analyzeAnsiRender(
-                /** @type {Buffer} */ (raw)
-            );
-            const sauce = analysis.sauce
-                ? requireObject(analysis.sauce, `${candidateId} SAUCE`)
-                : null;
-            const artists = getCandidateArtists(candidate.artists, sauce);
-            const groups =
-                typeof sauce?.group === "string" && sauce.group
-                    ? [sauce.group]
-                    : [];
-            const classified = classifyCandidate(
-                {
-                    ...candidate,
-                    raw: undefined,
-                    rawPath,
-                    analysis,
-                    artists,
-                    groups,
-                },
+            return await analyzeCandidateSafely(
+                candidate,
+                options,
                 existingHashes
             );
-            if (classified.review && previewUrl) {
-                const previewPath = path.join(
-                    options.cacheDir,
-                    "previews",
-                    safePathSegment(source),
-                    safePathSegment(pack),
-                    `${safePathSegment(filename)}.png`
-                );
-                try {
-                    await fetchCached(previewUrl, {
-                        cachePath: previewPath,
-                        offline: options.offline,
-                        binary: true,
-                        maxBytes: MAX_INPUT_BYTES,
-                    });
-                    classified.previewPath = previewPath;
-                } catch (error) {
-                    classified.previewError =
-                        error instanceof Error ? error.message : String(error);
-                }
-            }
-            if (classified.review && !classified.previewPath) {
-                const previewPath = path.join(
-                    options.cacheDir,
-                    "previews",
-                    "local-render",
-                    safePathSegment(source),
-                    safePathSegment(pack),
-                    `${safePathSegment(filename)}.svg`
-                );
-                try {
-                    if (!fs.existsSync(previewPath)) {
-                        writeTerminalPreviewSvg(terminal, previewPath);
-                    }
-                    classified.previewPath = previewPath;
-                    classified.previewKind = "local-terminal-render";
-                } catch (error) {
-                    classified.localPreviewError =
-                        error instanceof Error ? error.message : String(error);
-                }
-            } else if (classified.previewPath) {
-                classified.previewKind = "official-archive-preview";
-            }
-            return classified;
-        } catch (error) {
-            return {
-                ...candidate,
-                raw: undefined,
-                disposition: "rejected-malformed",
-                review: false,
-                error: error instanceof Error ? error.message : String(error),
-            };
         } finally {
             completed += 1;
             if (
