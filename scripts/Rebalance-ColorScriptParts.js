@@ -679,6 +679,180 @@ function applyBoundaryControls(
 }
 
 /**
+ * @typedef {{
+ *     balanceCost: number;
+ *     boundaryPenalty: number;
+ *     breaks: number[];
+ *     leadingBlankRows: number;
+ *     severeLeadingBlankRows: number;
+ *     severeLeadingSegments: number;
+ *     visibleBalanceCost: number;
+ * }} BreakCandidate
+ */
+
+/**
+ * @param {BreakCandidate} left
+ * @param {BreakCandidate} right
+ *
+ * @returns {number}
+ */
+function compareBreakCandidates(left, right) {
+    const costs = [
+        left.severeLeadingSegments - right.severeLeadingSegments,
+        left.severeLeadingBlankRows - right.severeLeadingBlankRows,
+        left.visibleBalanceCost - right.visibleBalanceCost,
+        left.balanceCost - right.balanceCost,
+        left.boundaryPenalty - right.boundaryPenalty,
+        left.leadingBlankRows - right.leadingBlankRows,
+    ];
+    const costDifference = costs.find((difference) => difference !== 0);
+    if (costDifference !== undefined) return costDifference;
+    for (let index = 0; index < left.breaks.length; index += 1) {
+        const difference = left.breaks[index] - right.breaks[index];
+        if (difference !== 0) return difference;
+    }
+    return 0;
+}
+
+/**
+ * @param {boolean[]} blankRows
+ *
+ * @returns {number[]}
+ */
+function buildVisibleRowPrefix(blankRows) {
+    const prefix = [0];
+    for (const isBlank of blankRows) {
+        prefix.push(/** @type {number} */ (prefix.at(-1)) + (isBlank ? 0 : 1));
+    }
+    return prefix;
+}
+
+/**
+ * @param {boolean[]} blankRows
+ * @param {number} start
+ * @param {number} end
+ *
+ * @returns {number}
+ */
+function countLeadingBlankRows(blankRows, start, end) {
+    let count = 0;
+    while (start + count < end && blankRows[start + count]) count += 1;
+    return count;
+}
+
+/**
+ * @param {boolean[]} blankRows
+ * @param {number} end
+ * @param {boolean} isFinal
+ *
+ * @returns {number}
+ */
+function getSplitBoundaryPenalty(blankRows, end, isFinal) {
+    if (isFinal || blankRows[end - 1]) return 0;
+    return blankRows[end] ? 2 : 1;
+}
+
+/**
+ * @param {BreakCandidate} state
+ * @param {number} start
+ * @param {number} end
+ * @param {{
+ *     blankRows: boolean[];
+ *     partCount: number;
+ *     rowCount: number;
+ *     totalVisibleRows: number;
+ *     visiblePrefix: number[];
+ *     isFinal: boolean;
+ * }} context
+ *
+ * @returns {BreakCandidate | null}
+ */
+function createFixedBreakCandidate(state, start, end, context) {
+    const visibleRows =
+        context.visiblePrefix[end] - context.visiblePrefix[start];
+    if (visibleRows < 1) return null;
+    const length = end - start;
+    const leadingBlankRows = countLeadingBlankRows(
+        context.blankRows,
+        start,
+        end
+    );
+    const severe =
+        leadingBlankRows >= 15 ||
+        (leadingBlankRows >= 3 && leadingBlankRows / length >= 0.5);
+    return {
+        balanceCost:
+            state.balanceCost +
+            (length * context.partCount - context.rowCount) ** 2,
+        boundaryPenalty:
+            state.boundaryPenalty +
+            getSplitBoundaryPenalty(context.blankRows, end, context.isFinal),
+        breaks: [...state.breaks, end],
+        leadingBlankRows: state.leadingBlankRows + leadingBlankRows,
+        severeLeadingBlankRows:
+            state.severeLeadingBlankRows + (severe ? leadingBlankRows : 0),
+        severeLeadingSegments: state.severeLeadingSegments + (severe ? 1 : 0),
+        visibleBalanceCost:
+            state.visibleBalanceCost +
+            (visibleRows * context.partCount - context.totalVisibleRows) ** 2,
+    };
+}
+
+/**
+ * @param {Map<number, BreakCandidate>} nextStates
+ * @param {number} start
+ * @param {BreakCandidate} state
+ * @param {number} remainingParts
+ * @param {number} maximumRows
+ * @param {Parameters<typeof createFixedBreakCandidate>[3]} context
+ */
+function addFixedBreakTransitions(
+    nextStates,
+    start,
+    state,
+    remainingParts,
+    maximumRows,
+    context
+) {
+    const maximumEnd = Math.min(
+        start + maximumRows,
+        context.rowCount - remainingParts
+    );
+    for (let end = start + 1; end <= maximumEnd; end += 1) {
+        if (context.rowCount - end > remainingParts * maximumRows) continue;
+        const candidate = createFixedBreakCandidate(state, start, end, context);
+        if (!candidate) continue;
+        const existing = nextStates.get(end);
+        if (!existing || compareBreakCandidates(candidate, existing) < 0) {
+            nextStates.set(end, candidate);
+        }
+    }
+}
+
+/**
+ * @param {Map<number, BreakCandidate>} states
+ * @param {number} remainingParts
+ * @param {number} maximumRows
+ * @param {Parameters<typeof createFixedBreakCandidate>[3]} context
+ *
+ * @returns {Map<number, BreakCandidate>}
+ */
+function advanceFixedBreakStates(states, remainingParts, maximumRows, context) {
+    const nextStates = new Map();
+    for (const [start, state] of states) {
+        addFixedBreakTransitions(
+            nextStates,
+            start,
+            state,
+            remainingParts,
+            maximumRows,
+            context
+        );
+    }
+    return nextStates;
+}
+
+/**
  * Choose exactly the requested number of bounded, rendered-visible parts.
  * Candidate plans are compared lexicographically: reject severe leading blank
  * runs first, balance visible rows and total rows next, then prefer cuts at the
@@ -715,50 +889,7 @@ function chooseFixedPartBreaks(rows, partCount, maximumRows) {
             "Fixed rebalancing requires at least one rendered-visible row per part."
         );
     }
-    const visiblePrefix = [0];
-    for (const isBlank of blankRows) {
-        visiblePrefix.push(
-            /** @type {number} */ (visiblePrefix.at(-1)) + (isBlank ? 0 : 1)
-        );
-    }
-    /**
-     * @typedef {{
-     *     balanceCost: number;
-     *     boundaryPenalty: number;
-     *     breaks: number[];
-     *     leadingBlankRows: number;
-     *     severeLeadingBlankRows: number;
-     *     severeLeadingSegments: number;
-     *     visibleBalanceCost: number;
-     * }} BreakCandidate
-     */
-    /**
-     * @param {BreakCandidate} left
-     * @param {BreakCandidate} right
-     *
-     * @returns {number}
-     */
-    const compareCandidates = (left, right) => {
-        const costs = [
-            left.severeLeadingSegments - right.severeLeadingSegments,
-            left.severeLeadingBlankRows - right.severeLeadingBlankRows,
-            left.visibleBalanceCost - right.visibleBalanceCost,
-            left.balanceCost - right.balanceCost,
-            left.boundaryPenalty - right.boundaryPenalty,
-            left.leadingBlankRows - right.leadingBlankRows,
-        ];
-        const costDifference = costs.find((difference) => difference !== 0);
-        if (costDifference !== undefined) {
-            return costDifference;
-        }
-        for (let index = 0; index < left.breaks.length; index += 1) {
-            const difference = left.breaks[index] - right.breaks[index];
-            if (difference !== 0) {
-                return difference;
-            }
-        }
-        return 0;
-    };
+    const visiblePrefix = buildVisibleRowPrefix(blankRows);
     /** @type {Map<number, BreakCandidate>} */
     let states = new Map([
         [
@@ -775,69 +906,20 @@ function chooseFixedPartBreaks(rows, partCount, maximumRows) {
         ],
     ]);
     const totalVisibleRows = /** @type {number} */ (visiblePrefix.at(-1));
-
     for (let part = 1; part <= partCount; part += 1) {
-        const remainingParts = partCount - part;
-        /** @type {typeof states} */
-        const nextStates = new Map();
-        for (const [start, state] of states) {
-            const minimumEnd = start + 1;
-            const maximumEnd = Math.min(
-                start + maximumRows,
-                rows.length - remainingParts
-            );
-            for (let end = minimumEnd; end <= maximumEnd; end += 1) {
-                if (rows.length - end > remainingParts * maximumRows) {
-                    continue;
-                }
-                const visibleRows =
-                    /** @type {number} */ (visiblePrefix[end]) -
-                    /** @type {number} */ (visiblePrefix[start]);
-                if (visibleRows < 1) {
-                    continue;
-                }
-                const length = end - start;
-                const scaledDeviation = length * partCount - rows.length;
-                const scaledVisibleDeviation =
-                    visibleRows * partCount - totalVisibleRows;
-                const isFinal = part === partCount;
-                let leadingBlankRows = 0;
-                while (
-                    start + leadingBlankRows < end &&
-                    blankRows[start + leadingBlankRows]
-                ) {
-                    leadingBlankRows += 1;
-                }
-                const hasSevereLeadingBlankRun =
-                    leadingBlankRows >= 15 ||
-                    (leadingBlankRows >= 3 && leadingBlankRows / length >= 0.5);
-                let boundaryPenalty = 1;
-                if (isFinal || blankRows[end - 1]) {
-                    boundaryPenalty = 0;
-                } else if (blankRows[end]) {
-                    boundaryPenalty = 2;
-                }
-                const candidate = {
-                    balanceCost: state.balanceCost + scaledDeviation ** 2,
-                    boundaryPenalty: state.boundaryPenalty + boundaryPenalty,
-                    breaks: [...state.breaks, end],
-                    leadingBlankRows: state.leadingBlankRows + leadingBlankRows,
-                    severeLeadingBlankRows:
-                        state.severeLeadingBlankRows +
-                        (hasSevereLeadingBlankRun ? leadingBlankRows : 0),
-                    severeLeadingSegments:
-                        state.severeLeadingSegments +
-                        (hasSevereLeadingBlankRun ? 1 : 0),
-                    visibleBalanceCost:
-                        state.visibleBalanceCost + scaledVisibleDeviation ** 2,
-                };
-                const existing = nextStates.get(end);
-                if (!existing || compareCandidates(candidate, existing) < 0) {
-                    nextStates.set(end, candidate);
-                }
+        states = advanceFixedBreakStates(
+            states,
+            partCount - part,
+            maximumRows,
+            {
+                blankRows,
+                partCount,
+                rowCount: rows.length,
+                totalVisibleRows,
+                visiblePrefix,
+                isFinal: part === partCount,
             }
-        }
-        states = nextStates;
+        );
     }
     const result = states.get(rows.length);
     if (result?.breaks.length !== partCount) {
