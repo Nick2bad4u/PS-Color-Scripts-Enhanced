@@ -218,9 +218,9 @@ function requirePackName(value) {
  *
  * @returns {AuditOptions}
  */
-function parseArguments(argv) {
+function createAuditOptions() {
     /** @type {AuditOptions} */
-    const options = {
+    return {
         source: "all",
         cacheDir: DEFAULT_CACHE_DIR,
         reportPath: path.join(DEFAULT_CACHE_DIR, "report.json"),
@@ -236,40 +236,61 @@ function parseArguments(argv) {
         year: null,
         packs: [],
     };
-    let reportWasSet = false;
-    let htmlWasSet = false;
+}
 
-    for (const arg of argv) {
-        if (arg === "--offline") {
-            options.offline = true;
-        } else if (arg === "--metadata-only") {
-            options.metadataOnly = true;
-        } else if (arg.startsWith("--source=")) {
-            const source = arg.slice("--source=".length);
+/**
+ * @param {AuditOptions} options
+ * @param {{ htmlWasSet: boolean; reportWasSet: boolean }} state
+ * @param {string} argument
+ */
+function applyAuditArgument(options, state, argument) {
+    if (argument === "--offline") {
+        options.offline = true;
+        return;
+    }
+    if (argument === "--metadata-only") {
+        options.metadataOnly = true;
+        return;
+    }
+    if (argument === "--help" || argument === "-h") {
+        printHelp();
+        process.exit(0);
+    }
+    const optionMatch = /^--([^=]+)=(.*)$/u.exec(argument);
+    if (!optionMatch) throw new Error(`Unknown option: ${argument}`);
+    const [
+        ,
+        optionName,
+        value,
+    ] = optionMatch;
+    switch (optionName) {
+        case "source": {
+            const source = value;
             if (source !== "16colors" && source !== "roy" && source !== "all") {
                 throw new Error("--source must be 16colors, roy, or all.");
             }
             options.source = source;
-        } else if (arg.startsWith("--cache-dir=")) {
-            options.cacheDir = path.resolve(arg.slice("--cache-dir=".length));
-        } else if (arg.startsWith("--report=")) {
-            options.reportPath = path.resolve(arg.slice("--report=".length));
-            reportWasSet = true;
-        } else if (arg.startsWith("--html=")) {
-            options.htmlPath = path.resolve(arg.slice("--html=".length));
-            htmlWasSet = true;
-        } else if (arg.startsWith("--checkpoint=")) {
-            options.checkpointPath = path.resolve(
-                arg.slice("--checkpoint=".length)
-            );
-        } else if (arg.startsWith("--decisions=")) {
-            options.decisionsPath = path.resolve(
-                arg.slice("--decisions=".length)
-            );
-        } else if (arg.startsWith("--exclude-existing-manifest=")) {
-            const manifestPath = arg
-                .slice("--exclude-existing-manifest=".length)
-                .trim();
+            return;
+        }
+        case "cache-dir":
+            options.cacheDir = path.resolve(value);
+            return;
+        case "report":
+            options.reportPath = path.resolve(value);
+            state.reportWasSet = true;
+            return;
+        case "html":
+            options.htmlPath = path.resolve(value);
+            state.htmlWasSet = true;
+            return;
+        case "checkpoint":
+            options.checkpointPath = path.resolve(value);
+            return;
+        case "decisions":
+            options.decisionsPath = path.resolve(value);
+            return;
+        case "exclude-existing-manifest": {
+            const manifestPath = value.trim();
             if (!manifestPath) {
                 throw new Error(
                     "--exclude-existing-manifest must name an import manifest."
@@ -278,54 +299,61 @@ function parseArguments(argv) {
             options.excludedExistingManifestPaths.push(
                 path.resolve(manifestPath)
             );
-        } else if (arg.startsWith("--concurrency=")) {
+            return;
+        }
+        case "concurrency":
             options.concurrency = parseBoundedInteger(
-                arg.slice("--concurrency=".length),
+                value,
                 "concurrency",
                 1,
                 12
             );
-        } else if (arg.startsWith("--pagesize=")) {
-            options.pageSize = parseBoundedInteger(
-                arg.slice("--pagesize=".length),
-                "pagesize",
-                1,
-                500
-            );
-        } else if (arg.startsWith("--limit-packs=")) {
+            return;
+        case "pagesize":
+            options.pageSize = parseBoundedInteger(value, "pagesize", 1, 500);
+            return;
+        case "limit-packs":
             options.limitPacks = parseBoundedInteger(
-                arg.slice("--limit-packs=".length),
+                value,
                 "limit-packs",
                 1,
                 100_000
             );
-        } else if (arg.startsWith("--year=")) {
-            options.year = parseBoundedInteger(
-                arg.slice("--year=".length),
-                "year",
-                1980,
-                2100
-            );
-        } else if (arg.startsWith("--pack=")) {
-            const pack = arg.slice("--pack=".length).trim();
+            return;
+        case "year":
+            options.year = parseBoundedInteger(value, "year", 1980, 2100);
+            return;
+        case "pack": {
+            const pack = value.trim();
             if (!pack || !/^[a-z0-9._-]+$/iu.test(pack)) {
                 throw new Error(
                     "--pack must contain a safe 16colors pack name."
                 );
             }
             options.packs.push(pack);
-        } else if (arg === "--help" || arg === "-h") {
-            printHelp();
-            process.exit(0);
-        } else {
-            throw new Error(`Unknown option: ${arg}`);
+            return;
         }
+        default:
+            throw new Error(`Unknown option: ${argument}`);
+    }
+}
+
+/**
+ * @param {string[]} argv
+ *
+ * @returns {AuditOptions}
+ */
+function parseArguments(argv) {
+    const options = createAuditOptions();
+    const state = { reportWasSet: false, htmlWasSet: false };
+    for (const argument of argv) {
+        applyAuditArgument(options, state, argument);
     }
 
-    if (!reportWasSet) {
+    if (!state.reportWasSet) {
         options.reportPath = path.join(options.cacheDir, "report.json");
     }
-    if (!htmlWasSet) {
+    if (!state.htmlWasSet) {
         options.htmlPath = path.join(options.cacheDir, "review.html");
     }
     return options;

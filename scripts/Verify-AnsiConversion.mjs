@@ -44,8 +44,6 @@ function sha256(value) {
 }
 
 /**
- * @param {string[]} argv
- *
  * @returns {{
  *     allowPartial: boolean;
  *     columns: number | null;
@@ -59,8 +57,8 @@ function sha256(value) {
  *     sourcePath: string | null;
  * }}
  */
-function parseArguments(argv) {
-    const options = {
+function createVerificationOptions() {
+    return {
         allowPartial: false,
         columns: null,
         encoding: "cp437",
@@ -72,65 +70,99 @@ function parseArguments(argv) {
         scriptsDirectory: defaultScriptsDirectory,
         sourcePath: null,
     };
+}
+
+/**
+ * Normalize options that accept either `--name=value` or `--name value`.
+ *
+ * @param {string[]} argv
+ * @param {ReadonlySet<string>} valueOptions
+ *
+ * @returns {string[]}
+ */
+function normalizeVerificationArguments(argv, valueOptions) {
+    const normalized = [];
     for (let index = 0; index < argv.length; index += 1) {
         const argument = argv[index];
-        const takeValue = (option) => {
-            const separator = argument.indexOf("=");
-            if (separator >= 0) return argument.slice(separator + 1);
-            const value = argv[index + 1];
-            if (!value || value.startsWith("--")) {
-                throw new Error(`${option} requires a value.`);
-            }
-            index += 1;
-            return value;
-        };
-        if (argument === "--help" || argument === "-h") {
-            options.help = true;
-        } else if (
-            argument === "--allow-partial" ||
-            argument === "--no-coverage-check"
-        ) {
-            options.allowPartial = true;
-        } else if (
-            argument === "--source" ||
-            argument.startsWith("--source=")
-        ) {
-            options.sourcePath = path.resolve(takeValue("--source"));
-        } else if (
-            argument === "--script" ||
-            argument.startsWith("--script=")
-        ) {
-            options.scriptPaths.push(path.resolve(takeValue("--script")));
-        } else if (
-            argument === "--scripts-dir" ||
-            argument.startsWith("--scripts-dir=")
-        ) {
-            options.scriptsDirectory = path.resolve(takeValue("--scripts-dir"));
-        } else if (
-            argument === "--prefix" ||
-            argument.startsWith("--prefix=")
-        ) {
-            const prefix = takeValue("--prefix");
+        if (!valueOptions.has(argument)) {
+            normalized.push(argument);
+            continue;
+        }
+        const value = argv[index + 1];
+        if (!value || value.startsWith("--")) {
+            throw new Error(`${argument} requires a value.`);
+        }
+        normalized.push(`${argument}=${value}`);
+        index += 1;
+    }
+    return normalized;
+}
+
+/**
+ * @param {ReturnType<typeof createVerificationOptions>} options
+ * @param {string} argument
+ */
+function applyVerificationArgument(options, argument) {
+    if (argument === "--help" || argument === "-h") {
+        options.help = true;
+        return;
+    }
+    if (argument === "--allow-partial" || argument === "--no-coverage-check") {
+        options.allowPartial = true;
+        return;
+    }
+    if (argument === "--ice-colors") {
+        options.iceColors = true;
+        return;
+    }
+    if (argument === "--no-ice-colors") {
+        options.iceColors = false;
+        return;
+    }
+    const optionMatch = /^--([^=]+)=(.*)$/u.exec(argument);
+    if (!optionMatch) {
+        if (argument.startsWith("--")) {
+            throw new Error(`Unknown option: ${argument}`);
+        }
+        throw new Error(
+            `Unexpected positional argument: ${argument}. Use --source and --script.`
+        );
+    }
+    const [
+        ,
+        optionName,
+        value,
+    ] = optionMatch;
+    switch (optionName) {
+        case "source":
+            options.sourcePath = path.resolve(value);
+            return;
+        case "script":
+            options.scriptPaths.push(path.resolve(value));
+            return;
+        case "scripts-dir":
+            options.scriptsDirectory = path.resolve(value);
+            return;
+        case "prefix": {
+            const prefix = value;
             if (!/^[a-z\d][a-z\d-]*$/iu.test(prefix)) {
                 throw new Error(
                     "--prefix must be a colorscript filename prefix without path separators."
                 );
             }
             options.prefix = prefix;
-        } else if (
-            argument === "--encoding" ||
-            argument.startsWith("--encoding=")
-        ) {
-            const encoding = takeValue("--encoding");
+            return;
+        }
+        case "encoding": {
+            const encoding = value;
             if (!/^[a-z\d_-]+$/iu.test(encoding)) {
                 throw new Error("--encoding contains unsupported characters.");
             }
             options.encoding = encoding;
-        } else if (
-            argument === "--columns" ||
-            argument.startsWith("--columns=")
-        ) {
-            const columns = Number(takeValue("--columns"));
+            return;
+        }
+        case "columns": {
+            const columns = Number(value);
             if (
                 !Number.isSafeInteger(columns) ||
                 columns < 1 ||
@@ -141,19 +173,38 @@ function parseArguments(argv) {
                 );
             }
             options.columns = columns;
-        } else if (argument === "--ice-colors") {
-            options.iceColors = true;
-        } else if (argument === "--no-ice-colors") {
-            options.iceColors = false;
-        } else if (argument === "--json" || argument.startsWith("--json=")) {
-            options.jsonPath = path.resolve(takeValue("--json"));
-        } else if (argument.startsWith("--")) {
-            throw new Error(`Unknown option: ${argument}`);
-        } else {
-            throw new Error(
-                `Unexpected positional argument: ${argument}. Use --source and --script.`
-            );
+            return;
         }
+        case "json":
+            options.jsonPath = path.resolve(value);
+            return;
+        default:
+            throw new Error(`Unknown option: ${argument}`);
+    }
+}
+
+/**
+ * @param {string[]} argv
+ *
+ * @returns {ReturnType<typeof createVerificationOptions>}
+ */
+function parseArguments(argv) {
+    const options = createVerificationOptions();
+    const valueOptions = new Set([
+        "--source",
+        "--script",
+        "--scripts-dir",
+        "--prefix",
+        "--encoding",
+        "--columns",
+        "--json",
+    ]);
+    const normalizedArguments = normalizeVerificationArguments(
+        argv,
+        valueOptions
+    );
+    for (const argument of normalizedArguments) {
+        applyVerificationArgument(options, argument);
     }
     if (options.scriptPaths.length > 0 && options.prefix) {
         throw new Error("Use either repeated --script options or --prefix.");

@@ -173,8 +173,8 @@ const defaultExceptionsPath = path.join(
  *     options: AnalysisOptions;
  * }}
  */
-function parseArguments(argv) {
-    const result = {
+function createAnalysisArguments() {
+    return {
         scriptsDirectory: defaultScriptsDirectory,
         jsonPath: null,
         check: false,
@@ -188,6 +188,101 @@ function parseArguments(argv) {
             tinyTailRows: 10,
         },
     };
+}
+
+/**
+ * @param {string[]} argv
+ * @param {ReadonlySet<string>} valueOptions
+ *
+ * @returns {string[]}
+ */
+function normalizeValueArguments(argv, valueOptions) {
+    const normalized = [];
+    for (let index = 0; index < argv.length; index += 1) {
+        const argument = argv[index];
+        if (!valueOptions.has(argument)) {
+            normalized.push(argument);
+            continue;
+        }
+        const value = argv[index + 1];
+        if (value === undefined) {
+            throw new Error(`${argument} requires a value.`);
+        }
+        normalized.push(`${argument}=${value}`);
+        index += 1;
+    }
+    return normalized;
+}
+
+/**
+ * @param {ReturnType<typeof createAnalysisArguments>} result
+ * @param {string} argument
+ */
+function applyAnalysisArgument(result, argument) {
+    if (argument === "--check") {
+        result.check = true;
+        return;
+    }
+    if (argument === "--no-exceptions") {
+        result.disableExceptions = true;
+        return;
+    }
+    if (argument === "--help" || argument === "-h") {
+        result.help = true;
+        return;
+    }
+    const optionMatch = /^--([^=]+)=(.*)$/u.exec(argument);
+    if (!optionMatch) throw new Error(`Unknown option: ${argument}`);
+    const [
+        ,
+        optionName,
+        value,
+    ] = optionMatch;
+    switch (optionName) {
+        case "scripts-dir":
+            result.scriptsDirectory = path.resolve(value);
+            return;
+        case "json":
+            result.jsonPath = path.resolve(value);
+            return;
+        case "exceptions":
+            result.exceptionsPath = path.resolve(value);
+            return;
+        case "blank-run":
+            result.options.blankRun = parsePositiveInteger(
+                value,
+                "--blank-run"
+            );
+            return;
+        case "max-rows":
+            result.options.maxRows = parsePositiveInteger(value, "--max-rows");
+            return;
+        case "tiny-tail-rows":
+            result.options.tinyTailRows = parsePositiveInteger(
+                value,
+                "--tiny-tail-rows"
+            );
+            return;
+        case "type":
+            if (!KNOWN_ISSUE_TYPES.has(value)) {
+                throw new Error(
+                    `Unknown issue type '${value}'. Expected one of: ${[...KNOWN_ISSUE_TYPES].join(", ")}.`
+                );
+            }
+            result.issueTypes.push(value);
+            return;
+        default:
+            throw new Error(`Unknown option: ${argument}`);
+    }
+}
+
+/**
+ * @param {string[]} argv
+ *
+ * @returns {ReturnType<typeof createAnalysisArguments>}
+ */
+function parseArguments(argv) {
+    const result = createAnalysisArguments();
     const valueOptions = new Set([
         "--blank-run",
         "--exceptions",
@@ -197,63 +292,9 @@ function parseArguments(argv) {
         "--tiny-tail-rows",
         "--type",
     ]);
-    const normalizedArguments = [];
-    for (let index = 0; index < argv.length; index += 1) {
-        const argument = argv[index];
-        if (!valueOptions.has(argument)) {
-            normalizedArguments.push(argument);
-            continue;
-        }
-        const value = argv[index + 1];
-        if (value === undefined) {
-            throw new Error(`${argument} requires a value.`);
-        }
-        normalizedArguments.push(`${argument}=${value}`);
-        index += 1;
-    }
+    const normalizedArguments = normalizeValueArguments(argv, valueOptions);
     for (const argument of normalizedArguments) {
-        if (argument === "--check") {
-            result.check = true;
-        } else if (argument === "--no-exceptions") {
-            result.disableExceptions = true;
-        } else if (argument === "--help" || argument === "-h") {
-            result.help = true;
-        } else if (argument.startsWith("--scripts-dir=")) {
-            result.scriptsDirectory = path.resolve(
-                argument.slice("--scripts-dir=".length)
-            );
-        } else if (argument.startsWith("--json=")) {
-            result.jsonPath = path.resolve(argument.slice("--json=".length));
-        } else if (argument.startsWith("--exceptions=")) {
-            result.exceptionsPath = path.resolve(
-                argument.slice("--exceptions=".length)
-            );
-        } else if (argument.startsWith("--blank-run=")) {
-            result.options.blankRun = parsePositiveInteger(
-                argument.slice("--blank-run=".length),
-                "--blank-run"
-            );
-        } else if (argument.startsWith("--max-rows=")) {
-            result.options.maxRows = parsePositiveInteger(
-                argument.slice("--max-rows=".length),
-                "--max-rows"
-            );
-        } else if (argument.startsWith("--tiny-tail-rows=")) {
-            result.options.tinyTailRows = parsePositiveInteger(
-                argument.slice("--tiny-tail-rows=".length),
-                "--tiny-tail-rows"
-            );
-        } else if (argument.startsWith("--type=")) {
-            const issueType = argument.slice("--type=".length);
-            if (!KNOWN_ISSUE_TYPES.has(issueType)) {
-                throw new Error(
-                    `Unknown issue type '${issueType}'. Expected one of: ${[...KNOWN_ISSUE_TYPES].join(", ")}.`
-                );
-            }
-            result.issueTypes.push(issueType);
-        } else {
-            throw new Error(`Unknown option: ${argument}`);
-        }
+        applyAnalysisArgument(result, argument);
     }
     if (result.options.tinyTailRows >= result.options.maxRows) {
         throw new RangeError("--tiny-tail-rows must be less than --max-rows.");
