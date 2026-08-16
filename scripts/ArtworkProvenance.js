@@ -144,9 +144,10 @@ function parseEntryProperties(block, context) {
     const properties = {};
     const lines = block.replaceAll("\r\n", "\n").split("\n");
     for (let index = 0; index < lines.length; index += 1) {
-        const match = /^ {12}([A-Za-z][A-Za-z\d]*)\s*=\s*(.*?)$/u.exec(
-            lines[index]
-        );
+        const match =
+            /^ {12}([A-Za-z][A-Za-z\d]*)[ \t]*=[ \t]*([^\r\n]*)$/u.exec(
+                lines[index]
+            );
         if (!match) continue;
         const [
             ,
@@ -165,15 +166,18 @@ function parseEntryProperties(block, context) {
         }
         const values = [];
         let closed = false;
-        for (index += 1; index < lines.length; index += 1) {
-            if (/^ {12}\)$/u.test(lines[index])) {
+        let arrayIndex = index + 1;
+        for (; arrayIndex < lines.length; arrayIndex += 1) {
+            if (/^ {12}\)$/u.test(lines[arrayIndex])) {
                 closed = true;
                 break;
             }
-            const valueMatch = /^ {16}'((?:[^']|'')*)'$/u.exec(lines[index]);
+            const valueMatch = /^ {16}'((?:[^']|'')*)'$/u.exec(
+                lines[arrayIndex]
+            );
             if (!valueMatch) {
                 throw new Error(
-                    `${context}.${name}: unsupported array item ${lines[index]}.`
+                    `${context}.${name}: unsupported array item ${lines[arrayIndex]}.`
                 );
             }
             values.push(unescapePowerShellString(valueMatch[1]));
@@ -181,6 +185,7 @@ function parseEntryProperties(block, context) {
         if (!closed) {
             throw new Error(`${context}.${name}: unterminated array.`);
         }
+        index = arrayIndex;
         properties[name] = Object.freeze(values);
     }
     return Object.freeze(properties);
@@ -195,7 +200,7 @@ function parseEntryProperties(block, context) {
  */
 function getSection(source, sectionName, nextSectionName) {
     const startExpression = new RegExp(
-        `^ {4}${sectionName}\\s*=\\s*@\\{\\r?$`,
+        String.raw`^ {4}${sectionName}\s*=\s*@\{\r?$`,
         "mu"
     );
     const startMatch = startExpression.exec(source);
@@ -205,7 +210,7 @@ function getSection(source, sectionName, nextSectionName) {
     const contentStart = startMatch.index + startMatch[0].length;
     if (!nextSectionName) return source.slice(contentStart);
     const endExpression = new RegExp(
-        `^ {4}${nextSectionName}\\s*=\\s*@\\{\\r?$`,
+        String.raw`^ {4}${nextSectionName}\s*=\s*@\{\r?$`,
         "mu"
     );
     const remaining = source.slice(contentStart);
@@ -428,7 +433,7 @@ function updateArtworkProvenanceScriptProperties(source, updates) {
                 }
                 const serialized = serializePowerShellScalar(value);
                 const expression = new RegExp(
-                    `^( {12}${property}\\s*=\\s*).*$`,
+                    String.raw`^( {12}${property}\s*=\s*).*$`,
                     "mu"
                 );
                 if (expression.test(updatedBlock)) {

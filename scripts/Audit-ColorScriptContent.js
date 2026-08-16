@@ -15,8 +15,19 @@ const DEFAULT_SCRIPTS_DIRECTORY = path.join(
     "Scripts"
 );
 const MAX_SOURCE_BYTES = 16 * 1024 * 1024;
-const ANSI_CONTROL_PATTERN =
-    /(?:\x1B\][^\x07\x1B]*(?:\x07|\x1B\\)|\x1B[P_X^][\s\S]*?\x1B\\|\x1B\[[0-?]*[ -/]*[@-~]|\x9B[0-?]*[ -/]*[@-~]|\x1B[ -/]*[@-~])/gu;
+const ESCAPE_CHARACTER = String.fromCodePoint(0x1b);
+const BELL_CHARACTER = String.fromCodePoint(0x07);
+const C1_CSI_CHARACTER = String.fromCodePoint(0x9b);
+const ANSI_CONTROL_PATTERN = new RegExp(
+    [
+        `${ESCAPE_CHARACTER}\\][^${BELL_CHARACTER}${ESCAPE_CHARACTER}]*(?:${BELL_CHARACTER}|${ESCAPE_CHARACTER}\\\\)`,
+        `${ESCAPE_CHARACTER}[P_X^][\\s\\S]*?${ESCAPE_CHARACTER}\\\\`,
+        `${ESCAPE_CHARACTER}\\[[0-?]*[ -/]*[@-~]`,
+        `${C1_CSI_CHARACTER}[0-?]*[ -/]*[@-~]`,
+        `${ESCAPE_CHARACTER}[ -/]*[@-~]`,
+    ].join("|"),
+    "gu"
+);
 const LETTER_PATTERN = /\p{L}|\p{M}/gu;
 const DIGIT_PATTERN = /\p{N}/gu;
 const WORD_PATTERN = /\p{L}[\p{L}\p{M}'’-]*/gu;
@@ -24,9 +35,6 @@ const ART_GLYPH_PATTERN =
     /[\u00A3\u00AB\u00AC\u00B0\u00B2\u00B7\u00BB\u00BD\u00C7\u00D1\u2022\u207F\u2190-\u21FF\u2219\u2261\u2300-\u23FF\u2500-\u259F\u25A0-\u25FF\u263A-\u263B\u2665\u2800-\u28FF]/gu;
 const ART_GLYPH_SINGLE_PATTERN =
     /^[\u00A3\u00AB\u00AC\u00B0\u00B2\u00B7\u00BB\u00BD\u00C7\u00D1\u2022\u207F\u2190-\u21FF\u2219\u2261\u2300-\u23FF\u2500-\u259F\u25A0-\u25FF\u263A-\u263B\u2665\u2800-\u28FF]$/u;
-const RAW_C0_PATTERN = /^[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]$/u;
-const LEGACY_CP437_SOURCE_CELL_PATTERN = /^\u0016$/u;
-const NON_BREAKING_SPACE_PATTERN = /^\u00A0$/u;
 const NONSPACE_PATTERN = /\S/gu;
 const RESET_SEQUENCE = "\u001b[0m";
 const CONTACT_CONTEXT_PATTERN =
@@ -35,13 +43,14 @@ const CONTACT_FALSE_POSITIVE_CONTEXT_PATTERN =
     /\b(?:anniversary|baud|birthday|bps|date|kbps|open|version|v\d{2}(?:bis)?)\b/iu;
 const DATE_TIME_BAUD_PATTERN =
     /\b\d{1,2}\s*[/.-]\s*\d{1,2}\s*[/.-]\s*\d{2,4}\b[^\r\n]{0,40}\b\d{1,2}\s*:\s*\d{2}\b[^\r\n]{0,40}\b(?:300|1200|2400|4800|9600|14400|16800|19200|28800|33600|56000|115200)\b/iu;
-const EMAIL_PATTERN = /[\p{L}\p{N}._%+-]+@[\p{L}\p{N}.-]+\.[\p{L}]{2,}/giu;
+const EMAIL_PATTERN =
+    /[\p{L}\p{N}._%+-]{1,64}@(?:[\p{L}\p{N}-]{1,63}\.){1,10}[\p{L}]{2,63}/giu;
 const NETWORK_ENDPOINT_PATTERN =
-    /\b(?:(?:https?|ftp|telnet):\/\/|www\.)[^\s]+|\b(?:bbs|telnet)\.[\p{L}\p{N}.-]+\.[\p{L}]{2,}\b/giu;
+    /\b(?:(?:https?|ftp|telnet):\/\/|www\.)\S+|\b(?:bbs|telnet)\.(?:[\p{L}\p{N}-]{1,63}\.){0,9}[\p{L}]{2,63}\b/giu;
 const FIDO_ENDPOINT_PATTERN =
-    /(?<![\p{L}\p{N}])[\dOo]{1,3}:[\dOo]{1,6}\/[\dOo]{1,6}(?:\.[\dOo]{1,6})?(?![\p{L}\p{N}])/giu;
+    /(?<![\p{L}\p{N}])[\do]{1,3}:[\do]{1,6}\/[\do]{1,6}(?:\.[\do]{1,6})?(?![\p{L}\p{N}])/giu;
 const PHONE_CANDIDATE_PATTERN =
-    /(?<![\p{L}\p{N}])(?:\+|00|011)?[\dOoIiLl([][\dOoIiLl\s()[\]./·■-]{5,}[\dOoIiLl)](?![\p{L}\p{N}])/giu;
+    /(?<![\p{L}\p{N}])(?:\+|00|011)?[\doil(\[][\doil\s()\[\]./·■-]{5,40}[\doil)](?![\p{L}\p{N}])/giu;
 const SOURCE_FIDELITY_LOCK_PATTERN =
     /^# Source Conversion Mode:\s*Passthrough\s*$/imu;
 const CURATION_MODIFICATION_NOTICE =
@@ -192,9 +201,9 @@ const POLICY_MATCHERS = Object.freeze(
  * @returns {string}
  */
 function stripAnsiControls(value) {
-    return value
-        .replace(ANSI_CONTROL_PATTERN, "")
-        .replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]/gu, "");
+    return Array.from(value.replace(ANSI_CONTROL_PATTERN, ""))
+        .filter((character) => !isRawC0Control(character))
+        .join("");
 }
 
 /**
@@ -205,6 +214,22 @@ function stripAnsiControls(value) {
  */
 function countMatches(value, pattern) {
     return [...value.matchAll(pattern)].length;
+}
+
+/**
+ * @param {string} character
+ *
+ * @returns {boolean}
+ */
+function isRawC0Control(character) {
+    const codePoint = character.codePointAt(0);
+    return (
+        codePoint !== undefined &&
+        (codePoint <= 0x08 ||
+            (codePoint >= 0x0b && codePoint <= 0x0c) ||
+            (codePoint >= 0x0e && codePoint <= 0x1f) ||
+            codePoint === 0x7f)
+    );
 }
 
 /**
@@ -274,15 +299,16 @@ function findBlankRuns(blankRows) {
             runStart = index;
         }
         if (!blankRows[index] && runStart !== null) {
+            let kind = "internal";
+            if (runStart === 0) {
+                kind = "leading";
+            } else if (index === blankRows.length) {
+                kind = "trailing";
+            }
             runs.push({
                 count: index - runStart,
                 endRow: index,
-                kind:
-                    runStart === 0
-                        ? "leading"
-                        : index === blankRows.length
-                          ? "trailing"
-                          : "internal",
+                kind,
                 startRow: runStart + 1,
             });
             runStart = null;
@@ -1057,7 +1083,8 @@ function blankTextColumns(rawRow, columnRanges) {
      */
     const appendPlainText = (plainText) => {
         for (const character of plainText) {
-            if (LEGACY_CP437_SOURCE_CELL_PATTERN.test(character)) {
+            const codePoint = character.codePointAt(0);
+            if (codePoint === 0x16) {
                 visibleColumn += 1;
                 while (
                     rangeIndex < ranges.length &&
@@ -1077,14 +1104,14 @@ function blankTextColumns(rawRow, columnRanges) {
                 result += character;
                 continue;
             }
-            if (RAW_C0_PATTERN.test(character)) {
+            if (isRawC0Control(character)) {
                 throw new RangeError(
                     "Targeted column blanking encountered an unsupported raw C0 control."
                 );
             }
             if (
                 !/^[\u0020-\u007E]$/u.test(character) &&
-                !NON_BREAKING_SPACE_PATTERN.test(character) &&
+                codePoint !== 0xa0 &&
                 !ART_GLYPH_SINGLE_PATTERN.test(character)
             ) {
                 throw new RangeError(
@@ -1513,13 +1540,15 @@ Options:
  */
 function main(arguments_ = process.argv.slice(2)) {
     const options = parseArguments(arguments_);
-    const files = (
-        options.documentWorkingTree
-            ? getWorkingTreeFiles(options.scriptsDirectory)
-            : options.changedSince
-              ? getAddedFiles(options.changedSince, options.scriptsDirectory)
-              : getAllScripts(options.scriptsDirectory)
-    ).sort((left, right) => left.localeCompare(right, "en-US"));
+    let files;
+    if (options.documentWorkingTree) {
+        files = getWorkingTreeFiles(options.scriptsDirectory);
+    } else if (options.changedSince) {
+        files = getAddedFiles(options.changedSince, options.scriptsDirectory);
+    } else {
+        files = getAllScripts(options.scriptsDirectory);
+    }
+    files.sort((left, right) => left.localeCompare(right, "en-US"));
     const records = [];
     const failures = [];
     let fixedFiles = 0;

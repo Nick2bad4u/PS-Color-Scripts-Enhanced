@@ -209,12 +209,15 @@ function validateCompleteGeneratedEntry(entry, name) {
 function buildGeneratedArtworkEntry(options) {
     const sourceHash = sha256(options.sourceBuffer);
     const normalizedEncoding = options.sourceEncoding.toLowerCase();
-    const displayEncoding =
-        normalizedEncoding === "cp437" || normalizedEncoding === "437"
-            ? "CP437"
-            : normalizedEncoding === "utf8" || normalizedEncoding === "utf-8"
-              ? "UTF-8"
-              : options.sourceEncoding;
+    let displayEncoding = options.sourceEncoding;
+    if (normalizedEncoding === "cp437" || normalizedEncoding === "437") {
+        displayEncoding = "CP437";
+    } else if (
+        normalizedEncoding === "utf8" ||
+        normalizedEncoding === "utf-8"
+    ) {
+        displayEncoding = "UTF-8";
+    }
     const sourceName = path.basename(options.sourceName);
     const format = path.extname(sourceName).slice(1).toUpperCase() || "ANS";
     requireMatchingString(sourceHash, "SourceSha256", options.template);
@@ -319,11 +322,10 @@ function writeGeneratedArtworkTransaction(
     try {
         for (const [target, content] of targets) {
             fs.mkdirSync(path.dirname(target), { recursive: true });
-            const output = target.endsWith(".ps1")
-                ? content.startsWith("\ufeff")
-                    ? content
-                    : `\ufeff${content}`
-                : content;
+            let output = content;
+            if (target.endsWith(".ps1") && !content.startsWith("\ufeff")) {
+                output = `\ufeff${content}`;
+            }
             fs.writeFileSync(target, output, "utf8");
         }
     } catch (error) {

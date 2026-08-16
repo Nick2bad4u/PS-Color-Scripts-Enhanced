@@ -421,13 +421,14 @@ for (let year = 1990; year <= 2026; year += 1) {
                 : "";
         const reviewNote =
             reportReviewNote || supplementalReview?.reviewNote.trim() || "";
-        const reviewEvidenceSource = reportReviewNote
-            ? "authoritative-report-note"
-            : candidate.review === true
-              ? "authoritative-report-flag"
-              : supplementalReview
-                ? "supplemental-official-preview-review"
-                : null;
+        let reviewEvidenceSource = null;
+        if (reportReviewNote) {
+            reviewEvidenceSource = "authoritative-report-note";
+        } else if (candidate.review === true) {
+            reviewEvidenceSource = "authoritative-report-flag";
+        } else if (supplementalReview) {
+            reviewEvidenceSource = "supplemental-official-preview-review";
+        }
         const previewKind =
             typeof candidate.previewKind === "string"
                 ? candidate.previewKind

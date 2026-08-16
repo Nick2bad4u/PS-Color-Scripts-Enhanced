@@ -24,7 +24,7 @@ const BOX_GLYPH = /[\u2500-\u257f]/u;
 const ASCII_GLYPH = /[\u0021-\u007e]/u;
 const REPLACEMENT_CHARACTER = /\ufffd/gu;
 const MOJIBAKE_SEQUENCE = /(?:Ã[\u0080-\u00bf]|â€|ðŸ|ï»¿)/gu;
-const DOS_EOF_CHARACTER = /\u001a/gu;
+const DOS_EOF_CHARACTER = String.fromCodePoint(0x1a);
 const ANSI_COLOR_FAMILIES = [
     "neutral",
     "red",
@@ -46,6 +46,19 @@ function requireIssueType(issue) {
         throw new TypeError("Analysis issue type must be a non-empty string.");
     }
     return issue.type;
+}
+
+/**
+ * @param {number} runStart
+ * @param {number} runEnd
+ * @param {number} rowCount
+ *
+ * @returns {"internal" | "leading" | "trailing"}
+ */
+function getBlankRunKind(runStart, runEnd, rowCount) {
+    if (runStart === 0) return "leading";
+    if (runEnd === rowCount) return "trailing";
+    return "internal";
 }
 const KNOWN_ISSUE_TYPES = new Set([
     "analysis-error",
@@ -340,8 +353,14 @@ function applyAnalysisExceptions(issues, exceptions) {
     for (const exception of exceptions) {
         const signature = `${exception.issueType}\0${exception.family}\0${exception.panel ?? "*"}\0${exception.boundaryAfterRow ?? "*"}`;
         if (signatures.has(signature)) {
+            const panelSuffix = exception.panel
+                ? `/panel${exception.panel}`
+                : "";
+            const rowSuffix = exception.boundaryAfterRow
+                ? `/row${exception.boundaryAfterRow}`
+                : "";
             throw new Error(
-                `Duplicate analysis exception for ${exception.issueType}/${exception.family}${exception.panel ? `/panel${exception.panel}` : ""}${exception.boundaryAfterRow ? `/row${exception.boundaryAfterRow}` : ""}.`
+                `Duplicate analysis exception for ${exception.issueType}/${exception.family}${panelSuffix}${rowSuffix}.`
             );
         }
         signatures.add(signature);
@@ -692,12 +711,7 @@ function analyzeAnsiLines(lines) {
         } else if (runStart !== null) {
             blankRuns.push({
                 endRow: index,
-                kind:
-                    runStart === 0
-                        ? "leading"
-                        : index === blankRows.length
-                          ? "trailing"
-                          : "internal",
+                kind: getBlankRunKind(runStart, index, blankRows.length),
                 rows: index - runStart,
                 startRow: runStart + 1,
             });
@@ -746,7 +760,7 @@ function analyzeAnsiLines(lines) {
         replacementCharacters:
             plainText.match(REPLACEMENT_CHARACTER)?.length || 0,
         mojibakeSequences: plainText.match(MOJIBAKE_SEQUENCE)?.length || 0,
-        dosEofCharacters: plainText.match(DOS_EOF_CHARACTER)?.length || 0,
+        dosEofCharacters: plainText.split(DOS_EOF_CHARACTER).length - 1,
         sgrSequences: content.match(ESCAPE_SEQUENCE)?.length || 0,
         width,
     };
@@ -1650,10 +1664,13 @@ function main(argv = process.argv.slice(2)) {
     const usesDefaultScriptsDirectory =
         path.resolve(parsed.scriptsDirectory).toLowerCase() ===
         path.resolve(defaultScriptsDirectory).toLowerCase();
-    const exceptionsPath = parsed.disableExceptions
-        ? null
-        : parsed.exceptionsPath ||
-          (usesDefaultScriptsDirectory ? defaultExceptionsPath : null);
+    let exceptionsPath = null;
+    if (!parsed.disableExceptions) {
+        exceptionsPath = parsed.exceptionsPath;
+        if (!exceptionsPath && usesDefaultScriptsDirectory) {
+            exceptionsPath = defaultExceptionsPath;
+        }
+    }
     const exceptions = exceptionsPath
         ? loadAnalysisExceptions(exceptionsPath)
         : [];

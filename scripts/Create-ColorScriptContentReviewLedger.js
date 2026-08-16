@@ -119,6 +119,7 @@ function addEvidence(candidates, evidence) {
     const categories = [
         ...new Set([...(existing?.categories || []), ...evidence.categories]),
     ].sort((left, right) => left.localeCompare(right, "en-US"));
+    const severity = evidence.severity || existing?.severity;
     rows.set(evidence.row, {
         action:
             evidence.action ||
@@ -127,11 +128,7 @@ function addEvidence(candidates, evidence) {
             ),
         categories,
         row: evidence.row,
-        ...(evidence.severity
-            ? { severity: evidence.severity }
-            : existing?.severity
-              ? { severity: existing.severity }
-              : {}),
+        ...(severity ? { severity } : {}),
         sha256: evidence.sha256,
     });
 }

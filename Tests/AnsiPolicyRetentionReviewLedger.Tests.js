@@ -33,7 +33,7 @@ const TAG_NAME_PATTERN = /^[a-z0-9-]+$/u;
 
 function getQuotedProperty(block, propertyName) {
     const expression = new RegExp(
-        `^ {12}${propertyName}\\s*=\\s*'((?:[^']|'')*)'\\r?$`,
+        String.raw`^ {12}${propertyName}\s*=\s*'((?:[^']|'')*)'\r?$`,
         "mu"
     );
     const match = expression.exec(block);

@@ -1118,8 +1118,8 @@ test("review decisions, summaries, checkpoints, and HTML remain deterministic", 
     assert.match(html, /At most 200 cards/);
     assert.match(html, /ansi-decisions-v2/);
     assert.match(html, /schemaVersion:2/);
-    assert.match(html, new RegExp("a{64}", "u"));
-    assert.match(html, new RegExp("b{64}", "u"));
+    assert.match(html, /a{64}/u);
+    assert.match(html, /b{64}/u);
     assert.match(html, /Strong landscape|ART\.ANS/);
     assert.match(html, /grid\.replaceChildren/);
     assert.doesNotMatch(html, /<script[^>]+src=/u);

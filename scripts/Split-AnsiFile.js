@@ -857,14 +857,13 @@ function main(argv = process.argv.slice(2)) {
         const ansiFile = readAnsiFile(ansiPath, sourceEncoding);
         const content = ansiFile.content;
         sauce = ansiFile.sauce;
-        const columns =
-            options.columns || (sauce && sauce.tInfo1 ? sauce.tInfo1 : null);
+        const columns = options.columns || sauce?.tInfo1 || null;
         fullSourceColumns = columns || 80;
 
         const terminalOptions = {
             columns: columns || undefined,
             stripSpaceBackground: options.stripSpaceBackground,
-            iceColors: Boolean(sauce && sauce.flags & 1),
+            iceColors: Boolean(sauce?.flags & 1),
             dosAnsi: usesDosAnsiSemantics(sourceEncoding),
         };
 
@@ -1025,16 +1024,18 @@ function main(argv = process.argv.slice(2)) {
             if (options.format === "ansi") {
                 writeChunkAnsi(outputPath, chunk, sourceEncoding);
             } else {
+                let sourceColumns = null;
+                if (range) {
+                    sourceColumns = `${range.start + 1}-${range.end + 1}`;
+                } else if (fullSourceColumns) {
+                    sourceColumns = `1-${fullSourceColumns}`;
+                }
                 writeChunkPs1(outputPath, chunk, {
                     sourceName: path.basename(ansiPath),
                     sourceEncoding,
                     sauce,
                     sourceProvenance: options.sourceProvenance,
-                    sourceColumns: range
-                        ? `${range.start + 1}-${range.end + 1}`
-                        : fullSourceColumns
-                          ? `1-${fullSourceColumns}`
-                          : null,
+                    sourceColumns,
                 });
             }
         });

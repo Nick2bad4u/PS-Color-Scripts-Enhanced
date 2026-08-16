@@ -298,7 +298,7 @@ function replaceSourceRows(source, range) {
  * @returns {string}
  */
 function escapeRegExp(value) {
-    return value.replace(/[.*+?^${}()|[\]\\]/gu, "\\$&");
+    return value.replace(/[.*+?^${}()|[\]\\]/gu, String.raw`\$&`);
 }
 
 /**
@@ -556,7 +556,13 @@ function getSgrReplayBeforeRows(rows) {
         replayBefore.push(replay);
         const controls = [...row.matchAll(SGR_PATTERN)];
         const withoutSgr = row.replace(SGR_PATTERN, "");
-        if (/[\u001b\u009b]/u.test(withoutSgr)) {
+        const containsUnsupportedControl = Array.from(withoutSgr).some(
+            (character) => {
+                const codePoint = character.codePointAt(0);
+                return codePoint === 0x1b || codePoint === 0x9b;
+            }
+        );
+        if (containsUnsupportedControl) {
             throw new Error(
                 "Rebalancing supports serialized terminal rows containing SGR controls only."
             );
@@ -778,13 +784,12 @@ function chooseFixedPartBreaks(rows, partCount, maximumRows) {
                 const hasSevereLeadingBlankRun =
                     leadingBlankRows >= 15 ||
                     (leadingBlankRows >= 3 && leadingBlankRows / length >= 0.5);
-                const boundaryPenalty = isFinal
-                    ? 0
-                    : blankRows[end]
-                      ? 2
-                      : blankRows[end - 1]
-                        ? 0
-                        : 1;
+                let boundaryPenalty = 1;
+                if (isFinal || blankRows[end - 1]) {
+                    boundaryPenalty = 0;
+                } else if (blankRows[end]) {
+                    boundaryPenalty = 2;
+                }
                 const candidate = {
                     balanceCost: state.balanceCost + scaledDeviation ** 2,
                     boundaryPenalty: state.boundaryPenalty + boundaryPenalty,
@@ -808,7 +813,7 @@ function chooseFixedPartBreaks(rows, partCount, maximumRows) {
         states = nextStates;
     }
     const result = states.get(rows.length);
-    if (!result || result.breaks.length !== partCount) {
+    if (result?.breaks.length !== partCount) {
         throw new Error("Unable to produce a fixed-count balanced split.");
     }
     return result.breaks;
@@ -921,7 +926,10 @@ function readGitFile(commit, relativePath, repositoryRoot) {
  * @returns {string[]}
  */
 function discoverFamilyParts(family, scriptsDirectory) {
-    const pattern = new RegExp(`^${escapeRegExp(family)}-part\\d+\\.ps1$`, "u");
+    const pattern = new RegExp(
+        String.raw`^${escapeRegExp(family)}-part\d+\.ps1$`,
+        "u"
+    );
     const fileNames = fs
         .readdirSync(scriptsDirectory)
         .filter((fileName) => pattern.test(fileName));
@@ -1248,6 +1256,7 @@ function buildManifest(options) {
  * @returns {RebalanceManifest}
  */
 function validateManifest(document) {
+    const invariants = document?.invariants;
     if (
         !document ||
         typeof document !== "object" ||
@@ -1257,16 +1266,16 @@ function validateManifest(document) {
             !HASH_PATTERN.test(document.classificationSha256)) ||
         !Array.isArray(document.families) ||
         document.families.length < 1 ||
-        !document.invariants ||
-        document.invariants.exactlyOneOutputPresentationRow !== true ||
-        document.invariants.excludeGeneratedPresentationRows !== true ||
-        document.invariants.fixedPartCount !== true ||
-        document.invariants.preserveNonblankRows !== true ||
-        document.invariants.preserveRetainedRawRows !== true ||
-        document.invariants.sourceFidelityLocksFailClosed !== true ||
-        document.invariants.trimRenderedBlankOuterRowsOnly !== true ||
-        document.invariants.visibleRowsPerOutput !== true ||
-        document.invariants.maximumRowsDefault !== DEFAULT_MAXIMUM_ROWS
+        !invariants ||
+        invariants.exactlyOneOutputPresentationRow !== true ||
+        invariants.excludeGeneratedPresentationRows !== true ||
+        invariants.fixedPartCount !== true ||
+        invariants.preserveNonblankRows !== true ||
+        invariants.preserveRetainedRawRows !== true ||
+        invariants.sourceFidelityLocksFailClosed !== true ||
+        invariants.trimRenderedBlankOuterRowsOnly !== true ||
+        invariants.visibleRowsPerOutput !== true ||
+        invariants.maximumRowsDefault !== DEFAULT_MAXIMUM_ROWS
     ) {
         throw new Error(
             "Rebalance manifest must use schemaVersion 2, a baseline commit, and a non-empty families array."

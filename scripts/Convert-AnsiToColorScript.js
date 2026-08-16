@@ -616,13 +616,12 @@ function stripSauce(buffer) {
                 trimOffset = commentOffset;
                 for (let index = 0; index < sauce.comments; index += 1) {
                     const lineOffset = commentOffset + 5 + index * 64;
-                    const commentLine = iconv
-                        .decode(
-                            buffer.subarray(lineOffset, lineOffset + 64),
-                            "cp437"
-                        )
-                        .replace(/\0+$/, "")
-                        .trimEnd();
+                    const decodedComment = iconv.decode(
+                        buffer.subarray(lineOffset, lineOffset + 64),
+                        "cp437"
+                    );
+                    const commentLine =
+                        trimTrailingNulls(decodedComment).trimEnd();
                     if (commentLine) {
                         sauce.commentLines.push(commentLine);
                     }
@@ -2015,12 +2014,14 @@ function readAnsiFile(filePath, encoding = "cp437") {
     // markers, or other bytes between the first SUB and SAUCE metadata; none
     // of those bytes are part of the rendered artwork.
     const contentBuffer = isUtf8 ? buffer : truncateDosAnsiAtEof(buffer);
-    const content = isUtf8
-        ? contentBuffer.toString("utf8")
-        : decodeDosAnsi(
-              contentBuffer,
-              normalizedEncoding === "437" ? "cp437" : normalizedEncoding
-          );
+    let content;
+    if (isUtf8) {
+        content = contentBuffer.toString("utf8");
+    } else {
+        const dosEncoding =
+            normalizedEncoding === "437" ? "cp437" : normalizedEncoding;
+        content = decodeDosAnsi(contentBuffer, dosEncoding);
+    }
     return { content, sauce };
 }
 
@@ -2169,13 +2170,12 @@ function main(argv = process.argv.slice(2)) {
             }
             const { content, sauce } = readAnsiFile(ansiFile, options.encoding);
             const terminalColumns =
-                options.columns ||
-                (sauce && sauce.tInfo1 ? sauce.tInfo1 : DEFAULT_COLUMNS);
+                options.columns || sauce?.tInfo1 || DEFAULT_COLUMNS;
             const { warnings, terminal } = convertAnsiToPs1(content, {
                 columns: terminalColumns,
                 autoWrap: options.autoWrap,
                 stripSpaceBackground: options.stripSpaceBackground,
-                iceColors: Boolean(sauce && sauce.flags & 1),
+                iceColors: Boolean(sauce?.flags & 1),
                 dosAnsi: usesDosAnsiSemantics(options.encoding),
             });
             process.stdout.write(
@@ -2207,6 +2207,9 @@ function main(argv = process.argv.slice(2)) {
                 "--provenance-record cannot be combined with legacy --source-* header options. Put those values in the JSON record."
             );
         }
+        const conversionMode = options.passthrough
+            ? "Passthrough"
+            : "TerminalEmulation";
         const legacyHeader = provenanceTemplate
             ? null
             : buildSourceMetadataHeader(
@@ -2214,7 +2217,7 @@ function main(argv = process.argv.slice(2)) {
                   options.encoding,
                   sauce,
                   options.sourceProvenance,
-                  options.passthrough ? "Passthrough" : "TerminalEmulation"
+                  conversionMode
               );
 
         const outputDir = path.dirname(outputFile);
@@ -2235,13 +2238,10 @@ function main(argv = process.argv.slice(2)) {
             if (provenanceTemplate) {
                 const geometry = convertAnsiToPs1(content, {
                     columns:
-                        options.columns ||
-                        (sauce && sauce.tInfo1
-                            ? sauce.tInfo1
-                            : DEFAULT_COLUMNS),
+                        options.columns || sauce?.tInfo1 || DEFAULT_COLUMNS,
                     autoWrap: options.autoWrap,
                     stripSpaceBackground: false,
-                    iceColors: Boolean(sauce && sauce.flags & 1),
+                    iceColors: Boolean(sauce?.flags & 1),
                     dosAnsi: usesDosAnsiSemantics(options.encoding),
                 });
                 const scriptName = getGeneratedScriptName(outputFile);
@@ -2290,13 +2290,12 @@ function main(argv = process.argv.slice(2)) {
         }
 
         const terminalColumns =
-            options.columns ||
-            (sauce && sauce.tInfo1 ? sauce.tInfo1 : DEFAULT_COLUMNS);
+            options.columns || sauce?.tInfo1 || DEFAULT_COLUMNS;
         const terminalOptions = {
             columns: terminalColumns,
             autoWrap: options.autoWrap,
             stripSpaceBackground: options.stripSpaceBackground,
-            iceColors: Boolean(sauce && sauce.flags & 1),
+            iceColors: Boolean(sauce?.flags & 1),
             dosAnsi: usesDosAnsiSemantics(options.encoding),
         };
 
