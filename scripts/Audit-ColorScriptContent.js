@@ -752,6 +752,117 @@ function isFunctionalContactException(file, row) {
 }
 
 /**
+ * @param {object} item
+ * @param {number} rowCount
+ */
+function validateReviewedRowEvidence(item, rowCount) {
+    if (
+        !item ||
+        !Number.isInteger(item.row) ||
+        item.row < 1 ||
+        item.row > rowCount
+    ) {
+        throw new RangeError("Reviewed row evidence is malformed.");
+    }
+    const hasText = typeof item.text === "string";
+    const hasHash =
+        typeof item.sha256 === "string" && /^[a-f\d]{64}$/u.test(item.sha256);
+    if (!hasText && !hasHash) {
+        throw new RangeError("Reviewed row evidence is malformed.");
+    }
+    const action = item.action || "blank-text";
+    if (
+        !new Set([
+            "blank-columns",
+            "blank-text",
+            "remove-row",
+        ]).has(action)
+    ) {
+        throw new RangeError("Reviewed row evidence is malformed.");
+    }
+    const isBlankColumns = action === "blank-columns";
+    const hasColumnHashes =
+        typeof item.expectedRawSha256 === "string" &&
+        /^[a-f\d]{64}$/u.test(item.expectedRawSha256) &&
+        typeof item.expectedRenderedSha256 === "string" &&
+        /^[a-f\d]{64}$/u.test(item.expectedRenderedSha256);
+    if (
+        isBlankColumns &&
+        (!Array.isArray(item.columnRanges) || !hasColumnHashes)
+    ) {
+        throw new RangeError("Reviewed row evidence is malformed.");
+    }
+    if (
+        !isBlankColumns &&
+        (item.columnRanges != null ||
+            item.expectedRawSha256 != null ||
+            item.expectedRenderedSha256 != null)
+    ) {
+        throw new RangeError("Reviewed row evidence is malformed.");
+    }
+    return action;
+}
+
+/**
+ * @param {string} row
+ * @param {object} item
+ */
+function assertReviewedRowIdentity(row, item) {
+    const visible = stripAnsiControls(row);
+    const textMatches =
+        typeof item.text === "string" && visible.trim() === item.text.trim();
+    const hashMatches =
+        typeof item.sha256 === "string" &&
+        getReviewEvidenceHash(visible) === item.sha256;
+    if (!textMatches && !hashMatches) {
+        throw new Error(
+            `Reviewed row ${item.row} is stale: rendered text no longer matches.`
+        );
+    }
+}
+
+/**
+ * @param {number} rowIndex
+ * @param {object} item
+ * @param {string} action
+ * @param {string[]} rows
+ * @param {{
+ *     blankColumnRows: Map<number, string>;
+ *     blankIndexes: Set<number>;
+ *     removeIndexes: Set<number>;
+ * }} targets
+ */
+function registerReviewedAction(rowIndex, item, action, rows, targets) {
+    if (
+        targets.blankIndexes.has(rowIndex) ||
+        targets.blankColumnRows.has(rowIndex) ||
+        targets.removeIndexes.has(rowIndex)
+    ) {
+        throw new Error(`Reviewed row ${item.row} has conflicting actions.`);
+    }
+    if (action === "remove-row") {
+        targets.removeIndexes.add(rowIndex);
+        return;
+    }
+    if (action !== "blank-columns") {
+        targets.blankIndexes.add(rowIndex);
+        return;
+    }
+    const blanked = blankTextColumns(rows[rowIndex], item.columnRanges);
+    const rawHash = getRawRowHash(blanked);
+    const renderedHash = getReviewEvidenceHash(stripAnsiControls(blanked));
+    if (
+        rawHash !== item.expectedRawSha256 ||
+        renderedHash !== item.expectedRenderedSha256
+    ) {
+        throw new Error(
+            `Reviewed row ${item.row} projection is stale: expected output hashes no longer match.`
+        );
+    }
+    targets.blankColumnRows.set(rowIndex, blanked);
+}
+
+/**
  * Apply exact, human-reviewed payload-row redactions. Evidence text is checked
  * before any write so stale row numbers fail closed. A reviewed ledger may
  * store a SHA-256 instead of the original identifying text.
@@ -777,86 +888,23 @@ function isFunctionalContactException(file, row) {
 function applyReviewedRows(source, evidence) {
     const payload = extractPowerShellPayload(source);
     const rows = payload.value.replace(/\r\n?/gu, "\n").split("\n");
-    const blankIndexes = new Set();
-    const blankColumnRows = new Map();
-    const removeIndexes = new Set();
+    const targets = {
+        blankIndexes: new Set(),
+        blankColumnRows: new Map(),
+        removeIndexes: new Set(),
+    };
 
     for (const item of evidence) {
-        const action = item?.action || "blank-text";
-        const isBlankColumns = action === "blank-columns";
-        if (
-            !item ||
-            !Number.isInteger(item.row) ||
-            item.row < 1 ||
-            item.row > rows.length ||
-            (typeof item.text !== "string" &&
-                (typeof item.sha256 !== "string" ||
-                    !/^[a-f\d]{64}$/u.test(item.sha256))) ||
-            (item.action != null &&
-                item.action !== "blank-columns" &&
-                item.action !== "blank-text" &&
-                item.action !== "remove-row") ||
-            (isBlankColumns &&
-                (!Array.isArray(item.columnRanges) ||
-                    typeof item.expectedRawSha256 !== "string" ||
-                    !/^[a-f\d]{64}$/u.test(item.expectedRawSha256) ||
-                    typeof item.expectedRenderedSha256 !== "string" ||
-                    !/^[a-f\d]{64}$/u.test(item.expectedRenderedSha256))) ||
-            (!isBlankColumns &&
-                (item.columnRanges != null ||
-                    item.expectedRawSha256 != null ||
-                    item.expectedRenderedSha256 != null))
-        ) {
-            throw new RangeError("Reviewed row evidence is malformed.");
-        }
+        const action = validateReviewedRowEvidence(item, rows.length);
         const rowIndex = item.row - 1;
-        const visible = stripAnsiControls(rows[rowIndex]);
-        const textMatches =
-            typeof item.text === "string" &&
-            visible.trim() === item.text.trim();
-        const hashMatches =
-            typeof item.sha256 === "string" &&
-            getReviewEvidenceHash(visible) === item.sha256;
-        if (!textMatches && !hashMatches) {
-            throw new Error(
-                `Reviewed row ${item.row} is stale: rendered text no longer matches.`
-            );
-        }
-        if (
-            blankIndexes.has(rowIndex) ||
-            blankColumnRows.has(rowIndex) ||
-            removeIndexes.has(rowIndex)
-        ) {
-            throw new Error(
-                `Reviewed row ${item.row} has conflicting actions.`
-            );
-        }
-        if (action === "remove-row") {
-            removeIndexes.add(rowIndex);
-        } else if (action === "blank-columns") {
-            const blanked = blankTextColumns(rows[rowIndex], item.columnRanges);
-            const rawHash = getRawRowHash(blanked);
-            const renderedHash = getReviewEvidenceHash(
-                stripAnsiControls(blanked)
-            );
-            if (
-                rawHash !== item.expectedRawSha256 ||
-                renderedHash !== item.expectedRenderedSha256
-            ) {
-                throw new Error(
-                    `Reviewed row ${item.row} projection is stale: expected output hashes no longer match.`
-                );
-            }
-            blankColumnRows.set(rowIndex, blanked);
-        } else {
-            blankIndexes.add(rowIndex);
-        }
+        assertReviewedRowIdentity(rows[rowIndex], item);
+        registerReviewedAction(rowIndex, item, action, rows, targets);
     }
 
     if (
-        blankIndexes.size === 0 &&
-        blankColumnRows.size === 0 &&
-        removeIndexes.size === 0
+        targets.blankIndexes.size === 0 &&
+        targets.blankColumnRows.size === 0 &&
+        targets.removeIndexes.size === 0
     ) {
         return {
             blankedRows: 0,
@@ -867,15 +915,16 @@ function applyReviewedRows(source, evidence) {
     }
     let blankedRowCount = 0;
     const blankedRows = rows.map((row, index) => {
-        const columnBlanked = blankColumnRows.get(index);
-        if (!blankIndexes.has(index) && columnBlanked == null) return row;
+        const columnBlanked = targets.blankColumnRows.get(index);
+        if (!targets.blankIndexes.has(index) && columnBlanked == null)
+            return row;
         const blanked = columnBlanked ?? blankTextRow(row);
         if (blanked !== row) blankedRowCount += 1;
         return blanked;
     });
     const updatedRows = removeRowsPreservingControls(
         blankedRows,
-        removeIndexes
+        targets.removeIndexes
     );
     const updatedSource = documentCuration(
         replacePayloadRows(source, payload, updatedRows)
@@ -883,7 +932,7 @@ function applyReviewedRows(source, evidence) {
     return {
         blankedRows: blankedRowCount,
         changed: updatedSource !== source,
-        removedRows: removeIndexes.size,
+        removedRows: targets.removeIndexes.size,
         source: updatedSource,
     };
 }
@@ -1080,6 +1129,89 @@ function validateColumnRanges(columnRanges) {
 }
 
 /**
+ * @param {{ rangeIndex: number; visibleColumn: number }} state
+ * @param {{ end: number; start: number }[]} ranges
+ */
+function advanceColumnRange(state, ranges) {
+    while (
+        state.rangeIndex < ranges.length &&
+        state.visibleColumn > ranges[state.rangeIndex].end
+    ) {
+        state.rangeIndex += 1;
+    }
+}
+
+/**
+ * @param {string} character
+ * @param {{ end: number; start: number }[]} ranges
+ * @param {{
+ *     changedCharacters: number;
+ *     rangeIndex: number;
+ *     result: string;
+ *     visibleColumn: number;
+ * }} state
+ */
+function appendBlankedCharacter(character, ranges, state) {
+    const codePoint = character.codePointAt(0);
+    state.visibleColumn += 1;
+    advanceColumnRange(state, ranges);
+    const selected =
+        state.rangeIndex < ranges.length &&
+        state.visibleColumn >= ranges[state.rangeIndex].start &&
+        state.visibleColumn <= ranges[state.rangeIndex].end;
+    if (codePoint === 0x16) {
+        if (selected) {
+            throw new RangeError(
+                "Targeted column ranges may not select raw C0 source cells."
+            );
+        }
+        state.result += character;
+        return;
+    }
+    if (isRawC0Control(character)) {
+        throw new RangeError(
+            "Targeted column blanking encountered an unsupported raw C0 control."
+        );
+    }
+    const isSingleWidth =
+        /^[\u0020-\u007E]$/u.test(character) ||
+        codePoint === 0xa0 ||
+        ART_GLYPH_SINGLE_PATTERN.test(character);
+    if (!isSingleWidth) {
+        throw new RangeError(
+            "Targeted column blanking encountered a glyph with ambiguous terminal width."
+        );
+    }
+    if (selected && ART_GLYPH_SINGLE_PATTERN.test(character)) {
+        throw new RangeError(
+            "Targeted column ranges may not select terminal-art glyphs."
+        );
+    }
+    if (selected && character !== " ") {
+        state.result += " ";
+        state.changedCharacters += 1;
+        return;
+    }
+    state.result += character;
+}
+
+/**
+ * @param {string} plainText
+ * @param {{ end: number; start: number }[]} ranges
+ * @param {{
+ *     changedCharacters: number;
+ *     rangeIndex: number;
+ *     result: string;
+ *     visibleColumn: number;
+ * }} state
+ */
+function appendBlankedPlainText(plainText, ranges, state) {
+    for (const character of plainText) {
+        appendBlankedCharacter(character, ranges, state);
+    }
+}
+
+/**
  * Blank only explicitly reviewed source-cell columns. ANSI sequences do not
  * consume a source cell. The one legacy raw CP437 0x16 glyph required by the
  * retained corpus consumes one source cell and is retained byte-for-byte; every
@@ -1098,98 +1230,37 @@ function blankTextColumns(rawRow, columnRanges) {
         );
     }
     const ranges = validateColumnRanges(columnRanges);
-    let result = "";
     let rawCursor = 0;
-    let visibleColumn = 0;
-    let changedCharacters = 0;
-    let rangeIndex = 0;
-
-    /**
-     * @param {string} plainText
-     *
-     * @returns {void}
-     */
-    const appendPlainText = (plainText) => {
-        for (const character of plainText) {
-            const codePoint = character.codePointAt(0);
-            if (codePoint === 0x16) {
-                visibleColumn += 1;
-                while (
-                    rangeIndex < ranges.length &&
-                    visibleColumn > ranges[rangeIndex].end
-                ) {
-                    rangeIndex += 1;
-                }
-                if (
-                    rangeIndex < ranges.length &&
-                    visibleColumn >= ranges[rangeIndex].start &&
-                    visibleColumn <= ranges[rangeIndex].end
-                ) {
-                    throw new RangeError(
-                        "Targeted column ranges may not select raw C0 source cells."
-                    );
-                }
-                result += character;
-                continue;
-            }
-            if (isRawC0Control(character)) {
-                throw new RangeError(
-                    "Targeted column blanking encountered an unsupported raw C0 control."
-                );
-            }
-            if (
-                !/^[\u0020-\u007E]$/u.test(character) &&
-                codePoint !== 0xa0 &&
-                !ART_GLYPH_SINGLE_PATTERN.test(character)
-            ) {
-                throw new RangeError(
-                    "Targeted column blanking encountered a glyph with ambiguous terminal width."
-                );
-            }
-            visibleColumn += 1;
-            while (
-                rangeIndex < ranges.length &&
-                visibleColumn > ranges[rangeIndex].end
-            ) {
-                rangeIndex += 1;
-            }
-            const selected =
-                rangeIndex < ranges.length &&
-                visibleColumn >= ranges[rangeIndex].start &&
-                visibleColumn <= ranges[rangeIndex].end;
-            if (selected && ART_GLYPH_SINGLE_PATTERN.test(character)) {
-                throw new RangeError(
-                    "Targeted column ranges may not select terminal-art glyphs."
-                );
-            }
-            if (selected && character !== " ") {
-                result += " ";
-                changedCharacters += 1;
-            } else {
-                result += character;
-            }
-        }
+    const state = {
+        changedCharacters: 0,
+        rangeIndex: 0,
+        result: "",
+        visibleColumn: 0,
     };
 
     for (const match of rawRow.matchAll(ANSI_CONTROL_PATTERN)) {
-        appendPlainText(rawRow.slice(rawCursor, match.index));
-        result += match[0];
+        appendBlankedPlainText(
+            rawRow.slice(rawCursor, match.index),
+            ranges,
+            state
+        );
+        state.result += match[0];
         rawCursor = match.index + match[0].length;
     }
-    appendPlainText(rawRow.slice(rawCursor));
+    appendBlankedPlainText(rawRow.slice(rawCursor), ranges, state);
 
     const lastRange = ranges.at(-1);
-    if (lastRange === undefined || lastRange.end > visibleColumn) {
+    if (lastRange === undefined || lastRange.end > state.visibleColumn) {
         throw new RangeError(
             "Targeted column range extends beyond the rendered row."
         );
     }
-    if (changedCharacters === 0) {
+    if (state.changedCharacters === 0) {
         throw new RangeError(
             "Targeted column ranges did not redact any visible characters."
         );
     }
-    return result;
+    return state.result;
 }
 
 /**
