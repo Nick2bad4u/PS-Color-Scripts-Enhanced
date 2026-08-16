@@ -947,6 +947,159 @@ function extractSixteenColorsCandidates(pack) {
 }
 
 /**
+ * @param {Record<string, unknown>} pack
+ * @param {Record<string, unknown>} listed
+ * @param {Record<string, unknown>[]} candidates
+ */
+function getSixteenColorsArchiveUrl(pack, listed, candidates) {
+    const candidateUrl = candidates.find(
+        (candidate) => typeof candidate.archiveUrl === "string"
+    )?.archiveUrl;
+    if (typeof candidateUrl === "string") return candidateUrl;
+    if (typeof pack.download === "string") {
+        return new URL(pack.download, SIXTEEN_COLORS_SITE).href;
+    }
+    if (typeof listed.download === "string") {
+        return new URL(listed.download, SIXTEEN_COLORS_SITE).href;
+    }
+    return null;
+}
+
+/**
+ * @param {Record<string, unknown>} files
+ */
+function getDeclaredArchiveContentBytes(files) {
+    return Object.values(files).reduce((total, rawMetadata) => {
+        if (!rawMetadata || typeof rawMetadata !== "object") return total;
+        const metadata = /** @type {Record<string, unknown>} */ (rawMetadata);
+        if (!metadata.file || typeof metadata.file !== "object") return total;
+        const file = /** @type {Record<string, unknown>} */ (metadata.file);
+        return total + (Number(file.size) || 0);
+    }, 0);
+}
+
+/**
+ * @param {ZipEntry[]} entries
+ */
+function indexZipEntries(entries) {
+    const entryByPath = new Map();
+    const entriesByBasename = new Map();
+    for (const entry of entries) {
+        const normalized = entry.name.replaceAll("\\", "/").toLowerCase();
+        entryByPath.set(normalized, entry);
+        const basename = path.posix.basename(normalized);
+        const matches = entriesByBasename.get(basename) || [];
+        matches.push(entry);
+        entriesByBasename.set(basename, matches);
+    }
+    return { entriesByBasename, entryByPath };
+}
+
+/**
+ * @param {Record<string, unknown>} pack
+ * @param {Record<string, unknown>[]} candidates
+ * @param {ZipEntry[]} entries
+ */
+function recoverArchiveCandidates(pack, candidates, entries) {
+    const candidatePaths = new Set(
+        candidates.map((candidate) =>
+            requireString(candidate.filename, "16colors candidate filename")
+                .replaceAll("\\", "/")
+                .toLowerCase()
+        )
+    );
+    const candidateBasenames = new Map();
+    for (const candidatePath of candidatePaths) {
+        const basename = path.posix.basename(candidatePath);
+        candidateBasenames.set(
+            basename,
+            (candidateBasenames.get(basename) || 0) + 1
+        );
+    }
+    let recovered = 0;
+    for (const entry of entries) {
+        const normalized = entry.name.replaceAll("\\", "/").toLowerCase();
+        const basename = path.posix.basename(normalized);
+        const alreadyRepresented =
+            candidatePaths.has(normalized) ||
+            candidateBasenames.get(basename) === 1;
+        if (
+            entry.name.endsWith("/") ||
+            !SUPPORTED_EXTENSIONS.has(path.extname(normalized)) ||
+            alreadyRepresented
+        ) {
+            continue;
+        }
+        candidates.push(
+            createSixteenColorsCandidate(
+                pack,
+                entry.name.replaceAll("\\", "/"),
+                null,
+                entry.uncompressedSize
+            )
+        );
+        candidatePaths.add(normalized);
+        candidateBasenames.set(
+            basename,
+            (candidateBasenames.get(basename) || 0) + 1
+        );
+        recovered += 1;
+    }
+    return recovered;
+}
+
+/**
+ * @param {Record<string, unknown>[]} candidates
+ * @param {ReturnType<typeof indexZipEntries>} index
+ * @param {Buffer} buffer
+ * @param {string} archiveSha256
+ * @param {string} cacheDir
+ * @param {number} year
+ * @param {string} packName
+ */
+function extractArchiveCandidates(
+    candidates,
+    index,
+    buffer,
+    archiveSha256,
+    cacheDir,
+    year,
+    packName
+) {
+    let extracted = 0;
+    for (const candidate of candidates) {
+        const filename = requireString(
+            candidate.filename,
+            "16colors candidate filename"
+        );
+        const normalized = filename.replaceAll("\\", "/").toLowerCase();
+        let entry = index.entryByPath.get(normalized);
+        if (!entry) {
+            const matches = index.entriesByBasename.get(
+                path.posix.basename(normalized)
+            );
+            if (matches?.length === 1) [entry] = matches;
+        }
+        candidate.archiveSha256 = archiveSha256;
+        if (!entry) continue;
+        const rawPath = path.join(
+            cacheDir,
+            "16colors",
+            "raw",
+            safePathSegment(String(year)),
+            safePathSegment(packName),
+            safePathSegment(filename)
+        );
+        if (!fs.existsSync(rawPath)) {
+            writeFileAtomic(rawPath, extractZipEntry(buffer, entry));
+        }
+        candidate.rawPath = rawPath;
+        extracted += 1;
+    }
+    return extracted;
+}
+
+/**
  * Cache one canonical 16colors pack archive and extract only its ANSI/ICE
  * candidates. Missing or malformed archives are reported to the caller; raw
  * endpoint fallback remains available for individual candidates.
@@ -961,14 +1114,7 @@ async function cacheSixteenColorsArchive(pack, candidates, options) {
     const listed = requireObject(pack._listedPack, "listed 16colors pack");
     const packName = requirePackName(listed.name);
     const year = Number(pack.year ?? listed.year);
-    const archiveUrl =
-        candidates.find((candidate) => typeof candidate.archiveUrl === "string")
-            ?.archiveUrl ||
-        (typeof pack.download === "string"
-            ? new URL(pack.download, SIXTEEN_COLORS_SITE).href
-            : typeof listed.download === "string"
-              ? new URL(listed.download, SIXTEEN_COLORS_SITE).href
-              : null);
+    const archiveUrl = getSixteenColorsArchiveUrl(pack, listed, candidates);
     if (
         typeof archiveUrl !== "string" ||
         !new URL(archiveUrl).pathname.toLowerCase().endsWith(".zip")
@@ -981,20 +1127,7 @@ async function cacheSixteenColorsArchive(pack, candidates, options) {
         };
     }
     const files = requirePackFiles(pack.files, `${packName} files`);
-    const declaredArchiveContentBytes = Object.values(files).reduce(
-        (total, rawMetadata) => {
-            if (!rawMetadata || typeof rawMetadata !== "object") return total;
-            const metadata = /** @type {Record<string, unknown>} */ (
-                rawMetadata
-            );
-            if (!metadata.file || typeof metadata.file !== "object") {
-                return total;
-            }
-            const file = /** @type {Record<string, unknown>} */ (metadata.file);
-            return total + (Number(file.size) || 0);
-        },
-        0
-    );
+    const declaredArchiveContentBytes = getDeclaredArchiveContentBytes(files);
     const declaredCandidateBytes = candidates.reduce(
         (total, candidate) => total + (Number(candidate.declaredSize) || 0),
         0
@@ -1033,88 +1166,17 @@ async function cacheSixteenColorsArchive(pack, candidates, options) {
         );
         const archiveSha256 = sha256(buffer);
         const entries = readZipDirectory(buffer);
-        const entryByPath = new Map();
-        const entriesByBasename = new Map();
-        for (const entry of entries) {
-            const normalized = entry.name.replaceAll("\\", "/").toLowerCase();
-            entryByPath.set(normalized, entry);
-            const basename = path.posix.basename(normalized);
-            const matches = entriesByBasename.get(basename) || [];
-            matches.push(entry);
-            entriesByBasename.set(basename, matches);
-        }
-        const candidatePaths = new Set(
-            candidates.map((candidate) =>
-                requireString(candidate.filename, "16colors candidate filename")
-                    .replaceAll("\\", "/")
-                    .toLowerCase()
-            )
+        const entryIndex = indexZipEntries(entries);
+        const recovered = recoverArchiveCandidates(pack, candidates, entries);
+        const extracted = extractArchiveCandidates(
+            candidates,
+            entryIndex,
+            buffer,
+            archiveSha256,
+            options.cacheDir,
+            year,
+            packName
         );
-        const candidateBasenames = new Map();
-        for (const candidatePath of candidatePaths) {
-            const basename = path.posix.basename(candidatePath);
-            candidateBasenames.set(
-                basename,
-                (candidateBasenames.get(basename) || 0) + 1
-            );
-        }
-        let recovered = 0;
-        for (const entry of entries) {
-            const normalized = entry.name.replaceAll("\\", "/").toLowerCase();
-            if (
-                entry.name.endsWith("/") ||
-                !SUPPORTED_EXTENSIONS.has(path.extname(normalized)) ||
-                candidatePaths.has(normalized) ||
-                candidateBasenames.get(path.posix.basename(normalized)) === 1
-            ) {
-                continue;
-            }
-            candidates.push(
-                createSixteenColorsCandidate(
-                    pack,
-                    entry.name.replaceAll("\\", "/"),
-                    null,
-                    entry.uncompressedSize
-                )
-            );
-            candidatePaths.add(normalized);
-            const basename = path.posix.basename(normalized);
-            candidateBasenames.set(
-                basename,
-                (candidateBasenames.get(basename) || 0) + 1
-            );
-            recovered += 1;
-        }
-        let extracted = 0;
-        for (const candidate of candidates) {
-            const filename = requireString(
-                candidate.filename,
-                "16colors candidate filename"
-            );
-            const normalized = filename.replaceAll("\\", "/").toLowerCase();
-            let entry = entryByPath.get(normalized);
-            if (!entry) {
-                const matches = entriesByBasename.get(
-                    path.posix.basename(normalized)
-                );
-                if (matches?.length === 1) [entry] = matches;
-            }
-            candidate.archiveSha256 = archiveSha256;
-            if (!entry) continue;
-            const rawPath = path.join(
-                options.cacheDir,
-                "16colors",
-                "raw",
-                safePathSegment(String(year)),
-                safePathSegment(packName),
-                safePathSegment(filename)
-            );
-            if (!fs.existsSync(rawPath)) {
-                writeFileAtomic(rawPath, extractZipEntry(buffer, entry));
-            }
-            candidate.rawPath = rawPath;
-            extracted += 1;
-        }
         return {
             pack: packName,
             year,
