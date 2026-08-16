@@ -1218,6 +1218,127 @@ class TerminalEmulator {
 
     /**
      * @param {string} collected
+     * @param {number[]} values
+     * @param {string} flag
+     */
+    warnUnsupportedCsi(collected, values, flag) {
+        this.warnings.push({
+            type: "CSI",
+            collected,
+            params: [...values],
+            flag,
+        });
+    }
+
+    /**
+     * @param {string} flag
+     * @param {number[]} values
+     *
+     * @returns {boolean}
+     */
+    applyCursorCsi(flag, values) {
+        const getParam = (index, fallback) => {
+            const value = values[index];
+            return value === undefined || value === 0 ? fallback : value;
+        };
+        switch (flag) {
+            case "A":
+                this.setCursor(
+                    this.cursorX,
+                    Math.max(0, this.cursorY - getParam(0, 1))
+                );
+                return true;
+            case "B":
+                this.setCursor(this.cursorX, this.cursorY + getParam(0, 1));
+                return true;
+            case "C":
+                this.setCursor(
+                    this.cursorX + getParam(0, 1),
+                    this.cursorY,
+                    this.dosAnsi
+                );
+                return true;
+            case "D":
+                this.setCursor(
+                    Math.max(0, this.cursorX - getParam(0, 1)),
+                    this.cursorY
+                );
+                return true;
+            case "E":
+                this.setCursor(0, this.cursorY + getParam(0, 1));
+                return true;
+            case "F":
+                this.setCursor(0, Math.max(0, this.cursorY - getParam(0, 1)));
+                return true;
+            case "G":
+                this.setCursor(
+                    Math.max(0, getParam(0, 1) - 1),
+                    this.cursorY,
+                    this.dosAnsi
+                );
+                return true;
+            case "H":
+            case "f":
+                this.setCursor(
+                    Math.max(0, getParam(1, 1) - 1),
+                    Math.max(0, getParam(0, 1) - 1),
+                    this.dosAnsi
+                );
+                return true;
+            default:
+                return false;
+        }
+    }
+
+    /**
+     * @param {number[]} params
+     *
+     * @returns {boolean}
+     */
+    applyPabloDrawRgb(params) {
+        const valid =
+            params.length === 4 &&
+            (params[0] === 0 || params[0] === 1) &&
+            params.slice(1).every((value) => value <= 255);
+        if (!valid) return false;
+        const color = {
+            mode: "rgb",
+            r: params[1],
+            g: params[2],
+            b: params[3],
+        };
+        if (params[0] === 0) this.currentAttrs.bg = color;
+        else this.currentAttrs.fg = color;
+        return true;
+    }
+
+    /**
+     * @param {string} collected
+     * @param {number[]} params
+     * @param {string} flag
+     *
+     * @returns {boolean}
+     */
+    applyPrivateMode(collected, params, flag) {
+        const supported =
+            collected === "?" &&
+            params.length === 1 &&
+            (params[0] === 7 || params[0] === 33);
+        if (!supported) return false;
+        const enabled = flag === "h";
+        if (params[0] === 7) {
+            this.autoWrap = enabled;
+            this.clampAtRightMargin = !enabled;
+            this.wrapPending = false;
+        } else {
+            this.iceColors = enabled;
+            if (!enabled) this.iceBackground = false;
+        }
+        return true;
+    }
+
+    /**
+     * @param {string} collected
      * @param {number[]} params
      * @param {string} flag
      */
@@ -1235,59 +1356,14 @@ class TerminalEmulator {
                 `ANSI CSI parameter exceeds the supported maximum of ${MAX_CSI_PARAMETER}.`
             );
         }
-        /**
-         * @param {number} index
-         * @param {number} fallback
-         *
-         * @returns {number}
-         */
-        const getParam = (index, fallback) => {
-            const value = values[index];
-            return value === undefined || value === 0 ? fallback : value;
-        };
+        if (this.applyCursorCsi(flag, values)) return;
+        if (flag === "S" || flag === "T") {
+            // SU/SD move display contents rather than the cursor. Warn until
+            // scrolling-region emulation is implemented.
+            this.warnUnsupportedCsi(collected, values, flag);
+            return;
+        }
         switch (flag) {
-            case "A":
-                this.setCursor(
-                    this.cursorX,
-                    Math.max(0, this.cursorY - getParam(0, 1))
-                );
-                break;
-            case "B":
-                this.setCursor(this.cursorX, this.cursorY + getParam(0, 1));
-                break;
-            case "C":
-                this.setCursor(
-                    this.cursorX + getParam(0, 1),
-                    this.cursorY,
-                    this.dosAnsi
-                );
-                break;
-            case "D":
-                this.setCursor(
-                    Math.max(0, this.cursorX - getParam(0, 1)),
-                    this.cursorY
-                );
-                break;
-            case "E":
-                this.setCursor(0, this.cursorY + getParam(0, 1));
-                break;
-            case "F":
-                this.setCursor(0, Math.max(0, this.cursorY - getParam(0, 1)));
-                break;
-            case "G":
-                this.setCursor(
-                    Math.max(0, getParam(0, 1) - 1),
-                    this.cursorY,
-                    this.dosAnsi
-                );
-                break;
-            case "H":
-            case "f": {
-                const row = Math.max(0, getParam(0, 1) - 1);
-                const col = Math.max(0, getParam(1, 1) - 1);
-                this.setCursor(col, row, this.dosAnsi);
-                break;
-            }
             case "J":
                 this.eraseInDisplay(values[0]);
                 break;
@@ -1306,18 +1382,6 @@ class TerminalEmulator {
             case "@":
                 this.insertCharacters(values[0]);
                 break;
-            case "S":
-            case "T":
-                // SU/SD scroll display contents; treating them as cursor motion
-                // silently corrupts layouts. Preserve an explicit warning until
-                // full scrolling-region emulation is implemented.
-                this.warnings.push({
-                    type: "CSI",
-                    collected,
-                    params: [...values],
-                    flag,
-                });
-                break;
             case "m":
                 this.applySgr(values);
                 break;
@@ -1326,57 +1390,15 @@ class TerminalEmulator {
                 // CSI 0;R;G;B t for background and CSI 1;R;G;B t for foreground.
                 // Other CSI t shapes are standard window-manipulation commands
                 // or malformed input and remain unsupported.
-                if (
-                    params.length === 4 &&
-                    (params[0] === 0 || params[0] === 1) &&
-                    params.slice(1).every((value) => value <= 255)
-                ) {
-                    const color = {
-                        mode: "rgb",
-                        r: params[1],
-                        g: params[2],
-                        b: params[3],
-                    };
-                    if (params[0] === 0) {
-                        this.currentAttrs.bg = color;
-                    } else {
-                        this.currentAttrs.fg = color;
-                    }
-                    break;
+                if (!this.applyPabloDrawRgb(params)) {
+                    this.warnUnsupportedCsi(collected, values, flag);
                 }
-                this.warnings.push({
-                    type: "CSI",
-                    collected,
-                    params: [...values],
-                    flag,
-                });
                 break;
             case "h":
             case "l":
-                if (
-                    collected === "?" &&
-                    params.length === 1 &&
-                    (params[0] === 7 || params[0] === 33)
-                ) {
-                    const enabled = flag === "h";
-                    if (params[0] === 7) {
-                        this.autoWrap = enabled;
-                        this.clampAtRightMargin = !enabled;
-                        this.wrapPending = false;
-                    } else {
-                        this.iceColors = enabled;
-                        if (!enabled) {
-                            this.iceBackground = false;
-                        }
-                    }
-                    break;
+                if (!this.applyPrivateMode(collected, params, flag)) {
+                    this.warnUnsupportedCsi(collected, values, flag);
                 }
-                this.warnings.push({
-                    type: "CSI",
-                    collected,
-                    params: [...values],
-                    flag,
-                });
                 break;
             case "s":
                 this.saveCursor();
@@ -1385,12 +1407,7 @@ class TerminalEmulator {
                 this.restoreCursor();
                 break;
             default:
-                this.warnings.push({
-                    type: "CSI",
-                    collected,
-                    params: [...values],
-                    flag,
-                });
+                this.warnUnsupportedCsi(collected, values, flag);
                 break;
         }
     }
