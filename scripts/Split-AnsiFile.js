@@ -488,24 +488,16 @@ function addDetectedBlankBreaks(breaks, lines, totalLines, options) {
 }
 
 /**
- * Choose the minimum number of row breaks needed to keep every part within the
- * requested height. The optimizer considers the full work at once, preventing a
- * locally attractive blank-row cut from leaving a tiny final part.
- *
- * Preferred breakpoints are normally the rows immediately after visible blank
- * rows or reviewed compositional transitions. They receive a bounded scoring
- * preference, but balance and the hard maximum remain authoritative.
- *
  * @param {number} totalLines
- * @param {number} [maxRows]
- * @param {number[]} [preferredBreakpoints]
+ * @param {number} maxRows
+ * @param {number[]} preferredBreakpoints
  *
- * @returns {number[]}
+ * @returns {Set<number>}
  */
-function chooseBalancedBreaks(
+function validateBalancedSplitInputs(
     totalLines,
-    maxRows = 50,
-    preferredBreakpoints = []
+    maxRows,
+    preferredBreakpoints
 ) {
     if (
         !Number.isSafeInteger(totalLines) ||
@@ -533,66 +525,157 @@ function chooseBalancedBreaks(
         }
         preferred.add(breakpoint);
     }
+    return preferred;
+}
 
-    const partCount = Math.ceil(totalLines / maxRows);
-    if (partCount === 1) {
-        return [];
+/**
+ * @param {number} previousEnd
+ * @param {number} remainingSegments
+ * @param {{ totalLines: number; maxRows: number; minimumRows: number }} limits
+ *
+ * @returns {{ minimum: number; maximum: number }}
+ */
+function getBalancedLengthRange(previousEnd, remainingSegments, limits) {
+    return {
+        minimum: Math.max(
+            limits.minimumRows,
+            limits.totalLines - previousEnd - remainingSegments * limits.maxRows
+        ),
+        maximum: Math.min(
+            limits.maxRows,
+            limits.totalLines -
+                previousEnd -
+                remainingSegments * limits.minimumRows
+        ),
+    };
+}
+
+/**
+ * @param {{ cost: number; breaks: number[] } | undefined} existing
+ * @param {{ cost: number; breaks: number[] }} candidate
+ *
+ * @returns {boolean}
+ */
+function isBetterBalancedState(existing, candidate) {
+    return (
+        !existing ||
+        candidate.cost < existing.cost ||
+        (candidate.cost === existing.cost &&
+            winsTie(candidate.breaks, existing.breaks))
+    );
+}
+
+/**
+ * @param {Map<number, { cost: number; breaks: number[] }>} nextStates
+ * @param {number} previousEnd
+ * @param {{ cost: number; breaks: number[] }} state
+ * @param {number} remainingSegments
+ * @param {{
+ *     totalLines: number;
+ *     maxRows: number;
+ *     minimumRows: number;
+ *     partCount: number;
+ *     nonPreferredPenalty: number;
+ *     preferred: Set<number>;
+ * }} context
+ */
+function addBalancedTransitions(
+    nextStates,
+    previousEnd,
+    state,
+    remainingSegments,
+    context
+) {
+    const range = getBalancedLengthRange(
+        previousEnd,
+        remainingSegments,
+        context
+    );
+    const isFinal = remainingSegments === 0;
+    for (let length = range.minimum; length <= range.maximum; length += 1) {
+        const end = previousEnd + length;
+        const invalidEnd = isFinal
+            ? end !== context.totalLines
+            : end >= context.totalLines;
+        if (invalidEnd) continue;
+        const scaledDeviation = length * context.partCount - context.totalLines;
+        const candidate = {
+            cost:
+                state.cost +
+                8 * scaledDeviation ** 2 +
+                (isFinal || context.preferred.has(end)
+                    ? 0
+                    : context.nonPreferredPenalty),
+            breaks: isFinal ? state.breaks : [...state.breaks, end],
+        };
+        if (isBetterBalancedState(nextStates.get(end), candidate)) {
+            nextStates.set(end, candidate);
+        }
     }
+}
 
+/**
+ * @param {Map<number, { cost: number; breaks: number[] }>} states
+ * @param {number} remainingSegments
+ * @param {Parameters<typeof addBalancedTransitions>[4]} context
+ *
+ * @returns {Map<number, { cost: number; breaks: number[] }>}
+ */
+function advanceBalancedStates(states, remainingSegments, context) {
+    const nextStates = new Map();
+    for (const [previousEnd, state] of states) {
+        addBalancedTransitions(
+            nextStates,
+            previousEnd,
+            state,
+            remainingSegments,
+            context
+        );
+    }
+    return nextStates;
+}
+
+/**
+ * Choose the minimum number of row breaks needed to keep every part within the
+ * requested height. The optimizer considers the full work at once, preventing a
+ * locally attractive blank-row cut from leaving a tiny final part.
+ *
+ * Preferred breakpoints are normally the rows immediately after visible blank
+ * rows or reviewed compositional transitions. They receive a bounded scoring
+ * preference, but balance and the hard maximum remain authoritative.
+ *
+ * @param {number} totalLines
+ * @param {number} [maxRows]
+ * @param {number[]} [preferredBreakpoints]
+ *
+ * @returns {number[]}
+ */
+function chooseBalancedBreaks(
+    totalLines,
+    maxRows = 50,
+    preferredBreakpoints = []
+) {
+    const preferred = validateBalancedSplitInputs(
+        totalLines,
+        maxRows,
+        preferredBreakpoints
+    );
+    const partCount = Math.ceil(totalLines / maxRows);
+    if (partCount === 1) return [];
     const targetRows = totalLines / partCount;
-    const minimumRows = Math.max(1, Math.floor(targetRows * 0.6));
-    const nonPreferredPenalty = totalLines ** 2;
-
+    const context = {
+        totalLines,
+        maxRows,
+        minimumRows: Math.max(1, Math.floor(targetRows * 0.6)),
+        partCount,
+        nonPreferredPenalty: totalLines ** 2,
+        preferred,
+    };
     /** @type {Map<number, { cost: number; breaks: number[] }>} */
     let states = new Map([[0, { cost: 0, breaks: [] }]]);
     for (let segment = 1; segment <= partCount; segment += 1) {
-        const remainingSegments = partCount - segment;
-        /** @type {Map<number, { cost: number; breaks: number[] }>} */
-        const nextStates = new Map();
-
-        for (const [previousEnd, state] of states) {
-            const minimumLength = Math.max(
-                minimumRows,
-                totalLines - previousEnd - remainingSegments * maxRows
-            );
-            const maximumLength = Math.min(
-                maxRows,
-                totalLines - previousEnd - remainingSegments * minimumRows
-            );
-
-            for (
-                let length = minimumLength;
-                length <= maximumLength;
-                length += 1
-            ) {
-                const end = previousEnd + length;
-                const isFinal = remainingSegments === 0;
-                if (
-                    (isFinal && end !== totalLines) ||
-                    (!isFinal && end >= totalLines)
-                ) {
-                    continue;
-                }
-
-                const scaledDeviation = length * partCount - totalLines;
-                const cost =
-                    state.cost +
-                    8 * scaledDeviation ** 2 +
-                    (isFinal || preferred.has(end) ? 0 : nonPreferredPenalty);
-                const breaks = isFinal ? state.breaks : [...state.breaks, end];
-                const existing = nextStates.get(end);
-                if (
-                    !existing ||
-                    cost < existing.cost ||
-                    (cost === existing.cost && winsTie(breaks, existing.breaks))
-                ) {
-                    nextStates.set(end, { cost, breaks });
-                }
-            }
-        }
-        states = nextStates;
+        states = advanceBalancedStates(states, partCount - segment, context);
     }
-
     const result = states.get(totalLines);
     if (!result) {
         throw new Error(
