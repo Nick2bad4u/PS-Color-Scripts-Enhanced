@@ -321,6 +321,252 @@ function parseArguments(argv) {
 }
 
 /**
+ * @param {string} name
+ * @param {Buffer} buffer
+ * @param {{ header: string; body: string }} parsed
+ * @param {Readonly<Record<string, ProvenanceValue>>} entry
+ * @param {Readonly<Record<string, ProvenanceValue>>} collection
+ * @param {Record<string, unknown> | undefined} manifestRecord
+ *
+ * @returns {Record<string, unknown> | null}
+ */
+function validateCompactScript(
+    name,
+    buffer,
+    parsed,
+    entry,
+    collection,
+    manifestRecord
+) {
+    const compactLine = parsed.header.replace(/\r?\n$/u, "");
+    const expectedHeader = buildCompactArtworkHeader(name, entry, collection);
+    if (compactLine !== expectedHeader) {
+        throw new Error(`${name}: compact header has drifted.`);
+    }
+    if (!manifestRecord) {
+        if (entry.HeaderFormat !== "CompactV1") {
+            throw new Error(
+                `${name}: compact script lacks migration evidence or a generated-header marker.`
+            );
+        }
+        return null;
+    }
+    const currentFileSha256 =
+        manifestRecord.currentCompactFileSha256 ||
+        manifestRecord.compactFileSha256;
+    const currentPayloadSha256 =
+        manifestRecord.currentPayloadSha256 || manifestRecord.payloadSha256;
+    if (sha256(buffer) !== currentFileSha256) {
+        throw new Error(`${name}: compact file hash has drifted.`);
+    }
+    if (sha256(parsed.body) !== currentPayloadSha256) {
+        throw new Error(`${name}: PowerShell payload has drifted.`);
+    }
+    const reconstructed = reconstructLegacyFields(
+        entry,
+        collection,
+        manifestRecord.fieldNames
+    );
+    if (getFieldsSha256(reconstructed) !== manifestRecord.legacyFieldsSha256) {
+        throw new Error(`${name}: external provenance lost legacy fields.`);
+    }
+    return manifestRecord;
+}
+
+/**
+ * @param {string} name
+ * @param {Buffer} buffer
+ * @param {{
+ *     prefix: string;
+ *     header: string;
+ *     lineEnding: string;
+ *     body: string;
+ *     fields: Map<string, string>;
+ * }} parsed
+ * @param {Readonly<Record<string, ProvenanceValue>>} entry
+ * @param {Readonly<Record<string, ProvenanceValue>>} collection
+ * @param {{ check: boolean; write: boolean }} options
+ */
+function prepareVerboseMigration(
+    name,
+    buffer,
+    parsed,
+    entry,
+    collection,
+    options
+) {
+    if (!parsed.fields.has("Source URL")) {
+        throw new Error(`${name}: imported script has no verbose provenance.`);
+    }
+    if (options.check) {
+        throw new Error(`${name}: verbose archival header is still present.`);
+    }
+    const additions = getMissingProvenanceProperties(
+        name,
+        parsed.fields,
+        entry,
+        collection
+    );
+    const augmentedEntry = Object.freeze({ ...entry, ...additions });
+    const reconstructed = reconstructLegacyFields(augmentedEntry, collection, [
+        ...parsed.fields.keys(),
+    ]);
+    const legacyFieldsSha256 = getFieldsSha256(parsed.fields);
+    if (getFieldsSha256(reconstructed) !== legacyFieldsSha256) {
+        throw new Error(`${name}: provenance cannot reproduce legacy fields.`);
+    }
+    const header = buildCompactArtworkHeader(name, augmentedEntry, collection);
+    const updatedSource = `${parsed.prefix}${header}${parsed.lineEnding}${parsed.lineEnding}${parsed.body}`;
+    if (!updatedSource.endsWith(parsed.body)) {
+        throw new Error(`${name}: migration changed content after the header.`);
+    }
+    return {
+        additions,
+        updatedSource,
+        record: {
+            compactFileSha256: sha256(Buffer.from(updatedSource, "utf8")),
+            detailsUrl: getArtworkDetailsUrl(name),
+            fieldNames: [...parsed.fields.keys()],
+            legacyFieldsSha256,
+            legacyFileSha256: sha256(buffer),
+            legacyHeaderSha256: sha256(parsed.header),
+            payloadSha256: sha256(parsed.body),
+        },
+    };
+}
+
+/**
+ * @param {string} fileName
+ * @param {ReturnType<typeof readArtworkProvenance>} provenance
+ * @param {Record<string, unknown> | null} existingManifest
+ * @param {{ check: boolean; write: boolean }} options
+ */
+function inspectMigrationScript(
+    fileName,
+    provenance,
+    existingManifest,
+    options
+) {
+    const name = fileName.slice(0, -4);
+    const filePath = path.join(SCRIPTS_DIRECTORY, fileName);
+    const buffer = fs.readFileSync(filePath);
+    const entry = provenance.scripts.get(name);
+    if (!entry) {
+        return {
+            mapped: false,
+            name,
+            rawHash: sha256(buffer),
+            normalizedHash: getUnmappedScriptSha256(buffer),
+        };
+    }
+    const collection =
+        typeof entry.Collection === "string"
+            ? provenance.collections.get(entry.Collection)
+            : null;
+    if (!collection) throw new Error(`${name}: collection is missing.`);
+    const parsed = parseLeadingCommentHeader(buffer.toString("utf8"));
+    if (!parsed) throw new Error(`${name}: leading header is missing.`);
+    const compact = parseCompactArtworkHeader(
+        parsed.header.replace(/\r?\n$/u, "")
+    );
+    if (compact) {
+        const record = validateCompactScript(
+            name,
+            buffer,
+            parsed,
+            entry,
+            collection,
+            existingManifest?.records?.[name]
+        );
+        return { mapped: true, name, record };
+    }
+    return {
+        mapped: true,
+        name,
+        filePath,
+        ...prepareVerboseMigration(
+            name,
+            buffer,
+            parsed,
+            entry,
+            collection,
+            options
+        ),
+    };
+}
+
+/**
+ * @param {Record<string, unknown> | null} existingManifest
+ * @param {{ write: boolean }} options
+ * @param {Record<string, string>} unmappedScripts
+ * @param {Record<string, string>} rawUnmappedScripts
+ */
+function validateExistingMigrationManifest(
+    existingManifest,
+    options,
+    unmappedScripts,
+    rawUnmappedScripts
+) {
+    if (!existingManifest) return;
+    const existingHashMode = existingManifest.unmappedHashMode;
+    if (
+        existingHashMode !== undefined &&
+        existingHashMode !== UNMAPPED_SCRIPT_HASH_MODE
+    ) {
+        throw new Error(
+            `Unsupported unmapped-script hash mode: ${existingHashMode}.`
+        );
+    }
+    if (existingHashMode === undefined && !options.write) {
+        throw new Error(
+            "Migration evidence uses platform-dependent unmapped-script hashes; rerun with --write to upgrade it."
+        );
+    }
+    const currentHashes =
+        existingHashMode === UNMAPPED_SCRIPT_HASH_MODE
+            ? unmappedScripts
+            : rawUnmappedScripts;
+    assertUnmappedScriptsUnchanged(
+        existingManifest.unmappedScripts || {},
+        currentHashes
+    );
+}
+
+/**
+ * @param {number} validatedMappedScripts
+ * @param {ReadonlyMap<string, Readonly<Record<string, string>>>} additionsByScript
+ * @param {ReadonlyMap<string, string>} rewrites
+ * @param {Record<string, Record<string, unknown>>} records
+ * @param {Record<string, string>} unmappedScripts
+ */
+function reportMigrationSummary(
+    validatedMappedScripts,
+    additionsByScript,
+    rewrites,
+    records,
+    unmappedScripts
+) {
+    const provenancePropertiesAdded = [...additionsByScript.values()].reduce(
+        (total, additions) => total + Object.keys(additions).length,
+        0
+    );
+    console.log(
+        JSON.stringify(
+            {
+                mappedScripts: validatedMappedScripts,
+                generatedCompactScripts:
+                    validatedMappedScripts - Object.keys(records).length,
+                provenancePropertiesAdded,
+                scriptsToRewrite: rewrites.size,
+                unmappedScripts: Object.keys(unmappedScripts).length,
+            },
+            null,
+            2
+        )
+    );
+}
+
+/**
  * @param {string[]} [argv]
  *
  * @returns {void}
@@ -346,124 +592,23 @@ function main(argv = process.argv.slice(2)) {
     let validatedMappedScripts = 0;
 
     for (const fileName of scriptFiles) {
-        const name = fileName.slice(0, -4);
-        const filePath = path.join(SCRIPTS_DIRECTORY, fileName);
-        const buffer = fs.readFileSync(filePath);
-        const source = buffer.toString("utf8");
-        const entry = provenance.scripts.get(name);
-        if (!entry) {
-            rawUnmappedScripts[name] = sha256(buffer);
-            unmappedScripts[name] = getUnmappedScriptSha256(buffer);
+        const result = inspectMigrationScript(
+            fileName,
+            provenance,
+            existingManifest,
+            options
+        );
+        if (!result.mapped) {
+            rawUnmappedScripts[result.name] = result.rawHash;
+            unmappedScripts[result.name] = result.normalizedHash;
             continue;
         }
         validatedMappedScripts += 1;
-        const collectionName = entry.Collection;
-        const collection =
-            typeof collectionName === "string"
-                ? provenance.collections.get(collectionName)
-                : null;
-        if (!collection) throw new Error(`${name}: collection is missing.`);
-        const parsed = parseLeadingCommentHeader(source);
-        if (!parsed) throw new Error(`${name}: leading header is missing.`);
-        const compactLine = parsed.header.replace(/\r?\n$/u, "");
-        const compact = parseCompactArtworkHeader(compactLine);
-        if (compact) {
-            const manifestRecord = existingManifest?.records?.[name];
-            const expectedHeader = buildCompactArtworkHeader(
-                name,
-                entry,
-                collection
-            );
-            if (compactLine !== expectedHeader) {
-                throw new Error(`${name}: compact header has drifted.`);
-            }
-            if (!manifestRecord) {
-                if (entry.HeaderFormat !== "CompactV1") {
-                    throw new Error(
-                        `${name}: compact script lacks migration evidence or a generated-header marker.`
-                    );
-                }
-                continue;
-            }
-            const currentFileSha256 =
-                manifestRecord.currentCompactFileSha256 ||
-                manifestRecord.compactFileSha256;
-            const currentPayloadSha256 =
-                manifestRecord.currentPayloadSha256 ||
-                manifestRecord.payloadSha256;
-            if (sha256(buffer) !== currentFileSha256) {
-                throw new Error(`${name}: compact file hash has drifted.`);
-            }
-            if (sha256(parsed.body) !== currentPayloadSha256) {
-                throw new Error(`${name}: PowerShell payload has drifted.`);
-            }
-            const reconstructed = reconstructLegacyFields(
-                entry,
-                collection,
-                manifestRecord.fieldNames
-            );
-            if (
-                getFieldsSha256(reconstructed) !==
-                manifestRecord.legacyFieldsSha256
-            ) {
-                throw new Error(
-                    `${name}: external provenance lost legacy fields.`
-                );
-            }
-            records[name] = manifestRecord;
-            continue;
+        if (result.record) records[result.name] = result.record;
+        if (result.additions) {
+            additionsByScript.set(result.name, result.additions);
+            rewrites.set(result.filePath, result.updatedSource);
         }
-        if (!parsed.fields.has("Source URL")) {
-            throw new Error(
-                `${name}: imported script has no verbose provenance.`
-            );
-        }
-        if (options.check) {
-            throw new Error(
-                `${name}: verbose archival header is still present.`
-            );
-        }
-        const additions = getMissingProvenanceProperties(
-            name,
-            parsed.fields,
-            entry,
-            collection
-        );
-        additionsByScript.set(name, additions);
-        const augmentedEntry = Object.freeze({ ...entry, ...additions });
-        const reconstructed = reconstructLegacyFields(
-            augmentedEntry,
-            collection,
-            [...parsed.fields.keys()]
-        );
-        const legacyFieldsSha256 = getFieldsSha256(parsed.fields);
-        if (getFieldsSha256(reconstructed) !== legacyFieldsSha256) {
-            throw new Error(
-                `${name}: provenance cannot reproduce legacy fields.`
-            );
-        }
-        const header = buildCompactArtworkHeader(
-            name,
-            augmentedEntry,
-            collection
-        );
-        const updatedSource = `${parsed.prefix}${header}${parsed.lineEnding}${parsed.lineEnding}${parsed.body}`;
-        const updatedBuffer = Buffer.from(updatedSource, "utf8");
-        if (!updatedSource.endsWith(parsed.body)) {
-            throw new Error(
-                `${name}: migration changed content after the header.`
-            );
-        }
-        rewrites.set(filePath, updatedSource);
-        records[name] = {
-            compactFileSha256: sha256(updatedBuffer),
-            detailsUrl: getArtworkDetailsUrl(name),
-            fieldNames: [...parsed.fields.keys()],
-            legacyFieldsSha256,
-            legacyFileSha256: sha256(buffer),
-            legacyHeaderSha256: sha256(parsed.header),
-            payloadSha256: sha256(parsed.body),
-        };
     }
 
     if (provenance.scripts.size !== validatedMappedScripts) {
@@ -471,30 +616,12 @@ function main(argv = process.argv.slice(2)) {
             `Validated ${validatedMappedScripts} mapped scripts; expected ${provenance.scripts.size}.`
         );
     }
-    if (existingManifest) {
-        const existingHashMode = existingManifest.unmappedHashMode;
-        if (
-            existingHashMode !== undefined &&
-            existingHashMode !== UNMAPPED_SCRIPT_HASH_MODE
-        ) {
-            throw new Error(
-                `Unsupported unmapped-script hash mode: ${existingHashMode}.`
-            );
-        }
-        if (existingHashMode === undefined && !options.write) {
-            throw new Error(
-                "Migration evidence uses platform-dependent unmapped-script hashes; rerun with --write to upgrade it."
-            );
-        }
-        const currentUnmappedHashes =
-            existingHashMode === UNMAPPED_SCRIPT_HASH_MODE
-                ? unmappedScripts
-                : rawUnmappedScripts;
-        assertUnmappedScriptsUnchanged(
-            existingManifest.unmappedScripts || {},
-            currentUnmappedHashes
-        );
-    }
+    validateExistingMigrationManifest(
+        existingManifest,
+        options,
+        unmappedScripts,
+        rawUnmappedScripts
+    );
     const manifest = {
         schemaVersion: 2,
         provenanceSchemaVersion: 3,
@@ -504,24 +631,12 @@ function main(argv = process.argv.slice(2)) {
     };
     const manifestSource = `${JSON.stringify(manifest, null, 2)}\n`;
 
-    console.log(
-        JSON.stringify(
-            {
-                mappedScripts: validatedMappedScripts,
-                generatedCompactScripts:
-                    validatedMappedScripts - Object.keys(records).length,
-                provenancePropertiesAdded: [
-                    ...additionsByScript.values(),
-                ].reduce(
-                    (total, additions) => total + Object.keys(additions).length,
-                    0
-                ),
-                scriptsToRewrite: rewrites.size,
-                unmappedScripts: Object.keys(unmappedScripts).length,
-            },
-            null,
-            2
-        )
+    reportMigrationSummary(
+        validatedMappedScripts,
+        additionsByScript,
+        rewrites,
+        records,
+        unmappedScripts
     );
     if (!options.write) return;
 
