@@ -214,6 +214,25 @@ function cloneAttrs(attrs) {
     };
 }
 
+const SGR_ATTRIBUTE_CHANGES = new Map([
+    [1, { bold: true }],
+    [2, { dim: true }],
+    [3, { italic: true }],
+    [4, { underline: true }],
+    [7, { inverse: true }],
+    [8, { hidden: true }],
+    [9, { strike: true }],
+    [22, { bold: false, dim: false }],
+    [23, { italic: false }],
+    [24, { underline: false }],
+    [25, { blink: false }],
+    [27, { inverse: false }],
+    [28, { hidden: false }],
+    [29, { strike: false }],
+    [39, { fg: null }],
+    [49, { bg: null }],
+]);
+
 /**
  * Decode single-byte DOS ANSI data without leaking graphic control-range bytes
  * into the Unicode output. TAB, LF, CR, and ESC retain their ANSI semantics;
@@ -1075,6 +1094,92 @@ class TerminalEmulator {
     }
 
     /**
+     * @param {number} code
+     *
+     * @returns {boolean}
+     */
+    applySimpleSgr(code) {
+        if (code === 0) {
+            this.currentAttrs = createDefaultAttrs();
+            this.iceBackground = false;
+            return true;
+        }
+        if (code === 5) {
+            if (this.iceColors) {
+                this.iceBackground = true;
+                if (this.currentAttrs.bg?.mode === "basic") {
+                    this.currentAttrs.bg = {
+                        mode: "bright",
+                        value: this.currentAttrs.bg.value,
+                    };
+                }
+            } else {
+                this.currentAttrs.blink = true;
+            }
+            return true;
+        }
+        const changes = SGR_ATTRIBUTE_CHANGES.get(code);
+        if (!changes) return false;
+        Object.assign(this.currentAttrs, changes);
+        if (code === 25) this.iceBackground = false;
+        return true;
+    }
+
+    /**
+     * @param {number[]} values
+     * @param {number} index
+     * @param {"fg" | "bg"} target
+     *
+     * @returns {number} Number of additional parameters consumed.
+     */
+    applyExtendedSgrColor(values, index, target) {
+        const mode = values[index + 1];
+        if (mode === 5 && values[index + 2] !== undefined) {
+            this.currentAttrs[target] = {
+                mode: "palette",
+                value: values[index + 2],
+            };
+            return 2;
+        }
+        if (mode === 2 && values[index + 4] !== undefined) {
+            this.currentAttrs[target] = {
+                mode: "rgb",
+                r: values[index + 2],
+                g: values[index + 3],
+                b: values[index + 4],
+            };
+            return 4;
+        }
+        return 0;
+    }
+
+    /**
+     * @param {number} code
+     */
+    applyStandardSgrColor(code) {
+        if (code >= 30 && code <= 37) {
+            this.currentAttrs.fg = { mode: "basic", value: code - 30 };
+            return;
+        }
+        if (code >= 90 && code <= 97) {
+            if (!this.dosAnsi) {
+                this.currentAttrs.fg = { mode: "bright", value: code - 90 };
+            }
+            return;
+        }
+        if (code >= 40 && code <= 47) {
+            this.currentAttrs.bg = {
+                mode: this.iceBackground ? "bright" : "basic",
+                value: code - 40,
+            };
+            return;
+        }
+        if (!this.dosAnsi && code >= 100 && code <= 107) {
+            this.currentAttrs.bg = { mode: "bright", value: code - 100 };
+        }
+    }
+
+    /**
      * @param {number[]} params
      */
     applySgr(params) {
@@ -1082,135 +1187,13 @@ class TerminalEmulator {
         let i = 0;
         while (i < values.length) {
             const code = values[i] ?? 0;
-            switch (code) {
-                case 0:
-                    this.currentAttrs = createDefaultAttrs();
-                    this.iceBackground = false;
-                    break;
-                case 1:
-                    this.currentAttrs.bold = true;
-                    break;
-                case 2:
-                    this.currentAttrs.dim = true;
-                    break;
-                case 3:
-                    this.currentAttrs.italic = true;
-                    break;
-                case 4:
-                    this.currentAttrs.underline = true;
-                    break;
-                case 5:
-                    if (this.iceColors) {
-                        this.iceBackground = true;
-                        if (this.currentAttrs.bg?.mode === "basic") {
-                            this.currentAttrs.bg = {
-                                mode: "bright",
-                                value: this.currentAttrs.bg.value,
-                            };
-                        }
-                    } else {
-                        this.currentAttrs.blink = true;
-                    }
-                    break;
-                case 7:
-                    this.currentAttrs.inverse = true;
-                    break;
-                case 8:
-                    this.currentAttrs.hidden = true;
-                    break;
-                case 9:
-                    this.currentAttrs.strike = true;
-                    break;
-                case 22:
-                    this.currentAttrs.bold = false;
-                    this.currentAttrs.dim = false;
-                    break;
-                case 23:
-                    this.currentAttrs.italic = false;
-                    break;
-                case 24:
-                    this.currentAttrs.underline = false;
-                    break;
-                case 25:
-                    this.currentAttrs.blink = false;
-                    this.iceBackground = false;
-                    break;
-                case 27:
-                    this.currentAttrs.inverse = false;
-                    break;
-                case 28:
-                    this.currentAttrs.hidden = false;
-                    break;
-                case 29:
-                    this.currentAttrs.strike = false;
-                    break;
-                case 39:
-                    this.currentAttrs.fg = null;
-                    break;
-                case 49:
-                    this.currentAttrs.bg = null;
-                    break;
-                case 38: {
-                    const next = values[i + 1];
-                    if (next === 5 && values[i + 2] !== undefined) {
-                        this.currentAttrs.fg = {
-                            mode: "palette",
-                            value: values[i + 2],
-                        };
-                        i += 2;
-                    } else if (next === 2 && values[i + 4] !== undefined) {
-                        this.currentAttrs.fg = {
-                            mode: "rgb",
-                            r: values[i + 2],
-                            g: values[i + 3],
-                            b: values[i + 4],
-                        };
-                        i += 4;
-                    }
-                    break;
+            if (!this.applySimpleSgr(code)) {
+                if (code === 38 || code === 48) {
+                    const target = code === 38 ? "fg" : "bg";
+                    i += this.applyExtendedSgrColor(values, i, target);
+                } else {
+                    this.applyStandardSgrColor(code);
                 }
-                case 48: {
-                    const next = values[i + 1];
-                    if (next === 5 && values[i + 2] !== undefined) {
-                        this.currentAttrs.bg = {
-                            mode: "palette",
-                            value: values[i + 2],
-                        };
-                        i += 2;
-                    } else if (next === 2 && values[i + 4] !== undefined) {
-                        this.currentAttrs.bg = {
-                            mode: "rgb",
-                            r: values[i + 2],
-                            g: values[i + 3],
-                            b: values[i + 4],
-                        };
-                        i += 4;
-                    }
-                    break;
-                }
-                default:
-                    if (code >= 30 && code <= 37) {
-                        this.currentAttrs.fg = {
-                            mode: "basic",
-                            value: code - 30,
-                        };
-                    } else if (!this.dosAnsi && code >= 90 && code <= 97) {
-                        this.currentAttrs.fg = {
-                            mode: "bright",
-                            value: code - 90,
-                        };
-                    } else if (code >= 40 && code <= 47) {
-                        this.currentAttrs.bg = {
-                            mode: this.iceBackground ? "bright" : "basic",
-                            value: code - 40,
-                        };
-                    } else if (!this.dosAnsi && code >= 100 && code <= 107) {
-                        this.currentAttrs.bg = {
-                            mode: "bright",
-                            value: code - 100,
-                        };
-                    }
-                    break;
             }
             i += 1;
         }
