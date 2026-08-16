@@ -889,6 +889,91 @@ function analyzeAnsiLines(lines) {
 }
 
 /**
+ * @param {Record<string, string>} header
+ * @param {Record<string, unknown> | null} provenance
+ */
+function addProvenanceHeaderFields(header, provenance) {
+    if (!provenance) return;
+    const collection = checkedInProvenance.collections.get(
+        provenance.Collection
+    );
+    const externalFields = {
+        "Converted from": provenance.ConvertedFrom,
+        "SAUCE Comments": provenance.SauceComments,
+        "Source Attribution": provenance.Attribution ?? collection?.Attribution,
+        "Source SHA-256": provenance.SourceSha256,
+        "Source URL": provenance.SourceUrl,
+    };
+    for (const [field, value] of Object.entries(externalFields)) {
+        if (typeof value === "string") header[field] = value;
+    }
+}
+
+/**
+ * @param {{ end: number; start: number } | null} provenanceRows
+ * @param {RegExpExecArray | null} rowMatch
+ */
+function getExpectedSourceRows(provenanceRows, rowMatch) {
+    if (provenanceRows) {
+        return provenanceRows.end - provenanceRows.start + 1;
+    }
+    return rowMatch ? Number(rowMatch[2]) - Number(rowMatch[1]) + 1 : null;
+}
+
+/**
+ * @param {string} filePath
+ * @param {{ end: number; start: number } | null} provenanceRows
+ * @param {RegExpExecArray | null} rowMatch
+ */
+function readScriptMetrics(filePath, provenanceRows, rowMatch) {
+    let lines = [];
+    try {
+        lines = extractLinesFromPs1(filePath);
+        const expectedRows = getExpectedSourceRows(provenanceRows, rowMatch);
+        if (
+            expectedRows !== null &&
+            lines.length === expectedRows + 1 &&
+            lines[0] === ""
+        ) {
+            lines = lines.slice(1);
+        }
+    } catch (error) {
+        return {
+            analysisError:
+                error instanceof Error ? error.message : String(error),
+            lines,
+            metrics: null,
+        };
+    }
+    try {
+        return {
+            analysisError: null,
+            lines,
+            metrics: analyzeAnsiLines(lines),
+        };
+    } catch (error) {
+        return {
+            analysisError:
+                error instanceof Error ? error.message : String(error),
+            lines,
+            metrics: null,
+        };
+    }
+}
+
+/**
+ * @param {{ end: number; start: number } | null} provenanceRange
+ * @param {RegExpExecArray | null} match
+ * @param {number} matchIndex
+ */
+function getSourceCoordinate(provenanceRange, match, matchIndex) {
+    if (provenanceRange) {
+        return matchIndex === 1 ? provenanceRange.start : provenanceRange.end;
+    }
+    return match ? Number(match[matchIndex]) : null;
+}
+
+/**
  * @param {string} filePath
  *
  * @returns {ScriptRecord}
@@ -905,64 +990,25 @@ function analyzeScript(filePath) {
         : SOURCE_COLUMN_RANGE.exec(source);
     const splitMatch = SPLIT_NAME.exec(name);
     const header = parseHeaderFields(source);
-    if (provenance) {
-        const collection = checkedInProvenance.collections.get(
-            provenance.Collection
-        );
-        const externalFields = {
-            "Converted from": provenance.ConvertedFrom,
-            "SAUCE Comments": provenance.SauceComments,
-            "Source Attribution":
-                provenance.Attribution ?? collection?.Attribution,
-            "Source SHA-256": provenance.SourceSha256,
-            "Source URL": provenance.SourceUrl,
-        };
-        for (const [field, value] of Object.entries(externalFields)) {
-            if (typeof value === "string") header[field] = value;
-        }
-    }
-    let lines = [];
-    let metrics = null;
-    let analysisError = null;
-    try {
-        lines = extractLinesFromPs1(filePath);
-        if (provenanceRows || rowMatch) {
-            const expectedRows = provenanceRows
-                ? provenanceRows.end - provenanceRows.start + 1
-                : Number(rowMatch[2]) - Number(rowMatch[1]) + 1;
-            if (lines.length === expectedRows + 1 && lines[0] === "") {
-                // The serializer intentionally puts the opening quote on the
-                // preceding line. That presentation newline is not one of the
-                // source rows named by the provenance coordinates.
-                lines = lines.slice(1);
-            }
-        }
-    } catch (error) {
-        analysisError = error instanceof Error ? error.message : String(error);
-    }
-    if (!analysisError) {
-        try {
-            metrics = analyzeAnsiLines(lines);
-        } catch (error) {
-            analysisError =
-                error instanceof Error ? error.message : String(error);
-        }
-    }
+    addProvenanceHeaderFields(header, provenance);
+    const { analysisError, lines, metrics } = readScriptMetrics(
+        filePath,
+        provenanceRows,
+        rowMatch
+    );
     return {
         name,
         filePath,
         lines,
         header,
-        sourceRowStart:
-            provenanceRows?.start ?? (rowMatch ? Number(rowMatch[1]) : null),
-        sourceRowEnd:
-            provenanceRows?.end ?? (rowMatch ? Number(rowMatch[2]) : null),
-        sourceColumnStart:
-            provenanceColumns?.start ??
-            (columnMatch ? Number(columnMatch[1]) : null),
-        sourceColumnEnd:
-            provenanceColumns?.end ??
-            (columnMatch ? Number(columnMatch[2]) : null),
+        sourceRowStart: getSourceCoordinate(provenanceRows, rowMatch, 1),
+        sourceRowEnd: getSourceCoordinate(provenanceRows, rowMatch, 2),
+        sourceColumnStart: getSourceCoordinate(
+            provenanceColumns,
+            columnMatch,
+            1
+        ),
+        sourceColumnEnd: getSourceCoordinate(provenanceColumns, columnMatch, 2),
         splitBase: splitMatch?.groups?.base || null,
         panel: splitMatch?.groups?.panel
             ? Number(splitMatch.groups.panel)
