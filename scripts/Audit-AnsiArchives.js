@@ -2413,12 +2413,92 @@ function readExistingManifestExclusions(manifestPaths) {
 }
 
 /**
+ * @param {string} cachePath
+ *
+ * @returns {Record<
+ *     string,
+ *     {
+ *         size: number;
+ *         mtimeMs: number;
+ *         normalizedRenderSha256?: string;
+ *         error?: string;
+ *     }
+ * >}
+ */
+function readExistingRenderCache(cachePath) {
+    if (!fs.existsSync(cachePath)) return {};
+    try {
+        const parsed = requireObject(
+            JSON.parse(fs.readFileSync(cachePath, "utf8")),
+            "existing render cache"
+        );
+        return parsed.algorithmVersion === 3 ? parsed.files || {} : {};
+    } catch {
+        return {};
+    }
+}
+
+/**
+ * @param {string} filePath
+ * @param {{ size: number; mtimeMs: number }} stats
+ */
+function renderExistingScript(filePath, stats) {
+    try {
+        const source = fs.readFileSync(filePath, "utf8");
+        const lines = extractLinesFromPs1(filePath);
+        if (/# Converted from:/u.test(source) && lines[0] === "") {
+            lines.shift();
+        }
+        const converted = convertAnsiToPs1(lines.join("\r\n"), {
+            columns: 2048,
+            autoWrap: false,
+            stripSpaceBackground: false,
+        });
+        return {
+            size: stats.size,
+            mtimeMs: stats.mtimeMs,
+            normalizedRenderSha256: fingerprintTerminal(converted.terminal)
+                .renderSha256,
+        };
+    } catch (error) {
+        return {
+            size: stats.size,
+            mtimeMs: stats.mtimeMs,
+            error: error instanceof Error ? error.message : String(error),
+        };
+    }
+}
+
+/**
+ * @param {string} scriptName
+ * @param {string} scriptsDirectory
+ * @param {Record<
+ *     string,
+ *     {
+ *         size: number;
+ *         mtimeMs: number;
+ *         normalizedRenderSha256?: string;
+ *         error?: string;
+ *     }
+ * >} cached
+ */
+function getExistingScriptRenderEntry(scriptName, scriptsDirectory, cached) {
+    const filePath = path.join(scriptsDirectory, scriptName);
+    const stats = fs.statSync(filePath);
+    const prior = cached[scriptName];
+    const cacheHit =
+        prior && prior.size === stats.size && prior.mtimeMs === stats.mtimeMs;
+    return cacheHit ? prior : renderExistingScript(filePath, stats);
+}
+
+/**
  * Render checked-in colorscripts through the same terminal fingerprint used for
  * archive candidates. Cache unchanged files by size and modification time so
  * exhaustive scans remain resumable without weakening duplicate checks.
  *
  * @param {string} scriptsDirectory
  * @param {string} cachePath
+ * @param {Set<string>} [excludedScriptNames]
  *
  * @returns {{
  *     hashes: Set<string>;
@@ -2432,32 +2512,7 @@ function indexExistingScriptRenders(
     cachePath,
     excludedScriptNames = new Set()
 ) {
-    /**
-     * @type {Record<
-     *     string,
-     *     {
-     *         size: number;
-     *         mtimeMs: number;
-     *         normalizedRenderSha256?: string;
-     *         error?: string;
-     *     }
-     * >}
-     */
-    let cached = {};
-    if (fs.existsSync(cachePath)) {
-        try {
-            const parsed = requireObject(
-                JSON.parse(fs.readFileSync(cachePath, "utf8")),
-                "existing render cache"
-            );
-            if (parsed.algorithmVersion === 3) {
-                cached = /** @type {typeof cached} */ (parsed.files || {});
-            }
-        } catch {
-            cached = {};
-        }
-    }
-
+    const cached = readExistingRenderCache(cachePath);
     /** @type {typeof cached} */
     const next = {};
     const hashes = new Set();
@@ -2472,43 +2527,11 @@ function indexExistingScriptRenders(
         )
         .sort((left, right) => left.localeCompare(right));
     for (const scriptName of scriptNames) {
-        const filePath = path.join(scriptsDirectory, scriptName);
-        const stats = fs.statSync(filePath);
-        const prior = cached[scriptName];
-        if (
-            prior &&
-            prior.size === stats.size &&
-            prior.mtimeMs === stats.mtimeMs
-        ) {
-            next[scriptName] = prior;
-        } else {
-            try {
-                const source = fs.readFileSync(filePath, "utf8");
-                const lines = extractLinesFromPs1(filePath);
-                if (/# Converted from:/u.test(source) && lines[0] === "") {
-                    lines.shift();
-                }
-                const converted = convertAnsiToPs1(lines.join("\r\n"), {
-                    columns: 2048,
-                    autoWrap: false,
-                    stripSpaceBackground: false,
-                });
-                next[scriptName] = {
-                    size: stats.size,
-                    mtimeMs: stats.mtimeMs,
-                    normalizedRenderSha256: fingerprintTerminal(
-                        converted.terminal
-                    ).renderSha256,
-                };
-            } catch (error) {
-                next[scriptName] = {
-                    size: stats.size,
-                    mtimeMs: stats.mtimeMs,
-                    error:
-                        error instanceof Error ? error.message : String(error),
-                };
-            }
-        }
+        next[scriptName] = getExistingScriptRenderEntry(
+            scriptName,
+            scriptsDirectory,
+            cached
+        );
         const entry = next[scriptName];
         if (entry.normalizedRenderSha256) {
             hashes.add(entry.normalizedRenderSha256);
