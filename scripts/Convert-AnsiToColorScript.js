@@ -177,6 +177,22 @@ const SAUCE_DOS_CODE_PAGES = new Set([
  */
 
 /**
+ * @typedef {Object} ConverterOptions
+ *
+ * @property {number | null} columns
+ * @property {boolean} autoWrap
+ * @property {boolean} stripSpaceBackground
+ * @property {number | null} maxHeight
+ * @property {string} encoding
+ * @property {boolean} passthrough
+ * @property {boolean} force
+ * @property {boolean} analyzeJson
+ * @property {string} provenancePath
+ * @property {string | null} provenanceRecordPath
+ * @property {SourceProvenance} sourceProvenance
+ */
+
+/**
  * @returns {CellAttributes}
  */
 function createDefaultAttrs() {
@@ -1870,6 +1886,191 @@ function writePowerShellFile(filePath, content) {
 }
 
 /**
+ * @returns {ConverterOptions}
+ */
+function createConverterOptions() {
+    return {
+        columns: null,
+        autoWrap: true,
+        stripSpaceBackground: false,
+        maxHeight: null,
+        encoding: "cp437",
+        passthrough: false,
+        force: false,
+        analyzeJson: false,
+        provenancePath: DEFAULT_PROVENANCE_PATH,
+        provenanceRecordPath: null,
+        sourceProvenance: {
+            url: null,
+            revision: null,
+            sha256: null,
+            license: null,
+            attribution: null,
+            modification: null,
+        },
+    };
+}
+
+/** @type {Map<string, (options: ConverterOptions) => void>} */
+const CONVERTER_FLAG_HANDLERS = new Map([
+    ["--no-autowrap", (options) => (options.autoWrap = false)],
+    ["--autowrap", (options) => (options.autoWrap = true)],
+    ["--strip-space-bg", (options) => (options.stripSpaceBackground = true)],
+    [
+        "--strip-space-background",
+        (options) => (options.stripSpaceBackground = true),
+    ],
+    ["--keep-space-bg", (options) => (options.stripSpaceBackground = false)],
+    ["--utf8", (options) => (options.encoding = "utf8")],
+    ["--utf-8", (options) => (options.encoding = "utf8")],
+    ["--passthrough", (options) => (options.passthrough = true)],
+    ["--simple", (options) => (options.passthrough = true)],
+    ["--raw", (options) => (options.passthrough = true)],
+    ["--force", (options) => (options.force = true)],
+    ["--analyze-json", (options) => (options.analyzeJson = true)],
+]);
+
+const SOURCE_METADATA_OPTIONS = [
+    {
+        prefix: "--source-revision=",
+        property: "revision",
+        label: "Source revision",
+        maxLength: 256,
+    },
+    {
+        prefix: "--source-license=",
+        property: "license",
+        label: "Source license",
+        maxLength: 256,
+    },
+    {
+        prefix: "--source-attribution=",
+        property: "attribution",
+        label: "Source attribution",
+        maxLength: 1024,
+    },
+    {
+        prefix: "--source-modification=",
+        property: "modification",
+        label: "Source modification",
+        maxLength: 1024,
+    },
+];
+
+/**
+ * @param {string} arg
+ * @param {string[]} prefixes
+ * @param {(value: number) => void} apply
+ *
+ * @returns {boolean}
+ */
+function applyPositiveIntegerOption(arg, prefixes, apply) {
+    const prefix = prefixes.find((candidate) => arg.startsWith(candidate));
+    if (!prefix) return false;
+    const value = Number.parseInt(arg.slice(prefix.length), 10);
+    if (!Number.isNaN(value) && value > 0) apply(value);
+    return true;
+}
+
+/**
+ * @param {string} value
+ *
+ * @returns {string}
+ */
+function normalizeEncodingOption(value) {
+    const encoding = value.toLowerCase();
+    if (encoding === "utf8" || encoding === "utf-8") return "utf8";
+    if (encoding === "cp437" || encoding === "437") return "cp437";
+    return encoding;
+}
+
+/**
+ * @param {string} arg
+ * @param {ConverterOptions} options
+ *
+ * @returns {boolean}
+ */
+function applySourceMetadataOption(arg, options) {
+    const specification = SOURCE_METADATA_OPTIONS.find(({ prefix }) =>
+        arg.startsWith(prefix)
+    );
+    if (!specification) return false;
+    options.sourceProvenance[specification.property] =
+        validateSourceMetadataValue(
+            arg.slice(specification.prefix.length),
+            specification.label,
+            specification.maxLength
+        );
+    return true;
+}
+
+/**
+ * @param {string} arg
+ * @param {ConverterOptions} options
+ *
+ * @returns {boolean}
+ */
+function applyConverterValueOption(arg, options) {
+    if (
+        applyPositiveIntegerOption(arg, ["--columns="], (value) => {
+            options.columns = value;
+        })
+    ) {
+        return true;
+    }
+    if (
+        applyPositiveIntegerOption(
+            arg,
+            [
+                "--max-height=",
+                "--height=",
+                "--Height=",
+            ],
+            (value) => {
+                options.maxHeight = value;
+            }
+        )
+    ) {
+        return true;
+    }
+    if (arg.startsWith("--encoding=")) {
+        options.encoding = normalizeEncodingOption(
+            arg.slice("--encoding=".length)
+        );
+        return true;
+    }
+    if (arg.startsWith("--provenance-record=")) {
+        options.provenanceRecordPath = path.resolve(
+            arg.slice("--provenance-record=".length)
+        );
+        return true;
+    }
+    if (arg.startsWith("--provenance-path=")) {
+        options.provenancePath = path.resolve(
+            arg.slice("--provenance-path=".length)
+        );
+        return true;
+    }
+    if (arg.startsWith("--source-url=")) {
+        options.sourceProvenance.url = validateSourceUrl(
+            arg.slice("--source-url=".length)
+        );
+        return true;
+    }
+    if (arg.startsWith("--source-sha256=")) {
+        const value = arg.slice("--source-sha256=".length);
+        if (!/^[a-f\d]{64}$/iu.test(value)) {
+            throw new Error(
+                "Source SHA-256 must contain exactly 64 hexadecimal characters."
+            );
+        }
+        options.sourceProvenance.sha256 = value.toLowerCase();
+        return true;
+    }
+    return applySourceMetadataOption(arg, options);
+}
+
+/**
  * @param {string[]} argv
  *
  * @returns {{
@@ -1890,41 +2091,7 @@ function writePowerShellFile(filePath, content) {
  * }}
  */
 function parseArguments(argv) {
-    const options =
-        /**
-         * @type {{
-         *     columns: number | null;
-         *     autoWrap: boolean;
-         *     stripSpaceBackground: boolean;
-         *     maxHeight: number | null;
-         *     encoding: string;
-         *     passthrough: boolean;
-         *     force: boolean;
-         *     analyzeJson: boolean;
-         *     provenancePath: string;
-         *     provenanceRecordPath: string | null;
-         *     sourceProvenance: SourceProvenance;
-         * }}
-         */ ({
-            columns: null,
-            autoWrap: true,
-            stripSpaceBackground: false,
-            maxHeight: null,
-            encoding: "cp437",
-            passthrough: false,
-            force: false,
-            analyzeJson: false,
-            provenancePath: DEFAULT_PROVENANCE_PATH,
-            provenanceRecordPath: null,
-            sourceProvenance: {
-                url: null,
-                revision: null,
-                sha256: null,
-                license: null,
-                attribution: null,
-                modification: null,
-            },
-        });
+    const options = createConverterOptions();
     /** @type {string[]} */
     const positional = [];
     let optionsEnded = false;
@@ -1938,96 +2105,11 @@ function parseArguments(argv) {
             continue;
         }
 
-        if (arg.startsWith("--columns=")) {
-            const value = Number.parseInt(arg.split("=")[1], 10);
-            if (!Number.isNaN(value) && value > 0) {
-                options.columns = value;
-            }
-        } else if (
-            arg.startsWith("--max-height=") ||
-            arg.startsWith("--height=") ||
-            arg.startsWith("--Height=")
-        ) {
-            const value = Number.parseInt(arg.split("=")[1], 10);
-            if (!Number.isNaN(value) && value > 0) {
-                options.maxHeight = value;
-            }
-        } else if (arg === "--no-autowrap") {
-            options.autoWrap = false;
-        } else if (arg === "--autowrap") {
-            options.autoWrap = true;
-        } else if (
-            arg === "--strip-space-bg" ||
-            arg === "--strip-space-background"
-        ) {
-            options.stripSpaceBackground = true;
-        } else if (arg === "--keep-space-bg") {
-            options.stripSpaceBackground = false;
-        } else if (arg.startsWith("--encoding=")) {
-            const enc = arg.split("=")[1].toLowerCase();
-            if (enc === "utf8" || enc === "utf-8") {
-                options.encoding = "utf8";
-            } else if (enc === "cp437" || enc === "437") {
-                options.encoding = "cp437";
-            } else {
-                options.encoding = enc;
-            }
-        } else if (arg === "--utf8" || arg === "--utf-8") {
-            options.encoding = "utf8";
-        } else if (
-            arg === "--passthrough" ||
-            arg === "--simple" ||
-            arg === "--raw"
-        ) {
-            options.passthrough = true;
-        } else if (arg === "--force") {
-            options.force = true;
-        } else if (arg === "--analyze-json") {
-            options.analyzeJson = true;
-        } else if (arg.startsWith("--provenance-record=")) {
-            options.provenanceRecordPath = path.resolve(
-                arg.slice("--provenance-record=".length)
-            );
-        } else if (arg.startsWith("--provenance-path=")) {
-            options.provenancePath = path.resolve(
-                arg.slice("--provenance-path=".length)
-            );
-        } else if (arg.startsWith("--source-url=")) {
-            options.sourceProvenance.url = validateSourceUrl(
-                arg.slice("--source-url=".length)
-            );
-        } else if (arg.startsWith("--source-revision=")) {
-            options.sourceProvenance.revision = validateSourceMetadataValue(
-                arg.slice("--source-revision=".length),
-                "Source revision",
-                256
-            );
-        } else if (arg.startsWith("--source-sha256=")) {
-            const value = arg.slice("--source-sha256=".length);
-            if (!/^[a-f\d]{64}$/iu.test(value)) {
-                throw new Error(
-                    "Source SHA-256 must contain exactly 64 hexadecimal characters."
-                );
-            }
-            options.sourceProvenance.sha256 = value.toLowerCase();
-        } else if (arg.startsWith("--source-license=")) {
-            options.sourceProvenance.license = validateSourceMetadataValue(
-                arg.slice("--source-license=".length),
-                "Source license",
-                256
-            );
-        } else if (arg.startsWith("--source-attribution=")) {
-            options.sourceProvenance.attribution = validateSourceMetadataValue(
-                arg.slice("--source-attribution=".length),
-                "Source attribution",
-                1024
-            );
-        } else if (arg.startsWith("--source-modification=")) {
-            options.sourceProvenance.modification = validateSourceMetadataValue(
-                arg.slice("--source-modification=".length),
-                "Source modification",
-                1024
-            );
+        const flagHandler = CONVERTER_FLAG_HANDLERS.get(arg);
+        if (flagHandler) {
+            flagHandler(options);
+        } else if (applyConverterValueOption(arg, options)) {
+            continue;
         } else if (arg.startsWith("--")) {
             throw new Error(`Unknown option: ${arg}`);
         } else {
