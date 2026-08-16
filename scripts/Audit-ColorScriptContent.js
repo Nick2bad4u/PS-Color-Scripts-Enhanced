@@ -1632,135 +1632,198 @@ Options:
 }
 
 /**
+ * @param {ReturnType<typeof parseArguments>} options
+ */
+function selectAuditFiles(options) {
+    if (options.documentWorkingTree) {
+        return getWorkingTreeFiles(options.scriptsDirectory);
+    }
+    if (options.changedSince) {
+        return getAddedFiles(options.changedSince, options.scriptsDirectory);
+    }
+    return getAllScripts(options.scriptsDirectory);
+}
+
+function createAuditCounters() {
+    return {
+        blankedTextRows: 0,
+        documentedFiles: 0,
+        fixedFiles: 0,
+        removedTrailingRows: 0,
+        skippedSourceFidelityFiles: 0,
+        textFixedFiles: 0,
+    };
+}
+
+/**
+ * @param {string} file
+ */
+function getReportPath(file) {
+    return path.relative(REPOSITORY_ROOT, file).replaceAll(path.sep, "/");
+}
+
+/**
+ * @param {string} source
+ * @param {ReturnType<typeof auditSource>} audit
+ * @param {string} file
+ * @param {ReturnType<typeof parseArguments>} options
+ * @param {ReturnType<typeof createAuditCounters>} counters
+ */
+function applyContentAuditFixes(source, audit, file, options, counters) {
+    let updatedSource = source;
+    const hasTextFindings =
+        audit.textRows.length > 0 || audit.policyRows.length > 0;
+    if (options.fixText && hasTextFindings) {
+        const cleanup = removeFlaggedText(updatedSource);
+        if (cleanup.changed) {
+            fs.writeFileSync(file, cleanup.source, "utf8");
+            updatedSource = cleanup.source;
+            counters.textFixedFiles += 1;
+            counters.blankedTextRows += cleanup.blankedRows;
+            counters.removedTrailingRows += cleanup.removedTrailingRows;
+        }
+    }
+    let postTextAudit =
+        options.fixText && hasTextFindings ? auditSource(updatedSource) : audit;
+    if (options.fixTrailing && postTextAudit.trailingBlankRows > 0) {
+        const cleanup = removeTrailingBlankRows(updatedSource);
+        if (cleanup.changed) {
+            fs.writeFileSync(file, cleanup.source, "utf8");
+            updatedSource = cleanup.source;
+            counters.fixedFiles += 1;
+            counters.removedTrailingRows += cleanup.removedRows;
+            postTextAudit = auditSource(updatedSource);
+        }
+    }
+    if (options.documentWorkingTree) {
+        const documentedSource = documentCuration(updatedSource);
+        if (documentedSource !== updatedSource) {
+            fs.writeFileSync(file, documentedSource, "utf8");
+            updatedSource = documentedSource;
+            counters.documentedFiles += 1;
+            postTextAudit = auditSource(updatedSource);
+        }
+    }
+    return { audit: postTextAudit, source: updatedSource };
+}
+
+/**
+ * @param {string} file
+ * @param {ReturnType<typeof auditSource>["contactRows"]} contactRows
+ * @param {object[]} exceptions
+ */
+function filterFunctionalContactRows(file, contactRows, exceptions) {
+    return contactRows.filter((row) => {
+        if (!isFunctionalContactException(file, row)) return true;
+        exceptions.push({
+            file: getReportPath(file),
+            row: row.row,
+            sha256: getReviewEvidenceHash(row.text),
+        });
+        return false;
+    });
+}
+
+/**
+ * @param {ReturnType<typeof auditSource>} audit
+ */
+function hasReportableAuditFindings(audit) {
+    return (
+        audit.contactRows.length > 0 ||
+        audit.internalBlankRuns.some((run) => run.count >= 3) ||
+        audit.leadingBlankRows >= 3 ||
+        audit.trailingBlankRows > 0 ||
+        audit.textRows.length > 0 ||
+        audit.policyRows.length > 0
+    );
+}
+
+/**
+ * @param {string} file
+ * @param {ReturnType<typeof parseArguments>} options
+ * @param {ReturnType<typeof createAuditCounters>} counters
+ * @param {object[]} functionalContactExceptions
+ */
+function auditContentFile(
+    file,
+    options,
+    counters,
+    functionalContactExceptions
+) {
+    let source = null;
+    try {
+        const stat = fs.statSync(file);
+        if (stat.size > MAX_SOURCE_BYTES) {
+            throw new RangeError(
+                `Source exceeds the ${MAX_SOURCE_BYTES}-byte safety limit.`
+            );
+        }
+        source = fs.readFileSync(file, "utf8");
+        if (isSourceFidelityLocked(source)) {
+            counters.skippedSourceFidelityFiles += 1;
+            return { failure: null, record: null };
+        }
+        const fixed = applyContentAuditFixes(
+            source,
+            auditSource(source),
+            file,
+            options,
+            counters
+        );
+        const reportAudit = {
+            ...fixed.audit,
+            contactRows: filterFunctionalContactRows(
+                file,
+                fixed.audit.contactRows,
+                functionalContactExceptions
+            ),
+        };
+        return {
+            failure: null,
+            record: hasReportableAuditFindings(reportAudit)
+                ? { file: getReportPath(file), ...reportAudit }
+                : null,
+        };
+    } catch (error) {
+        const fallbackContactRows = source
+            ? auditAuthoredSourceContacts(source).filter(
+                  (row) => !isFunctionalContactException(file, row)
+              )
+            : [];
+        return {
+            failure: {
+                error: error instanceof Error ? error.message : String(error),
+                fallbackContactRows,
+                file: getReportPath(file),
+            },
+            record: null,
+        };
+    }
+}
+
+/**
  * @param {string[]} arguments_
  *
  * @returns {void}
  */
 function main(arguments_ = process.argv.slice(2)) {
     const options = parseArguments(arguments_);
-    let files;
-    if (options.documentWorkingTree) {
-        files = getWorkingTreeFiles(options.scriptsDirectory);
-    } else if (options.changedSince) {
-        files = getAddedFiles(options.changedSince, options.scriptsDirectory);
-    } else {
-        files = getAllScripts(options.scriptsDirectory);
-    }
+    const files = selectAuditFiles(options);
     files.sort((left, right) => left.localeCompare(right, "en-US"));
     const records = [];
     const failures = [];
-    let fixedFiles = 0;
-    let textFixedFiles = 0;
-    let blankedTextRows = 0;
-    let documentedFiles = 0;
-    let removedTrailingRows = 0;
-    let skippedSourceFidelityFiles = 0;
+    const counters = createAuditCounters();
     const functionalContactExceptions = [];
 
     for (const file of files) {
-        let source = null;
-        try {
-            const stat = fs.statSync(file);
-            if (stat.size > MAX_SOURCE_BYTES) {
-                throw new RangeError(
-                    `Source exceeds the ${MAX_SOURCE_BYTES}-byte safety limit.`
-                );
-            }
-            source = fs.readFileSync(file, "utf8");
-            if (isSourceFidelityLocked(source)) {
-                skippedSourceFidelityFiles += 1;
-                continue;
-            }
-            const audit = auditSource(source);
-            if (
-                options.fixText &&
-                (audit.textRows.length > 0 || audit.policyRows.length > 0)
-            ) {
-                const cleanup = removeFlaggedText(source);
-                if (cleanup.changed) {
-                    fs.writeFileSync(file, cleanup.source, "utf8");
-                    source = cleanup.source;
-                    textFixedFiles += 1;
-                    blankedTextRows += cleanup.blankedRows;
-                    removedTrailingRows += cleanup.removedTrailingRows;
-                }
-            }
-            const postTextAudit =
-                options.fixText &&
-                (audit.textRows.length > 0 || audit.policyRows.length > 0)
-                    ? auditSource(source)
-                    : audit;
-            if (options.fixTrailing && postTextAudit.trailingBlankRows > 0) {
-                const cleanup = removeTrailingBlankRows(source);
-                if (cleanup.changed) {
-                    fs.writeFileSync(file, cleanup.source, "utf8");
-                    source = cleanup.source;
-                    fixedFiles += 1;
-                    removedTrailingRows += cleanup.removedRows;
-                }
-            }
-            if (options.documentWorkingTree) {
-                const documentedSource = documentCuration(source);
-                if (documentedSource !== source) {
-                    fs.writeFileSync(file, documentedSource, "utf8");
-                    source = documentedSource;
-                    documentedFiles += 1;
-                }
-            }
-            const finalAudit =
-                (options.fixText &&
-                    (audit.textRows.length > 0 ||
-                        audit.policyRows.length > 0)) ||
-                (options.fixTrailing && postTextAudit.trailingBlankRows > 0)
-                    ? auditSource(source)
-                    : postTextAudit;
-            const contactRows = finalAudit.contactRows.filter((row) => {
-                if (!isFunctionalContactException(file, row)) {
-                    return true;
-                }
-                functionalContactExceptions.push({
-                    file: path
-                        .relative(REPOSITORY_ROOT, file)
-                        .replaceAll(path.sep, "/"),
-                    row: row.row,
-                    sha256: getReviewEvidenceHash(row.text),
-                });
-                return false;
-            });
-            const reportAudit = {
-                ...finalAudit,
-                contactRows,
-            };
-            if (
-                reportAudit.contactRows.length > 0 ||
-                reportAudit.internalBlankRuns.some((run) => run.count >= 3) ||
-                reportAudit.leadingBlankRows >= 3 ||
-                reportAudit.trailingBlankRows > 0 ||
-                reportAudit.textRows.length > 0 ||
-                reportAudit.policyRows.length > 0
-            ) {
-                records.push({
-                    file: path
-                        .relative(REPOSITORY_ROOT, file)
-                        .replaceAll(path.sep, "/"),
-                    ...reportAudit,
-                });
-            }
-        } catch (error) {
-            const fallbackContactRows =
-                source == null
-                    ? []
-                    : auditAuthoredSourceContacts(source).filter(
-                          (row) => !isFunctionalContactException(file, row)
-                      );
-            failures.push({
-                error: error instanceof Error ? error.message : String(error),
-                fallbackContactRows,
-                file: path
-                    .relative(REPOSITORY_ROOT, file)
-                    .replaceAll(path.sep, "/"),
-            });
-        }
+        const result = auditContentFile(
+            file,
+            options,
+            counters,
+            functionalContactExceptions
+        );
+        if (result.record) records.push(result.record);
+        if (result.failure) failures.push(result.failure);
     }
 
     const report = {
@@ -1774,12 +1837,12 @@ function main(arguments_ = process.argv.slice(2)) {
         },
         summary: {
             failedFiles: failures.length,
-            blankedTextRows,
+            blankedTextRows: counters.blankedTextRows,
             contactRows: records.reduce(
                 (total, record) => total + record.contactRows.length,
                 0
             ),
-            documentedFiles,
+            documentedFiles: counters.documentedFiles,
             filesWithContactRows: records.filter(
                 (record) => record.contactRows.length > 0
             ).length,
@@ -1806,7 +1869,7 @@ function main(arguments_ = process.argv.slice(2)) {
             filesWithTrailingBlankRows: records.filter(
                 (record) => record.trailingBlankRows > 0
             ).length,
-            fixedFiles,
+            fixedFiles: counters.fixedFiles,
             internalBlankRuns: records.reduce(
                 (total, record) =>
                     total +
@@ -1826,9 +1889,9 @@ function main(arguments_ = process.argv.slice(2)) {
                 (total, record) => total + record.policyRows.length,
                 0
             ),
-            removedTrailingRows,
-            skippedSourceFidelityFiles,
-            textFixedFiles,
+            removedTrailingRows: counters.removedTrailingRows,
+            skippedSourceFidelityFiles: counters.skippedSourceFidelityFiles,
+            textFixedFiles: counters.textFixedFiles,
             textRows: records.reduce(
                 (total, record) => total + record.textRows.length,
                 0
