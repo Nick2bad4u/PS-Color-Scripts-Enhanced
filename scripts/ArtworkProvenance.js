@@ -134,6 +134,30 @@ function parsePowerShellScalar(value, context) {
 }
 
 /**
+ * @param {string[]} lines
+ * @param {number} startIndex
+ * @param {string} context
+ *
+ * @returns {{ endIndex: number; value: readonly string[] }}
+ */
+function parsePowerShellStringArray(lines, startIndex, context) {
+    const values = [];
+    for (let index = startIndex; index < lines.length; index += 1) {
+        if (/^ {12}\)$/u.test(lines[index])) {
+            return { endIndex: index, value: Object.freeze(values) };
+        }
+        const valueMatch = /^ {16}'((?:[^']|'')*)'$/u.exec(lines[index]);
+        if (!valueMatch) {
+            throw new Error(
+                `${context}: unsupported array item ${lines[index]}.`
+            );
+        }
+        values.push(unescapePowerShellString(valueMatch[1]));
+    }
+    throw new Error(`${context}: unterminated array.`);
+}
+
+/**
  * @param {string} block
  * @param {string} context
  *
@@ -164,29 +188,13 @@ function parseEntryProperties(block, context) {
             );
             continue;
         }
-        const values = [];
-        let closed = false;
-        let arrayIndex = index + 1;
-        for (; arrayIndex < lines.length; arrayIndex += 1) {
-            if (/^ {12}\)$/u.test(lines[arrayIndex])) {
-                closed = true;
-                break;
-            }
-            const valueMatch = /^ {16}'((?:[^']|'')*)'$/u.exec(
-                lines[arrayIndex]
-            );
-            if (!valueMatch) {
-                throw new Error(
-                    `${context}.${name}: unsupported array item ${lines[arrayIndex]}.`
-                );
-            }
-            values.push(unescapePowerShellString(valueMatch[1]));
-        }
-        if (!closed) {
-            throw new Error(`${context}.${name}: unterminated array.`);
-        }
-        index = arrayIndex;
-        properties[name] = Object.freeze(values);
+        const parsedArray = parsePowerShellStringArray(
+            lines,
+            index + 1,
+            `${context}.${name}`
+        );
+        index = parsedArray.endIndex;
+        properties[name] = parsedArray.value;
     }
     return Object.freeze(properties);
 }

@@ -345,6 +345,50 @@ function sortAndValidatePartNames(fileNames, family) {
 }
 
 /**
+ * @param {string[]} baselineRows
+ * @param {string[]} currentRows
+ * @param {boolean[]} baselineBlank
+ * @param {boolean[]} currentBlank
+ * @param {number} start
+ *
+ * @returns {{ candidate: BaselineAlignment; score: number }}
+ */
+function scoreBaselineWindow(
+    baselineRows,
+    currentRows,
+    baselineBlank,
+    currentBlank,
+    start
+) {
+    let exactRows = 0;
+    let normalizedRows = 0;
+    let renderedBlankRows = 0;
+    for (const [index, currentRow] of currentRows.entries()) {
+        const baselineIndex = start + index;
+        const baselineRow = baselineRows[baselineIndex];
+        if (baselineRow === currentRow) {
+            exactRows += 1;
+        } else if (
+            stripAnsiControls(baselineRow) === stripAnsiControls(currentRow)
+        ) {
+            normalizedRows += 1;
+        } else if (baselineBlank[baselineIndex] && currentBlank[index]) {
+            renderedBlankRows += 1;
+        }
+    }
+    return {
+        candidate: {
+            baselineEnd: start + currentRows.length,
+            baselineStart: start,
+            exactRows,
+            normalizedRows,
+            renderedBlankRows,
+        },
+        score: exactRows * 16 + normalizedRows * 4 + renderedBlankRows,
+    };
+}
+
+/**
  * Find the unique contiguous baseline window that best explains the current
  * curated payload. Exact rows outrank control-normalized rows, which outrank
  * rows that remain rendered blank after curation.
@@ -371,30 +415,13 @@ function alignCurrentRowsToBaseline(baselineRows, currentRows) {
         start <= baselineRows.length - currentRows.length;
         start += 1
     ) {
-        let exactRows = 0;
-        let normalizedRows = 0;
-        let renderedBlankRows = 0;
-        for (const [index, currentRow] of currentRows.entries()) {
-            const baselineIndex = start + index;
-            const baselineRow = baselineRows[baselineIndex];
-            if (baselineRow === currentRow) {
-                exactRows += 1;
-            } else if (
-                stripAnsiControls(baselineRow) === stripAnsiControls(currentRow)
-            ) {
-                normalizedRows += 1;
-            } else if (baselineBlank[baselineIndex] && currentBlank[index]) {
-                renderedBlankRows += 1;
-            }
-        }
-        const score = exactRows * 16 + normalizedRows * 4 + renderedBlankRows;
-        const candidate = {
-            baselineEnd: start + currentRows.length,
-            baselineStart: start,
-            exactRows,
-            normalizedRows,
-            renderedBlankRows,
-        };
+        const { candidate, score } = scoreBaselineWindow(
+            baselineRows,
+            currentRows,
+            baselineBlank,
+            currentBlank,
+            start
+        );
         if (score > bestScore) {
             bestScore = score;
             candidates.length = 0;
@@ -821,17 +848,12 @@ function chooseFixedPartBreaks(rows, partCount, maximumRows) {
 
 /**
  * @param {(number | null)[]} coordinates
- * @param {number[]} breaks
  * @param {SourceRange} familyRange
- *
- * @returns {SourceRange[]}
  */
-function deriveOutputSourceRanges(coordinates, breaks, familyRange) {
+function validateRetainedSourceCoordinates(coordinates, familyRange) {
     let previousCoordinate = null;
     for (const coordinate of coordinates) {
-        if (coordinate === null) {
-            continue;
-        }
+        if (coordinate === null) continue;
         if (
             !Number.isSafeInteger(coordinate) ||
             coordinate < familyRange.start ||
@@ -844,6 +866,38 @@ function deriveOutputSourceRanges(coordinates, breaks, familyRange) {
         }
         previousCoordinate = coordinate;
     }
+}
+
+/**
+ * @param {(number | null)[]} coordinates
+ * @param {number} endIndex
+ * @param {boolean} isFinal
+ * @param {SourceRange} familyRange
+ *
+ * @returns {number}
+ */
+function getOutputRangeEnd(coordinates, endIndex, isFinal, familyRange) {
+    if (isFinal) return familyRange.end;
+    const nextCoordinate = coordinates
+        .slice(endIndex)
+        .find((coordinate) => coordinate !== null);
+    if (nextCoordinate === undefined) {
+        throw new Error(
+            "A non-final output part has no following source coordinate."
+        );
+    }
+    return nextCoordinate - 1;
+}
+
+/**
+ * @param {(number | null)[]} coordinates
+ * @param {number[]} breaks
+ * @param {SourceRange} familyRange
+ *
+ * @returns {SourceRange[]}
+ */
+function deriveOutputSourceRanges(coordinates, breaks, familyRange) {
+    validateRetainedSourceCoordinates(coordinates, familyRange);
     const ranges = [];
     let startIndex = 0;
     let rangeStart = familyRange.start;
@@ -858,18 +912,12 @@ function deriveOutputSourceRanges(coordinates, breaks, familyRange) {
                 "Every output part must contain at least one source-mapped row."
             );
         }
-        let rangeEnd = familyRange.end;
-        if (!isFinal) {
-            const nextCoordinate = coordinates
-                .slice(endIndex)
-                .find((coordinate) => coordinate !== null);
-            if (nextCoordinate === undefined) {
-                throw new Error(
-                    "A non-final output part has no following source coordinate."
-                );
-            }
-            rangeEnd = nextCoordinate - 1;
-        }
+        const rangeEnd = getOutputRangeEnd(
+            coordinates,
+            endIndex,
+            isFinal,
+            familyRange
+        );
         if (
             rangeEnd < rangeStart ||
             actualCoordinates.some(
@@ -1888,6 +1936,64 @@ function writePlan(plan, scriptsDirectory) {
 }
 
 /**
+ * @param {CommandLineOptions} options
+ * @param {string} argument
+ */
+function applyCommandLineOption(options, argument) {
+    if (argument === "--write") {
+        options.write = true;
+        return;
+    }
+    if (argument === "--help") {
+        console.log(`Usage:
+  node scripts/Rebalance-ColorScriptParts.js --classification=<path> --output=<path>
+  node scripts/Rebalance-ColorScriptParts.js --manifest=<path> [--write]
+
+Options:
+  --baseline=<commit>       Pre-curation baseline (default: ${DEFAULT_BASELINE_COMMIT})
+  --classification=<path>   Geometry classification JSON used to generate a manifest
+  --manifest=<path>         Reviewed, hash-locked manifest to validate or apply
+  --output=<path>           Generated manifest path
+  --scripts-dir=<path>      Colorscript directory
+  --write                   Apply a validated manifest (default is dry-run)
+  --help                    Show this help`);
+        process.exit(0);
+    }
+    const optionMatch = /^--([^=]+)=(.*)$/u.exec(argument);
+    if (!optionMatch) throw new Error(`Unknown option: ${argument}`);
+    const [
+        ,
+        optionName,
+        optionValue,
+    ] = optionMatch;
+    switch (optionName) {
+        case "baseline":
+            options.baselineCommit = optionValue;
+            return;
+        case "classification":
+            options.classificationPath = path.resolve(
+                REPOSITORY_ROOT,
+                optionValue
+            );
+            return;
+        case "manifest":
+            options.manifestPath = path.resolve(REPOSITORY_ROOT, optionValue);
+            return;
+        case "output":
+            options.outputPath = path.resolve(REPOSITORY_ROOT, optionValue);
+            return;
+        case "scripts-dir":
+            options.scriptsDirectory = path.resolve(
+                REPOSITORY_ROOT,
+                optionValue
+            );
+            return;
+        default:
+            throw new Error(`Unknown option: ${argument}`);
+    }
+}
+
+/**
  * @param {string[]} arguments_
  *
  * @returns {CommandLineOptions}
@@ -1903,47 +2009,7 @@ function parseArguments(arguments_) {
         write: false,
     };
     for (const argument of arguments_) {
-        if (argument.startsWith("--baseline=")) {
-            options.baselineCommit = argument.slice("--baseline=".length);
-        } else if (argument.startsWith("--classification=")) {
-            options.classificationPath = path.resolve(
-                REPOSITORY_ROOT,
-                argument.slice("--classification=".length)
-            );
-        } else if (argument.startsWith("--manifest=")) {
-            options.manifestPath = path.resolve(
-                REPOSITORY_ROOT,
-                argument.slice("--manifest=".length)
-            );
-        } else if (argument.startsWith("--output=")) {
-            options.outputPath = path.resolve(
-                REPOSITORY_ROOT,
-                argument.slice("--output=".length)
-            );
-        } else if (argument.startsWith("--scripts-dir=")) {
-            options.scriptsDirectory = path.resolve(
-                REPOSITORY_ROOT,
-                argument.slice("--scripts-dir=".length)
-            );
-        } else if (argument === "--write") {
-            options.write = true;
-        } else if (argument === "--help") {
-            console.log(`Usage:
-  node scripts/Rebalance-ColorScriptParts.js --classification=<path> --output=<path>
-  node scripts/Rebalance-ColorScriptParts.js --manifest=<path> [--write]
-
-Options:
-  --baseline=<commit>       Pre-curation baseline (default: ${DEFAULT_BASELINE_COMMIT})
-  --classification=<path>   Geometry classification JSON used to generate a manifest
-  --manifest=<path>         Reviewed, hash-locked manifest to validate or apply
-  --output=<path>           Generated manifest path
-  --scripts-dir=<path>      Colorscript directory
-  --write                   Apply a validated manifest (default is dry-run)
-  --help                    Show this help`);
-            process.exit(0);
-        } else {
-            throw new Error(`Unknown option: ${argument}`);
-        }
+        applyCommandLineOption(options, argument);
     }
     if (
         options.classificationPath &&

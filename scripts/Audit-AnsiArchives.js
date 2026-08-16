@@ -1858,6 +1858,41 @@ function writeTerminalPreviewSvg(terminal, outputPath) {
 }
 
 /**
+ * @param {{
+ *     cells: Map<number, { char: string; attrs: Record<string, unknown> }>;
+ *     maxCol: number;
+ * }} row
+ * @param {Set<string>} families
+ *
+ * @returns {unknown[]}
+ */
+function fingerprintTerminalRow(row, families) {
+    const cells = [];
+    for (const [column, cell] of [...row.cells.entries()].sort(
+        (left, right) => left[0] - right[0]
+    )) {
+        const attrs = cell.attrs;
+        let foreground = attrs.fg;
+        let background = attrs.bg;
+        if (attrs.inverse) {
+            [foreground, background] = [background, foreground];
+        }
+        if (cell.char !== " ") {
+            const foregroundFamily = getColorFamily(foreground);
+            if (foregroundFamily) families.add(foregroundFamily);
+        }
+        const backgroundFamily = getColorFamily(background);
+        if (backgroundFamily) families.add(backgroundFamily);
+        cells.push([
+            column,
+            cell.char,
+            attrs,
+        ]);
+    }
+    return cells;
+}
+
+/**
  * @param {import("./Convert-AnsiToColorScript.js").TerminalEmulator
  *     | Record<string, unknown>} terminal
  *
@@ -1867,34 +1902,12 @@ function fingerprintTerminal(terminal) {
     const terminalRecord = /** @type {Record<string, unknown>} */ (terminal);
     const rows = getTerminalRows(terminal);
     const families = new Set();
-    const canonicalRows = [];
-    const rowNumbers = [...rows.keys()].sort((left, right) => left - right);
-    for (const rowNumber of rowNumbers) {
-        const row = rows.get(rowNumber);
-        const cells = [];
-        for (const [column, cell] of [...row.cells.entries()].sort(
-            (left, right) => left[0] - right[0]
-        )) {
-            const attrs = cell.attrs;
-            let foreground = attrs.fg;
-            let background = attrs.bg;
-            if (attrs.inverse) {
-                [foreground, background] = [background, foreground];
-            }
-            if (cell.char !== " ") {
-                const foregroundFamily = getColorFamily(foreground);
-                if (foregroundFamily) families.add(foregroundFamily);
-            }
-            const backgroundFamily = getColorFamily(background);
-            if (backgroundFamily) families.add(backgroundFamily);
-            cells.push([
-                column,
-                cell.char,
-                attrs,
-            ]);
-        }
-        canonicalRows.push([rowNumber, cells]);
-    }
+    const canonicalRows = [...rows.keys()]
+        .sort((left, right) => left - right)
+        .map((rowNumber) => [
+            rowNumber,
+            fingerprintTerminalRow(rows.get(rowNumber), families),
+        ]);
     return {
         families: [...families].sort((left, right) =>
             left.localeCompare(right, "en-US")
@@ -2031,6 +2044,82 @@ function analyzeAnsiBuffer(raw) {
 }
 
 /**
+ * @param {Readonly<Record<string, unknown>>} entry
+ *
+ * @returns {{
+ *     sourceSha256: string | null;
+ *     renderSha256: string | null;
+ * }}
+ */
+function getExistingEntryHashes(entry) {
+    return {
+        sourceSha256:
+            typeof entry.SourceSha256 === "string"
+                ? entry.SourceSha256.toLowerCase()
+                : null,
+        renderSha256:
+            typeof entry.RenderSha256 === "string"
+                ? entry.RenderSha256.toLowerCase()
+                : null,
+    };
+}
+
+/**
+ * @param {string} scriptName
+ * @param {Readonly<Record<string, unknown>>} entry
+ * @param {{
+ *     scriptsByName: Map<
+ *         string,
+ *         { sourceSha256: string; renderSha256: string }
+ *     >;
+ *     matchedScriptNames: Set<string>;
+ * } | null} exclusions
+ * @param {Set<string>} source
+ * @param {Set<string>} render
+ */
+function addExistingEntryHashes(scriptName, entry, exclusions, source, render) {
+    const { sourceSha256, renderSha256 } = getExistingEntryHashes(entry);
+    const excluded = exclusions?.scriptsByName.get(scriptName);
+    if (excluded) {
+        if (
+            excluded.sourceSha256 !== sourceSha256 ||
+            excluded.renderSha256 !== renderSha256
+        ) {
+            throw new Error(
+                `${scriptName}: exclusion manifest hashes do not match checked-in provenance.`
+            );
+        }
+        exclusions.matchedScriptNames.add(scriptName);
+        return;
+    }
+    if (sourceSha256) source.add(sourceSha256);
+    if (renderSha256) render.add(renderSha256);
+}
+
+/**
+ * @param {{
+ *     scriptsByName: Map<
+ *         string,
+ *         { sourceSha256: string; renderSha256: string }
+ *     >;
+ *     matchedScriptNames: Set<string>;
+ * } | null} exclusions
+ */
+function validateMatchedExclusions(exclusions) {
+    if (
+        exclusions &&
+        exclusions.matchedScriptNames.size !== exclusions.scriptsByName.size
+    ) {
+        const missing = [...exclusions.scriptsByName.keys()].filter(
+            (scriptName) => !exclusions.matchedScriptNames.has(scriptName)
+        );
+        throw new Error(
+            `Exclusion manifest scripts are missing from checked-in provenance: ${missing.join(", ")}`
+        );
+    }
+}
+
+/**
  * @param {string} provenancePath
  * @param {{
  *     scriptsByName: Map<
@@ -2056,45 +2145,9 @@ function readExistingHashes(provenancePath, exclusions = null) {
     exclusions?.matchedScriptNames.clear();
     const { scripts } = readArtworkProvenance(provenancePath);
     for (const [scriptName, entry] of scripts) {
-        const sourceSha256 =
-            typeof entry.SourceSha256 === "string"
-                ? entry.SourceSha256.toLowerCase()
-                : null;
-        const renderSha256 =
-            typeof entry.RenderSha256 === "string"
-                ? entry.RenderSha256.toLowerCase()
-                : null;
-        const excluded = exclusions?.scriptsByName.get(scriptName);
-        if (excluded) {
-            if (
-                excluded.sourceSha256 !== sourceSha256 ||
-                excluded.renderSha256 !== renderSha256
-            ) {
-                throw new Error(
-                    `${scriptName}: exclusion manifest hashes do not match checked-in provenance.`
-                );
-            }
-            exclusions.matchedScriptNames.add(scriptName);
-            continue;
-        }
-        if (sourceSha256) {
-            source.add(sourceSha256);
-        }
-        if (renderSha256) {
-            render.add(renderSha256);
-        }
+        addExistingEntryHashes(scriptName, entry, exclusions, source, render);
     }
-    if (
-        exclusions &&
-        exclusions.matchedScriptNames.size !== exclusions.scriptsByName.size
-    ) {
-        const missing = [...exclusions.scriptsByName.keys()].filter(
-            (scriptName) => !exclusions.matchedScriptNames.has(scriptName)
-        );
-        throw new Error(
-            `Exclusion manifest scripts are missing from checked-in provenance: ${missing.join(", ")}`
-        );
-    }
+    validateMatchedExclusions(exclusions);
     return { source, render };
 }
 
@@ -2293,6 +2346,71 @@ function indexExistingScriptRenders(
 
 /**
  * @param {Record<string, unknown>} candidate
+ * @param {string} disposition
+ * @param {string | null} [reviewNote]
+ *
+ * @returns {Record<string, unknown>}
+ */
+function rejectCandidate(candidate, disposition, reviewNote = null) {
+    return {
+        ...candidate,
+        disposition,
+        review: false,
+        ...(reviewNote ? { reviewNote } : {}),
+    };
+}
+
+/**
+ * @param {Record<string, unknown>} analysis
+ * @param {string} sourceFont
+ * @param {string} candidateId
+ *
+ * @returns {string | null}
+ */
+function getUnsupportedFontReviewNote(analysis, sourceFont, candidateId) {
+    if (analysis.encodingSupported === false) {
+        const encoding = readOptionalString(
+            analysis.encoding,
+            `${candidateId} encoding`,
+            sourceFont || "an unknown encoding"
+        );
+        return `The SAUCE font declares ${encoding}, whose glyph encoding cannot be reproduced faithfully by this converter.`;
+    }
+    if (/^Amiga\b/iu.test(sourceFont)) {
+        return "The SAUCE font uses Amiga glyph semantics that cannot be reproduced faithfully by the gallery's CP437-to-Unicode PowerShell output.";
+    }
+    if (/\bVGA50\b/iu.test(sourceFont)) {
+        return "The SAUCE font uses square 8x8 VGA50 cells whose source aspect ratio cannot be preserved in a normal PowerShell terminal.";
+    }
+    return null;
+}
+
+/**
+ * @param {number} colorFamilyCount
+ *
+ * @returns {string | null}
+ */
+function getLowColorDisposition(colorFamilyCount) {
+    if (colorFamilyCount > 2) return null;
+    return colorFamilyCount <= 1 ? "rejected-monochrome" : "rejected-duotone";
+}
+
+/**
+ * @param {boolean} likelyFiller
+ * @param {number} width
+ * @param {number} height
+ *
+ * @returns {string}
+ */
+function getPendingDisposition(likelyFiller, width, height) {
+    if (likelyFiller) return "pending-review-filler";
+    if (width > 120) return "pending-review-wide";
+    if (height > 50) return "pending-review-split";
+    return "pending-review";
+}
+
+/**
+ * @param {Record<string, unknown>} candidate
  * @param {{ source: Set<string>; render: Set<string> }} existingHashes
  *
  * @returns {Record<string, unknown>}
@@ -2300,11 +2418,7 @@ function indexExistingScriptRenders(
 function classifyCandidate(candidate, existingHashes) {
     const candidateId = requireString(candidate.id, "candidate id");
     if (candidate.rawError) {
-        return {
-            ...candidate,
-            disposition: "rejected-malformed",
-            review: false,
-        };
+        return rejectCandidate(candidate, "rejected-malformed");
     }
     const analysis = requireObject(
         candidate.analysis,
@@ -2319,67 +2433,39 @@ function classifyCandidate(candidate, existingHashes) {
         `${candidateId} normalized render hash`
     );
     if (existingHashes.source.has(sourceHash)) {
-        return {
-            ...candidate,
-            disposition: "already-imported-source",
-            review: false,
-        };
+        return rejectCandidate(candidate, "already-imported-source");
     }
     if (existingHashes.render.has(normalizedRenderHash)) {
-        return {
-            ...candidate,
-            disposition: "already-imported-render",
-            review: false,
-        };
+        return rejectCandidate(candidate, "already-imported-render");
     }
     const warnings = requireArray(analysis.warnings, `${candidateId} warnings`);
     if (warnings.length > 0) {
-        return {
-            ...candidate,
-            disposition: "rejected-unsupported-terminal",
-            review: false,
-        };
+        return rejectCandidate(candidate, "rejected-unsupported-terminal");
     }
-    const sauce =
-        analysis.sauce && typeof analysis.sauce === "object"
-            ? analysis.sauce
-            : null;
+    let sauce = null;
+    if (analysis.sauce !== null && analysis.sauce !== undefined) {
+        sauce = requireObject(analysis.sauce, `${candidateId} SAUCE`);
+    }
     const sourceFont = readOptionalString(
         sauce?.font,
         `${candidateId} SAUCE font`
     ).trim();
-    if (analysis.encodingSupported === false) {
-        return {
-            ...candidate,
-            disposition: "rejected-unsupported-font",
-            review: false,
-            reviewNote: `The SAUCE font declares ${readOptionalString(
-                analysis.encoding,
-                `${candidateId} encoding`,
-                sourceFont || "an unknown encoding"
-            )}, whose glyph encoding cannot be reproduced faithfully by this converter.`,
-        };
-    }
-    if (/^Amiga\b/iu.test(sourceFont) || /\bVGA50\b/iu.test(sourceFont)) {
-        return {
-            ...candidate,
-            disposition: "rejected-unsupported-font",
-            review: false,
-            reviewNote: /^Amiga\b/iu.test(sourceFont)
-                ? "The SAUCE font uses Amiga glyph semantics that cannot be reproduced faithfully by the gallery's CP437-to-Unicode PowerShell output."
-                : "The SAUCE font uses square 8x8 VGA50 cells whose source aspect ratio cannot be preserved in a normal PowerShell terminal.",
-        };
+    const unsupportedFontNote = getUnsupportedFontReviewNote(
+        analysis,
+        sourceFont,
+        candidateId
+    );
+    if (unsupportedFontNote) {
+        return rejectCandidate(
+            candidate,
+            "rejected-unsupported-font",
+            unsupportedFontNote
+        );
     }
     const colorFamilyCount = Number(analysis.colorFamilyCount);
-    if (colorFamilyCount < 3) {
-        return {
-            ...candidate,
-            disposition:
-                colorFamilyCount <= 1
-                    ? "rejected-monochrome"
-                    : "rejected-duotone",
-            review: false,
-        };
+    const lowColorDisposition = getLowColorDisposition(colorFamilyCount);
+    if (lowColorDisposition) {
+        return rejectCandidate(candidate, lowColorDisposition);
     }
     const width = Number(analysis.width);
     const height = Number(analysis.height);
@@ -2395,11 +2481,7 @@ function classifyCandidate(candidate, existingHashes) {
         /THEDRAW_TDF_FONTS_COLLECTION/iu.test(archive) &&
         /(?:^|[\\/])PREVIEW[\\/]/iu.test(filename)
     ) {
-        return {
-            ...candidate,
-            disposition: "rejected-font-preview",
-            review: false,
-        };
+        return rejectCandidate(candidate, "rejected-font-preview");
     }
     const content = Array.isArray(candidate.content)
         ? candidate.content.join(" ").toLowerCase()
@@ -2408,17 +2490,9 @@ function classifyCandidate(candidate, existingHashes) {
         /(?:^|[._-])(?:file[_-]?id|nfo|mem(?:bers?)?)(?:[._-]|$)/iu.test(
             filename
         ) || /\b(?:memberlist|infofile|file id)\b/iu.test(content);
-    let disposition = "pending-review";
-    if (likelyFiller) {
-        disposition = "pending-review-filler";
-    } else if (width > 120) {
-        disposition = "pending-review-wide";
-    } else if (height > 50) {
-        disposition = "pending-review-split";
-    }
     return {
         ...candidate,
-        disposition,
+        disposition: getPendingDisposition(likelyFiller, width, height),
         review: true,
     };
 }

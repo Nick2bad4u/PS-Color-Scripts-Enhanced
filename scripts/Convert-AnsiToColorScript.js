@@ -388,47 +388,49 @@ function isDefaultAttrs(attrs) {
 }
 
 /**
+ * @param {boolean} isForeground
+ *
+ * @returns {{ base: number; bright: number; extended: number }}
+ */
+function getColorCodeBases(isForeground) {
+    if (isForeground) return { base: 30, bright: 90, extended: 38 };
+    return { base: 40, bright: 100, extended: 48 };
+}
+
+/**
  * @param {ColorState | null} color
  * @param {boolean} isForeground
  *
  * @returns {number[]}
  */
 function colorToCodes(color, isForeground) {
-    if (!color) {
-        return [];
-    }
-    const base = isForeground ? 30 : 40;
-    const brightBase = isForeground ? 90 : 100;
+    if (!color) return [];
+    const bases = getColorCodeBases(isForeground);
     switch (color.mode) {
         case "basic":
-            return typeof color.value === "number" ? [base + color.value] : [];
+            if (typeof color.value !== "number") return [];
+            return [bases.base + color.value];
         case "bright":
-            return typeof color.value === "number"
-                ? [brightBase + color.value]
-                : [];
+            if (typeof color.value !== "number") return [];
+            return [bases.bright + color.value];
         case "palette":
-            return typeof color.value === "number"
-                ? [
-                      isForeground ? 38 : 48,
-                      5,
-                      color.value,
-                  ]
-                : [];
+            if (typeof color.value !== "number") return [];
+            return [
+                bases.extended,
+                5,
+                color.value,
+            ];
         case "rgb":
-            if (
-                typeof color.r === "number" &&
-                typeof color.g === "number" &&
-                typeof color.b === "number"
-            ) {
-                return [
-                    isForeground ? 38 : 48,
-                    2,
-                    color.r,
-                    color.g,
-                    color.b,
-                ];
-            }
-            return [];
+            if (typeof color.r !== "number") return [];
+            if (typeof color.g !== "number") return [];
+            if (typeof color.b !== "number") return [];
+            return [
+                bases.extended,
+                2,
+                color.r,
+                color.g,
+                color.b,
+            ];
         default:
             return [];
     }
@@ -532,44 +534,68 @@ function parseSauceRecord(buffer) {
 
 /**
  * @param {Buffer} buffer
+ * @param {number} offset
+ *
+ * @returns {number}
+ */
+function trimDosEofMarkers(buffer, offset) {
+    let markerStart = offset;
+    let foundMarker = false;
+    while (markerStart > 0) {
+        let markerEnd = markerStart;
+        while (
+            markerEnd > 0 &&
+            (buffer[markerEnd - 1] === 0x0a || buffer[markerEnd - 1] === 0x0d)
+        ) {
+            markerEnd -= 1;
+        }
+        let nextMarkerStart = markerEnd;
+        while (nextMarkerStart > 0 && buffer[nextMarkerStart - 1] === 0x1a) {
+            nextMarkerStart -= 1;
+        }
+        if (nextMarkerStart === markerEnd) break;
+        foundMarker = true;
+        markerStart = nextMarkerStart;
+    }
+    return foundMarker ? markerStart : offset;
+}
+
+/**
+ * @param {Buffer} buffer
+ * @param {SauceRecord} sauce
+ * @param {number} sauceOffset
+ *
+ * @returns {number}
+ */
+function readSauceComments(buffer, sauce, sauceOffset) {
+    if (sauce.comments <= 0) return sauceOffset;
+    const commentBlockLength = 5 + sauce.comments * 64;
+    const commentOffset = sauceOffset - commentBlockLength;
+    if (commentOffset < 0) return sauceOffset;
+    const commentId = buffer
+        .subarray(commentOffset, commentOffset + 5)
+        .toString("ascii");
+    if (commentId !== "COMNT") return sauceOffset;
+    for (let index = 0; index < sauce.comments; index += 1) {
+        const lineOffset = commentOffset + 5 + index * 64;
+        const decodedComment = iconv.decode(
+            buffer.subarray(lineOffset, lineOffset + 64),
+            "cp437"
+        );
+        const commentLine = trimTrailingNulls(decodedComment).trimEnd();
+        if (commentLine) sauce.commentLines.push(commentLine);
+    }
+    return commentOffset;
+}
+
+/**
+ * @param {Buffer} buffer
  *
  * @returns {{ buffer: Buffer; sauce: SauceRecord | null }}
  */
 function stripSauce(buffer) {
     const SAUCE_LENGTH = 128;
-    /**
-     * @param {number} offset
-     *
-     * @returns {number}
-     */
-    const trimDosEofMarkers = (offset) => {
-        let markerStart = offset;
-        let foundMarker = false;
-        while (markerStart > 0) {
-            let markerEnd = markerStart;
-            while (
-                markerEnd > 0 &&
-                (buffer[markerEnd - 1] === 0x0a ||
-                    buffer[markerEnd - 1] === 0x0d)
-            ) {
-                markerEnd -= 1;
-            }
-            let nextMarkerStart = markerEnd;
-            while (
-                nextMarkerStart > 0 &&
-                buffer[nextMarkerStart - 1] === 0x1a
-            ) {
-                nextMarkerStart -= 1;
-            }
-            if (nextMarkerStart === markerEnd) {
-                break;
-            }
-            foundMarker = true;
-            markerStart = nextMarkerStart;
-        }
-        return foundMarker ? markerStart : offset;
-    };
-    const contentEnd = trimDosEofMarkers(buffer.length);
+    const contentEnd = trimDosEofMarkers(buffer, buffer.length);
     const truncatedMarker = buffer.lastIndexOf(
         Buffer.from("\x1aSAUCE00", "binary")
     );
@@ -581,7 +607,10 @@ function stripSauce(buffer) {
         // It cannot be parsed safely, but the explicit DOS EOF + SAUCE00
         // framing is still metadata and must never leak into rendered art.
         return {
-            buffer: buffer.subarray(0, trimDosEofMarkers(truncatedMarker)),
+            buffer: buffer.subarray(
+                0,
+                trimDosEofMarkers(buffer, truncatedMarker)
+            ),
             sauce: null,
         };
     }
@@ -603,37 +632,12 @@ function stripSauce(buffer) {
     );
     const sauce = parseSauceRecord(sauceRecord);
 
-    let trimOffset = sauceOffset;
-
-    if (sauce.comments > 0) {
-        const commentBlockLength = 5 + sauce.comments * 64;
-        const commentOffset = sauceOffset - commentBlockLength;
-        if (commentOffset >= 0) {
-            const commentId = buffer
-                .subarray(commentOffset, commentOffset + 5)
-                .toString("ascii");
-            if (commentId === "COMNT") {
-                trimOffset = commentOffset;
-                for (let index = 0; index < sauce.comments; index += 1) {
-                    const lineOffset = commentOffset + 5 + index * 64;
-                    const decodedComment = iconv.decode(
-                        buffer.subarray(lineOffset, lineOffset + 64),
-                        "cp437"
-                    );
-                    const commentLine =
-                        trimTrailingNulls(decodedComment).trimEnd();
-                    if (commentLine) {
-                        sauce.commentLines.push(commentLine);
-                    }
-                }
-            }
-        }
-    }
+    let trimOffset = readSauceComments(buffer, sauce, sauceOffset);
 
     // A DOS 0x1A end-of-file marker commonly precedes COMNT/SAUCE metadata.
     // Remove only metadata-adjacent markers here. DOS stream truncation is
     // centralized separately so UTF-8 callers can retain interior SUB bytes.
-    trimOffset = trimDosEofMarkers(trimOffset);
+    trimOffset = trimDosEofMarkers(buffer, trimOffset);
 
     return {
         buffer: buffer.subarray(0, trimOffset),

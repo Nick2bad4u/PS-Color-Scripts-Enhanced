@@ -127,33 +127,108 @@ function isValidSauceDate(value) {
     return day <= new Date(Date.UTC(year, month, 0)).getUTCDate();
 }
 
+const REQUIRED_GENERATED_PROPERTIES = Object.freeze([
+    "Collection",
+    "SourceFile",
+    "OriginalFilename",
+    "Format",
+    "SourceUrl",
+    "SourceRevision",
+    "SourceSha256",
+    "SourceRows",
+    "SourceColumns",
+    "InputEncoding",
+    "ConversionMode",
+    "ConvertedFrom",
+    "SourceEncoding",
+    "SourceModification",
+]);
+
+/**
+ * @param {Readonly<Record<string, ProvenanceValue>>} entry
+ * @param {string} property
+ * @param {string} name
+ *
+ * @returns {string}
+ */
+function requireGeneratedString(entry, property, name) {
+    const value = entry[property];
+    if (typeof value !== "string" || !value.trim()) {
+        throw new Error(`${name}: complete provenance requires ${property}.`);
+    }
+    return value;
+}
+
+/**
+ * @param {Readonly<Record<string, ProvenanceValue>>} entry
+ * @param {string} name
+ */
+function validateRequiredGeneratedProperties(entry, name) {
+    for (const property of REQUIRED_GENERATED_PROPERTIES) {
+        requireGeneratedString(entry, property, name);
+    }
+}
+
+/**
+ * @param {Readonly<Record<string, ProvenanceValue>>} entry
+ * @param {string} name
+ */
+function validateGeneratedHashes(entry, name) {
+    if (
+        !SHA256_PATTERN.test(
+            requireGeneratedString(entry, "SourceSha256", name)
+        )
+    ) {
+        throw new Error(`${name}: SourceSha256 must be lowercase SHA-256.`);
+    }
+    for (const property of ["RenderSha256", "NormalizedRenderSha256"]) {
+        const value = entry[property];
+        if (
+            value !== undefined &&
+            (typeof value !== "string" || !SHA256_PATTERN.test(value))
+        ) {
+            throw new Error(`${name}: ${property} must be lowercase SHA-256.`);
+        }
+    }
+}
+
+/**
+ * @param {Readonly<Record<string, ProvenanceValue>>} entry
+ * @param {string} name
+ */
+function validateGeneratedCoordinates(entry, name) {
+    for (const property of ["SourceRows", "SourceColumns"]) {
+        const value = requireGeneratedString(entry, property, name);
+        if (!COORDINATE_PATTERN.test(value)) {
+            throw new Error(
+                `${name}: ${property} must be a one-based inclusive range.`
+            );
+        }
+    }
+}
+
+/**
+ * @param {string} value
+ * @param {string} name
+ */
+function validateGeneratedSourceUrl(value, name) {
+    let sourceUrl;
+    try {
+        sourceUrl = new URL(value);
+    } catch {
+        throw new Error(`${name}: SourceUrl must be an absolute URL.`);
+    }
+    if (sourceUrl.protocol !== "https:" && sourceUrl.protocol !== "http:") {
+        throw new Error(`${name}: SourceUrl must use HTTP or HTTPS.`);
+    }
+}
+
 /**
  * @param {Readonly<Record<string, ProvenanceValue>>} entry
  * @param {string} name
  */
 function validateCompleteGeneratedEntry(entry, name) {
-    for (const property of [
-        "Collection",
-        "SourceFile",
-        "OriginalFilename",
-        "Format",
-        "SourceUrl",
-        "SourceRevision",
-        "SourceSha256",
-        "SourceRows",
-        "SourceColumns",
-        "InputEncoding",
-        "ConversionMode",
-        "ConvertedFrom",
-        "SourceEncoding",
-        "SourceModification",
-    ]) {
-        if (typeof entry[property] !== "string" || !entry[property].trim()) {
-            throw new Error(
-                `${name}: complete provenance requires ${property}.`
-            );
-        }
-    }
+    validateRequiredGeneratedProperties(entry, name);
     if (
         (typeof entry.Artist !== "string" || !entry.Artist.trim()) &&
         (typeof entry.Attribution !== "string" || !entry.Attribution.trim())
@@ -162,33 +237,12 @@ function validateCompleteGeneratedEntry(entry, name) {
             `${name}: complete provenance requires Artist or Attribution.`
         );
     }
-    if (!SHA256_PATTERN.test(String(entry.SourceSha256))) {
-        throw new Error(`${name}: SourceSha256 must be lowercase SHA-256.`);
-    }
-    for (const property of ["RenderSha256", "NormalizedRenderSha256"]) {
-        if (
-            entry[property] !== undefined &&
-            !SHA256_PATTERN.test(String(entry[property]))
-        ) {
-            throw new Error(`${name}: ${property} must be lowercase SHA-256.`);
-        }
-    }
-    for (const property of ["SourceRows", "SourceColumns"]) {
-        if (!COORDINATE_PATTERN.test(String(entry[property]))) {
-            throw new Error(
-                `${name}: ${property} must be a one-based inclusive range.`
-            );
-        }
-    }
-    let sourceUrl;
-    try {
-        sourceUrl = new URL(String(entry.SourceUrl));
-    } catch {
-        throw new Error(`${name}: SourceUrl must be an absolute URL.`);
-    }
-    if (sourceUrl.protocol !== "https:" && sourceUrl.protocol !== "http:") {
-        throw new Error(`${name}: SourceUrl must use HTTP or HTTPS.`);
-    }
+    validateGeneratedHashes(entry, name);
+    validateGeneratedCoordinates(entry, name);
+    validateGeneratedSourceUrl(
+        requireGeneratedString(entry, "SourceUrl", name),
+        name
+    );
 }
 
 /**
@@ -320,23 +374,37 @@ function writeGeneratedArtworkTransaction(
         );
     }
     try {
-        for (const [target, content] of targets) {
-            fs.mkdirSync(path.dirname(target), { recursive: true });
-            let output = content;
-            if (target.endsWith(".ps1") && !content.startsWith("\ufeff")) {
-                output = `\ufeff${content}`;
-            }
-            fs.writeFileSync(target, output, "utf8");
-        }
+        writeGeneratedTargets(targets);
     } catch (error) {
-        for (const [target, content] of previous) {
-            if (content === null) {
-                if (fs.existsSync(target)) fs.rmSync(target);
-            } else {
-                fs.writeFileSync(target, content);
-            }
-        }
+        restoreGeneratedTargets(previous);
         throw error;
+    }
+}
+
+/**
+ * @param {ReadonlyMap<string, string>} targets
+ */
+function writeGeneratedTargets(targets) {
+    for (const [target, content] of targets) {
+        fs.mkdirSync(path.dirname(target), { recursive: true });
+        let output = content;
+        if (target.endsWith(".ps1") && !content.startsWith("\ufeff")) {
+            output = `\ufeff${content}`;
+        }
+        fs.writeFileSync(target, output, "utf8");
+    }
+}
+
+/**
+ * @param {ReadonlyMap<string, Buffer | null>} previous
+ */
+function restoreGeneratedTargets(previous) {
+    for (const [target, content] of previous) {
+        if (content === null) {
+            if (fs.existsSync(target)) fs.rmSync(target);
+            continue;
+        }
+        fs.writeFileSync(target, content);
     }
 }
 

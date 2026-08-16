@@ -51,6 +51,20 @@ const FIDO_ENDPOINT_PATTERN =
     /(?<![\p{L}\p{N}])[\do]{1,3}:[\do]{1,6}\/[\do]{1,6}(?:\.[\do]{1,6})?(?![\p{L}\p{N}])/giu;
 const PHONE_CANDIDATE_PATTERN =
     /(?<![\p{L}\p{N}])(?:\+|00|011)?[\doil(\[][\doil\s()\[\]./·■-]{5,40}[\doil)](?![\p{L}\p{N}])/giu;
+const COMMON_BAUD_RATES = new Set([
+    "300",
+    "1200",
+    "2400",
+    "4800",
+    "9600",
+    "14400",
+    "16800",
+    "19200",
+    "28800",
+    "33600",
+    "56000",
+    "115200",
+]);
 const SOURCE_FIDELITY_LOCK_PATTERN =
     /^# Source Conversion Mode:\s*Passthrough\s*$/imu;
 const CURATION_MODIFICATION_NOTICE =
@@ -330,6 +344,64 @@ function normalizePhoneDigits(value) {
 }
 
 /**
+ * @param {string} digits
+ *
+ * @returns {boolean}
+ */
+function hasDominantPhoneDigit(digits) {
+    const counts = new Map();
+    for (const digit of digits) {
+        counts.set(digit, (counts.get(digit) || 0) + 1);
+    }
+    return Math.max(...counts.values()) / digits.length >= 0.75;
+}
+
+/**
+ * @param {string} visible
+ *
+ * @returns {boolean}
+ */
+function hasDatedReleaseContext(visible) {
+    return (
+        /\b(?:date|released)\s*:/iu.test(visible) &&
+        /\b\d{1,2}\s*[/.-]\s*\d{1,2}\s*[/.-]\s*\d{2,4}\b/u.test(visible)
+    );
+}
+
+/**
+ * @param {string} candidate
+ *
+ * @returns {boolean}
+ */
+function isCalendarDateCandidate(candidate) {
+    return (
+        /\b(?:19|20)\d{2}\s*[/.-]\s*\d{1,2}\s*[/.-]\s*\d{1,2}\b/u.test(
+            candidate
+        ) ||
+        /\b\d{1,2}\s*[/.-]\s*\d{1,2}\s*[/.-]\s*(?:19|20)\d{2}\b/u.test(
+            candidate
+        )
+    );
+}
+
+/**
+ * @param {string} candidate
+ *
+ * @returns {boolean}
+ */
+function isBaudRateList(candidate) {
+    const groups = candidate
+        .replace(/[Oo]/gu, "0")
+        .replace(/[IiLl]/gu, "1")
+        .split(/\D+/gu)
+        .filter(Boolean);
+    return (
+        groups.length >= 2 &&
+        groups.every((group) => COMMON_BAUD_RATES.has(group))
+    );
+}
+
+/**
  * @param {string} candidate
  * @param {string} visible
  *
@@ -338,13 +410,7 @@ function normalizePhoneDigits(value) {
 function isHighConfidencePhone(candidate, visible) {
     const digits = normalizePhoneDigits(candidate);
     if (digits.length < 7 || digits.length > 16) return false;
-    const counts = new Map();
-    for (const digit of digits) {
-        counts.set(digit, (counts.get(digit) || 0) + 1);
-    }
-    if (Math.max(...counts.values()) / digits.length >= 0.75) {
-        return false;
-    }
+    if (hasDominantPhoneDigit(digits)) return false;
 
     const hasContactContext = CONTACT_CONTEXT_PATTERN.test(visible);
     const actualDigits = candidate.replace(/\D/gu, "");
@@ -357,53 +423,15 @@ function isHighConfidencePhone(candidate, visible) {
     if (DATE_TIME_BAUD_PATTERN.test(visible)) {
         return false;
     }
-    if (
-        /\b(?:date|released)\s*:/iu.test(visible) &&
-        /\b\d{1,2}\s*[/.-]\s*\d{1,2}\s*[/.-]\s*\d{2,4}\b/u.test(visible)
-    ) {
-        return false;
-    }
-    const normalizedGroups = candidate
-        .replace(/[Oo]/gu, "0")
-        .replace(/[IiLl]/gu, "1")
-        .split(/\D+/gu)
-        .filter(Boolean);
-    const commonBaudRates = new Set([
-        "300",
-        "1200",
-        "2400",
-        "4800",
-        "9600",
-        "14400",
-        "16800",
-        "19200",
-        "28800",
-        "33600",
-        "56000",
-        "115200",
-    ]);
-    if (
-        normalizedGroups.length >= 2 &&
-        normalizedGroups.every((group) => commonBaudRates.has(group))
-    ) {
-        return false;
-    }
+    if (hasDatedReleaseContext(visible)) return false;
+    if (isBaudRateList(candidate)) return false;
     if (
         CONTACT_FALSE_POSITIVE_CONTEXT_PATTERN.test(visible) &&
         !hasContactContext
     ) {
         return false;
     }
-    if (
-        /\b(?:19|20)\d{2}\s*[/.-]\s*\d{1,2}\s*[/.-]\s*\d{1,2}\b/u.test(
-            candidate
-        ) ||
-        /\b\d{1,2}\s*[/.-]\s*\d{1,2}\s*[/.-]\s*(?:19|20)\d{2}\b/u.test(
-            candidate
-        )
-    ) {
-        return false;
-    }
+    if (isCalendarDateCandidate(candidate)) return false;
 
     const normalizedShape = candidate
         .replace(/[Oo]/gu, "0")

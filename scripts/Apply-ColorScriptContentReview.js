@@ -226,20 +226,8 @@ function loadReview(reviewPath) {
     return result;
 }
 
-/**
- * @param {string[]} arguments_
- *
- * @returns {{
- *     baselineDirectory: string | null;
- *     leadingOnly: boolean;
- *     output: string;
- *     reviewPath: string | null;
- *     scriptsDirectory: string;
- *     write: boolean;
- * }}
- */
-function parseArguments(arguments_) {
-    const options = {
+function createDefaultOptions() {
+    return {
         baselineDirectory: null,
         leadingOnly: false,
         output: path.join(
@@ -252,33 +240,23 @@ function parseArguments(arguments_) {
         scriptsDirectory: DEFAULT_SCRIPTS_DIRECTORY,
         write: false,
     };
-    for (const argument of arguments_) {
-        if (argument === "--write") {
-            options.write = true;
-        } else if (argument === "--leading-only") {
-            options.leadingOnly = true;
-        } else if (argument.startsWith("--baseline-dir=")) {
-            options.baselineDirectory = path.resolve(
-                REPOSITORY_ROOT,
-                argument.slice("--baseline-dir=".length)
-            );
-        } else if (argument.startsWith("--review=")) {
-            options.reviewPath = path.resolve(
-                REPOSITORY_ROOT,
-                argument.slice("--review=".length)
-            );
-        } else if (argument.startsWith("--scripts-dir=")) {
-            options.scriptsDirectory = path.resolve(
-                REPOSITORY_ROOT,
-                argument.slice("--scripts-dir=".length)
-            );
-        } else if (argument.startsWith("--output=")) {
-            options.output = path.resolve(
-                REPOSITORY_ROOT,
-                argument.slice("--output=".length)
-            );
-        } else if (argument === "--help") {
-            console.log(`Usage: node scripts/Apply-ColorScriptContentReview.js [options]
+}
+
+/**
+ * @param {ReturnType<typeof createDefaultOptions>} options
+ * @param {string} argument
+ */
+function applyCommandLineOption(options, argument) {
+    if (argument === "--write") {
+        options.write = true;
+        return;
+    }
+    if (argument === "--leading-only") {
+        options.leadingOnly = true;
+        return;
+    }
+    if (argument === "--help") {
+        console.log(`Usage: node scripts/Apply-ColorScriptContentReview.js [options]
 
 Options:
   --review=<path>        Reviewed row-evidence report to apply
@@ -288,10 +266,48 @@ Options:
   --leading-only         Trim only extreme leading runs expanded by curation
   --write                Apply validated changes (default is a dry run)
   --help                 Show this help`);
-            process.exit(0);
-        } else {
+        process.exit(0);
+    }
+    const optionMatch = /^--([^=]+)=(.*)$/u.exec(argument);
+    if (!optionMatch) throw new Error(`Unknown option: ${argument}`);
+    const [
+        ,
+        optionName,
+        optionValue,
+    ] = optionMatch;
+    switch (optionName) {
+        case "baseline-dir":
+            options.baselineDirectory = path.resolve(
+                REPOSITORY_ROOT,
+                optionValue
+            );
+            return;
+        case "review":
+            options.reviewPath = path.resolve(REPOSITORY_ROOT, optionValue);
+            return;
+        case "scripts-dir":
+            options.scriptsDirectory = path.resolve(
+                REPOSITORY_ROOT,
+                optionValue
+            );
+            return;
+        case "output":
+            options.output = path.resolve(REPOSITORY_ROOT, optionValue);
+            return;
+        default:
             throw new Error(`Unknown option: ${argument}`);
-        }
+    }
+}
+
+/**
+ * @param {string[]} arguments_
+ *
+ * @returns {ReturnType<typeof createDefaultOptions>}
+ */
+function parseArguments(arguments_) {
+    const options = createDefaultOptions();
+    for (const argument of arguments_) {
+        applyCommandLineOption(options, argument);
     }
     if (!options.reviewPath && !options.baselineDirectory) {
         throw new Error("Provide --review, --baseline-dir, or both.");

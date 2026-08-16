@@ -1379,14 +1379,14 @@ function analyzeReviewSignals(records, options) {
 }
 
 /**
- * Review source-level properties once per artwork instead of reporting the same
- * derivative note or deliberately simple composition for every part.
- *
  * @param {ScriptRecord[]} records
  *
- * @returns {Record<string, unknown>[]}
+ * @returns {{
+ *     derivativeFamilies: Map<string, ScriptRecord[]>;
+ *     structuralFamilies: Map<string, ScriptRecord[]>;
+ * }}
  */
-function analyzeFamilyReviewSignals(records) {
+function groupFamilyReviewRecords(records) {
     const derivativeFamilies = new Map();
     const structuralFamilies = new Map();
     for (const record of records) {
@@ -1408,93 +1408,134 @@ function analyzeFamilyReviewSignals(records) {
         structuralMembers.push(record);
         structuralFamilies.set(structuralIdentity, structuralMembers);
     }
+    return { derivativeFamilies, structuralFamilies };
+}
+
+/**
+ * @param {ScriptRecord[]} members
+ *
+ * @returns {string}
+ */
+function getDerivativeEvidence(members) {
+    const provenanceEvidence = [
+        ...new Set(
+            members.flatMap((record) =>
+                Object.entries(record.header)
+                    .filter(([key]) =>
+                        /^(?:SAUCE Comments|Source Attribution)$/u.test(key)
+                    )
+                    .map(([, value]) => value)
+            )
+        ),
+    ];
+    const artworkEvidence = [
+        ...new Set(
+            members.flatMap((record) =>
+                record.lines
+                    .map((line) => line.replace(ESCAPE_SEQUENCE, "").trim())
+                    .filter((line) => DERIVATIVE_SIGNAL.test(line))
+            )
+        ),
+    ];
+    return [...provenanceEvidence, ...artworkEvidence]
+        .filter((value) => DERIVATIVE_SIGNAL.test(value))
+        .join(" | ")
+        .slice(0, 1024);
+}
+
+/**
+ * @param {Record<string, unknown>[]} issues
+ * @param {ScriptRecord[]} members
+ */
+function appendDerivativeFamilyIssues(issues, members) {
+    const family = members[0].splitBase || members[0].name;
+    const scripts = members
+        .map((record) => record.name)
+        .sort((left, right) => left.localeCompare(right));
+    const evidence = getDerivativeEvidence(members);
+    if (evidence) {
+        issues.push({
+            type: "derivative-attribution-review",
+            family,
+            scripts,
+            evidence,
+        });
+    }
+    const colorMetrics = analyzeAnsiLines(
+        members.flatMap((record) => record.lines)
+    );
+    if (
+        colorMetrics.visibleRows < 6 ||
+        colorMetrics.visibleCells < 80 ||
+        colorMetrics.uniqueColorFamilies >= 3
+    ) {
+        return;
+    }
+    issues.push({
+        type: "low-color-variety",
+        family,
+        scripts,
+        visibleRows: colorMetrics.visibleRows,
+        visibleCells: colorMetrics.visibleCells,
+        colorFamilies: colorMetrics.colorFamilies,
+        uniqueColorFamilies: colorMetrics.uniqueColorFamilies,
+        coloredCellRatio: colorMetrics.coloredCellRatio,
+    });
+}
+
+/**
+ * @param {Record<string, unknown>[]} issues
+ * @param {ScriptRecord[]} members
+ */
+function appendStructuralFamilyIssues(issues, members) {
+    members.sort(
+        (left, right) =>
+            (left.sourceRowStart || 0) - (right.sourceRowStart || 0)
+    );
+    const metrics = analyzeAnsiLines(members.flatMap((record) => record.lines));
+    const rowPatternRatio =
+        metrics.visibleRows === 0
+            ? 0
+            : metrics.uniqueRowPatterns / metrics.visibleRows;
+    if (
+        metrics.visibleRows < 40 ||
+        metrics.uniqueGlyphs > 8 ||
+        metrics.uniqueStyles > 10 ||
+        rowPatternRatio > 0.3
+    ) {
+        return;
+    }
+    issues.push({
+        type: "low-structural-complexity",
+        family: members[0].splitBase || members[0].name,
+        scripts: members.map((record) => record.name),
+        visibleRows: metrics.visibleRows,
+        uniqueGlyphs: metrics.uniqueGlyphs,
+        uniqueStyles: metrics.uniqueStyles,
+        uniqueRowPatterns: metrics.uniqueRowPatterns,
+        rowPatternRatio,
+    });
+}
+
+/**
+ * Review source-level properties once per artwork instead of reporting the same
+ * derivative note or deliberately simple composition for every part.
+ *
+ * @param {ScriptRecord[]} records
+ *
+ * @returns {Record<string, unknown>[]}
+ */
+function analyzeFamilyReviewSignals(records) {
+    const { derivativeFamilies, structuralFamilies } =
+        groupFamilyReviewRecords(records);
 
     const issues = [];
     for (const members of derivativeFamilies.values()) {
-        const provenanceEvidence = [
-            ...new Set(
-                members.flatMap((record) =>
-                    Object.entries(record.header)
-                        .filter(([key]) =>
-                            /^(?:SAUCE Comments|Source Attribution)$/u.test(key)
-                        )
-                        .map(([, value]) => value)
-                )
-            ),
-        ];
-        const artworkEvidence = [
-            ...new Set(
-                members.flatMap((record) =>
-                    record.lines
-                        .map((line) => line.replace(ESCAPE_SEQUENCE, "").trim())
-                        .filter((line) => DERIVATIVE_SIGNAL.test(line))
-                )
-            ),
-        ];
-        const evidence = [...provenanceEvidence, ...artworkEvidence]
-            .filter((value) => DERIVATIVE_SIGNAL.test(value))
-            .join(" | ")
-            .slice(0, 1024);
-        if (evidence) {
-            issues.push({
-                type: "derivative-attribution-review",
-                family: members[0].splitBase || members[0].name,
-                scripts: members.map((record) => record.name).sort(),
-                evidence,
-            });
-        }
-        const colorMetrics = analyzeAnsiLines(
-            members.flatMap((record) => record.lines)
-        );
-        if (
-            colorMetrics.visibleRows >= 6 &&
-            colorMetrics.visibleCells >= 80 &&
-            colorMetrics.uniqueColorFamilies < 3
-        ) {
-            issues.push({
-                type: "low-color-variety",
-                family: members[0].splitBase || members[0].name,
-                scripts: members
-                    .map((record) => record.name)
-                    .sort((left, right) => left.localeCompare(right)),
-                visibleRows: colorMetrics.visibleRows,
-                visibleCells: colorMetrics.visibleCells,
-                colorFamilies: colorMetrics.colorFamilies,
-                uniqueColorFamilies: colorMetrics.uniqueColorFamilies,
-                coloredCellRatio: colorMetrics.coloredCellRatio,
-            });
-        }
+        appendDerivativeFamilyIssues(issues, members);
     }
 
     for (const members of structuralFamilies.values()) {
-        members.sort(
-            (left, right) =>
-                (left.sourceRowStart || 0) - (right.sourceRowStart || 0)
-        );
-        const metrics = analyzeAnsiLines(
-            members.flatMap((record) => record.lines)
-        );
-        const rowPatternRatio =
-            metrics.visibleRows === 0
-                ? 0
-                : metrics.uniqueRowPatterns / metrics.visibleRows;
-        if (
-            metrics.visibleRows >= 40 &&
-            metrics.uniqueGlyphs <= 8 &&
-            metrics.uniqueStyles <= 10 &&
-            rowPatternRatio <= 0.3
-        ) {
-            issues.push({
-                type: "low-structural-complexity",
-                family: members[0].splitBase || members[0].name,
-                scripts: members.map((record) => record.name),
-                visibleRows: metrics.visibleRows,
-                uniqueGlyphs: metrics.uniqueGlyphs,
-                uniqueStyles: metrics.uniqueStyles,
-                uniqueRowPatterns: metrics.uniqueRowPatterns,
-                rowPatternRatio,
-            });
-        }
+        appendStructuralFamilyIssues(issues, members);
     }
     return issues;
 }
