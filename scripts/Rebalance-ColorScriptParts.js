@@ -1070,33 +1070,22 @@ function discoverFamilyParts(family, scriptsDirectory) {
 }
 
 /**
- * @param {{
- *     baselineCommit?: string;
- *     classification: ClassificationDocument;
- *     classificationSha256?: string;
- *     readBaselineFile?: (commit: string, relativePath: string) => Buffer;
- *     repositoryRoot?: string;
- *     scriptsDirectory?: string;
- * }} options
+ * @param {ClassificationDocument} classification
  *
- * @returns {RebalanceManifest}
+ * @returns {{
+ *     selected: ReviewFinding[];
+ *     grouped: Map<string, ReviewFinding[]>;
+ * }}
  */
-function buildManifest(options) {
-    const repositoryRoot = options.repositoryRoot ?? REPOSITORY_ROOT;
-    const scriptsDirectory =
-        options.scriptsDirectory ?? DEFAULT_SCRIPTS_DIRECTORY;
-    const baselineCommit = options.baselineCommit ?? DEFAULT_BASELINE_COMMIT;
-    if (!COMMIT_PATTERN.test(baselineCommit)) {
-        throw new Error("Baseline commit must be a hexadecimal Git object ID.");
-    }
+function selectRebalanceFindings(classification) {
     if (
-        !options.classification ||
-        typeof options.classification !== "object" ||
-        !Array.isArray(options.classification.findings)
+        !classification ||
+        typeof classification !== "object" ||
+        !Array.isArray(classification.findings)
     ) {
         throw new Error("Classification input must contain a findings array.");
     }
-    const selected = options.classification.findings.filter(
+    const selected = classification.findings.filter(
         (finding) =>
             finding &&
             typeof finding === "object" &&
@@ -1106,7 +1095,6 @@ function buildManifest(options) {
     if (selected.length === 0) {
         throw new Error("Classification contains no rebalancing findings.");
     }
-    /** @type {Map<string, ReviewFinding[]>} */
     const grouped = new Map();
     for (const finding of selected) {
         if (
@@ -1129,6 +1117,256 @@ function buildManifest(options) {
         });
         grouped.set(parsed.family, records);
     }
+    return { selected, grouped };
+}
+
+/**
+ * @param {string} fileName
+ * @param {{
+ *     baselineCommit: string;
+ *     family: string;
+ *     precedingRange: SourceRange | null;
+ *     readBaselineFile: (commit: string, relativePath: string) => Buffer;
+ *     repositoryRoot: string;
+ *     scriptsDirectory: string;
+ * }} context
+ */
+function buildManifestInput(fileName, context) {
+    const filePath = path.join(context.scriptsDirectory, fileName);
+    const currentBuffer = readRegularFile(filePath);
+    const currentSource = currentBuffer.toString("utf8");
+    if (isSourceFidelityLocked(currentSource)) {
+        throw new Error(
+            `${fileName}: source-fidelity-locked payload cannot be rebalanced.`
+        );
+    }
+    const relativePath = path
+        .relative(context.repositoryRoot, filePath)
+        .replaceAll(path.sep, "/");
+    if (relativePath.startsWith("../") || path.isAbsolute(relativePath)) {
+        throw new Error(
+            `${fileName}: scripts directory must be inside the repository.`
+        );
+    }
+    const baselineBuffer = context.readBaselineFile(
+        context.baselineCommit,
+        relativePath
+    );
+    if (baselineBuffer.length > MAX_SCRIPT_BYTES) {
+        throw new Error(
+            `${fileName}: baseline colorscript exceeds the size limit.`
+        );
+    }
+    const baselineSource = baselineBuffer.toString("utf8");
+    if (isSourceFidelityLocked(baselineSource)) {
+        throw new Error(
+            `${fileName}: baseline source-fidelity lock forbids rebalancing.`
+        );
+    }
+    const currentPayload = extractPowerShellPayload(currentSource);
+    const baselinePayload = extractPowerShellPayload(baselineSource);
+    const currentRows = getPayloadRows(currentPayload.value);
+    const baselineRows = getPayloadRows(baselinePayload.value);
+    const sourceRows = parseSourceRows(baselineSource);
+    if (
+        context.precedingRange &&
+        sourceRows.start !== context.precedingRange.end + 1
+    ) {
+        throw new Error(
+            `${context.family}: baseline source-row ranges are not contiguous.`
+        );
+    }
+    const alignment = alignCurrentRowsToBaseline(baselineRows, currentRows);
+    const baselineCoordinates = mapBaselineSourceCoordinates(
+        baselineRows,
+        sourceRows
+    );
+    const currentCoordinates = baselineCoordinates.slice(
+        alignment.baselineStart,
+        alignment.baselineEnd
+    );
+    if (currentCoordinates.length !== currentRows.length) {
+        throw new Error(`${fileName}: source-coordinate mapping drifted.`);
+    }
+    const mapped = excludeGeneratedPresentationRows(
+        currentRows,
+        currentCoordinates
+    );
+    return {
+        input: {
+            alignment,
+            baselinePayloadRows: baselineRows.length,
+            currentPayloadRows: currentRows.length,
+            expectedBaselineFileSha256: getSha256(baselineBuffer),
+            expectedCurrentFileSha256: getSha256(currentBuffer),
+            expectedCurrentPayloadSha256: getSha256(
+                currentPayload.value.replace(/\r\n?/gu, "\n")
+            ),
+            expectedCurrentRowsSha256: getRowsSha256(currentRows),
+            excludedPresentationRows: mapped.excludedRows,
+            file: fileName,
+            relativePath,
+            sourceRows,
+        },
+        mapped,
+        sourceRows,
+    };
+}
+
+/**
+ * @param {string[]} familyRows
+ * @param {string[]} fileNames
+ * @param {number[]} breaks
+ * @param {SourceRange[]} outputRanges
+ * @param {string} family
+ *
+ * @returns {ManifestOutput[]}
+ */
+function buildManifestOutputs(
+    familyRows,
+    fileNames,
+    breaks,
+    outputRanges,
+    family
+) {
+    const outputs = [];
+    let start = 0;
+    for (const [index, end] of breaks.entries()) {
+        const outputRows = familyRows.slice(start, end);
+        const outputFile = fileNames[index];
+        if (!outputFile) {
+            throw new Error(
+                `${family}: output part count exceeded current files.`
+            );
+        }
+        outputs.push({
+            endRowExclusive: end,
+            expectedRawRowsSha256: getRowsSha256(outputRows),
+            file: outputFile,
+            rowCount: outputRows.length,
+            sourceRows: outputRanges[index],
+            startRow: start,
+            visibleRowCount: getRenderedBlankRows(outputRows).filter(
+                (isBlank) => !isBlank
+            ).length,
+        });
+        start = end;
+    }
+    return outputs;
+}
+
+/**
+ * @param {string} family
+ * @param {ReviewFinding[]} findings
+ * @param {{
+ *     baselineCommit: string;
+ *     readBaselineFile: (commit: string, relativePath: string) => Buffer;
+ *     repositoryRoot: string;
+ *     scriptsDirectory: string;
+ * }} context
+ *
+ * @returns {ManifestFamily}
+ */
+function buildManifestFamily(family, findings, context) {
+    const fileNames = discoverFamilyParts(family, context.scriptsDirectory);
+    const flaggedNames = new Set(
+        findings.map((finding) => `${finding.script}.ps1`)
+    );
+    if ([...flaggedNames].some((fileName) => !fileNames.includes(fileName))) {
+        throw new Error(
+            `${family}: a reviewed finding is not part of the discovered family.`
+        );
+    }
+    const inputs = [];
+    const mappedFamilyRows = [];
+    const mappedFamilyCoordinates = [];
+    let precedingRange = null;
+    for (const fileName of fileNames) {
+        const result = buildManifestInput(fileName, {
+            ...context,
+            family,
+            precedingRange,
+        });
+        inputs.push(result.input);
+        mappedFamilyRows.push(...result.mapped.rows);
+        mappedFamilyCoordinates.push(...result.mapped.coordinates);
+        precedingRange = result.sourceRows;
+    }
+    const firstInput = inputs[0];
+    const lastInput = inputs.at(-1);
+    if (!firstInput || !lastInput) {
+        throw new Error(`${family}: no family inputs were generated.`);
+    }
+    const familyRange = {
+        start: firstInput.sourceRows.start,
+        end: lastInput.sourceRows.end,
+    };
+    const outerTrim = trimRenderedBlankOuterRows(
+        mappedFamilyRows,
+        mappedFamilyCoordinates
+    );
+    const maximumRows = Math.max(
+        DEFAULT_MAXIMUM_ROWS,
+        Math.ceil(outerTrim.rows.length / fileNames.length)
+    );
+    const breaks = chooseFixedPartBreaks(
+        outerTrim.rows,
+        fileNames.length,
+        maximumRows
+    );
+    const outputRanges = deriveOutputSourceRanges(
+        outerTrim.coordinates,
+        breaks,
+        familyRange
+    );
+    return {
+        expectedFamilyRowsSha256: getRowsSha256(outerTrim.rows),
+        expectedMappedFamilyRowsSha256: getRowsSha256(mappedFamilyRows),
+        family,
+        fixedPartCount: fileNames.length,
+        inputs,
+        mappedRowCount: mappedFamilyRows.length,
+        maximumRows,
+        outputs: buildManifestOutputs(
+            outerTrim.rows,
+            fileNames,
+            breaks,
+            outputRanges,
+            family
+        ),
+        outerTrim: {
+            expectedLeadingRowsSha256: getRowsSha256(outerTrim.leadingRows),
+            expectedTrailingRowsSha256: getRowsSha256(outerTrim.trailingRows),
+            leadingRows: outerTrim.leadingRows.length,
+            trailingRows: outerTrim.trailingRows.length,
+        },
+        retainedRowCount: outerTrim.rows.length,
+        reviewFindings: findings,
+        sourceRows: familyRange,
+    };
+}
+
+/**
+ * @param {{
+ *     baselineCommit?: string;
+ *     classification: ClassificationDocument;
+ *     classificationSha256?: string;
+ *     readBaselineFile?: (commit: string, relativePath: string) => Buffer;
+ *     repositoryRoot?: string;
+ *     scriptsDirectory?: string;
+ * }} options
+ *
+ * @returns {RebalanceManifest}
+ */
+function buildManifest(options) {
+    const repositoryRoot = options.repositoryRoot ?? REPOSITORY_ROOT;
+    const scriptsDirectory =
+        options.scriptsDirectory ?? DEFAULT_SCRIPTS_DIRECTORY;
+    const baselineCommit = options.baselineCommit ?? DEFAULT_BASELINE_COMMIT;
+    if (!COMMIT_PATTERN.test(baselineCommit)) {
+        throw new Error("Baseline commit must be a hexadecimal Git object ID.");
+    }
+    const { grouped } = selectRebalanceFindings(options.classification);
 
     const readBaselineFile =
         options.readBaselineFile ??
@@ -1139,7 +1377,6 @@ function buildManifest(options) {
     for (const family of [...grouped.keys()].sort((left, right) =>
         left.localeCompare(right, "en-US")
     )) {
-        const fileNames = discoverFamilyParts(family, scriptsDirectory);
         const groupedFindings = grouped.get(family);
         if (!groupedFindings) {
             throw new Error(`${family}: review findings are missing.`);
@@ -1147,183 +1384,14 @@ function buildManifest(options) {
         const findings = groupedFindings.toSorted((left, right) =>
             left.script.localeCompare(right.script)
         );
-        const flaggedNames = new Set(
-            findings.map((finding) => `${finding.script}.ps1`)
-        );
-        if (
-            [...flaggedNames].some((fileName) => !fileNames.includes(fileName))
-        ) {
-            throw new Error(
-                `${family}: a reviewed finding is not part of the discovered family.`
-            );
-        }
-        /** @type {ManifestInput[]} */
-        const inputs = [];
-        /** @type {string[]} */
-        const mappedFamilyRows = [];
-        /** @type {number[]} */
-        const mappedFamilyCoordinates = [];
-        /** @type {SourceRange | null} */
-        let precedingRange = null;
-        for (const fileName of fileNames) {
-            const filePath = path.join(scriptsDirectory, fileName);
-            const currentBuffer = readRegularFile(filePath);
-            const currentSource = currentBuffer.toString("utf8");
-            if (isSourceFidelityLocked(currentSource)) {
-                throw new Error(
-                    `${fileName}: source-fidelity-locked payload cannot be rebalanced.`
-                );
-            }
-            const relativePath = path
-                .relative(repositoryRoot, filePath)
-                .replaceAll(path.sep, "/");
-            if (
-                relativePath.startsWith("../") ||
-                path.isAbsolute(relativePath)
-            ) {
-                throw new Error(
-                    `${fileName}: scripts directory must be inside the repository.`
-                );
-            }
-            const baselineBuffer = readBaselineFile(
+        families.push(
+            buildManifestFamily(family, findings, {
                 baselineCommit,
-                relativePath
-            );
-            if (baselineBuffer.length > MAX_SCRIPT_BYTES) {
-                throw new Error(
-                    `${fileName}: baseline colorscript exceeds the size limit.`
-                );
-            }
-            const baselineSource = baselineBuffer.toString("utf8");
-            if (isSourceFidelityLocked(baselineSource)) {
-                throw new Error(
-                    `${fileName}: baseline source-fidelity lock forbids rebalancing.`
-                );
-            }
-            const currentPayload = extractPowerShellPayload(currentSource);
-            const baselinePayload = extractPowerShellPayload(baselineSource);
-            const currentRows = getPayloadRows(currentPayload.value);
-            const baselineRows = getPayloadRows(baselinePayload.value);
-            const sourceRows = parseSourceRows(baselineSource);
-            if (precedingRange && sourceRows.start !== precedingRange.end + 1) {
-                throw new Error(
-                    `${family}: baseline source-row ranges are not contiguous.`
-                );
-            }
-            precedingRange = sourceRows;
-            const alignment = alignCurrentRowsToBaseline(
-                baselineRows,
-                currentRows
-            );
-            const baselineCoordinates = mapBaselineSourceCoordinates(
-                baselineRows,
-                sourceRows
-            );
-            const currentCoordinates = baselineCoordinates.slice(
-                alignment.baselineStart,
-                alignment.baselineEnd
-            );
-            if (currentCoordinates.length !== currentRows.length) {
-                throw new Error(
-                    `${fileName}: source-coordinate mapping drifted.`
-                );
-            }
-            const mapped = excludeGeneratedPresentationRows(
-                currentRows,
-                currentCoordinates
-            );
-            inputs.push({
-                alignment,
-                baselinePayloadRows: baselineRows.length,
-                currentPayloadRows: currentRows.length,
-                expectedBaselineFileSha256: getSha256(baselineBuffer),
-                expectedCurrentFileSha256: getSha256(currentBuffer),
-                expectedCurrentPayloadSha256: getSha256(
-                    currentPayload.value.replace(/\r\n?/gu, "\n")
-                ),
-                expectedCurrentRowsSha256: getRowsSha256(currentRows),
-                excludedPresentationRows: mapped.excludedRows,
-                file: fileName,
-                relativePath,
-                sourceRows,
-            });
-            mappedFamilyRows.push(...mapped.rows);
-            mappedFamilyCoordinates.push(...mapped.coordinates);
-        }
-        const firstInput = inputs[0];
-        const lastInput = inputs.at(-1);
-        if (!firstInput || !lastInput) {
-            throw new Error(`${family}: no family inputs were generated.`);
-        }
-        const familyRange = {
-            start: firstInput.sourceRows.start,
-            end: lastInput.sourceRows.end,
-        };
-        const outerTrim = trimRenderedBlankOuterRows(
-            mappedFamilyRows,
-            mappedFamilyCoordinates
+                readBaselineFile,
+                repositoryRoot,
+                scriptsDirectory,
+            })
         );
-        const familyRows = outerTrim.rows;
-        const familyCoordinates = outerTrim.coordinates;
-        const maximumRows = Math.max(
-            DEFAULT_MAXIMUM_ROWS,
-            Math.ceil(familyRows.length / fileNames.length)
-        );
-        const breaks = chooseFixedPartBreaks(
-            familyRows,
-            fileNames.length,
-            maximumRows
-        );
-        const outputRanges = deriveOutputSourceRanges(
-            familyCoordinates,
-            breaks,
-            familyRange
-        );
-        /** @type {ManifestOutput[]} */
-        const outputs = [];
-        let start = 0;
-        for (const [index, end] of breaks.entries()) {
-            const outputRows = familyRows.slice(start, end);
-            const outputFile = fileNames[index];
-            if (!outputFile) {
-                throw new Error(
-                    `${family}: output part count exceeded current files.`
-                );
-            }
-            outputs.push({
-                endRowExclusive: end,
-                expectedRawRowsSha256: getRowsSha256(outputRows),
-                file: outputFile,
-                rowCount: outputRows.length,
-                sourceRows: outputRanges[index],
-                startRow: start,
-                visibleRowCount: getRenderedBlankRows(outputRows).filter(
-                    (isBlank) => !isBlank
-                ).length,
-            });
-            start = end;
-        }
-        families.push({
-            expectedFamilyRowsSha256: getRowsSha256(familyRows),
-            expectedMappedFamilyRowsSha256: getRowsSha256(mappedFamilyRows),
-            family,
-            fixedPartCount: fileNames.length,
-            inputs,
-            mappedRowCount: mappedFamilyRows.length,
-            maximumRows,
-            outputs,
-            outerTrim: {
-                expectedLeadingRowsSha256: getRowsSha256(outerTrim.leadingRows),
-                expectedTrailingRowsSha256: getRowsSha256(
-                    outerTrim.trailingRows
-                ),
-                leadingRows: outerTrim.leadingRows.length,
-                trailingRows: outerTrim.trailingRows.length,
-            },
-            retainedRowCount: familyRows.length,
-            reviewFindings: findings,
-            sourceRows: familyRange,
-        });
     }
 
     return {
@@ -1343,40 +1411,7 @@ function buildManifest(options) {
             visibleRowsPerOutput: true,
         },
         schemaVersion: 2,
-        summary: {
-            excludedPresentationRows: families.reduce(
-                (total, family) =>
-                    total +
-                    family.inputs.reduce(
-                        (familyTotal, input) =>
-                            familyTotal + input.excludedPresentationRows,
-                        0
-                    ),
-                0
-            ),
-            families: families.length,
-            inputs: families.reduce(
-                (total, family) => total + family.inputs.length,
-                0
-            ),
-            outputs: families.reduce(
-                (total, family) => total + family.outputs.length,
-                0
-            ),
-            retainedRows: families.reduce(
-                (total, family) => total + family.retainedRowCount,
-                0
-            ),
-            reviewFindings: selected.length,
-            trimmedLeadingRows: families.reduce(
-                (total, family) => total + family.outerTrim.leadingRows,
-                0
-            ),
-            trimmedTrailingRows: families.reduce(
-                (total, family) => total + family.outerTrim.trailingRows,
-                0
-            ),
-        },
+        summary: getManifestSummary(families),
     };
 }
 
