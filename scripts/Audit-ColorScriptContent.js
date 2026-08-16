@@ -6,9 +6,7 @@ const fs = require("node:fs");
 const path = require("node:path");
 const { spawnSync } = require("node:child_process");
 const { createHash } = require("node:crypto");
-const {
-    convertAnsiToPs1,
-} = require("./Convert-AnsiToColorScript.js");
+const { convertAnsiToPs1 } = require("./Convert-AnsiToColorScript.js");
 
 const REPOSITORY_ROOT = path.resolve(__dirname, "..");
 const DEFAULT_SCRIPTS_DIRECTORY = path.join(
@@ -26,8 +24,7 @@ const ART_GLYPH_PATTERN =
     /[\u00A3\u00AB\u00AC\u00B0\u00B2\u00B7\u00BB\u00BD\u00C7\u00D1\u2022\u207F\u2190-\u21FF\u2219\u2261\u2300-\u23FF\u2500-\u259F\u25A0-\u25FF\u263A-\u263B\u2665\u2800-\u28FF]/gu;
 const ART_GLYPH_SINGLE_PATTERN =
     /^[\u00A3\u00AB\u00AC\u00B0\u00B2\u00B7\u00BB\u00BD\u00C7\u00D1\u2022\u207F\u2190-\u21FF\u2219\u2261\u2300-\u23FF\u2500-\u259F\u25A0-\u25FF\u263A-\u263B\u2665\u2800-\u28FF]$/u;
-const RAW_C0_PATTERN =
-    /^[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]$/u;
+const RAW_C0_PATTERN = /^[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]$/u;
 const LEGACY_CP437_SOURCE_CELL_PATTERN = /^\u0016$/u;
 const NON_BREAKING_SPACE_PATTERN = /^\u00A0$/u;
 const NONSPACE_PATTERN = /\S/gu;
@@ -38,8 +35,7 @@ const CONTACT_FALSE_POSITIVE_CONTEXT_PATTERN =
     /\b(?:anniversary|baud|birthday|bps|date|kbps|open|version|v\d{2}(?:bis)?)\b/iu;
 const DATE_TIME_BAUD_PATTERN =
     /\b\d{1,2}\s*[/.-]\s*\d{1,2}\s*[/.-]\s*\d{2,4}\b[^\r\n]{0,40}\b\d{1,2}\s*:\s*\d{2}\b[^\r\n]{0,40}\b(?:300|1200|2400|4800|9600|14400|16800|19200|28800|33600|56000|115200)\b/iu;
-const EMAIL_PATTERN =
-    /[\p{L}\p{N}._%+-]+@[\p{L}\p{N}.-]+\.[\p{L}]{2,}/giu;
+const EMAIL_PATTERN = /[\p{L}\p{N}._%+-]+@[\p{L}\p{N}.-]+\.[\p{L}]{2,}/giu;
 const NETWORK_ENDPOINT_PATTERN =
     /\b(?:(?:https?|ftp|telnet):\/\/|www\.)[^\s]+|\b(?:bbs|telnet)\.[\p{L}\p{N}.-]+\.[\p{L}]{2,}\b/giu;
 const FIDO_ENDPOINT_PATTERN =
@@ -163,6 +159,7 @@ const POLICY_MATCHERS = Object.freeze(
 
 /**
  * @typedef {Object} PowerShellPayload
+ *
  * @property {number} contentEnd
  * @property {number} contentStart
  * @property {LiteralKind} kind
@@ -171,6 +168,7 @@ const POLICY_MATCHERS = Object.freeze(
 
 /**
  * @typedef {Object} RowAnalysis
+ *
  * @property {number} artGlyphCount
  * @property {number} digitCount
  * @property {boolean} highConfidenceTextOnly
@@ -190,6 +188,7 @@ const POLICY_MATCHERS = Object.freeze(
  * Remove ECMA-48 control sequences while retaining rendered characters.
  *
  * @param {string} value
+ *
  * @returns {string}
  */
 function stripAnsiControls(value) {
@@ -201,6 +200,7 @@ function stripAnsiControls(value) {
 /**
  * @param {string} value
  * @param {RegExp} pattern
+ *
  * @returns {number}
  */
 function countMatches(value, pattern) {
@@ -209,6 +209,7 @@ function countMatches(value, pattern) {
 
 /**
  * @param {unknown} cell
+ *
  * @returns {boolean}
  */
 function isVisibleTerminalCell(cell) {
@@ -234,10 +235,11 @@ function isVisibleTerminalCell(cell) {
 
 /**
  * Render logical rows through the same terminal emulator used by the converter.
- * This is deliberately more expensive than stripping escape sequences: a row
- * of spaces with a background color is visible artwork, not a blank row.
+ * This is deliberately more expensive than stripping escape sequences: a row of
+ * spaces with a background color is visible artwork, not a blank row.
  *
  * @param {string[]} rows
+ *
  * @returns {boolean[]}
  */
 function getRenderedBlankRows(rows) {
@@ -256,6 +258,7 @@ function getRenderedBlankRows(rows) {
 
 /**
  * @param {boolean[]} blankRows
+ *
  * @returns {{
  *     count: number;
  *     endRow: number;
@@ -290,6 +293,7 @@ function findBlankRuns(blankRows) {
 
 /**
  * @param {string} value
+ *
  * @returns {string}
  */
 function normalizePhoneDigits(value) {
@@ -302,6 +306,7 @@ function normalizePhoneDigits(value) {
 /**
  * @param {string} candidate
  * @param {string} visible
+ *
  * @returns {boolean}
  */
 function isHighConfidencePhone(candidate, visible) {
@@ -328,9 +333,7 @@ function isHighConfidencePhone(candidate, visible) {
     }
     if (
         /\b(?:date|released)\s*:/iu.test(visible) &&
-        /\b\d{1,2}\s*[/.-]\s*\d{1,2}\s*[/.-]\s*\d{2,4}\b/u.test(
-            visible
-        )
+        /\b\d{1,2}\s*[/.-]\s*\d{1,2}\s*[/.-]\s*\d{2,4}\b/u.test(visible)
     ) {
         return false;
     }
@@ -355,9 +358,7 @@ function isHighConfidencePhone(candidate, visible) {
     ]);
     if (
         normalizedGroups.length >= 2 &&
-        normalizedGroups.every((group) =>
-            commonBaudRates.has(group)
-        )
+        normalizedGroups.every((group) => commonBaudRates.has(group))
     ) {
         return false;
     }
@@ -384,9 +385,7 @@ function isHighConfidencePhone(candidate, visible) {
         .trim();
     const groups = normalizedShape.split(/\D+/gu).filter(Boolean);
     const hasInternationalPrefix = /^(?:\+|00|011)/u.test(normalizedShape);
-    const hasParenthesizedAreaCode = /\(\s*\d{2,4}\s*\)/u.test(
-        normalizedShape
-    );
+    const hasParenthesizedAreaCode = /\(\s*\d{2,4}\s*\)/u.test(normalizedShape);
     const hasConventionalGroups =
         groups.length >= 2 &&
         groups.at(-1).length === 4 &&
@@ -413,6 +412,7 @@ function isHighConfidencePhone(candidate, visible) {
 
 /**
  * @param {string} visible
+ *
  * @returns {{ categories: string[]; values: string[] }}
  */
 function findContactDetails(visible) {
@@ -448,8 +448,12 @@ function findContactDetails(visible) {
         values.add(match[0].trim());
     }
     return {
-        categories: [...categories].sort(),
-        values: [...values].sort(),
+        categories: [...categories].sort((left, right) =>
+            left.localeCompare(right, "en-US")
+        ),
+        values: [...values].sort((left, right) =>
+            left.localeCompare(right, "en-US")
+        ),
     };
 }
 
@@ -459,6 +463,7 @@ function findContactDetails(visible) {
  * trailing line endings, or provenance claim.
  *
  * @param {string} source
+ *
  * @returns {boolean}
  */
 function isSourceFidelityLocked(source) {
@@ -467,13 +472,12 @@ function isSourceFidelityLocked(source) {
 
 /**
  * @param {string} visible
+ *
  * @returns {{ categories: string[]; terms: string[] }}
  */
 function findPolicyTerms(visible) {
     const lowercase = visible.normalize("NFKC").toLocaleLowerCase("en-US");
-    const normalized = lowercase
-        .replace(/[^\p{L}\p{N}]+/gu, " ")
-        .trim();
+    const normalized = lowercase.replace(/[^\p{L}\p{N}]+/gu, " ").trim();
     const normalizedTokens = new Set(
         normalized.length === 0 ? [] : normalized.split(/\s+/gu)
     );
@@ -500,8 +504,12 @@ function findPolicyTerms(visible) {
     }
 
     return {
-        categories: [...categories].sort(),
-        terms: [...terms].sort(),
+        categories: [...categories].sort((left, right) =>
+            left.localeCompare(right, "en-US")
+        ),
+        terms: [...terms].sort((left, right) =>
+            left.localeCompare(right, "en-US")
+        ),
     };
 }
 
@@ -510,6 +518,7 @@ function findPolicyTerms(visible) {
  * permission to delete the row automatically.
  *
  * @param {string} rawRow
+ *
  * @returns {RowAnalysis}
  */
 function analyzeRow(rawRow) {
@@ -521,8 +530,7 @@ function analyzeRow(rawRow) {
     const words = [...visible.matchAll(WORD_PATTERN)]
         .map((match) => match[0])
         .filter((word) => [...word].length >= 2);
-    const letterRatio =
-        nonspaceCount === 0 ? 0 : letterCount / nonspaceCount;
+    const letterRatio = nonspaceCount === 0 ? 0 : letterCount / nonspaceCount;
     const artGlyphRatio =
         nonspaceCount === 0 ? 0 : artGlyphCount / nonspaceCount;
     const hasSubstantiveWord = words.some((word) => [...word].length >= 3);
@@ -559,6 +567,7 @@ function analyzeRow(rawRow) {
 
 /**
  * @param {string} source
+ *
  * @returns {PowerShellPayload}
  */
 function extractPowerShellPayload(source) {
@@ -610,6 +619,7 @@ function extractPowerShellPayload(source) {
 /**
  * @param {string} value
  * @param {LiteralKind} kind
+ *
  * @returns {string}
  */
 function serializePayload(value, kind) {
@@ -620,6 +630,7 @@ function serializePayload(value, kind) {
  * @param {string} source
  * @param {PowerShellPayload} payload
  * @param {string[]} rows
+ *
  * @returns {string}
  */
 function replacePayloadRows(source, payload, rows) {
@@ -639,6 +650,7 @@ function replacePayloadRows(source, payload, rows) {
  *
  * @param {string[]} rows
  * @param {Set<number>} indexes Zero-based row indexes.
+ *
  * @returns {string[]}
  */
 function removeRowsPreservingControls(rows, indexes) {
@@ -663,12 +675,11 @@ function removeRowsPreservingControls(rows, indexes) {
 
 /**
  * @param {string} visible
+ *
  * @returns {string}
  */
 function getReviewEvidenceHash(visible) {
-    return createHash("sha256")
-        .update(visible.trim(), "utf8")
-        .digest("hex");
+    return createHash("sha256").update(visible.trim(), "utf8").digest("hex");
 }
 
 /**
@@ -678,6 +689,7 @@ function getReviewEvidenceHash(visible) {
  *
  * @param {string} file
  * @param {{ text: string }} row
+ *
  * @returns {boolean}
  */
 function isFunctionalContactException(file, row) {
@@ -700,6 +712,7 @@ function isFunctionalContactException(file, row) {
  *     sha256?: string;
  *     text?: string;
  * }[]} evidence
+ *
  * @returns {{
  *     blankedRows: number;
  *     changed: boolean;
@@ -724,8 +737,7 @@ function applyReviewedRows(source, evidence) {
             item.row > rows.length ||
             (typeof item.text !== "string" &&
                 (typeof item.sha256 !== "string" ||
-                    !/^[a-f\d]{64}$/u.test(item.sha256)))
-            ||
+                    !/^[a-f\d]{64}$/u.test(item.sha256))) ||
             (item.action != null &&
                 item.action !== "blank-columns" &&
                 item.action !== "blank-text" &&
@@ -735,9 +747,7 @@ function applyReviewedRows(source, evidence) {
                     typeof item.expectedRawSha256 !== "string" ||
                     !/^[a-f\d]{64}$/u.test(item.expectedRawSha256) ||
                     typeof item.expectedRenderedSha256 !== "string" ||
-                    !/^[a-f\d]{64}$/u.test(
-                        item.expectedRenderedSha256
-                    ))) ||
+                    !/^[a-f\d]{64}$/u.test(item.expectedRenderedSha256))) ||
             (!isBlankColumns &&
                 (item.columnRanges != null ||
                     item.expectedRawSha256 != null ||
@@ -770,10 +780,7 @@ function applyReviewedRows(source, evidence) {
         if (action === "remove-row") {
             removeIndexes.add(rowIndex);
         } else if (action === "blank-columns") {
-            const blanked = blankTextColumns(
-                rows[rowIndex],
-                item.columnRanges
-            );
+            const blanked = blankTextColumns(rows[rowIndex], item.columnRanges);
             const rawHash = getRawRowHash(blanked);
             const renderedHash = getReviewEvidenceHash(
                 stripAnsiControls(blanked)
@@ -834,6 +841,7 @@ function applyReviewedRows(source, evidence) {
  *
  * @param {string} source
  * @param {string} baselineSource
+ *
  * @returns {{
  *     changed: boolean;
  *     removedRows: number;
@@ -882,6 +890,7 @@ function compactBlankRowsIntroducedSince(source, baselineSource) {
  *
  * @param {string} source
  * @param {string} baselineSource
+ *
  * @returns {{
  *     changed: boolean;
  *     removedRows: number;
@@ -913,8 +922,7 @@ function trimExpandedLeadingBlankRows(source, baselineSource) {
             : firstBaselineVisible;
     const isExtreme =
         currentLeadingRows >= 15 ||
-        (currentLeadingRows >= 3 &&
-            currentLeadingRows / rows.length >= 0.5);
+        (currentLeadingRows >= 3 && currentLeadingRows / rows.length >= 0.5);
     if (
         !isExtreme ||
         currentLeadingRows <= baselineLeadingRows ||
@@ -948,6 +956,7 @@ function trimExpandedLeadingBlankRows(source, baselineSource) {
  * terminal-art glyphs at their original columns.
  *
  * @param {string} rawRow
+ *
  * @returns {string}
  */
 function blankTextRow(rawRow) {
@@ -956,7 +965,7 @@ function blankTextRow(rawRow) {
 
     for (const match of rawRow.matchAll(ANSI_CONTROL_PATTERN)) {
         const plainText = rawRow.slice(cursor, match.index);
-        result += [...plainText]
+        result += Array.from(plainText)
             .map((character) => {
                 if (
                     /\s/u.test(character) ||
@@ -971,7 +980,7 @@ function blankTextRow(rawRow) {
         cursor = match.index + match[0].length;
     }
 
-    result += [...rawRow.slice(cursor)]
+    result += Array.from(rawRow.slice(cursor))
         .map((character) => {
             if (
                 /\s/u.test(character) ||
@@ -989,13 +998,12 @@ function blankTextRow(rawRow) {
  * Validate one-based inclusive terminal-cell column ranges.
  *
  * @param {unknown} columnRanges
+ *
  * @returns {{ end: number; start: number }[]}
  */
 function validateColumnRanges(columnRanges) {
     if (!Array.isArray(columnRanges) || columnRanges.length === 0) {
-        throw new RangeError(
-            "Column ranges must be a non-empty array."
-        );
+        throw new RangeError("Column ranges must be a non-empty array.");
     }
     let previousEnd = 0;
     return columnRanges.map((range) => {
@@ -1020,12 +1028,13 @@ function validateColumnRanges(columnRanges) {
 /**
  * Blank only explicitly reviewed source-cell columns. ANSI sequences do not
  * consume a source cell. The one legacy raw CP437 0x16 glyph required by the
- * retained corpus consumes one source cell and is retained byte-for-byte;
- * every other unmatched C0 byte fails closed. The accepted glyph set is
- * deliberately narrow so ambiguous Unicode display widths fail closed.
+ * retained corpus consumes one source cell and is retained byte-for-byte; every
+ * other unmatched C0 byte fails closed. The accepted glyph set is deliberately
+ * narrow so ambiguous Unicode display widths fail closed.
  *
  * @param {string} rawRow
  * @param {{ end: number; start: number }[]} columnRanges
+ *
  * @returns {string}
  */
 function blankTextColumns(rawRow, columnRanges) {
@@ -1043,6 +1052,7 @@ function blankTextColumns(rawRow, columnRanges) {
 
     /**
      * @param {string} plainText
+     *
      * @returns {void}
      */
     const appendPlainText = (plainText) => {
@@ -1129,6 +1139,7 @@ function blankTextColumns(rawRow, columnRanges) {
 
 /**
  * @param {string} rawRow
+ *
  * @returns {string}
  */
 function getRawRowHash(rawRow) {
@@ -1137,6 +1148,7 @@ function getRawRowHash(rawRow) {
 
 /**
  * @param {string} source
+ *
  * @returns {{
  *     blankedRows: number;
  *     changed: boolean;
@@ -1151,10 +1163,7 @@ function removeFlaggedText(source) {
     let blankedRows = 0;
     const cleanedRows = rows.map((row) => {
         const analysis = analyzeRow(row);
-        if (
-            !analysis.textOnlyCandidate &&
-            analysis.policyTerms.length === 0
-        ) {
+        if (!analysis.textOnlyCandidate && analysis.policyTerms.length === 0) {
             return row;
         }
         blankedRows += 1;
@@ -1191,20 +1200,19 @@ function removeFlaggedText(source) {
 
 /**
  * @param {string} source
+ *
  * @returns {string}
  */
 function documentCuration(source) {
     const modificationPattern = /^# Source Modification:.*$/mu;
     return modificationPattern.test(source)
-        ? source.replace(
-              modificationPattern,
-              CURATION_MODIFICATION_NOTICE
-          )
+        ? source.replace(modificationPattern, CURATION_MODIFICATION_NOTICE)
         : source;
 }
 
 /**
  * @param {string} source
+ *
  * @returns {{
  *     changed: boolean;
  *     removedRows: number;
@@ -1247,6 +1255,7 @@ function removeTrailingBlankRows(source) {
 
 /**
  * @param {string} source
+ *
  * @returns {{
  *     contactRows: object[];
  *     internalBlankRuns: object[];
@@ -1316,10 +1325,11 @@ function auditSource(source) {
 /**
  * A script can fail terminal rendering or use a dynamic Write-Host expression
  * that the static payload extractor intentionally rejects. Search its authored
- * executable lines as a conservative fallback so those failures do not become
- * a blind spot for literal contact data. Provenance comments are excluded.
+ * executable lines as a conservative fallback so those failures do not become a
+ * blind spot for literal contact data. Provenance comments are excluded.
  *
  * @param {string} source
+ *
  * @returns {{
  *     categories: string[];
  *     row: number;
@@ -1347,6 +1357,7 @@ function auditAuthoredSourceContacts(source) {
 /**
  * @param {string} revision
  * @param {string} scriptsDirectory
+ *
  * @returns {string[]}
  */
 function getAddedFiles(revision, scriptsDirectory) {
@@ -1381,6 +1392,7 @@ function getAddedFiles(revision, scriptsDirectory) {
 
 /**
  * @param {string} scriptsDirectory
+ *
  * @returns {string[]}
  */
 function getWorkingTreeFiles(scriptsDirectory) {
@@ -1412,6 +1424,7 @@ function getWorkingTreeFiles(scriptsDirectory) {
 
 /**
  * @param {string} directory
+ *
  * @returns {string[]}
  */
 function getAllScripts(directory) {
@@ -1427,6 +1440,7 @@ function getAllScripts(directory) {
 
 /**
  * @param {string[]} arguments_
+ *
  * @returns {{
  *     changedSince: string | null;
  *     documentWorkingTree: boolean;
@@ -1494,6 +1508,7 @@ Options:
 
 /**
  * @param {string[]} arguments_
+ *
  * @returns {void}
  */
 function main(arguments_ = process.argv.slice(2)) {
@@ -1548,10 +1563,7 @@ function main(arguments_ = process.argv.slice(2)) {
                 (audit.textRows.length > 0 || audit.policyRows.length > 0)
                     ? auditSource(source)
                     : audit;
-            if (
-                options.fixTrailing &&
-                postTextAudit.trailingBlankRows > 0
-            ) {
+            if (options.fixTrailing && postTextAudit.trailingBlankRows > 0) {
                 const cleanup = removeTrailingBlankRows(source);
                 if (cleanup.changed) {
                     fs.writeFileSync(file, cleanup.source, "utf8");
@@ -1612,8 +1624,7 @@ function main(arguments_ = process.argv.slice(2)) {
                 source == null
                     ? []
                     : auditAuthoredSourceContacts(source).filter(
-                          (row) =>
-                              !isFunctionalContactException(file, row)
+                          (row) => !isFunctionalContactException(file, row)
                       );
             failures.push({
                 error: error instanceof Error ? error.message : String(error),
@@ -1645,11 +1656,9 @@ function main(arguments_ = process.argv.slice(2)) {
             filesWithContactRows: records.filter(
                 (record) => record.contactRows.length > 0
             ).length,
-            functionalContactExceptions:
-                functionalContactExceptions.length,
+            functionalContactExceptions: functionalContactExceptions.length,
             failedFileContactRows: failures.reduce(
-                (total, failure) =>
-                    total + failure.fallbackContactRows.length,
+                (total, failure) => total + failure.fallbackContactRows.length,
                 0
             ),
             failedFilesWithContactRows: failures.filter(
@@ -1674,9 +1683,8 @@ function main(arguments_ = process.argv.slice(2)) {
             internalBlankRuns: records.reduce(
                 (total, record) =>
                     total +
-                    record.internalBlankRuns.filter(
-                        (run) => run.count >= 3
-                    ).length,
+                    record.internalBlankRuns.filter((run) => run.count >= 3)
+                        .length,
                 0
             ),
             leadingBlankRows: records.reduce(

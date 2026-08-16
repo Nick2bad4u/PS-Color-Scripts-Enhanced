@@ -48,7 +48,7 @@ function createPolicyRemovalManifest(
     const sourceIndex = new Map();
     for (const document of auditDocuments) {
         if (!Array.isArray(document)) {
-            throw new Error(
+            throw new TypeError(
                 "Policy audit input must be an array of source records."
             );
         }
@@ -97,11 +97,15 @@ function createPolicyRemovalManifest(
                 !Array.isArray(source.scripts) ||
                 source.scripts.length === 0
             ) {
-                throw new Error(`${id}: policy source metadata is malformed.`);
+                throw new TypeError(
+                    `${id}: policy source metadata is malformed.`
+                );
             }
             const scripts = source.scripts.map((name) => {
                 if (typeof name !== "string") {
-                    throw new Error(`${id}: policy script name is malformed.`);
+                    throw new TypeError(
+                        `${id}: policy script name is malformed.`
+                    );
                 }
                 assertSafeScriptName(name);
                 if (seenScripts.has(name)) {
@@ -131,7 +135,9 @@ function createPolicyRemovalManifest(
                     left.localeCompare(right, "en-US")
                 ),
                 sourceUrl: source.sourceUrl,
-                tags: [...new Set(source.tags)].sort(),
+                tags: [...new Set(source.tags)].sort((left, right) =>
+                    left.localeCompare(right, "en-US")
+                ),
             };
         })
         .sort((left, right) => left.id.localeCompare(right.id, "en-US"));

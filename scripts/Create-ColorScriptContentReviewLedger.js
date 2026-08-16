@@ -50,7 +50,7 @@ function normalizeCategories(value) {
                     /^[a-z][a-z\d-]*$/u.test(category)
             )
         ),
-    ].sort();
+    ].sort((left, right) => left.localeCompare(right, "en-US"));
 }
 
 /**
@@ -118,7 +118,7 @@ function addEvidence(candidates, evidence) {
     }
     const categories = [
         ...new Set([...(existing?.categories || []), ...evidence.categories]),
-    ].sort();
+    ].sort((left, right) => left.localeCompare(right, "en-US"));
     rows.set(evidence.row, {
         action:
             evidence.action ||

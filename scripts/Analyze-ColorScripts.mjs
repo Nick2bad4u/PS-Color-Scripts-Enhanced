@@ -35,6 +35,18 @@ const ANSI_COLOR_FAMILIES = [
     "cyan",
     "neutral",
 ];
+
+/**
+ * @param {Record<string, unknown>} issue
+ *
+ * @returns {string}
+ */
+function requireIssueType(issue) {
+    if (typeof issue.type !== "string" || issue.type.length === 0) {
+        throw new TypeError("Analysis issue type must be a non-empty string.");
+    }
+    return issue.type;
+}
 const KNOWN_ISSUE_TYPES = new Set([
     "analysis-error",
     "avoidable-extra-part",
@@ -719,7 +731,9 @@ function analyzeAnsiLines(lines) {
         blockGlyphRatio: ratio(blockGlyphs),
         boxGlyphRatio: ratio(boxGlyphs),
         extendedGlyphRatio: ratio(extendedGlyphs),
-        colorFamilies: [...colorFamilies].sort(),
+        colorFamilies: [...colorFamilies].sort((left, right) =>
+            left.localeCompare(right, "en-US")
+        ),
         uniqueColorFamilies: colorFamilies.size,
         coloredCellRatio: visibleCells === 0 ? 0 : coloredCells / visibleCells,
         cellDensity:
@@ -1511,7 +1525,7 @@ function buildReport(scriptsDirectory, options, exceptions = []) {
     const exceptionResult = applyAnalysisExceptions(detectedIssues, exceptions);
     const issues = exceptionResult.issues;
     const issuesByType = Object.fromEntries(
-        Object.entries(Object.groupBy(issues, (issue) => String(issue.type)))
+        Object.entries(Object.groupBy(issues, requireIssueType))
             .sort(([left], [right]) => left.localeCompare(right))
             .map(([type, values]) => [type, values.length])
     );
@@ -1561,10 +1575,10 @@ function filterReport(report, issueTypes) {
     if (issueTypes.length === 0) return report;
     const selectedTypes = new Set(issueTypes);
     const issues = report.issues.filter((issue) =>
-        selectedTypes.has(String(issue.type))
+        selectedTypes.has(requireIssueType(issue))
     );
     const issuesByType = Object.fromEntries(
-        Object.entries(Object.groupBy(issues, (issue) => String(issue.type)))
+        Object.entries(Object.groupBy(issues, requireIssueType))
             .sort(([left], [right]) => left.localeCompare(right))
             .map(([type, values]) => [type, values.length])
     );

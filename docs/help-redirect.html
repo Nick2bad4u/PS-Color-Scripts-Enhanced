@@ -17,8 +17,8 @@
                 align-items: center;
                 min-height: 100vh;
                 margin: 0;
-                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-                color: white;
+                background: linear-gradient(135deg, #4455b8 0%, #5a337a 100%);
+                color: #ffffff;
                 position: relative;
                 overflow: hidden;
             }
@@ -85,18 +85,18 @@
     </head>
     <body>
         <div class="overlay"></div>
-        <div
-            class="container"
-            role="status"
-            aria-live="polite"
-        >
+        <div class="container">
             <div
                 class="spinner"
                 aria-label="Loading"
             >
                 <span class="visually-hidden">Loading...</span>
             </div>
-            <div class="message">Redirecting to help documentation...</div>
+            <output
+                class="message"
+                aria-live="polite"
+                >Redirecting to help documentation...</output
+            >
             <div
                 class="details"
                 id="languageInfo"
@@ -140,7 +140,7 @@
             };
 
             // Supported cultures in the module
-            const supportedCultures = [
+            const supportedCultures = new Set([
                 "de",
                 "en-US",
                 "es",
@@ -151,12 +151,12 @@
                 "pt",
                 "ru",
                 "zh-CN",
-            ];
+            ]);
             // Get user's preferred language
             function getUserLanguage() {
                 // Try to get from URL parameter first
                 const urlLang = urlParams.get("lang");
-                if (urlLang && supportedCultures.includes(urlLang)) {
+                if (urlLang && supportedCultures.has(urlLang)) {
                     return urlLang;
                 }
 
@@ -167,13 +167,13 @@
 
                 for (const lang of browserLanguages) {
                     // Check exact match first
-                    if (supportedCultures.includes(lang)) {
+                    if (supportedCultures.has(lang)) {
                         return lang;
                     }
 
                     // Check mapped language
                     const mapped = languageMap[lang];
-                    if (mapped && supportedCultures.includes(mapped)) {
+                    if (mapped && supportedCultures.has(mapped)) {
                         return mapped;
                     }
                 }

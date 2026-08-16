@@ -263,7 +263,7 @@ function analyzeCoverage(coordinates, sourceWidth, sourceHeight) {
     }
     return {
         complete: problems.length === 0,
-        columnRanges: columnRanges.sort((left, right) =>
+        columnRanges: columnRanges.toSorted((left, right) =>
             left.localeCompare(right, undefined, { numeric: true })
         ),
         problems,

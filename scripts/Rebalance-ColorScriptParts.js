@@ -490,10 +490,7 @@ function excludeGeneratedPresentationRows(rows, coordinates) {
     const excludedRows = nullIndexes.length;
     const mappedRows = rows.slice(excludedRows);
     const mappedCoordinates = coordinates.slice(excludedRows);
-    if (
-        mappedRows.length < 1 ||
-        mappedCoordinates.some((coordinate) => coordinate === null)
-    ) {
+    if (mappedRows.length < 1 || mappedCoordinates.includes(null)) {
         throw new Error(
             "Presentation-row exclusion must retain source-mapped rows."
         );
@@ -1001,13 +998,15 @@ function buildManifest(options) {
             readGitFile(commit, relativePath, repositoryRoot));
     /** @type {ManifestFamily[]} */
     const families = [];
-    for (const family of [...grouped.keys()].sort()) {
+    for (const family of [...grouped.keys()].sort((left, right) =>
+        left.localeCompare(right, "en-US")
+    )) {
         const fileNames = discoverFamilyParts(family, scriptsDirectory);
         const groupedFindings = grouped.get(family);
         if (!groupedFindings) {
             throw new Error(`${family}: review findings are missing.`);
         }
-        const findings = groupedFindings.sort((left, right) =>
+        const findings = groupedFindings.toSorted((left, right) =>
             left.script.localeCompare(right.script)
         );
         const flaggedNames = new Set(

@@ -114,7 +114,9 @@ function createGeometryReviewManifest(classification, scriptsDirectory) {
             typeof finding.script !== "string" ||
             typeof finding.rationale !== "string"
         ) {
-            throw new Error("Geometry classification finding is malformed.");
+            throw new TypeError(
+                "Geometry classification finding is malformed."
+            );
         }
         assertSafeScriptName(finding.script);
         const script = `${finding.script}.ps1`;

@@ -126,7 +126,7 @@ function runPowerShell(scriptPath) {
             0,
             `${executable}: ${result.error?.message || result.stderr || result.stdout}`
         );
-        return result.stdout.replace(/\r\n/g, "\n");
+        return result.stdout.replaceAll("\r\n", "\n");
     });
 }
 
@@ -230,10 +230,10 @@ test("passthrough preserves sequential ANSI colors, line endings, and apostrophe
         conversion.error?.message || conversion.stderr || conversion.stdout
     );
     const generatedSource = fs.readFileSync(outputPath, "utf8");
-    assert.match(generatedSource, /  ''  `/u);
+    assert.match(generatedSource, / {2}'' {2}`/u);
     assert.match(generatedSource, /^# Source Conversion Mode: Passthrough$/mu);
 
-    const expected = payload.replace(/\r\n/g, "\n");
+    const expected = payload.replaceAll("\r\n", "\n");
     runPowerShell(outputPath).forEach((stdout) =>
         assert.equal(stdout, expected)
     );
@@ -249,7 +249,7 @@ test("PowerShell converter emits safe PS5.1-compatible scripts", () => {
         "`n ' apostrophe",
         "'@",
     ].join("\n");
-    fs.writeFileSync(inputPath, payload.replace(/\n/g, "\r\n"), "ascii");
+    fs.writeFileSync(inputPath, payload.replaceAll("\n", "\r\n"), "ascii");
 
     for (const executable of getPowerShellExecutables()) {
         const outputPath = path.join(
@@ -305,7 +305,7 @@ test("PowerShell converter derives one output name per pipeline item", () => {
     const secondInput = path.join(directory, "second.ans");
     fs.writeFileSync(firstInput, "first", "ascii");
     fs.writeFileSync(secondInput, "second", "ascii");
-    const quote = (value) => `'${value.replace(/'/g, "''")}'`;
+    const quote = (value) => `'${value.replaceAll("'", "''")}'`;
     const converter = path.join(
         __dirname,
         "../scripts/Convert-AnsiToColorScript.ps1"
@@ -560,10 +560,7 @@ test("source metadata comments sanitize controls and preserve SAUCE provenance",
         /# Source URL: https:\/\/example\.test\/source\.ans Write-Error provenance/
     );
     assert.match(header, /# Source Attribution: Artist Injected line/);
-    assert.equal(
-        header.split("\n").some((line) => line === "Write-Error injected"),
-        false
-    );
+    assert.equal(header.split("\n").includes("Write-Error injected"), false);
 });
 
 test("source metadata comments omit incomplete or invalid SAUCE fields", () => {

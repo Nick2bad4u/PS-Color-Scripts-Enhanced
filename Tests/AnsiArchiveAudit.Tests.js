@@ -314,7 +314,15 @@ test("16colors pagination validates totals and preserves numeric pack names", as
     assert.equal(inventory.reportedTotal, 3);
     assert.equal(inventory.enumeratedCount, 3);
     assert.deepEqual(
-        inventory.packs.map((pack) => String(pack.name)),
+        inventory.packs.map((pack) => {
+            if (
+                typeof pack.name !== "string" &&
+                typeof pack.name !== "number"
+            ) {
+                assert.fail("Pack name must be a string or number.");
+            }
+            return pack.name.toString();
+        }),
         [
             "1990",
             "mist0624",
@@ -558,10 +566,8 @@ test("classification rejects source fonts whose glyphs or aspect cannot survive 
         );
         assert.equal(result.disposition, "rejected-unsupported-font");
         assert.equal(result.review, false);
-        assert.match(
-            String(result.reviewNote),
-            /cannot be (?:reproduced|preserved)/u
-        );
+        assert.equal(typeof result.reviewNote, "string");
+        assert.match(result.reviewNote, /cannot be (?:reproduced|preserved)/u);
     }
 
     assert.equal(
@@ -603,11 +609,13 @@ test("missing previews do not misclassify valid artwork as malformed", async () 
 
     assert.equal(candidate.disposition, "pending-review");
     assert.equal(candidate.review, true);
-    assert.match(String(candidate.previewError), /Offline cache miss/u);
+    assert.equal(typeof candidate.previewError, "string");
+    assert.match(candidate.previewError, /Offline cache miss/u);
     assert.equal(candidate.previewKind, "local-terminal-render");
-    assert.match(String(candidate.previewPath), /\.svg$/u);
+    assert.equal(typeof candidate.previewPath, "string");
+    assert.match(candidate.previewPath, /\.svg$/u);
     assert.match(
-        fs.readFileSync(String(candidate.previewPath), "utf8"),
+        fs.readFileSync(candidate.previewPath, "utf8"),
         /<svg[^>]+viewBox="0 0 640 16"/u
     );
 });

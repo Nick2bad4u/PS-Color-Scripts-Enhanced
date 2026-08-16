@@ -57,7 +57,13 @@ test("hash-locked artwork files disable Git line-ending conversion", () => {
     ];
     const output = childProcess.execFileSync(
         "git",
-        ["check-attr", "-z", "text", "--", ...paths],
+        [
+            "check-attr",
+            "-z",
+            "text",
+            "--",
+            ...paths,
+        ],
         {
             cwd: REPOSITORY_ROOT,
             encoding: "utf8",
@@ -310,8 +316,13 @@ test("checked-in provenance maps every imported script exactly once", () => {
                 importedPrefixes.some((prefix) => name.startsWith(prefix))
         )
         .map((name) => name.slice(0, -4))
-        .sort();
-    assert.deepEqual([...provenance.scripts.keys()].sort(), importedNames);
+        .sort((left, right) => left.localeCompare(right, "en-US"));
+    assert.deepEqual(
+        [...provenance.scripts.keys()].sort((left, right) =>
+            left.localeCompare(right, "en-US")
+        ),
+        importedNames
+    );
 });
 
 test("migration stores missing archival fields and reconstructs the legacy digest", () => {

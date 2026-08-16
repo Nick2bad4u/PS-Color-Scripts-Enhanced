@@ -115,7 +115,7 @@ test("analysis scopes include a split family only when every sibling is removed"
         getFullyRemovedAnalysisScopes(
             ["16c-example-part01", "16c-example-part02"],
             available
-        ).sort(),
+        ).sort((left, right) => left.localeCompare(right, "en-US")),
         [
             "16c-example",
             "16c-example-part01",

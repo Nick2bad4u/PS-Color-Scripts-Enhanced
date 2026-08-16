@@ -72,18 +72,20 @@ if ($ConfigPath) {
 }
 
 if (-not $Paths) {
-    $Paths = Get-ChildItem -Path $repoRoot -Filter '*.md' -File -Recurse | Where-Object {
-        $relativePath = $_.FullName.Substring($repoRoot.Path.Length)
-        $_.Name -ine 'AGENTS.md' -and
-        $relativePath -notmatch '^[\\/]node_modules[\\/]' -and
-        $relativePath -notmatch '^[\\/]\.git[\\/]' -and
-        $relativePath -notmatch '^[\\/]dist[\\/]' -and
-        $relativePath -notmatch '^[\\/]temp[\\/]' -and
-        $relativePath -notmatch '^[\\/]\.vscode[\\/]' -and
-        $relativePath -notmatch '^[\\/]\.idea[\\/]' -and
-        $relativePath -notmatch '^[\\/]\.github[\\/]' -and
-        $relativePath -notmatch '^[\\/]Invoke-MarkdownLinkCheck.ps1[\\/]'
-    } | Select-Object -ExpandProperty FullName
+    $Paths = Get-ChildItem -Path $repoRoot -Filter '*.md' -File -Recurse |
+        Where-Object {
+            $relativePath = $_.FullName.Substring($repoRoot.Path.Length)
+            $_.Name -ine 'AGENTS.md' -and
+            $relativePath -notmatch '^[\\/]node_modules[\\/]' -and
+            $relativePath -notmatch '^[\\/]\.git[\\/]' -and
+            $relativePath -notmatch '^[\\/]dist[\\/]' -and
+            $relativePath -notmatch '^[\\/]temp[\\/]' -and
+            $relativePath -notmatch '^[\\/]\.vscode[\\/]' -and
+            $relativePath -notmatch '^[\\/]\.idea[\\/]' -and
+            $relativePath -notmatch '^[\\/]\.github[\\/]' -and
+            $relativePath -notmatch '^[\\/]Invoke-MarkdownLinkCheck.ps1[\\/]'
+        } |
+        Select-Object -ExpandProperty FullName
 }
 else {
     $Paths = $Paths | ForEach-Object { Resolve-ScanPath -Path $_ }

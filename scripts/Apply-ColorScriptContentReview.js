@@ -26,6 +26,7 @@ const MAX_SOURCE_BYTES = 16 * 1024 * 1024;
 
 /**
  * @param {string} fileName
+ *
  * @returns {void}
  */
 function assertSafeFileName(fileName) {
@@ -40,6 +41,7 @@ function assertSafeFileName(fileName) {
 /**
  * @param {string} targetPath
  * @param {string} content
+ *
  * @returns {void}
  */
 function writeFileAtomic(targetPath, content) {
@@ -50,6 +52,7 @@ function writeFileAtomic(targetPath, content) {
 
 /**
  * @param {string} filePath
+ *
  * @returns {string}
  */
 function readBoundedSource(filePath) {
@@ -65,14 +68,15 @@ function readBoundedSource(filePath) {
 /**
  * @param {string} source
  * @param {string} baselineSource
+ *
  * @returns {boolean}
  */
 function mayContainNewBlankRows(source, baselineSource) {
-    const currentRows = extractPowerShellPayload(source).value
-        .replace(/\r\n?/gu, "\n")
+    const currentRows = extractPowerShellPayload(source)
+        .value.replace(/\r\n?/gu, "\n")
         .split("\n");
-    const baselineRows = extractPowerShellPayload(baselineSource).value
-        .replace(/\r\n?/gu, "\n")
+    const baselineRows = extractPowerShellPayload(baselineSource)
+        .value.replace(/\r\n?/gu, "\n")
         .split("\n");
     const limit = Math.min(currentRows.length, baselineRows.length);
     for (let index = 0; index < limit; index += 1) {
@@ -88,21 +92,27 @@ function mayContainNewBlankRows(source, baselineSource) {
 
 /**
  * @param {string} reviewPath
- * @returns {Map<string, {
- *     action?: "blank-columns" | "blank-text" | "remove-row";
- *     allowedRemainingOccurrences?: number;
- *     columnRanges?: { end: number; start: number }[];
- *     expectedRawSha256?: string;
- *     expectedRenderedSha256?: string;
- *     row: number;
- *     sha256?: string;
- *     text?: string;
- * }[]>}
+ *
+ * @returns {Map<
+ *     string,
+ *     {
+ *         action?: "blank-columns" | "blank-text" | "remove-row";
+ *         allowedRemainingOccurrences?: number;
+ *         columnRanges?: { end: number; start: number }[];
+ *         expectedRawSha256?: string;
+ *         expectedRenderedSha256?: string;
+ *         row: number;
+ *         sha256?: string;
+ *         text?: string;
+ *     }[]
+ * >}
  */
 function loadReview(reviewPath) {
     const document = JSON.parse(fs.readFileSync(reviewPath, "utf8"));
     if (!Array.isArray(document.candidates)) {
-        throw new Error("Reviewed content report lacks a candidates array.");
+        throw new TypeError(
+            "Reviewed content report lacks a candidates array."
+        );
     }
     const result = new Map();
     for (const candidate of document.candidates) {
@@ -136,11 +146,8 @@ function loadReview(reviewPath) {
                     evidence.action !== "remove-row") ||
                 (isBlankColumns &&
                     (typeof evidence.expectedRawSha256 !== "string" ||
-                        !/^[a-f\d]{64}$/u.test(
-                            evidence.expectedRawSha256
-                        ) ||
-                        typeof evidence.expectedRenderedSha256 !==
-                            "string" ||
+                        !/^[a-f\d]{64}$/u.test(evidence.expectedRawSha256) ||
+                        typeof evidence.expectedRenderedSha256 !== "string" ||
                         !/^[a-f\d]{64}$/u.test(
                             evidence.expectedRenderedSha256
                         ))) ||
@@ -161,9 +168,7 @@ function loadReview(reviewPath) {
             let columnRanges;
             if (isBlankColumns) {
                 try {
-                    columnRanges = validateColumnRanges(
-                        evidence.columnRanges
-                    );
+                    columnRanges = validateColumnRanges(evidence.columnRanges);
                 } catch (error) {
                     throw new Error(
                         `${candidate.file}: reviewed row evidence is malformed.`,
@@ -175,8 +180,7 @@ function loadReview(reviewPath) {
                 ...(typeof evidence.action === "string"
                     ? { action: evidence.action }
                     : {}),
-                ...(typeof evidence.allowedRemainingOccurrences ===
-                    "number"
+                ...(typeof evidence.allowedRemainingOccurrences === "number"
                     ? {
                           allowedRemainingOccurrences:
                               evidence.allowedRemainingOccurrences,
@@ -188,12 +192,10 @@ function loadReview(reviewPath) {
                 ...(columnRanges == null ? {} : { columnRanges }),
                 ...(typeof evidence.expectedRawSha256 === "string"
                     ? {
-                          expectedRawSha256:
-                              evidence.expectedRawSha256,
+                          expectedRawSha256: evidence.expectedRawSha256,
                       }
                     : {}),
-                ...(typeof evidence.expectedRenderedSha256 ===
-                    "string"
+                ...(typeof evidence.expectedRenderedSha256 === "string"
                     ? {
                           expectedRenderedSha256:
                               evidence.expectedRenderedSha256,
@@ -226,6 +228,7 @@ function loadReview(reviewPath) {
 
 /**
  * @param {string[]} arguments_
+ *
  * @returns {{
  *     baselineDirectory: string | null;
  *     leadingOnly: boolean;
@@ -291,23 +294,20 @@ Options:
         }
     }
     if (!options.reviewPath && !options.baselineDirectory) {
-        throw new Error(
-            "Provide --review, --baseline-dir, or both."
-        );
+        throw new Error("Provide --review, --baseline-dir, or both.");
     }
     if (options.leadingOnly && !options.baselineDirectory) {
         throw new Error("--leading-only requires --baseline-dir.");
     }
     if (options.leadingOnly && options.reviewPath) {
-        throw new Error(
-            "--leading-only cannot be combined with --review."
-        );
+        throw new Error("--leading-only cannot be combined with --review.");
     }
     return options;
 }
 
 /**
  * @param {string[]} arguments_
+ *
  * @returns {void}
  */
 function main(arguments_ = process.argv.slice(2)) {
@@ -323,9 +323,7 @@ function main(arguments_ = process.argv.slice(2)) {
             if (
                 entry.isFile() &&
                 entry.name.toLocaleLowerCase("en-US").endsWith(".ps1") &&
-                fs.existsSync(
-                    path.join(options.baselineDirectory, entry.name)
-                )
+                fs.existsSync(path.join(options.baselineDirectory, entry.name))
             ) {
                 files.add(entry.name);
             }
@@ -385,10 +383,7 @@ function main(arguments_ = process.argv.slice(2)) {
         }
 
         if (options.baselineDirectory) {
-            const baselinePath = path.join(
-                options.baselineDirectory,
-                fileName
-            );
+            const baselinePath = path.join(options.baselineDirectory, fileName);
             if (fs.existsSync(baselinePath)) {
                 const baselineSource = readBoundedSource(baselinePath);
                 try {
@@ -400,9 +395,7 @@ function main(arguments_ = process.argv.slice(2)) {
                         source = result.source;
                         fileLeadingRows += result.removedRows;
                         payloadChanged ||= result.changed;
-                    } else if (
-                        mayContainNewBlankRows(source, baselineSource)
-                    ) {
+                    } else if (mayContainNewBlankRows(source, baselineSource)) {
                         const result = compactBlankRowsIntroducedSince(
                             source,
                             baselineSource
@@ -433,9 +426,7 @@ function main(arguments_ = process.argv.slice(2)) {
             } catch (error) {
                 failures.push({
                     error:
-                        error instanceof Error
-                            ? error.message
-                            : String(error),
+                        error instanceof Error ? error.message : String(error),
                     file: fileName,
                     operation: "trim-trailing",
                 });
@@ -482,10 +473,7 @@ function main(arguments_ = process.argv.slice(2)) {
         },
     };
     fs.mkdirSync(path.dirname(options.output), { recursive: true });
-    writeFileAtomic(
-        options.output,
-        `${JSON.stringify(report, null, 2)}\n`
-    );
+    writeFileAtomic(options.output, `${JSON.stringify(report, null, 2)}\n`);
     console.log(JSON.stringify(report.summary, null, 2));
     console.log(`Report: ${options.output}`);
 }

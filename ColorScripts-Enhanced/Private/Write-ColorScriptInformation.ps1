@@ -69,7 +69,7 @@ function Write-ColorScriptInformation {
                     $colorSet = $true
                 }
 
-                Write-RenderedText -Text $output -NoAnsiOutput:(!$shouldRenderWithAnsi)
+                Write-RenderedText -Text $output -NoAnsiOutput:(-not $shouldRenderWithAnsi)
                 $wroteToConsole = $true
             }
             catch {

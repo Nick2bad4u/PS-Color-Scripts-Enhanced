@@ -166,6 +166,20 @@ function requireString(value, label) {
 /**
  * @param {unknown} value
  * @param {string} label
+ * @param {string} [fallback]
+ *
+ * @returns {string}
+ */
+function readOptionalString(value, label, fallback = "") {
+    if (value === undefined || value === null || value === "") {
+        return fallback;
+    }
+    return requireString(value, label);
+}
+
+/**
+ * @param {unknown} value
+ * @param {string} label
  * @param {number} minimum
  *
  * @returns {number}
@@ -192,7 +206,7 @@ function requirePackName(value) {
         return value;
     }
     if (Number.isSafeInteger(value) && Number(value) >= 0) {
-        return String(value);
+        return Number(value).toString();
     }
     throw new TypeError(
         "16colors pack name must be a non-empty string or integer."
@@ -698,7 +712,7 @@ async function getSixteenColorsPack(pack, options) {
  * an empty array. Accept only the empty-array variant; a populated array
  * remains a schema error so malformed metadata cannot silently disappear.
  *
- * @param {unknown} value
+ * @param {string} value
  * @param {string} label
  *
  * @returns {Record<string, unknown>}
@@ -1621,7 +1635,7 @@ function colorToRgb(color) {
  * @returns {string}
  */
 function escapeXmlText(value) {
-    return String(value)
+    return value
         .replace(/[\u0000-\u0008\u000b\u000c\u000e-\u001f]/gu, "�")
         .replaceAll("&", "&amp;")
         .replaceAll("<", "&lt;")
@@ -1863,7 +1877,9 @@ function fingerprintTerminal(terminal) {
         canonicalRows.push([rowNumber, cells]);
     }
     return {
-        families: [...families].sort(),
+        families: [...families].sort((left, right) =>
+            left.localeCompare(right, "en-US")
+        ),
         renderSha256: sha256(
             JSON.stringify({
                 maxRow: terminalRecord.maxRow,
@@ -2263,6 +2279,7 @@ function indexExistingScriptRenders(
  * @returns {Record<string, unknown>}
  */
 function classifyCandidate(candidate, existingHashes) {
+    const candidateId = requireString(candidate.id, "candidate id");
     if (candidate.rawError) {
         return {
             ...candidate,
@@ -2272,15 +2289,15 @@ function classifyCandidate(candidate, existingHashes) {
     }
     const analysis = requireObject(
         candidate.analysis,
-        `${candidate.id} analysis`
+        `${candidateId} analysis`
     );
     const sourceHash = requireString(
         analysis.sourceSha256,
-        `${candidate.id} source hash`
+        `${candidateId} source hash`
     );
     const normalizedRenderHash = requireString(
         analysis.normalizedRenderSha256 || analysis.renderSha256,
-        `${candidate.id} normalized render hash`
+        `${candidateId} normalized render hash`
     );
     if (existingHashes.source.has(sourceHash)) {
         return {
@@ -2296,10 +2313,7 @@ function classifyCandidate(candidate, existingHashes) {
             review: false,
         };
     }
-    const warnings = requireArray(
-        analysis.warnings,
-        `${candidate.id} warnings`
-    );
+    const warnings = requireArray(analysis.warnings, `${candidateId} warnings`);
     if (warnings.length > 0) {
         return {
             ...candidate,
@@ -2311,14 +2325,19 @@ function classifyCandidate(candidate, existingHashes) {
         analysis.sauce && typeof analysis.sauce === "object"
             ? analysis.sauce
             : null;
-    const sourceFont = String(sauce?.font || "").trim();
+    const sourceFont = readOptionalString(
+        sauce?.font,
+        `${candidateId} SAUCE font`
+    ).trim();
     if (analysis.encodingSupported === false) {
         return {
             ...candidate,
             disposition: "rejected-unsupported-font",
             review: false,
-            reviewNote: `The SAUCE font declares ${String(
-                analysis.encoding || sourceFont
+            reviewNote: `The SAUCE font declares ${readOptionalString(
+                analysis.encoding,
+                `${candidateId} encoding`,
+                sourceFont || "an unknown encoding"
             )}, whose glyph encoding cannot be reproduced faithfully by this converter.`,
         };
     }
@@ -2345,8 +2364,14 @@ function classifyCandidate(candidate, existingHashes) {
     }
     const width = Number(analysis.width);
     const height = Number(analysis.height);
-    const filename = String(candidate.filename || "");
-    const archive = String(candidate.archive || "");
+    const filename = requireString(
+        candidate.filename,
+        `${candidateId} filename`
+    );
+    const archive = readOptionalString(
+        candidate.archive,
+        `${candidateId} archive`
+    );
     if (
         /THEDRAW_TDF_FONTS_COLLECTION/iu.test(archive) &&
         /(?:^|[\\/])PREVIEW[\\/]/iu.test(filename)
@@ -2388,23 +2413,35 @@ async function analyzeCandidates(candidates, options, existingHashes) {
     let completed = 0;
     return mapConcurrent(candidates, options.concurrency, async (candidate) => {
         try {
+            const candidateId = requireString(candidate.id, "candidate id");
+            const source = requireString(
+                candidate.source,
+                `${candidateId} source`
+            );
+            const pack = requireString(candidate.pack, `${candidateId} pack`);
+            const filename = requireString(
+                candidate.filename,
+                `${candidateId} filename`
+            );
+            const previewUrl = readOptionalString(
+                candidate.previewUrl,
+                `${candidateId} preview URL`
+            );
             let raw = candidate.raw;
             let rawPath = candidate.rawPath;
             if (!raw) {
-                const source = requireString(
-                    candidate.source,
-                    "candidate source"
-                );
-                const pack = requireString(candidate.pack, "candidate pack");
-                const filename = requireString(
-                    candidate.filename,
-                    "candidate filename"
-                );
+                const year =
+                    candidate.year === undefined || candidate.year === null
+                        ? "unknown"
+                        : requireSafeInteger(
+                              candidate.year,
+                              `${candidateId} year`
+                          ).toString();
                 rawPath = path.join(
                     options.cacheDir,
                     source,
                     "raw",
-                    safePathSegment(String(candidate.year || "unknown")),
+                    safePathSegment(year),
                     safePathSegment(pack),
                     safePathSegment(filename)
                 );
@@ -2422,11 +2459,13 @@ async function analyzeCandidates(candidates, options, existingHashes) {
                 /** @type {Buffer} */ (raw)
             );
             const sauce = analysis.sauce
-                ? requireObject(analysis.sauce, `${candidate.id} SAUCE`)
+                ? requireObject(analysis.sauce, `${candidateId} SAUCE`)
                 : null;
             const artists =
                 Array.isArray(candidate.artists) && candidate.artists.length > 0
-                    ? candidate.artists
+                    ? candidate.artists.filter(
+                          (artist) => typeof artist === "string"
+                      )
                     : typeof sauce?.author === "string" && sauce.author
                       ? [sauce.author]
                       : [];
@@ -2445,16 +2484,16 @@ async function analyzeCandidates(candidates, options, existingHashes) {
                 },
                 existingHashes
             );
-            if (classified.review && candidate.previewUrl) {
+            if (classified.review && previewUrl) {
                 const previewPath = path.join(
                     options.cacheDir,
                     "previews",
-                    safePathSegment(String(candidate.source)),
-                    safePathSegment(String(candidate.pack)),
-                    `${safePathSegment(String(candidate.filename))}.png`
+                    safePathSegment(source),
+                    safePathSegment(pack),
+                    `${safePathSegment(filename)}.png`
                 );
                 try {
-                    await fetchCached(String(candidate.previewUrl), {
+                    await fetchCached(previewUrl, {
                         cachePath: previewPath,
                         offline: options.offline,
                         binary: true,
@@ -2471,9 +2510,9 @@ async function analyzeCandidates(candidates, options, existingHashes) {
                     options.cacheDir,
                     "previews",
                     "local-render",
-                    safePathSegment(String(candidate.source)),
-                    safePathSegment(String(candidate.pack)),
-                    `${safePathSegment(String(candidate.filename))}.svg`
+                    safePathSegment(source),
+                    safePathSegment(pack),
+                    `${safePathSegment(filename)}.svg`
                 );
                 try {
                     if (!fs.existsSync(previewPath)) {
@@ -2566,7 +2605,7 @@ function readDecisionAttributionOverride(record, candidateId, property) {
  * }}
  */
 function createDecisionEvidence(candidate) {
-    const candidateId = String(candidate.id);
+    const candidateId = requireString(candidate.id, "candidate id");
     const analysis = requireObject(
         candidate.analysis,
         `${candidateId} analysis`
@@ -2606,7 +2645,7 @@ function createDecisionEvidence(candidate) {
  * @param {Record<string, unknown>} candidate
  */
 function validateDecisionEvidence(record, candidate) {
-    const candidateId = String(candidate.id);
+    const candidateId = requireString(candidate.id, "candidate id");
     const supplied = requireObject(
         record.evidence,
         `${candidateId} decision evidence`
@@ -2656,19 +2695,20 @@ function mergeDecisions(candidates, decisionsPath) {
         "decisions map"
     );
     return candidates.map((candidate) => {
-        const decision = decisions[String(candidate.id)];
+        const candidateId = requireString(candidate.id, "candidate id");
+        const decision = decisions[candidateId];
         if (!decision) return candidate;
-        const record = requireObject(decision, `${candidate.id} decision`);
+        const record = requireObject(decision, `${candidateId} decision`);
         const disposition = requireString(
             record.disposition,
-            `${candidate.id} disposition`
+            `${candidateId} disposition`
         );
         if (
             disposition !== "accepted" &&
             !disposition.startsWith("rejected-")
         ) {
             throw new Error(
-                `${candidate.id} decision must be accepted or a rejected-* reason.`
+                `${candidateId} decision must be accepted or a rejected-* reason.`
             );
         }
         if (schemaVersion >= 2) {
@@ -2678,7 +2718,11 @@ function mergeDecisions(candidates, decisionsPath) {
         // review. A later corpus import, parser hardening, or automatic safety
         // classification must remain authoritative even when the candidate's
         // own rendered evidence is unchanged.
-        if (!String(candidate.disposition).startsWith("pending-review")) {
+        const currentDisposition = requireString(
+            candidate.disposition,
+            `${candidateId} current disposition`
+        );
+        if (!currentDisposition.startsWith("pending-review")) {
             return candidate;
         }
         // File-scoped overrides keep verified attribution in the resumable
@@ -2686,12 +2730,12 @@ function mergeDecisions(candidates, decisionsPath) {
         // overwrites.
         const artists = readDecisionAttributionOverride(
             record,
-            String(candidate.id),
+            candidateId,
             "artists"
         );
         const groups = readDecisionAttributionOverride(
             record,
-            String(candidate.id),
+            candidateId,
             "groups"
         );
         return {
@@ -2715,7 +2759,11 @@ function summarizeDispositions(candidates) {
     /** @type {Record<string, number>} */
     const summary = {};
     for (const candidate of candidates) {
-        const disposition = String(candidate.disposition || "unclassified");
+        const disposition = readOptionalString(
+            candidate.disposition,
+            "candidate disposition",
+            "unclassified"
+        );
         summary[disposition] = (summary[disposition] || 0) + 1;
     }
     return Object.fromEntries(
@@ -2809,7 +2857,7 @@ function deduplicateCandidates(candidates) {
         if (enriched) {
             canonical.metadataSources = group
                 .filter((candidate) => candidate !== canonical)
-                .map((candidate) => String(candidate.id))
+                .map((candidate) => requireString(candidate.id, "candidate id"))
                 .sort((left, right) => left.localeCompare(right));
         }
     };
@@ -2823,7 +2871,9 @@ function deduplicateCandidates(candidates) {
             const priority =
                 duplicateCanonicalPriority(left) -
                 duplicateCanonicalPriority(right);
-            return priority || String(left.id).localeCompare(String(right.id));
+            const leftId = requireString(left.id, "candidate id");
+            const rightId = requireString(right.id, "candidate id");
+            return priority || leftId.localeCompare(rightId);
         })[0];
     /**
      * @param {"sourceSha256" | "renderSha256" | "normalizedRenderSha256"} hashName
@@ -2834,7 +2884,11 @@ function deduplicateCandidates(candidates) {
     const groupByHash = (hashName, excludedDispositions) => {
         const groups = new Map();
         for (const candidate of records) {
-            if (excludedDispositions.has(String(candidate.disposition))) {
+            const disposition = requireString(
+                candidate.disposition,
+                "candidate disposition"
+            );
+            if (excludedDispositions.has(disposition)) {
                 continue;
             }
             const analysis = candidate.analysis;
@@ -2924,17 +2978,18 @@ function createCheckpoint(report) {
         ) {
             continue;
         }
+        const candidateId = requireString(candidate.id, "candidate id");
         const analysis = requireObject(
             candidate.analysis,
-            `${candidate.id} analysis`
+            `${candidateId} analysis`
         );
         const sourceSha256 = requireString(
             analysis.sourceSha256,
-            `${candidate.id} source hash`
+            `${candidateId} source hash`
         );
         if (!acceptedBySource.has(sourceSha256)) {
             acceptedBySource.set(sourceSha256, {
-                id: candidate.id,
+                id: candidateId,
                 disposition: candidate.disposition,
                 sourceUrl: candidate.sourceUrl,
                 sourceSha256,
@@ -2970,8 +3025,9 @@ function writeReviewHtml(report, htmlPath) {
         );
     const htmlDirectory = path.dirname(htmlPath);
     const reviewData = candidates.map((candidate) => {
+        const candidateId = requireString(candidate.id, "candidate id");
         const analysis = candidate.analysis
-            ? requireObject(candidate.analysis, `${candidate.id} analysis`)
+            ? requireObject(candidate.analysis, `${candidateId} analysis`)
             : {};
         let preview = null;
         if (typeof candidate.previewPath === "string") {
@@ -2981,20 +3037,37 @@ function writeReviewHtml(report, htmlPath) {
                 .map(encodeURIComponent)
                 .join("/");
         }
+        const source =
+            typeof candidate.galleryUrl === "string"
+                ? candidate.galleryUrl
+                : requireString(
+                      candidate.sourceUrl,
+                      `${candidateId} source URL`
+                  );
         return {
-            id: String(candidate.id),
-            filename: String(candidate.filename),
+            id: candidateId,
+            filename: requireString(
+                candidate.filename,
+                `${candidateId} filename`
+            ),
             artists: Array.isArray(candidate.artists)
-                ? candidate.artists.map(String).join(", ")
+                ? candidate.artists
+                      .filter((artist) => typeof artist === "string")
+                      .join(", ")
                 : "",
-            pack: String(candidate.pack),
+            pack: requireString(candidate.pack, `${candidateId} pack`),
             width: analysis.width || "?",
             height: analysis.height || "?",
             colors: Array.isArray(analysis.colorFamilies)
-                ? analysis.colorFamilies.map(String).join(", ")
+                ? analysis.colorFamilies
+                      .filter((family) => typeof family === "string")
+                      .join(", ")
                 : "",
-            source: String(candidate.galleryUrl || candidate.sourceUrl),
-            disposition: String(candidate.disposition),
+            source,
+            disposition: requireString(
+                candidate.disposition,
+                `${candidateId} disposition`
+            ),
             evidence: createDecisionEvidence(candidate),
             preview,
         };
@@ -3222,9 +3295,11 @@ async function runAudit(options) {
     }
     candidates = mergeDecisions(candidates, options.decisionsPath);
     candidates = deduplicateCandidates(candidates);
-    candidates.sort((left, right) =>
-        String(left.id).localeCompare(String(right.id))
-    );
+    candidates.sort((left, right) => {
+        const leftId = requireString(left.id, "candidate id");
+        const rightId = requireString(right.id, "candidate id");
+        return leftId.localeCompare(rightId);
+    });
     const report = {
         schemaVersion: 1,
         scannedAt: new Date().toISOString(),
@@ -3260,7 +3335,11 @@ function summarizeArchiveResults(results) {
     const statuses = {};
     let extracted = 0;
     for (const result of results) {
-        const status = String(result.status || "unknown");
+        const status = readOptionalString(
+            result.status,
+            "archive status",
+            "unknown"
+        );
         statuses[status] = (statuses[status] || 0) + 1;
         extracted += Number(result.extracted) || 0;
     }

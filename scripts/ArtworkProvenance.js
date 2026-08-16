@@ -313,8 +313,9 @@ function readArtworkProvenance(filePath = DEFAULT_PROVENANCE_PATH) {
 
 /**
  * Serialize parsed provenance without relying on PowerShell's version-specific
- * data-file limits. The PascalCase shape intentionally mirrors the authoritative
- * PSD1 so Windows PowerShell 5.1 verification can consume the same parsed data.
+ * data-file limits. The PascalCase shape intentionally mirrors the
+ * authoritative PSD1 so Windows PowerShell 5.1 verification can consume the
+ * same parsed data.
  *
  * @param {{
  *     collections: ReadonlyMap<
@@ -656,7 +657,7 @@ function parseCompactArtworkHeader(line) {
  */
 function parseLeadingCommentHeader(source) {
     const match =
-        /^(?<bom>\uFEFF?)(?<header>(?:#[^\r\n]*(?:\r?\n|$))+)(?<separator>\r?\n)/u.exec(
+        /^(?<bom>\uFEFF?)(?<header>(?:#[^\r\n]*(?:\r?\n|$))+)\r?\n/u.exec(
             source
         );
     if (!match?.groups) return null;

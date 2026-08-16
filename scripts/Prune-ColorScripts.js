@@ -157,7 +157,7 @@ function removeScriptMetadataLines(source, names) {
  */
 function removeAnalysisExceptions(document, names) {
     if (!Array.isArray(document.exceptions)) {
-        throw new Error("Analysis exceptions document is malformed.");
+        throw new TypeError("Analysis exceptions document is malformed.");
     }
     const nameSet = new Set(names);
     const retained = document.exceptions.filter(
@@ -406,7 +406,9 @@ function main(arguments_ = process.argv.slice(2)) {
                   fs.readFileSync(options.namesPath, "utf8")
               );
               if (!Array.isArray(manifest.scripts)) {
-                  throw new Error("Removal manifest lacks a scripts array.");
+                  throw new TypeError(
+                      "Removal manifest lacks a scripts array."
+                  );
               }
               return manifest.scripts.map((entry) => {
                   if (

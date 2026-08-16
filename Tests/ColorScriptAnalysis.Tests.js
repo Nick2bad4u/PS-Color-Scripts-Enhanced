@@ -124,7 +124,9 @@ test("split analysis does not infer missing rows from SAUCE height padding", asy
     );
 
     assert.deepEqual(
-        issues.map((issue) => issue.type).sort(),
+        issues
+            .map((issue) => issue.type)
+            .sort((left, right) => left.localeCompare(right, "en-US")),
         ["avoidable-extra-part", "mergeable-adjacent-parts"]
     );
     assert.equal(mergeable.pairs[0].combinedRows, 40);
@@ -207,7 +209,11 @@ test("review signals identify extreme margins and orphaned tails", async () => {
             directory,
             "extreme",
             "1-10",
-            [...Array(8).fill(""), "ART", "ART"].join("\n")
+            [
+                ...new Array(8).fill(""),
+                "ART",
+                "ART",
+            ].join("\n")
         )
     );
     const orphaned = analyzeScript(
@@ -221,7 +227,7 @@ test("review signals identify extreme margins and orphaned tails", async () => {
                 "ART",
                 "ART",
                 "ART",
-                ...Array(8).fill(""),
+                ...new Array(8).fill(""),
                 "TAIL",
                 "TAIL",
             ].join("\n")
@@ -234,10 +240,7 @@ test("review signals identify extreme margins and orphaned tails", async () => {
     });
 
     assert.deepEqual(
-        issues.find(
-            (issue) =>
-                issue.type === "extreme-leading-blank-run"
-        ),
+        issues.find((issue) => issue.type === "extreme-leading-blank-run"),
         {
             type: "extreme-leading-blank-run",
             family: "extreme",
@@ -248,10 +251,7 @@ test("review signals identify extreme margins and orphaned tails", async () => {
         }
     );
     assert.deepEqual(
-        issues.find(
-            (issue) =>
-                issue.type === "orphaned-tail-after-blank-run"
-        ),
+        issues.find((issue) => issue.type === "orphaned-tail-after-blank-run"),
         {
             type: "orphaned-tail-after-blank-run",
             family: "orphaned",
@@ -314,9 +314,7 @@ test("embedded DOS EOF controls are reported independently of decoding damage", 
         maxRows: 50,
         tinyTailRows: 10,
     });
-    const eofIssue = issues.find(
-        (issue) => issue.type === "embedded-dos-eof"
-    );
+    const eofIssue = issues.find((issue) => issue.type === "embedded-dos-eof");
 
     assert.equal(record.metrics.dosEofCharacters, 1);
     assert.deepEqual(eofIssue, {
@@ -326,9 +324,7 @@ test("embedded DOS EOF controls are reported independently of decoding damage", 
         characters: 1,
     });
     assert.ok(
-        !issues.some(
-            (issue) => issue.type === "suspicious-character-decoding"
-        )
+        !issues.some((issue) => issue.type === "suspicious-character-decoding")
     );
 });
 
@@ -402,10 +398,10 @@ test("review signals distinguish sparse output and low variety", async () => {
         maxRows: 50,
         tinyTailRows: 10,
     });
-    const types = issues.map((issue) => issue.type);
+    const types = new Set(issues.map((issue) => issue.type));
 
-    assert.ok(types.includes("low-cell-variety"));
-    assert.ok(!types.includes("derivative-attribution-review"));
+    assert.ok(types.has("low-cell-variety"));
+    assert.ok(!types.has("derivative-attribution-review"));
     assert.ok(issues.every((issue) => issue.family === "fixture-part01"));
 });
 
@@ -440,9 +436,7 @@ test("review signals distinguish plain ASCII from CP437 block art", async () => 
     const plainIssues = analyzeReviewSignals([plainAscii], options);
     const cp437Issues = analyzeReviewSignals([cp437Art], options);
 
-    assert.ok(
-        plainIssues.some((issue) => issue.type === "mostly-plain-ascii")
-    );
+    assert.ok(plainIssues.some((issue) => issue.type === "mostly-plain-ascii"));
     assert.ok(
         !cp437Issues.some((issue) => issue.type === "mostly-plain-ascii")
     );
@@ -471,10 +465,10 @@ test("sparse cell density is a review signal rather than decoding damage", async
         maxRows: 50,
         tinyTailRows: 10,
     });
-    const types = issues.map((issue) => issue.type);
+    const types = new Set(issues.map((issue) => issue.type));
 
-    assert.ok(types.includes("sparse-cell-density"));
-    assert.ok(!types.includes("suspicious-character-decoding"));
+    assert.ok(types.has("sparse-cell-density"));
+    assert.ok(!types.has("suspicious-character-decoding"));
     assert.equal(record.metrics.replacementCharacters, 0);
     assert.equal(record.metrics.mojibakeSequences, 0);
 });
@@ -722,9 +716,7 @@ test("split analysis flags continuous dense artwork when no safer boundary exist
             minimumBoundaryCells: 12,
         },
     ]);
-    assert.ok(
-        !issues.some((issue) => issue.type === "dense-split-boundary")
-    );
+    assert.ok(!issues.some((issue) => issue.type === "dense-split-boundary"));
 });
 
 test("analysis arguments reject unsafe thresholds and unknown options", async () => {

@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 "use strict";
 
-const fs = require("fs");
-const path = require("path");
+const fs = require("node:fs");
+const path = require("node:path");
 const iconv = require("iconv-lite");
 const AnsiParser = require("node-ansiparser");
 const { DEFAULT_PROVENANCE_PATH } = require("./ArtworkProvenance.js");
@@ -449,8 +449,10 @@ function serializeAttrs(attrs) {
     if (attrs.inverse) codes.push(7);
     if (attrs.hidden) codes.push(8);
     if (attrs.strike) codes.push(9);
-    codes.push(...colorToCodes(attrs.fg, true));
-    codes.push(...colorToCodes(attrs.bg, false));
+    codes.push(
+        ...colorToCodes(attrs.fg, true),
+        ...colorToCodes(attrs.bg, false)
+    );
     return codes;
 }
 
@@ -483,7 +485,7 @@ function diffAttrs(prev, next) {
  */
 function trimTrailingNulls(value) {
     let end = value.length;
-    while (end > 0 && value.charCodeAt(end - 1) === 0) {
+    while (end > 0 && value.codePointAt(end - 1) === 0) {
         end -= 1;
     }
     return value.slice(0, end);
@@ -822,8 +824,8 @@ class TerminalEmulator {
      * @param {string} text
      */
     printString(text) {
-        for (let i = 0; i < text.length; i += 1) {
-            this.printChar(text[i]);
+        for (const character of text) {
+            this.printChar(character);
         }
     }
 
@@ -838,7 +840,7 @@ class TerminalEmulator {
         if (this.dosAnsi) {
             this.resolvePendingWrap();
         }
-        const code = ch.charCodeAt(0);
+        const code = ch.codePointAt(0);
         switch (code) {
             case 0x08: // BS
                 this.backspace();
@@ -900,8 +902,8 @@ class TerminalEmulator {
     /**
      * @param {number} [count]
      */
-    lineFeed(count) {
-        const step = count || 1;
+    lineFeed(count = 1) {
+        const step = count;
         this.setCursor(this.cursorX, this.cursorY + step);
     }
 
@@ -1468,11 +1470,17 @@ class TerminalEmulator {
         this.applyEsc(collected, flag);
     }
 
-    inst_H() {}
+    inst_H() {
+        return undefined;
+    }
 
-    inst_P() {}
+    inst_P() {
+        return undefined;
+    }
 
-    inst_U() {}
+    inst_U() {
+        return undefined;
+    }
 
     /**
      * @param {unknown} error
@@ -1774,7 +1782,7 @@ function validateSourceUrl(value) {
  * @returns {string}
  */
 function serializePowerShellStringLiteral(content) {
-    return `'${content.replace(/'/g, "''")}'`;
+    return `'${content.replaceAll("'", "''")}'`;
 }
 
 /**
@@ -1881,7 +1889,7 @@ function parseArguments(argv) {
         }
 
         if (arg.startsWith("--columns=")) {
-            const value = parseInt(arg.split("=")[1], 10);
+            const value = Number.parseInt(arg.split("=")[1], 10);
             if (!Number.isNaN(value) && value > 0) {
                 options.columns = value;
             }
@@ -1890,7 +1898,7 @@ function parseArguments(argv) {
             arg.startsWith("--height=") ||
             arg.startsWith("--Height=")
         ) {
-            const value = parseInt(arg.split("=")[1], 10);
+            const value = Number.parseInt(arg.split("=")[1], 10);
             if (!Number.isNaN(value) && value > 0) {
                 options.maxHeight = value;
             }
