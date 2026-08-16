@@ -116,114 +116,140 @@ function loadReview(reviewPath) {
     }
     const result = new Map();
     for (const candidate of document.candidates) {
-        if (
-            !candidate ||
-            typeof candidate.file !== "string" ||
-            !Array.isArray(candidate.evidence)
-        ) {
-            throw new Error("Reviewed content candidate is malformed.");
-        }
-        assertSafeFileName(candidate.file);
-        if (result.has(candidate.file)) {
-            throw new Error(
-                `Reviewed content report repeats ${candidate.file}.`
-            );
-        }
-        const rows = new Map();
-        for (const evidence of candidate.evidence) {
-            const action = evidence?.action || "blank-text";
-            const isBlankColumns = action === "blank-columns";
-            if (
-                !evidence ||
-                !Number.isInteger(evidence.row) ||
-                evidence.row < 1 ||
-                (typeof evidence.text !== "string" &&
-                    (typeof evidence.sha256 !== "string" ||
-                        !/^[a-f\d]{64}$/u.test(evidence.sha256))) ||
-                (evidence.action != null &&
-                    evidence.action !== "blank-columns" &&
-                    evidence.action !== "blank-text" &&
-                    evidence.action !== "remove-row") ||
-                (isBlankColumns &&
-                    (typeof evidence.expectedRawSha256 !== "string" ||
-                        !/^[a-f\d]{64}$/u.test(evidence.expectedRawSha256) ||
-                        typeof evidence.expectedRenderedSha256 !== "string" ||
-                        !/^[a-f\d]{64}$/u.test(
-                            evidence.expectedRenderedSha256
-                        ))) ||
-                (!isBlankColumns &&
-                    (evidence.columnRanges != null ||
-                        evidence.expectedRawSha256 != null ||
-                        evidence.expectedRenderedSha256 != null)) ||
-                (evidence.allowedRemainingOccurrences != null &&
-                    (!Number.isSafeInteger(
-                        evidence.allowedRemainingOccurrences
-                    ) ||
-                        evidence.allowedRemainingOccurrences < 0))
-            ) {
-                throw new Error(
-                    `${candidate.file}: reviewed row evidence is malformed.`
-                );
-            }
-            let columnRanges;
-            if (isBlankColumns) {
-                try {
-                    columnRanges = validateColumnRanges(evidence.columnRanges);
-                } catch (error) {
-                    throw new Error(
-                        `${candidate.file}: reviewed row evidence is malformed.`,
-                        { cause: error }
-                    );
-                }
-            }
-            const normalized = {
-                ...(typeof evidence.action === "string"
-                    ? { action: evidence.action }
-                    : {}),
-                ...(typeof evidence.allowedRemainingOccurrences === "number"
-                    ? {
-                          allowedRemainingOccurrences:
-                              evidence.allowedRemainingOccurrences,
-                      }
-                    : {}),
-                ...(typeof evidence.sha256 === "string"
-                    ? { sha256: evidence.sha256 }
-                    : {}),
-                ...(columnRanges == null ? {} : { columnRanges }),
-                ...(typeof evidence.expectedRawSha256 === "string"
-                    ? {
-                          expectedRawSha256: evidence.expectedRawSha256,
-                      }
-                    : {}),
-                ...(typeof evidence.expectedRenderedSha256 === "string"
-                    ? {
-                          expectedRenderedSha256:
-                              evidence.expectedRenderedSha256,
-                      }
-                    : {}),
-                ...(typeof evidence.text === "string"
-                    ? { text: evidence.text }
-                    : {}),
-            };
-            const existing = rows.get(evidence.row);
-            if (
-                existing != null &&
-                JSON.stringify(existing) !== JSON.stringify(normalized)
-            ) {
-                throw new Error(
-                    `${candidate.file}: row ${evidence.row} has conflicting evidence.`
-                );
-            }
-            rows.set(evidence.row, normalized);
-        }
-        result.set(
-            candidate.file,
-            [...rows]
-                .sort(([left], [right]) => left - right)
-                .map(([row, evidence]) => ({ row, ...evidence }))
-        );
+        const { file, evidence } = validateReviewCandidate(candidate, result);
+        result.set(file, normalizeCandidateEvidence(file, evidence));
     }
     return result;
+}
+
+/**
+ * @param {unknown} candidate
+ * @param {ReadonlyMap<string, unknown>} existing
+ */
+function validateReviewCandidate(candidate, existing) {
+    if (
+        !candidate ||
+        typeof candidate !== "object" ||
+        !("file" in candidate) ||
+        typeof candidate.file !== "string" ||
+        !("evidence" in candidate) ||
+        !Array.isArray(candidate.evidence)
+    ) {
+        throw new Error("Reviewed content candidate is malformed.");
+    }
+    assertSafeFileName(candidate.file);
+    if (existing.has(candidate.file)) {
+        throw new Error(`Reviewed content report repeats ${candidate.file}.`);
+    }
+    return { file: candidate.file, evidence: candidate.evidence };
+}
+
+/**
+ * @param {unknown} value
+ */
+function isSha256(value) {
+    return typeof value === "string" && /^[a-f\d]{64}$/u.test(value);
+}
+
+/**
+ * @param {Record<string, unknown>} evidence
+ * @param {boolean} isBlankColumns
+ */
+function isValidReviewedEvidence(evidence, isBlankColumns) {
+    const action = evidence.action;
+    const validAction =
+        action == null ||
+        action === "blank-columns" ||
+        action === "blank-text" ||
+        action === "remove-row";
+    const hasIdentity =
+        typeof evidence.text === "string" || isSha256(evidence.sha256);
+    const validAllowedOccurrences =
+        evidence.allowedRemainingOccurrences == null ||
+        (Number.isSafeInteger(evidence.allowedRemainingOccurrences) &&
+            Number(evidence.allowedRemainingOccurrences) >= 0);
+    const validColumnEvidence = isBlankColumns
+        ? isSha256(evidence.expectedRawSha256) &&
+          isSha256(evidence.expectedRenderedSha256)
+        : evidence.columnRanges == null &&
+          evidence.expectedRawSha256 == null &&
+          evidence.expectedRenderedSha256 == null;
+    return (
+        Number.isInteger(evidence.row) &&
+        Number(evidence.row) >= 1 &&
+        hasIdentity &&
+        validAction &&
+        validAllowedOccurrences &&
+        validColumnEvidence
+    );
+}
+
+/**
+ * @param {string} file
+ * @param {Record<string, unknown>} evidence
+ */
+function normalizeReviewedEvidence(file, evidence) {
+    const isBlankColumns =
+        (evidence.action || "blank-text") === "blank-columns";
+    if (!isValidReviewedEvidence(evidence, isBlankColumns)) {
+        throw new Error(`${file}: reviewed row evidence is malformed.`);
+    }
+    let columnRanges;
+    if (isBlankColumns) {
+        try {
+            columnRanges = validateColumnRanges(evidence.columnRanges);
+        } catch (error) {
+            throw new Error(`${file}: reviewed row evidence is malformed.`, {
+                cause: error,
+            });
+        }
+    }
+    /** @type {Record<string, unknown>} */
+    const normalized = {};
+    for (const property of [
+        "action",
+        "allowedRemainingOccurrences",
+        "expectedRawSha256",
+        "expectedRenderedSha256",
+        "sha256",
+        "text",
+    ]) {
+        if (evidence[property] != null)
+            normalized[property] = evidence[property];
+    }
+    if (columnRanges != null) normalized.columnRanges = columnRanges;
+    return { row: Number(evidence.row), normalized };
+}
+
+/**
+ * @param {string} file
+ * @param {unknown[]} evidenceItems
+ */
+function normalizeCandidateEvidence(file, evidenceItems) {
+    const rows = new Map();
+    for (const evidence of evidenceItems) {
+        if (!evidence || typeof evidence !== "object") {
+            throw new Error(`${file}: reviewed row evidence is malformed.`);
+        }
+        const evidenceRecord = /** @type {Record<string, unknown>} */ (
+            evidence
+        );
+        const { row, normalized } = normalizeReviewedEvidence(
+            file,
+            evidenceRecord
+        );
+        const existing = rows.get(row);
+        if (
+            existing != null &&
+            JSON.stringify(existing) !== JSON.stringify(normalized)
+        ) {
+            throw new Error(`${file}: row ${row} has conflicting evidence.`);
+        }
+        rows.set(row, normalized);
+    }
+    return [...rows]
+        .sort(([left], [right]) => left - right)
+        .map(([row, evidence]) => ({ row, ...evidence }));
 }
 
 function createDefaultOptions() {
@@ -322,154 +348,198 @@ function parseArguments(arguments_) {
 }
 
 /**
+ * @param {ReturnType<typeof parseArguments>} options
+ * @param {ReturnType<typeof loadReview>} review
+ *
+ * @returns {Set<string>}
+ */
+function collectTargetFiles(options, review) {
+    const files = new Set(review.keys());
+    if (!options.baselineDirectory) return files;
+    for (const entry of fs.readdirSync(options.scriptsDirectory, {
+        withFileTypes: true,
+    })) {
+        const hasBaseline = fs.existsSync(
+            path.join(options.baselineDirectory, entry.name)
+        );
+        if (
+            entry.isFile() &&
+            entry.name.toLocaleLowerCase("en-US").endsWith(".ps1") &&
+            hasBaseline
+        ) {
+            files.add(entry.name);
+        }
+    }
+    return files;
+}
+
+/**
+ * @param {string} source
+ */
+function createCurationState(source) {
+    return {
+        source,
+        payloadChanged: false,
+        blankedRows: 0,
+        compactedRows: 0,
+        leadingRows: 0,
+        reviewRemovedRows: 0,
+        trailingRows: 0,
+    };
+}
+
+/**
+ * @param {ReturnType<typeof createCurationState>} state
+ * @param {string} fileName
+ * @param {ReturnType<typeof loadReview> extends Map<string, infer T> ? T : never} evidence
+ */
+function applyFileReview(state, fileName, evidence) {
+    try {
+        const result = applyReviewedRows(state.source, evidence);
+        state.source = result.source;
+        state.blankedRows += result.blankedRows;
+        state.reviewRemovedRows += result.removedRows;
+        state.payloadChanged ||= result.changed;
+    } catch (error) {
+        const message = error instanceof Error ? error.message : String(error);
+        throw new Error(`${fileName}: ${message}`, { cause: error });
+    }
+}
+
+/**
+ * @param {ReturnType<typeof createCurationState>} state
+ * @param {string} fileName
+ * @param {ReturnType<typeof parseArguments>} options
+ * @param {object[]} failures
+ */
+function applyBaselineCuration(state, fileName, options, failures) {
+    if (!options.baselineDirectory) return;
+    const baselinePath = path.join(options.baselineDirectory, fileName);
+    if (!fs.existsSync(baselinePath)) return;
+    const baselineSource = readBoundedSource(baselinePath);
+    try {
+        if (options.leadingOnly) {
+            const result = trimExpandedLeadingBlankRows(
+                state.source,
+                baselineSource
+            );
+            state.source = result.source;
+            state.leadingRows += result.removedRows;
+            state.payloadChanged ||= result.changed;
+            return;
+        }
+        if (!mayContainNewBlankRows(state.source, baselineSource)) return;
+        const result = compactBlankRowsIntroducedSince(
+            state.source,
+            baselineSource
+        );
+        state.source = result.source;
+        state.compactedRows += result.removedRows;
+        state.payloadChanged ||= result.changed;
+    } catch (error) {
+        failures.push({
+            error: error instanceof Error ? error.message : String(error),
+            file: fileName,
+            operation: "compact-baseline",
+        });
+    }
+}
+
+/**
+ * @param {ReturnType<typeof createCurationState>} state
+ * @param {string} fileName
+ * @param {boolean} leadingOnly
+ * @param {object[]} failures
+ */
+function applyTrailingCuration(state, fileName, leadingOnly, failures) {
+    if (leadingOnly) return;
+    try {
+        const result = removeTrailingBlankRows(state.source);
+        state.source = result.source;
+        state.trailingRows += result.removedRows;
+        state.payloadChanged ||= result.changed;
+    } catch (error) {
+        failures.push({
+            error: error instanceof Error ? error.message : String(error),
+            file: fileName,
+            operation: "trim-trailing",
+        });
+    }
+}
+
+/**
+ * @param {string} fileName
+ * @param {ReturnType<typeof parseArguments>} options
+ * @param {ReturnType<typeof loadReview>} review
+ * @param {object[]} failures
+ */
+function curateFile(fileName, options, review, failures) {
+    assertSafeFileName(fileName);
+    const filePath = path.join(options.scriptsDirectory, fileName);
+    if (!fs.existsSync(filePath)) {
+        throw new Error(`${fileName}: reviewed target is missing.`);
+    }
+    const originalSource = readBoundedSource(filePath);
+    const evidence = review.get(fileName);
+    if (isSourceFidelityLocked(originalSource)) {
+        if (evidence) {
+            throw new Error(
+                `${fileName}: source-fidelity-locked payload cannot be curated.`
+            );
+        }
+        return { record: null, reviewed: false };
+    }
+    const state = createCurationState(originalSource);
+    if (evidence) applyFileReview(state, fileName, evidence);
+    applyBaselineCuration(state, fileName, options, failures);
+    applyTrailingCuration(state, fileName, options.leadingOnly, failures);
+    if (state.payloadChanged) state.source = documentCuration(state.source);
+    if (state.source === originalSource) {
+        return { record: null, reviewed: Boolean(evidence) };
+    }
+    if (options.write) writeFileAtomic(filePath, state.source);
+    return {
+        record: {
+            blankedRows: state.blankedRows,
+            compactedRows: state.compactedRows,
+            file: fileName,
+            leadingRows: state.leadingRows,
+            reviewRemovedRows: state.reviewRemovedRows,
+            trailingRows: state.trailingRows,
+        },
+        reviewed: Boolean(evidence),
+    };
+}
+
+/**
  * @param {string[]} arguments_
  *
  * @returns {void}
  */
 function main(arguments_ = process.argv.slice(2)) {
     const options = parseArguments(arguments_);
+    /** @type {ReturnType<typeof loadReview>} */
     const review = options.reviewPath
         ? loadReview(options.reviewPath)
         : new Map();
-    const files = new Set(review.keys());
-    if (options.baselineDirectory) {
-        for (const entry of fs.readdirSync(options.scriptsDirectory, {
-            withFileTypes: true,
-        })) {
-            if (
-                entry.isFile() &&
-                entry.name.toLocaleLowerCase("en-US").endsWith(".ps1") &&
-                fs.existsSync(path.join(options.baselineDirectory, entry.name))
-            ) {
-                files.add(entry.name);
-            }
-        }
-    }
-
+    const files = collectTargetFiles(options, review);
     const records = [];
+    /** @type {{ error: string; file: string; operation: string }[]} */
     const failures = [];
-    let blankedRows = 0;
-    let compactedRows = 0;
-    let leadingRows = 0;
-    let reviewRemovedRows = 0;
+    const totals = createCurationState("");
     let reviewedFiles = 0;
-    let trailingRows = 0;
     for (const fileName of [...files].sort((left, right) =>
         left.localeCompare(right, "en-US")
     )) {
-        assertSafeFileName(fileName);
-        const filePath = path.join(options.scriptsDirectory, fileName);
-        if (!fs.existsSync(filePath)) {
-            throw new Error(`${fileName}: reviewed target is missing.`);
-        }
-        const originalSource = readBoundedSource(filePath);
-        if (isSourceFidelityLocked(originalSource)) {
-            if (review.has(fileName)) {
-                throw new Error(
-                    `${fileName}: source-fidelity-locked payload cannot be curated.`
-                );
-            }
-            continue;
-        }
-        let source = originalSource;
-        let fileBlankedRows = 0;
-        let fileCompactedRows = 0;
-        let fileLeadingRows = 0;
-        let fileReviewRemovedRows = 0;
-        let fileTrailingRows = 0;
-        let payloadChanged = false;
-
-        const evidence = review.get(fileName);
-        if (evidence) {
-            let result;
-            try {
-                result = applyReviewedRows(source, evidence);
-            } catch (error) {
-                const message =
-                    error instanceof Error ? error.message : String(error);
-                throw new Error(`${fileName}: ${message}`, {
-                    cause: error,
-                });
-            }
-            source = result.source;
-            fileBlankedRows += result.blankedRows;
-            fileReviewRemovedRows += result.removedRows;
-            payloadChanged ||= result.changed;
-            reviewedFiles += 1;
-        }
-
-        if (options.baselineDirectory) {
-            const baselinePath = path.join(options.baselineDirectory, fileName);
-            if (fs.existsSync(baselinePath)) {
-                const baselineSource = readBoundedSource(baselinePath);
-                try {
-                    if (options.leadingOnly) {
-                        const result = trimExpandedLeadingBlankRows(
-                            source,
-                            baselineSource
-                        );
-                        source = result.source;
-                        fileLeadingRows += result.removedRows;
-                        payloadChanged ||= result.changed;
-                    } else if (mayContainNewBlankRows(source, baselineSource)) {
-                        const result = compactBlankRowsIntroducedSince(
-                            source,
-                            baselineSource
-                        );
-                        source = result.source;
-                        fileCompactedRows += result.removedRows;
-                        payloadChanged ||= result.changed;
-                    }
-                } catch (error) {
-                    failures.push({
-                        error:
-                            error instanceof Error
-                                ? error.message
-                                : String(error),
-                        file: fileName,
-                        operation: "compact-baseline",
-                    });
-                }
-            }
-        }
-
-        if (!options.leadingOnly) {
-            try {
-                const trailingResult = removeTrailingBlankRows(source);
-                source = trailingResult.source;
-                fileTrailingRows += trailingResult.removedRows;
-                payloadChanged ||= trailingResult.changed;
-            } catch (error) {
-                failures.push({
-                    error:
-                        error instanceof Error ? error.message : String(error),
-                    file: fileName,
-                    operation: "trim-trailing",
-                });
-            }
-        }
-
-        if (payloadChanged) {
-            source = documentCuration(source);
-        }
-        if (source !== originalSource) {
-            if (options.write) {
-                writeFileAtomic(filePath, source);
-            }
-            blankedRows += fileBlankedRows;
-            compactedRows += fileCompactedRows;
-            leadingRows += fileLeadingRows;
-            reviewRemovedRows += fileReviewRemovedRows;
-            trailingRows += fileTrailingRows;
-            records.push({
-                blankedRows: fileBlankedRows,
-                compactedRows: fileCompactedRows,
-                file: fileName,
-                leadingRows: fileLeadingRows,
-                reviewRemovedRows: fileReviewRemovedRows,
-                trailingRows: fileTrailingRows,
-            });
-        }
+        const result = curateFile(fileName, options, review, failures);
+        if (result.reviewed) reviewedFiles += 1;
+        if (!result.record) continue;
+        records.push(result.record);
+        totals.blankedRows += result.record.blankedRows;
+        totals.compactedRows += result.record.compactedRows;
+        totals.leadingRows += result.record.leadingRows;
+        totals.reviewRemovedRows += result.record.reviewRemovedRows;
+        totals.trailingRows += result.record.trailingRows;
     }
 
     const report = {
@@ -477,14 +547,14 @@ function main(arguments_ = process.argv.slice(2)) {
         generatedAt: new Date().toISOString(),
         records,
         summary: {
-            blankedRows,
+            blankedRows: totals.blankedRows,
             changedFiles: records.length,
-            compactedRows,
+            compactedRows: totals.compactedRows,
             failures: failures.length,
-            leadingRows,
-            reviewRemovedRows,
+            leadingRows: totals.leadingRows,
+            reviewRemovedRows: totals.reviewRemovedRows,
             reviewedFiles,
-            trailingRows,
+            trailingRows: totals.trailingRows,
             write: options.write,
         },
     };
