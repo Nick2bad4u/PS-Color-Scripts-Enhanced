@@ -4,10 +4,37 @@ Permission attestation
 ----------------------
 
 On 2026-07-22, the maintainer confirmed that permission was granted by the
-artists, rightsholders, fair use, or an authorized representative for use in this
+artists, rightsholders, or an authorized representative for use in this
 project. This project relies on that permission, not on an assertion that
 archived artwork is freely licensed or covered by fair use.
+
+Project-specific scope
+----------------------
+
+The attested permission covers public redistribution in
+ps-color-scripts-enhanced, conversion of ANSI or ICE streams into safe
+PowerShell colorscripts, and logical vertical or horizontal splitting needed
+to fit the gallery. Artist attribution remains required.
+
+Each imported file header preserves an offline-readable title and artist
+attribution plus a script-scoped link to the complete record. Group, pack,
+canonical source URL, source checksum, license reference, rendered SHA-256
+checksums, conversion details, and split coordinates are maintained outside
+the published module at:
 
 https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html
 
 https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/audit/ArtworkProvenance.psd1
+
+Limitations
+-----------
+
+16colo.rs is an archive and does not itself claim ownership of every archived
+artwork. Its public archive availability is not treated as the source of this
+permission. This notice records the maintainer's project-specific attestation;
+it does not claim an archive-wide public license, transfer copyright, or grant
+rights beyond the stated project use.
+
+Archive rights policy: https://16colo.rs/faq/
+Archive home: https://16colo.rs/
+Roy/SAC home: https://www.roysac.com/
