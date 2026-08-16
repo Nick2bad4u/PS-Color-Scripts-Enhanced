@@ -1377,6 +1377,186 @@ function analyzeSplitFamilies(records, options) {
 }
 
 /**
+ * @param {ScriptRecord} record
+ * @param {AnalysisOptions} options
+ *
+ * @returns {Record<string, unknown>[]}
+ */
+function analyzeBlankLayoutSignals(record, options) {
+    const issues = [];
+    const metrics = record.metrics;
+    const family = record.name;
+    if (metrics.leadingBlankRows >= options.blankRun) {
+        issues.push({
+            type: "leading-blank-run",
+            family,
+            script: record.name,
+            rows: metrics.leadingBlankRows,
+        });
+    }
+    if (
+        metrics.leadingBlankRows >= 15 ||
+        (metrics.leadingBlankRows >= options.blankRun &&
+            metrics.leadingBlankRows / metrics.rows >= 0.5)
+    ) {
+        issues.push({
+            type: "extreme-leading-blank-run",
+            family,
+            script: record.name,
+            rows: metrics.leadingBlankRows,
+            totalRows: metrics.rows,
+            ratio: metrics.leadingBlankRows / metrics.rows,
+        });
+    }
+    if (metrics.trailingBlankRows >= options.blankRun) {
+        issues.push({
+            type: "trailing-blank-run",
+            family,
+            script: record.name,
+            rows: metrics.trailingBlankRows,
+        });
+    }
+    for (const run of metrics.blankRuns) {
+        if (run.kind !== "internal" || run.rows < options.blankRun) continue;
+        const visibleRowsAfter = metrics.rowVisibleCellCounts
+            .slice(run.endRow)
+            .filter((visibleCells) => visibleCells > 0).length;
+        issues.push({
+            type: "internal-blank-run",
+            family,
+            script: record.name,
+            startRow: run.startRow,
+            endRow: run.endRow,
+            rows: run.rows,
+            visibleRowsAfter,
+        });
+        if (run.rows >= 8 && visibleRowsAfter > 0 && visibleRowsAfter <= 2) {
+            issues.push({
+                type: "orphaned-tail-after-blank-run",
+                family,
+                script: record.name,
+                startRow: run.startRow,
+                endRow: run.endRow,
+                rows: run.rows,
+                visibleRowsAfter,
+                remainingRows: metrics.rows - run.endRow,
+            });
+        }
+    }
+    return issues;
+}
+
+/**
+ * @param {ScriptRecord} record
+ *
+ * @returns {Record<string, unknown>[]}
+ */
+function analyzeOutputSizeSignals(record) {
+    const metrics = record.metrics;
+    if (metrics.visibleRows === 0) {
+        return [
+            { type: "blank-part", family: record.name, script: record.name },
+        ];
+    }
+    if (metrics.visibleRows <= 5 || metrics.visibleCells <= 80) {
+        return [
+            {
+                type: "very-small-output",
+                family: record.name,
+                script: record.name,
+                visibleRows: metrics.visibleRows,
+                visibleCells: metrics.visibleCells,
+            },
+        ];
+    }
+    return [];
+}
+
+/**
+ * @param {ScriptRecord} record
+ *
+ * @returns {Record<string, unknown>[]}
+ */
+function analyzeVisualComplexitySignals(record) {
+    const issues = [];
+    const metrics = record.metrics;
+    const family = record.name;
+    if (
+        metrics.rows >= 20 &&
+        metrics.uniqueGlyphs <= 4 &&
+        metrics.uniqueStyles <= 10 &&
+        metrics.uniqueRowPatterns <= 10
+    ) {
+        issues.push({
+            type: "low-cell-variety",
+            family,
+            script: record.name,
+            uniqueGlyphs: metrics.uniqueGlyphs,
+            uniqueStyles: metrics.uniqueStyles,
+            uniqueRowPatterns: metrics.uniqueRowPatterns,
+        });
+    }
+    if (
+        metrics.visibleRows >= 10 &&
+        metrics.width >= 20 &&
+        metrics.cellDensity <= 0.04
+    ) {
+        issues.push({
+            type: "sparse-cell-density",
+            family,
+            script: record.name,
+            rows: metrics.rows,
+            visibleRows: metrics.visibleRows,
+            visibleCells: metrics.visibleCells,
+            width: metrics.width,
+            cellDensity: metrics.cellDensity,
+        });
+    }
+    if (
+        metrics.rows >= 10 &&
+        metrics.asciiGlyphRatio >= 0.95 &&
+        metrics.uniqueStyles <= 4
+    ) {
+        issues.push({
+            type: "mostly-plain-ascii",
+            family,
+            script: record.name,
+            asciiGlyphRatio: metrics.asciiGlyphRatio,
+            uniqueStyles: metrics.uniqueStyles,
+        });
+    }
+    return issues;
+}
+
+/**
+ * @param {ScriptRecord} record
+ *
+ * @returns {Record<string, unknown>[]}
+ */
+function analyzeCharacterSignals(record) {
+    const issues = [];
+    const metrics = record.metrics;
+    if (metrics.replacementCharacters > 0 || metrics.mojibakeSequences > 0) {
+        issues.push({
+            type: "suspicious-character-decoding",
+            family: record.name,
+            script: record.name,
+            replacementCharacters: metrics.replacementCharacters,
+            mojibakeSequences: metrics.mojibakeSequences,
+        });
+    }
+    if (metrics.dosEofCharacters > 0) {
+        issues.push({
+            type: "embedded-dos-eof",
+            family: record.name,
+            script: record.name,
+            characters: metrics.dosEofCharacters,
+        });
+    }
+    return issues;
+}
+
+/**
  * @param {ScriptRecord[]} records
  * @param {AnalysisOptions} options
  *
@@ -1386,159 +1566,21 @@ function analyzeReviewSignals(records, options) {
     const issues = [];
     for (const record of records) {
         if (!record.reviewEligible) continue;
-        const family = record.name;
         if (!record.metrics) {
             issues.push({
                 type: "analysis-error",
-                family,
+                family: record.name,
                 script: record.name,
                 error: record.analysisError,
             });
             continue;
         }
-        const metrics = record.metrics;
-        if (metrics.leadingBlankRows >= options.blankRun) {
-            issues.push({
-                type: "leading-blank-run",
-                family,
-                script: record.name,
-                rows: metrics.leadingBlankRows,
-            });
-        }
-        if (
-            metrics.leadingBlankRows >= 15 ||
-            (metrics.leadingBlankRows >= options.blankRun &&
-                metrics.leadingBlankRows / metrics.rows >= 0.5)
-        ) {
-            issues.push({
-                type: "extreme-leading-blank-run",
-                family,
-                script: record.name,
-                rows: metrics.leadingBlankRows,
-                totalRows: metrics.rows,
-                ratio: metrics.leadingBlankRows / metrics.rows,
-            });
-        }
-        if (metrics.trailingBlankRows >= options.blankRun) {
-            issues.push({
-                type: "trailing-blank-run",
-                family,
-                script: record.name,
-                rows: metrics.trailingBlankRows,
-            });
-        }
-        for (const run of metrics.blankRuns) {
-            if (run.kind !== "internal" || run.rows < options.blankRun) {
-                continue;
-            }
-            const visibleRowsAfter = metrics.rowVisibleCellCounts
-                .slice(run.endRow)
-                .filter((visibleCells) => visibleCells > 0).length;
-            issues.push({
-                type: "internal-blank-run",
-                family,
-                script: record.name,
-                startRow: run.startRow,
-                endRow: run.endRow,
-                rows: run.rows,
-                visibleRowsAfter,
-            });
-            if (
-                run.rows >= 8 &&
-                visibleRowsAfter > 0 &&
-                visibleRowsAfter <= 2
-            ) {
-                issues.push({
-                    type: "orphaned-tail-after-blank-run",
-                    family,
-                    script: record.name,
-                    startRow: run.startRow,
-                    endRow: run.endRow,
-                    rows: run.rows,
-                    visibleRowsAfter,
-                    remainingRows: metrics.rows - run.endRow,
-                });
-            }
-        }
-        if (metrics.visibleRows === 0) {
-            issues.push({
-                type: "blank-part",
-                family,
-                script: record.name,
-            });
-        } else if (metrics.visibleRows <= 5 || metrics.visibleCells <= 80) {
-            issues.push({
-                type: "very-small-output",
-                family,
-                script: record.name,
-                visibleRows: metrics.visibleRows,
-                visibleCells: metrics.visibleCells,
-            });
-        }
-        if (
-            metrics.rows >= 20 &&
-            metrics.uniqueGlyphs <= 4 &&
-            metrics.uniqueStyles <= 10 &&
-            metrics.uniqueRowPatterns <= 10
-        ) {
-            issues.push({
-                type: "low-cell-variety",
-                family,
-                script: record.name,
-                uniqueGlyphs: metrics.uniqueGlyphs,
-                uniqueStyles: metrics.uniqueStyles,
-                uniqueRowPatterns: metrics.uniqueRowPatterns,
-            });
-        }
-        if (
-            metrics.visibleRows >= 10 &&
-            metrics.width >= 20 &&
-            metrics.cellDensity <= 0.04
-        ) {
-            issues.push({
-                type: "sparse-cell-density",
-                family,
-                script: record.name,
-                rows: metrics.rows,
-                visibleRows: metrics.visibleRows,
-                visibleCells: metrics.visibleCells,
-                width: metrics.width,
-                cellDensity: metrics.cellDensity,
-            });
-        }
-        if (
-            metrics.rows >= 10 &&
-            metrics.asciiGlyphRatio >= 0.95 &&
-            metrics.uniqueStyles <= 4
-        ) {
-            issues.push({
-                type: "mostly-plain-ascii",
-                family,
-                script: record.name,
-                asciiGlyphRatio: metrics.asciiGlyphRatio,
-                uniqueStyles: metrics.uniqueStyles,
-            });
-        }
-        if (
-            metrics.replacementCharacters > 0 ||
-            metrics.mojibakeSequences > 0
-        ) {
-            issues.push({
-                type: "suspicious-character-decoding",
-                family,
-                script: record.name,
-                replacementCharacters: metrics.replacementCharacters,
-                mojibakeSequences: metrics.mojibakeSequences,
-            });
-        }
-        if (metrics.dosEofCharacters > 0) {
-            issues.push({
-                type: "embedded-dos-eof",
-                family,
-                script: record.name,
-                characters: metrics.dosEofCharacters,
-            });
-        }
+        issues.push(
+            ...analyzeBlankLayoutSignals(record, options),
+            ...analyzeOutputSizeSignals(record),
+            ...analyzeVisualComplexitySignals(record),
+            ...analyzeCharacterSignals(record)
+        );
     }
     return issues;
 }
