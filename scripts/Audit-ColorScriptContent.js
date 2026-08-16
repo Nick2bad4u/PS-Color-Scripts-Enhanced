@@ -1520,8 +1520,7 @@ function parseArguments(arguments_) {
         scriptsDirectory: DEFAULT_SCRIPTS_DIRECTORY,
     };
 
-    for (let index = 0; index < arguments_.length; index += 1) {
-        const argument = arguments_[index];
+    for (const argument of arguments_) {
         if (argument === "--fix-trailing") {
             options.fixTrailing = true;
         } else if (argument === "--fix-text") {

@@ -116,6 +116,35 @@ begin {
         Write-Verbose 'AddComment is retained for compatibility; generated scripts always include provenance comments.'
     }
 
+    function Add-AnsiSourceArguments {
+        [CmdletBinding()]
+        [OutputType([string[]])]
+        param(
+            [Parameter(Mandatory)]
+            [string[]]$ArgumentList
+        )
+
+        if ($null -ne $SourceUrl) {
+            $ArgumentList += '--source-url=' + $SourceUrl.AbsoluteUri
+        }
+        if (-not [string]::IsNullOrWhiteSpace($SourceRevision)) {
+            $ArgumentList += '--source-revision=' + $SourceRevision
+        }
+        if (-not [string]::IsNullOrWhiteSpace($SourceSha256)) {
+            $ArgumentList += '--source-sha256=' + $SourceSha256
+        }
+        if (-not [string]::IsNullOrWhiteSpace($SourceLicense)) {
+            $ArgumentList += '--source-license=' + $SourceLicense
+        }
+        if (-not [string]::IsNullOrWhiteSpace($SourceAttribution)) {
+            $ArgumentList += '--source-attribution=' + $SourceAttribution
+        }
+        if (-not [string]::IsNullOrWhiteSpace($SourceModification)) {
+            $ArgumentList += '--source-modification=' + $SourceModification
+        }
+        return $ArgumentList
+    }
+
     function Invoke-AnsiConversion {
         [CmdletBinding(SupportsShouldProcess = $true, ConfirmImpact = 'Medium')]
         param(
@@ -163,24 +192,7 @@ begin {
         if ($Force) {
             $nodeArguments += '--force'
         }
-        if ($null -ne $SourceUrl) {
-            $nodeArguments += '--source-url=' + $SourceUrl.AbsoluteUri
-        }
-        if (-not [string]::IsNullOrWhiteSpace($SourceRevision)) {
-            $nodeArguments += '--source-revision=' + $SourceRevision
-        }
-        if (-not [string]::IsNullOrWhiteSpace($SourceSha256)) {
-            $nodeArguments += '--source-sha256=' + $SourceSha256
-        }
-        if (-not [string]::IsNullOrWhiteSpace($SourceLicense)) {
-            $nodeArguments += '--source-license=' + $SourceLicense
-        }
-        if (-not [string]::IsNullOrWhiteSpace($SourceAttribution)) {
-            $nodeArguments += '--source-attribution=' + $SourceAttribution
-        }
-        if (-not [string]::IsNullOrWhiteSpace($SourceModification)) {
-            $nodeArguments += '--source-modification=' + $SourceModification
-        }
+        $nodeArguments = Add-AnsiSourceArguments -ArgumentList $nodeArguments
         $nodeArguments += @($inputInfo.FullName, $outputPath)
 
         $converterOutput = @(& $nodeCommand.Source @nodeArguments 2>&1)

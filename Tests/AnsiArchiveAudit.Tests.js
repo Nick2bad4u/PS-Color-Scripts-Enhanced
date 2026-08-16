@@ -315,13 +315,9 @@ test("16colors pagination validates totals and preserves numeric pack names", as
     assert.equal(inventory.enumeratedCount, 3);
     assert.deepEqual(
         inventory.packs.map((pack) => {
-            if (
-                typeof pack.name !== "string" &&
-                typeof pack.name !== "number"
-            ) {
-                assert.fail("Pack name must be a string or number.");
-            }
-            return pack.name.toString();
+            if (typeof pack.name === "string") return pack.name;
+            if (typeof pack.name === "number") return pack.name.toString();
+            assert.fail("Pack name must be a string or number.");
         }),
         [
             "1990",

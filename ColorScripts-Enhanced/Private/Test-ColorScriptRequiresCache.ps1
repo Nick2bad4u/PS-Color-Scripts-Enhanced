@@ -1,3 +1,34 @@
+function Import-CacheableColorScriptNameSet {
+    [CmdletBinding()]
+    [OutputType([System.Collections.Generic.HashSet[string]])]
+    param(
+        [Parameter(Mandatory)]
+        [string]$PolicyPath
+    )
+
+    $nameSet = New-Object 'System.Collections.Generic.HashSet[string]' ([System.StringComparer]::OrdinalIgnoreCase)
+    try {
+        $policy = Import-PowerShellDataFile -LiteralPath $PolicyPath -ErrorAction Stop
+        if ($policy -is [hashtable] -and
+            $policy.CacheableScripts -isnot [string] -and
+            $policy.CacheableScripts -is [System.Collections.IEnumerable]) {
+            foreach ($scriptName in $policy.CacheableScripts) {
+                $name = [string]$scriptName
+                if (-not [string]::IsNullOrWhiteSpace($name)) {
+                    $null = $nameSet.Add($name)
+                }
+            }
+        }
+    }
+    catch {
+        # A missing or invalid policy must never broaden caching. The normal non-cache rendering
+        # boundary remains the safe fallback for the script type.
+        Write-Verbose ("Unable to load cache policy '{0}': {1}" -f $PolicyPath, $_.Exception.Message)
+    }
+
+    Write-Output -NoEnumerate -InputObject $nameSet
+}
+
 function Get-ColorScriptCacheableNameSet {
     <#
     .SYNOPSIS
@@ -26,24 +57,7 @@ function Get-ColorScriptCacheableNameSet {
 
     $nameSet = New-Object 'System.Collections.Generic.HashSet[string]' ([System.StringComparer]::OrdinalIgnoreCase)
     if ($policyLastWriteTime) {
-        try {
-            $policy = Import-PowerShellDataFile -LiteralPath $policyPath -ErrorAction Stop
-            if ($policy -is [hashtable] -and
-                $policy.CacheableScripts -isnot [string] -and
-                $policy.CacheableScripts -is [System.Collections.IEnumerable]) {
-                foreach ($scriptName in $policy.CacheableScripts) {
-                    $name = [string]$scriptName
-                    if (-not [string]::IsNullOrWhiteSpace($name)) {
-                        $null = $nameSet.Add($name)
-                    }
-                }
-            }
-        }
-        catch {
-            # A missing or invalid policy must never broaden caching. The normal non-cache rendering
-            # boundary remains the safe fallback for the script type.
-            Write-Verbose ("Unable to load cache policy '{0}': {1}" -f $policyPath, $_.Exception.Message)
-        }
+        $nameSet = Import-CacheableColorScriptNameSet -PolicyPath $policyPath
     }
 
     $script:CacheableScriptNameSet = $nameSet

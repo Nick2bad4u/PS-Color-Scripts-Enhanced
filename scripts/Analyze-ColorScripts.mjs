@@ -16,7 +16,6 @@ const SPLIT_NAME =
     /^(?<base>.+?)(?:-panel(?<panel>\d{2}))?-part(?<part>\d{2})$/u;
 const SOURCE_ROW_RANGE = /^# Lines:\s*(\d+)-(\d+)\s*$/mu;
 const SOURCE_COLUMN_RANGE = /^# Columns:\s*(\d+)-(\d+)\s*$/mu;
-const HEADER_FIELD = /^# ([^:\r\n]+):\s*(.*)$/gmu;
 const DERIVATIVE_SIGNAL =
     /\b(?:after|based on|fan art|original (?:art|artwork|image)|ripped|well[- ]known .{0,30} character)\b/iu;
 const BLOCK_GLYPH = /[\u2580-\u259f]/u;
@@ -46,6 +45,23 @@ function requireIssueType(issue) {
         throw new TypeError("Analysis issue type must be a non-empty string.");
     }
     return issue.type;
+}
+
+/**
+ * @param {string} source
+ *
+ * @returns {Record<string, string>}
+ */
+function parseHeaderFields(source) {
+    const fields = {};
+    for (const line of source.split(/\r?\n/u)) {
+        if (!line.startsWith("# ")) continue;
+        const separatorIndex = line.indexOf(":", 2);
+        if (separatorIndex < 3) continue;
+        const key = line.slice(2, separatorIndex);
+        fields[key] = line.slice(separatorIndex + 1).trimStart();
+    }
+    return fields;
 }
 
 /**
@@ -782,10 +798,7 @@ function analyzeScript(filePath) {
         ? null
         : SOURCE_COLUMN_RANGE.exec(source);
     const splitMatch = SPLIT_NAME.exec(name);
-    const header = {};
-    for (const match of source.matchAll(HEADER_FIELD)) {
-        header[match[1]] = match[2];
-    }
+    const header = parseHeaderFields(source);
     if (provenance) {
         const collection = checkedInProvenance.collections.get(
             provenance.Collection

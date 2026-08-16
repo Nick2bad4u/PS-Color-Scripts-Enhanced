@@ -18,6 +18,45 @@ function script:Get-MarkdownCodeBlock {
     }
 }
 
+function script:Get-PowerShellTechnicalSignatureNode {
+    param(
+        [Parameter(Mandatory)]
+        [System.Management.Automation.Language.Ast]$Node,
+
+        [Parameter(Mandatory)]
+        [string[]]$DisplayCommands
+    )
+
+    if ($Node -is [System.Management.Automation.Language.CommandAst]) {
+        $commandName = $Node.GetCommandName()
+        if (-not [string]::IsNullOrWhiteSpace($commandName)) {
+            return "Command:$commandName"
+        }
+        return $null
+    }
+    if ($Node -is [System.Management.Automation.Language.CommandParameterAst]) {
+        return "Parameter:$($Node.ParameterName)"
+    }
+    if ($Node -is [System.Management.Automation.Language.VariableExpressionAst]) {
+        return "Variable:$($Node.VariablePath.UserPath)"
+    }
+    if ($Node -is [System.Management.Automation.Language.MemberExpressionAst]) {
+        return "Member:$($Node.Member.Extent.Text)"
+    }
+    if ($Node -is [System.Management.Automation.Language.TypeExpressionAst]) {
+        return "Type:$($Node.TypeName.FullName)"
+    }
+
+    $parentCommand = $Node.Parent
+    while ($parentCommand -and $parentCommand -isnot [System.Management.Automation.Language.CommandAst]) {
+        $parentCommand = $parentCommand.Parent
+    }
+    if ($parentCommand -and $DisplayCommands -contains $parentCommand.GetCommandName()) {
+        return $null
+    }
+    return "String:$($Node.Extent.Text)"
+}
+
 function script:Get-PowerShellTechnicalSignature {
     param([Parameter(Mandatory)][string]$Code)
 
@@ -48,43 +87,10 @@ function script:Get-PowerShellTechnicalSignature {
 
     $signature = New-Object 'System.Collections.Generic.List[string]'
     foreach ($node in $signatureNodes) {
-        if ($node -is [System.Management.Automation.Language.CommandAst]) {
-            $commandName = $node.GetCommandName()
-            if (-not [string]::IsNullOrWhiteSpace($commandName)) {
-                [void]$signature.Add("Command:$commandName")
-            }
-            continue
+        $nodeSignature = Get-PowerShellTechnicalSignatureNode -Node $node -DisplayCommands $displayCommands
+        if ($null -ne $nodeSignature) {
+            [void]$signature.Add($nodeSignature)
         }
-
-        if ($node -is [System.Management.Automation.Language.CommandParameterAst]) {
-            [void]$signature.Add("Parameter:$($node.ParameterName)")
-            continue
-        }
-
-        if ($node -is [System.Management.Automation.Language.VariableExpressionAst]) {
-            [void]$signature.Add("Variable:$($node.VariablePath.UserPath)")
-            continue
-        }
-
-        if ($node -is [System.Management.Automation.Language.MemberExpressionAst]) {
-            [void]$signature.Add("Member:$($node.Member.Extent.Text)")
-            continue
-        }
-
-        if ($node -is [System.Management.Automation.Language.TypeExpressionAst]) {
-            [void]$signature.Add("Type:$($node.TypeName.FullName)")
-            continue
-        }
-
-        $parentCommand = $node.Parent
-        while ($parentCommand -and $parentCommand -isnot [System.Management.Automation.Language.CommandAst]) {
-            $parentCommand = $parentCommand.Parent
-        }
-        if ($parentCommand -and $displayCommands -contains $parentCommand.GetCommandName()) {
-            continue
-        }
-
-        [void]$signature.Add("String:$($node.Extent.Text)")
     }
 
     return @($signature)
@@ -140,69 +146,108 @@ function script:Get-MarkdownHeading {
     }
 }
 
+function script:Update-MarkdownParsingState {
+    param(
+        [Parameter(Mandatory)]
+        [AllowEmptyString()]
+        [string]$Trimmed,
+
+        [Parameter(Mandatory)]
+        [hashtable]$State
+    )
+
+    if ($Trimmed -eq '---' -and $null -eq $State.FenceLanguage) {
+        if (-not $State.FrontmatterSeen) {
+            $State.FrontmatterSeen = $true
+            $State.InFrontmatter = $true
+        }
+        elseif ($State.InFrontmatter) {
+            $State.InFrontmatter = $false
+        }
+        return $true
+    }
+    if ($Trimmed -match '^```(?<Language>[A-Za-z0-9_-]*)\s*$') {
+        if ($null -eq $State.FenceLanguage) {
+            $State.FenceLanguage = $Matches.Language.ToLowerInvariant()
+        }
+        else {
+            $State.FenceLanguage = $null
+        }
+        return $true
+    }
+    return $false
+}
+
+function script:Get-PowerShellFenceCandidate {
+    param(
+        [Parameter(Mandatory)]
+        [AllowEmptyString()]
+        [string]$Candidate,
+
+        [Parameter(Mandatory)]
+        [AllowEmptyString()]
+        [string]$FenceLanguage
+    )
+
+    if ($FenceLanguage -notin @('powershell', 'pwsh')) {
+        return $null
+    }
+    if ($Candidate.StartsWith('#')) {
+        $comment = $Candidate.TrimStart('#', ' ')
+        if ($comment -match '^(?:\$|[A-Z][A-Za-z]+-[A-Z][A-Za-z-]+(?:\s|$)|-[A-Z][A-Za-z0-9]*(?:\s|$))') {
+            return $null
+        }
+        return $comment
+    }
+    if ($Candidate -match '#\s*(?<Text>[A-Za-z].+)$') {
+        return $Matches.Text
+    }
+    if ($Candidate -match '^Write-(?:Debug|Error|Host|Information|Output|Verbose|Warning)\s+"(?<Text>.*)"\s*$') {
+        return $Matches.Text
+    }
+    return $null
+}
+
+function script:Test-TranslatableLineCandidate {
+    param([AllowNull()][string]$Candidate)
+
+    if ([string]::IsNullOrWhiteSpace($Candidate) -or
+        $Candidate.StartsWith('#') -or
+        $Candidate -match '^(?:-[A-Z][A-Za-z]+,\s*)+-[A-Z][A-Za-z]+,?$' -or
+        $Candidate -match '^\[about_CommonParameters\]\(' -or
+        $Candidate -match '^- \[[^]]+\]\(https?://' -or
+        $Candidate -match '^(?:Type|DefaultValue|SupportsWildcards|Aliases|ParameterSets|Position|IsRequired|ValueFromPipeline|ValueFromPipelineByPropertyName|ValueFromRemainingArguments|DontShow|AcceptedValues|HelpMessage):') {
+        return $false
+    }
+    return $true
+}
+
 function script:Get-TranslatableLine {
     param([Parameter(Mandatory)][string]$Content)
 
-    $inFrontmatter = $false
-    $frontmatterSeen = $false
-    $fenceLanguage = $null
+    $state = @{
+        InFrontmatter  = $false
+        FrontmatterSeen = $false
+        FenceLanguage = $null
+    }
     $lineNumber = 0
     foreach ($line in $Content -split '\r?\n') {
         $lineNumber++
         $trimmed = $line.Trim()
-        if ($trimmed -eq '---' -and $null -eq $fenceLanguage) {
-            if (-not $frontmatterSeen) {
-                $frontmatterSeen = $true
-                $inFrontmatter = $true
-            }
-            elseif ($inFrontmatter) {
-                $inFrontmatter = $false
-            }
+        if (Update-MarkdownParsingState -Trimmed $trimmed -State $state) {
             continue
         }
 
-        if ($trimmed -match '^```(?<Language>[A-Za-z0-9_-]*)\s*$') {
-            if ($null -eq $fenceLanguage) {
-                $fenceLanguage = $Matches.Language.ToLowerInvariant()
-            }
-            else {
-                $fenceLanguage = $null
-            }
-            continue
-        }
-
-        if ($inFrontmatter) {
+        if ($state.InFrontmatter) {
             continue
         }
 
         $candidate = $trimmed
-        if ($null -ne $fenceLanguage) {
-            if ($fenceLanguage -notin @('powershell', 'pwsh')) {
-                continue
-            }
-            if ($candidate.StartsWith('#')) {
-                $candidate = $candidate.TrimStart('#', ' ')
-                if ($candidate -match '^(?:\$|[A-Z][A-Za-z]+-[A-Z][A-Za-z-]+(?:\s|$)|-[A-Z][A-Za-z0-9]*(?:\s|$))') {
-                    continue
-                }
-            }
-            elseif ($candidate -match '#\s*(?<Text>[A-Za-z].+)$') {
-                $candidate = $Matches.Text
-            }
-            elseif ($candidate -match '^Write-(?:Debug|Error|Host|Information|Output|Verbose|Warning)\s+"(?<Text>.*)"\s*$') {
-                $candidate = $Matches.Text
-            }
-            else {
-                continue
-            }
+        if ($null -ne $state.FenceLanguage) {
+            $candidate = Get-PowerShellFenceCandidate -Candidate $candidate -FenceLanguage $state.FenceLanguage
         }
 
-        if ([string]::IsNullOrWhiteSpace($candidate) -or
-            $candidate.StartsWith('#') -or
-            $candidate -match '^(?:-[A-Z][A-Za-z]+,\s*)+-[A-Z][A-Za-z]+,?$' -or
-            $candidate -match '^\[about_CommonParameters\]\(' -or
-            $candidate -match '^- \[[^]]+\]\(https?://' -or
-            $candidate -match '^(?:Type|DefaultValue|SupportsWildcards|Aliases|ParameterSets|Position|IsRequired|ValueFromPipeline|ValueFromPipelineByPropertyName|ValueFromRemainingArguments|DontShow|AcceptedValues|HelpMessage):') {
+        if (-not (Test-TranslatableLineCandidate -Candidate $candidate)) {
             continue
         }
 

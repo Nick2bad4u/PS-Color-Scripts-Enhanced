@@ -102,6 +102,62 @@ begin {
         throw 'Node.js is required. Install a supported release from https://nodejs.org/.'
     }
 
+    function Resolve-AdvancedAnsiOutputPath {
+        [CmdletBinding()]
+        [OutputType([string])]
+        param(
+            [Parameter(Mandatory)]
+            [System.IO.FileInfo]$InputInfo,
+
+            [Parameter()]
+            [string]$RequestedOutputFile
+        )
+
+        if ($RequestedOutputFile) {
+            if ([System.IO.Path]::IsPathRooted($RequestedOutputFile)) {
+                return [System.IO.Path]::GetFullPath($RequestedOutputFile)
+            }
+            $currentDirectory = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath('.')
+            return [System.IO.Path]::GetFullPath((Join-Path -Path $currentDirectory -ChildPath $RequestedOutputFile))
+        }
+
+        $baseName = [System.IO.Path]::GetFileNameWithoutExtension($InputInfo.Name).ToLowerInvariant()
+        $baseName = $baseName -replace '[^a-z0-9]', '-' -replace '-+', '-' -replace '^-|-$', ''
+        if ([string]::IsNullOrWhiteSpace($baseName)) {
+            throw "Input file '$($InputInfo.Name)' does not produce a safe colorscript name."
+        }
+        return Join-Path -Path $defaultOutputDirectory -ChildPath ($baseName + '.ps1')
+    }
+
+    function Add-AdvancedAnsiSourceArguments {
+        [CmdletBinding()]
+        [OutputType([string[]])]
+        param(
+            [Parameter(Mandatory)]
+            [string[]]$ArgumentList
+        )
+
+        if ($null -ne $SourceUrl) {
+            $ArgumentList += '--source-url=' + $SourceUrl.AbsoluteUri
+        }
+        if (-not [string]::IsNullOrWhiteSpace($SourceRevision)) {
+            $ArgumentList += '--source-revision=' + $SourceRevision
+        }
+        if (-not [string]::IsNullOrWhiteSpace($SourceSha256)) {
+            $ArgumentList += '--source-sha256=' + $SourceSha256
+        }
+        if (-not [string]::IsNullOrWhiteSpace($SourceLicense)) {
+            $ArgumentList += '--source-license=' + $SourceLicense
+        }
+        if (-not [string]::IsNullOrWhiteSpace($SourceAttribution)) {
+            $ArgumentList += '--source-attribution=' + $SourceAttribution
+        }
+        if (-not [string]::IsNullOrWhiteSpace($SourceModification)) {
+            $ArgumentList += '--source-modification=' + $SourceModification
+        }
+        return $ArgumentList
+    }
+
     function Invoke-AdvancedAnsiConversion {
         [CmdletBinding(SupportsShouldProcess = $true, ConfirmImpact = 'Medium')]
         param(
@@ -118,23 +174,7 @@ begin {
             throw "ANSI input must be a file: $resolvedInput"
         }
 
-        $targetOutput = if ($RequestedOutputFile) {
-            if ([System.IO.Path]::IsPathRooted($RequestedOutputFile)) {
-                [System.IO.Path]::GetFullPath($RequestedOutputFile)
-            }
-            else {
-                $currentDirectory = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath('.')
-                [System.IO.Path]::GetFullPath((Join-Path -Path $currentDirectory -ChildPath $RequestedOutputFile))
-            }
-        }
-        else {
-            $baseName = [System.IO.Path]::GetFileNameWithoutExtension($inputInfo.Name).ToLowerInvariant()
-            $baseName = $baseName -replace '[^a-z0-9]', '-' -replace '-+', '-' -replace '^-|-$', ''
-            if ([string]::IsNullOrWhiteSpace($baseName)) {
-                throw "Input file '$($inputInfo.Name)' does not produce a safe colorscript name."
-            }
-            Join-Path -Path $defaultOutputDirectory -ChildPath ($baseName + '.ps1')
-        }
+        $targetOutput = Resolve-AdvancedAnsiOutputPath -InputInfo $inputInfo -RequestedOutputFile $RequestedOutputFile
 
         if ((Test-Path -LiteralPath $targetOutput -PathType Leaf) -and -not $Force) {
             throw "Output file already exists: $targetOutput. Use -Force to replace it."
@@ -150,24 +190,7 @@ begin {
         if ($Force) {
             $nodeArguments += '--force'
         }
-        if ($null -ne $SourceUrl) {
-            $nodeArguments += '--source-url=' + $SourceUrl.AbsoluteUri
-        }
-        if (-not [string]::IsNullOrWhiteSpace($SourceRevision)) {
-            $nodeArguments += '--source-revision=' + $SourceRevision
-        }
-        if (-not [string]::IsNullOrWhiteSpace($SourceSha256)) {
-            $nodeArguments += '--source-sha256=' + $SourceSha256
-        }
-        if (-not [string]::IsNullOrWhiteSpace($SourceLicense)) {
-            $nodeArguments += '--source-license=' + $SourceLicense
-        }
-        if (-not [string]::IsNullOrWhiteSpace($SourceAttribution)) {
-            $nodeArguments += '--source-attribution=' + $SourceAttribution
-        }
-        if (-not [string]::IsNullOrWhiteSpace($SourceModification)) {
-            $nodeArguments += '--source-modification=' + $SourceModification
-        }
+        $nodeArguments = Add-AdvancedAnsiSourceArguments -ArgumentList $nodeArguments
         $nodeArguments += @($inputInfo.FullName, $targetOutput)
 
         $converterOutput = @(& $nodeCommand.Source @nodeArguments 2>&1)

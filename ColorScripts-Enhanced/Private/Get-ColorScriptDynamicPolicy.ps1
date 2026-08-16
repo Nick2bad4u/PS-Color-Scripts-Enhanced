@@ -1,3 +1,33 @@
+function Import-DynamicColorScriptNameSet {
+    [CmdletBinding()]
+    [OutputType([System.Collections.Generic.HashSet[string]])]
+    param(
+        [Parameter(Mandatory)]
+        [string]$PolicyPath
+    )
+
+    $nameSet = New-Object 'System.Collections.Generic.HashSet[string]' ([System.StringComparer]::OrdinalIgnoreCase)
+    try {
+        $policy = Import-PowerShellDataFile -LiteralPath $PolicyPath -ErrorAction Stop
+        if ($policy -is [hashtable] -and
+            $policy.DynamicScripts -isnot [string] -and
+            $policy.DynamicScripts -is [System.Collections.IEnumerable]) {
+            foreach ($scriptName in $policy.DynamicScripts) {
+                $name = [string]$scriptName
+                if (-not [string]::IsNullOrWhiteSpace($name)) {
+                    $null = $nameSet.Add($name)
+                }
+            }
+        }
+    }
+    catch {
+        # An invalid or missing policy must never authorize in-process script execution.
+        Write-Verbose ("Unable to load dynamic render policy '{0}': {1}" -f $PolicyPath, $_.Exception.Message)
+    }
+
+    Write-Output -NoEnumerate -InputObject $nameSet
+}
+
 function Get-ColorScriptDynamicNameSet {
     <#
     .SYNOPSIS
@@ -25,23 +55,7 @@ function Get-ColorScriptDynamicNameSet {
 
     $nameSet = New-Object 'System.Collections.Generic.HashSet[string]' ([System.StringComparer]::OrdinalIgnoreCase)
     if ($policyLastWriteTime) {
-        try {
-            $policy = Import-PowerShellDataFile -LiteralPath $policyPath -ErrorAction Stop
-            if ($policy -is [hashtable] -and
-                $policy.DynamicScripts -isnot [string] -and
-                $policy.DynamicScripts -is [System.Collections.IEnumerable]) {
-                foreach ($scriptName in $policy.DynamicScripts) {
-                    $name = [string]$scriptName
-                    if (-not [string]::IsNullOrWhiteSpace($name)) {
-                        $null = $nameSet.Add($name)
-                    }
-                }
-            }
-        }
-        catch {
-            # An invalid or missing policy must never authorize in-process script execution.
-            Write-Verbose ("Unable to load dynamic render policy '{0}': {1}" -f $policyPath, $_.Exception.Message)
-        }
+        $nameSet = Import-DynamicColorScriptNameSet -PolicyPath $policyPath
     }
 
     $script:DynamicColorScriptNameSet = $nameSet

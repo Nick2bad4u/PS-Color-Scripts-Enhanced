@@ -63,6 +63,24 @@ function Invoke-HelperPowerShell {
     }
 }
 
+function Remove-MamlNavigationLink {
+    param(
+        [Parameter(Mandatory)]
+        [System.Xml.XmlNode]$Link
+    )
+
+    $precedingWhitespace = $Link.PreviousSibling
+    [void]$Link.ParentNode.RemoveChild($Link)
+    if ($precedingWhitespace -and
+        $precedingWhitespace.NodeType -in @(
+            [System.Xml.XmlNodeType]::Whitespace,
+            [System.Xml.XmlNodeType]::SignificantWhitespace
+        ) -and
+        [string]::IsNullOrWhiteSpace($precedingWhitespace.Value)) {
+        [void]$precedingWhitespace.ParentNode.RemoveChild($precedingWhitespace)
+    }
+}
+
 function Remove-DuplicateMamlRelatedLink {
     param(
         [Parameter(Mandatory)]
@@ -85,16 +103,7 @@ function Remove-DuplicateMamlRelatedLink {
             $uri = if ($uriNode) { $uriNode.InnerText.Trim() } else { '' }
 
             if ([string]::IsNullOrWhiteSpace($uri) -or -not $seenLinks.Add($uri)) {
-                $precedingWhitespace = $link.PreviousSibling
-                [void]$link.ParentNode.RemoveChild($link)
-                if ($precedingWhitespace -and
-                    $precedingWhitespace.NodeType -in @(
-                        [System.Xml.XmlNodeType]::Whitespace,
-                        [System.Xml.XmlNodeType]::SignificantWhitespace
-                    ) -and
-                    [string]::IsNullOrWhiteSpace($precedingWhitespace.Value)) {
-                    [void]$precedingWhitespace.ParentNode.RemoveChild($precedingWhitespace)
-                }
+                Remove-MamlNavigationLink -Link $link
                 $removedCount++
             }
         }

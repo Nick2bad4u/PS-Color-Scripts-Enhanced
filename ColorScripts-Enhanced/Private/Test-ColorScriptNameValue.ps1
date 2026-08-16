@@ -1,3 +1,36 @@
+function Get-InvalidColorScriptNameMessage {
+    [CmdletBinding()]
+    [OutputType([string])]
+    param(
+        [Parameter(Mandatory)]
+        [string]$Name,
+
+        [Parameter(Mandatory)]
+        [ValidateSet('Empty', 'Characters')]
+        [string]$Reason
+    )
+
+    $messageKey = "InvalidScriptName$Reason"
+    if ($script:Messages -and $script:Messages.ContainsKey($messageKey)) {
+        return $script:Messages[$messageKey] -f $Name
+    }
+    if ($Reason -eq 'Empty') {
+        return 'Color script name cannot be empty or whitespace.'
+    }
+    return "Color script name '$Name' contains invalid characters."
+}
+
+function Invoke-InvalidColorScriptNameError {
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory)]
+        [string]$Name
+    )
+
+    $message = Get-InvalidColorScriptNameMessage -Name $Name -Reason Characters
+    throw [System.Management.Automation.ValidationMetadataException]::new($message)
+}
+
 function Test-ColorScriptNameValue {
     param(
         [Parameter(Mandatory, Position = 0)]
@@ -13,13 +46,7 @@ function Test-ColorScriptNameValue {
             return $true
         }
 
-        $message = if ($script:Messages -and $script:Messages.ContainsKey('InvalidScriptNameEmpty')) {
-            $script:Messages.InvalidScriptNameEmpty
-        }
-        else {
-            'Color script name cannot be empty or whitespace.'
-        }
-
+        $message = Get-InvalidColorScriptNameMessage -Name $stringValue -Reason Empty
         throw [System.Management.Automation.ValidationMetadataException]::new($message)
     }
 
@@ -29,32 +56,19 @@ function Test-ColorScriptNameValue {
         $null = $invalidCharacterList.Add($character)
     }
 
-    $throwInvalidCharacter = {
-        param([string]$Name)
-
-        $characterMessage = if ($script:Messages -and $script:Messages.ContainsKey('InvalidScriptNameCharacters')) {
-            $script:Messages.InvalidScriptNameCharacters -f $Name
-        }
-        else {
-            "Color script name '$Name' contains invalid characters."
-        }
-
-        throw [System.Management.Automation.ValidationMetadataException]::new($characterMessage)
-    }
-
     if ($AllowWildcard) {
         foreach ($wc in $wildcardCharacters) {
             $null = $invalidCharacterList.Remove($wc)
         }
     }
     elseif ($stringValue.IndexOfAny([char[]]$wildcardCharacters) -ge 0) {
-        & $throwInvalidCharacter $stringValue
+        Invoke-InvalidColorScriptNameError -Name $stringValue
     }
 
     $invalidCharacters = $invalidCharacterList.ToArray()
 
     if ($invalidCharacters -and $stringValue.IndexOfAny($invalidCharacters) -ge 0) {
-        & $throwInvalidCharacter $stringValue
+        Invoke-InvalidColorScriptNameError -Name $stringValue
     }
 
     return $true

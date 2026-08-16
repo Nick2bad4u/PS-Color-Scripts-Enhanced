@@ -125,6 +125,73 @@ function Remove-ColorScriptCacheEntry {
     }
 }
 
+function Get-CacheEntryModuleVersion {
+    [CmdletBinding()]
+    [OutputType([string])]
+    param(
+        [Parameter()]
+        [string]$Override
+    )
+
+    if (-not [string]::IsNullOrWhiteSpace($Override)) {
+        return $Override
+    }
+    try {
+        if ($ExecutionContext -and $ExecutionContext.SessionState -and $ExecutionContext.SessionState.Module) {
+            return $ExecutionContext.SessionState.Module.Version.ToString()
+        }
+    }
+    catch {
+        Write-Verbose ("Unable to read the current module version: {0}" -f $_.Exception.Message)
+    }
+    return $null
+}
+
+function Get-CacheEntryHashAlgorithm {
+    [CmdletBinding()]
+    [OutputType([string])]
+    param(
+        [Parameter(Mandatory)]
+        [pscustomobject]$Signature
+    )
+
+    if ($Signature.PSObject.Properties['HashAlgorithm'] -and $Signature.HashAlgorithm) {
+        return [string]$Signature.HashAlgorithm
+    }
+    if ($script:CacheEntryHashAlgorithm) {
+        return $script:CacheEntryHashAlgorithm
+    }
+    return 'SHA256'
+}
+
+function Get-CacheEntrySignatureHash {
+    [CmdletBinding()]
+    [OutputType([string])]
+    param(
+        [Parameter(Mandatory)]
+        [pscustomobject]$Signature
+    )
+
+    if ($Signature.PSObject.Properties['Hash']) {
+        return $Signature.Hash
+    }
+    return $null
+}
+
+function Get-CacheEntrySignatureTimestamp {
+    [CmdletBinding()]
+    [OutputType([string])]
+    param(
+        [Parameter(Mandatory)]
+        [pscustomobject]$Signature
+    )
+
+    if ($Signature.PSObject.Properties['LastWriteTimeUtc'] -and $Signature.LastWriteTimeUtc) {
+        return $Signature.LastWriteTimeUtc.ToString('o')
+    }
+    return $null
+}
+
 function Write-CacheEntryMetadataFile {
     [CmdletBinding()]
     param(
@@ -160,27 +227,8 @@ function Write-CacheEntryMetadataFile {
     $nowUtc = (Get-Date).ToUniversalTime()
     $generatedUtc = if ([string]::IsNullOrWhiteSpace($CacheGeneratedUtc)) { $nowUtc.ToString('o') } else { $CacheGeneratedUtc }
 
-    $moduleVersion = $ModuleVersionOverride
-    if (-not $moduleVersion) {
-        try {
-            if ($ExecutionContext -and $ExecutionContext.SessionState -and $ExecutionContext.SessionState.Module) {
-                $moduleVersion = $ExecutionContext.SessionState.Module.Version.ToString()
-            }
-        }
-        catch {
-            $moduleVersion = $null
-        }
-    }
-
-    $hashAlgorithm = if ($Signature.PSObject.Properties['HashAlgorithm'] -and $Signature.HashAlgorithm) {
-        [string]$Signature.HashAlgorithm
-    }
-    elseif ($script:CacheEntryHashAlgorithm) {
-        $script:CacheEntryHashAlgorithm
-    }
-    else {
-        'SHA256'
-    }
+    $moduleVersion = Get-CacheEntryModuleVersion -Override $ModuleVersionOverride
+    $hashAlgorithm = Get-CacheEntryHashAlgorithm -Signature $Signature
 
     $metadataObject = [pscustomobject]@{
         Version              = $script:CacheEntryMetadataVersion
@@ -189,9 +237,9 @@ function Write-CacheEntryMetadataFile {
         CacheGeneratedUtc    = $generatedUtc
         LastValidatedUtc     = $nowUtc.ToString('o')
         ScriptLength         = [long]$Signature.Length
-        ScriptHash           = if ($Signature.PSObject.Properties['Hash']) { $Signature.Hash } else { $null }
+        ScriptHash           = Get-CacheEntrySignatureHash -Signature $Signature
         ScriptHashAlgorithm  = $hashAlgorithm
-        ScriptLastWriteTimeUtc = if ($Signature.PSObject.Properties['LastWriteTimeUtc'] -and $Signature.LastWriteTimeUtc) { $Signature.LastWriteTimeUtc.ToString('o') } else { $null }
+        ScriptLastWriteTimeUtc = Get-CacheEntrySignatureTimestamp -Signature $Signature
     }
 
     $json = $metadataObject | ConvertTo-Json -Depth 5
