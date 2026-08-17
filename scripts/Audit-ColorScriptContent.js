@@ -45,7 +45,7 @@ const DATE_SOURCE = String.raw`\b\d{1,2}\s*[/.-]\s*\d{1,2}\s*[/.-]\s*\d{2,4}\b`;
 const TIME_SOURCE = String.raw`\b\d{1,2}\s*:\s*\d{2}\b`;
 const BAUD_SOURCE = String.raw`\b(?:300|1200|2400|4800|9600|14400|16800|19200|28800|33600|56000|115200)\b`;
 const DATE_TIME_BAUD_PATTERN = new RegExp(
-    `${DATE_SOURCE}[^\\r\\n]{0,40}${TIME_SOURCE}[^\\r\\n]{0,40}${BAUD_SOURCE}`,
+    String.raw`${DATE_SOURCE}[^\r\n]{0,40}${TIME_SOURCE}[^\r\n]{0,40}${BAUD_SOURCE}`,
     "iu"
 );
 const EMAIL_PATTERN =

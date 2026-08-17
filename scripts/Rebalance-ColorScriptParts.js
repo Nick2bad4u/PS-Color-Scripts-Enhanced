@@ -1421,10 +1421,14 @@ function buildManifest(options) {
  * @returns {RebalanceManifest}
  */
 function assertManifestHeader(document) {
-    const invariants = document?.invariants;
+    if (typeof document !== "object" || document === null) {
+        throw new Error(
+            "Rebalance manifest must use schemaVersion 2, a baseline commit, and a non-empty families array."
+        );
+    }
+
+    const { invariants } = document;
     if (
-        !document ||
-        typeof document !== "object" ||
         document.schemaVersion !== 2 ||
         !COMMIT_PATTERN.test(document.baselineCommit) ||
         (document.classificationSha256 !== null &&
