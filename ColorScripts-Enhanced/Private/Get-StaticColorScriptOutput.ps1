@@ -25,7 +25,7 @@ function Get-StaticExpandedStringVariableExpression {
     )
 
     if ($NestedExpression -is [System.Management.Automation.Language.VariableExpressionAst]) {
-        return $NestedExpression
+        return [System.Management.Automation.Language.VariableExpressionAst]$NestedExpression
     }
 
     if ($NestedExpression -isnot [System.Management.Automation.Language.SubExpressionAst]) {
@@ -63,8 +63,8 @@ function Test-StaticExpandedStringTokenText {
     $bracedTokenText = '${' + $VariableName + '}'
     $subExpressionTokenText = '$(' + $VariableExtentText + ')'
     return $TokenText -ceq $simpleTokenText -or
-        $TokenText -ceq $bracedTokenText -or
-        $TokenText -ceq $subExpressionTokenText
+    $TokenText -ceq $bracedTokenText -or
+    $TokenText -ceq $subExpressionTokenText
 }
 
 function ConvertTo-StaticExpandedStringToken {
@@ -101,7 +101,7 @@ function ConvertTo-StaticExpandedStringToken {
     }
 
     $hasExplicitBoundary = $tokenText.StartsWith('$(', [System.StringComparison]::Ordinal) -or
-        $tokenText.StartsWith('${', [System.StringComparison]::Ordinal)
+    $tokenText.StartsWith('${', [System.StringComparison]::Ordinal)
     $tokenBoundary = if ($hasExplicitBoundary) { '' } else { '(?![A-Za-z0-9_])' }
     return ConvertTo-StaticColorScriptEvaluationResult -Success $true -Value ([pscustomobject]@{
             Text         = $tokenText
@@ -248,7 +248,7 @@ function Resolve-StaticColorScriptCharacterExpression {
 
     $typeName = $Expression.Type.TypeName.FullName
     $allowedCharType = [string]::Equals($typeName, 'char', [System.StringComparison]::OrdinalIgnoreCase) -or
-        [string]::Equals($typeName, 'System.Char', [System.StringComparison]::OrdinalIgnoreCase)
+    [string]::Equals($typeName, 'System.Char', [System.StringComparison]::OrdinalIgnoreCase)
     $constant = $Expression.Child -as [System.Management.Automation.Language.ConstantExpressionAst]
     if (-not $allowedCharType -or -not $constant) {
         return ConvertTo-StaticColorScriptEvaluationResult -Success $false

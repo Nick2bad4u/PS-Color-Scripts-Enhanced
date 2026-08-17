@@ -43,9 +43,9 @@ function Test-ColorScriptMetadataMemoryCache {
     )
 
     return $script:MetadataCache -and
-        $script:MetadataLastWriteTime -and
-        $MetadataTimestamp -eq $script:MetadataLastWriteTime -and
-        $InventoryTimestamp -eq $script:MetadataInventoryLastWriteTime
+    $script:MetadataLastWriteTime -and
+    $MetadataTimestamp -eq $script:MetadataLastWriteTime -and
+    $InventoryTimestamp -eq $script:MetadataInventoryLastWriteTime
 }
 
 function ConvertTo-StringValueCollection {
@@ -174,7 +174,7 @@ function Merge-UniqueStringValue {
     return $list.ToArray()
 }
 
-function Import-ColorScriptMetadataData {
+function Import-ColorScriptMetadataFile {
     [CmdletBinding()]
     [OutputType([hashtable])]
     param()
@@ -546,8 +546,8 @@ function Merge-InventoryAutoCategoryRecord {
         $entryExists = $Store.ContainsKey($name)
         $existingEntry = if ($entryExists) { $Store[$name] } else { Get-EmptyColorScriptMetadataRecord }
         $needsAutoCategory = -not $entryExists -or
-            [string]::IsNullOrWhiteSpace($existingEntry.Category) -or
-            $existingEntry.Category -eq 'Uncategorized'
+        [string]::IsNullOrWhiteSpace($existingEntry.Category) -or
+        $existingEntry.Category -eq 'Uncategorized'
         if ($needsAutoCategory) {
             $Store[$name] = ConvertTo-AutoCategorizedMetadataRecord -Name $name -ExistingEntry $existingEntry -Rule $Rule
         }
@@ -645,7 +645,7 @@ function Get-ColorScriptMetadataTableInternal {
         }
     }
 
-    $data = Import-ColorScriptMetadataData
+    $data = Import-ColorScriptMetadataFile
     $store = ConvertTo-ColorScriptMetadataStore -Data $data
     $autoCategoryRule = @(Get-AutoCategoryRuleCollection -Data $data)
     Merge-InventoryAutoCategoryRecord -Store $store -Rule $autoCategoryRule

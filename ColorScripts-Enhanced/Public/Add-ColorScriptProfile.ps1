@@ -240,7 +240,7 @@ function Test-ColorScriptTruthyValue {
     )
 
     return -not [string]::IsNullOrWhiteSpace($Value) -and
-        $Value.ToLowerInvariant() -in @('1', 'true', 'yes', 'y')
+    $Value.ToLowerInvariant() -in @('1', 'true', 'yes', 'y')
 }
 
 function Test-ColorScriptProfileUnderTempPath {
@@ -275,7 +275,7 @@ function Test-ColorScriptProfileUnderTempPath {
     try {
         $relative = [System.IO.Path]::GetRelativePath($tempRoot, $profileFullPath)
         return -not [string]::IsNullOrWhiteSpace($relative) -and
-            -not $relative.StartsWith('..', [System.StringComparison]::Ordinal)
+        -not $relative.StartsWith('..', [System.StringComparison]::Ordinal)
     }
     catch {
         $normalizedTempRoot = $tempRoot.TrimEnd(
@@ -283,7 +283,7 @@ function Test-ColorScriptProfileUnderTempPath {
             [System.IO.Path]::AltDirectorySeparatorChar)
         $tempPrefix = $normalizedTempRoot + [System.IO.Path]::DirectorySeparatorChar
         return [string]::Equals($profileFullPath, $normalizedTempRoot, [System.StringComparison]::OrdinalIgnoreCase) -or
-            $profileFullPath.StartsWith($tempPrefix, [System.StringComparison]::OrdinalIgnoreCase)
+        $profileFullPath.StartsWith($tempPrefix, [System.StringComparison]::OrdinalIgnoreCase)
     }
 }
 

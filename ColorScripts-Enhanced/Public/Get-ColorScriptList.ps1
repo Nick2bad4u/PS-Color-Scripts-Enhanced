@@ -25,10 +25,10 @@ function Get-ColorScriptListCompletionRecord {
     param()
 
     try {
-        return @(ColorScripts-Enhanced\Get-ColorScriptList -AsObject -Quiet -ErrorAction Stop -WarningAction SilentlyContinue)
+        return [pscustomobject[]]@(ColorScripts-Enhanced\Get-ColorScriptList -AsObject -Quiet -ErrorAction Stop -WarningAction SilentlyContinue)
     }
     catch {
-        return @()
+        return [pscustomobject[]]@()
     }
 }
 
@@ -41,7 +41,7 @@ function Get-ColorScriptNameCompletion {
 
     $pattern = Get-ColorScriptCompletionPattern -WordToComplete $WordToComplete
     $records = Get-ColorScriptListCompletionRecord
-    return @($records |
+    return [System.Management.Automation.CompletionResult[]]@($records |
             Where-Object { $_.Name -and $_.Name -like $pattern } |
                 Group-Object -Property Name |
                     Sort-Object -Property Name |
@@ -84,7 +84,7 @@ function Get-ColorScriptCategoryCompletion {
         }
     }
 
-    return @($values |
+    return [System.Management.Automation.CompletionResult[]]@($values |
             Where-Object { $_ -and $_ -like $pattern } |
                 Group-Object |
                     Sort-Object -Property Name |
@@ -113,7 +113,7 @@ function Get-ColorScriptTagCompletion {
         }
     }
 
-    return @($values |
+    return [System.Management.Automation.CompletionResult[]]@($values |
             Where-Object { $_ -and $_ -like $pattern } |
                 Group-Object |
                     Sort-Object -Property Name |

@@ -53,7 +53,7 @@ function Test-EmbeddedLocalizationPreferred {
     }
 
     return [string]::IsNullOrWhiteSpace($PreferredCulture) -or
-        $PreferredCulture.StartsWith('en', [System.StringComparison]::OrdinalIgnoreCase)
+    $PreferredCulture.StartsWith('en', [System.StringComparison]::OrdinalIgnoreCase)
 }
 
 function Use-ColorScriptsLocalizationState {
@@ -388,9 +388,9 @@ function Test-LocalizationStateReusable {
     )
 
     return $script:LocalizationInitialized -and
-        $script:Messages -and
-        -not $CandidateRoot -and
-        -not $CultureFallbackOverride
+    $script:Messages -and
+    -not $CandidateRoot -and
+    -not $CultureFallbackOverride
 }
 
 function Test-EmbeddedLocalizationFastPath {
