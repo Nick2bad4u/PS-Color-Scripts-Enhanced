@@ -1,3 +1,130 @@
+function Add-ColorScriptFileDetail {
+    param(
+        [Parameter(Mandatory)]
+        [System.Collections.IDictionary]$Entry,
+
+        [Parameter(Mandatory)]
+        [object]$Record
+    )
+
+    try {
+        $fileInfo = Get-Item -LiteralPath $Record.Path -ErrorAction Stop
+        $Entry['ScriptPath'] = $fileInfo.FullName
+        $Entry['ScriptSizeBytes'] = [int64]$fileInfo.Length
+        $Entry['ScriptLastWriteTimeUtc'] = $fileInfo.LastWriteTimeUtc
+    }
+    catch {
+        $Entry['ScriptPath'] = $Record.Path
+        $Entry['ScriptSizeBytes'] = $null
+        $Entry['ScriptLastWriteTimeUtc'] = $null
+        Write-Verbose ($script:Messages.UnableToRetrieveFileInfo -f $Record.Name, $_.Exception.Message)
+    }
+}
+
+function Add-ColorScriptCacheDetail {
+    param(
+        [Parameter(Mandatory)]
+        [System.Collections.IDictionary]$Entry,
+
+        [Parameter(Mandatory)]
+        [object]$Record
+    )
+
+    $cacheFile = if ($script:CacheDir) {
+        Join-Path -Path $script:CacheDir -ChildPath "$( $Record.Name ).cache"
+    }
+    else {
+        $null
+    }
+
+    $cacheExists = $false
+    $cacheTimestamp = $null
+    if ($cacheFile -and (Test-Path -LiteralPath $cacheFile)) {
+        $cacheExists = $true
+        try {
+            $cacheInfo = Get-Item -LiteralPath $cacheFile -ErrorAction Stop
+            $cacheTimestamp = $cacheInfo.LastWriteTimeUtc
+        }
+        catch {
+            Write-Verbose ($script:Messages.UnableToReadCacheInfo -f $Record.Name, $_.Exception.Message)
+        }
+    }
+
+    $Entry['CachePath'] = $cacheFile
+    $Entry['CacheExists'] = $cacheExists
+    $Entry['CacheLastWriteTimeUtc'] = $cacheTimestamp
+}
+
+function ConvertTo-ColorScriptMetadataPayload {
+    param(
+        [Parameter(Mandatory)]
+        [AllowNull()]
+        [AllowEmptyCollection()]
+        [object[]]$Records,
+
+        [switch]$IncludeFileInfo,
+        [switch]$IncludeCacheInfo
+    )
+
+    [pscustomobject[]]$payload = @(foreach ($record in $Records) {
+            $entry = [ordered]@{
+                Name        = $record.Name
+                Category    = $record.Category
+                Categories  = [string[]]$record.Categories
+                Tags        = [string[]]$record.Tags
+                Description = $record.Description
+            }
+
+            if ($IncludeFileInfo) {
+                Add-ColorScriptFileDetail -Entry $entry -Record $record
+            }
+
+            if ($IncludeCacheInfo) {
+                Add-ColorScriptCacheDetail -Entry $entry -Record $record
+            }
+
+            [pscustomobject]$entry
+        })
+
+    return $payload
+}
+
+function Export-ColorScriptMetadataPayload {
+    param(
+        [Parameter(Mandatory)]
+        [AllowNull()]
+        [AllowEmptyCollection()]
+        [pscustomobject[]]$Payload,
+
+        [Parameter(Mandatory)]
+        [string]$Path,
+
+        [Parameter(Mandatory)]
+        [System.Management.Automation.PSCmdlet]$Cmdlet
+    )
+
+    $resolvedPath = Resolve-CachePath -Path $Path
+    if (-not $resolvedPath) {
+        Invoke-ColorScriptError -Message ($script:Messages.UnableToResolveOutputPath -f $Path) -ErrorId 'ColorScriptsEnhanced.InvalidOutputPath' -Category ([System.Management.Automation.ErrorCategory]::InvalidArgument) -TargetObject $Path -Cmdlet $Cmdlet
+    }
+
+    if (-not (Invoke-ShouldProcess -Cmdlet $Cmdlet -Target $resolvedPath -Action 'Export colorscript metadata')) {
+        return
+    }
+
+    $outputDirectory = Split-Path -Path $resolvedPath -Parent
+    if ($outputDirectory -and -not (Test-Path -LiteralPath $outputDirectory)) {
+        if (-not (Invoke-ShouldProcess -Cmdlet $Cmdlet -Target $outputDirectory -Action 'Create export directory')) {
+            return
+        }
+
+        New-Item -ItemType Directory -Path $outputDirectory -Force -ErrorAction Stop | Out-Null
+    }
+
+    $json = $Payload | ConvertTo-Json -Depth 6
+    Invoke-FileWriteAllText -Path $resolvedPath -Content ($json + [Environment]::NewLine) -Encoding $script:Utf8NoBomEncoding
+}
+
 function Export-ColorScriptMetadata {
     <#
     .SYNOPSIS
@@ -49,97 +176,13 @@ function Export-ColorScriptMetadata {
         Initialize-CacheDirectory
     }
 
-    [pscustomobject[]]$payload = @(foreach ($record in $records) {
-            $entry = [ordered]@{
-                Name        = $record.Name
-                Category    = $record.Category
-                Categories  = [string[]]$record.Categories
-                Tags        = [string[]]$record.Tags
-                Description = $record.Description
-            }
-
-            if ($IncludeFileInfo) {
-                try {
-                    $fileInfo = Get-Item -LiteralPath $record.Path -ErrorAction Stop
-                    $entry['ScriptPath'] = $fileInfo.FullName
-                    $entry['ScriptSizeBytes'] = [int64]$fileInfo.Length
-                    $entry['ScriptLastWriteTimeUtc'] = $fileInfo.LastWriteTimeUtc
-                }
-                catch {
-                    $entry['ScriptPath'] = $record.Path
-                    $entry['ScriptSizeBytes'] = $null
-                    $entry['ScriptLastWriteTimeUtc'] = $null
-                    Write-Verbose ($script:Messages.UnableToRetrieveFileInfo -f $record.Name, $_.Exception.Message)
-                }
-            }
-
-            if ($IncludeCacheInfo) {
-                $cacheFile = if ($script:CacheDir) { Join-Path -Path $script:CacheDir -ChildPath "$( $record.Name ).cache" } else { $null }
-                $cacheExists = $false
-                $cacheTimestamp = $null
-
-                if ($cacheFile -and (Test-Path -LiteralPath $cacheFile)) {
-                    $cacheExists = $true
-                    try {
-                        $cacheInfo = Get-Item -LiteralPath $cacheFile -ErrorAction Stop
-                        $cacheTimestamp = $cacheInfo.LastWriteTimeUtc
-                    }
-                    catch {
-                        Write-Verbose ($script:Messages.UnableToReadCacheInfo -f $record.Name, $_.Exception.Message)
-                    }
-                }
-
-                $entry['CachePath'] = $cacheFile
-                $entry['CacheExists'] = $cacheExists
-                $entry['CacheLastWriteTimeUtc'] = $cacheTimestamp
-            }
-
-            [pscustomobject]$entry
-        })
-
-    if ($Path) {
-        $resolvedPath = Resolve-CachePath -Path $Path
-        if (-not $resolvedPath) {
-            Invoke-ColorScriptError -Message ($script:Messages.UnableToResolveOutputPath -f $Path) -ErrorId 'ColorScriptsEnhanced.InvalidOutputPath' -Category ([System.Management.Automation.ErrorCategory]::InvalidArgument) -TargetObject $Path -Cmdlet $PSCmdlet
-        }
-
-        if (-not (Invoke-ShouldProcess -Cmdlet $PSCmdlet -Target $resolvedPath -Action 'Export colorscript metadata')) {
-            if ($PassThru) {
-                return $payload
-            }
-
-            return
-        }
-
-        $outputDirectory = Split-Path -Path $resolvedPath -Parent
-        $directoryReady = $true
-
-        if ($outputDirectory -and -not (Test-Path -LiteralPath $outputDirectory)) {
-            $directoryReady = Invoke-ShouldProcess -Cmdlet $PSCmdlet -Target $outputDirectory -Action 'Create export directory'
-
-            if ($directoryReady) {
-                New-Item -ItemType Directory -Path $outputDirectory -Force -ErrorAction Stop | Out-Null
-            }
-        }
-
-        if (-not $directoryReady) {
-            if ($PassThru) {
-                return $payload
-            }
-
-            return
-        }
-
-        $json = $payload | ConvertTo-Json -Depth 6
-        Invoke-FileWriteAllText -Path $resolvedPath -Content ($json + [Environment]::NewLine) -Encoding $script:Utf8NoBomEncoding
-
-        if ($PassThru) {
-            return $payload
-        }
-
-        return
+    [pscustomobject[]]$payload = @(ConvertTo-ColorScriptMetadataPayload -Records $records -IncludeFileInfo:$IncludeFileInfo -IncludeCacheInfo:$IncludeCacheInfo)
+    if (-not $Path) {
+        return $payload
     }
 
-    return $payload
+    Export-ColorScriptMetadataPayload -Payload $payload -Path $Path -Cmdlet $PSCmdlet
+    if ($PassThru) {
+        return $payload
+    }
 }
-
