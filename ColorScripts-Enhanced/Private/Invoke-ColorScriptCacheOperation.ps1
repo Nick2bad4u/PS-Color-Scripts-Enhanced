@@ -1,91 +1,77 @@
-function Invoke-ColorScriptCacheOperation {
-    [CmdletBinding()]
+function ConvertTo-CacheOperationInitializationFailure {
     param(
         [Parameter(Mandatory)][string]$ScriptName,
         [Parameter(Mandatory)][string]$ScriptPath,
-        [switch]$Force
+        [AllowNull()][System.Exception]$Exception
     )
 
-    $resultRecord = $null
-    $warningMessage = $null
-    $updated = 0
-    $failed = 0
-
-    $initializationError = $null
-    try {
-        Initialize-CacheDirectory
+    $detail = if ($Exception) { $Exception.Message } else { $null }
+    $messageTemplate = if ($script:Messages -and $script:Messages.ContainsKey('CacheOperationInitializationFailed')) {
+        $script:Messages.CacheOperationInitializationFailed
     }
-    catch {
-        $initializationError = $_.Exception
+    else {
+        'Unable to initialize the cache directory: {0}'
     }
+    $detailValue = if ([string]::IsNullOrWhiteSpace($detail)) { 'n/a' } else { $detail }
+    $message = $messageTemplate -f $detailValue
 
-    if (-not $script:CacheDir) {
-        $failed = 1
-        $status = 'Failed'
-        $detail = if ($initializationError) { $initializationError.Message } else { $null }
-
-        $messageTemplate = if ($script:Messages -and $script:Messages.ContainsKey('CacheOperationInitializationFailed')) {
-            $script:Messages.CacheOperationInitializationFailed
-        }
-        else {
-            'Unable to initialize the cache directory: {0}'
-        }
-
-        $detailValue = if (-not [string]::IsNullOrWhiteSpace($detail)) { $detail } else { 'n/a' }
-        $message = $messageTemplate -f $detailValue
-        $warningMessage = $message
-
-        $resultRecord = [pscustomobject]@{
+    return [pscustomobject]@{
+        Result  = [pscustomobject]@{
             Name        = $ScriptName
             ScriptPath  = $ScriptPath
             CacheFile   = $null
-            Status      = $status
+            Status      = 'Failed'
             Message     = $message
             CacheExists = $false
             ExitCode    = $null
             StdOut      = ''
             StdErr      = $detail
         }
+        Updated = 0
+        Failed  = 1
+        Warning = $message
+    }
+}
 
-        return [pscustomobject]@{
-            Result  = $resultRecord
-            Updated = $updated
-            Failed  = $failed
-            Warning = $warningMessage
+function Invoke-ColorScriptCacheBuild {
+    param(
+        [Parameter(Mandatory)][string]$ScriptName,
+        [Parameter(Mandatory)][string]$ScriptPath,
+        [switch]$Force
+    )
+
+    $buildOperation = {
+        param($lockedScriptName, $lockedScriptPath, $forceRebuild)
+
+        if (-not $forceRebuild) {
+            $currentEntry = Get-CachedOutput -ScriptPath $lockedScriptPath
+            if ($currentEntry.Available) {
+                return [pscustomobject]@{
+                    ScriptName          = $lockedScriptName
+                    CacheFile           = $currentEntry.CacheFile
+                    CacheRequired       = $true
+                    CacheCreated        = $false
+                    CacheAlreadyCurrent = $true
+                    Success             = $true
+                    ExitCode            = 0
+                    StdOut              = $currentEntry.Content
+                    StdErr              = ''
+                }
+            }
         }
+
+        Build-ScriptCache -ScriptPath $lockedScriptPath -LockAlreadyHeld
     }
 
     try {
-        $buildOperation = {
-            param($lockedScriptName, $lockedScriptPath, $forceRebuild)
-
-            if (-not $forceRebuild) {
-                $currentEntry = Get-CachedOutput -ScriptPath $lockedScriptPath
-                if ($currentEntry.Available) {
-                    return [pscustomobject]@{
-                        ScriptName         = $lockedScriptName
-                        CacheFile          = $currentEntry.CacheFile
-                        CacheRequired      = $true
-                        CacheCreated       = $false
-                        CacheAlreadyCurrent = $true
-                        Success            = $true
-                        ExitCode           = 0
-                        StdOut             = $currentEntry.Content
-                        StdErr             = ''
-                    }
-                }
-            }
-
-            Build-ScriptCache -ScriptPath $lockedScriptPath -LockAlreadyHeld
-        }
-
-        $cacheResult = Invoke-WithColorScriptCacheEntryLock -CacheRoot $script:CacheDir -ScriptName $ScriptName -Operation $buildOperation -ArgumentList @($ScriptName, $ScriptPath, $Force.IsPresent)
+        return Invoke-WithColorScriptCacheEntryLock -CacheRoot $script:CacheDir -ScriptName $ScriptName -Operation $buildOperation -ArgumentList @($ScriptName, $ScriptPath, $Force.IsPresent)
     }
     catch {
         if (-not $script:CacheDir) {
             Initialize-CacheDirectory
         }
-        $cacheResult = [pscustomobject]@{
+
+        return [pscustomobject]@{
             ScriptName = $ScriptName
             CacheFile  = Join-Path -Path $script:CacheDir -ChildPath ("{0}.cache" -f $ScriptName)
             Success    = $false
@@ -94,94 +80,156 @@ function Invoke-ColorScriptCacheOperation {
             StdErr     = $_.Exception.Message
         }
     }
+}
 
-    if ($cacheResult.PSObject.Properties['CacheAlreadyCurrent'] -and $cacheResult.CacheAlreadyCurrent) {
-        $status = 'SkippedUpToDate'
-        $message = $script:Messages.StatusSkippedUpToDate
-        $cacheExists = $true
+function Get-CacheOperationFailureDetail {
+    param(
+        [Parameter(Mandatory)]
+        [object]$CacheResult
+    )
+
+    if ($CacheResult.StdErr) {
+        return $CacheResult.StdErr
     }
-    elseif ($cacheResult.PSObject.Properties['CacheRequired'] -and -not $cacheResult.CacheRequired) {
-        $status = 'SkippedNotRequired'
+
+    if ($null -ne $CacheResult.ExitCode) {
+        if ($script:Messages -and $script:Messages.ContainsKey('ScriptExitedWithCode')) {
+            return $script:Messages.ScriptExitedWithCode -f $CacheResult.ExitCode
+        }
+        return "Script exited with code $($CacheResult.ExitCode)."
+    }
+
+    if ($script:Messages -and $script:Messages.ContainsKey('CacheBuildGenericFailure')) {
+        return $script:Messages.CacheBuildGenericFailure
+    }
+
+    return 'Cache build failed.'
+}
+
+function ConvertTo-CacheOperationFailureStatus {
+    param(
+        [Parameter(Mandatory)][string]$ScriptName,
+        [Parameter(Mandatory)][object]$CacheResult
+    )
+
+    $detailMessage = Get-CacheOperationFailureDetail -CacheResult $CacheResult
+    $messageTemplate = if ($script:Messages -and $script:Messages.ContainsKey('CacheBuildFailedForScript')) {
+        $script:Messages.CacheBuildFailedForScript
+    }
+    else {
+        'Cache build failed for {0}: {1}'
+    }
+    $warningTemplate = if ($script:Messages -and $script:Messages.ContainsKey('CacheOperationWarning')) {
+        $script:Messages.CacheOperationWarning
+    }
+    else {
+        "Failed to cache '{0}': {1}"
+    }
+
+    if (-not $CacheResult.CacheFile) {
+        $CacheResult.CacheFile = Join-Path -Path $script:CacheDir -ChildPath ("{0}.cache" -f $ScriptName)
+    }
+
+    $message = $messageTemplate -f $ScriptName, $detailMessage
+    $warning = $warningTemplate -f $ScriptName, $detailMessage
+    if (-not $warning) {
+        $warning = $message
+    }
+
+    return [pscustomobject]@{
+        Status      = 'Failed'
+        Message     = $message
+        CacheExists = $false
+        Updated     = 0
+        Failed      = 1
+        Warning     = $warning
+    }
+}
+
+function ConvertTo-CacheOperationStatus {
+    param(
+        [Parameter(Mandatory)][string]$ScriptName,
+        [Parameter(Mandatory)][object]$CacheResult
+    )
+
+    if ($CacheResult.PSObject.Properties['CacheAlreadyCurrent'] -and $CacheResult.CacheAlreadyCurrent) {
+        return [pscustomobject]@{
+            Status = 'SkippedUpToDate'; Message = $script:Messages.StatusSkippedUpToDate
+            CacheExists = $true; Updated = 0; Failed = 0; Warning = $null
+        }
+    }
+
+    if ($CacheResult.PSObject.Properties['CacheRequired'] -and -not $CacheResult.CacheRequired) {
         $message = if ($script:Messages -and $script:Messages.ContainsKey('StatusSkippedNotRequired')) {
             $script:Messages.StatusSkippedNotRequired
         }
         else {
             'Skipped (caching not required)'
         }
-        $cacheExists = $false
-    }
-    elseif ($cacheResult.Success) {
-        $updated = 1
-        $status = 'Updated'
-        $message = $script:Messages.StatusCached
-        $cacheExists = $true
-    }
-    else {
-        $failed = 1
-        $status = 'Failed'
-
-        $detailMessage = if ($cacheResult.StdErr) {
-            $cacheResult.StdErr
+        return [pscustomobject]@{
+            Status = 'SkippedNotRequired'; Message = $message
+            CacheExists = $false; Updated = 0; Failed = 0; Warning = $null
         }
-        elseif ($null -ne $cacheResult.ExitCode) {
-            if ($script:Messages -and $script:Messages.ContainsKey('ScriptExitedWithCode')) {
-                $script:Messages.ScriptExitedWithCode -f $cacheResult.ExitCode
-            }
-            else {
-                "Script exited with code $($cacheResult.ExitCode)."
-            }
-        }
-        else {
-            if ($script:Messages -and $script:Messages.ContainsKey('CacheBuildGenericFailure')) {
-                $script:Messages.CacheBuildGenericFailure
-            }
-            else {
-                'Cache build failed.'
-            }
-        }
-
-        $messageTemplate = if ($script:Messages -and $script:Messages.ContainsKey('CacheBuildFailedForScript')) {
-            $script:Messages.CacheBuildFailedForScript
-        }
-        else {
-            "Cache build failed for {0}: {1}"
-        }
-
-        $warningTemplate = if ($script:Messages -and $script:Messages.ContainsKey('CacheOperationWarning')) {
-            $script:Messages.CacheOperationWarning
-        }
-        else {
-            "Failed to cache '{0}': {1}"
-        }
-
-        $message = $detailMessage
-        $warningMessage = $warningTemplate -f $ScriptName, $detailMessage
-        $cacheExists = $false
-        $cacheResult.CacheFile = if ($cacheResult.CacheFile) { $cacheResult.CacheFile } else { Join-Path -Path $script:CacheDir -ChildPath ("{0}.cache" -f $ScriptName) }
-
-        $detailMessage = $messageTemplate -f $ScriptName, $detailMessage
-        if (-not $warningMessage) {
-            $warningMessage = $detailMessage
-        }
-        $message = $detailMessage
     }
 
-    $resultRecord = [pscustomobject]@{
-        Name        = if ($cacheResult.ScriptName) { $cacheResult.ScriptName } else { $ScriptName }
-        ScriptPath  = $ScriptPath
-        CacheFile   = $cacheResult.CacheFile
-        Status      = $status
-        Message     = $message
-        CacheExists = $cacheExists
-        ExitCode    = $cacheResult.ExitCode
-        StdOut      = $cacheResult.StdOut
-        StdErr      = $cacheResult.StdErr
+    if ($CacheResult.Success) {
+        return [pscustomobject]@{
+            Status = 'Updated'; Message = $script:Messages.StatusCached
+            CacheExists = $true; Updated = 1; Failed = 0; Warning = $null
+        }
     }
 
+    return ConvertTo-CacheOperationFailureStatus -ScriptName $ScriptName -CacheResult $CacheResult
+}
+
+function ConvertTo-CacheOperationResult {
+    param(
+        [Parameter(Mandatory)][string]$ScriptName,
+        [Parameter(Mandatory)][string]$ScriptPath,
+        [Parameter(Mandatory)][object]$CacheResult,
+        [Parameter(Mandatory)][object]$Status
+    )
+
+    $name = if ($CacheResult.ScriptName) { $CacheResult.ScriptName } else { $ScriptName }
     return [pscustomobject]@{
-        Result  = $resultRecord
-        Updated = $updated
-        Failed  = $failed
-        Warning = $warningMessage
+        Result  = [pscustomobject]@{
+            Name        = $name
+            ScriptPath  = $ScriptPath
+            CacheFile   = $CacheResult.CacheFile
+            Status      = $Status.Status
+            Message     = $Status.Message
+            CacheExists = $Status.CacheExists
+            ExitCode    = $CacheResult.ExitCode
+            StdOut      = $CacheResult.StdOut
+            StdErr      = $CacheResult.StdErr
+        }
+        Updated = $Status.Updated
+        Failed  = $Status.Failed
+        Warning = $Status.Warning
     }
+}
+
+function Invoke-ColorScriptCacheOperation {
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory)][string]$ScriptName,
+        [Parameter(Mandatory)][string]$ScriptPath,
+        [switch]$Force
+    )
+
+    try {
+        Initialize-CacheDirectory
+        $initializationError = $null
+    }
+    catch {
+        $initializationError = $_.Exception
+    }
+
+    if (-not $script:CacheDir) {
+        return ConvertTo-CacheOperationInitializationFailure -ScriptName $ScriptName -ScriptPath $ScriptPath -Exception $initializationError
+    }
+
+    $cacheResult = Invoke-ColorScriptCacheBuild -ScriptName $ScriptName -ScriptPath $ScriptPath -Force:$Force
+    $status = ConvertTo-CacheOperationStatus -ScriptName $ScriptName -CacheResult $cacheResult
+    return ConvertTo-CacheOperationResult -ScriptName $ScriptName -ScriptPath $ScriptPath -CacheResult $cacheResult -Status $status
 }
