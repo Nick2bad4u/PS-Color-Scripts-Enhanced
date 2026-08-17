@@ -1,3 +1,157 @@
+function Get-ColorScriptCompletionPattern {
+    [CmdletBinding()]
+    [OutputType([string])]
+    param(
+        [Parameter()][AllowNull()][AllowEmptyString()][string]$WordToComplete
+    )
+
+    if ([string]::IsNullOrWhiteSpace($WordToComplete)) {
+        return '*'
+    }
+
+    $trimmed = $WordToComplete.Trim([char]0x27, [char]0x22)
+    if ([string]::IsNullOrWhiteSpace($trimmed)) {
+        return '*'
+    }
+    if ($trimmed -match '[*?]') {
+        return $trimmed
+    }
+    return $trimmed + '*'
+}
+
+function Get-ColorScriptListCompletionRecord {
+    [CmdletBinding()]
+    [OutputType([pscustomobject[]])]
+    param()
+
+    try {
+        return @(ColorScripts-Enhanced\Get-ColorScriptList -AsObject -Quiet -ErrorAction Stop -WarningAction SilentlyContinue)
+    }
+    catch {
+        return @()
+    }
+}
+
+function Get-ColorScriptNameCompletion {
+    [CmdletBinding()]
+    [OutputType([System.Management.Automation.CompletionResult[]])]
+    param(
+        [Parameter()][AllowNull()][AllowEmptyString()][string]$WordToComplete
+    )
+
+    $pattern = Get-ColorScriptCompletionPattern -WordToComplete $WordToComplete
+    $records = Get-ColorScriptListCompletionRecord
+    return @($records |
+            Where-Object { $_.Name -and $_.Name -like $pattern } |
+                Group-Object -Property Name |
+                    Sort-Object -Property Name |
+                        ForEach-Object {
+                            $first = $_.Group | Select-Object -First 1
+                            $toolTip = if ($first.Description) {
+                                $first.Description
+                            }
+                            elseif ($first.Category) {
+                                "Category: $($first.Category)"
+                            }
+                            else {
+                                $first.Name
+                            }
+
+                            [System.Management.Automation.CompletionResult]::new(
+                                $first.Name,
+                                $first.Name,
+                                [System.Management.Automation.CompletionResultType]::ParameterValue,
+                                $toolTip)
+                        })
+}
+
+function Get-ColorScriptCategoryCompletion {
+    [CmdletBinding()]
+    [OutputType([System.Management.Automation.CompletionResult[]])]
+    param(
+        [Parameter()][AllowNull()][AllowEmptyString()][string]$WordToComplete
+    )
+
+    $pattern = Get-ColorScriptCompletionPattern -WordToComplete $WordToComplete
+    $values = foreach ($record in Get-ColorScriptListCompletionRecord) {
+        if ($record.Category) {
+            [string]$record.Category
+        }
+        foreach ($category in @($record.Categories)) {
+            if ($category) {
+                [string]$category
+            }
+        }
+    }
+
+    return @($values |
+            Where-Object { $_ -and $_ -like $pattern } |
+                Group-Object |
+                    Sort-Object -Property Name |
+                        ForEach-Object {
+                            [System.Management.Automation.CompletionResult]::new(
+                                $_.Name,
+                                $_.Name,
+                                [System.Management.Automation.CompletionResultType]::ParameterValue,
+                                '{0} script(s)' -f $_.Count)
+                        })
+}
+
+function Get-ColorScriptTagCompletion {
+    [CmdletBinding()]
+    [OutputType([System.Management.Automation.CompletionResult[]])]
+    param(
+        [Parameter()][AllowNull()][AllowEmptyString()][string]$WordToComplete
+    )
+
+    $pattern = Get-ColorScriptCompletionPattern -WordToComplete $WordToComplete
+    $values = foreach ($record in Get-ColorScriptListCompletionRecord) {
+        foreach ($tag in @($record.Tags)) {
+            if ($tag) {
+                [string]$tag
+            }
+        }
+    }
+
+    return @($values |
+            Where-Object { $_ -and $_ -like $pattern } |
+                Group-Object |
+                    Sort-Object -Property Name |
+                        ForEach-Object {
+                            [System.Management.Automation.CompletionResult]::new(
+                                $_.Name,
+                                $_.Name,
+                                [System.Management.Automation.CompletionResultType]::ParameterValue,
+                                '{0} reference(s)' -f $_.Count)
+                        })
+}
+
+function Write-ColorScriptListTable {
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory)][AllowEmptyCollection()][object[]]$Record,
+        [switch]$Detailed,
+        [switch]$NoAnsiOutput,
+        [switch]$Quiet
+    )
+
+    if ($Quiet) {
+        return
+    }
+
+    $table = if ($Detailed) {
+        $Record | Select-Object Name, Category, @{ Name = 'Tags'; Expression = { $_.Tags -join ', ' } }, Description
+    }
+    else {
+        $Record | Select-Object Name, Category
+    }
+    $tableOutput = $table | Format-Table -AutoSize | Out-String
+    if ($NoAnsiOutput) {
+        $tableOutput = Remove-ColorScriptAnsiSequence -Text $tableOutput
+    }
+    Write-ColorScriptInformation -Message $tableOutput -Quiet:$false
+}
+
 function Get-ColorScriptList {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSUseOutputTypeCorrectly', '', Justification = 'Structured list is emitted for pipeline consumption.')]
     [OutputType([pscustomobject])]
@@ -12,136 +166,20 @@ function Get-ColorScriptList {
         [ValidateScript({ Test-ColorScriptNameValue $_ -AllowWildcard })]
         [ArgumentCompleter({
                 param($commandName, $parameterName, $wordToComplete, $commandAst, $fakeBoundParameters)
-
                 $null = $commandName, $parameterName, $commandAst, $fakeBoundParameters
-
-                try {
-                    $records = ColorScripts-Enhanced\Get-ColorScriptList -AsObject -Quiet -ErrorAction Stop -WarningAction SilentlyContinue
-                }
-                catch {
-                    return
-                }
-
-                $pattern = if ([string]::IsNullOrWhiteSpace($wordToComplete)) {
-                    '*'
-                }
-                else {
-                    $trimmed = $wordToComplete.Trim([char]0x27, [char]0x22)
-                    if ([string]::IsNullOrWhiteSpace($trimmed)) { '*' }
-                    elseif ($trimmed -match '[*?]') { $trimmed }
-                    else { $trimmed + '*' }
-                }
-
-                $records |
-                    Where-Object { $_.Name -and ($_.Name -like $pattern) } |
-                        Group-Object -Property Name |
-                            Sort-Object -Property Name |
-                                ForEach-Object {
-                                    $first = $_.Group | Select-Object -First 1
-                                    $toolTip = if ($first.Description) {
-                                        $first.Description
-                                    }
-                                    elseif ($first.Category) {
-                                        "Category: $($first.Category)"
-                                    }
-                                    else {
-                                        $first.Name
-                                    }
-
-                                    [System.Management.Automation.CompletionResult]::new(
-                                        $first.Name,
-                                        $first.Name,
-                                        [System.Management.Automation.CompletionResultType]::ParameterValue,
-                                        $toolTip
-                                    )
-                                }
+                Get-ColorScriptNameCompletion -WordToComplete $wordToComplete
             })]
         [string[]]$Name,
         [ArgumentCompleter({
                 param($commandName, $parameterName, $wordToComplete, $commandAst, $fakeBoundParameters)
-
                 $null = $commandName, $parameterName, $commandAst, $fakeBoundParameters
-
-                try {
-                    $records = ColorScripts-Enhanced\Get-ColorScriptList -AsObject -Quiet -ErrorAction Stop -WarningAction SilentlyContinue
-                }
-                catch {
-                    return
-                }
-
-                $pattern = if ([string]::IsNullOrWhiteSpace($wordToComplete)) {
-                    '*'
-                }
-                else {
-                    $trimmed = $wordToComplete.Trim([char]0x27, [char]0x22)
-                    if ([string]::IsNullOrWhiteSpace($trimmed)) { '*' }
-                    elseif ($trimmed -match '[*?]') { $trimmed }
-                    else { $trimmed + '*' }
-                }
-
-                $values = foreach ($record in $records) {
-                    if ($record.Category) { [string]$record.Category }
-                    if ($record.Categories) {
-                        foreach ($entry in @($record.Categories)) {
-                            if ($entry) { [string]$entry }
-                        }
-                    }
-                }
-
-                $values |
-                    Where-Object { $_ -and ($_ -like $pattern) } |
-                        Group-Object |
-                            Sort-Object -Property Name |
-                                ForEach-Object {
-                                    [System.Management.Automation.CompletionResult]::new(
-                                        $_.Name,
-                                        $_.Name,
-                                        [System.Management.Automation.CompletionResultType]::ParameterValue,
-                                        '{0} script(s)' -f $_.Count
-                                    )
-                                }
+                Get-ColorScriptCategoryCompletion -WordToComplete $wordToComplete
             })]
         [string[]]$Category,
         [ArgumentCompleter({
                 param($commandName, $parameterName, $wordToComplete, $commandAst, $fakeBoundParameters)
-
                 $null = $commandName, $parameterName, $commandAst, $fakeBoundParameters
-
-                try {
-                    $records = ColorScripts-Enhanced\Get-ColorScriptList -AsObject -Quiet -ErrorAction Stop -WarningAction SilentlyContinue
-                }
-                catch {
-                    return
-                }
-
-                $pattern = if ([string]::IsNullOrWhiteSpace($wordToComplete)) {
-                    '*'
-                }
-                else {
-                    $trimmed = $wordToComplete.Trim([char]0x27, [char]0x22)
-                    if ([string]::IsNullOrWhiteSpace($trimmed)) { '*' }
-                    elseif ($trimmed -match '[*?]') { $trimmed }
-                    else { $trimmed + '*' }
-                }
-
-                $values = foreach ($record in $records) {
-                    foreach ($tag in @($record.Tags)) {
-                        if ($tag) { [string]$tag }
-                    }
-                }
-
-                $values |
-                    Where-Object { $_ -and ($_ -like $pattern) } |
-                        Group-Object |
-                            Sort-Object -Property Name |
-                                ForEach-Object {
-                                    [System.Management.Automation.CompletionResult]::new(
-                                        $_.Name,
-                                        $_.Name,
-                                        [System.Management.Automation.CompletionResultType]::ParameterValue,
-                                        '{0} reference(s)' -f $_.Count
-                                    )
-                                }
+                Get-ColorScriptTagCompletion -WordToComplete $wordToComplete
             })]
         [string[]]$Tag,
         [switch]$Quiet,
@@ -153,16 +191,12 @@ function Get-ColorScriptList {
         return
     }
 
-    $quietRequested = $Quiet.IsPresent
-
     $records = Get-ColorScriptEntry -Category $Category -Tag $Tag | Sort-Object Name
-
     if ($Name) {
         $selection = Select-RecordsByName -Records $records -Name $Name
         foreach ($pattern in $selection.MissingPatterns) {
             Write-Warning ($script:Messages.ScriptNotFound -f $pattern)
         }
-
         $records = $selection.Records
     }
 
@@ -172,20 +206,7 @@ function Get-ColorScriptList {
     }
 
     if (-not $AsObject) {
-        $table = if ($Detailed) {
-            $records | Select-Object Name, Category, @{ Name = 'Tags'; Expression = { $_.Tags -join ', ' } }, Description
-        }
-        else {
-            $records | Select-Object Name, Category
-        }
-
-        if (-not $quietRequested) {
-            $tableOutput = $table | Format-Table -AutoSize | Out-String
-            if ($NoAnsiOutput) {
-                $tableOutput = Remove-ColorScriptAnsiSequence -Text $tableOutput
-            }
-            Write-ColorScriptInformation -Message $tableOutput -Quiet:$false
-        }
+        Write-ColorScriptListTable -Record @($records) -Detailed:$Detailed -NoAnsiOutput:$NoAnsiOutput -Quiet:$Quiet
     }
 
     return $records
