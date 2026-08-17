@@ -9,7 +9,7 @@ This guide documents the repository's current release pipeline for **ColorScript
 - Published package versions are immutable. Increment the manifest version before publishing another build.
 - The package is built from `ColorScripts-Enhanced/`, normalized to include its README, license, and icon, and attached to the GitHub release.
 
-The current manifest version is <!-- COLOR_MODULE_VERSION -->`2026.8.4.412`<!-- /COLOR_MODULE_VERSION -->.
+The current manifest version is <!-- COLOR_MODULE_VERSION -->`2026.8.17.1627`<!-- /COLOR_MODULE_VERSION -->.
 
 ## Automated Publishing
 
