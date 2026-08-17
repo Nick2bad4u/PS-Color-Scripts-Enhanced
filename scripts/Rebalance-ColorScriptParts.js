@@ -1435,8 +1435,7 @@ function assertManifestHeader(document) {
             !HASH_PATTERN.test(document.classificationSha256)) ||
         !Array.isArray(document.families) ||
         document.families.length < 1 ||
-        !invariants ||
-        invariants.exactlyOneOutputPresentationRow !== true ||
+        invariants?.exactlyOneOutputPresentationRow !== true ||
         invariants.excludeGeneratedPresentationRows !== true ||
         invariants.fixedPartCount !== true ||
         invariants.preserveNonblankRows !== true ||

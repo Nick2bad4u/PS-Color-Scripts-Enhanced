@@ -675,7 +675,7 @@ test("manifest generation rejects source-fidelity findings and locked baselines"
     );
 });
 
-test("manifest validation rejects duplicate inputs, coordinate gaps, and row overlap", (context) => {
+test("manifest validation fails closed on missing invariants and structural inconsistencies", (context) => {
     const repository = createRepository(context);
     addPart(
         repository,
@@ -694,6 +694,13 @@ test("manifest validation rejects duplicate inputs, coordinate gaps, and row ove
     const manifest = buildFixtureManifest(repository, [
         createFinding("invalid-part01"),
     ]);
+
+    const missingInvariants = structuredClone(manifest);
+    Reflect.deleteProperty(missingInvariants, "invariants");
+    assert.throws(
+        () => validateManifest(missingInvariants),
+        /schemaVersion 2/u
+    );
 
     const duplicate = structuredClone(manifest);
     duplicate.families[0].inputs[1].file = duplicate.families[0].inputs[0].file;
