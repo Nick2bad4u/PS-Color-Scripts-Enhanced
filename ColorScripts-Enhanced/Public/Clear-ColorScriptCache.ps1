@@ -196,7 +196,7 @@ function Get-AllColorScriptCacheTargetName {
 
     if ($Inventory.EntryFile.Count -eq 0) {
         Write-Warning ($script:Messages.NoCacheFilesFound -f $CacheRoot)
-        return @()
+        return [string[]]@()
     }
 
     $selectedFile = @($Inventory.EntryFile)
@@ -222,9 +222,52 @@ function Get-AllColorScriptCacheTargetName {
 
     if ($selectedFile.Count -eq 0) {
         Write-Warning ($script:Messages.NoCacheFilesFound -f $CacheRoot)
-        return @()
+        return [string[]]@()
     }
     return [string[]]@($selectedFile | Sort-Object -Property BaseName -Unique | ForEach-Object { $_.BaseName })
+}
+
+function Add-RequestedColorScriptCacheTargetName {
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory)][string]$Value,
+        [Parameter(Mandatory)][AllowEmptyCollection()][hashtable]$MetadataLookup,
+        [Parameter(Mandatory)][AllowEmptyCollection()][hashtable]$PatternLookup,
+        [Parameter(Mandatory)][bool]$FilterApplied,
+        [Parameter(Mandatory)][AllowEmptyCollection()][System.Collections.Generic.HashSet[string]]$TargetSet,
+        [Parameter(Mandatory)][AllowEmptyCollection()][System.Collections.Generic.List[string]]$TargetName
+    )
+
+    $patternEntry = if ($PatternLookup.ContainsKey($Value)) { $PatternLookup[$Value] } else { $null }
+    if ($patternEntry -and $patternEntry.Matched -and $patternEntry.Matches) {
+        foreach ($matchedName in $patternEntry.Matches) {
+            $key = $matchedName.ToLowerInvariant()
+            $canonicalName = if ($MetadataLookup.ContainsKey($key)) { [string]$MetadataLookup[$key].Name } else { $matchedName }
+            Add-UniqueColorScriptName -Value $canonicalName -Set $TargetSet -List $TargetName
+        }
+        return
+    }
+
+    $key = $Value.ToLowerInvariant()
+    if ($MetadataLookup.ContainsKey($key)) {
+        Add-UniqueColorScriptName -Value ([string]$MetadataLookup[$key].Name) -Set $TargetSet -List $TargetName
+    }
+    elseif (-not $FilterApplied) {
+        Add-UniqueColorScriptName -Value $Value -Set $TargetSet -List $TargetName
+    }
+}
+
+function Add-ColorScriptCacheRecordTargetName {
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory)][AllowEmptyCollection()][object[]]$Record,
+        [Parameter(Mandatory)][AllowEmptyCollection()][System.Collections.Generic.HashSet[string]]$TargetSet,
+        [Parameter(Mandatory)][AllowEmptyCollection()][System.Collections.Generic.List[string]]$TargetName
+    )
+
+    foreach ($entry in $Record) {
+        Add-UniqueColorScriptName -Value ([string]$entry.Name) -Set $TargetSet -List $TargetName
+    }
 }
 
 function Get-SelectedColorScriptCacheTargetName {
@@ -242,34 +285,14 @@ function Get-SelectedColorScriptCacheTargetName {
     $metadataLookup = ConvertTo-ColorScriptNameRecordLookup -Record $MetadataRecord
     $patternLookup = ConvertTo-ColorScriptPatternMatchLookup -Selection $SelectionContext.Selection
     foreach ($value in $RequestedName) {
-        $patternEntry = if ($patternLookup.ContainsKey($value)) { $patternLookup[$value] } else { $null }
-        if ($patternEntry -and $patternEntry.Matched -and $patternEntry.Matches) {
-            foreach ($matchedName in $patternEntry.Matches) {
-                $key = $matchedName.ToLowerInvariant()
-                $canonicalName = if ($metadataLookup.ContainsKey($key)) { [string]$metadataLookup[$key].Name } else { $matchedName }
-                Add-UniqueColorScriptName -Value $canonicalName -Set $targetSet -List $targetName
-            }
-            continue
-        }
-
-        $key = $value.ToLowerInvariant()
-        if ($metadataLookup.ContainsKey($key)) {
-            Add-UniqueColorScriptName -Value ([string]$metadataLookup[$key].Name) -Set $targetSet -List $targetName
-        }
-        elseif (-not $FilterApplied) {
-            Add-UniqueColorScriptName -Value $value -Set $targetSet -List $targetName
-        }
+        Add-RequestedColorScriptCacheTargetName -Value $value -MetadataLookup $metadataLookup -PatternLookup $patternLookup -FilterApplied $FilterApplied -TargetSet $targetSet -TargetName $targetName
     }
 
     if ($RequestedName.Count -eq 0 -and $FilterApplied) {
-        foreach ($record in $MetadataRecord) {
-            Add-UniqueColorScriptName -Value ([string]$record.Name) -Set $targetSet -List $targetName
-        }
+        Add-ColorScriptCacheRecordTargetName -Record $MetadataRecord -TargetSet $targetSet -TargetName $targetName
     }
     if ($targetName.Count -eq 0 -and $SelectionContext.MissingEntry.Count -gt 0) {
-        foreach ($entry in $SelectionContext.MissingEntry) {
-            Add-UniqueColorScriptName -Value ([string]$entry.Name) -Set $targetSet -List $targetName
-        }
+        Add-ColorScriptCacheRecordTargetName -Record $SelectionContext.MissingEntry -TargetSet $targetSet -TargetName $targetName
     }
     return $targetName.ToArray()
 }
