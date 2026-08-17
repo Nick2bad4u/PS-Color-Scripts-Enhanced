@@ -1,3 +1,93 @@
+function Test-ColorScriptForcedAnsi {
+    $forceAnsiValue = $env:COLOR_SCRIPTS_ENHANCED_FORCE_ANSI
+    if ([string]::IsNullOrWhiteSpace($forceAnsiValue)) {
+        return $false
+    }
+
+    return $forceAnsiValue -match '^(?i)(1|true|yes|force|ansi|color)$'
+}
+
+function ConvertTo-ColorScriptConsoleColor {
+    param(
+        [AllowNull()]
+        [string]$Color
+    )
+
+    if ([string]::IsNullOrWhiteSpace($Color)) {
+        return $null
+    }
+
+    try {
+        return [System.ConsoleColor][System.Enum]::Parse([System.ConsoleColor], $Color, $true)
+    }
+    catch {
+        return $null
+    }
+}
+
+function Test-ColorScriptConsoleOutputAvailable {
+    param(
+        [switch]$PreferConsole,
+        [switch]$ForceAnsi
+    )
+
+    if ($PreferConsole -or $ForceAnsi) {
+        return $true
+    }
+
+    try {
+        return -not (Test-ConsoleOutputRedirected)
+    }
+    catch {
+        return $false
+    }
+}
+
+function Test-ColorScriptVirtualTerminalAvailable {
+    try {
+        return Test-ConsoleSupportsVirtualTerminal
+    }
+    catch {
+        return $false
+    }
+}
+
+function Write-ColorScriptConsoleOutput {
+    param(
+        [Parameter(Mandatory)]
+        [AllowEmptyString()]
+        [string]$Text,
+
+        [AllowNull()]
+        [object]$ConsoleColor,
+
+        [switch]$NoAnsiOutput,
+        [switch]$ApplyConsoleColor
+    )
+
+    $colorSet = $false
+    $originalColor = $null
+
+    try {
+        if ($ApplyConsoleColor -and $null -ne $ConsoleColor) {
+            $originalColor = [Console]::ForegroundColor
+            [Console]::ForegroundColor = $ConsoleColor
+            $colorSet = $true
+        }
+
+        Write-RenderedText -Text $Text -NoAnsiOutput:$NoAnsiOutput
+        return $true
+    }
+    catch {
+        return $false
+    }
+    finally {
+        if ($colorSet -and $null -ne $originalColor) {
+            [Console]::ForegroundColor = $originalColor
+        }
+    }
+}
+
 function Write-ColorScriptInformation {
     param(
         [AllowNull()][string]$Message,
@@ -12,92 +102,22 @@ function Write-ColorScriptInformation {
     }
 
     $output = if ($null -ne $Message) { [string]$Message } else { '' }
-
-    $preferConsoleOutput = $PreferConsole.IsPresent
-    $forceAnsiEnv = $env:COLOR_SCRIPTS_ENHANCED_FORCE_ANSI
-    $forceAnsi = $false
-    if (-not [string]::IsNullOrWhiteSpace($forceAnsiEnv)) {
-        if ($forceAnsiEnv -match '^(?i)(1|true|yes|force|ansi|color)$') {
-            $forceAnsi = $true
-        }
-    }
-
     $sanitizedOutput = Remove-ColorScriptAnsiSequence -Text $output
-
-    $consoleColor = $null
-    if (-not [string]::IsNullOrWhiteSpace($Color)) {
-        try {
-            $consoleColor = [System.ConsoleColor][System.Enum]::Parse([System.ConsoleColor], $Color, $true)
-        }
-        catch {
-            $consoleColor = $null
-        }
-    }
-
+    $consoleColor = ConvertTo-ColorScriptConsoleColor -Color $Color
     $wroteToConsole = $false
 
     if (-not $NoAnsiOutput.IsPresent) {
-        $shouldUseConsole = $preferConsoleOutput -or $forceAnsi
-
-        if (-not $shouldUseConsole) {
-            try {
-                $shouldUseConsole = -not (Test-ConsoleOutputRedirected)
-            }
-            catch {
-                $shouldUseConsole = $false
-            }
-        }
-
-        $supportsVirtualTerminal = $true
-        try {
-            $supportsVirtualTerminal = Test-ConsoleSupportsVirtualTerminal
-        }
-        catch {
-            $supportsVirtualTerminal = $false
-        }
-
+        $forceAnsi = Test-ColorScriptForcedAnsi
+        $shouldUseConsole = Test-ColorScriptConsoleOutputAvailable -PreferConsole:$PreferConsole -ForceAnsi:$forceAnsi
+        $supportsVirtualTerminal = Test-ColorScriptVirtualTerminalAvailable
         $shouldRenderWithAnsi = $shouldUseConsole -and ($forceAnsi -or $supportsVirtualTerminal)
 
         if ($shouldUseConsole) {
-            $colorSet = $false
-            $originalColor = $null
-
-            try {
-                if (-not $shouldRenderWithAnsi -and $null -ne $consoleColor) {
-                    $originalColor = [Console]::ForegroundColor
-                    [Console]::ForegroundColor = $consoleColor
-                    $colorSet = $true
-                }
-
-                Write-RenderedText -Text $output -NoAnsiOutput:(-not $shouldRenderWithAnsi)
-                $wroteToConsole = $true
-            }
-            catch {
-                $wroteToConsole = $false
-            }
-            finally {
-                if ($colorSet -and $null -ne $originalColor) {
-                    [Console]::ForegroundColor = $originalColor
-                }
-            }
+            $wroteToConsole = Write-ColorScriptConsoleOutput -Text $output -ConsoleColor $consoleColor -NoAnsiOutput:(-not $shouldRenderWithAnsi) -ApplyConsoleColor:(-not $shouldRenderWithAnsi)
         }
 
         if (-not $wroteToConsole -and $null -ne $consoleColor) {
-            $originalColor = $null
-            try {
-                $originalColor = [Console]::ForegroundColor
-                [Console]::ForegroundColor = $consoleColor
-                Write-RenderedText -Text $output -NoAnsiOutput
-                $wroteToConsole = $true
-            }
-            catch {
-                $wroteToConsole = $false
-            }
-            finally {
-                if ($null -ne $originalColor) {
-                    [Console]::ForegroundColor = $originalColor
-                }
-            }
+            $wroteToConsole = Write-ColorScriptConsoleOutput -Text $output -ConsoleColor $consoleColor -NoAnsiOutput -ApplyConsoleColor
         }
     }
 
@@ -128,9 +148,9 @@ function Write-ColorScriptSelectionInfo {
     $pathSegment = New-ColorScriptAnsiText -Text $Path -Color 'DarkGray' -NoAnsiOutput:$NoAnsiOutput
 
     $writeParameters = @{
-        Message        = "{0} {1}" -f $nameSegment, $pathSegment
-        NoAnsiOutput   = $NoAnsiOutput
-        PreferConsole  = $PreferConsole
+        Message       = "{0} {1}" -f $nameSegment, $pathSegment
+        NoAnsiOutput  = $NoAnsiOutput
+        PreferConsole = $PreferConsole
     }
     Write-ColorScriptInformation @writeParameters
 }

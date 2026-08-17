@@ -1,3 +1,88 @@
+function Get-ColorScriptUserProfilePath {
+    try {
+        $profilePath = & $script:GetUserProfilePathDelegate
+    }
+    catch {
+        $profilePath = $null
+    }
+
+    if ($profilePath) {
+        return $profilePath
+    }
+
+    return $HOME
+}
+
+function Expand-ColorScriptHomePath {
+    param(
+        [Parameter(Mandatory)]
+        [string]$Path,
+
+        [AllowNull()]
+        [string]$HomeDirectory
+    )
+
+    if (-not $HomeDirectory -or -not $Path.StartsWith('~')) {
+        return $Path
+    }
+
+    if ($Path.Length -eq 1) {
+        return $HomeDirectory
+    }
+
+    if ($Path[1] -ne '/' -and $Path[1] -ne [char]92) {
+        return $Path
+    }
+
+    $relativeSegment = $Path.Substring(2)
+    if (-not $relativeSegment) {
+        return $HomeDirectory
+    }
+
+    return Join-Path -Path $HomeDirectory -ChildPath $relativeSegment
+}
+
+function Test-ColorScriptPathQualifier {
+    param(
+        [Parameter(Mandatory)]
+        [string]$Path
+    )
+
+    try {
+        $qualifier = Split-Path -Path $Path -Qualifier -ErrorAction Stop
+    }
+    catch {
+        return $true
+    }
+
+    if (-not $qualifier -or $qualifier -like '\\*') {
+        return $true
+    }
+
+    $driveName = $qualifier.TrimEnd(':', '\')
+    return $null -ne (Get-PSDrive -Name $driveName -ErrorAction SilentlyContinue)
+}
+
+function Get-ColorScriptCurrentProviderPath {
+    try {
+        $basePath = & $script:GetCurrentProviderPathDelegate
+    }
+    catch {
+        $basePath = $null
+    }
+
+    if ($basePath) {
+        return $basePath
+    }
+
+    try {
+        return & $script:GetCurrentDirectoryDelegate
+    }
+    catch {
+        return $null
+    }
+}
+
 function Resolve-CachePath {
     param(
         [string]$Path
@@ -8,52 +93,12 @@ function Resolve-CachePath {
     }
 
     $expanded = [System.Environment]::ExpandEnvironmentVariables($Path)
+    $expanded = Expand-ColorScriptHomePath -Path $expanded -HomeDirectory (Get-ColorScriptUserProfilePath)
 
-    $homeDirectory = $null
-    try {
-        $homeDirectory = & $script:GetUserProfilePathDelegate
-    }
-    catch {
-        $homeDirectory = $null
+    if (-not (Test-ColorScriptPathQualifier -Path $expanded)) {
+        return $null
     }
 
-    if (-not $homeDirectory) {
-        $homeDirectory = $HOME
-    }
-
-    if ($expanded -and $expanded.StartsWith('~') -and $homeDirectory) {
-        if ($expanded.Length -eq 1) {
-            $expanded = $homeDirectory
-        }
-        elseif ($expanded.Length -gt 1 -and ($expanded[1] -eq '/' -or $expanded[1] -eq [char]92)) {
-            $relativeSegment = $expanded.Substring(2)
-            $expanded = if ($relativeSegment) {
-                Join-Path -Path $homeDirectory -ChildPath $relativeSegment
-            }
-            else {
-                $homeDirectory
-            }
-        }
-    }
-
-    $candidate = $expanded
-
-    $qualifier = $null
-    try {
-        $qualifier = Split-Path -Path $expanded -Qualifier -ErrorAction Stop
-    }
-    catch {
-        $qualifier = $null
-    }
-
-    if ($qualifier -and $qualifier -notlike '\\*') {
-        $driveName = $qualifier.TrimEnd(':', '\')
-        if (-not (Get-PSDrive -Name $driveName -ErrorAction SilentlyContinue)) {
-            return $null
-        }
-    }
-
-    $isRooted = $false
     try {
         $isRooted = & $script:IsPathRootedDelegate $expanded
     }
@@ -62,25 +107,9 @@ function Resolve-CachePath {
         return $null
     }
 
+    $candidate = $expanded
     if (-not $isRooted) {
-        $basePath = $null
-
-        try {
-            $basePath = & $script:GetCurrentProviderPathDelegate
-        }
-        catch {
-            $basePath = $null
-        }
-
-        if (-not $basePath) {
-            try {
-                $basePath = & $script:GetCurrentDirectoryDelegate
-            }
-            catch {
-                $basePath = $null
-            }
-        }
-
+        $basePath = Get-ColorScriptCurrentProviderPath
         if (-not $basePath) {
             return $null
         }

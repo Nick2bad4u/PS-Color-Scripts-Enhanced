@@ -1,3 +1,116 @@
+function Initialize-ColorScriptConsoleNativeType {
+    if (-not $script:DelegateSyncRoot) {
+        $script:DelegateSyncRoot = New-Object System.Object
+    }
+
+    try {
+        Invoke-ModuleSynchronized $script:DelegateSyncRoot {
+            if ('ColorScriptsEnhanced.ConsoleNative' -as [Type]) {
+                return
+            }
+
+            $typeDefinition = @(
+                'using System;',
+                'using System.Runtime.InteropServices;',
+                '',
+                'namespace ColorScriptsEnhanced {',
+                '    public static class ConsoleNative {',
+                '        [DllImport("kernel32.dll", SetLastError = true)]',
+                '        public static extern IntPtr GetStdHandle(int nStdHandle);',
+                '',
+                '        [DllImport("kernel32.dll", SetLastError = true)]',
+                '        public static extern bool GetConsoleMode(IntPtr hConsoleHandle, out int lpMode);',
+                '',
+                '        [DllImport("kernel32.dll", SetLastError = true)]',
+                '        public static extern bool SetConsoleMode(IntPtr hConsoleHandle, int dwMode);',
+                '    }',
+                '}'
+            ) -join [Environment]::NewLine
+
+            Add-Type -TypeDefinition $typeDefinition -ErrorAction Stop
+        }
+    }
+    catch {
+        return $false
+    }
+
+    return $null -ne ('ColorScriptsEnhanced.ConsoleNative' -as [Type])
+}
+
+function Get-ColorScriptConsoleNativeDelegateSet {
+    param(
+        [AllowNull()]
+        [object]$Overrides
+    )
+
+    $getStdHandle = if ($Overrides -and $Overrides.GetStdHandle) {
+        $Overrides.GetStdHandle
+    }
+    else {
+        { param([int]$handleId) [ColorScriptsEnhanced.ConsoleNative]::GetStdHandle($handleId) }
+    }
+
+    $getConsoleMode = if ($Overrides -and $Overrides.GetConsoleMode) {
+        $Overrides.GetConsoleMode
+    }
+    else {
+        { param([IntPtr]$handle, [ref]$mode) [ColorScriptsEnhanced.ConsoleNative]::GetConsoleMode($handle, [ref]$mode) }
+    }
+
+    $setConsoleMode = if ($Overrides -and $Overrides.SetConsoleMode) {
+        $Overrides.SetConsoleMode
+    }
+    else {
+        { param([IntPtr]$handle, [int]$mode) [ColorScriptsEnhanced.ConsoleNative]::SetConsoleMode($handle, $mode) }
+    }
+
+    return @{
+        GetStdHandle   = $getStdHandle
+        GetConsoleMode = $getConsoleMode
+        SetConsoleMode = $setConsoleMode
+    }
+}
+
+function Enable-ColorScriptVirtualTerminal {
+    param(
+        [Parameter(Mandatory)]
+        [hashtable]$Delegates
+    )
+
+    $enableVirtualTerminalProcessing = 0x0004
+    $standardOutputHandle = -11
+
+    try {
+        $handle = & $Delegates.GetStdHandle $standardOutputHandle
+        if ($handle -eq [IntPtr]::Zero) {
+            return $false
+        }
+
+        $mode = 0
+        if (-not (& $Delegates.GetConsoleMode $handle ([ref]$mode))) {
+            return $false
+        }
+
+        if (($mode -band $enableVirtualTerminalProcessing) -ne 0) {
+            return $true
+        }
+
+        if (-not (& $Delegates.SetConsoleMode $handle ($mode -bor $enableVirtualTerminalProcessing))) {
+            return $false
+        }
+
+        $updatedMode = 0
+        if (-not (& $Delegates.GetConsoleMode $handle ([ref]$updatedMode))) {
+            return $false
+        }
+
+        return ($updatedMode -band $enableVirtualTerminalProcessing) -ne 0
+    }
+    catch {
+        return $false
+    }
+}
+
 function Test-ConsoleSupportsVirtualTerminal {
     [CmdletBinding()]
     [OutputType([bool])]
@@ -7,104 +120,15 @@ function Test-ConsoleSupportsVirtualTerminal {
         return $true
     }
 
-    $ENABLE_VIRTUAL_TERMINAL_PROCESSING = 0x0004
-    $STD_OUTPUT_HANDLE = -11
-
     $overrides = $null
-    $useOverrides = $false
-    if ($script:ConsoleNativeOverrides -and ($script:ConsoleNativeOverrides.Enabled -eq $true)) {
+    if ($script:ConsoleNativeOverrides -and $script:ConsoleNativeOverrides.Enabled -eq $true) {
         $overrides = $script:ConsoleNativeOverrides
-        $useOverrides = $true
     }
 
-    if (-not $script:DelegateSyncRoot) {
-        $script:DelegateSyncRoot = New-Object System.Object
-    }
-
-    if (-not $useOverrides) {
-        try {
-            Invoke-ModuleSynchronized $script:DelegateSyncRoot {
-                if (-not ('ColorScriptsEnhanced.ConsoleNative' -as [Type])) {
-                    $typeDefinition = @(
-                        'using System;',
-                        'using System.Runtime.InteropServices;',
-                        '',
-                        'namespace ColorScriptsEnhanced {',
-                        '    public static class ConsoleNative {',
-                        '        [DllImport("kernel32.dll", SetLastError = true)]',
-                        '        public static extern IntPtr GetStdHandle(int nStdHandle);',
-                        '',
-                        '        [DllImport("kernel32.dll", SetLastError = true)]',
-                        '        public static extern bool GetConsoleMode(IntPtr hConsoleHandle, out int lpMode);',
-                        '',
-                        '        [DllImport("kernel32.dll", SetLastError = true)]',
-                        '        public static extern bool SetConsoleMode(IntPtr hConsoleHandle, int dwMode);',
-                        '    }',
-                        '}'
-                    ) -join [Environment]::NewLine
-
-                    Add-Type -TypeDefinition $typeDefinition -ErrorAction Stop
-                }
-            }
-        }
-        catch {
-            return $false
-        }
-
-        # If the native helper type is still unavailable (for example, Add-Type is blocked
-        # in constrained environments), fall back to reporting no VT support instead of
-        # throwing when invoking the delegate accessors below.
-        if (-not ('ColorScriptsEnhanced.ConsoleNative' -as [Type])) {
-            return $false
-        }
-    }
-
-    $getStdHandle = if ($useOverrides -and $overrides.GetStdHandle) {
-        $overrides.GetStdHandle
-    }
-    else {
-        { param([int]$handleId) [ColorScriptsEnhanced.ConsoleNative]::GetStdHandle($handleId) }
-    }
-
-    $getConsoleMode = if ($useOverrides -and $overrides.GetConsoleMode) {
-        $overrides.GetConsoleMode
-    }
-    else {
-        { param([IntPtr]$handle, [ref]$mode) [ColorScriptsEnhanced.ConsoleNative]::GetConsoleMode($handle, [ref]$mode) }
-    }
-
-    $setConsoleMode = if ($useOverrides -and $overrides.SetConsoleMode) {
-        $overrides.SetConsoleMode
-    }
-    else {
-        { param([IntPtr]$handle, [int]$mode) [ColorScriptsEnhanced.ConsoleNative]::SetConsoleMode($handle, $mode) }
-    }
-
-    try {
-        $handle = & $getStdHandle $STD_OUTPUT_HANDLE
-        if ($handle -eq [IntPtr]::Zero) {
-            return $false
-        }
-
-        $mode = 0
-        if (-not (& $getConsoleMode $handle ([ref]$mode))) {
-            return $false
-        }
-
-        if (($mode -band $ENABLE_VIRTUAL_TERMINAL_PROCESSING) -ne 0) {
-            return $true
-        }
-
-        if (& $setConsoleMode $handle ($mode -bor $ENABLE_VIRTUAL_TERMINAL_PROCESSING)) {
-            $updatedMode = 0
-            if (& $getConsoleMode $handle ([ref]$updatedMode)) {
-                return (($updatedMode -band $ENABLE_VIRTUAL_TERMINAL_PROCESSING) -ne 0)
-            }
-        }
-    }
-    catch {
+    if (-not $overrides -and -not (Initialize-ColorScriptConsoleNativeType)) {
         return $false
     }
 
-    return $false
+    $delegates = Get-ColorScriptConsoleNativeDelegateSet -Overrides $overrides
+    return Enable-ColorScriptVirtualTerminal -Delegates $delegates
 }

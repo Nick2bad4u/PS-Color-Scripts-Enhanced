@@ -1,3 +1,91 @@
+function Set-ColorScriptCacheConfigurationValue {
+    param(
+        [Parameter(Mandatory)]
+        [System.Collections.IDictionary]$Configuration,
+
+        [AllowNull()]
+        [string]$CachePath,
+
+        [Parameter(Mandatory)]
+        [System.Management.Automation.PSCmdlet]$Cmdlet
+    )
+
+    if ([string]::IsNullOrWhiteSpace($CachePath)) {
+        $Configuration.Cache.Path = $null
+        return $null
+    }
+
+    $resolvedCache = Resolve-CachePath -Path $CachePath
+    if (-not $resolvedCache) {
+        Invoke-ColorScriptError -Message ($script:Messages.UnableToResolveCachePath -f $CachePath) -ErrorId 'ColorScriptsEnhanced.InvalidCachePath' -Category ([System.Management.Automation.ErrorCategory]::InvalidArgument) -TargetObject $CachePath -Cmdlet $Cmdlet
+    }
+
+    if (Test-Path -LiteralPath $resolvedCache -PathType Leaf) {
+        Invoke-ColorScriptError -Message ($script:Messages.ConfiguredCachePathInvalid -f $CachePath) -ErrorId 'ColorScriptsEnhanced.InvalidCachePath' -Category ([System.Management.Automation.ErrorCategory]::InvalidArgument) -TargetObject $CachePath -Cmdlet $Cmdlet
+    }
+
+    $Configuration.Cache.Path = $resolvedCache
+    if (-not (Test-Path -LiteralPath $resolvedCache -PathType Container)) {
+        return $resolvedCache
+    }
+
+    return $null
+}
+
+function Update-ColorScriptConfigurationValueSet {
+    param(
+        [Parameter(Mandatory)]
+        [System.Collections.IDictionary]$Configuration,
+
+        [Parameter(Mandatory)]
+        [System.Collections.IDictionary]$BoundParameters,
+
+        [Nullable[bool]]$AutoShowOnImport,
+        [Nullable[bool]]$ProfileAutoShow,
+        [AllowNull()][string]$CachePath,
+        [AllowNull()][string]$DefaultScript,
+
+        [Parameter(Mandatory)]
+        [System.Management.Automation.PSCmdlet]$Cmdlet
+    )
+
+    if ($BoundParameters.ContainsKey('AutoShowOnImport')) {
+        $Configuration.Startup.AutoShowOnImport = [bool]$AutoShowOnImport
+    }
+
+    if ($BoundParameters.ContainsKey('ProfileAutoShow')) {
+        $Configuration.Startup.ProfileAutoShow = [bool]$ProfileAutoShow
+    }
+
+    $cacheDirectoryToCreate = $null
+    $cachePathChanged = $BoundParameters.ContainsKey('CachePath')
+    if ($cachePathChanged) {
+        $cacheDirectoryToCreate = Set-ColorScriptCacheConfigurationValue -Configuration $Configuration -CachePath $CachePath -Cmdlet $Cmdlet
+    }
+
+    if ($BoundParameters.ContainsKey('DefaultScript')) {
+        $Configuration.Startup.DefaultScript = if ([string]::IsNullOrWhiteSpace($DefaultScript)) {
+            $null
+        }
+        else {
+            [string]$DefaultScript
+        }
+    }
+
+    return [pscustomobject]@{
+        CacheDirectoryToCreate = $cacheDirectoryToCreate
+        CachePathChanged       = $cachePathChanged
+    }
+}
+
+function Reset-ColorScriptCacheConfigurationState {
+    $script:CacheInitialized = $false
+    $script:CacheDir = $null
+    $script:CacheValidationPerformed = $false
+    $script:CacheValidationManualOverride = $false
+    Reset-CachedOutputMemory
+}
+
 function Set-ColorScriptConfiguration {
     <#
     .EXTERNALHELP ColorScripts-Enhanced-help.xml
@@ -23,67 +111,21 @@ function Set-ColorScriptConfiguration {
     }
 
     $data = Copy-ColorScriptHashtable (Get-ConfigurationDataInternal)
-    $cacheDirectoryToCreate = $null
-    $cachePathChanged = $false
-
-    if ($PSBoundParameters.ContainsKey('AutoShowOnImport')) {
-        $data.Startup.AutoShowOnImport = [bool]$AutoShowOnImport
-    }
-
-    if ($PSBoundParameters.ContainsKey('ProfileAutoShow')) {
-        $data.Startup.ProfileAutoShow = [bool]$ProfileAutoShow
-    }
-
-    if ($PSBoundParameters.ContainsKey('CachePath')) {
-        if ([string]::IsNullOrWhiteSpace($CachePath)) {
-            $data.Cache.Path = $null
-        }
-        else {
-            $resolvedCache = Resolve-CachePath -Path $CachePath
-            if (-not $resolvedCache) {
-                Invoke-ColorScriptError -Message ($script:Messages.UnableToResolveCachePath -f $CachePath) -ErrorId 'ColorScriptsEnhanced.InvalidCachePath' -Category ([System.Management.Automation.ErrorCategory]::InvalidArgument) -TargetObject $CachePath -Cmdlet $PSCmdlet
-            }
-
-            if (Test-Path -LiteralPath $resolvedCache -PathType Leaf) {
-                Invoke-ColorScriptError -Message ($script:Messages.ConfiguredCachePathInvalid -f $CachePath) -ErrorId 'ColorScriptsEnhanced.InvalidCachePath' -Category ([System.Management.Automation.ErrorCategory]::InvalidArgument) -TargetObject $CachePath -Cmdlet $PSCmdlet
-            }
-
-            if (-not (Test-Path -LiteralPath $resolvedCache -PathType Container)) {
-                $cacheDirectoryToCreate = $resolvedCache
-            }
-
-            $data.Cache.Path = $resolvedCache
-        }
-
-        $cachePathChanged = $true
-    }
-
-    if ($PSBoundParameters.ContainsKey('DefaultScript')) {
-        if ([string]::IsNullOrWhiteSpace($DefaultScript)) {
-            $data.Startup.DefaultScript = $null
-        }
-        else {
-            $data.Startup.DefaultScript = [string]$DefaultScript
-        }
-    }
+    $update = Update-ColorScriptConfigurationValueSet -Configuration $data -BoundParameters $PSBoundParameters -AutoShowOnImport $AutoShowOnImport -ProfileAutoShow $ProfileAutoShow -CachePath $CachePath -DefaultScript $DefaultScript -Cmdlet $PSCmdlet
 
     $configRoot = Get-ColorScriptsConfigurationRoot -NoCreate
     $configPath = Join-Path -Path $configRoot -ChildPath 'config.json'
 
     if ($PSCmdlet.ShouldProcess($configPath, 'Update ColorScripts-Enhanced configuration')) {
-        if ($cacheDirectoryToCreate) {
-            New-Item -ItemType Directory -Path $cacheDirectoryToCreate -Force -ErrorAction Stop | Out-Null
+        if ($update.CacheDirectoryToCreate) {
+            New-Item -ItemType Directory -Path $update.CacheDirectoryToCreate -Force -ErrorAction Stop | Out-Null
         }
 
         Save-ColorScriptConfiguration -Configuration $data -Force
         $script:ConfigurationData = $data
 
-        if ($cachePathChanged) {
-            $script:CacheInitialized = $false
-            $script:CacheDir = $null
-            $script:CacheValidationPerformed = $false
-            $script:CacheValidationManualOverride = $false
-            Reset-CachedOutputMemory
+        if ($update.CachePathChanged) {
+            Reset-ColorScriptCacheConfigurationState
         }
     }
 
