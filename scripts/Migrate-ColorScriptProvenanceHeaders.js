@@ -28,14 +28,6 @@ const MIGRATION_MANIFEST_PATH = path.join(
     "audit",
     "ArtworkHeaderMigration.json"
 );
-const IMPORTED_PREFIXES = [
-    "16c-",
-    "asciiville-",
-    "botany-",
-    "durdraw-",
-    "os-ansi-",
-    "roy-sac-",
-];
 const ENTRY_PATTERN =
     /^ {8}'((?:[^']|'')+)'\s*=\s*@\{\r?\n[\s\S]*?^ {8}\}\r?$/gmu;
 const KNOWN_VERBOSE_FIELDS = new Set([
@@ -514,7 +506,7 @@ function validateExistingMigrationManifest(
         existingHashMode !== UNMAPPED_SCRIPT_HASH_MODE
     ) {
         throw new Error(
-            `Unsupported unmapped-script hash mode: ${existingHashMode}.`
+            `Unsupported unmapped-script hash mode: ${JSON.stringify(existingHashMode)}.`
         );
     }
     if (existingHashMode === undefined && !options.write) {

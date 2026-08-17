@@ -1081,7 +1081,7 @@ function selectRebalanceFindings(classification) {
     if (
         !classification ||
         typeof classification !== "object" ||
-        !Array.isArray(classification.findings)
+        !Array.isArray(classification?.findings)
     ) {
         throw new Error("Classification input must contain a findings array.");
     }

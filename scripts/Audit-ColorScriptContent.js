@@ -20,9 +20,9 @@ const BELL_CHARACTER = String.fromCodePoint(0x07);
 const C1_CSI_CHARACTER = String.fromCodePoint(0x9b);
 const ANSI_CONTROL_PATTERN = new RegExp(
     [
-        `${ESCAPE_CHARACTER}\\][^${BELL_CHARACTER}${ESCAPE_CHARACTER}]*(?:${BELL_CHARACTER}|${ESCAPE_CHARACTER}\\\\)`,
-        `${ESCAPE_CHARACTER}[P_X^][\\s\\S]*?${ESCAPE_CHARACTER}\\\\`,
-        `${ESCAPE_CHARACTER}\\[[0-?]*[ -/]*[@-~]`,
+        String.raw`${ESCAPE_CHARACTER}\][^${BELL_CHARACTER}${ESCAPE_CHARACTER}]*(?:${BELL_CHARACTER}|${ESCAPE_CHARACTER}\\)`,
+        String.raw`${ESCAPE_CHARACTER}[P_X^][\s\S]*?${ESCAPE_CHARACTER}\\`,
+        String.raw`${ESCAPE_CHARACTER}\[[0-?]*[ -/]*[@-~]`,
         `${C1_CSI_CHARACTER}[0-?]*[ -/]*[@-~]`,
         `${ESCAPE_CHARACTER}[ -/]*[@-~]`,
     ].join("|"),
@@ -41,16 +41,25 @@ const CONTACT_CONTEXT_PATTERN =
     /\b(?:bbs|board|call|contact|data|dial|fax|host|line|node|number|nup|pager|phone|sysop|tel|telephone|vmb|voice)\b/iu;
 const CONTACT_FALSE_POSITIVE_CONTEXT_PATTERN =
     /\b(?:anniversary|baud|birthday|bps|date|kbps|open|version|v\d{2}(?:bis)?)\b/iu;
-const DATE_TIME_BAUD_PATTERN =
-    /\b\d{1,2}\s*[/.-]\s*\d{1,2}\s*[/.-]\s*\d{2,4}\b[^\r\n]{0,40}\b\d{1,2}\s*:\s*\d{2}\b[^\r\n]{0,40}\b(?:300|1200|2400|4800|9600|14400|16800|19200|28800|33600|56000|115200)\b/iu;
+const DATE_SOURCE = String.raw`\b\d{1,2}\s*[/.-]\s*\d{1,2}\s*[/.-]\s*\d{2,4}\b`;
+const TIME_SOURCE = String.raw`\b\d{1,2}\s*:\s*\d{2}\b`;
+const BAUD_SOURCE = String.raw`\b(?:300|1200|2400|4800|9600|14400|16800|19200|28800|33600|56000|115200)\b`;
+const DATE_TIME_BAUD_PATTERN = new RegExp(
+    `${DATE_SOURCE}[^\\r\\n]{0,40}${TIME_SOURCE}[^\\r\\n]{0,40}${BAUD_SOURCE}`,
+    "iu"
+);
 const EMAIL_PATTERN =
-    /[\p{L}\p{N}._%+-]{1,64}@(?:[\p{L}\p{N}-]{1,63}\.){1,10}[\p{L}]{2,63}/giu;
-const NETWORK_ENDPOINT_PATTERN =
-    /\b(?:(?:https?|ftp|telnet):\/\/|www\.)\S+|\b(?:bbs|telnet)\.(?:[\p{L}\p{N}-]{1,63}\.){0,9}[\p{L}]{2,63}\b/giu;
+    /[\p{L}\p{N}._%+-]{1,64}@(?:[\p{L}\p{N}-]{1,63}\.){1,10}\p{L}{2,63}/giu;
+const NETWORK_PROTOCOL_SOURCE = String.raw`\b(?:(?:https?|ftp|telnet):\/\/|www\.)\S+`;
+const NETWORK_HOST_SOURCE = String.raw`\b(?:bbs|telnet)\.(?:[\p{L}\p{N}-]{1,63}\.){0,9}\p{L}{2,63}\b`;
+const NETWORK_ENDPOINT_PATTERN = new RegExp(
+    `${NETWORK_PROTOCOL_SOURCE}|${NETWORK_HOST_SOURCE}`,
+    "giu"
+);
 const FIDO_ENDPOINT_PATTERN =
     /(?<![\p{L}\p{N}])[\do]{1,3}:[\do]{1,6}\/[\do]{1,6}(?:\.[\do]{1,6})?(?![\p{L}\p{N}])/giu;
 const PHONE_CANDIDATE_PATTERN =
-    /(?<![\p{L}\p{N}])(?:\+|00|011)?[\doil(\[][\doil\s()\[\]./·■-]{5,40}[\doil)](?![\p{L}\p{N}])/giu;
+    /(?<![\p{L}\p{N}])(?:\+|00|011)?[\doil(\u005B][\doil\s()\u005B\]./·■-]{5,40}[\doil)](?![\p{L}\p{N}])/giu;
 const COMMON_BAUD_RATES = new Set([
     "300",
     "1200",
@@ -576,7 +585,7 @@ function findPolicyTerms(visible) {
  * @returns {RowAnalysis}
  */
 function analyzeRow(rawRow) {
-    const visible = stripAnsiControls(rawRow).replace(/\t/gu, "    ");
+    const visible = stripAnsiControls(rawRow).replaceAll("\t", "    ");
     const nonspaceCount = countMatches(visible, NONSPACE_PATTERN);
     const letterCount = countMatches(visible, LETTER_PATTERN);
     const digitCount = countMatches(visible, DIGIT_PATTERN);
