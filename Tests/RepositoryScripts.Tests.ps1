@@ -212,6 +212,15 @@ Describe 'Release lint wiring' {
         $validator | Should -Match ([regex]::Escape('$parts[0] -notmatch ''^[0-9a-f]{40}$'''))
     }
 
+    It 'keeps compliant release-preparation commits out of published GitHub release notes' {
+        $workflow = Get-Content -LiteralPath $script:PublishWorkflowPath -Raw
+
+        $workflow | Should -Match ([regex]::Escape('$releasePreparationPattern = ''^🧹 \[chore\] Prepare release \d+(?:\.\d+){1,3}$'''))
+        $workflow | Should -Match ([regex]::Escape('$gitCliffArguments += ''--skip-commit'', $parts[0]'))
+        $workflow | Should -Match ([regex]::Escape('$parts[0] -notmatch ''^[0-9a-f]{40}$'''))
+        $workflow | Should -Match ([regex]::Escape('npx git-cliff @gitCliffArguments'))
+    }
+
     It 'keeps analyzer isolation bounded and fail-closed' {
         $lintScript = Get-Content -LiteralPath $script:LintScriptPath -Raw
 
