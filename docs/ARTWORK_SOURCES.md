@@ -164,7 +164,7 @@ This is the largest cleanly licensed additional collection. Strong generic candi
 - License: [CC0-1.0](https://github.com/domsson/nuru/blob/0cb3d08971e8a76d02636c50eaf1a04f87f4ccf7/LICENSE)
 - Reviewed inventory: 15 `.nui` files
 
-The art-like candidates are `house` (9x4, 5 colors), `togglebit` (14x7, 7), `nuru-cat` (64x11, 15), `nuru-dot-net` (63x5, 5), and `nuru` (78x12, 8). CC0 makes the right's boundary simple, but `.nui` is a binary glyph/palette format and requires a native parser. Screenshots are not acceptable conversion sources.
+The art-like candidates are `house` (9x4, 5 colors), `togglebit` (14x7, 7), `nuru-cat` (64x11, 15), `nuru-dot-net` (63x5, 5), and `nuru` (78x12, 8). CC0 makes the rights boundary simple, but `.nui` is a binary glyph/palette format and requires a native parser. Screenshots are not acceptable conversion sources.
 
 ### PowerShell Paint
 

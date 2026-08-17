@@ -91,6 +91,9 @@ function Update-DocRelativeLink {
     $updated = $updated -replace "(src\s*=\s*')\.\./", '$1../../'
     $updated = $updated -replace '(href\s*=\s*")\.\./', '$1../../'
     $updated = $updated -replace "(href\s*=\s*')\.\./", '$1../../'
+    $updated = $updated.Replace(
+        '](artwork.html)',
+        '](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html)')
 
     if ($updated -cne $content) {
         Write-TextFileUtf8NoBom -LiteralPath $LiteralPath -Content $updated
@@ -112,9 +115,18 @@ function Update-PackagedReadmeLink {
             'CHANGELOG.md',
             'CODE_OF_CONDUCT.md',
             'SECURITY.md',
+            'audit/ArtworkProvenance.psd1',
+            'audit/AnsiArchiveCurationCheckpoint.json',
+            'audit/AnsiContentCurationCheckpoint.json',
             '.github/workflows/test.yml',
             '.github/workflows/publish.yml')) {
         $updated = $updated.Replace("]($repositoryPath)", "]($repositoryBlobBase$repositoryPath)")
+    }
+
+    $repositoryTreeBase = 'https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/tree/main/'
+    foreach ($repositoryPath in @(
+            'ColorScripts-Enhanced/ThirdPartyNotices/')) {
+        $updated = $updated.Replace("]($repositoryPath)", "]($repositoryTreeBase$repositoryPath)")
     }
 
     $mascotPath = 'assets/ColorScripts-Mascot-Dark.jpeg'

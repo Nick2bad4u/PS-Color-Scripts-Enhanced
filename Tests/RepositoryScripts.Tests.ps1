@@ -175,6 +175,33 @@ Describe 'Release lint wiring' {
         Test-Path -LiteralPath (Join-Path -Path $moduleDocs -ChildPath 'artwork.html') | Should -BeFalse
         Test-Path -LiteralPath (Join-Path -Path $moduleDocs -ChildPath 'assets/artwork-provenance.json') | Should -BeFalse
         Test-Path -LiteralPath (Join-Path -Path $moduleDocs -ChildPath 'ColorScripts-Enhanced') | Should -BeFalse
+
+        $packagedArtworkSources = Get-Content -LiteralPath (Join-Path -Path $moduleDocs -ChildPath 'ARTWORK_SOURCES.md') -Raw
+        $hostedArtworkIndex = 'https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html'
+        $packagedArtworkSources | Should -Match ([regex]::Escape("]($hostedArtworkIndex)"))
+        $packagedArtworkSources | Should -Not -Match ([regex]::Escape('](artwork.html)'))
+    }
+
+    It 'links packaged README references to repository-only release evidence' {
+        $buildScript = Get-Content -LiteralPath $script:BuildScriptPath -Raw
+        $packagedReadmePath = Join-Path -Path $script:RepoRoot -ChildPath 'ColorScripts-Enhanced/README.md'
+        $packagedReadme = Get-Content -LiteralPath $packagedReadmePath -Raw
+        $repositoryBlobBase = 'https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/'
+        $repositoryTreeBase = 'https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/tree/main/'
+
+        foreach ($repositoryPath in @(
+                'audit/ArtworkProvenance.psd1',
+                'audit/AnsiArchiveCurationCheckpoint.json',
+                'audit/AnsiContentCurationCheckpoint.json')) {
+            $buildScript | Should -Match ([regex]::Escape("'$repositoryPath'"))
+            $packagedReadme | Should -Match ([regex]::Escape("]($repositoryBlobBase$repositoryPath)"))
+            $packagedReadme | Should -Not -Match ([regex]::Escape("]($repositoryPath)"))
+        }
+
+        $noticesPath = 'ColorScripts-Enhanced/ThirdPartyNotices/'
+        $buildScript | Should -Match ([regex]::Escape("'$noticesPath'"))
+        $packagedReadme | Should -Match ([regex]::Escape("]($repositoryTreeBase$noticesPath)"))
+        $packagedReadme | Should -Not -Match ([regex]::Escape("]($noticesPath)"))
     }
 
     It 'keeps compliant release-preparation commits out of generated changelog content' {
