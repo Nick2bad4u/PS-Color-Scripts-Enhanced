@@ -89,6 +89,27 @@
             const status = document.querySelector("#status");
             const details = document.querySelector("#details");
             const title = document.querySelector("#title");
+            const allowedExternalOrigins = new Set([
+                "http://iv.ice.org",
+                "http://www.noisyvagabond.com",
+                "https://16colo.rs",
+                "https://github.com",
+                "https://raw.githubusercontent.com",
+                "https://www.roysac.com",
+                "https://www.youtube.com",
+            ]);
+
+            function parseAllowedExternalUrl(value) {
+                if (typeof value !== "string") return null;
+                try {
+                    const url = new URL(value);
+                    return allowedExternalOrigins.has(url.origin)
+                        ? url.href
+                        : null;
+                } catch {
+                    return null;
+                }
+            }
 
             function appendValue(label, value) {
                 if (value === null || value === undefined || value === "")
@@ -96,9 +117,10 @@
                 const term = document.createElement("dt");
                 term.textContent = label.replace(/([a-z])([A-Z])/g, "$1 $2");
                 const description = document.createElement("dd");
-                if (typeof value === "string" && /^https?:\/\//.test(value)) {
+                const externalUrl = parseAllowedExternalUrl(value);
+                if (externalUrl) {
                     const link = document.createElement("a");
-                    link.href = value;
+                    link.href = externalUrl;
                     link.rel = "noreferrer";
                     link.textContent = value;
                     description.append(link);

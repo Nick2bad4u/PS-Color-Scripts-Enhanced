@@ -800,7 +800,7 @@ test("DOS ANSI mode treats bare LF as a new line like the canonical archive rend
     const source = "\u001b[6C\u001b[31mA\n\u001b[4C\u001b[32mB";
     const modern = convertAnsiToPs1(source, { columns: 80 });
     const dos = convertAnsiToPs1(source, { columns: 80, dosAnsi: true });
-    const dosCrLf = convertAnsiToPs1(source.replace("\n", "\r\n"), {
+    const dosCrLf = convertAnsiToPs1(source.replaceAll("\n", "\r\n"), {
         columns: 80,
         dosAnsi: true,
     });
