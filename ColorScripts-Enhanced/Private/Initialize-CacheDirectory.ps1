@@ -13,49 +13,65 @@ function Write-InitializedCacheMetadataFile {
     $script:CacheValidationManualOverride = $false
 }
 
-function Get-CacheDirectoryCandidate {
-    $candidatePaths = New-Object 'System.Collections.Generic.List[string]'
+function Get-EnvironmentCacheDirectoryCandidate {
     $overrideCacheRoot = $env:COLOR_SCRIPTS_ENHANCED_CACHE_PATH
-    if ($overrideCacheRoot) {
-        $resolvedOverride = Resolve-CachePath -Path $overrideCacheRoot
-        if ($resolvedOverride) {
-            [void]$candidatePaths.Add($resolvedOverride)
-        }
-        else {
-            Write-Verbose "Ignoring COLOR_SCRIPTS_ENHANCED_CACHE_PATH override '$overrideCacheRoot' because the path could not be resolved."
-        }
+    if (-not $overrideCacheRoot) {
+        return $null
     }
 
+    $resolvedOverride = Resolve-CachePath -Path $overrideCacheRoot
+    if ($resolvedOverride) {
+        return $resolvedOverride
+    }
+
+    Write-Verbose "Ignoring COLOR_SCRIPTS_ENHANCED_CACHE_PATH override '$overrideCacheRoot' because the path could not be resolved."
+    return $null
+}
+
+function Get-ConfiguredCacheDirectoryCandidate {
     $configData = $script:ConfigurationData
-    if ($configData -and $configData.Cache -and $configData.Cache.Path) {
-        $configuredPath = Resolve-CachePath -Path $configData.Cache.Path
-        if ($configuredPath) {
-            [void]$candidatePaths.Add($configuredPath)
-        }
-        else {
-            Write-Warning ($script:Messages.ConfiguredCachePathInvalid -f $configData.Cache.Path)
-        }
+    if (-not $configData -or -not $configData.Cache -or -not $configData.Cache.Path) {
+        return $null
     }
 
-    if ($script:IsWindows -or $PSVersionTable.PSVersion.Major -le 5) {
-        if ($env:APPDATA) {
-            $windowsBase = Join-Path -Path $env:APPDATA -ChildPath 'ColorScripts-Enhanced'
-            [void]$candidatePaths.Add((Join-Path -Path $windowsBase -ChildPath 'cache'))
-        }
+    $configuredPath = Resolve-CachePath -Path $configData.Cache.Path
+    if ($configuredPath) {
+        return $configuredPath
     }
-    elseif ($script:IsMacOS) {
+
+    Write-Warning ($script:Messages.ConfiguredCachePathInvalid -f $configData.Cache.Path)
+    return $null
+}
+
+function Get-PlatformCacheDirectoryCandidate {
+    if ($script:IsWindows -or $PSVersionTable.PSVersion.Major -le 5) {
+        if (-not $env:APPDATA) {
+            return $null
+        }
+        $windowsBase = Join-Path -Path $env:APPDATA -ChildPath 'ColorScripts-Enhanced'
+        return Join-Path -Path $windowsBase -ChildPath 'cache'
+    }
+
+    if ($script:IsMacOS) {
         $macBase = Join-Path -Path $HOME -ChildPath 'Library'
         $macBase = Join-Path -Path $macBase -ChildPath 'Application Support'
         $macBase = Join-Path -Path $macBase -ChildPath 'ColorScripts-Enhanced'
-        [void]$candidatePaths.Add((Join-Path -Path $macBase -ChildPath 'cache'))
-    }
-    else {
-        $xdgCache = if ($env:XDG_CACHE_HOME) { $env:XDG_CACHE_HOME } else { Join-Path -Path $HOME -ChildPath '.cache' }
-        if ($xdgCache) {
-            [void]$candidatePaths.Add((Join-Path -Path $xdgCache -ChildPath 'ColorScripts-Enhanced'))
-        }
+        return Join-Path -Path $macBase -ChildPath 'cache'
     }
 
+    $xdgCache = if ($env:XDG_CACHE_HOME) { $env:XDG_CACHE_HOME } else { Join-Path -Path $HOME -ChildPath '.cache' }
+    if (-not $xdgCache) {
+        return $null
+    }
+    return Join-Path -Path $xdgCache -ChildPath 'ColorScripts-Enhanced'
+}
+
+function Get-CacheDirectoryCandidate {
+    $candidatePaths = @(
+        Get-EnvironmentCacheDirectoryCandidate
+        Get-ConfiguredCacheDirectoryCandidate
+        Get-PlatformCacheDirectoryCandidate
+    )
     return @($candidatePaths | Where-Object { -not [string]::IsNullOrWhiteSpace($_) })
 }
 

@@ -379,6 +379,49 @@ function Get-LocalizationFailureRoot {
     return Resolve-LocalizationFallbackRoot
 }
 
+function Test-LocalizationStateReusable {
+    [CmdletBinding()]
+    [OutputType([bool])]
+    param(
+        [string[]]$CandidateRoot,
+        [string[]]$CultureFallbackOverride
+    )
+
+    return $script:LocalizationInitialized -and
+        $script:Messages -and
+        -not $CandidateRoot -and
+        -not $CultureFallbackOverride
+}
+
+function Test-EmbeddedLocalizationFastPath {
+    [CmdletBinding()]
+    [OutputType([bool])]
+    param(
+        [Parameter(Mandatory)][bool]$Preferred,
+        [Parameter(Mandatory)][string]$LocalizationMode,
+        [Parameter(Mandatory)][bool]$ExplicitRootsProvided
+    )
+
+    return $Preferred -and $LocalizationMode -ne 'Full' -and -not $ExplicitRootsProvided
+}
+
+function Use-EmbeddedLocalizationFastPath {
+    [CmdletBinding()]
+    [OutputType([pscustomobject])]
+    param(
+        [string[]]$CandidateRoot,
+        [Parameter()][AllowNull()][AllowEmptyString()][string]$PreferredCulture,
+        [Parameter(Mandatory)][string]$LocalizationMode
+    )
+
+    $moduleRoot = Get-EmbeddedLocalizationRoot -CandidateRoot $CandidateRoot
+    $searchedPath = if ($moduleRoot) { @($moduleRoot) } else { @() }
+    $details = Use-EmbeddedLocalizationDefaultState -ModuleRoot $moduleRoot -SearchedPath $searchedPath
+    $cultureDisplay = if ($PreferredCulture) { $PreferredCulture } else { 'n/a' }
+    Write-ModuleTrace ("Localization fast-path using embedded defaults (mode: {0}, culture: {1})" -f $LocalizationMode, $cultureDisplay)
+    return $details
+}
+
 function Initialize-ColorScriptsLocalizationCore {
     [CmdletBinding()]
     [OutputType([pscustomobject])]
@@ -388,7 +431,7 @@ function Initialize-ColorScriptsLocalizationCore {
         [switch]$UseDefaultCandidates
     )
 
-    if ($script:LocalizationInitialized -and $script:Messages -and -not $CandidateRoot -and -not $CultureFallbackOverride) {
+    if (Test-LocalizationStateReusable -CandidateRoot $CandidateRoot -CultureFallbackOverride $CultureFallbackOverride) {
         return Resolve-InitializedLocalizationDetailRecord
     }
 
@@ -404,13 +447,9 @@ function Initialize-ColorScriptsLocalizationCore {
         }
     }
 
-    if ($preferEmbeddedDefaults -and $localizationMode -ne 'Full' -and -not $explicitRootsProvided) {
-        $moduleRoot = Get-EmbeddedLocalizationRoot -CandidateRoot $CandidateRoot
-        $searchedPath = if ($moduleRoot) { @($moduleRoot) } else { @() }
-        $details = Use-EmbeddedLocalizationDefaultState -ModuleRoot $moduleRoot -SearchedPath $searchedPath
-        $cultureDisplay = if ($preferredCulture) { $preferredCulture } else { 'n/a' }
-        Write-ModuleTrace ("Localization fast-path using embedded defaults (mode: {0}, culture: {1})" -f $localizationMode, $cultureDisplay)
-        return $details
+    $useEmbeddedFastPath = Test-EmbeddedLocalizationFastPath -Preferred $preferEmbeddedDefaults -LocalizationMode $localizationMode -ExplicitRootsProvided $explicitRootsProvided
+    if ($useEmbeddedFastPath) {
+        return Use-EmbeddedLocalizationFastPath -CandidateRoot $CandidateRoot -PreferredCulture $preferredCulture -LocalizationMode $localizationMode
     }
 
     $candidatePaths = @(Get-LocalizationCandidatePath -CandidateRoot $CandidateRoot)
