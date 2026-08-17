@@ -1,3 +1,430 @@
+function Resolve-InitializedLocalizationDetailRecord {
+    [CmdletBinding()]
+    [OutputType([pscustomobject])]
+    param()
+
+    if (-not $script:LocalizationDetails) {
+        $script:LocalizationDetails = [pscustomobject]@{
+            LocalizedDataLoaded = $true
+            ModuleRoot          = $script:ModuleRoot
+            SearchedPaths       = @()
+            Source              = 'Import-LocalizedData'
+            FilePath            = $null
+        }
+    }
+
+    return $script:LocalizationDetails
+}
+
+function Get-ColorScriptsPreferredCulture {
+    [CmdletBinding()]
+    [OutputType([string])]
+    param(
+        [string[]]$CultureFallbackOverride
+    )
+
+    if ($CultureFallbackOverride -and $CultureFallbackOverride.Count -gt 0) {
+        return $CultureFallbackOverride[0]
+    }
+
+    try {
+        return [System.Globalization.CultureInfo]::CurrentUICulture.Name
+    }
+    catch {
+        return $null
+    }
+}
+
+function Test-EmbeddedLocalizationPreferred {
+    [CmdletBinding()]
+    [OutputType([bool])]
+    param(
+        [Parameter(Mandatory)][string]$LocalizationMode,
+        [Parameter()][AllowNull()][AllowEmptyString()][string]$PreferredCulture,
+        [switch]$UseDefaultCandidates
+    )
+
+    if ($LocalizationMode -eq 'Embedded') {
+        return $true
+    }
+
+    if ($LocalizationMode -ne 'Auto' -or -not $UseDefaultCandidates) {
+        return $false
+    }
+
+    return [string]::IsNullOrWhiteSpace($PreferredCulture) -or
+        $PreferredCulture.StartsWith('en', [System.StringComparison]::OrdinalIgnoreCase)
+}
+
+function Use-ColorScriptsLocalizationState {
+    [CmdletBinding()]
+    [OutputType([pscustomobject])]
+    param(
+        [Parameter()][AllowNull()][object]$Messages,
+        [Parameter()][AllowNull()][object]$ModuleRoot,
+        [Parameter(Mandatory)][bool]$LocalizedDataLoaded,
+        [Parameter(Mandatory)][AllowEmptyCollection()][string[]]$SearchedPath,
+        [Parameter(Mandatory)][string]$Source,
+        [Parameter()][AllowNull()][object]$FilePath
+    )
+
+    $script:Messages = $Messages
+    $script:ModuleRoot = $ModuleRoot
+    $script:LocalizationInitialized = $true
+    $script:LocalizationDetails = [pscustomobject]@{
+        LocalizedDataLoaded = $LocalizedDataLoaded
+        ModuleRoot          = $ModuleRoot
+        SearchedPaths       = $SearchedPath
+        Source              = $Source
+        FilePath            = $FilePath
+    }
+
+    return $script:LocalizationDetails
+}
+
+function Resolve-LocalizationRootPath {
+    [CmdletBinding()]
+    [OutputType([string])]
+    param(
+        [Parameter(Mandatory)][string]$Root,
+        [Parameter(Mandatory)][string]$FailureContext
+    )
+
+    try {
+        return (Resolve-Path -LiteralPath $Root -ErrorAction Stop).ProviderPath
+    }
+    catch {
+        Write-ModuleTrace ("{0} for '{1}': {2}" -f $FailureContext, $Root, $_.Exception.Message)
+        return $Root
+    }
+}
+
+function Import-ExplicitLocalizationRoot {
+    [CmdletBinding()]
+    [OutputType([pscustomobject])]
+    param(
+        [Parameter(Mandatory)][AllowEmptyString()][string]$Root
+    )
+
+    if ([string]::IsNullOrWhiteSpace($Root)) {
+        return $null
+    }
+
+    $resolvedRoot = Resolve-LocalizationRootPath -Root $Root -FailureContext 'Explicit root localization resolution failed'
+    try {
+        $rootProbe = Join-Path -Path $resolvedRoot -ChildPath 'Messages.psd1'
+    }
+    catch {
+        return $null
+    }
+
+    if (-not (Test-Path -LiteralPath $rootProbe -PathType Leaf)) {
+        return $null
+    }
+
+    try {
+        $messages = Import-LocalizedData -BaseDirectory $resolvedRoot -FileName 'Messages.psd1' -ErrorAction Stop
+        if (-not $messages -or $messages -isnot [System.Collections.IDictionary]) {
+            return $null
+        }
+
+        $details = Use-ColorScriptsLocalizationState -Messages $messages -ModuleRoot $resolvedRoot -LocalizedDataLoaded $true -SearchedPath @($resolvedRoot) -Source 'Import-LocalizedData' -FilePath $rootProbe
+        Write-ModuleTrace ("Localization loaded from explicit root via Import-LocalizedData: {0}" -f $resolvedRoot)
+        return $details
+    }
+    catch {
+        Write-ModuleTrace ("Explicit root localization import failed for '{0}': {1}" -f $resolvedRoot, $_.Exception.Message)
+        return $null
+    }
+}
+
+function Find-ExplicitLocalizationDetailRecord {
+    [CmdletBinding()]
+    [OutputType([pscustomobject])]
+    param(
+        [Parameter(Mandatory)][AllowEmptyCollection()][string[]]$CandidateRoot
+    )
+
+    foreach ($root in $CandidateRoot) {
+        $details = Import-ExplicitLocalizationRoot -Root $root
+        if ($details) {
+            return $details
+        }
+    }
+
+    return $null
+}
+
+function Get-EmbeddedLocalizationRoot {
+    [CmdletBinding()]
+    [OutputType([string])]
+    param(
+        [string[]]$CandidateRoot
+    )
+
+    $moduleRootCandidate = $null
+    foreach ($candidate in @($CandidateRoot)) {
+        if (-not [string]::IsNullOrWhiteSpace($candidate)) {
+            $moduleRootCandidate = $candidate
+            break
+        }
+    }
+
+    if (-not $moduleRootCandidate -and $script:ModuleRoot) {
+        $moduleRootCandidate = $script:ModuleRoot
+    }
+    elseif (-not $moduleRootCandidate -and $PSScriptRoot) {
+        $moduleRootCandidate = $PSScriptRoot
+    }
+
+    if (-not $moduleRootCandidate) {
+        return $null
+    }
+
+    return Resolve-LocalizationRootPath -Root $moduleRootCandidate -FailureContext 'Embedded defaults module root resolution failed'
+}
+
+function Use-EmbeddedLocalizationDefaultState {
+    [CmdletBinding()]
+    [OutputType([pscustomobject])]
+    param(
+        [Parameter()][AllowNull()][object]$ModuleRoot,
+        [Parameter(Mandatory)][AllowEmptyCollection()][string[]]$SearchedPath
+    )
+
+    $messages = if ($script:EmbeddedDefaultMessages) { $script:EmbeddedDefaultMessages.Clone() } else { @{} }
+    return Use-ColorScriptsLocalizationState -Messages $messages -ModuleRoot $ModuleRoot -LocalizedDataLoaded $false -SearchedPath $SearchedPath -Source 'EmbeddedDefaults' -FilePath $null
+}
+
+function Get-LocalizationCandidateRoot {
+    [CmdletBinding()]
+    [OutputType([string[]])]
+    param(
+        [string[]]$CandidateRoot
+    )
+
+    $uniqueCandidates = New-Object System.Collections.Generic.List[string]
+    foreach ($candidate in @($CandidateRoot)) {
+        if ([string]::IsNullOrWhiteSpace($candidate) -or $uniqueCandidates.Contains($candidate)) {
+            continue
+        }
+        $null = $uniqueCandidates.Add($candidate)
+    }
+
+    if ($uniqueCandidates.Count -eq 0) {
+        if ($script:ModuleRoot) {
+            $null = $uniqueCandidates.Add($script:ModuleRoot)
+        }
+        elseif ($PSScriptRoot) {
+            $null = $uniqueCandidates.Add($PSScriptRoot)
+        }
+    }
+
+    return $uniqueCandidates.ToArray()
+}
+
+function Resolve-LocalizationCandidateDirectory {
+    [CmdletBinding()]
+    [OutputType([string])]
+    param(
+        [Parameter(Mandatory)][string]$Candidate
+    )
+
+    Write-ModuleTrace ("Evaluating localization candidate: {0}" -f $Candidate)
+    $candidatePath = Resolve-LocalizationRootPath -Root $Candidate -FailureContext 'Localization candidate resolution failed'
+    if ([System.IO.Directory]::Exists($candidatePath) -or
+        (Test-Path -LiteralPath $candidatePath -PathType Container)) {
+        return $candidatePath
+    }
+
+    return $null
+}
+
+function Resolve-LocalizationFallbackRoot {
+    [CmdletBinding()]
+    [OutputType([string])]
+    param()
+
+    if ($PSScriptRoot -and (Test-Path -LiteralPath $PSScriptRoot -PathType Container)) {
+        return Resolve-LocalizationRootPath -Root $PSScriptRoot -FailureContext 'Localization fallback root resolution failed'
+    }
+
+    if ($script:ModuleRoot) {
+        return $script:ModuleRoot
+    }
+
+    return $null
+}
+
+function Get-LocalizationCandidatePath {
+    [CmdletBinding()]
+    [OutputType([string[]])]
+    param(
+        [string[]]$CandidateRoot
+    )
+
+    $candidatePaths = New-Object System.Collections.Generic.List[string]
+    foreach ($candidate in @(Get-LocalizationCandidateRoot -CandidateRoot $CandidateRoot)) {
+        $candidatePath = Resolve-LocalizationCandidateDirectory -Candidate $candidate
+        if ($candidatePath -and -not $candidatePaths.Contains($candidatePath)) {
+            [void]$candidatePaths.Add($candidatePath)
+        }
+    }
+
+    if ($candidatePaths.Count -eq 0) {
+        Write-ModuleTrace 'No localization candidate paths resolved; falling back to module root discovery.'
+        $fallbackRoot = Resolve-LocalizationFallbackRoot
+        if ($fallbackRoot) {
+            [void]$candidatePaths.Add($fallbackRoot)
+        }
+    }
+
+    if ($candidatePaths.Count -eq 0) {
+        throw [System.InvalidOperationException]::new('Unable to resolve a module root for localization resources.')
+    }
+
+    return $candidatePaths.ToArray()
+}
+
+function Import-LocalizationCandidate {
+    [CmdletBinding()]
+    [OutputType([pscustomobject])]
+    param(
+        [Parameter(Mandatory)][string]$CandidatePath,
+        [string[]]$CultureFallbackOverride,
+        [Parameter(Mandatory)]
+        [AllowEmptyCollection()]
+        [System.Collections.Generic.List[string]]$SearchedPath
+    )
+
+    $null = $SearchedPath.Add($CandidatePath)
+    $importParams = @{ BaseDirectory = $CandidatePath }
+    if ($CultureFallbackOverride -and $CultureFallbackOverride.Count -gt 0) {
+        $importParams['FallbackUICulture'] = $CultureFallbackOverride
+    }
+
+    try {
+        $importResult = Import-LocalizedMessagesFromFile @importParams
+        if (-not $importResult -or -not $importResult.Messages) {
+            return $null
+        }
+
+        $source = if ($importResult.Source) { $importResult.Source } else { 'Import-LocalizedData' }
+        $filePath = if ($importResult.FilePath) { $importResult.FilePath } else { $null }
+        $details = Use-ColorScriptsLocalizationState -Messages $importResult.Messages -ModuleRoot $CandidatePath -LocalizedDataLoaded $true -SearchedPath $SearchedPath.ToArray() -Source $source -FilePath $filePath
+        if ($filePath) {
+            Write-ModuleTrace ("Localization resolved via {0} from {1} (file {2})" -f $source, $CandidatePath, $filePath)
+        }
+        else {
+            Write-ModuleTrace ("Localization resolved via {0} from {1}" -f $source, $CandidatePath)
+        }
+
+        return $details
+    }
+    catch {
+        Write-ModuleTrace ("Localization import failure for '{0}': {1}" -f $CandidatePath, $_.Exception.Message)
+        return $null
+    }
+}
+
+function Find-LocalizationImport {
+    [CmdletBinding()]
+    [OutputType([pscustomobject])]
+    param(
+        [Parameter(Mandatory)][AllowEmptyCollection()][string[]]$CandidatePath,
+        [string[]]$CultureFallbackOverride
+    )
+
+    $searchedPaths = New-Object System.Collections.Generic.List[string]
+    $selectedRoot = $null
+    foreach ($currentPath in $CandidatePath) {
+        if ([string]::IsNullOrWhiteSpace($currentPath)) {
+            continue
+        }
+
+        $selectedRoot = $currentPath
+        $details = Import-LocalizationCandidate -CandidatePath $currentPath -CultureFallbackOverride $CultureFallbackOverride -SearchedPath $searchedPaths
+        if ($details) {
+            return [pscustomobject]@{
+                Details      = $details
+                SelectedRoot = $selectedRoot
+                SearchedPath = $searchedPaths.ToArray()
+            }
+        }
+    }
+
+    return [pscustomobject]@{
+        Details      = $null
+        SelectedRoot = $selectedRoot
+        SearchedPath = $searchedPaths.ToArray()
+    }
+}
+
+function Get-LocalizationFailureRoot {
+    [CmdletBinding()]
+    [OutputType([string])]
+    param(
+        [Parameter()][AllowNull()][object]$SelectedRoot,
+        [Parameter(Mandatory)][AllowEmptyCollection()][string[]]$CandidatePath
+    )
+
+    if ($SelectedRoot) {
+        return $SelectedRoot
+    }
+
+    if ($CandidatePath.Count -gt 0) {
+        return $CandidatePath[0]
+    }
+
+    return Resolve-LocalizationFallbackRoot
+}
+
+function Initialize-ColorScriptsLocalizationCore {
+    [CmdletBinding()]
+    [OutputType([pscustomobject])]
+    param(
+        [string[]]$CandidateRoot,
+        [string[]]$CultureFallbackOverride,
+        [switch]$UseDefaultCandidates
+    )
+
+    if ($script:LocalizationInitialized -and $script:Messages -and -not $CandidateRoot -and -not $CultureFallbackOverride) {
+        return Resolve-InitializedLocalizationDetailRecord
+    }
+
+    $localizationMode = if ($script:LocalizationMode) { $script:LocalizationMode } else { 'Auto' }
+    $preferredCulture = Get-ColorScriptsPreferredCulture -CultureFallbackOverride $CultureFallbackOverride
+    $preferEmbeddedDefaults = Test-EmbeddedLocalizationPreferred -LocalizationMode $localizationMode -PreferredCulture $preferredCulture -UseDefaultCandidates:$UseDefaultCandidates
+    $explicitRootsProvided = $null -ne $CandidateRoot -and $CandidateRoot.Count -gt 0
+
+    if ($explicitRootsProvided) {
+        $explicitDetails = Find-ExplicitLocalizationDetailRecord -CandidateRoot $CandidateRoot
+        if ($explicitDetails) {
+            return $explicitDetails
+        }
+    }
+
+    if ($preferEmbeddedDefaults -and $localizationMode -ne 'Full' -and -not $explicitRootsProvided) {
+        $moduleRoot = Get-EmbeddedLocalizationRoot -CandidateRoot $CandidateRoot
+        $searchedPath = if ($moduleRoot) { @($moduleRoot) } else { @() }
+        $details = Use-EmbeddedLocalizationDefaultState -ModuleRoot $moduleRoot -SearchedPath $searchedPath
+        $cultureDisplay = if ($preferredCulture) { $preferredCulture } else { 'n/a' }
+        Write-ModuleTrace ("Localization fast-path using embedded defaults (mode: {0}, culture: {1})" -f $localizationMode, $cultureDisplay)
+        return $details
+    }
+
+    $candidatePaths = @(Get-LocalizationCandidatePath -CandidateRoot $CandidateRoot)
+    $import = Find-LocalizationImport -CandidatePath $candidatePaths -CultureFallbackOverride $CultureFallbackOverride
+    if ($import.Details) {
+        return $import.Details
+    }
+
+    $effectiveRoot = Get-LocalizationFailureRoot -SelectedRoot $import.SelectedRoot -CandidatePath $candidatePaths
+    $details = Use-EmbeddedLocalizationDefaultState -ModuleRoot $effectiveRoot -SearchedPath $import.SearchedPath
+    Write-Warning 'Localization resources were not found. Falling back to built-in English messages.'
+    return $details
+}
+
 function Initialize-ColorScriptsLocalization {
     param(
         [string[]]$CandidateRoots,
@@ -5,305 +432,13 @@ function Initialize-ColorScriptsLocalization {
         [switch]$UseDefaultCandidates
     )
 
-    $null = $CandidateRoots
-    $null = $CultureFallbackOverride
+    # Capture parameters outside the synchronized scriptblock so ScriptAnalyzer and Windows
+    # PowerShell agree that the values are intentionally closed over.
+    $candidateRootList = $CandidateRoots
+    $cultureFallbackList = $CultureFallbackOverride
     $useDefaultCandidatesFlag = $UseDefaultCandidates.IsPresent
 
     return Invoke-ModuleSynchronized $script:LocalizationSyncRoot {
-        if ($script:LocalizationInitialized -and $script:Messages -and -not $CandidateRoots -and -not $CultureFallbackOverride) {
-            if (-not $script:LocalizationDetails) {
-                $script:LocalizationDetails = [pscustomobject]@{
-                    LocalizedDataLoaded = $true
-                    ModuleRoot          = $script:ModuleRoot
-                    SearchedPaths       = @()
-                    Source              = 'Import-LocalizedData'
-                    FilePath            = $null
-                }
-            }
-
-            return $script:LocalizationDetails
-        }
-
-        $localizationMode = if ($script:LocalizationMode) { $script:LocalizationMode } else { 'Auto' }
-        $preferredCulture = $null
-        if ($CultureFallbackOverride -and $CultureFallbackOverride.Count -gt 0) {
-            $preferredCulture = $CultureFallbackOverride[0]
-        }
-        else {
-            try {
-                $preferredCulture = [System.Globalization.CultureInfo]::CurrentUICulture.Name
-            }
-            catch {
-                $preferredCulture = $null
-            }
-        }
-
-        $preferEmbeddedDefaults = $false
-        if ($localizationMode -eq 'Embedded') {
-            $preferEmbeddedDefaults = $true
-        }
-        elseif ($localizationMode -eq 'Auto' -and $useDefaultCandidatesFlag) {
-            if ([string]::IsNullOrWhiteSpace($preferredCulture) -or $preferredCulture.StartsWith('en', [System.StringComparison]::OrdinalIgnoreCase)) {
-                $preferEmbeddedDefaults = $true
-            }
-        }
-
-        $preferredCultureDisplay = if ($preferredCulture) { $preferredCulture } else { 'n/a' }
-
-        # Performance fast-path:
-        # In Auto mode we prefer embedded defaults for English cultures; probing the disk to detect
-        # localization resources adds measurable import-time overhead and provides little value.
-        # Only Full mode should force loading Messages.psd1 from disk.
-        $explicitCandidateRootsProvided = $null -ne $CandidateRoots -and $CandidateRoots.Count -gt 0
-
-        # Deterministic explicit-root import:
-        # When callers explicitly provide CandidateRoots, they typically expect that Messages.psd1
-        # placed directly under those roots will be honored. Import-LocalizedData supports that
-        # layout, but other module state (or earlier tests) can cause the broader discovery path
-        # to fall back unexpectedly. If the root file exists, load it directly.
-        if ($explicitCandidateRootsProvided) {
-            foreach ($explicitRoot in $CandidateRoots) {
-                if ([string]::IsNullOrWhiteSpace($explicitRoot)) {
-                    continue
-                }
-
-                $resolvedExplicitRoot = $explicitRoot
-                try {
-                    $resolvedExplicitRoot = (Resolve-Path -LiteralPath $explicitRoot -ErrorAction Stop).ProviderPath
-                }
-                catch {
-                    $resolvedExplicitRoot = $explicitRoot
-                }
-
-                try {
-                    $rootProbe = Join-Path -Path $resolvedExplicitRoot -ChildPath 'Messages.psd1'
-                }
-                catch {
-                    $rootProbe = $null
-                }
-
-                if (-not $rootProbe) {
-                    continue
-                }
-
-                if (Test-Path -LiteralPath $rootProbe -PathType Leaf) {
-                    try {
-                        $directMessages = Import-LocalizedData -BaseDirectory $resolvedExplicitRoot -FileName 'Messages.psd1' -ErrorAction Stop
-                        if ($directMessages -and $directMessages -is [System.Collections.IDictionary]) {
-                            $script:Messages = $directMessages
-                            $script:ModuleRoot = $resolvedExplicitRoot
-                            $script:LocalizationInitialized = $true
-                            $script:LocalizationDetails = [pscustomobject]@{
-                                LocalizedDataLoaded = $true
-                                ModuleRoot          = $resolvedExplicitRoot
-                                SearchedPaths       = @($resolvedExplicitRoot)
-                                Source              = 'Import-LocalizedData'
-                                FilePath            = $rootProbe
-                            }
-
-                            Write-ModuleTrace ("Localization loaded from explicit root via Import-LocalizedData: {0}" -f $resolvedExplicitRoot)
-                            return $script:LocalizationDetails
-                        }
-                    }
-                    catch {
-                        Write-ModuleTrace ("Explicit root localization import failed for '{0}': {1}" -f $resolvedExplicitRoot, $_.Exception.Message)
-                    }
-                }
-            }
-        }
-
-        if ($preferEmbeddedDefaults -and $localizationMode -ne 'Full' -and -not $explicitCandidateRootsProvided) {
-            $moduleRootCandidate = $null
-            if ($CandidateRoots -and $CandidateRoots.Count -gt 0) {
-                foreach ($candidate in $CandidateRoots) {
-                    if (-not [string]::IsNullOrWhiteSpace($candidate)) {
-                        $moduleRootCandidate = $candidate
-                        break
-                    }
-                }
-            }
-
-            if (-not $moduleRootCandidate -and $script:ModuleRoot) {
-                $moduleRootCandidate = $script:ModuleRoot
-            }
-            elseif (-not $moduleRootCandidate -and $PSScriptRoot) {
-                $moduleRootCandidate = $PSScriptRoot
-            }
-
-            if ($moduleRootCandidate) {
-                try {
-                    $moduleRootCandidate = (Resolve-Path -LiteralPath $moduleRootCandidate -ErrorAction Stop).ProviderPath
-                }
-                catch {
-                    Write-ModuleTrace ("Embedded defaults module root resolution failed for '{0}': {1}" -f $moduleRootCandidate, $_.Exception.Message)
-                }
-            }
-
-            $script:ModuleRoot = $moduleRootCandidate
-            $script:Messages = if ($script:EmbeddedDefaultMessages) { $script:EmbeddedDefaultMessages.Clone() } else { @{} }
-            $script:LocalizationInitialized = $true
-            $script:LocalizationDetails = [pscustomobject]@{
-                LocalizedDataLoaded = $false
-                ModuleRoot          = $moduleRootCandidate
-                SearchedPaths       = if ($moduleRootCandidate) { @($moduleRootCandidate) } else { @() }
-                Source              = 'EmbeddedDefaults'
-                FilePath            = $null
-            }
-
-            Write-ModuleTrace ("Localization fast-path using embedded defaults (mode: {0}, culture: {1})" -f $localizationMode, $preferredCultureDisplay)
-            return $script:LocalizationDetails
-        }
-
-        $uniqueCandidates = New-Object System.Collections.Generic.List[string]
-        if ($CandidateRoots) {
-            foreach ($candidate in $CandidateRoots) {
-                if ([string]::IsNullOrWhiteSpace($candidate)) { continue }
-                if (-not $uniqueCandidates.Contains($candidate)) {
-                    $null = $uniqueCandidates.Add($candidate)
-                }
-            }
-        }
-
-        if (-not $uniqueCandidates.Count) {
-            if ($script:ModuleRoot) {
-                $null = $uniqueCandidates.Add($script:ModuleRoot)
-            }
-            elseif ($PSScriptRoot) {
-                $null = $uniqueCandidates.Add($PSScriptRoot)
-            }
-        }
-
-        $searchedPaths = New-Object System.Collections.Generic.List[string]
-        $candidatePaths = New-Object System.Collections.Generic.List[string]
-
-        foreach ($candidate in $uniqueCandidates) {
-            if ([string]::IsNullOrWhiteSpace($candidate)) { continue }
-            Write-ModuleTrace ("Evaluating localization candidate: {0}" -f $candidate)
-
-            $candidatePath = $candidate
-            try {
-                $resolvedCandidate = Resolve-Path -LiteralPath $candidate -ErrorAction Stop
-                if ($resolvedCandidate) {
-                    $candidatePath = $resolvedCandidate.ProviderPath
-                }
-            }
-            catch {
-                Write-ModuleTrace ("Localization candidate resolution failed for '{0}': {1}" -f $candidate, $_.Exception.Message)
-            }
-
-            if ([System.IO.Directory]::Exists($candidatePath) -or (Test-Path -LiteralPath $candidatePath -PathType Container)) {
-                if (-not $candidatePaths.Contains($candidatePath)) {
-                    [void]$candidatePaths.Add($candidatePath)
-                }
-            }
-        }
-
-        if (-not $candidatePaths.Count) {
-            Write-ModuleTrace 'No localization candidate paths resolved; falling back to module root discovery.'
-            $fallbackRoot = $null
-            if ($PSScriptRoot -and (Test-Path -LiteralPath $PSScriptRoot -PathType Container)) {
-                try {
-                    $fallbackRoot = (Resolve-Path -LiteralPath $PSScriptRoot -ErrorAction Stop).ProviderPath
-                }
-                catch {
-                    $fallbackRoot = $PSScriptRoot
-                }
-            }
-            elseif ($script:ModuleRoot) {
-                $fallbackRoot = $script:ModuleRoot
-            }
-
-            if ($fallbackRoot) {
-                [void]$candidatePaths.Add($fallbackRoot)
-            }
-        }
-
-        if (-not $candidatePaths.Count) {
-            throw [System.InvalidOperationException]::new('Unable to resolve a module root for localization resources.')
-        }
-
-        # Note: Embedded default localization handling is already performed above (fast-path).
-
-        $importSucceeded = $false
-        $selectedRoot = $null
-        $source = 'Import-LocalizedData'
-        $filePath = $null
-
-        foreach ($candidatePath in $candidatePaths) {
-            if ([string]::IsNullOrWhiteSpace($candidatePath)) { continue }
-            $selectedRoot = $candidatePath
-            $null = $searchedPaths.Add($candidatePath)
-
-            $importParams = @{ BaseDirectory = $candidatePath }
-            if ($CultureFallbackOverride -and $CultureFallbackOverride.Count -gt 0) {
-                $importParams['FallbackUICulture'] = $CultureFallbackOverride
-            }
-
-            try {
-                $importResult = Import-LocalizedMessagesFromFile @importParams
-                if ($importResult -and $importResult.Messages) {
-                    $messages = $importResult.Messages
-                    $source = if ($importResult.Source) { $importResult.Source } else { 'Import-LocalizedData' }
-                    $filePath = if ($importResult.FilePath) { $importResult.FilePath } else { $null }
-
-                    $script:Messages = $messages
-                    $script:ModuleRoot = $candidatePath
-                    $script:LocalizationInitialized = $true
-                    $script:LocalizationDetails = [pscustomobject]@{
-                        LocalizedDataLoaded = $true
-                        ModuleRoot          = $candidatePath
-                        SearchedPaths       = $searchedPaths.ToArray()
-                        Source              = $source
-                        FilePath            = $filePath
-                    }
-
-                    if ($filePath) {
-                        Write-ModuleTrace ("Localization resolved via {0} from {1} (file {2})" -f $source, $candidatePath, $filePath)
-                    }
-                    else {
-                        Write-ModuleTrace ("Localization resolved via {0} from {1}" -f $source, $candidatePath)
-                    }
-
-                    $importSucceeded = $true
-                    break
-                }
-            }
-            catch {
-                Write-ModuleTrace ("Localization import failure for '{0}': {1}" -f $candidatePath, $_.Exception.Message)
-            }
-        }
-
-        if (-not $importSucceeded) {
-            $effectiveRoot = $selectedRoot
-            if (-not $effectiveRoot -and $candidatePaths.Count -gt 0) {
-                $effectiveRoot = $candidatePaths[0]
-            }
-            if (-not $effectiveRoot -and $PSScriptRoot -and (Test-Path -LiteralPath $PSScriptRoot -PathType Container)) {
-                try {
-                    $effectiveRoot = (Resolve-Path -LiteralPath $PSScriptRoot -ErrorAction Stop).ProviderPath
-                }
-                catch {
-                    $effectiveRoot = $PSScriptRoot
-                }
-            }
-            elseif (-not $effectiveRoot -and $script:ModuleRoot) {
-                $effectiveRoot = $script:ModuleRoot
-            }
-
-            $script:ModuleRoot = $effectiveRoot
-            $script:Messages = if ($script:EmbeddedDefaultMessages) { $script:EmbeddedDefaultMessages.Clone() } else { @{} }
-            $script:LocalizationInitialized = $true
-            $script:LocalizationDetails = [pscustomobject]@{
-                LocalizedDataLoaded = $false
-                ModuleRoot          = $effectiveRoot
-                SearchedPaths       = $searchedPaths.ToArray()
-                Source              = 'EmbeddedDefaults'
-                FilePath            = $null
-            }
-
-            Write-Warning 'Localization resources were not found. Falling back to built-in English messages.'
-        }
-
-        return $script:LocalizationDetails
+        Initialize-ColorScriptsLocalizationCore -CandidateRoot $candidateRootList -CultureFallbackOverride $cultureFallbackList -UseDefaultCandidates:$useDefaultCandidatesFlag
     }
 }
