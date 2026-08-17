@@ -487,3 +487,14 @@ test("checked-in web provenance index is generated from the authoritative PSD1",
         );
     }
 });
+
+test("artwork details page never turns insecure origins into links", () => {
+    const html = fs.readFileSync(
+        path.join(REPOSITORY_ROOT, "docs", "artwork.html"),
+        "utf8"
+    );
+
+    assert.doesNotMatch(html, /http:\/\//u);
+    assert.match(html, /"https:\/\/16colo\.rs"/u);
+    assert.match(html, /allowedExternalOrigins\.has\(url\.origin\)/u);
+});
