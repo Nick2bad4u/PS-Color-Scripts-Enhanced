@@ -8,6 +8,12 @@
 
 ### 🛠️ Bug Fixes
 
+- [`82fc7a2`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/82fc7a2368039a00d03f666dfdb3fbbd2ea1e3fb "Diff: 2 files, +40 | -5") — 📝 [fix] Exclude release prep from published notes <sub><em>(2 files, +40, -5)</em></sub>
+
+Build GitHub release notes with the same validated preparation-commit filter used by the checked-in changelog.
+
+Resolve the previous release tag safely, validate candidate hashes before passing them to git-cliff, and cover the workflow contract with a focused Pester assertion.
+
 - [`9a47345`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/9a4734588e8b4000361a10033450e194c3327815 "Diff: 5 files, +49 | -10") — 🔗 [fix] Repair packaged documentation links <sub><em>(5 files, +49, -10)</em></sub>
 
 Rewrite references to repository-only provenance files and third-party notices as absolute GitHub links when producing the packaged README.
@@ -159,6 +165,12 @@ Restore the complete project-specific permission scope and remove the incorrect 
 - Update the Release Checklist to specify the repository secret name and the trusted publishing policy targets.
 
 ### 🛡️ Security
+
+- [`7fa6de8`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/7fa6de8c02f84382dc567056ea8c572c95686f05 "Diff: 2 files, +11 | -2") — 🔒 [fix] Prevent insecure artwork links <sub><em>(2 files, +11, -2)</em></sub>
+
+Keep historical HTTP-only SAUCE strings visible as provenance text without promoting them to clickable external links.
+
+Add a focused regression requiring the artwork details page to remain free of insecure origins while retaining its explicit HTTPS allowlist.
 
 - [`c93b395`](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/commit/c93b3959d890aa2fd57c5937e748786ac9805728 "Diff: 4 files, +30 | -6") — 🔒 [fix] Harden release security checks <sub><em>(4 files, +30, -6)</em></sub>
 
