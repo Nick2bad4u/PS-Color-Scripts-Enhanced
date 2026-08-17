@@ -74,7 +74,7 @@ function New-ColorScriptsInstallRoot {
     }
 
     New-Item -Path $Path -ItemType Directory -Force | Out-Null
-    Write-Host '✓ Created module directory' -ForegroundColor Green
+    Write-Host '[OK] Created module directory' -ForegroundColor Green
 }
 
 function Remove-ColorScriptsInstallDirectoryWithRetry {
@@ -144,7 +144,7 @@ function Remove-ExistingColorScriptsInstall {
     }
 
     if ($removed) {
-        Write-Host '✓ Removed existing module' -ForegroundColor Yellow
+        Write-Host '[OK] Removed existing module' -ForegroundColor Yellow
     }
 }
 
@@ -163,12 +163,12 @@ function Copy-AndImportColorScriptsInstall {
 
     if ($Cmdlet.ShouldProcess($DestinationPath, 'Copy module files')) {
         Copy-Item -Path $SourcePath -Destination $DestinationPath -Recurse -Force
-        Write-Host '✓ Module files copied' -ForegroundColor Green
+        Write-Host '[OK] Module files copied' -ForegroundColor Green
     }
 
     if ($Cmdlet.ShouldProcess($DestinationPath, 'Import module')) {
         Import-Module (Join-Path -Path $DestinationPath -ChildPath 'ColorScripts-Enhanced.psd1') -Force
-        Write-Host '✓ Module imported successfully' -ForegroundColor Green
+        Write-Host '[OK] Module imported successfully' -ForegroundColor Green
     }
 }
 
@@ -192,7 +192,7 @@ function Add-ColorScriptsInstallProfile {
 
     $profileResult = Add-ColorScriptProfile @profileArguments
     if ($profileResult.Changed) {
-        Write-Host "✓ Profile updated: $($profileResult.Path)" -ForegroundColor Green
+        Write-Host "[OK] Profile updated: $($profileResult.Path)" -ForegroundColor Green
     }
     else {
         Write-Host 'Profile already configured. Use -Force with Add-ColorScriptProfile to overwrite.' -ForegroundColor Yellow
