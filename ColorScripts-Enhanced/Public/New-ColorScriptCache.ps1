@@ -376,6 +376,27 @@ function Start-CacheBuildWorkerBatch {
     return [pscustomobject]@{ NextWorkIndex = $NextWorkIndex; Failures = $failures.ToArray() }
 }
 
+function Receive-CompletedCacheBuildWorker {
+    [CmdletBinding()]
+    [OutputType([pscustomobject])]
+    param(
+        [Parameter(Mandatory)][pscustomobject]$Job
+    )
+
+    $outputCollection = $Job.PowerShell.EndInvoke($Job.Async)
+    $operation = if ($outputCollection -and $outputCollection.Count -gt 0) { $outputCollection[0] } else { $null }
+    if ($operation) {
+        if ($operation.Warning) {
+            Write-Warning $operation.Warning
+        }
+        return [pscustomobject]@{ Order = $Job.Item.Order; Record = $operation.Result }
+    }
+
+    $message = 'Cache build failed.'
+    Write-Warning ("Failed to cache {0}: {1}" -f $Job.Item.Name, $message)
+    return ConvertTo-OrderedCacheBuildRecord -Order $Job.Item.Order -Name $Job.Item.Name -ScriptPath $Job.Item.Path -Status 'Failed' -Message $message -CacheExists $false -ExitCode $null
+}
+
 function Receive-CacheBuildWorkerBatch {
     [CmdletBinding()]
     [OutputType([pscustomobject])]
@@ -386,17 +407,7 @@ function Receive-CacheBuildWorkerBatch {
     foreach ($job in $JobList.ToArray()) {
         if (-not $job.Async.IsCompleted) { continue }
         try {
-            $outputCollection = $job.PowerShell.EndInvoke($job.Async)
-            $operation = if ($outputCollection -and $outputCollection.Count -gt 0) { $outputCollection[0] } else { $null }
-            if ($operation) {
-                if ($operation.Warning) { Write-Warning $operation.Warning }
-                [void]$results.Add([pscustomobject]@{ Order = $job.Item.Order; Record = $operation.Result })
-            }
-            else {
-                $message = 'Cache build failed.'
-                Write-Warning ("Failed to cache {0}: {1}" -f $job.Item.Name, $message)
-                [void]$results.Add((ConvertTo-OrderedCacheBuildRecord -Order $job.Item.Order -Name $job.Item.Name -ScriptPath $job.Item.Path -Status 'Failed' -Message $message -CacheExists $false -ExitCode $null))
-            }
+            [void]$results.Add((Receive-CompletedCacheBuildWorker -Job $job))
         }
         catch {
             $message = $_.Exception.Message
