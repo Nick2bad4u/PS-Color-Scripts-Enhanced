@@ -212,13 +212,10 @@ function Start-AnalyzerJobForFile {
         $IncludedRules)
 }
 
-function Invoke-AnalyzerBatch {
+function New-AnalyzerWorkQueue {
     param(
         [Parameter(Mandatory)]
-        [string[]]$LiteralPath,
-
-        [Parameter(Mandatory)]
-        [bool]$FixMode
+        [string[]]$LiteralPath
     )
 
     $pending = New-Object 'System.Collections.Generic.Queue[object]'
@@ -242,44 +239,206 @@ function Invoke-AnalyzerBatch {
             }
 
             $pending.Enqueue([pscustomobject]@{
-                    FilePath     = $filePath
+                    FilePath      = $filePath
                     IncludedRules = [string]::Join(',', $includedRules)
-                    Attempt      = 1
-                    Retried      = $false
+                    Attempt       = 1
+                    Retried       = $false
                 })
         }
     }
 
+    Write-Output -NoEnumerate $pending
+}
+
+function Start-PendingAnalyzerJob {
+    param(
+        [Parameter(Mandatory)]
+        [System.Collections.Generic.Queue[object]]$Pending,
+
+        [Parameter(Mandatory)]
+        [hashtable]$Active,
+
+        [Parameter(Mandatory)]
+        [int]$ThrottleLimit,
+
+        [Parameter(Mandatory)]
+        [bool]$FixMode
+    )
+
+    while ($Pending.Count -gt 0 -and $Active.Count -lt $ThrottleLimit) {
+        $retryInProgress = @($Active.Values | Where-Object Attempt -GT 1).Count -gt 0
+        $nextAttemptIsRetry = $Pending.Peek().Attempt -gt 1
+        if ($retryInProgress -or ($nextAttemptIsRetry -and $Active.Count -gt 0)) {
+            return
+        }
+
+        $workItem = $Pending.Dequeue()
+        $job = Start-AnalyzerJobForFile -LiteralPath $workItem.FilePath -FixMode $FixMode -IncludedRules $workItem.IncludedRules
+        $Active[$job.Id] = [pscustomobject]@{
+            Job           = $job
+            FilePath      = $workItem.FilePath
+            IncludedRules = $workItem.IncludedRules
+            Attempt       = $workItem.Attempt
+            Retried       = $workItem.Retried
+            StartedAt     = [datetime]::UtcNow
+        }
+    }
+}
+
+function Receive-AnalyzerJobResponse {
+    param(
+        [Parameter(Mandatory)]
+        [object]$Context,
+
+        [Parameter(Mandatory)]
+        [bool]$TimedOut
+    )
+
+    $job = $Context.Job
+    if ($TimedOut) {
+        Stop-Job -Job $job -ErrorAction SilentlyContinue
+        return [pscustomobject]@{
+            Response       = $null
+            FailureMessage = "analysis timed out after $AnalyzerTimeoutSeconds seconds"
+        }
+    }
+
+    $jobOutput = @(Receive-Job -Job $job -ErrorAction SilentlyContinue -WarningAction SilentlyContinue -InformationAction SilentlyContinue)
+    $jsonResponse = $jobOutput |
+        Where-Object { $_ -is [string] -and $_.TrimStart().StartsWith('{') } |
+            Select-Object -Last 1
+
+    if ($jsonResponse) {
+        try {
+            return [pscustomobject]@{
+                Response       = $jsonResponse | ConvertFrom-Json -ErrorAction Stop
+                FailureMessage = $null
+            }
+        }
+        catch {
+            return [pscustomobject]@{
+                Response       = $null
+                FailureMessage = "returned invalid analyzer response: $($_.Exception.Message)"
+            }
+        }
+    }
+
+    $failureMessage = if ($job.State -eq 'Failed' -and $job.ChildJobs[0].JobStateInfo.Reason) {
+        $job.ChildJobs[0].JobStateInfo.Reason.Message
+    }
+    else {
+        'returned no analyzer response'
+    }
+    return [pscustomobject]@{
+        Response       = $null
+        FailureMessage = $failureMessage
+    }
+}
+
+function Add-AnalyzerRetryWorkItem {
+    param(
+        [Parameter(Mandatory)]
+        [System.Collections.Generic.Queue[object]]$Pending,
+
+        [Parameter(Mandatory)]
+        [object]$Context,
+
+        [Parameter(Mandatory)]
+        [string]$FailureMessage
+    )
+
+    $failedRules = @($Context.IncludedRules -split ',' | Where-Object { $_ })
+    if ($failedRules.Count -gt 1) {
+        $splitBoundary = [int][Math]::Ceiling($failedRules.Count / 2)
+        $splitGroups = @(
+            [string]::Join(',', @($failedRules[0..($splitBoundary - 1)]))
+            [string]::Join(',', @($failedRules[$splitBoundary..($failedRules.Count - 1)]))
+        ) | Where-Object { $_ }
+
+        Write-Warning "PSScriptAnalyzer failed for '$($Context.FilePath)' with $($failedRules.Count) rules ($FailureMessage); splitting that rule set into smaller isolated passes."
+        foreach ($splitGroup in $splitGroups) {
+            $Pending.Enqueue([pscustomobject]@{
+                    FilePath      = $Context.FilePath
+                    IncludedRules = $splitGroup
+                    Attempt       = $Context.Attempt + 1
+                    Retried       = $false
+                })
+        }
+        return
+    }
+
+    if (-not $Context.Retried) {
+        Write-Warning "PSScriptAnalyzer failed for '$($Context.FilePath)' with rule '$($failedRules[0])' ($FailureMessage); retrying that rule once in a fresh process."
+        $Pending.Enqueue([pscustomobject]@{
+                FilePath      = $Context.FilePath
+                IncludedRules = $Context.IncludedRules
+                Attempt       = $Context.Attempt + 1
+                Retried       = $true
+            })
+        return
+    }
+
+    throw "PSScriptAnalyzer could not analyze '$($Context.FilePath)' with rule '$($failedRules[0])' after two isolated attempts: $FailureMessage"
+}
+
+function Complete-AnalyzerJob {
+    param(
+        [Parameter(Mandatory)]
+        [int]$JobId,
+
+        [Parameter(Mandatory)]
+        [hashtable]$Active,
+
+        [Parameter(Mandatory)]
+        [System.Collections.Generic.Queue[object]]$Pending,
+
+        [Parameter(Mandatory)]
+        [AllowEmptyCollection()]
+        [System.Collections.Generic.List[object]]$Diagnostic
+    )
+
+    $context = $Active[$JobId]
+    $job = $context.Job
+    $timedOut = $job.State -eq 'Running' -and ([datetime]::UtcNow - $context.StartedAt).TotalSeconds -ge $AnalyzerTimeoutSeconds
+    if ($job.State -eq 'Running' -and -not $timedOut) {
+        return
+    }
+
+    $result = Receive-AnalyzerJobResponse -Context $context -TimedOut $timedOut
+    Remove-Job -Job $job -Force -ErrorAction SilentlyContinue
+    $Active.Remove($JobId)
+
+    $failureMessage = $result.FailureMessage
+    if ($result.Response -and -not $result.Response.Success) {
+        $failureMessage = '{0}: {1}' -f $result.Response.ErrorType, $result.Response.ErrorMessage
+    }
+
+    if ($failureMessage) {
+        Add-AnalyzerRetryWorkItem -Pending $Pending -Context $context -FailureMessage $failureMessage
+        return
+    }
+
+    foreach ($item in @($result.Response.Diagnostics)) {
+        [void]$Diagnostic.Add($item)
+    }
+}
+
+function Invoke-AnalyzerBatch {
+    param(
+        [Parameter(Mandatory)]
+        [string[]]$LiteralPath,
+
+        [Parameter(Mandatory)]
+        [bool]$FixMode
+    )
+
+    $pending = New-AnalyzerWorkQueue -LiteralPath $LiteralPath
     $active = @{}
     $diagnostics = New-Object 'System.Collections.Generic.List[object]'
     $throttleLimit = if ($FixMode) { 1 } else { $AnalyzerThrottleLimit }
     try {
         while ($pending.Count -gt 0 -or $active.Count -gt 0) {
-            while ($pending.Count -gt 0) {
-                if ($active.Count -ge $throttleLimit) {
-                    break
-                }
-
-                $retryInProgress = @($active.Values | Where-Object Attempt -GT 1).Count -gt 0
-                $nextAttemptIsRetry = $pending.Peek().Attempt -gt 1
-                if ($retryInProgress -or ($nextAttemptIsRetry -and $active.Count -gt 0)) {
-                    break
-                }
-
-                $workItem = $pending.Dequeue()
-                $job = Start-AnalyzerJobForFile `
-                    -LiteralPath $workItem.FilePath `
-                    -FixMode $FixMode `
-                    -IncludedRules $workItem.IncludedRules
-                $active[$job.Id] = [pscustomobject]@{
-                    Job           = $job
-                    FilePath      = $workItem.FilePath
-                    IncludedRules = $workItem.IncludedRules
-                    Attempt       = $workItem.Attempt
-                    Retried       = $workItem.Retried
-                    StartedAt     = [datetime]::UtcNow
-                }
-            }
+            Start-PendingAnalyzerJob -Pending $pending -Active $active -ThrottleLimit $throttleLimit -FixMode $FixMode
 
             if ($active.Count -eq 0) {
                 continue
@@ -287,90 +446,7 @@ function Invoke-AnalyzerBatch {
 
             $null = Wait-Job -Job @($active.Values.Job) -Any -Timeout 1
             foreach ($jobId in @($active.Keys)) {
-                $context = $active[$jobId]
-                $job = $context.Job
-                $timedOut = $job.State -eq 'Running' -and ([datetime]::UtcNow - $context.StartedAt).TotalSeconds -ge $AnalyzerTimeoutSeconds
-                if ($job.State -eq 'Running' -and -not $timedOut) {
-                    continue
-                }
-
-                $failureMessage = $null
-                $response = $null
-                if ($timedOut) {
-                    Stop-Job -Job $job -ErrorAction SilentlyContinue
-                    $failureMessage = "analysis timed out after $AnalyzerTimeoutSeconds seconds"
-                }
-                else {
-                    $jobOutput = @(
-                        Receive-Job -Job $job `
-                            -ErrorAction SilentlyContinue `
-                            -WarningAction SilentlyContinue `
-                            -InformationAction SilentlyContinue
-                    )
-                    $jsonResponse = $jobOutput |
-                        Where-Object { $_ -is [string] -and $_.TrimStart().StartsWith('{') } |
-                            Select-Object -Last 1
-                    if ($jsonResponse) {
-                        try {
-                            $response = $jsonResponse | ConvertFrom-Json -ErrorAction Stop
-                        }
-                        catch {
-                            $failureMessage = "returned invalid analyzer response: $($_.Exception.Message)"
-                        }
-                    }
-                    elseif ($job.State -eq 'Failed' -and $job.ChildJobs[0].JobStateInfo.Reason) {
-                        $failureMessage = $job.ChildJobs[0].JobStateInfo.Reason.Message
-                    }
-                    else {
-                        $failureMessage = 'returned no analyzer response'
-                    }
-                }
-
-                Remove-Job -Job $job -Force -ErrorAction SilentlyContinue
-                $active.Remove($jobId)
-
-                if ($response -and -not $response.Success) {
-                    $failureMessage = '{0}: {1}' -f $response.ErrorType, $response.ErrorMessage
-                }
-
-                if ($failureMessage) {
-                    $failedRules = @($context.IncludedRules -split ',' | Where-Object { $_ })
-                    if ($failedRules.Count -gt 1) {
-                        $splitBoundary = [int][Math]::Ceiling($failedRules.Count / 2)
-                        $splitGroups = @(
-                            [string]::Join(',', @($failedRules[0..($splitBoundary - 1)]))
-                            [string]::Join(',', @($failedRules[$splitBoundary..($failedRules.Count - 1)]))
-                        ) | Where-Object { $_ }
-
-                        Write-Warning "PSScriptAnalyzer failed for '$($context.FilePath)' with $($failedRules.Count) rules ($failureMessage); splitting that rule set into smaller isolated passes."
-                        foreach ($splitGroup in $splitGroups) {
-                            $pending.Enqueue([pscustomobject]@{
-                                    FilePath      = $context.FilePath
-                                    IncludedRules = $splitGroup
-                                    Attempt       = $context.Attempt + 1
-                                    Retried       = $false
-                                })
-                        }
-                        continue
-                    }
-
-                    if (-not $context.Retried) {
-                        Write-Warning "PSScriptAnalyzer failed for '$($context.FilePath)' with rule '$($failedRules[0])' ($failureMessage); retrying that rule once in a fresh process."
-                        $pending.Enqueue([pscustomobject]@{
-                                FilePath      = $context.FilePath
-                                IncludedRules = $context.IncludedRules
-                                Attempt       = $context.Attempt + 1
-                                Retried       = $true
-                            })
-                        continue
-                    }
-
-                    throw "PSScriptAnalyzer could not analyze '$($context.FilePath)' with rule '$($failedRules[0])' after two isolated attempts: $failureMessage"
-                }
-
-                foreach ($diagnostic in @($response.Diagnostics)) {
-                    [void]$diagnostics.Add($diagnostic)
-                }
+                Complete-AnalyzerJob -JobId $jobId -Active $active -Pending $pending -Diagnostic $diagnostics
             }
         }
     }

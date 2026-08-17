@@ -150,26 +150,58 @@ begin {
     }
 
     function Get-OutputPath {
-        param([Parameter(Mandatory)][string] $InputPath)
+        param(
+            [Parameter(Mandatory)][string] $InputPath,
+            [Parameter(Mandatory)][bool] $InPlaceMode,
+            [Parameter(Mandatory)][string] $OutputSuffix
+        )
 
-        if ($InPlace) {
+        if ($InPlaceMode) {
             return $InputPath
         }
 
         $directory = [System.IO.Path]::GetDirectoryName($InputPath)
         $baseName = [System.IO.Path]::GetFileNameWithoutExtension($InputPath)
         $extension = [System.IO.Path]::GetExtension($InputPath)
-        return [System.IO.Path]::Combine($directory, "$baseName$Suffix$extension")
+        return [System.IO.Path]::Combine($directory, "$baseName$OutputSuffix$extension")
     }
 
-    function Convert-AnsiSource {
-        param([Parameter(Mandatory)][string] $InputPath)
+    function Test-AnsiStringLiteralCandidate {
+        param(
+            [Parameter(Mandatory)]
+            [System.Management.Automation.Language.CommandElementAst] $Element,
 
-        $source = Read-SourceFile -LiteralPath $InputPath
+            [Parameter(Mandatory)]
+            [bool] $IncludeSingleLineMode
+        )
+
+        if ($Element -isnot [System.Management.Automation.Language.StringConstantExpressionAst]) {
+            return $false
+        }
+
+        if ($Element.StringConstantType -eq [System.Management.Automation.Language.StringConstantType]::BareWord) {
+            return $false
+        }
+
+        return $IncludeSingleLineMode -or $Element.Extent.Text -match '\r|\n'
+    }
+
+    function Get-AnsiSourceStringLiteral {
+        param(
+            [Parameter(Mandatory)]
+            [string] $Text,
+
+            [Parameter(Mandatory)]
+            [string] $InputPath,
+
+            [Parameter(Mandatory)]
+            [bool] $IncludeSingleLineMode
+        )
+
         $tokens = $null
         $parseErrors = $null
         $ast = [System.Management.Automation.Language.Parser]::ParseInput(
-            $source.Text,
+            $Text,
             $InputPath,
             [ref] $tokens,
             [ref] $parseErrors
@@ -177,60 +209,74 @@ begin {
 
         if ($parseErrors.Count -gt 0) {
             $details = ($parseErrors | ForEach-Object {
-                "line $($_.Extent.StartLineNumber): $($_.Message)"
-            }) -join [Environment]::NewLine
+                    "line $($_.Extent.StartLineNumber): $($_.Message)"
+                }) -join [Environment]::NewLine
             throw "PowerShell parsing failed for '$InputPath':$([Environment]::NewLine)$details"
         }
 
         $commandAsts = $ast.FindAll({
-            param($node)
-            $node -is [System.Management.Automation.Language.CommandAst] -and
-            $node.GetCommandName() -ieq 'Write-Host'
-        }, $true)
+                param($node)
+                $node -is [System.Management.Automation.Language.CommandAst] -and
+                $node.GetCommandName() -ieq 'Write-Host'
+            }, $true)
 
-        $stringAsts = foreach ($commandAst in $commandAsts) {
+        foreach ($commandAst in $commandAsts) {
             foreach ($element in $commandAst.CommandElements | Select-Object -Skip 1) {
-                if ($element -isnot [System.Management.Automation.Language.StringConstantExpressionAst]) {
-                    continue
+                if (Test-AnsiStringLiteralCandidate -Element $element -IncludeSingleLineMode $IncludeSingleLineMode) {
+                    $element
                 }
-
-                if ($element.StringConstantType -eq [System.Management.Automation.Language.StringConstantType]::BareWord) {
-                    continue
-                }
-
-                if (-not $IncludeSingleLine -and
-                    $element.Extent.Text -notmatch '\r|\n') {
-                    continue
-                }
-
-                $element
             }
         }
+    }
 
-        $basePattern = if ($LetterSet -eq 'Unicode') { '\p{L}' } else { '[A-Za-z]' }
-        $extraPattern = ($ExtraCharacters.ToCharArray() | ForEach-Object {
-            '\u{0:X4}' -f [int] $_
-        }) -join '|'
+    function New-AnsiLetterRegex {
+        param(
+            [Parameter(Mandatory)]
+            [string] $LetterMode,
+
+            [Parameter(Mandatory)]
+            [AllowEmptyString()]
+            [string] $ExtraCharacterSet
+        )
+
+        $basePattern = if ($LetterMode -eq 'Unicode') { '\p{L}' } else { '[A-Za-z]' }
+        $extraPattern = ($ExtraCharacterSet.ToCharArray() | ForEach-Object {
+                '\u{0:X4}' -f [int] $_
+            }) -join '|'
         $pattern = if ($extraPattern) {
             "(?:$basePattern|$extraPattern)"
         }
         else {
             $basePattern
         }
-        $letterRegex = [regex]::new(
+
+        return [regex]::new(
             $pattern,
             [System.Text.RegularExpressions.RegexOptions]::CultureInvariant
         )
-        $updated = $source.Text
+    }
+
+    function Update-AnsiSourceStringLiteral {
+        param(
+            [Parameter(Mandatory)]
+            [string] $Text,
+
+            [Parameter(Mandatory)]
+            [AllowEmptyCollection()]
+            [object[]] $StringLiteral,
+
+            [Parameter(Mandatory)]
+            [regex] $LetterRegex
+        )
+
+        $updated = $Text
         $replacementCount = 0
         $stringCount = 0
-
-        # Work from the end of the file toward the start, keeping AST offsets valid.
-        foreach ($stringAst in $stringAsts | Sort-Object { $_.Extent.StartOffset } -Descending) {
+        foreach ($stringAst in $StringLiteral | Sort-Object { $_.Extent.StartOffset } -Descending) {
             $start = $stringAst.Extent.StartOffset
             $length = $stringAst.Extent.EndOffset - $start
             $literal = $updated.Substring($start, $length)
-            $conversion = Remove-LettersOutsideAnsi -Text $literal -LetterRegex $letterRegex
+            $conversion = Remove-LettersOutsideAnsi -Text $literal -LetterRegex $LetterRegex
 
             if ($conversion.RemovedCount -eq 0) {
                 continue
@@ -241,30 +287,85 @@ begin {
             $stringCount++
         }
 
-        $outputPath = Get-OutputPath -InputPath $InputPath
+        return [pscustomobject]@{
+            Text             = $updated
+            ReplacementCount = $replacementCount
+            StringCount      = $stringCount
+        }
+    }
 
-        if (-not $InPlace -and [System.IO.File]::Exists($outputPath) -and -not $Force) {
-            throw "Output already exists: '$outputPath'. Use -Force to overwrite it."
+    function Write-ConvertedAnsiSource {
+        [CmdletBinding(SupportsShouldProcess)]
+        param(
+            [Parameter(Mandatory)]
+            [string] $InputPath,
+
+            [Parameter(Mandatory)]
+            [string] $OutputPath,
+
+            [Parameter(Mandatory)]
+            [string] $Text,
+
+            [Parameter(Mandatory)]
+            [System.Text.Encoding] $Encoding,
+
+            [Parameter(Mandatory)]
+            [int] $ReplacementCount,
+
+            [Parameter(Mandatory)]
+            [int] $StringCount,
+
+            [Parameter(Mandatory)]
+            [bool] $InPlaceMode,
+
+            [Parameter(Mandatory)]
+            [bool] $ForceOverwrite
+        )
+
+        if (-not $InPlaceMode -and [System.IO.File]::Exists($OutputPath) -and -not $ForceOverwrite) {
+            throw "Output already exists: '$OutputPath'. Use -Force to overwrite it."
         }
 
-        if ($PSCmdlet.ShouldProcess($outputPath, "Replace $replacementCount letter(s) in $stringCount ANSI-art string(s)")) {
-            if ($InPlace) {
-                $backupPath = "$InputPath.bak"
-                if ([System.IO.File]::Exists($backupPath) -and -not $Force) {
-                    throw "Backup already exists: '$backupPath'. Use -Force to overwrite it."
-                }
-                [System.IO.File]::Copy($InputPath, $backupPath, $true)
+        if (-not $PSCmdlet.ShouldProcess($OutputPath, "Replace $ReplacementCount letter(s) in $StringCount ANSI-art string(s)")) {
+            return
+        }
+
+        if ($InPlaceMode) {
+            $backupPath = "$InputPath.bak"
+            if ([System.IO.File]::Exists($backupPath) -and -not $ForceOverwrite) {
+                throw "Backup already exists: '$backupPath'. Use -Force to overwrite it."
             }
-
-            [System.IO.File]::WriteAllText($outputPath, $updated, $source.Encoding)
+            [System.IO.File]::Copy($InputPath, $backupPath, $true)
         }
+
+        [System.IO.File]::WriteAllText($OutputPath, $Text, $Encoding)
+    }
+
+    function Convert-AnsiSource {
+        param(
+            [Parameter(Mandatory)][string] $InputPath,
+            [Parameter(Mandatory)][bool] $InPlaceMode,
+            [Parameter(Mandatory)][string] $LetterMode,
+            [Parameter(Mandatory)][AllowEmptyString()][string] $ExtraCharacterSet,
+            [Parameter(Mandatory)][bool] $IncludeSingleLineMode,
+            [Parameter(Mandatory)][string] $OutputSuffix,
+            [Parameter(Mandatory)][bool] $ForceOverwrite
+        )
+
+        $source = Read-SourceFile -LiteralPath $InputPath
+        $stringLiterals = @(Get-AnsiSourceStringLiteral -Text $source.Text -InputPath $InputPath -IncludeSingleLineMode $IncludeSingleLineMode)
+        $letterRegex = New-AnsiLetterRegex -LetterMode $LetterMode -ExtraCharacterSet $ExtraCharacterSet
+        $conversion = Update-AnsiSourceStringLiteral -Text $source.Text -StringLiteral $stringLiterals -LetterRegex $letterRegex
+
+        $outputPath = Get-OutputPath -InputPath $InputPath -InPlaceMode $InPlaceMode -OutputSuffix $OutputSuffix
+        Write-ConvertedAnsiSource -InputPath $InputPath -OutputPath $outputPath -Text $conversion.Text -Encoding $source.Encoding -ReplacementCount $conversion.ReplacementCount -StringCount $conversion.StringCount -InPlaceMode $InPlaceMode -ForceOverwrite $ForceOverwrite
 
         [pscustomobject]@{
             InputPath        = $InputPath
             OutputPath       = $outputPath
-            StringsChanged   = $stringCount
-            LettersReplaced  = $replacementCount
-            BackupPath       = if ($InPlace) { "$InputPath.bak" } else { $null }
+            StringsChanged   = $conversion.StringCount
+            LettersReplaced  = $conversion.ReplacementCount
+            BackupPath       = if ($InPlaceMode) { "$InputPath.bak" } else { $null }
         }
     }
 
@@ -296,5 +397,7 @@ end {
 
     $files |
         Sort-Object FullName -Unique |
-        ForEach-Object { Convert-AnsiSource -InputPath $_.FullName }
+            ForEach-Object {
+                Convert-AnsiSource -InputPath $_.FullName -InPlaceMode $InPlace -LetterMode $LetterSet -ExtraCharacterSet $ExtraCharacters -IncludeSingleLineMode $IncludeSingleLine -OutputSuffix $Suffix -ForceOverwrite $Force
+            }
 }
