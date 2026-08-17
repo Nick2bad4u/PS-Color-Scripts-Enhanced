@@ -1,152 +1,163 @@
-﻿function Add-ColorScriptProfile {
-    [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSUseShouldProcessForStateChangingFunctions', '', Justification = 'Function already implements explicit ShouldProcess semantics.')]
-    [CmdletBinding(SupportsShouldProcess = $true, HelpUri = 'https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Add-ColorScriptProfile')]
+function ConvertTo-ColorScriptProfileResult {
+    [CmdletBinding()]
+    [OutputType([pscustomobject])]
     param(
-        [Alias('help')]
-        [switch]$h,
-
-        [Alias('Path')]
-        [ValidateScript({ Test-ColorScriptPathValue $_ })]
-        [string]$ProfilePath,
-
-        [ValidateScript({ Test-ColorScriptNameValue $_ -AllowEmpty })]
-        [string]$DefaultStartupScript,
-
-        [switch]$AutoShow,
-
-        [switch]$SkipStartupScript,
-
-        [switch]$IncludePokemon,
-
-        [switch]$SkipPokemonPrompt,
-
-        [ValidateSet('Y', 'N', 'Yes', 'No')]
-        [string]$PokemonPromptResponse,
-
-        [switch]$SkipCacheBuild,
-
-        [switch]$Force
+        [Parameter()][AllowNull()][object]$Path,
+        [Parameter(Mandatory)][bool]$Changed,
+        [Parameter(Mandatory)][string]$Message,
+        [Parameter(Mandatory)][bool]$CacheBuilt
     )
 
-    if ($h) {
-        Show-ColorScriptHelp -CommandName 'Add-ColorScriptProfile'
-        return
+    return [pscustomobject]@{
+        Path           = $Path
+        Changed        = $Changed
+        Message        = $Message
+        IncludePokemon = $true
+        CacheBuilt     = $CacheBuilt
     }
+}
 
-    # Retained for command-line compatibility. Pokémon scripts are always eligible now,
-    # so these switches no longer affect generated profile blocks.
-    $null = $IncludePokemon, $SkipPokemonPrompt, $PokemonPromptResponse
+function Test-ColorScriptProfileRemoteSession {
+    [CmdletBinding()]
+    [OutputType([bool])]
+    param()
 
-    $remoteInfo = $null
     try {
-        $remoteInfo = Get-Variable -Name PSSenderInfo -Scope Global -ValueOnly -ErrorAction Stop
+        return $null -ne (Get-Variable -Name PSSenderInfo -Scope Global -ValueOnly -ErrorAction Stop)
     }
     catch {
-        $remoteInfo = $null
+        return $false
     }
+}
 
-    if ($remoteInfo) {
-        return [pscustomobject]@{
-            Path           = $null
-            Changed        = $false
-            Message        = $script:Messages.ProfileUpdatesNotSupportedInRemote
-            IncludePokemon = $true
-            CacheBuilt     = $false
+function Get-DefaultColorScriptProfileSpecification {
+    [CmdletBinding()]
+    [OutputType([pscustomobject])]
+    param()
+
+    $profileSpec = $null
+    $profileScope = 'CurrentUserAllHosts'
+    $profileValue = $PROFILE
+    if ($profileValue -is [System.Management.Automation.PSObject]) {
+        $allHostsProperty = $profileValue.PSObject.Properties['CurrentUserAllHosts']
+        if ($allHostsProperty -and -not [string]::IsNullOrWhiteSpace([string]$profileValue.CurrentUserAllHosts)) {
+            $profileSpec = [string]$profileValue.CurrentUserAllHosts
+        }
+        else {
+            $firstDefinedProfile = $profileValue.PSObject.Properties | Where-Object { $_.Value } | Select-Object -First 1
+            if ($firstDefinedProfile) {
+                $profileSpec = [string]$firstDefinedProfile.Value
+                $profileScope = [string]$firstDefinedProfile.Name
+            }
         }
     }
+    elseif (-not [string]::IsNullOrWhiteSpace([string]$profileValue)) {
+        $profileSpec = [string]$profileValue
+    }
+
+    return [pscustomobject]@{ Path = $profileSpec; Scope = $profileScope }
+}
+
+function Get-ColorScriptProfileBasePath {
+    [CmdletBinding()]
+    [OutputType([string])]
+    param()
+
+    try {
+        $basePath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath('.')
+    }
+    catch {
+        $basePath = $null
+    }
+
+    if ($basePath) {
+        return $basePath
+    }
+
+    try {
+        return (Get-Location -PSProvider FileSystem).Path
+    }
+    catch {
+        return $null
+    }
+}
+
+function Resolve-ColorScriptProfilePath {
+    [CmdletBinding()]
+    [OutputType([string])]
+    param(
+        [Parameter(Mandatory)][string]$Path,
+        [Parameter(Mandatory)][System.Management.Automation.PSCmdlet]$Cmdlet
+    )
+
+    try {
+        $resolvedPath = Resolve-CachePath -Path $Path
+    }
+    catch {
+        $resolvedPath = $null
+    }
+    if ($resolvedPath) {
+        return $resolvedPath
+    }
+
+    $invalidForeignDrive = -not $script:IsWindows -and $Path -match '^[A-Za-z]:'
+    if ($invalidForeignDrive -or [System.IO.Path]::IsPathRooted($Path)) {
+        Invoke-ColorScriptError -Message ($script:Messages.UnableToResolveProfilePath -f $Path) -ErrorId 'ColorScriptsEnhanced.InvalidProfilePath' -Category ([System.Management.Automation.ErrorCategory]::InvalidArgument) -Cmdlet $Cmdlet
+    }
+
+    try {
+        $basePath = Get-ColorScriptProfileBasePath
+        return [System.IO.Path]::GetFullPath((Join-Path -Path $basePath -ChildPath $Path))
+    }
+    catch {
+        Invoke-ColorScriptError -Message ($script:Messages.UnableToResolveProfilePath -f $Path) -ErrorId 'ColorScriptsEnhanced.InvalidProfilePath' -Category ([System.Management.Automation.ErrorCategory]::InvalidArgument) -Exception $_.Exception -Cmdlet $Cmdlet
+    }
+}
+
+function Get-ColorScriptProfileContext {
+    [CmdletBinding()]
+    [OutputType([pscustomobject])]
+    param(
+        [Parameter()][AllowNull()][AllowEmptyString()][string]$ProfilePath,
+        [Parameter(Mandatory)][System.Management.Automation.PSCmdlet]$Cmdlet
+    )
 
     $profileScope = 'CurrentUserAllHosts'
     $profileSpec = $ProfilePath
-
     if (-not $profileSpec) {
-        $profileValue = $PROFILE
-
-        if ($profileValue -is [System.Management.Automation.PSObject]) {
-            if ($profileValue.PSObject.Properties['CurrentUserAllHosts'] -and -not [string]::IsNullOrWhiteSpace([string]$profileValue.CurrentUserAllHosts)) {
-                $profileSpec = [string]$profileValue.CurrentUserAllHosts
-            }
-            else {
-                $firstDefinedProfile = $profileValue.PSObject.Properties | Where-Object { $_.Value } | Select-Object -First 1
-                if ($firstDefinedProfile) {
-                    $profileSpec = [string]$firstDefinedProfile.Value
-                    $profileScope = [string]$firstDefinedProfile.Name
-                }
-            }
-        }
-        elseif (-not [string]::IsNullOrWhiteSpace([string]$profileValue)) {
-            $profileSpec = [string]$profileValue
-        }
+        $defaultProfile = Get-DefaultColorScriptProfileSpecification
+        $profileSpec = $defaultProfile.Path
+        $profileScope = $defaultProfile.Scope
     }
 
     if ([string]::IsNullOrWhiteSpace($profileSpec)) {
-        Invoke-ColorScriptError -Message ($script:Messages.ProfilePathNotDefinedForScope -f $profileScope) -ErrorId 'ColorScriptsEnhanced.ProfilePathUndefined' -Category ([System.Management.Automation.ErrorCategory]::InvalidArgument) -Cmdlet $PSCmdlet
+        Invoke-ColorScriptError -Message ($script:Messages.ProfilePathNotDefinedForScope -f $profileScope) -ErrorId 'ColorScriptsEnhanced.ProfilePathUndefined' -Category ([System.Management.Automation.ErrorCategory]::InvalidArgument) -Cmdlet $Cmdlet
     }
 
-    $profilePathResolved = $null
-    try {
-        $profilePathResolved = Resolve-CachePath -Path $profileSpec
-    }
-    catch {
-        $profilePathResolved = $null
-    }
-
-    if ($profilePathResolved) {
-        $profileSpec = $profilePathResolved
+    $resolvedPath = Resolve-ColorScriptProfilePath -Path $profileSpec -Cmdlet $Cmdlet
+    $content = if (Test-Path -LiteralPath $resolvedPath) {
+        # Profiles written by the module are UTF-8 without a BOM. Read explicitly so Windows
+        # PowerShell 5.1 does not reinterpret them through the active ANSI code page.
+        Get-Content -LiteralPath $resolvedPath -Raw -Encoding UTF8 -ErrorAction Stop
     }
     else {
-        if (-not $script:IsWindows -and $profileSpec -match '^[A-Za-z]:') {
-            Invoke-ColorScriptError -Message ($script:Messages.UnableToResolveProfilePath -f $profileSpec) -ErrorId 'ColorScriptsEnhanced.InvalidProfilePath' -Category ([System.Management.Automation.ErrorCategory]::InvalidArgument) -Cmdlet $PSCmdlet
-        }
-
-        if ([System.IO.Path]::IsPathRooted($profileSpec)) {
-            Invoke-ColorScriptError -Message ($script:Messages.UnableToResolveProfilePath -f $profileSpec) -ErrorId 'ColorScriptsEnhanced.InvalidProfilePath' -Category ([System.Management.Automation.ErrorCategory]::InvalidArgument) -Cmdlet $PSCmdlet
-        }
-
-        try {
-            $basePath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath('.')
-        }
-        catch {
-            $basePath = $null
-        }
-
-        if (-not $basePath) {
-            try {
-                $basePath = (Get-Location -PSProvider FileSystem).Path
-            }
-            catch {
-                $basePath = $null
-            }
-        }
-
-        try {
-            $profileSpec = [System.IO.Path]::GetFullPath((Join-Path -Path $basePath -ChildPath $profileSpec))
-        }
-        catch {
-            Invoke-ColorScriptError -Message ($script:Messages.UnableToResolveProfilePath -f $profileSpec) -ErrorId 'ColorScriptsEnhanced.InvalidProfilePath' -Category ([System.Management.Automation.ErrorCategory]::InvalidArgument) -Exception $_.Exception -Cmdlet $PSCmdlet
-        }
+        ''
     }
+    $newline = if ($content -match "`r`n") { "`r`n" } elseif ($content -match "`n") { "`n" } else { [Environment]::NewLine }
 
-    $profileDirectory = [System.IO.Path]::GetDirectoryName($profileSpec)
-    $existingContent = ''
-    if (Test-Path -LiteralPath $profileSpec) {
-        # The module writes profiles as UTF-8 without a BOM. Windows PowerShell 5.1 otherwise
-        # interprets that format using the active ANSI code page on the next update.
-        $existingContent = Get-Content -LiteralPath $profileSpec -Raw -Encoding UTF8 -ErrorAction Stop
+    return [pscustomobject]@{
+        Path      = $resolvedPath
+        Directory = [System.IO.Path]::GetDirectoryName($resolvedPath)
+        Content   = $content
+        Newline   = $newline
     }
+}
 
-    $newline = if ($existingContent -match "`r`n") {
-        "`r`n"
-    }
-    elseif ($existingContent -match "`n") {
-        "`n"
-    }
-    else {
-        [Environment]::NewLine
-    }
+function Get-ColorScriptProfileStartupConfiguration {
+    [CmdletBinding()]
+    [OutputType([object])]
+    param()
 
-    $timestamp = (Get-Date).ToString('u')
-
-    $configuration = $null
     try {
         $configuration = Get-ColorScriptConfiguration
     }
@@ -155,142 +166,173 @@
         $configuration = $null
     }
 
-    $startupConfig = $null
     if ($configuration -and $configuration.Startup) {
-        $startupConfig = $configuration.Startup
+        return $configuration.Startup
     }
-    elseif ($script:ConfigurationData -and $script:ConfigurationData.Startup) {
-        $startupConfig = $script:ConfigurationData.Startup
+    if ($script:ConfigurationData -and $script:ConfigurationData.Startup) {
+        return $script:ConfigurationData.Startup
     }
-    else {
-        $startupConfig = $script:DefaultConfiguration.Startup
-    }
+    return $script:DefaultConfiguration.Startup
+}
 
-    $profileAutoShow = $false
-    $defaultScriptName = $null
+function ConvertTo-ColorScriptProfileStartupPreference {
+    [CmdletBinding()]
+    [OutputType([pscustomobject])]
+    param(
+        [Parameter()][AllowNull()][object]$StartupConfiguration
+    )
 
-    if ($startupConfig -is [System.Collections.IDictionary]) {
-        if ($startupConfig.Contains('ProfileAutoShow')) {
-            $profileAutoShow = [bool]$startupConfig['ProfileAutoShow']
+    $autoShow = $false
+    $defaultScript = $null
+    if ($StartupConfiguration -is [System.Collections.IDictionary]) {
+        if ($StartupConfiguration.Contains('ProfileAutoShow')) {
+            $autoShow = [bool]$StartupConfiguration['ProfileAutoShow']
         }
-
-        if ($startupConfig.Contains('DefaultScript')) {
-            $defaultScriptName = [string]$startupConfig['DefaultScript']
-        }
-    }
-    else {
-        if ($startupConfig -and ($startupConfig.PSObject.Properties.Name -contains 'ProfileAutoShow')) {
-            $profileAutoShow = [bool]$startupConfig.ProfileAutoShow
-        }
-
-        if ($startupConfig -and ($startupConfig.PSObject.Properties.Name -contains 'DefaultScript')) {
-            $defaultScriptName = [string]$startupConfig.DefaultScript
+        if ($StartupConfiguration.Contains('DefaultScript')) {
+            $defaultScript = [string]$StartupConfiguration['DefaultScript']
         }
     }
-
-    if ($PSBoundParameters.ContainsKey('AutoShow')) {
-        $profileAutoShow = [bool]$AutoShow
+    elseif ($StartupConfiguration) {
+        if ($StartupConfiguration.PSObject.Properties.Name -contains 'ProfileAutoShow') {
+            $autoShow = [bool]$StartupConfiguration.ProfileAutoShow
+        }
+        if ($StartupConfiguration.PSObject.Properties.Name -contains 'DefaultScript') {
+            $defaultScript = [string]$StartupConfiguration.DefaultScript
+        }
     }
 
+    return [pscustomobject]@{ AutoShow = $autoShow; DefaultScript = $defaultScript }
+}
+
+function Resolve-ColorScriptProfileStartupPreference {
+    [CmdletBinding()]
+    [OutputType([pscustomobject])]
+    param(
+        [Parameter(Mandatory)][bool]$AutoShowSpecified,
+        [switch]$AutoShow,
+        [switch]$SkipStartupScript,
+        [Parameter(Mandatory)][bool]$DefaultScriptSpecified,
+        [Parameter()][AllowNull()][AllowEmptyString()][string]$DefaultStartupScript
+    )
+
+    $preference = ConvertTo-ColorScriptProfileStartupPreference -StartupConfiguration (Get-ColorScriptProfileStartupConfiguration)
+    if ($AutoShowSpecified) {
+        $preference.AutoShow = [bool]$AutoShow
+    }
     if ($SkipStartupScript) {
-        $profileAutoShow = $false
+        $preference.AutoShow = $false
     }
-
-    if ($PSBoundParameters.ContainsKey('DefaultStartupScript')) {
-        $defaultScriptName = $DefaultStartupScript
+    if ($DefaultScriptSpecified) {
+        $preference.DefaultScript = $DefaultStartupScript
         if (-not $SkipStartupScript) {
-            $profileAutoShow = $true
+            $preference.AutoShow = $true
         }
     }
 
-    $includePokemonChoice = $true
-    $cacheBuilt = $false
+    return $preference
+}
 
-    $skipCacheBuildRequested = $SkipCacheBuild.IsPresent
-    if (-not $skipCacheBuildRequested) {
-        $envSkipCache = [Environment]::GetEnvironmentVariable('COLOR_SCRIPTS_ENHANCED_SKIP_CACHE_BUILD')
-        if (-not [string]::IsNullOrWhiteSpace($envSkipCache)) {
-            switch ($envSkipCache.ToLowerInvariant()) {
-                { $_ -in @('1', 'true', 'yes', 'y') } { $skipCacheBuildRequested = $true }
-            }
-        }
+function Test-ColorScriptTruthyValue {
+    [CmdletBinding()]
+    [OutputType([bool])]
+    param(
+        [Parameter()][AllowNull()][AllowEmptyString()][string]$Value
+    )
+
+    return -not [string]::IsNullOrWhiteSpace($Value) -and
+        $Value.ToLowerInvariant() -in @('1', 'true', 'yes', 'y')
+}
+
+function Test-ColorScriptProfileUnderTempPath {
+    [CmdletBinding()]
+    [OutputType([bool])]
+    param(
+        [Parameter(Mandatory)][string]$ProfilePath
+    )
+
+    try {
+        $providerPath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($ProfilePath)
+    }
+    catch {
+        $providerPath = $ProfilePath
+    }
+    try {
+        $profileFullPath = [System.IO.Path]::GetFullPath($providerPath)
+    }
+    catch {
+        $profileFullPath = $providerPath
+    }
+    try {
+        $tempRoot = [System.IO.Path]::GetFullPath([System.IO.Path]::GetTempPath())
+    }
+    catch {
+        $tempRoot = [System.IO.Path]::GetTempPath()
+    }
+    if (-not $profileFullPath -or -not $tempRoot) {
+        return $false
     }
 
-    if (-not $skipCacheBuildRequested) {
-        try {
-            $globalSkipCache = Get-Variable -Name ColorScriptsEnhancedSkipCacheBuild -Scope Global -ValueOnly -ErrorAction Stop
-            if ($globalSkipCache) {
-                $skipCacheBuildRequested = $true
-            }
-        }
-        catch {
-            Write-Verbose 'Global cache skip override not defined.'
-        }
+    try {
+        $relative = [System.IO.Path]::GetRelativePath($tempRoot, $profileFullPath)
+        return -not [string]::IsNullOrWhiteSpace($relative) -and
+            -not $relative.StartsWith('..', [System.StringComparison]::Ordinal)
+    }
+    catch {
+        $normalizedTempRoot = $tempRoot.TrimEnd(
+            [System.IO.Path]::DirectorySeparatorChar,
+            [System.IO.Path]::AltDirectorySeparatorChar)
+        $tempPrefix = $normalizedTempRoot + [System.IO.Path]::DirectorySeparatorChar
+        return [string]::Equals($profileFullPath, $normalizedTempRoot, [System.StringComparison]::OrdinalIgnoreCase) -or
+            $profileFullPath.StartsWith($tempPrefix, [System.StringComparison]::OrdinalIgnoreCase)
+    }
+}
+
+function Test-ColorScriptProfileCacheBuildSkipped {
+    [CmdletBinding()]
+    [OutputType([bool])]
+    param(
+        [switch]$SkipCacheBuild,
+        [Parameter(Mandatory)][string]$ProfilePath
+    )
+
+    if ($SkipCacheBuild -or
+        (Test-ColorScriptTruthyValue -Value ([Environment]::GetEnvironmentVariable('COLOR_SCRIPTS_ENHANCED_SKIP_CACHE_BUILD')))) {
+        return $true
     }
 
-    if (-not $skipCacheBuildRequested) {
-        $profileFullPath = $null
-        try {
-            $providerPath = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($profileSpec)
-        }
-        catch {
-            $providerPath = $profileSpec
-        }
-
-        try {
-            $profileFullPath = [System.IO.Path]::GetFullPath($providerPath)
-        }
-        catch {
-            $profileFullPath = $providerPath
-        }
-
-        try {
-            $tempRoot = [System.IO.Path]::GetFullPath([System.IO.Path]::GetTempPath())
-        }
-        catch {
-            $tempRoot = [System.IO.Path]::GetTempPath()
-        }
-
-        if ($profileFullPath -and $tempRoot) {
-            $isUnderTemp = $false
-            try {
-                $relative = [System.IO.Path]::GetRelativePath($tempRoot, $profileFullPath)
-                if (-not [string]::IsNullOrWhiteSpace($relative) -and -not $relative.StartsWith('..', [System.StringComparison]::Ordinal)) {
-                    $isUnderTemp = $true
-                }
-            }
-            catch {
-                $normalizedTempRoot = $tempRoot.TrimEnd(
-                    [System.IO.Path]::DirectorySeparatorChar,
-                    [System.IO.Path]::AltDirectorySeparatorChar
-                )
-                $tempPrefix = $normalizedTempRoot + [System.IO.Path]::DirectorySeparatorChar
-                if ([string]::Equals($profileFullPath, $normalizedTempRoot, [System.StringComparison]::OrdinalIgnoreCase) -or
-                    $profileFullPath.StartsWith($tempPrefix, [System.StringComparison]::OrdinalIgnoreCase)) {
-                    $isUnderTemp = $true
-                }
-            }
-
-            if ($isUnderTemp) {
-                $skipCacheBuildRequested = $true
-            }
+    try {
+        if (Get-Variable -Name ColorScriptsEnhancedSkipCacheBuild -Scope Global -ValueOnly -ErrorAction Stop) {
+            return $true
         }
     }
+    catch {
+        Write-Verbose 'Global cache skip override not defined.'
+    }
+
+    return Test-ColorScriptProfileUnderTempPath -ProfilePath $ProfilePath
+}
+
+function ConvertTo-ColorScriptProfileSnippet {
+    [CmdletBinding()]
+    [OutputType([string])]
+    param(
+        [Parameter(Mandatory)][string]$Newline,
+        [Parameter(Mandatory)][bool]$AutoShow,
+        [Parameter()][AllowNull()][AllowEmptyString()][string]$DefaultScript
+    )
 
     $snippetLines = [System.Collections.Generic.List[string]]::new()
     [void]$snippetLines.Add('# BEGIN ColorScripts-Enhanced managed block')
-    [void]$snippetLines.Add("# Added by ColorScripts-Enhanced on $timestamp")
+    [void]$snippetLines.Add("# Added by ColorScripts-Enhanced on $((Get-Date).ToString('u'))")
     [void]$snippetLines.Add('Import-Module ColorScripts-Enhanced')
-
-    if ($profileAutoShow) {
-        if (-not [string]::IsNullOrWhiteSpace($defaultScriptName)) {
-            $safeName = $defaultScriptName -replace "'", "''"
-            $showCommand = "Show-ColorScript -Name '$safeName'"
+    if ($AutoShow) {
+        $showCommand = if ([string]::IsNullOrWhiteSpace($DefaultScript)) {
+            'Show-ColorScript'
         }
         else {
-            $showCommand = 'Show-ColorScript'
+            $safeName = $DefaultScript -replace "'", "''"
+            "Show-ColorScript -Name '$safeName'"
         }
-
         [void]$snippetLines.Add('try {')
         [void]$snippetLines.Add("    $showCommand")
         [void]$snippetLines.Add('}')
@@ -299,116 +341,171 @@
         [void]$snippetLines.Add('}')
     }
     [void]$snippetLines.Add('# END ColorScripts-Enhanced managed block')
+    return $snippetLines.ToArray() -join $Newline
+}
 
-    $snippet = ($snippetLines.ToArray() -join $newline)
-    $updatedContent = $existingContent
+function ConvertTo-ColorScriptProfileSnippetUpdate {
+    [CmdletBinding()]
+    [OutputType([pscustomobject])]
+    param(
+        [Parameter(Mandatory)][AllowEmptyString()][string]$ExistingContent,
+        [Parameter(Mandatory)][string]$Snippet,
+        [switch]$Force
+    )
 
-    $managedSnippetPattern = '(?ms)^# BEGIN ColorScripts-Enhanced managed block\s*\r?\n.*?^# END ColorScripts-Enhanced managed block\s*(?:\r?\n)?'
-    $legacySnippetPattern = '(?ms)^# Added by ColorScripts-Enhanced[^\r\n]*(?:\r?\n)Import-Module\s+ColorScripts-Enhanced\b[^\r\n]*(?:(?:\r?\n)(?:Show-ColorScript|scs)\b[^\r\n]*|(?:\r?\n)try\s*\{(?:\r?\n)[ \t]+[^\r\n]*(?:\r?\n)\}(?:\r?\n)catch\s*\{(?:\r?\n)[ \t]+[^\r\n]*(?:\r?\n)\})?(?:\r?\n){0,2}'
-    $existingSnippetPattern = if ($updatedContent -match $managedSnippetPattern) {
-        $managedSnippetPattern
+    $managedPattern = '(?ms)^# BEGIN ColorScripts-Enhanced managed block\s*\r?\n.*?^# END ColorScripts-Enhanced managed block\s*(?:\r?\n)?'
+    $legacyPattern = '(?ms)^# Added by ColorScripts-Enhanced[^\r\n]*(?:\r?\n)Import-Module\s+ColorScripts-Enhanced\b[^\r\n]*(?:(?:\r?\n)(?:Show-ColorScript|scs)\b[^\r\n]*|(?:\r?\n)try\s*\{(?:\r?\n)[ \t]+[^\r\n]*(?:\r?\n)\}(?:\r?\n)catch\s*\{(?:\r?\n)[ \t]+[^\r\n]*(?:\r?\n)\})?(?:\r?\n){0,2}'
+    $existingPattern = if ($ExistingContent -match $managedPattern) {
+        $managedPattern
     }
-    elseif ($updatedContent -match $legacySnippetPattern) {
-        $legacySnippetPattern
+    elseif ($ExistingContent -match $legacyPattern) {
+        $legacyPattern
     }
     else {
         $null
     }
 
-    if ($existingSnippetPattern) {
-        if (-not $Force) {
-            Write-Verbose $script:Messages.ProfileAlreadyContainsSnippet
-            return [pscustomobject]@{
-                Path           = $profileSpec
-                Changed        = $false
-                Message        = $script:Messages.ProfileAlreadyConfigured
-                IncludePokemon = $includePokemonChoice
-                CacheBuilt     = $false
-            }
-        }
-
-        $updatedContent = [System.Text.RegularExpressions.Regex]::Replace($updatedContent, $existingSnippetPattern, '')
+    if ($existingPattern -and -not $Force) {
+        Write-Verbose $script:Messages.ProfileAlreadyContainsSnippet
+        return [pscustomobject]@{ AlreadyConfigured = $true; Content = $ExistingContent; Snippet = $Snippet }
+    }
+    $updatedContent = if ($existingPattern) {
+        [System.Text.RegularExpressions.Regex]::Replace($ExistingContent, $existingPattern, '')
+    }
+    else {
+        $ExistingContent
     }
 
     $importPattern = '(?mi)^\s*Import-Module\s+ColorScripts-Enhanced\b.*$'
-
-    if (-not $Force -and $existingContent -match $importPattern) {
+    if (-not $Force -and $ExistingContent -match $importPattern) {
         Write-Verbose $script:Messages.ProfileAlreadyImportsModule
-        return [pscustomobject]@{
-            Path           = $profileSpec
-            Changed        = $false
-            Message        = $script:Messages.ProfileAlreadyConfigured
-            IncludePokemon = $includePokemonChoice
-            CacheBuilt     = $false
-        }
+        return [pscustomobject]@{ AlreadyConfigured = $true; Content = $ExistingContent; Snippet = $Snippet }
     }
-
-    # A user-owned import outside the managed block remains authoritative. When
-    # refreshing with -Force, keep that line and avoid adding a duplicate import
-    # inside the generated block.
     if ($Force -and $updatedContent -match $importPattern) {
-        $snippet = [System.Text.RegularExpressions.Regex]::Replace(
-            $snippet,
+        $Snippet = [System.Text.RegularExpressions.Regex]::Replace(
+            $Snippet,
             '(?mi)^Import-Module\s+ColorScripts-Enhanced\b[^\r\n]*(?:\r?\n)?',
             '')
     }
 
-    if ($PSCmdlet.ShouldProcess($profileSpec, 'Add ColorScripts-Enhanced profile snippet')) {
-        $trimmedExisting = $updatedContent.TrimEnd()
-        if ($trimmedExisting) {
-            $updatedContent = $trimmedExisting + $newline + $newline + $snippet
+    return [pscustomobject]@{ AlreadyConfigured = $false; Content = $updatedContent; Snippet = $Snippet }
+}
+
+function Write-ColorScriptProfileFile {
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory)][string]$Path,
+        [Parameter()][AllowNull()][AllowEmptyString()][string]$Directory,
+        [Parameter(Mandatory)][string]$Content,
+        [Parameter(Mandatory)][System.Management.Automation.PSCmdlet]$Cmdlet
+    )
+
+    try {
+        if (-not [string]::IsNullOrWhiteSpace($Directory) -and
+            -not (Test-Path -LiteralPath $Directory -PathType Container)) {
+            New-Item -ItemType Directory -Path $Directory -Force -ErrorAction Stop | Out-Null
+        }
+        Invoke-FileWriteAllText -Path $Path -Content $Content -Encoding $script:Utf8NoBomEncoding
+    }
+    catch {
+        $template = if ($script:Messages -and $script:Messages.ContainsKey('ProfileSnippetWriteFailed')) {
+            $script:Messages.ProfileSnippetWriteFailed
         }
         else {
-            $updatedContent = $snippet
+            "Unable to write ColorScripts-Enhanced profile snippet to '{0}': {1}"
         }
+        $message = $template -f $Path, $_.Exception.Message
+        Invoke-ColorScriptError -Message $message -ErrorId 'ColorScriptsEnhanced.ProfileWriteFailed' -Category ([System.Management.Automation.ErrorCategory]::WriteError) -TargetObject $Path -Exception $_.Exception -Cmdlet $Cmdlet
+    }
+}
 
-        try {
-            if (-not [string]::IsNullOrWhiteSpace($profileDirectory) -and -not (Test-Path -LiteralPath $profileDirectory -PathType Container)) {
-                New-Item -ItemType Directory -Path $profileDirectory -Force -ErrorAction Stop | Out-Null
-            }
+function Write-ColorScriptProfileSuccessMessage {
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory)][string]$Path
+    )
 
-            Invoke-FileWriteAllText -Path $profileSpec -Content ($updatedContent + $newline) -Encoding $script:Utf8NoBomEncoding
-        }
-        catch {
-            $errorTemplate = if ($script:Messages -and $script:Messages.ContainsKey('ProfileSnippetWriteFailed')) {
-                $script:Messages.ProfileSnippetWriteFailed
-            }
-            else {
-                "Unable to write ColorScripts-Enhanced profile snippet to '{0}': {1}"
-            }
+    $template = if ($script:Messages -and $script:Messages.ContainsKey('ProfileSnippetAdded')) {
+        $script:Messages.ProfileSnippetAdded
+    }
+    else {
+        '[OK] Added ColorScripts-Enhanced startup snippet to {0}'
+    }
+    Write-ColorScriptInformation -Message ($template -f $Path) -PreferConsole -Color 'Green'
+}
 
-            $errorMessage = $errorTemplate -f $profileSpec, $_.Exception.Message
-            Invoke-ColorScriptError -Message $errorMessage -ErrorId 'ColorScriptsEnhanced.ProfileWriteFailed' -Category ([System.Management.Automation.ErrorCategory]::WriteError) -TargetObject $profileSpec -Exception $_.Exception -Cmdlet $PSCmdlet
-        }
+function Invoke-ColorScriptProfileCacheWarmup {
+    [CmdletBinding()]
+    [OutputType([bool])]
+    param(
+        [Parameter(Mandatory)][bool]$ShouldBuild
+    )
 
-        $infoTemplate = if ($script:Messages -and $script:Messages.ContainsKey('ProfileSnippetAdded')) {
-            $script:Messages.ProfileSnippetAdded
+    if (-not $ShouldBuild) {
+        return $false
+    }
+
+    try {
+        ColorScripts-Enhanced\New-ColorScriptCache -All | Out-Null
+        return $true
+    }
+    catch {
+        Write-Verbose ("New-ColorScriptCache warm-up failed: {0}" -f $_.Exception.Message)
+        return $false
+    }
+}
+
+function Add-ColorScriptProfile {
+    [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSUseShouldProcessForStateChangingFunctions', '', Justification = 'Function already implements explicit ShouldProcess semantics.')]
+    [CmdletBinding(SupportsShouldProcess = $true, HelpUri = 'https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/help-redirect.html?cmdlet=Add-ColorScriptProfile')]
+    param(
+        [Alias('help')][switch]$h,
+        [Alias('Path')][ValidateScript({ Test-ColorScriptPathValue $_ })][string]$ProfilePath,
+        [ValidateScript({ Test-ColorScriptNameValue $_ -AllowEmpty })][string]$DefaultStartupScript,
+        [switch]$AutoShow,
+        [switch]$SkipStartupScript,
+        [switch]$IncludePokemon,
+        [switch]$SkipPokemonPrompt,
+        [ValidateSet('Y', 'N', 'Yes', 'No')][string]$PokemonPromptResponse,
+        [switch]$SkipCacheBuild,
+        [switch]$Force
+    )
+
+    if ($h) {
+        Show-ColorScriptHelp -CommandName 'Add-ColorScriptProfile'
+        return
+    }
+
+    # Retained for command-line compatibility. Pokemon scripts are always eligible now.
+    $null = $IncludePokemon, $SkipPokemonPrompt, $PokemonPromptResponse
+    if (Test-ColorScriptProfileRemoteSession) {
+        return ConvertTo-ColorScriptProfileResult -Path $null -Changed $false -Message $script:Messages.ProfileUpdatesNotSupportedInRemote -CacheBuilt $false
+    }
+
+    $context = Get-ColorScriptProfileContext -ProfilePath $ProfilePath -Cmdlet $PSCmdlet
+    $startup = Resolve-ColorScriptProfileStartupPreference -AutoShowSpecified $PSBoundParameters.ContainsKey('AutoShow') -AutoShow:$AutoShow -SkipStartupScript:$SkipStartupScript -DefaultScriptSpecified $PSBoundParameters.ContainsKey('DefaultStartupScript') -DefaultStartupScript $DefaultStartupScript
+    $skipCache = Test-ColorScriptProfileCacheBuildSkipped -SkipCacheBuild:$SkipCacheBuild -ProfilePath $context.Path
+    $snippet = ConvertTo-ColorScriptProfileSnippet -Newline $context.Newline -AutoShow $startup.AutoShow -DefaultScript $startup.DefaultScript
+    $update = ConvertTo-ColorScriptProfileSnippetUpdate -ExistingContent $context.Content -Snippet $snippet -Force:$Force
+    if ($update.AlreadyConfigured) {
+        return ConvertTo-ColorScriptProfileResult -Path $context.Path -Changed $false -Message $script:Messages.ProfileAlreadyConfigured -CacheBuilt $false
+    }
+
+    if ($PSCmdlet.ShouldProcess($context.Path, 'Add ColorScripts-Enhanced profile snippet')) {
+        $trimmedExisting = $update.Content.TrimEnd()
+        $updatedContent = if ($trimmedExisting) {
+            $trimmedExisting + $context.Newline + $context.Newline + $update.Snippet
         }
         else {
-            '[OK] Added ColorScripts-Enhanced startup snippet to {0}'
+            $update.Snippet
         }
-
-        $infoMessage = $infoTemplate -f $profileSpec
-        Write-ColorScriptInformation -Message $infoMessage -PreferConsole -Color 'Green'
-
-        if ($profileAutoShow -and -not $skipCacheBuildRequested) {
-            if ($PSCmdlet.ShouldProcess('ColorScripts cache', 'Build Colorscript cache for startup snippet')) {
-                try {
-                    ColorScripts-Enhanced\New-ColorScriptCache -All | Out-Null
-                    $cacheBuilt = $true
-                }
-                catch {
-                    Write-Verbose ("New-ColorScriptCache warm-up failed: {0}" -f $_.Exception.Message)
-                }
-            }
+        Write-ColorScriptProfileFile -Path $context.Path -Directory $context.Directory -Content ($updatedContent + $context.Newline) -Cmdlet $PSCmdlet
+        Write-ColorScriptProfileSuccessMessage -Path $context.Path
+        $shouldBuildCache = $startup.AutoShow -and -not $skipCache
+        if ($shouldBuildCache) {
+            $shouldBuildCache = $PSCmdlet.ShouldProcess('ColorScripts cache', 'Build Colorscript cache for startup snippet')
         }
-
-        return [pscustomobject]@{
-            Path           = $profileSpec
-            Changed        = $true
-            Message        = $script:Messages.ProfileSnippetAddedMessage
-            IncludePokemon = $includePokemonChoice
-            CacheBuilt     = $cacheBuilt
-        }
+        $cacheBuilt = Invoke-ColorScriptProfileCacheWarmup -ShouldBuild $shouldBuildCache
+        return ConvertTo-ColorScriptProfileResult -Path $context.Path -Changed $true -Message $script:Messages.ProfileSnippetAddedMessage -CacheBuilt $cacheBuilt
     }
 }
