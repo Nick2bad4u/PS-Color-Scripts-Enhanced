@@ -418,10 +418,11 @@ jobs:
                   name: "Release v${{ steps.manifest.outputs.version }}"
                   bodyFile: "${{ steps.release-notes.outputs.notesFile }}"
                   artifacts: "${{ steps.package.outputs.packagePath }}"
+                  artifactErrorsFailBuild: true
                   draft: false
                   prerelease: false
-                  allowUpdates: true
-                  updateOnlyUnreleased: false
+                  immutableCreate: true
+                  allowUpdates: false
                   skipIfReleaseExists: false
 
             - name: "Publish to PowerShell Gallery"

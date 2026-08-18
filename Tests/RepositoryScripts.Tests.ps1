@@ -157,6 +157,15 @@ Describe 'Release lint wiring' {
         $limiter | Should -Match 'complete changelog for v\$\{version\}'
     }
 
+    It 'uploads every release asset before publishing an immutable release' {
+        $workflow = Get-Content -LiteralPath $script:PublishWorkflowPath -Raw
+
+        $workflow | Should -Match '(?m)^\s+artifactErrorsFailBuild:\s+true\s*$'
+        $workflow | Should -Match '(?m)^\s+immutableCreate:\s+true\s*$'
+        $workflow | Should -Match '(?m)^\s+allowUpdates:\s+false\s*$'
+        $workflow | Should -Not -Match '(?m)^\s+updateOnlyUnreleased:'
+    }
+
     It 'reuses only an exact existing release tag after a partial release failure' {
         $workflow = Get-Content -LiteralPath $script:PublishWorkflowPath -Raw
 
