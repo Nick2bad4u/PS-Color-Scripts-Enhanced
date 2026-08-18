@@ -6,7 +6,7 @@ ColorScripts-Enhanced is a cross-platform PowerShell module for discovering, dis
 
 | Property                    | Value                                                                                             |
 | --------------------------- | ------------------------------------------------------------------------------------------------- |
-| Manifest version            | <!-- COLOR_MODULE_VERSION -->`2026.8.17.1627`<!-- /COLOR_MODULE_VERSION -->                       |
+| Manifest version            | <!-- COLOR_MODULE_VERSION -->`2026.8.17.2152`<!-- /COLOR_MODULE_VERSION -->                       |
 | Colorscript files           | <!-- COLOR_SCRIPT_COUNT -->24822<!-- /COLOR_SCRIPT_COUNT -->                                      |
 | Dynamic renderers           | <!-- COLOR_DYNAMIC_TOTAL -->17<!-- /COLOR_DYNAMIC_TOTAL --> entries in `DynamicRenderPolicy.psd1` |
 | Cacheable renderers         | <!-- COLOR_CACHE_TOTAL -->15<!-- /COLOR_CACHE_TOTAL --> entries in `CachePolicy.psd1`             |

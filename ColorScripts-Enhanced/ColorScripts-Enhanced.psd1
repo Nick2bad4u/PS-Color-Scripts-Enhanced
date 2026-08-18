@@ -5,7 +5,7 @@
     RootModule = 'ColorScripts-Enhanced.psm1'
 
     # Version number of this module.
-    ModuleVersion = '2026.8.17.1627'
+    ModuleVersion = '2026.8.17.2152'
 
     # Supported PSEditions
     CompatiblePSEditions = @('Desktop', 'Core')

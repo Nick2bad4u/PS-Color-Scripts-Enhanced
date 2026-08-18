@@ -9,7 +9,7 @@ This guide documents the repository's current release pipeline for **ColorScript
 - Published package versions are immutable. Increment the manifest version before publishing another build.
 - The package is built from `ColorScripts-Enhanced/`, normalized to include its README, license, and icon, and attached to the GitHub release.
 
-The current manifest version is <!-- COLOR_MODULE_VERSION -->`2026.8.17.1627`<!-- /COLOR_MODULE_VERSION -->.
+The current manifest version is <!-- COLOR_MODULE_VERSION -->`2026.8.17.2152`<!-- /COLOR_MODULE_VERSION -->.
 
 ## Automated Publishing
 
@@ -26,7 +26,7 @@ The workflow:
 3. verifies that the requested version and release tag match the built manifest;
 4. creates and normalizes a `.nupkg` package;
 5. generates release notes with git-cliff;
-6. creates or updates the GitHub release when requested;
+6. creates the GitHub release as a draft, uploads the normalized package, and only then publishes it as an immutable release;
 7. publishes to the PowerShell Gallery when `PSGALLERYAPIKEY` is available; and
 8. optionally transfers the verified package to a dedicated OIDC job and publishes it to NuGet.org when `publishToNuGet` is not `false`.
 
@@ -36,9 +36,11 @@ The workflow:
 | ----------------- | ------- | ------------------------------------------- |
 | `publishToNuGet`  | `true`  | Enables the optional NuGet.org publish step |
 | `versionOverride` | empty   | Overrides the version passed to `build.ps1` |
-| `createRelease`   | `true`  | Creates or updates the GitHub release       |
+| `createRelease`   | `true`  | Creates the immutable GitHub release        |
 
 The workflow does not define a `publishToGitHub` input or push to GitHub Packages.
+
+GitHub release assets fail the workflow if they cannot be uploaded. The release action uses `immutableCreate`, which creates a draft, attaches the package, and publishes only after the upload succeeds. This follows [GitHub's immutable-release guidance](https://docs.github.com/en/code-security/concepts/supply-chain-security/immutable-releases) and avoids publishing an assetless release that cannot be repaired in place.
 
 ### Publishing Credentials
 
@@ -54,13 +56,13 @@ The dedicated `publish-nuget` job has `id-token: write`, downloads the exact nor
 
 The NuGet.org trusted-publishing policy must match these values:
 
-| Policy field      | Value                       |
-| ----------------- | --------------------------- |
-| Package owner     | `typpi`                     |
-| Repository owner  | `Nick2bad4u`                |
-| Repository        | `PS-Color-Scripts-Enhanced` |
-| Workflow file     | `publish.yml`               |
-| Environment       | empty                       |
+| Policy field     | Value                       |
+| ---------------- | --------------------------- |
+| Package owner    | `typpi`                     |
+| Repository owner | `Nick2bad4u`                |
+| Repository       | `PS-Color-Scripts-Enhanced` |
+| Workflow file    | `publish.yml`               |
+| Environment      | empty                       |
 
 Leave Environment empty while the workflow does not declare a GitHub Actions `environment`. If a protected environment is added later, use its exact name in both the workflow job and the NuGet.org policy. A reusable-workflow caller must allow `id-token: write`; permissions cannot be elevated by the called workflow.
 
