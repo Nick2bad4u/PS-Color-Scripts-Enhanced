@@ -121,7 +121,7 @@
     "verify:strict": "npm run lint:strict && npm run readme:check && npm run artwork:provenance:headers:check && npm run artwork:provenance:web:check && npm run ansi:gallery-analysis:check"
   },
   "overrides": {
-    "adm-zip": "^0.6.0",
+    "adm-zip": "^0.6.1",
     "esbuild": "^0.28.1"
   },
   "dependencies": {
